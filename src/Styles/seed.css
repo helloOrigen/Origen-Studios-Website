@@ -9,6 +9,30 @@ Seed.css cortesía de:
                                         Node Seed > Framework by NODESYSTEMS.UY - Actualizado 07 marzo 2023 para: Origen Studios.
 */
 /* Unique for Origen Studios */
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFFFFF;
+  transform-origin: bottom right;
+  transition: transform 0.15s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 .divider{
 width: 72%;
 height: 1px;
@@ -33,24 +57,24 @@ margin: auto;
  background: white;
  transition: 0.1s ease-in-out;
 
-}/*
+}
 @keyframes blurredbg {
 
-  0% { filter: blur(2px) brightness(50%);
+  0% { filter: blur(5px) brightness(50%);
     transform: scale(1);
   }
   50% { filter: blur(0px) brightness(100%);
     transform: scale(1.5);
   }
-  100% { filter: blur(2px) brightness(50%);
+  100% { filter: blur(5px) brightness(50%);
     transform: scale(1);
   }
   
-}*/
+}
 .blurbganimation {
   
   animation:  ease-in-out infinite;
-  filter: blur(2px) brightness(50%);
+  filter: blur(5px) brightness(70%);
 
   transform: scale(1);
   animation-name: blurredbg ;

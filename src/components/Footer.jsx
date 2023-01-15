@@ -20,31 +20,31 @@ export default function Footer(props) {
             <br />
             2023&zwj;&nbsp;&zwj;&nbsp;&zwj;&nbsp;©&zwj;&nbsp;&zwj;&nbsp;&zwj;&nbsp;Todos&nbsp;&zwj;los&nbsp;&zwj;derechos&nbsp;&zwj;reservados.
             <br />
-           <a href="mailto:hello@origenstudios.com" alt="Comuníquese con nosotros!" className="h-e c-p h-e-sub-line">hello@origenstudios.com <span className="h-e-sub-line"></span></a> <br />
+           <a href="mailto:hello@origenstudios.com" alt="Comuníquese con nosotros!"><span className="hover-underline-animation">hello@origenstudios.com</span>  </a> <br />
             Montevideo, Uruguay.
           </div>
           <div className="w-25 h-100 p-t-10px  b-s-b-b h-pr-fl-ma p-l-10px p-r-10px t-a-l"> {/* Bloque 2 - 25% height */}
-          <a href="#" alt="Comuníquese con nosotros!" className="h-e c-p h-e-sub-line">Próximos eventos. <span className="h-e-sub-line"></span></a> <br />
+          <a href="#" alt="Comuníquese con nosotros!"><span className="hover-underline-animation">Próximos eventos.</span>  </a> <br />
 
-          <a href="#"  className="h-e c-p h-e-sub-line">Agendar consultas guiadas. <span className="h-e-sub-line"></span></a> <br />
-          <a href="#"  className="h-e c-p h-e-sub-line">Empleos y pasantías. <span className="h-e-sub-line"></span></a> <br />
-          <a href="#"  className="h-e c-p h-e-sub-line">Planes de beneficencia. <span className="h-e-sub-line"></span></a> <br />
-          <a href="#"  className="h-e c-p h-e-sub-line">Planes cooperativos. <span className="h-e-sub-line"></span></a> <br />
+          <a href="#"><span className="hover-underline-animation">Agendar consultas guiadas.</span>   </a> <br />
+          <a href="#"><span className="hover-underline-animation">Empleos y pasantías.</span>  </a> <br />
+          <a href="#"><span className="hover-underline-animation">Planes de beneficencia.</span>  </a> <br />
+          <a href="#"><span className="hover-underline-animation">Planes cooperativos.</span>  </a> <br />
 
           </div>
           <div className="w-25 h-100 p-t-10px  b-s-b-b h-pr-fl-ma p-l-10px p-r-10px t-a-l"> {/* Bloque 3 - 25% height */}
-          <a href="#"  className="h-e c-p h-e-sub-line">Nuestra empresa. <span className="h-e-sub-line"></span></a> <br />
-          <a href="#"  className="h-e c-p h-e-sub-line">Metodología y producción. <span className="h-e-sub-line"></span></a> <br />
-          <a href="#"  className="h-e c-p h-e-sub-line">Recursos estratégicos. <span className="h-e-sub-line"></span></a> <br />
-          <a href="#"  className="h-e c-p h-e-sub-line">Generación de oportunidades. <span className="h-e-sub-line"></span></a> <br />
-          <a href="#"  className="h-e c-p h-e-sub-line">Casos de éxito. <span className="h-e-sub-line"></span></a> <br />
+          <a href="#"><span className="hover-underline-animation">Nuestra empresa.</span>  </a> <br />
+          <a href="#"><span className="hover-underline-animation">Metodología y producción.</span>  </a> <br />
+          <a href="#"><span className="hover-underline-animation">Recursos estratégicos.</span>  </a> <br />
+          <a href="#"><span className="hover-underline-animation">Generación de oportunidades.</span>  </a> <br />
+          <a href="#"><span className="hover-underline-animation">Casos de éxito.</span>  </a> <br />
 
           </div>
           <div className="w-25 h-100 p-t-10px b-s-b-b h-pr-fl-ma  p-l-10px t-a-l"> {/* Bloque 4 - 25% height */}
-          <a href="#"  className="h-e c-p h-e-sub-line">Términos y condiciones de uso. <span className="h-e-sub-line"></span></a> <br />
-          <a href="#"  className="h-e c-p h-e-sub-line">Políticas de privacidad. <span className="h-e-sub-line"></span></a> <br />
-          <a href="#"  className="h-e c-p h-e-sub-line">Centro de preguntas frecuentes. <span className="h-e-sub-line"></span></a> <br />
-          <a href="#"  className="h-e c-p h-e-sub-line">Uso de cookies. <span className="h-e-sub-line"></span></a> <br />
+          <a href="#"><span className="hover-underline-animation">Términos y condiciones de uso.</span>  </a> <br />
+          <a href="#"><span className="hover-underline-animation">Políticas de privacidad.</span>  </a> <br />
+          <a href="#"><span className="hover-underline-animation">Centro de preguntas frecuentes.</span>  </a> <br />
+          <a href="#"><span className="hover-underline-animation">Uso de cookies.</span>  </a> <br />
 
           </div>
         </div>
