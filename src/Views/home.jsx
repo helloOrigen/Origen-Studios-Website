@@ -8,6 +8,7 @@ import Wallpaper6 from "../assets/images/wallpaper-6.png";
 import Wallpaper7 from "../assets/images/wallpaper-7.png";
 import Wallpaper8 from "../assets/images/wallpaper-8.png";
 import "../Styles/seed.css";
+import "../Styles/home.css"
 export default function Home() {
   return (
     <>
@@ -32,32 +33,21 @@ export default function Home() {
         </div>
         <div className="m-d-n w-50 h-100 b-s-b-b ">
           <div className="w-50 h-100 h-pr-fl-ma  b-s-b-b ">
-            <div className="w-100 h-50 h-pr-fl-ma  b-s-b-b ">
-              <img
-                src={Wallpaper4}
-                alt="OS-LOGO"
-                className="w-100 h-100 h-pr-fl-ma"
-                Style=" background-size: cover; object-fit: cover; background-size: 100% 100%; background-position: center center; background-repeat: no-repeat;"
-              />
-            </div>{" "}
-            <div className="w-100  h-50 h-pr-fl-ma  b-s-b-b ">
-              <img
-                src={Wallpaper8}
-                alt="OS-LOGO"
-                className="w-100 h-100 h-pr-fl-ma"
-                Style=" background-size: cover; object-fit: cover; background-size: 100% 100%; background-position: center center; background-repeat: no-repeat;"
-              />
+            <div class="pictures">
+              <img src={Wallpaper1} alt="" className="w-100 h-100 h-pr-fl-ma picture" />
+              <img src={Wallpaper2} alt="" className="w-100 h-100 h-pr-fl-ma picture" />
+              <img src={Wallpaper3} alt="" className="w-100 h-100 h-pr-fl-ma picture" />
+              <img src={Wallpaper4} alt="" className="w-100 h-100 h-pr-fl-ma picture" />
+              <img src={Wallpaper5} alt="" className="w-100 h-100 h-pr-fl-ma picture" />
+              <img src={Wallpaper6} alt="" className="w-100 h-100 h-pr-fl-ma picture" />
+              <img src={Wallpaper7} alt="" className="w-100 h-100 h-pr-fl-ma picture" />
+              <img src={Wallpaper8} alt="" className="w-100 h-100 h-pr-fl-ma picture" />
+
+
             </div>
           </div>
 
-          <div className="w-50 h-100 h-pr-fl-ma  b-s-b-b ">
-            <img
-              src={Wallpaper1}
-              alt="OS-LOGO"
-              className="w-100 h-100 h-pr-fl-ma"
-              Style=" background-size: cover; object-fit: cover; background-size: 100% 100%; background-position: center center; background-repeat: no-repeat;"
-            />
-          </div>
+
         </div>
       </div>
     </>
