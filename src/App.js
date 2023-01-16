@@ -4,6 +4,7 @@ import{BrowserRouter,Routes,Route,Link} from "react-router-dom";
 import NavBar from "./components/navBar";
 import contentViewer from "./components/contentViewer";
 import ContentBox from "./components/contentBox";
+import Notifier from "./components/notifier";
 import Footer from "./components/Footer";
 import OSBackground from "./assets/OS-Background-1.png";
 import Wallpaper1 from './assets/images/wallpaper-1.png';
@@ -24,6 +25,10 @@ import Marketing from "./Views/marketing";
 import Dev from "./Views/dev";
 import FAQ from "./Views/faq";
 import About from "./Views/about";
+import Terms from "./Views/terms";
+import Privacy from "./Views/privacy";
+import Cookies from "./Views/cookies";
+import Plans from "./Views/plans";
 
 function App() {
   return (
@@ -66,6 +71,10 @@ function App() {
            <Route path="/marketing" element={<Marketing/>} />
            <Route path="/faq" element={<FAQ/>} />
            <Route path="/about" element={<About/>} />
+           <Route path="/terms" element={<Terms/>} />
+           <Route path="/cookies" element={<Cookies/>} />
+           <Route path="/privacy" element={<Privacy/>} />
+           <Route path="/plans" element={<Plans/>} />
         </Routes>
 
             </div>
@@ -73,6 +82,8 @@ function App() {
         </div>
 
         <div className="h-pr-fl-ma w-100 h-15 b-s-b-b">
+       {/*  <Notifier title="Politica de cookies" text="Nosotros y terceros seleccionados utilizamos cookies o tecnologías similares con fines técnicos y, con su consentimiento, para otras finalidades según se especifica en la cookie policy. Denegar el consentimiento puede provocar que características relacionadas no estén disponibles.
+Utilice el botón “Aceptar” para dar su consentimiento. Utilice el botón “Rechazar” o cierre esta nota informativa para continuar sin aceptar." action="Conozca nuestras poltiicas de cookies."/>*/}
           {/* 15% Height Footer Container*/}
           <Footer className="w-90 h-100 r-h-c h-pr-fl-ma" />
         </div>

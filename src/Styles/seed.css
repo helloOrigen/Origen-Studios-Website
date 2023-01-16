@@ -33,6 +33,18 @@ Seed.css cortesía de:
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+.notifier{
+  z-index: 99999999;
+  width: 60%;
+  height: auto;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  background:#000000;
+
+}
+
 .divider{
 width: 72%;
 height: 1px;
