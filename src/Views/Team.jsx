@@ -12,17 +12,17 @@ const Team = () => {
             <div className="h-e h-pr-fl-ma centered p-20px">
                
               <div
-                className="w-125px h-125px h-pr-fl-ma circle r-h-c p-10px m-b-50px"
+                className="w-125px h-125px h-pr-fl-ma circle r-h-c p-10px m-b-50px h-up"
                 Style="border: 1px solid; border-color: white;"
               >
                 <img
                   src={UserMaleCircle}
-                  className="w-100 h-100 h-pr-fl-ma"
+                  className="w-100 h-100 h-pr-fl-ma "
                   Style="stroke: #ffffff !important;"
                   alt="Patricia Cor"
                 />
               </div> 
-              <span className="h-pr-fl-ma b-s-b-b divider r-h-c m-b-10px"></span>
+              <span className="h-pr-fl-ma b-s-b-b divider r-h-c m-b-10px">&nbsp;</span>
               <div
                 className="w-100 h-a h-pr-fl-ma r-h-c f-w-bo t-a-c f-f-Gilroy"
                 Style="font-size: 15px; line-height: 20px;"
@@ -36,7 +36,7 @@ const Team = () => {
             <div className="h-e h-pr-fl-ma centered p-20px">
                
               <div
-                className="w-125px h-125px h-pr-fl-ma circle r-h-c p-10px m-b-50px"
+                className="w-125px h-125px h-pr-fl-ma circle r-h-c p-10px m-b-50px h-up"
                 Style="border: 1px solid; border-color: white;"
               ><img
               src={UserMaleCircle}
@@ -44,7 +44,7 @@ const Team = () => {
               Style="stroke: #ffffff !important;"
               alt="Cesar Lima"
             /></div> 
-              <span className="h-pr-fl-ma b-s-b-b divider r-h-c m-b-10px"></span>
+              <span className="h-pr-fl-ma b-s-b-b divider r-h-c m-b-10px">&nbsp;</span>
               <div
                 className="w-100 h-a h-pr-fl-ma r-h-c f-w-bo t-a-c f-f-Gilroy"
                 Style="font-size: 15px; line-height: 20px;"
@@ -58,7 +58,7 @@ const Team = () => {
             <div className="h-e h-pr-fl-ma centered p-20px">
                
               <div
-                className="w-125px h-125px h-pr-fl-ma circle r-h-c p-10px m-b-50px"
+                className="w-125px h-125px h-pr-fl-ma circle r-h-c p-10px m-b-50px h-up"
                 Style="border: 1px solid; border-color: white;"
               ><img
               src={UserMaleCircle}
@@ -66,7 +66,7 @@ const Team = () => {
               Style="stroke: #ffffff !important;"
               alt="Nickolas Machado"
             /></div> 
-              <span className="h-pr-fl-ma b-s-b-b divider r-h-c m-b-10px"></span>
+              <span className="h-pr-fl-ma b-s-b-b divider r-h-c m-b-10px">&nbsp;</span>
               <div
                 className="w-100 h-a h-pr-fl-ma r-h-c f-w-bo t-a-c f-f-Gilroy"
                 Style="font-size: 15px; line-height: 20px;"

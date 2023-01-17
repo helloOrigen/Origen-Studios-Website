@@ -6,6 +6,7 @@ import contentViewer from "./components/contentViewer";
 import ContentBox from "./components/contentBox";
 import Notifier from "./components/notifier";
 import Footer from "./components/Footer";
+import MobileMenu from './components/mobileMenu';
 import OSBackground from "./assets/OS-Background-1.png";
 import Wallpaper1 from './assets/images/wallpaper-1.png';
 import Wallpaper2 from './assets/images/wallpaper-2.png';
@@ -35,7 +36,8 @@ function App() {
     <BrowserRouter>
 
     <Fragment>
-      <div className="h-pr-fl-ma  w-100 h-100vh b-s-b-b of-h bg-blur">
+      <div className="h-pr-fl-ma  w-100 h-100vh b-s-b-b of-h ">
+      
         <div
           className=" l-0px r-0px t-0px b-0px m-a  blurbganimation"
           style={{
@@ -61,7 +63,7 @@ function App() {
           {/* 70% Height  Body Container*/}
           <div className="h-pr-fl-ma w-100 h-100  b-s-b-b of-n  ">
             <div className="w-90 c-white h-100  p-r-10px r-h-c h-pr-fl-ma ">
-              {/* Todas las views se renderizan aquí*/}
+              {/* Todas las views se renderizan aquí*/}<MobileMenu/>
               <Routes>
           <Route exact path="/" element={<Home/>} />
             <Route exact  path="/services" element={<Services />} />
@@ -85,7 +87,7 @@ function App() {
        {/*  <Notifier title="Politica de cookies" text="Nosotros y terceros seleccionados utilizamos cookies o tecnologías similares con fines técnicos y, con su consentimiento, para otras finalidades según se especifica en la cookie policy. Denegar el consentimiento puede provocar que características relacionadas no estén disponibles.
 Utilice el botón “Aceptar” para dar su consentimiento. Utilice el botón “Rechazar” o cierre esta nota informativa para continuar sin aceptar." action="Conozca nuestras poltiicas de cookies."/>*/}
           {/* 15% Height Footer Container*/}
-          <Footer className="w-90 h-100 r-h-c h-pr-fl-ma" />
+          <Footer className="w-90 m-h-80 h-100 r-h-c h-pr-fl-ma" />
         </div>
       </div>
     </Fragment>

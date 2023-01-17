@@ -6,11 +6,11 @@ const Terms = () => {
     <Fragment>
       <div className="w-100 h-100 h-pr-fl-ma centered b-s-b-b of-auto b-s-b-b" Style="background: black;">
         {" "}
-        <div className="w-60 h-100 h-pr-fl-ma r-h-c b-s-b-b p-20px "> 
+        <div className="m-w-90 w-60 h-100 h-pr-fl-ma r-h-c b-s-b-b p-20px "> 
           <ContentBox
             className="w-100 h-a"
             title={"Términos y condiciones"}
-            subtitle={"Su nueva identidad de marca."}
+            subtitle={"Conozca nuestros términos y condiciones."}
           />
           <ContentBox className="w-100 h-a m-b-10px">
             <span Style="font-weight: bold;">

@@ -345,8 +345,8 @@ const Plans = () => {
           Style="border-bottom: 1px solid; border-color: white;"
         >
           <ContentBox
-            title={"Planes"}
-            subtitle={"Su nueva identidad de marca."}
+            title={"Posicionamiento"}
+            subtitle={"Su marca, donde sus clientes están."}
           />
         </div>
         <div
