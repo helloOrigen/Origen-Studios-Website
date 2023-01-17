@@ -4,6 +4,7 @@ import{BrowserRouter,Routes,Route,Link} from "react-router-dom";
 import NavBar from "./components/navBar";
 import contentViewer from "./components/contentViewer";
 import ContentBox from "./components/contentBox";
+import Btn from "./components/btn";
 import Notifier from "./components/notifier";
 import Footer from "./components/Footer";
 import MobileMenu from './components/mobileMenu';
@@ -16,6 +17,7 @@ import Wallpaper5 from './assets/images/wallpaper-5.png';
 import Wallpaper6 from './assets/images/wallpaper-6.png';
 import Wallpaper7 from './assets/images/wallpaper-7.png';
 import Wallpaper8 from './assets/images/wallpaper-8.png';
+import MessageWriting from "./assets/icons/message_writing.svg";
 import "./Styles/seed.css";
 
 import Home from "./Views/home";
@@ -39,7 +41,7 @@ function App() {
       <div className="h-pr-fl-ma  w-100 h-100vh b-s-b-b of-h ">
       
         <div
-          className=" l-0px r-0px t-0px b-0px m-a  blurbganimation"
+          className=" l-0px r-0px t-0px b-0px m-a blurbganimation"
           style={{
             backgroundImage: `url(${Wallpaper2})`,
             backgroundPosition: "center",
@@ -51,15 +53,26 @@ function App() {
             height: "100vh",
           }}
         ></div>
+       <div className="l-0px r-0px t-0px b-0px m-a bg-linear-b-t"
+       style={{
+       
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        position: "fixed",
+        objectFit: "cover",
+        width: "100vw",
+        height: "100vh",
+      }}></div>
         {/* FullHeight Container*/}
 
-        <div className="h-pr-fl-ma w-100 h-15 b-s-b-b">
+        <div className="h-pr-fl-ma w-100 h-15 b-s-b-b ">
           {/* 15% Height Menu Container*/}
           <NavBar/>
         </div>
         
 
-        <div className="h-pr-fl-ma w-100 h-70  b-s-b-b of-n ">
+        <div className="h-pr-fl-ma w-100 h-70  b-s-b-b of-n  ">
           {/* 70% Height  Body Container*/}
           <div className="h-pr-fl-ma w-100 h-100  b-s-b-b of-n  ">
             <div className="w-90 c-white h-100  p-r-10px r-h-c h-pr-fl-ma ">
