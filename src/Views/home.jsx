@@ -11,11 +11,12 @@ import Wallpaper6 from "../assets/images/wallpaper-6.png";
 import Wallpaper7 from "../assets/images/wallpaper-7.png";
 import Wallpaper8 from "../assets/images/wallpaper-8.png";
 import "../Styles/seed.css";
+import "../Styles/home.css"
 export default function Home() {
   return (
     <>
       <div className="w-100 h-100 h-pr-fl-ma b-s-b-b flexbox">
-        <div className="m-w-100 w-50 h-100  b-s-b-b  p-r-10px">
+        <div className="m-w-100 w-50 h-100  b-s-b-b  p-r-10px " Style="z-index: 2000;">
           <div className="w-100 h-a h-pr-fl-ma r-v-c b-s-b-b">
           
             <h1
@@ -51,34 +52,23 @@ export default function Home() {
          
           </div>
         </div>
-        <div className="m-d-n w-50 h-100 b-s-b-b ">
-          <div className="w-50 h-100 h-pr-fl-ma  b-s-b-b ">
-            <div className="w-100 h-50 h-pr-fl-ma  b-s-b-b ">
-              <img
-                src={Wallpaper4}
-                alt="OS-LOGO"
-                className="w-100 h-100 h-pr-fl-ma"
-                Style=" background-size: cover; object-fit: cover; background-size: 100% 100%; background-position: center center; background-repeat: no-repeat;"
-              />
-            </div>{" "}
-            <div className="w-100  h-50 h-pr-fl-ma  b-s-b-b ">
-              <img
-                src={Wallpaper8}
-                alt="OS-LOGO"
-                className="w-100 h-100 h-pr-fl-ma"
-                Style=" background-size: cover; object-fit: cover; background-size: 100% 100%; background-position: center center; background-repeat: no-repeat;"
-              />
+        <div className="m-d-n w-50 h-100 b-s-b-b h-pr-fl-ma ">
+          <div className="w-100 h-100 h-pr-fl-ma  b-s-b-b ">
+            <div class="pictures">
+              <img src={Wallpaper1} Style="Object-fit: cover; " alt="" className="w-100 h-100 h-pr-fl-ma " />
+              <img src={Wallpaper2} Style="Object-fit: cover; " alt="" className="w-100 h-100 h-pr-fl-ma " />
+              <img src={Wallpaper3} Style="Object-fit: cover; " alt="" className="w-100 h-100 h-pr-fl-ma " />
+              <img src={Wallpaper4} Style="Object-fit: cover; " alt="" className="w-100 h-100 h-pr-fl-ma " />
+              <img src={Wallpaper5} Style="Object-fit: cover; " alt="" className="w-100 h-100 h-pr-fl-ma " />
+              <img src={Wallpaper6} Style="Object-fit: cover; " alt="" className="w-100 h-100 h-pr-fl-ma " />
+              <img src={Wallpaper7} Style="Object-fit: cover; " alt="" className="w-100 h-100 h-pr-fl-ma " />
+              <img src={Wallpaper8} Style="Object-fit: cover; " alt="" className="w-100 h-100 h-pr-fl-ma " />
+
+
             </div>
           </div>
 
-          <div className="w-50 h-100 h-pr-fl-ma  b-s-b-b ">
-            <img
-              src={Wallpaper1}
-              alt="OS-LOGO"
-              className="w-100 h-100 h-pr-fl-ma"
-              Style=" background-size: cover; object-fit: cover; background-size: 100% 100%; background-position: center center; background-repeat: no-repeat;"
-            />
-          </div>
+
         </div>
       </div>
     </>

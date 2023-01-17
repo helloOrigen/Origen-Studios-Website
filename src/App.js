@@ -19,6 +19,8 @@ import Wallpaper7 from './assets/images/wallpaper-7.png';
 import Wallpaper8 from './assets/images/wallpaper-8.png';
 import MessageWriting from "./assets/icons/message_writing.svg";
 import "./Styles/seed.css";
+import "./Styles/home.css";
+
 
 import Home from "./Views/home";
 import Services from "./Views/services";
@@ -97,7 +99,7 @@ function App() {
         </div>
 
         <div className="h-pr-fl-ma w-100 h-15 b-s-b-b">
-       {/*  <Notifier title="Politica de cookies" text="Nosotros y terceros seleccionados utilizamos cookies o tecnologías similares con fines técnicos y, con su consentimiento, para otras finalidades según se especifica en la cookie policy. Denegar el consentimiento puede provocar que características relacionadas no estén disponibles.
+     {/*<Notifier title="Politica de cookies" text="Nosotros y terceros seleccionados utilizamos cookies o tecnologías similares con fines técnicos y, con su consentimiento, para otras finalidades según se especifica en la cookie policy. Denegar el consentimiento puede provocar que características relacionadas no estén disponibles.
 Utilice el botón “Aceptar” para dar su consentimiento. Utilice el botón “Rechazar” o cierre esta nota informativa para continuar sin aceptar." action="Conozca nuestras poltiicas de cookies."/>*/}
           {/* 15% Height Footer Container*/}
           <Footer className="w-90 m-h-80 h-100 r-h-c h-pr-fl-ma" />
