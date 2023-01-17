@@ -1,27 +1,35 @@
-import React, { Fragment } from "react";
-import {Link} from "react-router-dom";
-import NavBarBtn from "./navBarBtn";
-import NavBarLogo from "./navBarLogo";
+import React, { Fragment,useState } from "react";
+import { NavLink,Link} from "react-router-dom";
+import Logo from  "../assets/OS-logo-white.png";
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
+import "../Styles/home.css";
 
-
-import "../Styles/seed.css";
-
-export default function navBar(props) {
-  const {  } = props;
+ const  navBar=() =>{
 
   return (
-    <Fragment>
-      <div className="w-90 h-100 r-h-c h-pr-fl-ma">
-          <Link to="#"><NavBarLogo right/></Link>
-            <Link to="/team"><NavBarBtn className="m-d-n" text={"Nosotros"}></NavBarBtn></Link>
-            <NavBarBtn className="m-d-n" text={"Estructura"}></NavBarBtn>
-           <Link to="/services"> <NavBarBtn className="m-d-n" text={"Servicios"}></NavBarBtn></Link>
-           <Link to="/plans"> <NavBarBtn className="m-d-n" text={"Planes"}></NavBarBtn></Link>
-            <NavBarBtn className="m-d-n" text={"Metodología"}></NavBarBtn>
-            <NavBarBtn className="m-d-n" text={"Parámetros"}></NavBarBtn>
-          </div>
-      
-    
-    </Fragment>
-  );
+    <div className="w-90 h-100 r-h-c h-pr-fl-ma">
+    <Navbar collapseOnSelect expand="lg">
+    <Container>
+     <Navbar.Brand><img src={Logo} className="Origen"alt="O-Studios"/></Navbar.Brand>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="me-auto py-3">
+          <NavLink className="px-2" to="/team" >Nosotros</NavLink>
+          <NavLink  className="px-2">Estructura</NavLink>
+          <NavLink  className="px-2"to="/services">Servicios</NavLink>
+          <NavLink  className="px-2" to="/plans">Planes</NavLink>
+          <NavLink  className="px-2">Metodologia</NavLink>
+          <NavLink  className="px-2">Parámetros</NavLink>
+
+        
+        </Nav>
+        
+      </Navbar.Collapse>
+    </Container>
+  </Navbar>
+ </div> );
 }
+
+export default navBar
