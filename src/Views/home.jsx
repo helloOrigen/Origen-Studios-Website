@@ -1,18 +1,17 @@
-import React, { Fragment } from "react";
+import React, { Fragment,useRef,useState,useEffect } from "react";
 import Btn from "../components/btn";
 import ContentBox from "../components/contentBox";
 import MessageWriting from "../assets/icons/message_writing.svg";
-import Wallpaper1 from "../assets/images/wallpaper-1.png";
-import Wallpaper2 from "../assets/images/wallpaper-2.png";
-import Wallpaper3 from "../assets/images/wallpaper-3.png";
-import Wallpaper4 from "../assets/images/wallpaper-4.png";
-import Wallpaper5 from "../assets/images/wallpaper-5.png";
-import Wallpaper6 from "../assets/images/wallpaper-6.png";
-import Wallpaper7 from "../assets/images/wallpaper-7.png";
-import Wallpaper8 from "../assets/images/wallpaper-8.png";
+import images from "../images";
 import "../Styles/seed.css";
-import "../Styles/home.css"
+import "../Styles/home.css";
+import {motion} from "framer-motion"; 
 export default function Home() {
+  const[width,setWidth]= useState(0);
+  const carrousel = useRef();
+  useEffect(()=>{
+    setWidth(carrousel.current.scrollWidth - carrousel.current.offsetWidth);
+},[]);
   return (
     <>
       <div className="w-100 h-100 h-pr-fl-ma b-s-b-b flexbox">
@@ -53,20 +52,15 @@ export default function Home() {
           </div>
         </div>
         <div className="m-d-n w-50 h-100 b-s-b-b h-pr-fl-ma ">
-          <div className="w-100 h-100 h-pr-fl-ma  b-s-b-b ">
-            <div class="pictures">
-              <img src={Wallpaper1} Style="Object-fit: cover; " alt="" className="w-100 h-100 h-pr-fl-ma " />
-              <img src={Wallpaper2} Style="Object-fit: cover; " alt="" className="w-100 h-100 h-pr-fl-ma " />
-              <img src={Wallpaper3} Style="Object-fit: cover; " alt="" className="w-100 h-100 h-pr-fl-ma " />
-              <img src={Wallpaper4} Style="Object-fit: cover; " alt="" className="w-100 h-100 h-pr-fl-ma " />
-              <img src={Wallpaper5} Style="Object-fit: cover; " alt="" className="w-100 h-100 h-pr-fl-ma " />
-              <img src={Wallpaper6} Style="Object-fit: cover; " alt="" className="w-100 h-100 h-pr-fl-ma " />
-              <img src={Wallpaper7} Style="Object-fit: cover; " alt="" className="w-100 h-100 h-pr-fl-ma " />
-              <img src={Wallpaper8} Style="Object-fit: cover; " alt="" className="w-100 h-100 h-pr-fl-ma " />
-
-
-            </div>
-          </div>
+          <motion.div  ref={carrousel} className=" carrousel w-100 h-100 h-pr-fl-ma  b-s-b-b ">
+            <motion.div drag="x" dragConstrains={{right:0,left:-width}} className="inner-carrousel">
+              {images.map(image=>{
+                return(<motion.div className="item">
+                  <img src={image} alt="OS"/>
+                </motion.div>)
+              })}
+            </motion.div>
+          </motion.div>
 
 
         </div>
