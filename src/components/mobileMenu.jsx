@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import "../Styles/seed.css";
 import { Link } from "react-router-dom";
 import NavBarBtn from "./navBarBtn";
-import NavBarLogo from "./navBarLogo";
+
 export default function mobileMenu(props) {
   const { className } = props;
 

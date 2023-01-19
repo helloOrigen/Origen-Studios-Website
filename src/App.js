@@ -42,7 +42,7 @@ function App() {
       <div className="h-pr-fl-ma w-100 h-100vh b-s-b-b of-h ">
       
         <div
-          className=" l-0px r-0px t-0px b-0px m-a blurbganimation"
+          className=" l-0px r-0px t-0px b-0px m-a "/*blurbganimation */
           style={{
             backgroundImage: `url(${Wallpaper2})`,
             backgroundPosition: "center",

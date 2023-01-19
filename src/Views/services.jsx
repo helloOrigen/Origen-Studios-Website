@@ -1,9 +1,11 @@
-import React, { useRef, useState, Fragment } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
+
+import "swiper/css/navigation";
 import "../Styles/seed.css";
-import { Pagination } from "swiper";
+import { Keyboard, Pagination } from "swiper";
 import ContentBox from "../components/contentBox";
 import MapaMundi from "../assets/images/mapamundi.svg";
 import MundoVector from "../assets/images/mundo-vector.svg";
@@ -18,10 +20,17 @@ export default function Services(props) {
     <>
       <Swiper
         direction={"vertical"}
+        keyboard={{
+          enabled: true,
+          onlyInViewport: false,
+        }}
+
         pagination={{
           clickable: true,
+          
         }}
-        modules={[Pagination]}
+       
+        modules={[Keyboard, Pagination]}
         className="mySwiper w-100 h-100 h-pr-fl-ma b-s-b-b "
       >
         {/* PORTADA ----------------------------------- */}
