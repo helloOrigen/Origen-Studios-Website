@@ -15,18 +15,18 @@ import "../Styles/home.css"
 export default function Home() {
   return (
     <>
-      <div className="w-100 h-100 h-pr-fl-ma b-s-b-b flexbox">
-        <div className="m-w-100 w-50 h-100  b-s-b-b  p-r-10px " Style="z-index: 2000;">
+      <div className="w-100 h-100 h-pr-fl-ma b-s-b-b ">
+        <div className="m-w-100 w-50 h-100 h-pr-fl-ma b-s-b-b p-r-10px " Style="z-index: 2000;">
           <div className="w-100 h-a h-pr-fl-ma r-v-c b-s-b-b">
           
             <h1
-              className="f-f-Gilroy c-white h-pr-fl-ma r-v-c h-a p-l-10px b-s-b-b m-a"
+              className="w-a f-f-Gilroy c-white h-pr-fl-ma r-v-c h-a p-l-10px b-s-b-b m-a"
               Style="font-size: 50px; line-height: 55px;"
             >
-              <b>Le damos la bienvenida...</b>{" "}
+              <b>Le damos la bienvenida...</b> 
             </h1>
             <h1
-              className="f-f-Gilroy c-white h-pr-fl-ma  r-v-c h-a p-l-10px b-s-b-b m-a"
+              className="w-a f-f-Gilroy c-white h-pr-fl-ma  r-v-c h-a p-l-10px b-s-b-b m-a"
               Style="font-size: 25px; line-height: 30px;"
             >
               <b>Se encuentra en el origen de su nueva marca.</b>
@@ -54,18 +54,8 @@ export default function Home() {
         </div>
         <div className="m-d-n w-50 h-100 b-s-b-b h-pr-fl-ma ">
           <div className="w-100 h-100 h-pr-fl-ma  b-s-b-b ">
-            <div class="pictures">
-              <img src={Wallpaper1} Style="Object-fit: cover; " alt="" className="w-100 h-100 h-pr-fl-ma " />
-              <img src={Wallpaper2} Style="Object-fit: cover; " alt="" className="w-100 h-100 h-pr-fl-ma " />
-              <img src={Wallpaper3} Style="Object-fit: cover; " alt="" className="w-100 h-100 h-pr-fl-ma " />
-              <img src={Wallpaper4} Style="Object-fit: cover; " alt="" className="w-100 h-100 h-pr-fl-ma " />
-              <img src={Wallpaper5} Style="Object-fit: cover; " alt="" className="w-100 h-100 h-pr-fl-ma " />
-              <img src={Wallpaper6} Style="Object-fit: cover; " alt="" className="w-100 h-100 h-pr-fl-ma " />
-              <img src={Wallpaper7} Style="Object-fit: cover; " alt="" className="w-100 h-100 h-pr-fl-ma " />
-              <img src={Wallpaper8} Style="Object-fit: cover; " alt="" className="w-100 h-100 h-pr-fl-ma " />
-
-
-            </div>
+          <img src={Wallpaper1} Style="Object-fit: cover; " alt="" className="w-100 h-100 h-pr-fl-ma " />
+           
           </div>
 
 

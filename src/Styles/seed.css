@@ -1603,6 +1603,16 @@ div::-webkit-scrollbar-corner {
   }
 }
 
+img.img-b-none{
+  border: 0 !important;
+  border-style: none !important;
+  outline: none !important;
+
+}
+
+
+
+
 .image img {
   width: 100%;
   height: 100%;
@@ -1612,6 +1622,7 @@ div::-webkit-scrollbar-corner {
   right: 0px;
   top: 0px;
   bottom: 0px;
+  outline: none;
 }
 
 .image:empty::before {
@@ -1639,10 +1650,19 @@ div::-webkit-scrollbar-corner {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
 }*/
-.img-cover {
+.img-contain {
   background-size: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
+     outline: none;
+     border: none;
+}
+.img-cover {
+  background-size: cover;
   -o-object-fit: cover;
      object-fit: cover;
+     outline: none;
+     border: none;
 }
 
 /* VALORES SQUARE */
@@ -2707,134 +2727,8 @@ input[type=range].info:focus::-ms-fill-upper {
 }
 
 /* Layout */
-/* Layout */
-/*
 
- ██████  ██████  ██ ██████
-██       ██   ██ ██ ██   ██
-██   ███ ██████  ██ ██   ██
-██    ██ ██   ██ ██ ██   ██
- ██████  ██   ██ ██ ██████
 
-*/
-.grid {
-  width: 100%;
-  height: 100%;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(1fr, (1fr)[12]))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(1fr, repeat(12, 1fr)));
-  -ms-grid-rows: (minmax(1fr, (1fr)[12]))[auto-fill];
-      grid-template-rows: repeat(auto-fill, minmax(1fr, repeat(12, 1fr)));
-}
-
-.g-1 {
-  -ms-grid-column: 1;
-  grid-column: 1fr;
-}
-
-.g-2 {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: -1;
-  grid-column: 2/1;
-}
-
-.g-3 {
-  -ms-grid-column: 3;
-  -ms-grid-column-span: -2;
-  grid-column: 3/1;
-}
-
-.g-4 {
-  -ms-grid-column: 4;
-  -ms-grid-column-span: -3;
-  grid-column: 4/1;
-}
-
-.g-5 {
-  -ms-grid-column: 5;
-  -ms-grid-column-span: -4;
-  grid-column: 5/1;
-}
-
-.g-6 {
-  -ms-grid-column: 6;
-  -ms-grid-column-span: -5;
-  grid-column: 6/1;
-}
-
-.g-7 {
-  -ms-grid-column: 7;
-  -ms-grid-column-span: -6;
-  grid-column: 7/1;
-}
-
-.g-8 {
-  -ms-grid-column: 8;
-  -ms-grid-column-span: -7;
-  grid-column: 8/1;
-}
-
-.g-9 {
-  -ms-grid-column: 9;
-  -ms-grid-column-span: -8;
-  grid-column: 9/1;
-}
-
-.g-10 {
-  -ms-grid-column: 10;
-  -ms-grid-column-span: -9;
-  grid-column: 10/1;
-}
-
-.g-11 {
-  -ms-grid-column: 11;
-  -ms-grid-column-span: -10;
-  grid-column: 11/1;
-}
-
-.g-12 {
-  -ms-grid-column: 12;
-  -ms-grid-column-span: -11;
-  grid-column: 12/1;
-}
-
-/* =================-------| GRID COLUMNS (COLUMNAS) |-------================= */
-.g-c-1fr {
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-}
-
-.g-c-2fr {
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-}
-
-.g-c-3fr {
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-}
-
-.g-t-c-12 {
-  -ms-grid-columns: (1fr)[12];
-      grid-template-columns: repeat(12, 1fr);
-}
-
-/* =================-------| GRID ROWS (FILAS) |-------================= */
-.g-r-1fr {
-  -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
-}
-
-.g-r-6fr {
-  -ms-grid-rows: (1fr)[12];
-      grid-template-rows: repeat(12, 1fr);
-}
-
-.g-r-7fr {
-  -ms-grid-rows: 7fr;
-      grid-template-rows: 7fr;
-}
 
 /*
 
@@ -3337,25 +3231,7 @@ input[type=range].info:focus::-ms-fill-upper {
   
 }
 
-@-webkit-keyframes h-up-top {
-  from { transform-origin-y: 0px; }
-  to { transform-origin-y: -20px; }
-}
-.h-e:hover > .h-up {
-  animation-name: h-up-top;
-  animation: 1s ease-out;
-  
-  transition: 3s;
-  -webkit-transition: 3s;
-  -moz-transition: 3s;
-  -ms-transition: 3s;
-  -o-transition: 3s;
 
-}
-.h-up{
- 
- 
-}
 .ripple {
   background-position: center;
   -webkit-transition: 0.8s background;
@@ -8298,7 +8174,7 @@ i.success {
     width: 35%;
   }
   .m-w-40 {
-    width: 40%;
+    width: 40% !important;
   }
   .m-w-45 {
     width: 45%;
@@ -8334,7 +8210,7 @@ i.success {
     width: 95%;
   }
   .m-w-100 {
-    width: 100%;
+    width: 100% !important;
   }
   .m-w-1vw {
     width: 1vw;
@@ -9519,7 +9395,7 @@ i.success {
     height: 75%;
   }
   .m-h-80 {
-    height: 80%;
+    height: 80% !important;
   }
   .m-h-85 {
     height: 85%;

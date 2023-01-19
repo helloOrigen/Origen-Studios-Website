@@ -81,9 +81,11 @@ const Team = () => {
             <div className="  w-a h-a h-pr-fl-ma r-v-c">
               <ContentBox
                 className="h-pr-fl-ma w-100 h-a "
-                title={"Nombre Apellido"}
-                subtitle={"Profesión - Cargo"}
-                text="Descripción de tareas realizadas o mensaje personal texto de rellenoDescripción de tareas realizadas o mensaje personal texto de rellenoDescripción de tareas realizadas o mensaje personal texto de rellenoDescripción de tareas realizadas o mensaje personal texto de relleno"
+                title={"Un equipo en expansión"}
+                subtitle={"Crecemos contigo."}
+                text="Somos un equipo de expertos en expansión, completamente a disposición de su marca. Nos reunimos con el objetivo de potenciar la calidad de los productos y servicios de las empresas con las ideas más grandes y ambiciosas.
+                Tenemos amplia experiencia en el desarrollo comercial de productos y servicios, contenido digital, marketing y ventas.
+                Contamos con el conocimiento y las habilidades necesarias para hacer posible cualquier necesidad que su marca tenga."
               />
             </div>
           </div>

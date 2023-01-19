@@ -3,11 +3,11 @@ import '../Styles/seed.css';
 import OSLogo from '../assets/OS-logo-white.png';
 export default function navBarLogo(props) {
     const {
-     text,
+
      left,
      center,
      right,
-      children,
+
   
     } = props;
   

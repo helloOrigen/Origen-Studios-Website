@@ -27,7 +27,7 @@ const About = () => {
                 text={
                   "Nuestra misión es ser el origen de un impacto positivo en el desarrollo de nuevas marcas. Nos enfocamos en elevar el estandar de calidad y rendimiento en todos los productos y servicios digitales, siendo la pieza maestra de las marcas y el ejemplo de inspiración que les ayude a alcanzar sus más ambiciosos proyectos."
                 }
-              />{" "}
+              /> 
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@ const About = () => {
                 text={
                   "Nuestra visión es ser la agencia de producción y desarrollo más reconocida a nivel regional, creando espacios de colaboración con empresas multinacionales, para generar cientos de miles de oportunidades directa e indirectamente tanto a empresas como a personas, así como el deseo de colaboración y producción internacional en nuestro país."
                 }
-              />{" "}
+              /> 
             </div>
           </div>
         </div>

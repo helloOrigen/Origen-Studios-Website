@@ -5,7 +5,7 @@ const Cookies = () => {
   return (
     <Fragment>
       <div className="w-100 h-100 h-pr-fl-ma centered b-s-b-b of-auto b-s-b-b" Style="background: black;">
-        {" "}
+         
         <div className="m-w-90 w-60 h-100 h-pr-fl-ma r-h-c b-s-b-b p-20px "> 
           <ContentBox
             className="w-100 h-a"
