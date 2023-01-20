@@ -168,12 +168,12 @@ export default function Footer(props) {
             Style="z-index: 99999999;"
           >
             <div className="w-and-h-50px h-pr-fr-ma r-v-c h-e c-p">
-              <img
-                src={MenuHamburger}
-                className="w-100 h-100 h-pr-fl-ma"
-                Style="stroke: #ffffff !important;"
-                alt="Menu"
-              />
+             <label for="menu" className="w-100 h-100 h-pr-fl-ma">             <img
+              src={MenuHamburger}
+              className="w-100 h-100 h-pr-fl-ma"
+              Style="stroke: #ffffff !important;"
+              alt="Menu"
+            /> </label>
             </div>
           </div>{/* -------------- Hamburger Menu*/}
         </div>
