@@ -10,7 +10,7 @@ import ContentBox from "../components/contentBox";
 import MapaMundi from "../assets/images/mapamundi.svg";
 import MundoVector from "../assets/images/mundo-vector.svg";
 import MundoIlustracion from "../assets/images/mundo-ilustracion.png";
-import PersonaElegida from "../assets/images/persona-elegida.svg";
+import PersonaElegida from "../assets/images/persona-elegida.png";
 import PiramidesArabe from "../assets/images/piramides-arabe.png";
 
 export default function Services(props) {

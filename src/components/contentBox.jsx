@@ -14,6 +14,7 @@ export default function contentBox(props) {
     note,
     noteclassName,
     action,
+    actionclassName,
     link,
     Style,
     intitle,
@@ -31,8 +32,8 @@ export default function contentBox(props) {
       >
         {title && (
           <div
-            className={` ${titleclassName} h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy`}
-            Style="font-size: 25px; font-weight:bold; line-height: 30px; color: white;"
+            className={` ${titleclassName} h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy `} 
+            Style=" font-size: 25px; font-weight: bold; line-height: 30px; color: white;" 
           >
             {title}
           </div>
@@ -40,30 +41,27 @@ export default function contentBox(props) {
         {subtitle && (
           <div
             className={` ${subtitleclassName} h-pr-fl-ma b-s-b-b w-100 ns-c-e h-a f-f-Gilroy`}
-            Style="font-size: 15px; font-weight:bold; line-height: 20px;"
+            Style=" font-size: 15px; font-weight:bold; line-height: 20px;"
           >
              
             {subtitle}
             <br />
             <br />
+        
           </div>
+          
         )}
-        {intitle && (
+       
+   
+             {intitle && (
           <div
             className={` ${intitleclassName} h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy`}
-            Style="font-size: 25px; font-weight:bold; line-height: 30px; color: white;"
+            Style=" font-size: 15px; line-height: 20px; font-style: italic; color: white;"
           >
-            <div className="h-pr-fl-ma w-a h-a ">{title}</div>
-            {intitle && (
-              <div
-                className="h-pr-fl-ma b-s-b-b w-a h-a f-f-Gilroy "
-                Style="font-size: 15px; line-height: 20px; font-style: italic; color: white;"
-              >
                 {intitle}
               </div>
             )}
-          </div>
-        )}
+     
         {category && (
           <div
             className={` ${categoryclassName} h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy`}
@@ -97,7 +95,7 @@ export default function contentBox(props) {
         {children}
         {action && (
           <div
-            className="h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy  m-t-10px "
+            className={` ${actionclassName} h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy  m-t-10px `}
             Style="font-size: 10px; line-height: 15px; color: white;"
           >
             <a href={`${link}`}>

@@ -33,6 +33,7 @@ import Terms from "./Views/terms";
 import Privacy from "./Views/privacy";
 import Cookies from "./Views/cookies";
 import Plans from "./Views/plans";
+import Page404 from "./Views/page404";
 
 function App() {
   return (
@@ -66,17 +67,17 @@ function App() {
       }}></div>
         {/* FullHeight Container*/}
 
-        <div className="h-pr-fl-ma w-100 h-15 b-s-b-b ">
+        <div className="h-pr-fl-ma w-100 m-h-10 h-15 b-s-b-b ">
           {/* 15% Height Menu Container*/}
           <NavBar/>
         </div>
         
 
-        <div className="h-pr-fl-ma w-100 h-70  b-s-b-b of-n  ">
+        <div className="h-pr-fl-ma w-100 h-70 m-h-80  b-s-b-b of-n  ">
           {/* 70% Height  Body Container*/}
           <div className="h-pr-fl-ma w-100 h-100  b-s-b-b of-n  ">
             <div className="w-90 c-white h-100   r-h-c h-pr-fl-ma ">
-              {/* Todas las views se renderizan aquí*/}{/*  <MobileMenu/> */}
+              {/* Todas las views se renderizan aquí*/} {/*<MobileMenu/>*/} 
               <Routes>
           <Route exact path="/" element={<Home/>} />
             <Route exact  path="/services" element={<Services />} />
@@ -90,13 +91,14 @@ function App() {
            <Route path="/cookies" element={<Cookies/>} />
            <Route path="/privacy" element={<Privacy/>} />
            <Route path="/plans" element={<Plans/>} />
+           <Route path="/page404" element={<Page404/>} />
         </Routes>
 
             </div>
           </div>
         </div>
 
-        <div className="h-pr-fl-ma w-100 h-15  b-s-b-b of-n  ">
+        <div className="h-pr-fl-ma w-100 h-15 m-h-10  t-1s b-s-b-b of-n  ">
      {/*<Notifier title="Politica de cookies" text="Nosotros y terceros seleccionados utilizamos cookies o tecnologías similares con fines técnicos y, con su consentimiento, para otras finalidades según se especifica en la cookie policy. Denegar el consentimiento puede provocar que características relacionadas no estén disponibles.
 Utilice el botón “Aceptar” para dar su consentimiento. Utilice el botón “Rechazar” o cierre esta nota informativa para continuar sin aceptar." action="Conozca nuestras poltiicas de cookies."/>*/}
           {/* 15% Height Footer Container*/}

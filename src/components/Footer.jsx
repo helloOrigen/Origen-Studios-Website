@@ -15,8 +15,8 @@ export default function Footer(props) {
           className="w-100 r-h-c h-100 h-pr-fl-ma b-s-b-b "
           Style="font-size: 10px; color: white; line-height: 15px; "
         > {/* Block 1 --------------- */}
-          <div className="m-d-n w-25  h-100  p-t-10px  b-s-b-b h-pr-fl-ma p-l-10px p-r-10px">
-             
+          <div className="m-d-n w-25  h-100  b-s-b-b h-pr-fl-ma p-l-10px p-r-10px">
+          <div className="p-t-10px w-100 m-d-n">&nbsp;</div>
             {/* Bloque 1 - 25% height */}
             <b>
               OrigenStudios<sup Style="font-size:75%;  top: -0.28em;">®</sup>
@@ -38,8 +38,8 @@ export default function Footer(props) {
           </div>
           {/* --------------- Block 1 */}
           {/* Block 2 --------------- */}
-          <div className="m-d-n w-25 h-100 p-t-10px  b-s-b-b h-pr-fl-ma p-r-10px t-a-l">
-             
+          <div className="m-d-n w-25 h-100   b-s-b-b h-pr-fl-ma p-r-10px t-a-l">
+          <div className="p-t-10px w-100 m-d-n">&nbsp;</div>
             {/* Bloque 2 - 25% height */}
             <Link to="#">
               <span className="hover-underline-animation">
@@ -73,8 +73,8 @@ export default function Footer(props) {
             <br />
           </div>{/* --------------- Block 2 */}
           {/* Block 3 --------------- */}
-          <div className="m-d-n w-25 h-100 p-t-10px  b-s-b-b h-pr-fl-ma p-l-10px  t-a-l">
-             
+          <div className="m-d-n w-25 h-100  b-s-b-b h-pr-fl-ma p-l-10px  t-a-l">
+          <div className="p-t-10px w-100 m-d-n">&nbsp;</div>
             {/* Bloque 3 - 25% height */}
             <Link to="/about">
               <span className="hover-underline-animation">
@@ -108,8 +108,8 @@ export default function Footer(props) {
             <br />
           </div>  {/* --------------- Block 3 */}
             {/* Block 4 --------------- */}
-          <div className="m-w-40 w-25 h-100 p-t-10px  b-s-b-b h-pr-fl-ma p-l-10px p-r-10px t-a-l">
-             
+          <div className="m-w-40 w-25 h-100  b-s-b-b h-pr-fl-ma p-r-10px t-a-l">
+             <div className="p-t-10px w-100 m-d-n">&nbsp;</div>
             {/* Bloque 4 - 25% height */}
             <Link to="/faq">
               <span className="  hover-underline-animation">
@@ -129,8 +129,8 @@ export default function Footer(props) {
               </span>
             </Link> 
             <br />
-            <Link to="/cookies">
-              <span className="  hover-underline-animation">
+            <Link to="/cookies" className="m-d-n">
+              <span className=" hover-underline-animation">
                 Uso de cookies.
               </span>
             </Link> 
@@ -139,8 +139,8 @@ export default function Footer(props) {
 
           {/* MOBILE ONLY */}
            {/* Block 5 --------------- */}
-          <div className="d-n m-d-b w-40  h-100 p-t-10px  b-s-b-b h-pr-fl-ma p-l-10px p-r-10px t-a-l">
-             
+          <div className="d-n m-d-b w-40  h-100  b-s-b-b h-pr-fl-ma p-l-10px p-r-10px t-a-l">
+          <div className="p-t-10px w-100 m-d-n">&nbsp;</div>
             {/* Bloque 2 - 25% height */}
             <Link to="#">
               <span className="hover-underline-animation">
@@ -159,12 +159,7 @@ export default function Footer(props) {
                 Empleos y pasantías.
               </span>
             </Link> 
-            <br />
-            <Link to="#">
-              <span className="  hover-underline-animation">
-                hello@OrigenStudios.com
-              </span>
-            </Link> 
+           
           </div>{/* --------------- Block 5 */}
 
           {/* Hamburger Menu --------------- */}
