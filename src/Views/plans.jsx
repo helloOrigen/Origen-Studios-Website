@@ -620,8 +620,34 @@ const Plans = () => {
                 <div
                   className=" m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px"
                   
-                >
-
+                ><div className="w-100 h-a h-pr-fl-ma d-i-f">
+                <ContentBox
+                  className="w-70 m-b-10px p-10px"
+                  Style="border-bottom: 1px dotted; border-color: white; "
+                  text={"• Naming corporativo/insitucional"}
+                  note={"El nombre que su proyecto necesita."}
+                  noteclassName="ns-c-e p-l-10px"
+                />
+                <ContentBox
+                  className="w-30 m-b-10px t-a-r  p-10px"
+                  Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
+                  note={"3 a 4 semanas"}
+                />
+              </div>
+              <div className="w-100 h-a h-pr-fl-ma d-i-f">
+                    <ContentBox
+                      className="w-70 m-b-10px p-10px"
+                      Style="border-bottom: 1px dotted; border-color: white; "
+                      text={"• Slogan / Lema."}
+                      note={"Su propuesta valor optimizada en una frase."}
+                      noteclassName="ns-c-e p-l-10px"
+                    />
+                    <ContentBox
+                      className="w-30 m-b-10px t-a-r  p-10px"
+                      Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
+                      note={"3 a 4 semanas"}
+                    />
+                  </div>
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
                     <ContentBox
                       className="w-70 m-b-10px  p-10px"
@@ -636,7 +662,8 @@ const Plans = () => {
                       note={"1 a 2 Días"}
                     />
                   </div>
-
+                  </div>
+                  <div className="m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
                     <ContentBox
                       className="w-70 m-b-10px  p-10px"
@@ -651,65 +678,7 @@ const Plans = () => {
                       note={"3 a 4 semanas"}
                     />
                   </div>
-                  <div className="w-100 h-a h-pr-fl-ma d-i-f">
-                    <ContentBox
-                      className="w-70 m-b-10px p-10px"
-                      Style="border-bottom: 1px dotted; border-color: white; "
-                      text={"• Slogan / Lema."}
-                      note={"Su propuesta valor optimizada en una frase."}
-                      noteclassName="ns-c-e p-l-10px"
-                    />
-                    <ContentBox
-                      className="w-30 m-b-10px t-a-r  p-10px"
-                      Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
-                    />
-                  </div>
-                  <div className="w-100 h-a h-pr-fl-ma d-i-f">
-                    <ContentBox
-                      className="w-70 m-b-10px p-10px"
-                      Style="border-bottom: 1px dotted; border-color: white; "
-                      text={"• Naming corporativo/insitucional"}
-                      note={"El nombre que su proyecto necesita."}
-                      noteclassName="ns-c-e p-l-10px"
-                    />
-                    <ContentBox
-                      className="w-30 m-b-10px t-a-r  p-10px"
-                      Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
-                    />
-                  </div>
-                  <div className="w-100 h-a h-pr-fl-ma d-i-f">
-                    <ContentBox
-                      className="w-70 m-b-10px p-10px"
-                      Style="border-bottom: 1px dotted; border-color: white; "
-                      text={"• Slogan / Lema."}
-                      note={"Su propuesta valor optimizada en una frase."}
-                      noteclassName="ns-c-e p-l-10px"
-                    />
-                    <ContentBox
-                      className="w-30 m-b-10px t-a-r  p-10px"
-                      Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
-                    />
-                  </div>
-                  </div>
-                  <div className="m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
-                  
-                  <div className="w-100 h-a h-pr-fl-ma d-i-f">
-                    <ContentBox
-                      className="w-70 m-b-10px  p-10px"
-                      Style="border-bottom: 1px dotted; border-color: white; "
-                      text={"• Vectorización de logo."}
-                      note={"Digitalización de bocetos ya definidos."}
-                      noteclassName="ns-c-e p-l-10px"
-                    />
-                    <ContentBox
-                      className="w-30 m-b-10px t-a-r  p-10px"
-                      Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
-                    />
-                  </div>
+                 
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
                     <ContentBox
                       className="w-70 m-b-10px  p-10px"
@@ -724,128 +693,6 @@ const Plans = () => {
                       note={"1 Semana"}
                     />
                   </div>
-                  <div className="w-100 h-a h-pr-fl-ma d-i-f">
-                    <ContentBox
-                      className="w-70 m-b-10px  p-10px"
-                      Style="border-bottom: 1px dotted; border-color: white; "
-                      text={"• Tarjetas de presentación."}
-                      note={"Un recuerdo de una experiencia memorable."}
-                      noteclassName="ns-c-e p-l-10px"
-                    />
-                    <ContentBox
-                      className="w-30 m-b-10px t-a-r  p-10px"
-                      Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"1 Semana"}
-                    />
-                  </div>
-                  <div className="w-100 h-a h-pr-fl-ma d-i-f m-b-10px">
-                    <div className="w-70 h-a h-pr-fl-ma ">
-                      <ContentBox
-                        className="w-100 m-b-10px   p-10px"
-                        Style="word-wrap: nowrap;  "
-                        note={
-                          "Coordine una reunión ahora mismo y obtenga un presupuesto personalizado."
-                        }
-                      />
-                    </div>
-                    <div className="w-30 h-a h-pr-fl-ma">
-                      <Btn
-                        className="h-pr-fr-ma"
-                        text="Coordinar"
-                        enlace="https://calendly.com/origenstudios/first_steps"
-                      >
-                        <div className="w-25px h-25px m-5px h-pr-fl-ma">
-                          <img
-                            src={MessageWriting}
-                            className="w-100 h-100 h-pr-fl-ma"
-                            Style="stroke: #ffffff !important;"
-                            alt="Coordinar"
-                          />
-                        </div>
-                      </Btn>
-                    </div>
-                  </div>
-                </div>
-              </div>{" "}
-            </SwiperSlide>
-
-{/* ESTUDIO | AUDITORÍA SOCIAL ------------------------------------------------ */}
-
-<SwiperSlide className="h-pr-fl-ma  w-100 b-s-b-b  m-t-20px">
-              <div className="m-w-100 w-100 h-a h-pr-fl-ma " Style="border: 1px solid; border-color: white;">
-                {" "}
-                 <ContentBox
-                    className="p-20px w-100"
-                    title={"Auditoría social."}
-                    category={"Investigación"}
-                    subtitle={"Evaluación interna social y cultural."}
-                  />
-                <div
-                  className=" m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px"
-                  
-                >
-
-                  <div className="w-100 h-a h-pr-fl-ma d-i-f">
-                    <ContentBox
-                      className="w-70 m-b-10px  p-10px"
-                      Style="border-bottom: 1px dotted; border-color: white; "
-                      text={"• Encuestas internas."}
-                      note={"Informe de ambiente laboral entre colaboradores y socios."}
-                      noteclassName="ns-c-e p-l-10px"
-                    />
-                    <ContentBox
-                      className="w-30 m-b-10px t-a-r  p-10px"
-                      Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"1 a 2 Días"}
-                    />
-                  </div>
-
-                  <div className="w-100 h-a h-pr-fl-ma d-i-f">
-                    <ContentBox
-                      className="w-70 m-b-10px  p-10px"
-                      Style="border-bottom: 1px dotted; border-color: white; "
-                      text={"• Capacidad de migración."}
-                      note={"Evaluación de capacidad migratoria ante riesgos externos."}
-                      noteclassName="ns-c-e p-l-10px"
-                    />
-                    <ContentBox
-                      className="w-30 m-b-10px t-a-r  p-10px"
-                      Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
-                    />
-                  </div>
-                
-                  </div>
-                  <div className="m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
-                  <div className="w-100 h-a h-pr-fl-ma d-i-f">
-                    <ContentBox
-                      className="w-70 m-b-10px p-10px"
-                      Style="border-bottom: 1px dotted; border-color: white; "
-                      text={"• Cuantificación de personal."}
-                      note={"Informe de indispensabilidad por área."}
-                      noteclassName="ns-c-e p-l-10px"
-                    />
-                    <ContentBox
-                      className="w-30 m-b-10px t-a-r  p-10px"
-                      Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
-                    />
-                  </div>
-                  <div className="w-100 h-a h-pr-fl-ma d-i-f">
-                    <ContentBox
-                      className="w-70 m-b-10px p-10px"
-                      Style="border-bottom: 1px dotted; border-color: white; "
-                      text={"• Optimización de personal."}
-                      note={"Capacidad de reducción de personal actual."}
-                      noteclassName="ns-c-e p-l-10px"
-                    />
-                    <ContentBox
-                      className="w-30 m-b-10px t-a-r  p-10px"
-                      Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
-                    />
-                  </div>
-                  
                  
                   <div className="w-100 h-a h-pr-fl-ma d-i-f m-b-10px">
                     <div className="w-70 h-a h-pr-fl-ma ">
@@ -877,6 +724,125 @@ const Plans = () => {
                 </div>
               </div>{" "}
             </SwiperSlide>
+ {/* ECREACIÓN | PRESENTACIÓN DE MARCA ------------------------------------------------ */}
+
+ <SwiperSlide className="h-pr-fl-ma  w-100 b-s-b-b  m-t-20px">
+              <div className="m-w-100 w-100 h-a h-pr-fl-ma " Style="border: 1px solid; border-color: white;">
+                {" "}
+                <ContentBox
+                    className="p-20px w-100"
+                    title={"Presentación de marca."}
+                    category={"Investigación"}
+                    subtitle={"Todo para presentarse al mundo."}
+                  />
+                <div
+                  className=" m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px"
+                  
+                ><div className="w-100 h-a h-pr-fl-ma d-i-f">
+                <ContentBox
+                  className="w-70 m-b-10px p-10px"
+                  Style="border-bottom: 1px dotted; border-color: white; "
+                  text={"• Diseño landing page simple."}
+                  note={"Proyección de sitio web técnico."}
+                  noteclassName="ns-c-e p-l-10px"
+                />
+                <ContentBox
+                  className="w-30 m-b-10px t-a-r  p-10px"
+                  Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
+                  note={"3 a 4 semanas"}
+                />
+              </div>
+              <div className="w-100 h-a h-pr-fl-ma d-i-f">
+                    <ContentBox
+                      className="w-70 m-b-10px p-10px"
+                      Style="border-bottom: 1px dotted; border-color: white; "
+                      text={"• Presentación digital (20 Diapositivas)"}
+                      note={"Presentación de uso funcional."}
+                      noteclassName="ns-c-e p-l-10px"
+                    />
+                    <ContentBox
+                      className="w-30 m-b-10px t-a-r  p-10px"
+                      Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
+                      note={"3 a 4 semanas"}
+                    />
+                  </div>
+                  <div className="w-100 h-a h-pr-fl-ma d-i-f">
+                    <ContentBox
+                      className="w-70 m-b-10px  p-10px"
+                      Style="border-bottom: 1px dotted; border-color: white; "
+                      text={"• Cabecera para email."}
+                      note={"Banner de cabecera para emails"}
+                      noteclassName="ns-c-e p-l-10px"
+                    />
+                    <ContentBox
+                      className="w-30 m-b-10px t-a-r  p-10px"
+                      Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
+                      note={"1 a 2 Días"}
+                    />
+                  </div>
+                  </div>
+                  <div className="m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
+                  <div className="w-100 h-a h-pr-fl-ma d-i-f">
+                    <ContentBox
+                      className="w-70 m-b-10px  p-10px"
+                      Style="border-bottom: 1px dotted; border-color: white; "
+                      text={"• Firma para email."}
+                      note={"Firma de email profesional para su negocio."}
+                      noteclassName="ns-c-e p-l-10px"
+                    />
+                    <ContentBox
+                      className="w-30 m-b-10px t-a-r  p-10px"
+                      Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
+                      note={"3 a 4 semanas"}
+                    />
+                  </div>
+                 
+                  <div className="w-100 h-a h-pr-fl-ma d-i-f">
+                    <ContentBox
+                      className="w-70 m-b-10px  p-10px"
+                      Style="border-bottom: 1px dotted; border-color: white; "
+                      text={"• Diseño de e-mailing"}
+                      note={"Fotomontajes illustrativos de su marca en acción."}
+                      noteclassName="ns-c-e p-l-10px"
+                    />
+                    <ContentBox
+                      className="w-30 m-b-10px t-a-r  p-10px"
+                      Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
+                      note={"1 Semana"}
+                    />
+                  </div>
+                 
+                  <div className="w-100 h-a h-pr-fl-ma d-i-f m-b-10px">
+                    <div className="w-70 h-a h-pr-fl-ma ">
+                      <ContentBox
+                        className="w-100 m-b-10px   p-10px"
+                        Style="word-wrap: nowrap;  "
+                        note={
+                          "Coordine una reunión ahora mismo y obtenga un presupuesto personalizado."
+                        }
+                      />
+                    </div>
+                    <div className="w-30 h-a h-pr-fl-ma">
+                      <Btn
+                        className="h-pr-fr-ma"
+                        text="Coordinar"
+                        enlace="https://calendly.com/origenstudios/first_steps"
+                      >
+                        <div className="w-25px h-25px m-5px h-pr-fl-ma">
+                          <img
+                            src={MessageWriting}
+                            className="w-100 h-100 h-pr-fl-ma"
+                            Style="stroke: #ffffff !important;"
+                            alt="Coordinar"
+                          />
+                        </div>
+                      </Btn>
+                    </div>
+                  </div>
+                </div>
+              </div>{" "}
+            </SwiperSlide>
+
 
            {/* ESTUDIO | AUDITORÍA FINANCIERA  ------------------------------------------------ */}
 

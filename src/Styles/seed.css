@@ -3231,6 +3231,24 @@ input[type=range].info:focus::-ms-fill-upper {
   
 }
 
+.h-e-color{
+  filter: grayscale(100%);
+  transition: 1s;
+  
+}
+.h-e-color:hover{
+  filter: grayscale(0%);
+}
+
+.h-e-scale{
+  transform: scale(1);
+  transition: 1s;
+  
+}
+.h-e-scale:hover{
+  transform: scale(1.2);
+}
+
 
 .ripple {
   background-position: center;

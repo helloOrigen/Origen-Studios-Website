@@ -18,6 +18,8 @@ import Wallpaper6 from "../assets/images/wallpaper-6.png";
 import Wallpaper7 from "../assets/images/wallpaper-7.png";
 import Wallpaper8 from "../assets/images/wallpaper-8.png";
 
+import Promo1 from "../assets/images/promo/promo-1.png";
+
 import "../Styles/seed.css";
 import "../Styles/home.css";
 
@@ -26,9 +28,9 @@ export default function Home(props) {
 
   return (
     <>
-      <div className="w-100 h-100 h-pr-fl-ma b-s-b-b ">
+      <div className="w-100 h-100 h-pr-fl-ma b-s-b-b p-t-10px p-b-10px">
         <div
-          className="m-w-100 w-50 h-100 h-pr-fl-ma b-s-b-b p-r-10px "
+          className="m-d-n w-50 h-100 h-pr-fl-ma b-s-b-b p-r-10px "
           Style="z-index: 2000;"
         >
           <div className="w-100 h-a h-pr-fl-ma r-v-c b-s-b-b">
@@ -74,7 +76,7 @@ export default function Home(props) {
             </div>
           </div>
         </div>
-        <div className="m-d-n w-50 h-100 b-s-b-b h-pr-fl-ma ">
+        <div className="m-w-100 w-50 h-100 b-s-b-b h-pr-fl-ma ">
           <div className="w-100 h-100 h-pr-fl-ma  b-s-b-b ">
             <Swiper
               direction={"horizontal"}
@@ -88,10 +90,59 @@ export default function Home(props) {
               modules={[Keyboard, Pagination]}
               className="mySwiper h-100 w-100 h-pr-fl-ma b-s-b-b"
             >
+
+<SwiperSlide className="d-n m-d-b h-pr-fl-ma  b-s-b-b">
+<div className="w-100 h-a h-pr-fl-ma r-v-c b-s-b-b">
+            <h1
+              className="w-a f-f-Gilroy c-white h-pr-fl-ma r-v-c h-a p-l-10px b-s-b-b m-a"
+              Style="font-size: 50px; line-height: 55px;"
+            >
+              <b>Le damos la bienvenida...</b>
+            </h1>
+            <h1
+              className="w-a f-f-Gilroy c-white h-pr-fl-ma  r-v-c h-a p-l-10px b-s-b-b m-a"
+              Style="font-size: 25px; line-height: 30px;"
+            >
+              <b>Se encuentra en el origen de su nueva marca.</b>
+            </h1>
+
+            <div className="w-100 h-a h-pr-fl-ma m-b-20px ">
+              <div className="w-a h-a h-pr-fl-ma ">
+                <div className="w-a h-a h-pr-fl-ma p-l-10px ">
+                  <Btn className="" text="Coordinar ahora">
+                    <div className="w-25px h-25px m-5px h-pr-fl-ma">
+                      <img
+                        src={MessageWriting}
+                        className="w-100 h-100 h-pr-fl-ma"
+                        Style="stroke: #ffffff !important;"
+                        alt="Coordinar"
+                      />
+                    </div>
+                  </Btn>
+                </div>
+              </div>
+              <div className="w-a h-a h-pr-fl-ma a-i-c">
+                <ContentBox
+                  className="h-pr-fl-ma w-a h-a p-l-10px m-t-10px "
+                  subtitle={
+                    "Coordine una reunión y comience su marca hoy mismo!"
+                  }
+                />
+              </div>
+              <div className="w-100 h-pr-fl-ma h-20px p-t-20px p-r-20px">
+                <div className="w-80 h-pr-fl-ma m-l-10px m-r-10px h-pr-fl-ma m-a b-s-b-b divider "></div>
+              </div>
+            </div>
+          </div>
+          </SwiperSlide>
+
+
+
+
               <SwiperSlide className="h-pr-fl-ma  b-s-b-b">
                 <img
-                  src={Wallpaper1}
-                  Style="Object-fit: cover; "
+                  src={Promo1}
+                  Style="Object-fit: contain; "
                   alt=""
                   className="w-100 h-100 h-pr-fl-ma  b-s-b-b"
                 />

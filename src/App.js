@@ -1,6 +1,6 @@
 import React from 'react'
 import { Fragment } from "react";
-import{BrowserRouter,Routes,Route} from "react-router-dom";
+import{Redirect, BrowserRouter,Routes,Route} from "react-router-dom";
 import NavBar from "./components/navBar";
 
 
@@ -78,7 +78,9 @@ function App() {
           <div className="h-pr-fl-ma w-100 h-100  b-s-b-b of-n  ">
             <div className="w-90 c-white h-100   r-h-c h-pr-fl-ma ">
               {/* Todas las views se renderizan aquí*/} {/*<MobileMenu/>*/} 
-              <Routes>
+
+           
+               <Routes>
           <Route exact path="/" element={<Home/>} />
             <Route exact  path="/services" element={<Services />} />
            <Route path="/team" element={<Team/>} />
@@ -91,9 +93,9 @@ function App() {
            <Route path="/cookies" element={<Cookies/>} />
            <Route path="/privacy" element={<Privacy/>} />
            <Route path="/plans" element={<Plans/>} />
-           <Route path="/page404" element={<Page404/>} />
-        </Routes>
-
+           <Route path="/**" element={ <Route path="/page404" element={<Page404/>} /> }/>
+           
+</Routes>
             </div>
           </div>
         </div>
