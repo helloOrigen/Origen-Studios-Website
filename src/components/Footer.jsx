@@ -188,7 +188,7 @@ export default function Footer(props) {
           <span className="f-w-bo">
             OrigenStudios<sup>&reg;</sup>
           </span>
-          &zwj;&nbsp;&zwj;Company&zwj;&nbsp;&zwj;-&zwj;&nbsp;&zwj;Todos&zwj;&nbsp;&zwj;los&zwj;&nbsp;&zwj;derechos&zwj;&nbsp;&zwj;reservados.&zwj;&nbsp;&zwj;Montevideo,&zwj;&nbsp;&zwj;Uruguay.
+          &zwj;&nbsp;&zwj;Company&zwj;&nbsp;&zwj;-&zwj;&nbsp;&zwj;Todos&zwj;&nbsp;&zwj;los&zwj;&nbsp;&zwj;derechos&zwj;&nbsp;&zwj;reservados.
         </div>
       </div>
     </Fragment>

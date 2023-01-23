@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6e5b180d.css",
-    "main.js": "/static/js/main.9aa5c04c.js",
+    "main.css": "/static/css/main.1e55a931.css",
+    "main.js": "/static/js/main.dd393950.js",
     "static/js/787.667ee9bb.chunk.js": "/static/js/787.667ee9bb.chunk.js",
     "static/media/mundo-ilustracion.png": "/static/media/mundo-ilustracion.9e0ddd6d8880df59d27d.png",
     "static/media/wallpaper-7.png": "/static/media/wallpaper-7.5b4306d444f5925f21f4.png",
@@ -9,28 +9,33 @@
     "static/media/wallpaper-4.png": "/static/media/wallpaper-4.a23230f5e4845892d3fb.png",
     "static/media/wallpaper-6.png": "/static/media/wallpaper-6.436944539e3eca915c7e.png",
     "static/media/wallpaper-2.png": "/static/media/wallpaper-2.2e90fcfe6fe5b0391587.png",
+    "static/media/promo-1.png": "/static/media/promo-1.597c9622386e32d54e28.png",
     "static/media/wallpaper-8.png": "/static/media/wallpaper-8.1dcf4b0733687bf5cbcb.png",
     "static/media/wallpaper-3.png": "/static/media/wallpaper-3.0161501307dee04b4694.png",
+    "static/media/nickolas-machado.png": "/static/media/nickolas-machado.a6afa4a9a34d4c6899d9.png",
+    "static/media/patricia-cor.png": "/static/media/patricia-cor.b4bdb8e1d5151be3fc06.png",
     "static/media/wallpaper-1.png": "/static/media/wallpaper-1.5005c92d123adfa29782.png",
     "static/media/wallpaper-5.png": "/static/media/wallpaper-5.59cceb12cc12acdd0b5f.png",
     "static/media/OS-Background-1.png": "/static/media/OS-Background-1.c842d522118781635ceb.png",
+    "static/media/persona-elegida.png": "/static/media/persona-elegida.e7d086ff9a99183ed735.png",
+    "static/media/cesar-lima.png": "/static/media/cesar-lima.35a7944fc82c863fa594.png",
     "static/media/mundo-vector.svg": "/static/media/mundo-vector.5584d38a230a08619d32a78f7de5dbbd.svg",
     "static/media/OS-logo-white.png": "/static/media/OS-logo-white.72ed374480f3e47fcaf7.png",
     "static/media/mapamundi.svg": "/static/media/mapamundi.1a5b7b0490884a8be0cefc2b549acd6a.svg",
-    "static/media/persona-elegida.svg": "/static/media/persona-elegida.40ca5c7ef6f507d3125c1259a0f6d482.svg",
     "index.html": "/index.html",
     "static/media/message_writing.svg": "/static/media/message_writing.c1483137cc0e4451f769dea0601fd7f2.svg",
     "static/media/eye.svg": "/static/media/eye.6f8b080ad1442db9447f0d23d4c1084a.svg",
     "static/media/user_male_circle.svg": "/static/media/user_male_circle.78a2ee6009763aa18f16e5accae962d0.svg",
     "static/media/diamond.svg": "/static/media/diamond.d3f3196525d6506f9a76a12c0cfc62c6.svg",
+    "static/media/home.svg": "/static/media/home.ec942daf732640fb3bbabb42e3195fc0.svg",
     "static/media/target.svg": "/static/media/target.03e97cd76de1bb159f11a62ccc6c58f2.svg",
     "static/media/menu_hamburger.svg": "/static/media/menu_hamburger.e854bcaf0d6d5edb88f3a755bd08c7a4.svg",
-    "main.6e5b180d.css.map": "/static/css/main.6e5b180d.css.map",
-    "main.9aa5c04c.js.map": "/static/js/main.9aa5c04c.js.map",
+    "main.1e55a931.css.map": "/static/css/main.1e55a931.css.map",
+    "main.dd393950.js.map": "/static/js/main.dd393950.js.map",
     "787.667ee9bb.chunk.js.map": "/static/js/787.667ee9bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e5b180d.css",
-    "static/js/main.9aa5c04c.js"
+    "static/css/main.1e55a931.css",
+    "static/js/main.dd393950.js"
   ]
 }
