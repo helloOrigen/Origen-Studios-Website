@@ -16,6 +16,8 @@ export default function contentBox(props) {
     action,
     actionclassName,
     link,
+    number,
+    numberclassName,
     Style,
     intitle,
     intitleclassName,
@@ -30,12 +32,16 @@ export default function contentBox(props) {
         className={` ${className} h-pr-fl-ma w-a h-a b-s-b-b t-o-e f-f-Gilroy`}
         Style={` ${Style}`}
       >
+
+
+       
+       
         {title && (
           <div
-            className={` ${titleclassName} h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy `} 
+            className={` ${titleclassName} h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy d-i `} 
             Style=" font-size: 25px; font-weight: bold; line-height: 30px; color: white;" 
           >
-            {title}
+            {number && ( <div className={` ${numberclassName} m-b-10px h-pr-fl-ma ns-c-e w-and-h-30px t-a-c b-s-b-b of-h t-a-c m-r-10px `} Style="font-size: 13px; border: 1px solid; border-radius: 100%; border-color: white;"><div className="w-a h-a centered h-pr-fl-ma">{number}</div></div>        )} <div className="h-pr-fl-ma ">{title}</div>
           </div>
         )}
         {subtitle && (
@@ -51,7 +57,7 @@ export default function contentBox(props) {
           </div>
           
         )}
-       
+      
    
              {intitle && (
           <div
@@ -86,7 +92,7 @@ export default function contentBox(props) {
         )}
         {note && (
           <div
-            className={` ${noteclassName} h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy`}
+            className={` ${noteclassName} ns-c-e h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy`}
             Style="font-size: 10px; line-height: 15px;  font-style: italic;"
           >
             {note}

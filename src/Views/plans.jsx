@@ -1,12 +1,15 @@
 import React, { Fragment } from "react";
 import ContentBox from "../components/contentBox";
-import Btn from "../components/btn";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Keyboard, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import Btn from "../components/btn";
 import MessageWriting from "../assets/icons/message_writing.svg";
+import Info from "../components/info";
+
 const Plans = () => {
   return (
     <Fragment>
@@ -17,7 +20,7 @@ const Plans = () => {
           Style="border-bottom: 1px solid; border-color: white;"
         >
           <div className="w-50 m-w-100 b-s-b-b h-a h-pr-fl-ma ">
-            <ContentBox 
+            <ContentBox
               title={"ESTUDIO."}
               subtitle={"Conozca las necesidades de su sector de mercado."}
             />
@@ -28,13 +31,11 @@ const Plans = () => {
                 <ContentBox
                   className="w-100"
                   Style="word-wrap: nowrap;  "
-                  intitle={"¿Tiene una idea de lo que necesita pero aún no sabe qué plan le conviene más?"}
+                  intitle={
+                    "¿Tiene una idea de lo que necesita pero aún no sabe qué plan le conviene más?"
+                  }
                   intitleclassName=""
-                   
-                  
-              
-                >
-                </ContentBox>
+                ></ContentBox>
               </div>
               <div className="m-w-50 w-30 h-a h-pr-fr-ma">
                 <Btn
@@ -58,39 +59,34 @@ const Plans = () => {
         {/* ESTUDIO | Contenedor de planes ------------------------------------------------ */}
         <div className="w-100 h-a h-pr-fl-ma m-b-20px ">
           <Swiper
-            
             direction={"horizontal"}
             slidesPerView={1}
-        spaceBetween={10}
-        pagination={{
-          clickable: true,
-        }}
-      
-        
+            spaceBetween={10}
+            pagination={{
+              clickable: true,
+            }}
             keyboard={{
               enabled: true,
               onlyInViewport: false,
             }}
-            
             modules={[Keyboard, Pagination]}
             className="mySwiper w-100 h-a h-pr-fl-ma b-s-b-b"
           >
-  {/* ESTUDIO | DETECCIÓN DE NECESIDAD------------------------------------------------ */}
+            {/* ESTUDIO | DETECCIÓN DE NECESIDAD------------------------------------------------ */}
 
-  <SwiperSlide className="h-pr-fl-ma  w-100 b-s-b-b  m-t-20px">
-              <div className="m-w-100 w-100 h-a h-pr-fl-ma " Style="border: 1px solid; border-color: white;">
+            <SwiperSlide className="h-pr-fl-ma  w-100 b-s-b-b  m-t-20px">
+              <div
+                className="m-w-100 w-100 h-a h-pr-fl-ma "
+                Style="border: 1px solid; border-color: white;"
+              >
                 {" "}
-                 <ContentBox
-                    className="p-20px w-100"
-                    title={"Detección de necesidad."}
-                    category={"Investigación"}
-                    subtitle={"Estudio de su sector de mercado."}
-                  />
-                <div
-                  className=" m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px"
-                  
-                >
-
+                <ContentBox
+                  className="p-20px w-100"
+                  title={"Detección de necesidad."}
+                  category={"Investigación"}
+                  subtitle={"Estudio de su sector de mercado."}
+                />
+                <div className=" m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
                     <ContentBox
                       className="w-70 m-b-10px  p-10px"
@@ -102,7 +98,7 @@ const Plans = () => {
                     <ContentBox
                       className="w-30 m-b-10px t-a-r  p-10px"
                       Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"1 a 2 Días"}
+                      note={"1 semana"}
                     />
                   </div>
 
@@ -117,7 +113,7 @@ const Plans = () => {
                     <ContentBox
                       className="w-30 m-b-10px t-a-r  p-10px"
                       Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
+                      note={"2 a 3 semanas"}
                     />
                   </div>
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
@@ -131,11 +127,11 @@ const Plans = () => {
                     <ContentBox
                       className="w-30 m-b-10px t-a-r  p-10px"
                       Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
+                      note={"1 a 2 semanas"}
                     />
                   </div>
-                  </div>
-                  <div className="m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
+                </div>
+                <div className="m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
                     <ContentBox
                       className="w-70 m-b-10px p-10px"
@@ -147,7 +143,7 @@ const Plans = () => {
                     <ContentBox
                       className="w-30 m-b-10px t-a-r  p-10px"
                       Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
+                      note={"2 semanas / 1 mes"}
                     />
                   </div>
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
@@ -161,7 +157,7 @@ const Plans = () => {
                     <ContentBox
                       className="w-30 m-b-10px t-a-r  p-10px"
                       Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
+                      note={"1 a 3 meses"}
                     />
                   </div>
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
@@ -183,7 +179,7 @@ const Plans = () => {
                       <ContentBox
                         className="w-100 m-b-10px   p-10px"
                         Style="word-wrap: nowrap;  "
-                        note={
+                        text={
                           "Coordine una reunión ahora mismo y obtenga un presupuesto personalizado."
                         }
                       />
@@ -209,28 +205,29 @@ const Plans = () => {
               </div>{" "}
             </SwiperSlide>
 
-{/* ESTUDIO | AUDITORÍA SOCIAL ------------------------------------------------ */}
+            {/* ESTUDIO | AUDITORÍA SOCIAL ------------------------------------------------ */}
 
-<SwiperSlide className="h-pr-fl-ma  w-100 b-s-b-b  m-t-20px">
-              <div className="m-w-100 w-100 h-a h-pr-fl-ma " Style="border: 1px solid; border-color: white;">
+            <SwiperSlide className="h-pr-fl-ma  w-100 b-s-b-b  m-t-20px">
+              <div
+                className="m-w-100 w-100 h-a h-pr-fl-ma "
+                Style="border: 1px solid; border-color: white;"
+              >
                 {" "}
-                 <ContentBox
-                    className="p-20px w-100"
-                    title={"Auditoría social."}
-                    category={"Investigación"}
-                    subtitle={"Evaluación interna social y cultural."}
-                  />
-                <div
-                  className=" m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px"
-                  
-                >
-
+                <ContentBox
+                  className="p-20px w-100"
+                  title={"Auditoría social."}
+                  category={"Investigación"}
+                  subtitle={"Evaluación interna social y cultural."}
+                />
+                <div className=" m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
                     <ContentBox
                       className="w-70 m-b-10px  p-10px"
                       Style="border-bottom: 1px dotted; border-color: white; "
                       text={"• Encuestas internas."}
-                      note={"Informe de ambiente laboral entre colaboradores y socios."}
+                      note={
+                        "Informe de ambiente laboral entre colaboradores y socios."
+                      }
                       noteclassName="ns-c-e p-l-10px"
                     />
                     <ContentBox
@@ -245,18 +242,19 @@ const Plans = () => {
                       className="w-70 m-b-10px  p-10px"
                       Style="border-bottom: 1px dotted; border-color: white; "
                       text={"• Capacidad de migración."}
-                      note={"Evaluación de capacidad migratoria ante riesgos externos."}
+                      note={
+                        "Evaluación de capacidad migratoria ante riesgos externos."
+                      }
                       noteclassName="ns-c-e p-l-10px"
                     />
                     <ContentBox
                       className="w-30 m-b-10px t-a-r  p-10px"
                       Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
+                      note={"no definido"}
                     />
                   </div>
-                
-                  </div>
-                  <div className="m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
+                </div>
+                <div className="m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
                     <ContentBox
                       className="w-70 m-b-10px p-10px"
@@ -268,7 +266,7 @@ const Plans = () => {
                     <ContentBox
                       className="w-30 m-b-10px t-a-r  p-10px"
                       Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
+                      note={"no definido"}
                     />
                   </div>
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
@@ -282,17 +280,16 @@ const Plans = () => {
                     <ContentBox
                       className="w-30 m-b-10px t-a-r  p-10px"
                       Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
+                      note={"no definido"}
                     />
                   </div>
-                  
-                 
+
                   <div className="w-100 h-a h-pr-fl-ma d-i-f m-b-10px">
                     <div className="w-70 h-a h-pr-fl-ma ">
                       <ContentBox
                         className="w-100 m-b-10px   p-10px"
                         Style="word-wrap: nowrap;  "
-                        note={
+                        text={
                           "Coordine una reunión ahora mismo y obtenga un presupuesto personalizado."
                         }
                       />
@@ -318,28 +315,29 @@ const Plans = () => {
               </div>{" "}
             </SwiperSlide>
 
-           {/* ESTUDIO | AUDITORÍA FINANCIERA  ------------------------------------------------ */}
+            {/* ESTUDIO | AUDITORÍA FINANCIERA  ------------------------------------------------ */}
 
-<SwiperSlide className="h-pr-fl-ma  w-100 b-s-b-b  m-t-20px">
-              <div className="m-w-100 w-100 h-a h-pr-fl-ma " Style="border: 1px solid; border-color: white;">
+            <SwiperSlide className="h-pr-fl-ma  w-100 b-s-b-b  m-t-20px">
+              <div
+                className="m-w-100 w-100 h-a h-pr-fl-ma "
+                Style="border: 1px solid; border-color: white;"
+              >
                 {" "}
-                 <ContentBox
-                    className="p-20px w-100"
-                    title={"Auditoría financiera."}
-                    category={"Investigación"}
-                    subtitle={"Evaluación financiera y capacidad de crecimiento."}
-                  />
-                <div
-                  className=" m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px"
-                  
-                >
-
+                <ContentBox
+                  className="p-20px w-100"
+                  title={"Auditoría financiera."}
+                  category={"Investigación"}
+                  subtitle={"Evaluación financiera y capacidad de crecimiento."}
+                />
+                <div className=" m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
                     <ContentBox
                       className="w-70 m-b-10px  p-10px"
                       Style="border-bottom: 1px dotted; border-color: white; "
                       text={"• Auditoría financiera."}
-                      note={"Evaluación general de gastos, beneficios y retornos."}
+                      note={
+                        "Evaluación general de gastos, beneficios y retornos."
+                      }
                       noteclassName="ns-c-e p-l-10px"
                     />
                     <ContentBox
@@ -354,30 +352,33 @@ const Plans = () => {
                       className="w-70 m-b-10px  p-10px"
                       Style="border-bottom: 1px dotted; border-color: white; "
                       text={"• Capacidad de austeridad."}
-                      note={"Evaluación de capacidad de recortes ante emergencias."}
+                      note={
+                        "Evaluación de capacidad de recortes ante emergencias."
+                      }
                       noteclassName="ns-c-e p-l-10px"
                     />
                     <ContentBox
                       className="w-30 m-b-10px t-a-r  p-10px"
                       Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
+                      note={"no definido"}
                     />
                   </div>
-                
-                  </div>
-                  <div className="m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
+                </div>
+                <div className="m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
                     <ContentBox
                       className="w-70 m-b-10px p-10px"
                       Style="border-bottom: 1px dotted; border-color: white; "
                       text={"• Capacidad de riesgos financieros."}
-                      note={"Capacidad de riesgo financiero (limite de vitalidad)"}
+                      note={
+                        "Capacidad de riesgo financiero (limite de vitalidad)"
+                      }
                       noteclassName="ns-c-e p-l-10px"
                     />
                     <ContentBox
                       className="w-30 m-b-10px t-a-r  p-10px"
                       Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
+                      note={"no definido"}
                     />
                   </div>
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
@@ -385,23 +386,24 @@ const Plans = () => {
                       className="w-70 m-b-10px p-10px"
                       Style="border-bottom: 1px dotted; border-color: white; "
                       text={"• Análisis de documentación."}
-                      note={"Cumplimiento de regulaciones financieras actuales."}
+                      note={
+                        "Cumplimiento de regulaciones financieras actuales."
+                      }
                       noteclassName="ns-c-e p-l-10px"
                     />
                     <ContentBox
                       className="w-30 m-b-10px t-a-r  p-10px"
                       Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
+                      note={"no definido"}
                     />
                   </div>
-                  
-                 
+
                   <div className="w-100 h-a h-pr-fl-ma d-i-f m-b-10px">
                     <div className="w-70 h-a h-pr-fl-ma ">
                       <ContentBox
                         className="w-100 m-b-10px   p-10px"
                         Style="word-wrap: nowrap;  "
-                        note={
+                        text={
                           "Coordine una reunión ahora mismo y obtenga un presupuesto personalizado."
                         }
                       />
@@ -427,23 +429,21 @@ const Plans = () => {
               </div>{" "}
             </SwiperSlide>
 
-
             {/* ESTUDIO | AUDITORÍA LEGAL ----------------------------------------------- */}
 
-  <SwiperSlide className="h-pr-fl-ma  w-100 b-s-b-b  m-t-20px">
-              <div className="m-w-100 w-100 h-a h-pr-fl-ma " Style="border: 1px solid; border-color: white;">
+            <SwiperSlide className="h-pr-fl-ma  w-100 b-s-b-b  m-t-20px">
+              <div
+                className="m-w-100 w-100 h-a h-pr-fl-ma "
+                Style="border: 1px solid; border-color: white;"
+              >
                 {" "}
-                 <ContentBox
-                    className="p-20px w-100"
-                    title={"Auditoría legal."}
-                    category={"Investigación"}
-                    subtitle={"Detección de irregularidades y oportunidades."}
-                  />
-                <div
-                  className=" m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px"
-                  
-                >
-
+                <ContentBox
+                  className="p-20px w-100"
+                  title={"Auditoría legal."}
+                  category={"Investigación"}
+                  subtitle={"Detección de irregularidades y oportunidades."}
+                />
+                <div className=" m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
                     <ContentBox
                       className="w-70 m-b-10px  p-10px"
@@ -470,24 +470,25 @@ const Plans = () => {
                     <ContentBox
                       className="w-30 m-b-10px t-a-r  p-10px"
                       Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
+                      note={"no definido"}
                     />
                   </div>
-                
-                  </div>
-                  <div className="m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
+                </div>
+                <div className="m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
                     <ContentBox
                       className="w-70 m-b-10px p-10px"
                       Style="border-bottom: 1px dotted; border-color: white; "
                       text={"• Capacidad de migración."}
-                      note={"Evaluación de capacidad migratoria ante riesgos externos."}
+                      note={
+                        "Evaluación de capacidad migratoria ante riesgos externos."
+                      }
                       noteclassName="ns-c-e p-l-10px"
                     />
                     <ContentBox
                       className="w-30 m-b-10px t-a-r  p-10px"
                       Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
+                      note={"no definido"}
                     />
                   </div>
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
@@ -495,23 +496,24 @@ const Plans = () => {
                       className="w-70 m-b-10px p-10px"
                       Style="border-bottom: 1px dotted; border-color: white; "
                       text={"• Declaración de intención"}
-                      note={"Cumplimiento de facultades y responsabiliadades organizativas."}
+                      note={
+                        "Cumplimiento de facultades y responsabiliadades organizativas."
+                      }
                       noteclassName="ns-c-e p-l-10px"
                     />
                     <ContentBox
                       className="w-30 m-b-10px t-a-r  p-10px"
                       Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
+                      note={"no definido"}
                     />
                   </div>
-                 
-                 
+
                   <div className="w-100 h-a h-pr-fl-ma d-i-f m-b-10px">
                     <div className="w-70 h-a h-pr-fl-ma ">
                       <ContentBox
                         className="w-100 m-b-10px   p-10px"
                         Style="word-wrap: nowrap;  "
-                        note={
+                        text={
                           "Coordine una reunión ahora mismo y obtenga un presupuesto personalizado."
                         }
                       />
@@ -536,19 +538,27 @@ const Plans = () => {
                 </div>
               </div>{" "}
             </SwiperSlide>
-                      
-           </Swiper>
-           </div>  
-           
-
-
-            {/* CREACIÓN ------------------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */}
+          </Swiper>
+        </div>
+        {/* INFO | CONTENEDOR  ------------------------------------------------ */}
+     
+            <Info
+              className="w-100 p-10px m-t-20px m-b-20px"
+              title={"Info:"}
+              text={
+                " Algunos plazos de tiempo pueden variar dependiendo la complejidad de cada pieza, a su vez, existen procesos que se ejecutan en simultáneo por lo que no recomendamos tomar inicialmente la suma completa de todos los tiempos estimados como referencia."
+              }
+            />
+        
+        {/*   ------------------------------------------------ INFO | CONTENEDOR*/}
+       
+        {/* CREACIÓN ------------------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */}
         <div
           className="w-100 h-a h-pr-fl-ma  m-b-20px"
           Style="border-bottom: 1px solid; border-color: white;"
         >
           <div className="w-50 m-w-100 b-s-b-b h-a h-pr-fl-ma ">
-            <ContentBox 
+            <ContentBox
               title={"CREACIÓN."}
               subtitle={"Haga realidad sus productos y servicios."}
             />
@@ -559,13 +569,11 @@ const Plans = () => {
                 <ContentBox
                   className="w-100"
                   Style="word-wrap: nowrap;  "
-                  intitle={"¿Tiene una idea de lo que necesita pero aún no sabe qué plan le conviene más?"}
+                  intitle={
+                    "¿Tiene una idea de lo que necesita pero aún no sabe qué plan le conviene más?"
+                  }
                   intitleclassName=""
-                   
-                  
-              
-                >
-                </ContentBox>
+                ></ContentBox>
               </div>
               <div className="m-w-50 w-30 h-a h-pr-fr-ma">
                 <Btn
@@ -589,52 +597,49 @@ const Plans = () => {
         {/* CREACIÓN | CONTENEDOR  ------------------------------------------------ */}
         <div className="w-100 h-a h-pr-fl-ma  ">
           <Swiper
-            
             direction={"horizontal"}
             slidesPerView={1}
-        spaceBetween={10}
-        pagination={{
-          clickable: true,
-        }}
-      
-        
+            spaceBetween={10}
+            pagination={{
+              clickable: true,
+            }}
             keyboard={{
               enabled: true,
               onlyInViewport: false,
             }}
-            
             modules={[Keyboard, Pagination]}
             className="mySwiper w-100 h-a h-pr-fl-ma b-s-b-b"
           >
-  {/* ECREACIÓN | CREACIÓN DE MARCA ------------------------------------------------ */}
+            {/* CREACIÓN | CREACIÓN DE MARCA ------------------------------------------------ */}
 
-  <SwiperSlide className="h-pr-fl-ma  w-100 b-s-b-b  m-t-20px">
-              <div className="m-w-100 w-100 h-a h-pr-fl-ma " Style="border: 1px solid; border-color: white;">
+            <SwiperSlide className="h-pr-fl-ma  w-100 b-s-b-b  m-t-20px">
+              <div
+                className="m-w-100 w-100 h-a h-pr-fl-ma "
+                Style="border: 1px solid; border-color: white;"
+              >
                 {" "}
                 <ContentBox
-                    className="p-20px w-100"
-                    title={"Creación de marca."}
-                    category={"Investigación"}
-                    subtitle={"Creación de identidad corporativa."}
-                  />
-                <div
-                  className=" m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px"
-                  
-                ><div className="w-100 h-a h-pr-fl-ma d-i-f">
-                <ContentBox
-                  className="w-70 m-b-10px p-10px"
-                  Style="border-bottom: 1px dotted; border-color: white; "
-                  text={"• Naming corporativo/insitucional"}
-                  note={"El nombre que su proyecto necesita."}
-                  noteclassName="ns-c-e p-l-10px"
+                  className="p-20px w-100"
+                  title={"Creación de marca."}
+                  category={"Investigación"}
+                  subtitle={"Creación de identidad corporativa."}
                 />
-                <ContentBox
-                  className="w-30 m-b-10px t-a-r  p-10px"
-                  Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                  note={"3 a 4 semanas"}
-                />
-              </div>
-              <div className="w-100 h-a h-pr-fl-ma d-i-f">
+                <div className=" m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
+                  <div className="w-100 h-a h-pr-fl-ma d-i-f">
+                    <ContentBox
+                      className="w-70 m-b-10px p-10px"
+                      Style="border-bottom: 1px dotted; border-color: white; "
+                      text={"• Naming corporativo/insitucional"}
+                      note={"El nombre que su proyecto necesita."}
+                      noteclassName="ns-c-e p-l-10px"
+                    />
+                    <ContentBox
+                      className="w-30 m-b-10px t-a-r  p-10px"
+                      Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
+                      note={"1 semana"}
+                    />
+                  </div>
+                  <div className="w-100 h-a h-pr-fl-ma d-i-f">
                     <ContentBox
                       className="w-70 m-b-10px p-10px"
                       Style="border-bottom: 1px dotted; border-color: white; "
@@ -645,7 +650,7 @@ const Plans = () => {
                     <ContentBox
                       className="w-30 m-b-10px t-a-r  p-10px"
                       Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
+                      note={"1 a 2 semanas"}
                     />
                   </div>
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
@@ -653,23 +658,9 @@ const Plans = () => {
                       className="w-70 m-b-10px  p-10px"
                       Style="border-bottom: 1px dotted; border-color: white; "
                       text={"• Logotipo."}
-                      note={"Identificador marcario. Isotipo/Isologo/Imagotipo/Logotipo"}
-                      noteclassName="ns-c-e p-l-10px"
-                    />
-                    <ContentBox
-                      className="w-30 m-b-10px t-a-r  p-10px"
-                      Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"1 a 2 Días"}
-                    />
-                  </div>
-                  </div>
-                  <div className="m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
-                  <div className="w-100 h-a h-pr-fl-ma d-i-f">
-                    <ContentBox
-                      className="w-70 m-b-10px  p-10px"
-                      Style="border-bottom: 1px dotted; border-color: white; "
-                      text={"• Manual de uso de marca."}
-                      note={"Construcción, márgenes, usos, prohibiciones y más."}
+                      note={
+                        "Identificador marcario. Isotipo/Isologo/Imagotipo/Logotipo"
+                      }
                       noteclassName="ns-c-e p-l-10px"
                     />
                     <ContentBox
@@ -678,7 +669,25 @@ const Plans = () => {
                       note={"3 a 4 semanas"}
                     />
                   </div>
-                 
+                </div>
+                <div className="m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
+                  <div className="w-100 h-a h-pr-fl-ma d-i-f">
+                    <ContentBox
+                      className="w-70 m-b-10px  p-10px"
+                      Style="border-bottom: 1px dotted; border-color: white; "
+                      text={"• Manual de uso de marca."}
+                      note={
+                        "Construcción, márgenes, usos, prohibiciones y más."
+                      }
+                      noteclassName="ns-c-e p-l-10px"
+                    />
+                    <ContentBox
+                      className="w-30 m-b-10px t-a-r  p-10px"
+                      Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
+                      note={"4 a 6 semanas"}
+                    />
+                  </div>
+
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
                     <ContentBox
                       className="w-70 m-b-10px  p-10px"
@@ -690,16 +699,16 @@ const Plans = () => {
                     <ContentBox
                       className="w-30 m-b-10px t-a-r  p-10px"
                       Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"1 Semana"}
+                      note={"2 a 3 semanas"}
                     />
                   </div>
-                 
+
                   <div className="w-100 h-a h-pr-fl-ma d-i-f m-b-10px">
                     <div className="w-70 h-a h-pr-fl-ma ">
                       <ContentBox
                         className="w-100 m-b-10px   p-10px"
                         Style="word-wrap: nowrap;  "
-                        note={
+                        text={
                           "Coordine una reunión ahora mismo y obtenga un presupuesto personalizado."
                         }
                       />
@@ -724,35 +733,36 @@ const Plans = () => {
                 </div>
               </div>{" "}
             </SwiperSlide>
- {/* ECREACIÓN | PRESENTACIÓN DE MARCA ------------------------------------------------ */}
+            {/* ECREACIÓN | PRESENTACIÓN DE MARCA ------------------------------------------------ */}
 
- <SwiperSlide className="h-pr-fl-ma  w-100 b-s-b-b  m-t-20px">
-              <div className="m-w-100 w-100 h-a h-pr-fl-ma " Style="border: 1px solid; border-color: white;">
+            <SwiperSlide className="h-pr-fl-ma  w-100 b-s-b-b  m-t-20px">
+              <div
+                className="m-w-100 w-100 h-a h-pr-fl-ma "
+                Style="border: 1px solid; border-color: white;"
+              >
                 {" "}
                 <ContentBox
-                    className="p-20px w-100"
-                    title={"Presentación de marca."}
-                    category={"Investigación"}
-                    subtitle={"Todo para presentarse al mundo."}
-                  />
-                <div
-                  className=" m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px"
-                  
-                ><div className="w-100 h-a h-pr-fl-ma d-i-f">
-                <ContentBox
-                  className="w-70 m-b-10px p-10px"
-                  Style="border-bottom: 1px dotted; border-color: white; "
-                  text={"• Diseño landing page simple."}
-                  note={"Proyección de sitio web técnico."}
-                  noteclassName="ns-c-e p-l-10px"
+                  className="p-20px w-100"
+                  title={"Presentación de marca."}
+                  category={"Investigación"}
+                  subtitle={"Todo para presentarse al mundo."}
                 />
-                <ContentBox
-                  className="w-30 m-b-10px t-a-r  p-10px"
-                  Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                  note={"3 a 4 semanas"}
-                />
-              </div>
-              <div className="w-100 h-a h-pr-fl-ma d-i-f">
+                <div className=" m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
+                  <div className="w-100 h-a h-pr-fl-ma d-i-f">
+                    <ContentBox
+                      className="w-70 m-b-10px p-10px"
+                      Style="border-bottom: 1px dotted; border-color: white; "
+                      text={"• Diseño landing page simple."}
+                      note={"Proyección de sitio web técnico."}
+                      noteclassName="ns-c-e p-l-10px"
+                    />
+                    <ContentBox
+                      className="w-30 m-b-10px t-a-r  p-10px"
+                      Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
+                      note={"no definido"}
+                    />
+                  </div>
+                  <div className="w-100 h-a h-pr-fl-ma d-i-f">
                     <ContentBox
                       className="w-70 m-b-10px p-10px"
                       Style="border-bottom: 1px dotted; border-color: white; "
@@ -763,7 +773,7 @@ const Plans = () => {
                     <ContentBox
                       className="w-30 m-b-10px t-a-r  p-10px"
                       Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
+                      note={"no definido"}
                     />
                   </div>
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
@@ -780,8 +790,8 @@ const Plans = () => {
                       note={"1 a 2 Días"}
                     />
                   </div>
-                  </div>
-                  <div className="m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
+                </div>
+                <div className="m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
                     <ContentBox
                       className="w-70 m-b-10px  p-10px"
@@ -793,10 +803,10 @@ const Plans = () => {
                     <ContentBox
                       className="w-30 m-b-10px t-a-r  p-10px"
                       Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
+                      note={"no definido"}
                     />
                   </div>
-                 
+
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
                     <ContentBox
                       className="w-70 m-b-10px  p-10px"
@@ -811,13 +821,13 @@ const Plans = () => {
                       note={"1 Semana"}
                     />
                   </div>
-                 
+
                   <div className="w-100 h-a h-pr-fl-ma d-i-f m-b-10px">
                     <div className="w-70 h-a h-pr-fl-ma ">
                       <ContentBox
                         className="w-100 m-b-10px   p-10px"
                         Style="word-wrap: nowrap;  "
-                        note={
+                        text={
                           "Coordine una reunión ahora mismo y obtenga un presupuesto personalizado."
                         }
                       />
@@ -843,29 +853,29 @@ const Plans = () => {
               </div>{" "}
             </SwiperSlide>
 
+            {/* ESTUDIO | AUDITORÍA FINANCIERA  ------------------------------------------------ */}
 
-           {/* ESTUDIO | AUDITORÍA FINANCIERA  ------------------------------------------------ */}
-
-<SwiperSlide className="h-pr-fl-ma  w-100 b-s-b-b  m-t-20px">
-              <div className="m-w-100 w-100 h-a h-pr-fl-ma " Style="border: 1px solid; border-color: white;">
+            <SwiperSlide className="h-pr-fl-ma  w-100 b-s-b-b  m-t-20px">
+              <div
+                className="m-w-100 w-100 h-a h-pr-fl-ma "
+                Style="border: 1px solid; border-color: white;"
+              >
                 {" "}
-                 <ContentBox
-                    className="p-20px w-100"
-                    title={"Auditoría financiera."}
-                    category={"Investigación"}
-                    subtitle={"Evaluación financiera y capacidad de crecimiento."}
-                  />
-                <div
-                  className=" m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px"
-                  
-                >
-
+                <ContentBox
+                  className="p-20px w-100"
+                  title={"Auditoría financiera."}
+                  category={"Investigación"}
+                  subtitle={"Evaluación financiera y capacidad de crecimiento."}
+                />
+                <div className=" m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
                     <ContentBox
                       className="w-70 m-b-10px  p-10px"
                       Style="border-bottom: 1px dotted; border-color: white; "
                       text={"• Auditoría financiera."}
-                      note={"Evaluación general de gastos, beneficios y retornos."}
+                      note={
+                        "Evaluación general de gastos, beneficios y retornos."
+                      }
                       noteclassName="ns-c-e p-l-10px"
                     />
                     <ContentBox
@@ -880,30 +890,33 @@ const Plans = () => {
                       className="w-70 m-b-10px  p-10px"
                       Style="border-bottom: 1px dotted; border-color: white; "
                       text={"• Capacidad de austeridad."}
-                      note={"Evaluación de capacidad de recortes ante emergencias."}
+                      note={
+                        "Evaluación de capacidad de recortes ante emergencias."
+                      }
                       noteclassName="ns-c-e p-l-10px"
                     />
                     <ContentBox
                       className="w-30 m-b-10px t-a-r  p-10px"
                       Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
+                      note={"no definido"}
                     />
                   </div>
-                
-                  </div>
-                  <div className="m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
+                </div>
+                <div className="m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
                     <ContentBox
                       className="w-70 m-b-10px p-10px"
                       Style="border-bottom: 1px dotted; border-color: white; "
                       text={"• Capacidad de riesgos financieros."}
-                      note={"Capacidad de riesgo financiero (limite de vitalidad)"}
+                      note={
+                        "Capacidad de riesgo financiero (limite de vitalidad)"
+                      }
                       noteclassName="ns-c-e p-l-10px"
                     />
                     <ContentBox
                       className="w-30 m-b-10px t-a-r  p-10px"
                       Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
+                      note={"no definido"}
                     />
                   </div>
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
@@ -911,23 +924,24 @@ const Plans = () => {
                       className="w-70 m-b-10px p-10px"
                       Style="border-bottom: 1px dotted; border-color: white; "
                       text={"• Análisis de documentación."}
-                      note={"Cumplimiento de regulaciones financieras actuales."}
+                      note={
+                        "Cumplimiento de regulaciones financieras actuales."
+                      }
                       noteclassName="ns-c-e p-l-10px"
                     />
                     <ContentBox
                       className="w-30 m-b-10px t-a-r  p-10px"
                       Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
+                      note={"no definido"}
                     />
                   </div>
-                  
-                 
+
                   <div className="w-100 h-a h-pr-fl-ma d-i-f m-b-10px">
                     <div className="w-70 h-a h-pr-fl-ma ">
                       <ContentBox
                         className="w-100 m-b-10px   p-10px"
                         Style="word-wrap: nowrap;  "
-                        note={
+                        text={
                           "Coordine una reunión ahora mismo y obtenga un presupuesto personalizado."
                         }
                       />
@@ -953,23 +967,21 @@ const Plans = () => {
               </div>{" "}
             </SwiperSlide>
 
-
             {/* ESTUDIO | AUDITORÍA LEGAL ----------------------------------------------- */}
 
-  <SwiperSlide className="h-pr-fl-ma  w-100 b-s-b-b  m-t-20px">
-              <div className="m-w-100 w-100 h-a h-pr-fl-ma " Style="border: 1px solid; border-color: white;">
+            <SwiperSlide className="h-pr-fl-ma  w-100 b-s-b-b  m-t-20px">
+              <div
+                className="m-w-100 w-100 h-a h-pr-fl-ma "
+                Style="border: 1px solid; border-color: white;"
+              >
                 {" "}
-                 <ContentBox
-                    className="p-20px w-100"
-                    title={"Auditoría legal."}
-                    category={"Investigación"}
-                    subtitle={"Detección de irregularidades y oportunidades."}
-                  />
-                <div
-                  className=" m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px"
-                  
-                >
-
+                <ContentBox
+                  className="p-20px w-100"
+                  title={"Auditoría legal."}
+                  category={"Investigación"}
+                  subtitle={"Detección de irregularidades y oportunidades."}
+                />
+                <div className=" m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
                     <ContentBox
                       className="w-70 m-b-10px  p-10px"
@@ -996,24 +1008,25 @@ const Plans = () => {
                     <ContentBox
                       className="w-30 m-b-10px t-a-r  p-10px"
                       Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
+                      note={"no definido"}
                     />
                   </div>
-                
-                  </div>
-                  <div className="m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
+                </div>
+                <div className="m-w-100 w-50 h-a h-pr-fl-ma p-l-10px p-r-10px">
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
                     <ContentBox
                       className="w-70 m-b-10px p-10px"
                       Style="border-bottom: 1px dotted; border-color: white; "
                       text={"• Capacidad de migración."}
-                      note={"Evaluación de capacidad migratoria ante riesgos externos."}
+                      note={
+                        "Evaluación de capacidad migratoria ante riesgos externos."
+                      }
                       noteclassName="ns-c-e p-l-10px"
                     />
                     <ContentBox
                       className="w-30 m-b-10px t-a-r  p-10px"
                       Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
+                      note={"no definido"}
                     />
                   </div>
                   <div className="w-100 h-a h-pr-fl-ma d-i-f">
@@ -1027,17 +1040,16 @@ const Plans = () => {
                     <ContentBox
                       className="w-30 m-b-10px t-a-r  p-10px"
                       Style="word-wrap: nowrap; border-bottom: 1px solid; border-color: white; "
-                      note={"3 a 4 semanas"}
+                      note={"no definido"}
                     />
                   </div>
-                 
-                 
+
                   <div className="w-100 h-a h-pr-fl-ma d-i-f m-b-10px">
                     <div className="w-70 h-a h-pr-fl-ma ">
                       <ContentBox
                         className="w-100 m-b-10px   p-10px"
                         Style="word-wrap: nowrap;  "
-                        note={
+                        text={
                           "Coordine una reunión ahora mismo y obtenga un presupuesto personalizado."
                         }
                       />
@@ -1062,28 +1074,10 @@ const Plans = () => {
                 </div>
               </div>{" "}
             </SwiperSlide>
-                      
-           </Swiper>
-           </div>  
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           </div>{/* CONTENEDOR GENERAL */}
-
-
+          </Swiper>
+        </div>
+      </div>
+      {/* CONTENEDOR GENERAL */}
     </Fragment>
   );
 };

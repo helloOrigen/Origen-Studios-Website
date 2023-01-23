@@ -34,7 +34,7 @@ import Privacy from "./Views/privacy";
 import Cookies from "./Views/cookies";
 import Plans from "./Views/plans";
 import Page404 from "./Views/page404";
-
+import Process from "./Views/process";
 function App() {
   return (
     <BrowserRouter>
@@ -45,7 +45,7 @@ function App() {
         <div
           className=" l-0px r-0px t-0px b-0px m-a "/*blurbganimation */
           style={{
-            backgroundImage: `url(${Wallpaper2})`,
+            backgroundImage: `url(${Wallpaper8})`,
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
@@ -93,6 +93,7 @@ function App() {
            <Route path="/cookies" element={<Cookies/>} />
            <Route path="/privacy" element={<Privacy/>} />
            <Route path="/plans" element={<Plans/>} />
+           <Route path="/process" element={<Process/>} />
            <Route path="/**" element={ <Route path="/page404" element={<Page404/>} /> }/>
            
 </Routes>

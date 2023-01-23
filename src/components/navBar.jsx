@@ -23,7 +23,7 @@ const navBar = () => {
            
           <NavBarBtn className="m-d-n" text={"Planes"}></NavBarBtn>
         </Link>
-        <NavBarBtn className="m-d-n" text={"Metodología"}></NavBarBtn>
+        <Link to="/process"><NavBarBtn className="m-d-n" text={"Procedimiento"}></NavBarBtn></Link>
         <NavBarBtn className="m-d-n" text={"Parámetros"}></NavBarBtn>
       </div>
     </Fragment>
