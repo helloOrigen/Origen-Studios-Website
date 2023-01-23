@@ -1,17 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.1e55a931.css",
-    "main.js": "/static/js/main.1a9fffb3.js",
+    "main.js": "/static/js/main.3e1f86fc.js",
     "static/js/787.667ee9bb.chunk.js": "/static/js/787.667ee9bb.chunk.js",
+    "static/media/wallpaper-10.png": "/static/media/wallpaper-10.069e5da9a958fbb5f72d.png",
+    "static/media/wallpaper-11.png": "/static/media/wallpaper-11.2643c97c6618549d596d.png",
     "static/media/mundo-ilustracion.png": "/static/media/mundo-ilustracion.9e0ddd6d8880df59d27d.png",
+    "static/media/promo-1.png": "/static/media/promo-1.16fdbaa2e4815615b6ac.png",
     "static/media/wallpaper-7.png": "/static/media/wallpaper-7.5b4306d444f5925f21f4.png",
     "static/media/piramides-arabe.png": "/static/media/piramides-arabe.5658293a1e27ff684621.png",
     "static/media/wallpaper-4.png": "/static/media/wallpaper-4.a23230f5e4845892d3fb.png",
     "static/media/wallpaper-6.png": "/static/media/wallpaper-6.436944539e3eca915c7e.png",
+    "static/media/wallpaper-12.png": "/static/media/wallpaper-12.78b7e8fc95ea04adc087.png",
+    "static/media/wallpaper-13.png": "/static/media/wallpaper-13.54af588c2fafff0a394a.png",
     "static/media/wallpaper-2.png": "/static/media/wallpaper-2.2e90fcfe6fe5b0391587.png",
-    "static/media/promo-1.png": "/static/media/promo-1.597c9622386e32d54e28.png",
     "static/media/wallpaper-8.png": "/static/media/wallpaper-8.1dcf4b0733687bf5cbcb.png",
     "static/media/wallpaper-3.png": "/static/media/wallpaper-3.0161501307dee04b4694.png",
+    "static/media/wallpaper-9.png": "/static/media/wallpaper-9.911204ef455e727a5200.png",
+    "static/media/wallpaper-14.png": "/static/media/wallpaper-14.894cdeeb40ec2f52cd10.png",
     "static/media/nickolas-machado.png": "/static/media/nickolas-machado.a6afa4a9a34d4c6899d9.png",
     "static/media/patricia-cor.png": "/static/media/patricia-cor.b4bdb8e1d5151be3fc06.png",
     "static/media/wallpaper-1.png": "/static/media/wallpaper-1.5005c92d123adfa29782.png",
@@ -42,11 +48,11 @@
     "static/media/target.svg": "/static/media/target.03e97cd76de1bb159f11a62ccc6c58f2.svg",
     "static/media/menu_hamburger.svg": "/static/media/menu_hamburger.e854bcaf0d6d5edb88f3a755bd08c7a4.svg",
     "main.1e55a931.css.map": "/static/css/main.1e55a931.css.map",
-    "main.1a9fffb3.js.map": "/static/js/main.1a9fffb3.js.map",
+    "main.3e1f86fc.js.map": "/static/js/main.3e1f86fc.js.map",
     "787.667ee9bb.chunk.js.map": "/static/js/787.667ee9bb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e55a931.css",
-    "static/js/main.1a9fffb3.js"
+    "static/js/main.3e1f86fc.js"
   ]
 }

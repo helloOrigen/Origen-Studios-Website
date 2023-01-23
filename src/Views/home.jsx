@@ -9,14 +9,20 @@ import Btn from "../components/btn";
 import ContentBox from "../components/contentBox";
 import MessageWriting from "../assets/icons/message_writing.svg";
 
-import Wallpaper1 from "../assets/images/wallpaper-1.png";
-import Wallpaper2 from "../assets/images/wallpaper-2.png";
-import Wallpaper3 from "../assets/images/wallpaper-3.png";
-import Wallpaper4 from "../assets/images/wallpaper-4.png";
-import Wallpaper5 from "../assets/images/wallpaper-5.png";
-import Wallpaper6 from "../assets/images/wallpaper-6.png";
-import Wallpaper7 from "../assets/images/wallpaper-7.png";
-import Wallpaper8 from "../assets/images/wallpaper-8.png";
+import Wallpaper1 from '../assets/images/wallpaper-1.png';
+import Wallpaper2 from '../assets/images/wallpaper-2.png';
+import Wallpaper3 from '../assets/images/wallpaper-3.png';
+import Wallpaper4 from '../assets/images/wallpaper-4.png';
+import Wallpaper5 from '../assets/images/wallpaper-5.png';
+import Wallpaper6 from '../assets/images/wallpaper-6.png';
+import Wallpaper7 from '../assets/images/wallpaper-7.png';
+import Wallpaper8 from '../assets/images/wallpaper-8.png';
+import Wallpaper9 from '../assets/images/wallpaper-9.png';
+import Wallpaper10 from '../assets/images/wallpaper-10.png';
+import Wallpaper11 from '../assets/images/wallpaper-11.png';
+import Wallpaper12 from '../assets/images/wallpaper-12.png';
+import Wallpaper13 from '../assets/images/wallpaper-13.png';
+import Wallpaper14 from '../assets/images/wallpaper-14.png';
 
 import Promo1 from "../assets/images/promo/promo-1.png";
 
@@ -50,7 +56,7 @@ export default function Home(props) {
             <div className="w-100 h-a h-pr-fl-ma m-b-20px ">
               <div className="w-a h-a h-pr-fl-ma ">
                 <div className="w-a h-a h-pr-fl-ma p-l-10px ">
-                  <Btn className="" text="Coordinar ahora">
+                  <Btn className="" text="Coordinar ahora"  enlace={"https://calendly.com/origenstudios/first_steps"}>
                     <div className="w-25px h-25px m-5px h-pr-fl-ma">
                       <img
                         src={MessageWriting}
@@ -109,7 +115,7 @@ export default function Home(props) {
             <div className="w-100 h-a h-pr-fl-ma m-b-20px ">
               <div className="w-a h-a h-pr-fl-ma ">
                 <div className="w-a h-a h-pr-fl-ma p-l-10px ">
-                  <Btn className="" text="Coordinar ahora">
+                  <Btn className="" text="Coordinar ahora" enlace={"https://calendly.com/origenstudios/first_steps"}>
                     <div className="w-25px h-25px m-5px h-pr-fl-ma">
                       <img
                         src={MessageWriting}
@@ -149,7 +155,7 @@ export default function Home(props) {
               </SwiperSlide>
               <SwiperSlide className="h-pr-fl-ma  b-s-b-b">
                 <img
-                  src={Wallpaper2}
+                  src={Wallpaper12}
                   Style="Object-fit: cover; "
                   alt=""
                   className="w-100 h-100 h-pr-fl-ma  b-s-b-b"
@@ -173,7 +179,7 @@ export default function Home(props) {
               </SwiperSlide>
               <SwiperSlide className="h-pr-fl-ma  b-s-b-b">
                 <img
-                  src={Wallpaper5}
+                  src={Wallpaper11}
                   Style="Object-fit: cover; "
                   alt=""
                   className="w-100 h-100 h-pr-fl-ma   b-s-b-b"

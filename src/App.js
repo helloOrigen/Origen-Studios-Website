@@ -16,6 +16,15 @@ import Wallpaper5 from './assets/images/wallpaper-5.png';
 import Wallpaper6 from './assets/images/wallpaper-6.png';
 import Wallpaper7 from './assets/images/wallpaper-7.png';
 import Wallpaper8 from './assets/images/wallpaper-8.png';
+import Wallpaper9 from './assets/images/wallpaper-9.png';
+import Wallpaper10 from './assets/images/wallpaper-10.png';
+import Wallpaper11 from './assets/images/wallpaper-11.png';
+import Wallpaper12 from './assets/images/wallpaper-12.png';
+import Wallpaper13 from './assets/images/wallpaper-13.png';
+import Wallpaper14 from './assets/images/wallpaper-14.png';
+
+
+
 
 import "./Styles/seed.css";
 import "./Styles/home.css";
@@ -45,7 +54,7 @@ function App() {
         <div
           className=" l-0px r-0px t-0px b-0px m-a "/*blurbganimation */
           style={{
-            backgroundImage: `url(${Wallpaper8})`,
+            backgroundImage: `url(${Wallpaper14})`,
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
