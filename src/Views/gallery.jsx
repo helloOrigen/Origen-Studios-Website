@@ -1,20 +1,21 @@
 import React, { Fragment } from 'react'
 import ContentBox from '../components/contentBox'
+import Info from '../components/info'
 
-import Wallpaper1 from '../assets/images/wallpaper-1.png';
-import Wallpaper2 from '../assets/images/wallpaper-2.png';
-import Wallpaper3 from '../assets/images/wallpaper-3.png';
-import Wallpaper4 from '../assets/images/wallpaper-4.png';
-import Wallpaper5 from '../assets/images/wallpaper-5.png';
-import Wallpaper6 from '../assets/images/wallpaper-6.png';
-import Wallpaper7 from '../assets/images/wallpaper-7.png';
-import Wallpaper8 from '../assets/images/wallpaper-8.png';
-import Wallpaper9 from '../assets/images/wallpaper-9.png';
-import Wallpaper10 from '../assets/images/wallpaper-10.png';
-import Wallpaper11 from '../assets/images/wallpaper-11.png';
-import Wallpaper12 from '../assets/images/wallpaper-12.png';
-import Wallpaper13 from '../assets/images/wallpaper-13.png';
-import Wallpaper14 from '../assets/images/wallpaper-14.png';
+import Wallpaper1 from '../assets/images/compressed/wallpaper-1.png';
+import Wallpaper2 from '../assets/images/compressed/wallpaper-2.png';
+import Wallpaper3 from '../assets/images/compressed/wallpaper-3.png';
+import Wallpaper4 from '../assets/images/compressed/wallpaper-4.png';
+import Wallpaper5 from '../assets/images/compressed/wallpaper-5.png';
+import Wallpaper6 from '../assets/images/compressed/wallpaper-6.png';
+import Wallpaper7 from '../assets/images/compressed/wallpaper-7.png';
+import Wallpaper8 from '../assets/images/compressed/wallpaper-8.png';
+import Wallpaper9 from '../assets/images/compressed/wallpaper-9.png';
+import Wallpaper10 from '../assets/images/compressed/wallpaper-10.png';
+import Wallpaper11 from '../assets/images/compressed/wallpaper-11.png';
+import Wallpaper12 from '../assets/images/compressed/wallpaper-12.png';
+import Wallpaper13 from '../assets/images/compressed/wallpaper-13.png';
+import Wallpaper14 from '../assets/images/compressed/wallpaper-14.png';
 const Gallery = () => {
   return (
   <Fragment>
@@ -23,12 +24,12 @@ const Gallery = () => {
 
 
 
-    <div className="card-mosaic ">
+    <div className="card-mosaic m-b-20px">
       
       <div className="card h-e card-tall card-wide  ">
       <img
                         src={Wallpaper1}
-                        className="w-100 h-100 h-pr-fl-ma "
+                        className="w-100 h-100 h-pr-fl-ma  h-e-scale"
                         alt="Coordinar"
                         Style="object-fit: cover;"
                       />
@@ -135,7 +136,7 @@ const Gallery = () => {
 
 
 
-
+<Info title="Info:" text="Ninguna de las ilustraciones aquí presentadas son de uso comercial, conzoca más acerca del origen de estas ilustraciones y sus referencias en nuestras políticas de uso."></Info>
 
 
 

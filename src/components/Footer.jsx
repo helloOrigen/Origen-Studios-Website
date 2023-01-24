@@ -173,7 +173,8 @@ export default function Footer(props) {
            
           </div>{/* --------------- Block 5 */}
 
-          {/* Hamburger Menu --------------- */}
+          {/* Hamburger Menu Button --------------- */}
+          
           <div
             className="d-n m-d-b w-20  h-100  b-s-b-b h-pr-fl-ma p-l-10px t-a-l"
             Style="z-index: 99999999;"
@@ -186,7 +187,7 @@ export default function Footer(props) {
               alt="Menu"
             /> </label>
             </div>
-          </div>{/* -------------- Hamburger Menu*/}
+          </div>{/* -------------- Hamburger Menu Button */}
         </div>
     
       </div>

@@ -9,20 +9,20 @@ import Btn from "../components/btn";
 import ContentBox from "../components/contentBox";
 import MessageWriting from "../assets/icons/message_writing.svg";
 
-import Wallpaper1 from '../assets/images/wallpaper-1.png';
-import Wallpaper2 from '../assets/images/wallpaper-2.png';
-import Wallpaper3 from '../assets/images/wallpaper-3.png';
-import Wallpaper4 from '../assets/images/wallpaper-4.png';
-import Wallpaper5 from '../assets/images/wallpaper-5.png';
-import Wallpaper6 from '../assets/images/wallpaper-6.png';
-import Wallpaper7 from '../assets/images/wallpaper-7.png';
-import Wallpaper8 from '../assets/images/wallpaper-8.png';
-import Wallpaper9 from '../assets/images/wallpaper-9.png';
-import Wallpaper10 from '../assets/images/wallpaper-10.png';
-import Wallpaper11 from '../assets/images/wallpaper-11.png';
-import Wallpaper12 from '../assets/images/wallpaper-12.png';
-import Wallpaper13 from '../assets/images/wallpaper-13.png';
-import Wallpaper14 from '../assets/images/wallpaper-14.png';
+import Wallpaper1 from '../assets/images/compressed/wallpaper-1.png';
+import Wallpaper2 from '../assets/images/compressed/wallpaper-2.png';
+import Wallpaper3 from '../assets/images/compressed/wallpaper-3.png';
+import Wallpaper4 from '../assets/images/compressed/wallpaper-4.png';
+import Wallpaper5 from '../assets/images/compressed/wallpaper-5.png';
+import Wallpaper6 from '../assets/images/compressed/wallpaper-6.png';
+import Wallpaper7 from '../assets/images/compressed/wallpaper-7.png';
+import Wallpaper8 from '../assets/images/compressed/wallpaper-8.png';
+import Wallpaper9 from '../assets/images/compressed/wallpaper-9.png';
+import Wallpaper10 from '../assets/images/compressed/wallpaper-10.png';
+import Wallpaper11 from '../assets/images/compressed/wallpaper-11.png';
+import Wallpaper12 from '../assets/images/compressed/wallpaper-12.png';
+import Wallpaper13 from '../assets/images/compressed/wallpaper-13.png';
+import Wallpaper14 from '../assets/images/compressed/wallpaper-14.png';
 
 import Promo1 from "../assets/images/promo/promo-1.png";
 
@@ -125,7 +125,7 @@ export default function Home(props) {
                       <img
                         src={MessageWriting}
                         className="w-100 h-100 h-pr-fl-ma"
-                        Style="stroke: #ffffff !important;"
+                        Style="stroke: #ffffff !important; "
                         alt="Coordinar"
                       />
                     </div>
@@ -150,7 +150,7 @@ export default function Home(props) {
 
 
 
-              <SwiperSlide className="h-pr-fl-ma b-s-b-b">
+              <SwiperSlide className="h-pr-fl-ma b-s-b-b p-5px">
                 <img
                   src={Promo1}
                   Style="Object-fit: contain; "
@@ -158,7 +158,7 @@ export default function Home(props) {
                   className="w-100 h-100 h-pr-fl-ma  b-s-b-b"
                 />
               </SwiperSlide>
-              <SwiperSlide className="h-pr-fl-ma  b-s-b-b">
+              <SwiperSlide className="h-pr-fl-ma  b-s-b-b p-5px">
                 <img
                   src={Wallpaper12}
                   Style="Object-fit: cover; "
@@ -166,7 +166,7 @@ export default function Home(props) {
                   className="w-100 h-100 h-pr-fl-ma  b-s-b-b"
                 />
               </SwiperSlide>
-              <SwiperSlide className="h-pr-fl-ma  b-s-b-b">
+              <SwiperSlide className="h-pr-fl-ma  b-s-b-b p-5px">
                 <img
                   src={Wallpaper3}
                   Style="Object-fit: cover; "
@@ -174,7 +174,7 @@ export default function Home(props) {
                   className="w-100 h-100 h-pr-fl-ma   b-s-b-b"
                 />
               </SwiperSlide>
-              <SwiperSlide className="h-pr-fl-ma  b-s-b-b">
+              <SwiperSlide className="h-pr-fl-ma  b-s-b-b p-5px">
                 <img
                   src={Wallpaper4}
                   Style="Object-fit: cover; "
@@ -182,7 +182,7 @@ export default function Home(props) {
                   className="w-100 h-100 h-pr-fl-ma   b-s-b-b"
                 />
               </SwiperSlide>
-              <SwiperSlide className="h-pr-fl-ma  b-s-b-b">
+              <SwiperSlide className="h-pr-fl-ma  b-s-b-b p-5px">
                 <img
                   src={Wallpaper11}
                   Style="Object-fit: cover; "
@@ -190,7 +190,7 @@ export default function Home(props) {
                   className="w-100 h-100 h-pr-fl-ma   b-s-b-b"
                 />
               </SwiperSlide>
-              <SwiperSlide className="h-pr-fl-ma  b-s-b-b">
+              <SwiperSlide className="h-pr-fl-ma  b-s-b-b p-5px">
                 <img
                   src={Wallpaper6}
                   Style="Object-fit: cover; "
@@ -198,7 +198,7 @@ export default function Home(props) {
                   className="w-100 h-100 h-pr-fl-ma   b-s-b-b"
                 />
               </SwiperSlide>
-              <SwiperSlide className="h-pr-fl-ma  b-s-b-b">
+              <SwiperSlide className="h-pr-fl-ma  b-s-b-b p-5px">
                 <img
                   src={Wallpaper7}
                   Style="Object-fit: cover; "
@@ -206,7 +206,7 @@ export default function Home(props) {
                   className="w-100 h-100 h-pr-fl-ma   b-s-b-b"
                 />
               </SwiperSlide>
-              <SwiperSlide className="h-pr-fl-ma  b-s-b-b">
+              <SwiperSlide className="h-pr-fl-ma  b-s-b-b p-5px">
                 <img
                   src={Wallpaper8}
                   Style="Object-fit: cover; "
