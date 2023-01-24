@@ -5,7 +5,7 @@ import "swiper/css/pagination";
 
 import "swiper/css/navigation";
 import "../Styles/seed.css";
-import { Keyboard, Pagination } from "swiper";
+import { Autoplay, Keyboard, Pagination } from "swiper";
 import ContentBox from "../components/contentBox";
 import MapaMundi from "../assets/images/mapamundi.svg";
 import MundoVector from "../assets/images/mundo-vector.svg";
@@ -20,6 +20,10 @@ export default function Services(props) {
     <>
       <Swiper
         direction={"vertical"}
+        autoplay={{
+          delay: 8500,
+          disableOnInteraction: true,
+        }}
         keyboard={{
           enabled: true,
           onlyInViewport: false,
@@ -30,7 +34,7 @@ export default function Services(props) {
           
         }}
        
-        modules={[Keyboard, Pagination]}
+        modules={[Autoplay, Keyboard, Pagination]}
         className="mySwiper w-100 h-100 h-pr-fl-ma b-s-b-b "
       >
         {/* PORTADA ----------------------------------- */}

@@ -3,7 +3,7 @@ import React, { Fragment, useRef, useState, useEffect } from "react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Keyboard, Pagination } from "swiper";
+import { Autoplay, Keyboard, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Btn from "../components/btn";
 import ContentBox from "../components/contentBox";
@@ -86,6 +86,11 @@ export default function Home(props) {
           <div className="w-100 h-100 h-pr-fl-ma  b-s-b-b ">
             <Swiper
               direction={"horizontal"}
+              centeredSlides={true}
+        autoplay={{
+          delay: 5500,
+          disableOnInteraction: true,
+        }}
               keyboard={{
                 enabled: true,
                 onlyInViewport: false,
@@ -93,11 +98,11 @@ export default function Home(props) {
               pagination={{
                 clickable: true,
               }}
-              modules={[Keyboard, Pagination]}
+              modules={[Autoplay, Keyboard, Pagination]}
               className="mySwiper h-100 w-100 h-pr-fl-ma b-s-b-b"
             >
 
-<SwiperSlide className="d-n m-d-b h-pr-fl-ma  b-s-b-b">
+<SwiperSlide className="d-n m-d-b h-pr-fl-ma b-s-b-b">
 <div className="w-100 h-a h-pr-fl-ma r-v-c b-s-b-b">
             <h1
               className="w-a f-f-Gilroy c-white h-pr-fl-ma r-v-c h-a p-l-10px b-s-b-b m-a"
@@ -145,7 +150,7 @@ export default function Home(props) {
 
 
 
-              <SwiperSlide className="h-pr-fl-ma  b-s-b-b">
+              <SwiperSlide className="h-pr-fl-ma b-s-b-b">
                 <img
                   src={Promo1}
                   Style="Object-fit: contain; "

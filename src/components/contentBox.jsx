@@ -41,7 +41,7 @@ export default function contentBox(props) {
             className={` ${titleclassName} h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy d-i `} 
             Style=" font-size: 25px; font-weight: bold; line-height: 30px; color: white;" 
           >
-            {number && ( <div className={` ${numberclassName} m-b-10px h-pr-fl-ma ns-c-e w-and-h-30px t-a-c b-s-b-b of-h t-a-c m-r-10px `} Style="font-size: 13px; border: 1px solid; border-radius: 100%; border-color: white;"><div className="w-a h-a centered h-pr-fl-ma">{number}</div></div>        )} <div className="h-pr-fl-ma ">{title}</div>
+            {number && ( <div className={` ${numberclassName} m-b-10px h-pr-fl-ma ns-c-e w-and-h-30px t-a-c b-s-b-b of-h t-a-c m-r-10px `} Style="font-size: 13px; border: 1px solid; border-radius: 100%; border-color: white;"><div className="w-a h-a centered h-pr-fl-ma">{number}</div></div>        )} <div>{title}</div>
           </div>
         )}
         {subtitle && (

@@ -3,11 +3,33 @@ import ContentBox from "../components/contentBox";
 import Eye from "../assets/icons/eye.svg";
 import Target from "../assets/icons/target.svg";
 import Diamond from "../assets/icons/diamond.svg";
-
+import Logo from "../assets/logo/OS-logo-white.png";
 const About = () => {
   return (
     <Fragment>
       <div className="w-100 h-100 h-pr-fl-ma centered b-s-b-b of-auto ">
+
+        <div className="w-100 h-a h-pr-fl-ma d-f m-d-b" >
+        <div className="m-w-100 w-50 h-a h-pr-fl-ma p-20px" ><img
+              className="w-and-h-500px m-w-250px m-h-250px  r-h-c h-pr-fl-ma "
+              Style="object-fit: contain;"
+              src={Logo}
+            /></div>
+        <div className="m-w-100 w-50 h-a h-pr-fl-ma p-20px" > <ContentBox className="w-100 h-a" title={"Nuestra historia."}
+        subtitle="2023 - Montevideo, Uruguay. "/>
+        
+        <ContentBox className="w-100 h-a m-b-10px"  text="Un grupo conformado por una Programadora (Patricia Cor), un Administrativo Contable (Cesar Lima) y un Diseñador Gráfico Sr. (Nickolás Machado), nos reunimos con el fin de mejorar la calidad, optimizar los recursos y generar oportunidades reales de crecimiento en todos aquellos productos y servicios digitales que hoy en día, se ofrecen al público por miles de empresas a nivel regional e internacional.  "/> 
+        <ContentBox className="w-100 h-a m-b-10px"  text="En ese entonces, iniciamos con un ''Estudio de mercado'', con la idea de sectorizar nuestros ''Nichos Prospecto'', en función a nuestros Conocimientos, Habilidades y Experiencias, pero lo que encontramos nos impactó...  "/> 
+        <ContentBox className="w-100 h-a m-b-10px"  text="Actualmente, existen en internet un sin fin de sitios webs creados por ''Agencias de Desarrollo'' que no conocen de parámetros de rendimiento, optimización de recursos, y mucho menos certificación de calidad.  "/> 
+        <ContentBox className="w-100 h-a m-b-10px"  text="Estas empresas, ofrecen servicios tales como: ''¡Creamos su página web original en el día!'', o ''¡Creamos su logo en 10 minutos!'', a las claras, se puede ver que no solo los sitios webs son clones uno de otros, sino que también los ''Logotipos Originales'' son generados con plantillas online y carecen totalmente de cualquier tipo de parámetro de rendimiento y calidad. "/> 
+        <ContentBox className="w-100 h-a m-b-10px"  text="Es por eso, que decidimos unir fuerzas, con muchas y muy potentes ideas, comenzamos la travesía de ofrecer más y mejores servicios que cumplan con todo lo anteriormente mencionado, a su vez, buscamos implantar un estandar de rendimiento y calidad para ayudar a las empresas a ofrecerle lo mejor a sus clientes.  "/> 
+        <ContentBox className="w-100 h-a m-b-10px"  text="Y por ultimo, una pregunta muy frecuente... El Nombre... ¿A qué refiere?...  "/> 
+        
+
+        <ContentBox className="w-100 h-a m-b-10px"  text="Inspiraremos grandes cambios positivos, tenemos grandes planes, somos super ambiciosos/as, y crearemos oportunidades para muchas personas, eso nos brinda mucha motivación y nos da aliento para hacer eso que nos preparamos durante todas nuestras carreras... pero nada de esto será posible, sin un comienzo, un Origen."/> 
+               </div>
+        </div>
+
         <div className="m-w-100 w-33  h-100 h-pr-fl-ma p-20px">
           <div
             className="w-100 h-100 h-pr-fl-ma "
@@ -17,12 +39,13 @@ const About = () => {
               <div className="w-and-h-150px h-pr-fl-ma r-h-c circle p-20px">
               <img
                 src={Target}
-                className="w-100 h-100 h-pr-fl-ma" Style="stroke: #ffffff !important;"/> 
+                className="w-100 h-100 h-pr-fl-ma " Style="stroke: #ffffff !important;"/> 
               </div>
               <ContentBox
                 link={"enlace accion"}
                 className="w-100 p-20px h-a t-a-c"
                 title={"Misión"}
+                titleclassName={"t-a-c"}
                 subtitle={"Su nueva imagen de marca."}
                 text={
                   "Nuestra misión es ser el origen de un impacto positivo en el desarrollo de nuevas marcas. Nos enfocamos en elevar el estandar de calidad y rendimiento en todos los productos y servicios digitales, siendo la pieza maestra de las marcas y el ejemplo de inspiración que les ayude a alcanzar sus más ambiciosos proyectos."

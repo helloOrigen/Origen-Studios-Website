@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import ContentBox from "../components/contentBox";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Keyboard, Pagination } from "swiper";
+import { Autoplay, Keyboard, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -60,6 +60,10 @@ const Plans = () => {
         <div className="w-100 h-a h-pr-fl-ma m-b-20px ">
           <Swiper
             direction={"horizontal"}
+            autoplay={{
+              delay: 8500,
+              disableOnInteraction: true,
+            }}
             slidesPerView={1}
             spaceBetween={10}
             pagination={{
@@ -69,7 +73,7 @@ const Plans = () => {
               enabled: true,
               onlyInViewport: false,
             }}
-            modules={[Keyboard, Pagination]}
+            modules={[Autoplay, Keyboard, Pagination]}
             className="mySwiper w-100 h-a h-pr-fl-ma b-s-b-b"
           >
             {/* ESTUDIO | DETECCIÓN DE NECESIDAD------------------------------------------------ */}
@@ -596,8 +600,12 @@ const Plans = () => {
         </div>
         {/* CREACIÓN | CONTENEDOR  ------------------------------------------------ */}
         <div className="w-100 h-a h-pr-fl-ma  ">
-          <Swiper
+        <Swiper
             direction={"horizontal"}
+            autoplay={{
+              delay: 8500,
+              disableOnInteraction: true,
+            }}
             slidesPerView={1}
             spaceBetween={10}
             pagination={{
@@ -607,7 +615,7 @@ const Plans = () => {
               enabled: true,
               onlyInViewport: false,
             }}
-            modules={[Keyboard, Pagination]}
+            modules={[Autoplay, Keyboard, Pagination]}
             className="mySwiper w-100 h-a h-pr-fl-ma b-s-b-b"
           >
             {/* CREACIÓN | CREACIÓN DE MARCA ------------------------------------------------ */}

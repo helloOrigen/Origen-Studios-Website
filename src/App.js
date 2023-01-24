@@ -44,6 +44,8 @@ import Cookies from "./Views/cookies";
 import Plans from "./Views/plans";
 import Page404 from "./Views/page404";
 import Process from "./Views/process";
+import Gallery from "./Views/gallery";
+
 function App() {
   return (
     <BrowserRouter>
@@ -103,6 +105,7 @@ function App() {
            <Route path="/privacy" element={<Privacy/>} />
            <Route path="/plans" element={<Plans/>} />
            <Route path="/process" element={<Process/>} />
+           <Route path="/gallery" element={<Gallery/>} />
            <Route path="/**" element={ <Route path="/page404" element={<Page404/>} /> }/>
            
 </Routes>
