@@ -14,7 +14,8 @@ const navBar = () => {
         <Link to="/team">
           <NavBarBtn className="m-d-n" text={"Nosotros"}></NavBarBtn>
         </Link>
-        <NavBarBtn className="m-d-n" text={"Estructura"}></NavBarBtn>
+        <Link to="">
+        <NavBarBtn className="m-d-n" text={"Estructura"}></NavBarBtn></Link>
         <Link to="/services">
            
           <NavBarBtn className="m-d-n" text={"Servicios"}></NavBarBtn>
