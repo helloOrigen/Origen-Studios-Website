@@ -13,7 +13,7 @@ const Privacy = () => {
           <ContentBox
             className="w-100 h-a m-b-20px"
             title={"Políticas de privacidad"}
-            subtitle={"Conozca nuestra politica de privacidad."}
+            subtitle={"Conozca nuestras políticas de privacidad."}
           />
           {/* 1 INFORMACIÓN GENERAL ------------------------------------------------------------------ */}
           <ContentBox
@@ -830,7 +830,11 @@ Asimismo, si de la celebración de este contrato de compra entre <span Style="fo
                     {/*  ------------------------------------------------------------------ 17 QUEJAS Y RECLAMACIONES */}
        
        
-       
+       {/* ESPACIADO FINAL ------------------------------------------------------------------  */}
+
+
+<div className="w-100 h-150px h-pr-fl-ma m-b-20px b-s-b-b" Style="border: 1px solid; border-color: white;"><div className="w-80 h-a h-pr-fl-ma centered  t-a-c" Style="color: #666666;"> Fin del Documento | Políticas de Privacidad | 26 Ene 2023</div></div>
+{/* ------------------------------------------------------------------ ESPACIADO FINAL */}
        
        
         </div>

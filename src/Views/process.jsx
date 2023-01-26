@@ -81,7 +81,7 @@ const Process = () => {
               </div>
               <div className="w-100 h-a r-h-c h-pr-fl-ma  b-s-b-b">
                 <ContentBox
-                  subtitle="Completar Briefing"
+                  subtitle="COMPLETAR EL BRIEFING"
                   className=" w-100 t-a-c"
                 />{" "}
               </div>
@@ -102,7 +102,7 @@ const Process = () => {
               </div>
               <div className="w-100 h-a r-h-c h-pr-fl-ma  b-s-b-b">
                 <ContentBox
-                  subtitle="Coordinar equipo"
+                  subtitle="COORDINACIÓN DE EQUIPO Y RECURSOS"
                   className=" w-100 t-a-c"
                 />{" "}
               </div>
@@ -124,7 +124,7 @@ const Process = () => {
               </div>
               <div className="w-100 h-a r-h-c h-pr-fl-ma  b-s-b-b">
                 <ContentBox
-                  subtitle="Estudio y presupuesto"
+                  subtitle="ESTUDIO & PRESUPUESTO"
                   className=" w-100 t-a-c"
                 />{" "}
               </div>
@@ -145,7 +145,7 @@ const Process = () => {
               </div>
               <div className="w-100 h-a r-h-c h-pr-fl-ma  b-s-b-b">
                 <ContentBox
-                  subtitle="Solicitud de assets necesarios"
+                  subtitle="SOLICITUD DE ASSETS NECESARIOS"
                   className=" w-100 t-a-c"
                 />{" "}
               </div>
@@ -157,14 +157,37 @@ const Process = () => {
 
           </div>
           <div className="m-w-100 w-50 h-100 h-pr-fl-ma b-s-b-b p-20px">
-          <ContentBox title="PROCESOS DE PLANIFICACIÓN" className="m-b-20px"/>
-          <ContentBox className="m-b-20px" subtitle="1 Completar Briefing" text="Le enviaremos un briefing el cual podrá completar para darnos a conocer de forma exácta todo lo que espera recibir de su proyecto."
+        
+          <ContentBox 
+          className="w-100"
+            number="1"
+              title={"COMPLETAR EL BRIEFING."}
+            
+            />
+          <ContentBox className="m-b-20px p-20px" text="Le enviaremos un briefing el cual podrá completar para darnos a conocer de forma exácta todo lo que espera recibir de su proyecto."
           />
-          <ContentBox className="m-b-20px" subtitle="2 Coordinar equipo" text="Coordinaremos una reunión interna con nuestro equipo de expertos para conocer la cantidad de ."
+           <ContentBox 
+           className="w-100"
+            number="2"
+              title={"COORDINACIÓN DE EQUIPO Y RECURSOS"}
+     
+            />
+          <ContentBox className="m-b-20px p-20px" text="Coordinaremos una reunión interna con nuestro equipo de expertos para conocer la cantidad de ."
           />
-          <ContentBox className="m-b-20px" subtitle="3 Estudio y presupuesto" text="Evaluaremos su proyecto personalmente ofrecerle un presupuesto en base a puntos clave como: Cantidad de etapas, plazos estimados, nivel de complejidad, necesidad de contratación terciarizada, presupuesto necesario inicial, capacidad de optimización de recursos y más."
+           <ContentBox 
+           className=" w-100"
+            number="3"
+              title={"ESTUDIO & PRESUPUESTO"}
+     
+            />
+          <ContentBox className="m-b-20px p-20px"  text="Evaluaremos su proyecto personalmente ofrecerle un presupuesto en base a puntos clave como: Cantidad de etapas, plazos estimados, nivel de complejidad, necesidad de contratación terciarizada, presupuesto necesario inicial, capacidad de optimización de recursos y más."
+          /> <ContentBox 
+          className=" w-100"
+          number="4"
+            title={"SOLICITUD DE ASSETS NECESARIOS"}
+   
           />
-          <ContentBox className="m-b-20px" subtitle="4 Solicitud de assets necesarios" text="En caso de necesitar assets para realizar el proyecto, coordinaremos una reunión con usted para detallarle todo lo necesario, de lo contrario, podemos crear todos los assets necesarios con su previo consentimiento y ajustándonos a sus lineamientos generales."
+          <ContentBox className="m-b-20px p-20px" text="En caso de necesitar assets para realizar el proyecto, coordinaremos una reunión con usted para detallarle todo lo necesario, de lo contrario, podemos crear todos los assets necesarios con su previo consentimiento y ajustándonos a sus lineamientos generales."
           />
           </div> 
 
