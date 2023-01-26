@@ -35,7 +35,7 @@ const Team = () => {
                  className="w-100 h-a h-pr-fl-ma r-h-c f-w-bo ns-c-e t-a-c f-f-Gilroy"
                  Style="font-size: 10px; line-height: 15px;"
                >
-                 Desarrolladora FullStack.
+                 Dir/a. Depto. Desarrollo & Tecnologías.
                </div> 
              </div> 
           </div>
@@ -63,7 +63,7 @@ const Team = () => {
                  className="w-100 h-a h-pr-fl-ma r-h-c f-w-bo ns-c-e t-a-c f-f-Gilroy"
                  Style="font-size: 10px; line-height: 15px;"
                >
-                 Administración Contable.
+                Dir. Depto. Administración & Finanzas.
                </div> 
              </div> 
           </div>
@@ -91,7 +91,7 @@ const Team = () => {
                 className="w-100 h-a h-pr-fl-ma r-h-c f-w-bo ns-c-e t-a-c f-f-Gilroy"
                 Style="font-size: 10px; line-height: 15px;"
               >
-                Diseñador Gráfico Sr.
+                Dir. Depto. Producción y Diseño Digital.
               </div> 
             </div> 
           </div>
