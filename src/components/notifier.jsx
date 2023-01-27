@@ -43,7 +43,7 @@ const notifier=({ title, subtitle, text, className, note, action, link, Style, i
       <div  className="w-100 m-d-f h-pr-fl-ma ">
 
       <div className="w-100  m-w-33  h-a h-pr-fl-ma  p-5px">
-        <div  className="w-and-h-40px r-h-c  h-pr-fl-ma circle h-e c-p" Style="border: 1px solid; border-color: white;"><button  onClick={handleClose} type="button" className="centered f-f-Gilroy" Style="color:white;background-color:transparent;">X</button>  </div> 
+        <div  className="w-and-h-40px r-h-c  h-pr-fl-ma circle h-e c-p" onClick={handleClose} value={cookie.userName} onChange={handleChange} Style="border: 1px solid; border-color: white;"><button  onClick={handleClose} type="button" className="centered f-f-Gilroy" Style="color:white;background-color:transparent;"   >X</button>  </div> 
         </div> 
       
         <div className="d-n m-d-b w-100 m-w-33 h-pr-fl-ma p-5px">

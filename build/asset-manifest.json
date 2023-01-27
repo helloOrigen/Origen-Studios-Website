@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.64f28123.css",
-    "main.js": "/static/js/main.09fad132.js",
+    "main.css": "/static/css/main.d42e844d.css",
+    "main.js": "/static/js/main.0c4435e6.js",
     "static/js/787.667ee9bb.chunk.js": "/static/js/787.667ee9bb.chunk.js",
     "static/media/mundo-ilustracion.png": "/static/media/mundo-ilustracion.9e0ddd6d8880df59d27d.png",
     "static/media/promo-1.png": "/static/media/promo-1.16fdbaa2e4815615b6ac.png",
@@ -27,14 +27,14 @@
     "static/media/wallpaper-9.png": "/static/media/wallpaper-9.3eb8a4425ec0e3182ff4.png",
     "static/media/OS-logo-white.png": "/static/media/OS-logo-white.72ed374480f3e47fcaf7.png",
     "static/media/mapamundi.svg": "/static/media/mapamundi.1a5b7b0490884a8be0cefc2b549acd6a.svg",
-    "static/media/OS-logotipo-m-white-transparent_svg.svg": "/static/media/OS-logotipo-m-white-transparent_svg.1aae987bb583e59ec96ea1bb6739df1d.svg",
-    "static/media/supervised_user.svg": "/static/media/supervised_user.6e506300797b3cc90cdb85ee825e13dd.svg",
+    "static/media/OS-logotipo-m-white-transparent_svg.svg": "/static/media/OS-logotipo-m-white-transparent_svg.bb8af4776f19a31bef6d60e9283fbf68.svg",
     "index.html": "/index.html",
+    "static/media/supervised_user.svg": "/static/media/supervised_user.6e506300797b3cc90cdb85ee825e13dd.svg",
     "static/media/group.svg": "/static/media/group.ed3fdee926102adca546c92548c5555d.svg",
     "static/media/users.svg": "/static/media/users.7c62841beb92d35f1191d7f19b70eaad.svg",
     "static/media/lightbulb_on.svg": "/static/media/lightbulb_on.cdd9e92165dc9d57f3b7c7c5fed4f191.svg",
     "static/media/message_writing.svg": "/static/media/message_writing.c1483137cc0e4451f769dea0601fd7f2.svg",
-    "static/media/eye.svg": "/static/media/eye.0ff2a75e639faead204217144a789cc4.svg",
+    "static/media/eye.svg": "/static/media/eye.6f8b080ad1442db9447f0d23d4c1084a.svg",
     "static/media/quick_reference.svg": "/static/media/quick_reference.b36461f6ce859dfc2331cc3dcdbddb19.svg",
     "static/media/cloud_upload.svg": "/static/media/cloud_upload.51bb5be4c4dac78132edf58dcfd877da.svg",
     "static/media/info.svg": "/static/media/info.9e017f24e0ee9abd925d16e4b6ba5884.svg",
@@ -46,12 +46,12 @@
     "static/media/home.svg": "/static/media/home.ec942daf732640fb3bbabb42e3195fc0.svg",
     "static/media/target.svg": "/static/media/target.03e97cd76de1bb159f11a62ccc6c58f2.svg",
     "static/media/menu_hamburger.svg": "/static/media/menu_hamburger.e854bcaf0d6d5edb88f3a755bd08c7a4.svg",
-    "main.64f28123.css.map": "/static/css/main.64f28123.css.map",
-    "main.09fad132.js.map": "/static/js/main.09fad132.js.map",
+    "main.d42e844d.css.map": "/static/css/main.d42e844d.css.map",
+    "main.0c4435e6.js.map": "/static/js/main.0c4435e6.js.map",
     "787.667ee9bb.chunk.js.map": "/static/js/787.667ee9bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64f28123.css",
-    "static/js/main.09fad132.js"
+    "static/css/main.d42e844d.css",
+    "static/js/main.0c4435e6.js"
   ]
 }
