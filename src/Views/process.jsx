@@ -65,134 +65,136 @@ const Process = () => {
 
 {/* -------------------------------------------------------------------- PLANIFICACION*/}
 
-        <div className="w-100 h-a h-pr-fl-ma b-s-b-b m-b-20px">
 
-        <div className="m-w-100 w-50 m-h-a h-100 h-pr-fl-ma b-s-b-b">
-        <div
-            className="m-w-100 w-50 h-300px m-h-350px h-pr-fl-ma b-s-b-b p-10px"
-                 >
-            <div className="w-100 h-a h-pr-fl-ma r-v-c  b-s-b-b" Style="border-bottom: 1px solid; border-color:white;" >
-              <div className="w-and-h-150px r-h-c h-pr-fl-ma  b-s-b-b m-b-20px">
+<div className="w-100 h-pr-fl-ma m-b-20px">
+<div className="w-100 h-pr-fl-ma ">
+
+
+  
+<div className="m-w-100 w-50 h-pr-fl-ma   ">
+<div className="w-30 m-w-100 h-pr-fl-ma p-20px">
+<div className="w-and-h-150px r-h-c h-pr-fl-ma  b-s-b-b ">
               <img
-            className="w-100 h-100 h-pr-fl-ma centered"
+            className="w-100 h-100 h-pr-fl-ma "
             Style="object-fit: contain;"
             src={Documentlist}
             />
               </div>
-              <div className="w-100 h-a r-h-c h-pr-fl-ma  b-s-b-b">
-                <ContentBox
-                  subtitle="COMPLETAR EL BRIEFING"
-                  className=" w-100 t-a-c"
-                />{" "}
-              </div>
-            
-            </div>
-          </div>
-
- <div
-           className="m-w-100 w-50 h-300px m-h-350px h-pr-fl-ma b-s-b-b p-10px"
-                     >
-            <div className="w-100 h-a h-pr-fl-ma r-v-c  b-s-b-b"    Style="border-bottom: 1px solid; border-color:white;">
-              <div className="w-and-h-150px r-h-c h-pr-fl-ma  b-s-b-b m-b-20px">
-              <img
-            className="w-100 h-100 h-pr-fl-ma centered"
-            Style="object-fit: contain;"
-            src={Superviseduser}
-            />
-              </div>
-              <div className="w-100 h-a r-h-c h-pr-fl-ma  b-s-b-b">
-                <ContentBox
-                  subtitle="COORDINACIÓN DE EQUIPO Y RECURSOS"
-                  className=" w-100 t-a-c"
-                />{" "}
-              </div>
-            
-            </div>
-          </div>
-
-          <div
-            className="m-w-100 w-50 h-300px m-h-350px h-pr-fl-ma b-s-b-b p-10px"
-         
-          >
-            <div className="w-100 h-a h-pr-fl-ma r-v-c  b-s-b-b"  Style="border-bottom: 1px solid; border-color:white;">
-              <div className="w-and-h-150px r-h-c h-pr-fl-ma  b-s-b-b m-b-20px">
-              <img
-            className="w-100 h-100 h-pr-fl-ma centered"
-            Style="object-fit: contain;"
-            src={Quickreference}
-            />
-              </div>
-              <div className="w-100 h-a r-h-c h-pr-fl-ma  b-s-b-b">
-                <ContentBox
-                  subtitle="ESTUDIO & PRESUPUESTO"
-                  className=" w-100 t-a-c"
-                />{" "}
-              </div>
-            
-            </div>
-          </div>
-
-          <div
-           className="m-w-100 w-50 h-300px m-h-350px h-pr-fl-ma b-s-b-b p-10px"
-                     >
-            <div className="w-100 h-a h-pr-fl-ma r-v-c  b-s-b-b"  Style="border-bottom: 1px solid; border-color:white;">
-              <div className="w-and-h-150px r-h-c h-pr-fl-ma  b-s-b-b m-b-20px">
-              <img
-            className="w-100 h-100 h-pr-fl-ma centered"
-            Style="object-fit: contain;"
-            src={Cloudupload}
-            />
-              </div>
-              <div className="w-100 h-a r-h-c h-pr-fl-ma  b-s-b-b">
-                <ContentBox
-                  subtitle="SOLICITUD DE ASSETS NECESARIOS"
-                  className=" w-100 t-a-c"
-                />{" "}
-              </div>
-            
-            </div>
-          </div>
-
-
-
-          </div>
-          <div className="m-w-100 w-50 h-100 h-pr-fl-ma b-s-b-b p-20px">
-        
-          <ContentBox 
-          className="w-100"
-            number="1"
+</div>
+<div className="w-70 m-w-100  h-pr-fl-ma  ">
+<div className="w-100 h-a h-pr-fl-ma ">
+<ContentBox 
+          className="w-100 "
+            number="A"
               title={"COMPLETAR EL BRIEFING."}
             
             />
           <ContentBox className="m-b-20px p-20px" text="Le enviaremos un briefing el cual podrá completar para darnos a conocer de forma exácta todo lo que espera recibir de su proyecto."
           />
-           <ContentBox 
-           className="w-100"
-            number="2"
-              title={"COORDINACIÓN DE EQUIPO Y RECURSOS"}
-     
+</div>
+</div>
+</div>
+
+
+<div className="m-w-100 w-50 h-pr-fl-ma   ">
+<div className="w-30 m-w-100 h-pr-fl-ma p-20px">
+<div className="w-and-h-150px r-h-c h-pr-fl-ma  b-s-b-b ">
+              <img
+            className="w-100 h-100 h-pr-fl-ma "
+            Style="object-fit: contain;"
+            src={Superviseduser}
+            />
+              </div>
+</div>
+<div className="w-70 m-w-100  h-pr-fl-ma  ">
+<div className="w-100 h-a h-pr-fl-ma ">
+<ContentBox 
+          className="w-100 "
+            number="B"
+              title={"COORDINACIÓN DE EQUIPO Y RECURSOS."}
+            
             />
           <ContentBox className="m-b-20px p-20px" text="Coordinaremos una reunión interna con nuestro equipo de expertos para conocer la cantidad de ."
           />
-           <ContentBox 
-           className=" w-100"
-            number="3"
-              title={"ESTUDIO & PRESUPUESTO"}
-     
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div className="m-w-100 w-50 h-pr-fl-ma   ">
+<div className="w-30 m-w-100 h-pr-fl-ma p-20px">
+<div className="w-and-h-150px r-h-c h-pr-fl-ma  b-s-b-b ">
+              <img
+            className="w-100 h-100 h-pr-fl-ma "
+            Style="object-fit: contain;"
+            src={Quickreference}
             />
-          <ContentBox className="m-b-20px p-20px"  text="Evaluaremos su proyecto personalmente ofrecerle un presupuesto en base a puntos clave como: Cantidad de etapas, plazos estimados, nivel de complejidad, necesidad de contratación terciarizada, presupuesto necesario inicial, capacidad de optimización de recursos y más."
-          /> <ContentBox 
-          className=" w-100"
-          number="4"
-            title={"SOLICITUD DE ASSETS NECESARIOS"}
-   
+              </div>
+</div>
+<div className="w-70 m-w-100  h-pr-fl-ma  ">
+<div className="w-100 h-a h-pr-fl-ma ">
+<ContentBox 
+          className="w-100 "
+            number="C"
+              title={"ESTUDIO & PRESUPUESTO."}
+            
+            />
+          <ContentBox className="m-b-20px p-20px" text="Evaluaremos su proyecto personalmente ofrecerle un presupuesto en base a puntos clave como: Cantidad de etapas, plazos estimados, nivel de complejidad, necesidad de contratación terciarizada, presupuesto necesario inicial, capacidad de optimización de recursos y más."
           />
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<div className="m-w-100 w-50 h-pr-fl-ma   ">
+<div className="w-30 m-w-100 h-pr-fl-ma p-20px">
+<div className="w-and-h-150px r-h-c h-pr-fl-ma  b-s-b-b ">
+              <img
+            className="w-100 h-100 h-pr-fl-ma "
+            Style="object-fit: contain;"
+            src={Cloudupload}
+            />
+              </div>
+</div>
+<div className="w-70 m-w-100  h-pr-fl-ma  ">
+<div className="w-100 h-a h-pr-fl-ma ">
+<ContentBox 
+          className="w-100 "
+            number="D"
+              title={"SOLICITUD DE ASSETS NECESARIOS."}
+            
+            />
           <ContentBox className="m-b-20px p-20px" text="En caso de necesitar assets para realizar el proyecto, coordinaremos una reunión con usted para detallarle todo lo necesario, de lo contrario, podemos crear todos los assets necesarios con su previo consentimiento y ajustándonos a sus lineamientos generales."
           />
-          </div> 
+</div>
+</div>
+</div>
 
-        </div>
 
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+       
 {/* PRODUCCIÓN -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */}
 <div
           className="w-100 h-a h-pr-fl-ma m-b-20px "

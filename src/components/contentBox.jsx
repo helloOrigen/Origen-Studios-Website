@@ -38,10 +38,10 @@ export default function contentBox(props) {
        
         {title && (
           <div
-            className={` ${titleclassName} h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy d-i `} 
+            className={` ${titleclassName} h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy `} 
             Style=" font-size: 25px; font-weight: bold; line-height: 30px; color: white;" 
           >
-            {number && ( <div className={` ${numberclassName} m-b-10px h-pr-fl-ma ns-c-e w-and-h-30px t-a-c b-s-b-b of-h t-a-c m-r-10px `} Style="font-size: 13px; border: 1px solid; border-radius: 100%; border-color: white;"><div className="w-a h-a centered h-pr-fl-ma">{number}</div></div>        )} <div>{title}</div>
+            {number && ( <div className={` ${numberclassName} m-b-10px h-pr-fl-ma ns-c-e w-and-h-30px t-a-c b-s-b-b of-h t-a-c m-r-10px flexbox`} Style="font-size: 13px; border: 1px solid; border-radius: 100%; border-color: white;"><div className="w-50px  h-a h-pr-fl-ma" Style="bottom: 1px;">{number}</div></div> )} <div className="w-80 h-a h-pr-fl-ma">{title}</div>
           </div>
         )}
         {subtitle && (
