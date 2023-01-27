@@ -83,7 +83,7 @@ export default function Footer(props) {
               </span>
             </Link> 
             <br />
-             <Link to="/">
+             <Link to="/process">
               <span className="  hover-underline-animation">
                 Metodología y producción.
               </span>
