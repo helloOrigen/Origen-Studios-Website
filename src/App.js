@@ -75,8 +75,8 @@ function App() {
           {/* 70% Height  Body Container*/}
           <div className="h-pr-fl-ma w-100 h-100  b-s-b-b of-n  ">
             <div className="w-90 c-white h-100   r-h-c h-pr-fl-ma ">
-              {/* Todas las views se renderizan aquí*/} <MobileMenu/>
 
+              {/* Todas las views se renderizan aquí*/} {/*<MobileMenu/>*/}
            
                <Routes>
           <Route exact path="/" element={<Home/>} />

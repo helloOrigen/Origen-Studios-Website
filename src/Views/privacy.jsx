@@ -1,4 +1,4 @@
-import React, { Fragment,ol,li,ul,dt } from "react";
+import React, { Fragment} from "react";
 import ContentBox from "../components/contentBox";
 
 const Privacy = () => {
@@ -833,7 +833,7 @@ Asimismo, si de la celebración de este contrato de compra entre <span Style="fo
        {/* ESPACIADO FINAL ------------------------------------------------------------------  */}
 
 
-<div className="w-100 h-150px h-pr-fl-ma m-b-20px b-s-b-b" Style="border: 1px solid; border-color: white;"><div className="w-80 h-a h-pr-fl-ma centered  t-a-c" Style="color: #666666;"> Fin del Documento | Políticas de Privacidad | 26 Ene 2023</div></div>
+<div className="w-100 h-150px h-pr-fl-ma m-b-20px b-s-b-b" Style="border: 1px solid; border-color: white;"><div className="w-80 h-a h-pr-fl-ma centered  t-a-c" Style="color: #666666;"> Fin del Documento | Políticas de Privacidad | 26 Ene 2023</div></div><span className="w-100 h-pr-fl-ma"><br />&nbsp;</span>
 {/* ------------------------------------------------------------------ ESPACIADO FINAL */}
        
        

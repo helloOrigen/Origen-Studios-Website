@@ -45,7 +45,7 @@ export default function Services(props) {
             src={MapaMundi}
             />
           <div className="w-100 h-500px p-a a-h-c a-v-c" Style="font-size: 30px; color: white;" ><div className="w-100 r-v-c t-a-c"><div className="w-100 f-f-Gilroy" Style="font-size: 25px; line-height: 30px;">Servicios para</div>
-          <div className="w-100 f-f-Gilroy f-w-bo  ns-c-e" Style="font-size: 110px; line-height: 115px;">TODO EL MUNDO</div></div></div>
+          <div className="w-100 f-f-Gilroy f-w-bo  ns-c-e ns-f-s-giant m-ns-f-s-big" >TODO EL MUNDO</div></div></div>
         </SwiperSlide>
         
            

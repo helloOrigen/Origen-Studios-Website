@@ -1012,7 +1012,7 @@ Tanto el Cliente como <span Style="font-weight: bold;">
 {/* ESPACIADO FINAL ------------------------------------------------------------------  */}
 
 
-<div className="w-100 h-150px h-pr-fl-ma m-b-20px b-s-b-b" Style="border: 1px solid; border-color: white;"><div className="w-80 h-a h-pr-fl-ma centered  t-a-c" Style="color: #666666;"> Fin del Documento | Términos y Condiciones | 26 Ene 2023</div></div>
+<div className="w-100 h-150px h-pr-fl-ma m-b-20px b-s-b-b" Style="border: 1px solid; border-color: white;"><div className="w-80 h-a h-pr-fl-ma centered  t-a-c" Style="color: #666666;"> Fin del Documento | Términos y Condiciones | 26 Ene 2023</div></div><span className="w-100 h-pr-fl-ma"><br />&nbsp;</span>
 {/* ------------------------------------------------------------------ ESPACIADO FINAL */}
 
         </div>
