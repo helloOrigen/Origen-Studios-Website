@@ -12179,87 +12179,88 @@ i.success {
 
 /* =================-------| NODE FONT SIZE |-------================= */
 .ns-f-s-title {
-  font-size: 23px;
-  line-height: 20px;
+  font-size: 25px;
+  line-height: 30px;
 }
-
-.ns-f-s-subtitle {
-  font-size: 1.125em;
-  line-height: 20px;
-}
-
-.ns-f-s-text {
-  font-size: 0.813em;
-  line-height: 20px;
-}
-
-.ns-f-s-nano {
-  font-size: 0.625em;
-  line-height: 12px;
-}
-
-.ns-f-s-small {
-  font-size: 0.875em;
-  line-height: 18px;
-}
-
-.ns-f-s-normal {
-  font-size: 1em;
-  line-height: 20px;
-}
-
-.ns-f-s-medium {
-  font-size: 1.438em;
+  .ns-f-s-subtitle {
+  font-size: 20em;
   line-height: 25px;
 }
-
-.ns-f-s-big {
-  font-size: 2.063em;
-  line-height: 35px;
+  .ns-f-s-text {
+  font-size: 15px;
+  line-height: 20px;
 }
-
-.ns-f-s-giant {
-  font-size: 3.125em;
-  line-height: 45px;
+  .ns-f-s-nano {
+  font-size: 10px;
+  line-height: 15px;
+}
+  .ns-f-s-small {
+  font-size: 8px;
+  line-height: 10px;
+}
+  .ns-f-s-normal {
+  font-size: 15px;
+  line-height: 20px;
+}
+  .ns-f-s-medium {
+  font-size: 25px;
+  line-height: 30px;
+}
+  .ns-f-s-big {
+  font-size: 70px;
+  line-height: 75px;
+}
+  .ns-f-s-giant {
+  font-size: 110px;
+  line-height: 115px;
 }
 
 /* Responsive */
 @media only screen and (max-width: 768px) {
   .m-ns-f-s-title {
-    font-size: 23px;
-    line-height: 20px;
+  
+    font-size: 25px;
+    line-height: 30px;
   }
   .m-ns-f-s-subtitle {
-    font-size: 1.125em;
-    line-height: 20px;
+   
+    font-size: 20em;
+    line-height: 25px;
   }
   .m-ns-f-s-text {
-    font-size: 0.813em;
+   
+    font-size: 15px;
     line-height: 20px;
   }
   .m-ns-f-s-nano {
-    font-size: 0.625em;
-    line-height: 12px;
+   
+    font-size: 10px;
+    line-height: 15px;
   }
   .m-ns-f-s-small {
-    font-size: 0.875em;
-    line-height: 18px;
+   
+    font-size: 8px;
+    line-height: 10px;
   }
   .m-ns-f-s-normal {
-    font-size: 1em;
+  
+    font-size: 15px;
     line-height: 20px;
   }
   .m-ns-f-s-medium {
-    font-size: 1.438em;
-    line-height: 25px;
+ 
+    font-size: 25px;
+    line-height: 30px;
   }
   .m-ns-f-s-big {
-    font-size: 2.063em;
-    line-height: 35px;
+   
+    font-size: 70px;
+    line-height: 75px;
   }
   .m-ns-f-s-giant {
-    font-size: 3.125em;
-    line-height: 45px;
+   
+    font-size: 110px;
+    line-height: 115px;
   }
 }
 
