@@ -1,0 +1,11 @@
+ul{
+    display: none;
+  }
+  
+  input:checked  ~ ul{
+    display:block;
+    
+  }
+  input {
+    display: none;
+  }
