@@ -72,6 +72,10 @@ import "../Styles/home.css";
               <NavBarBtn className="w-100 h-100 h-pr-fl-ma p-10px p-t-30px b" text={"Parámetros"}></NavBarBtn>
             </div>
           </Link>
+          <div
+className="w-100 h-a h-pr-fl-ma hover-underline-animation p-b-20px p-t-20px "
+
+><div className="m-t-20px m-b-30px w-100 h-100px h-pr-fl-ma t-a-c b-s-b-b" Style="border: 1px solid; border-color: white;"><div className="h-pr-fl-ma w-a h-a centered ">Proximamente Banner Promo</div> </div></div>
         </div>
     </div>
     </ul>
@@ -83,3 +87,4 @@ import "../Styles/home.css";
 
 
 export default mobileMenu
+
