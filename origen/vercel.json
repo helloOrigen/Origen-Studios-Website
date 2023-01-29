@@ -1,0 +1,14 @@
+{
+  "versión" : 2 ,
+  "rutas" : [
+    { "origen" : " /[^.] + " , "destino" : " /index.html "  s
+"estado" : 200 },
+
+  ]
+}{
+  "reescribe" : [
+    {
+      "fuente" : " /:ruta* " ,
+      "destino" : " /index.html "
+    }
+  ]
