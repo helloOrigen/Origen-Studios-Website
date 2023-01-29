@@ -8,6 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Btn from "../components/btn";
 import ContentBox from "../components/contentBox";
 import MessageWriting from "../assets/icons/message_writing.svg";
+import Typewriter from "../components/tipewriter";
 
 import Wallpaper1 from '../assets/images/compressed/wallpaper-1.png';
 import Wallpaper2 from '../assets/images/compressed/wallpaper-2.png';
@@ -44,7 +45,7 @@ export default function Home(props) {
               className="w-a f-f-Gilroy c-white h-pr-fl-ma r-v-c h-a p-l-10px b-s-b-b m-a"
               Style="font-size: 50px; line-height: 55px;"
             >
-              <b>Le damos la bienvenida...</b>
+              <b >Le damos la bienvenida...</b>
             </h1>
             <h1
               className="w-a f-f-Gilroy c-white h-pr-fl-ma  r-v-c h-a p-l-10px b-s-b-b m-a"

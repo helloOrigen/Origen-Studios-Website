@@ -5,10 +5,6 @@ import OSLogotipo from '../assets/logo/OS-logotipo-m-white-transparent_svg.svg';
 export default function navBarLogo(props) {
     const {
 
-     left,
-     center,
-     right,
-
   
     } = props;
   
