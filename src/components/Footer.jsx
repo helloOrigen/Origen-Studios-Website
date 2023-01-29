@@ -16,7 +16,7 @@ export default function Footer(props) {
           className="w-100 r-h-c h-100 h-pr-fl-ma b-s-b-b d-i-f "
           Style="font-size: 10px; color: white; line-height: 15px; "
         > {/* Block 1 --------------- */}
-          <div className="m-d-n w-25  h-100  b-s-b-b h-pr-fl-ma p-l-10px p-r-10px">
+          <div className="noselect m-d-n w-25  h-100  b-s-b-b h-pr-fl-ma p-l-10px p-r-10px">
           <div className="p-t-10px w-100 m-d-n">&nbsp;</div>
             {/* Bloque 1 - 25% height */}
             <b>
@@ -30,7 +30,7 @@ export default function Footer(props) {
               href="mailto:hello@origenstudios.com"
               alt="Comuníquese con nosotros!"
             >
-              <span className="hover-underline-animation">
+              <span className="noselect hover-underline-animation">
                 hello@origenstudios.com
               </span>
             </a> 
@@ -49,25 +49,25 @@ export default function Footer(props) {
             </Link>
             <br />
              <Link to="/">
-              <span className="  hover-underline-animation">
+              <span className=" noselect  hover-underline-animation">
                 Agendar consultas.
               </span>
             </Link>
             <br />
             <Link to="/carreers">
-              <span className="  hover-underline-animation">
+              <span className=" noselect  hover-underline-animation">
                 Empleos y pasantías.
               </span>
             </Link> 
             <br />
              <Link to="/">
-              <span className="  hover-underline-animation">
+              <span className=" noselect  hover-underline-animation">
                 Planes de beneficencia.
               </span>
             </Link> 
             <br />
              <Link to="/">
-              <span className="  hover-underline-animation">
+              <span className=" noselect  hover-underline-animation">
                 Planes cooperativos.
               </span>
             </Link> 
@@ -78,7 +78,7 @@ export default function Footer(props) {
           <div className="p-t-10px w-100 m-d-n">&nbsp;</div>
             {/* Bloque 3 - 25% height */}
             <Link to="/about">
-              <span className="hover-underline-animation">
+              <span className="noselect hover-underline-animation">
                 Nuestra empresa.
               </span>
             </Link> 
@@ -90,19 +90,19 @@ export default function Footer(props) {
             </Link> 
             <br />
              <Link to="/">
-              <span className="  hover-underline-animation">
+              <span className=" noselect  hover-underline-animation">
                 Recursos estratégicos.
               </span>
             </Link> 
             <br />
              <Link to="/">
-              <span className="  hover-underline-animation">
+              <span className=" noselect  hover-underline-animation">
                 Generación de oportunidades.
               </span>
             </Link> 
             <br />
              <Link to="/">
-              <span className="  hover-underline-animation">
+              <span className=" noselect  hover-underline-animation">
                 Casos de éxito.
               </span>
             </Link> 
@@ -113,25 +113,25 @@ export default function Footer(props) {
              <div className="p-t-10px w-100 m-d-n">&nbsp;</div>
             {/* Bloque 4 - 25% height */}
             <Link to="/faq">
-              <span className="  hover-underline-animation">
+              <span className="noselect   hover-underline-animation">
                 Preguntas frecuentes.
               </span>
             </Link> 
             <br />
             <Link to="/terms">
-              <span className="  hover-underline-animation">
+              <span className=" noselect  hover-underline-animation">
                 Términos y condiciones.
               </span>
             </Link> 
             <br />
             <Link to="/privacy">
-              <span className="  hover-underline-animation">
+              <span className=" noselect  hover-underline-animation">
                 Políticas de privacidad.
               </span>
             </Link> 
             <br />
             <Link to="/cookies" className="m-d-n">
-              <span className=" hover-underline-animation">
+              <span className="noselect  hover-underline-animation">
                 Uso de cookies.
               </span>
             </Link> 
@@ -139,7 +139,7 @@ export default function Footer(props) {
           </div> {/* --------------- Block 4 */}
 
  {/* Block 5 DESKTOP ONLY --------------- */}
- <div className="m-d-n  w-20 h-100 b-s-b-b h-pr-fl-ma ">
+ <div className="noselect m-d-n  w-20 h-100 b-s-b-b h-pr-fl-ma ">
              
 
           <div className="h-pr-fr-ma w-120px r-v-c h-25px  t-1s b-s-b-b">
@@ -154,19 +154,19 @@ export default function Footer(props) {
           <div className="p-t-10px w-100 m-d-n">&nbsp;</div>
             {/* Bloque 2 - 25% height */}
              <Link to="/">
-              <span className="hover-underline-animation">
+              <span className="noselect hover-underline-animation">
                 Próximos eventos.
               </span>
             </Link>
             <br />
              <Link to="/">
-              <span className="  hover-underline-animation">
+              <span className=" noselect  hover-underline-animation">
                 Agendar consultas.
               </span>
             </Link>
             <br />
              <Link to="/">
-              <span className="  hover-underline-animation">
+              <span className=" noselect  hover-underline-animation">
                 Empleos y pasantías.
               </span>
             </Link> 

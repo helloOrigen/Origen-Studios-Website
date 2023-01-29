@@ -12,20 +12,21 @@ const navBar = () => {
           <NavBarLogo right />
         </Link>
         <Link to="/team">
-          <NavBarBtn className="m-d-n" text={"Nosotros"}></NavBarBtn>
+          <NavBarBtn className="m-d-n noselect" text={"Nosotros"}></NavBarBtn>
         </Link>
-        <Link to="">
-        <NavBarBtn className="m-d-n" text={"Estructura"}></NavBarBtn></Link>
+        
         <Link to="/services">
            
-          <NavBarBtn className="m-d-n" text={"Servicios"}></NavBarBtn>
+          <NavBarBtn className="m-d-n noselect" text={"Servicios"}></NavBarBtn>
         </Link>
         <Link to="/plans">
            
-          <NavBarBtn className="m-d-n" text={"Planes"}></NavBarBtn>
+          <NavBarBtn className="m-d-n noselect" text={"Planes"}></NavBarBtn>
         </Link>
-        <Link to="/process"><NavBarBtn className="m-d-n" text={"Procedimiento"}></NavBarBtn></Link>
-        <Link to="/gallery"><NavBarBtn className="m-d-n" text={"Galería"}></NavBarBtn></Link>
+        <Link to="/process"><NavBarBtn className="m-d-n noselect" text={"Procedimiento"}></NavBarBtn></Link>
+        <Link to="/gallery"><NavBarBtn className="m-d-n noselect" text={"Galería"}></NavBarBtn></Link>
+    
+        <Link to="/promo"><NavBarBtn className="m-d-n noselect" text={"Promos"} news></NavBarBtn></Link>
       </div>
     </Fragment>
   );

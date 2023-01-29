@@ -12,11 +12,10 @@ import "../Styles/home.css";
   return (
 
     <Fragment>
-<div className="d-n m-d-b of-auto  " Style="position: fixed; left:0px; right:0px; top: 0px; bottom: 0px; z-index: 99998;">
 
 
   <input type="checkbox" id="menu"/>
-  <ul>
+  <ul Style="position: fixed; left:0px; right:0px; top: 0px; bottom: 0px; z-index: 99998;">
   <div
         className={`  d-n m-d-b of-auto  m-5px bg-linear-b-t`}
         Style="position: fixed; left:0px; right:0px; top: 0px; bottom: 0px; z-index: 99998;"
@@ -79,9 +78,7 @@ className="w-100 h-a h-pr-fl-ma p-b-20px p-t-20px "
         </div>
     </div>
     </ul>
-
-</div>
-   </Fragment>
+     </Fragment>
   );
 }
 

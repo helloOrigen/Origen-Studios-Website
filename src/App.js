@@ -32,6 +32,7 @@ import Plans from "./Views/plans";
 import Page404 from "./Views/page404";
 import Process from "./Views/process";
 import Gallery from "./Views/gallery";
+import Promo from "./Views/promo";
 
 function App() {
    const [cookies, setCookie] = useCookies(["user"]);
@@ -45,7 +46,7 @@ function App() {
     <BrowserRouter>
 
     <Fragment>
-      <div className="h-pr-fl-ma w-100 h-100vh b-s-b-b of-h ">
+      <div className="h-pr-fl-ma w-100 h-100vh b-s-b-b of-h of-y-n ">
       
         <div
           className=" l-0px r-0px t-0px b-0px m-a "/*blurbganimation */
@@ -100,6 +101,7 @@ function App() {
            <Route exact path="/plans" element={<Plans/>} />
            <Route exact path="/process" element={<Process/>} />
            <Route exact path="/gallery" element={<Gallery/>} />
+           <Route exact path="/promo" element={<Promo/>} />
            <Route path="*" element={<Page404/>} />
            
 </Routes>

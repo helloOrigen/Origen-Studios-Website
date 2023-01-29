@@ -3684,18 +3684,12 @@ input[type=range].info:focus::-ms-fill-upper {
 }
 
 .noselect {
-  -webkit-touch-callout: none;
-  /* iOS Safari */
-  -webkit-user-select: none;
-  /* Safari */
-  /* Konqueror HTML */
-  -moz-user-select: none;
-  /* Old versions of Firefox */
-  -ms-user-select: none;
-  /* Internet Explorer/Edge */
-  user-select: none;
-  /* Non-prefixed version, currently
-    supported by Chrome, Edge, Opera and Firefox */
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
 }
 
 /*
@@ -11339,7 +11333,9 @@ i.success {
 .of-y-hidden {
   overflow-y: hidden;
 }
-
+.of-y-n {
+  overflow-y: none;
+}
 .of-y-none {
   overflow-y: none;
 }
@@ -12677,6 +12673,14 @@ i.success {
 ██████  ██   ██  ██████ ██   ██  ██████  ██   ██  ██████   ██████  ██   ████ ██████
 
 */
+/* Gradients */
+
+
+.bg-g-1{
+  background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,91,255,0.9976584383753502) 49%, rgba(0,0,0,0) 100%);
+}
+
 
 /* Sintax and specials background */
 .bg-inh {
