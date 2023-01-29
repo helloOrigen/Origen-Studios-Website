@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.9cc0823b.css",
-    "main.js": "/static/js/main.73de416c.js",
+    "main.css": "/static/css/main.7d016ced.css",
+    "main.js": "/static/js/main.93173e27.js",
     "static/js/787.667ee9bb.chunk.js": "/static/js/787.667ee9bb.chunk.js",
     "static/media/mundo-ilustracion.png": "/static/media/mundo-ilustracion.9e0ddd6d8880df59d27d.png",
     "static/media/promo-1.png": "/static/media/promo-1.16fdbaa2e4815615b6ac.png",
     "static/media/piramides-arabe.png": "/static/media/piramides-arabe.5658293a1e27ff684621.png",
-    "static/media/casos-de-exito-oferta.svg": "/static/media/casos-de-exito-oferta.c8fda627b5ca3c0190bd1021cce9c787.svg",
+    "static/media/casos-de-exito-oferta.svg": "/static/media/casos-de-exito-oferta.72695fe5bd28fa243f87c0b2b459438c.svg",
     "static/media/wallpaper-2.png": "/static/media/wallpaper-2.9b00814ea79b7fe6bca0.png",
     "static/media/wallpaper-7.png": "/static/media/wallpaper-7.c7a43f30be543527e6ec.png",
     "static/media/wallpaper-12.png": "/static/media/wallpaper-12.a678010dfa0eb634bbe8.png",
@@ -29,7 +29,7 @@
     "static/media/wallpaper-9.png": "/static/media/wallpaper-9.3eb8a4425ec0e3182ff4.png",
     "static/media/OS-logo-white.png": "/static/media/OS-logo-white.72ed374480f3e47fcaf7.png",
     "static/media/mapamundi.svg": "/static/media/mapamundi.1a5b7b0490884a8be0cefc2b549acd6a.svg",
-    "static/media/casos-de-exito-titulo.svg": "/static/media/casos-de-exito-titulo.770b805707d93141cec3aef01540f7e3.svg",
+    "static/media/casos-de-exito-titulo.svg": "/static/media/casos-de-exito-titulo.0d908ec061fe91a7fdbbb473d83b73ec.svg",
     "static/media/OS-logotipo-m-white-transparent_svg.svg": "/static/media/OS-logotipo-m-white-transparent_svg.bb8af4776f19a31bef6d60e9283fbf68.svg",
     "index.html": "/index.html",
     "static/media/supervised_user.svg": "/static/media/supervised_user.6e506300797b3cc90cdb85ee825e13dd.svg",
@@ -49,12 +49,12 @@
     "static/media/home.svg": "/static/media/home.ec942daf732640fb3bbabb42e3195fc0.svg",
     "static/media/target.svg": "/static/media/target.03e97cd76de1bb159f11a62ccc6c58f2.svg",
     "static/media/menu_hamburger.svg": "/static/media/menu_hamburger.e854bcaf0d6d5edb88f3a755bd08c7a4.svg",
-    "main.9cc0823b.css.map": "/static/css/main.9cc0823b.css.map",
-    "main.73de416c.js.map": "/static/js/main.73de416c.js.map",
+    "main.7d016ced.css.map": "/static/css/main.7d016ced.css.map",
+    "main.93173e27.js.map": "/static/js/main.93173e27.js.map",
     "787.667ee9bb.chunk.js.map": "/static/js/787.667ee9bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cc0823b.css",
-    "static/js/main.73de416c.js"
+    "static/css/main.7d016ced.css",
+    "static/js/main.93173e27.js"
   ]
 }
