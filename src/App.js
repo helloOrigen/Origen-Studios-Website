@@ -1,6 +1,7 @@
 import React from 'react'
 import { Fragment } from "react";
-import{Redirect, BrowserRouter,Routes,Route} from "react-router-dom";
+import{ BrowserRouter, Routes,Route, } from "react-router-dom";
+
 import NavBar from "./components/navBar";
 
 
@@ -85,8 +86,8 @@ function App() {
             <div className="w-90 c-white h-100   r-h-c h-pr-fl-ma ">
               {/* Todas las views se renderizan aquí*/} <MobileMenu className="p-a"/>
 
-           
-               <Routes>
+              <Routes> 
+          
           <Route exact path="/" element={<Home/>} />
             <Route exact  path="/services" element={<Services />} />
            <Route exact path="/team" element={<Team/>} />
@@ -103,7 +104,9 @@ function App() {
            <Route exact path="/gallery" element={<Gallery/>} />
            <Route exact path="/promo" element={<Promo/>} />
            <Route path="*" element={<Page404/>} />
+           <Route component={<Page404/>} />
            
+
 </Routes>
             </div>
           </div>
