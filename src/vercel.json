@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "^/404/?$",
+      "destino": "/src/View/Page404.jsx
+    }
+  ]
+}
