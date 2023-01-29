@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import NavBarBtn from "./navBarBtn";
 import NavBarLogo from "./navBarLogo";
 import "../Styles/home.css";
-
+import BannerMenu from "../assets/images/promo/casos-de-exito-banner-menu.png"
  const mobileMenu=()=> {
   
   
@@ -29,14 +29,7 @@ import "../Styles/home.css";
               <NavBarBtn className="b w-100 h-100 h-pr-fl-ma p-10px p-t-30px" text={"Nosotros"}></NavBarBtn>
             </div>
           </Link>
-          <Link to="/team" className="h-e">
-            <div
-              className="w-100 h-a h-pr-fl-ma hover-underline-animation  "
-              Style="border-bottom: 1px solid; border-color: white;"
-            >
-              <NavBarBtn className="b w-100 h-100 h-pr-fl-ma p-10px p-t-30px"  text={"Estructura"}></NavBarBtn>
-            </div>
-          </Link>
+     
           <Link to="/services" className="h-e">
             {" "}
             <div
@@ -55,12 +48,20 @@ import "../Styles/home.css";
               <NavBarBtn className="b w-100 h-100 h-pr-fl-ma p-10px p-t-30px" text={"Planes"}></NavBarBtn>
             </div>
           </Link>
-          <Link to="/plans" className="h-e">
+          <Link to="/process" className="h-e">
             <div
               className="w-100 h-a h-pr-fl-ma hover-underline-animation  "
               Style="border-bottom: 1px solid; border-color: white;"
             >
-              <NavBarBtn className="b w-100 h-100 h-pr-fl-ma p-10px p-t-30px" text={"Metodología"}></NavBarBtn>
+              <NavBarBtn className="b w-100 h-100 h-pr-fl-ma p-10px p-t-30px" text={"Procedimiento"}></NavBarBtn>
+            </div>
+          </Link>
+          <Link to="/gallery" className="h-e">
+            <div
+              className="w-100 h-a h-pr-fl-ma hover-underline-animation  "
+              Style="border-bottom: 1px solid; border-color: white;"
+            >
+              <NavBarBtn news className="b w-100 h-100 h-pr-fl-ma p-10px p-t-30px" text={"Galería"}></NavBarBtn>
             </div>
           </Link>
           <Link to="/plans" className="h-e">
@@ -71,10 +72,18 @@ import "../Styles/home.css";
               <NavBarBtn className="w-100 h-100 h-pr-fl-ma p-10px p-t-30px b" text={"Parámetros"}></NavBarBtn>
             </div>
           </Link>
+          <Link to="/promo" className="h-e" >
+            <div
+              className="w-100 h-a h-pr-fl-ma hover-underline-animation  "
+              Style="border-bottom: 1px solid; border-color: white;"
+            >
+              <NavBarBtn news className="w-100 h-100 h-pr-fl-ma p-10px p-t-30px b" text={"Promociones"}></NavBarBtn>
+            </div>
+          </Link>
           <div
 className="w-100 h-a h-pr-fl-ma p-b-20px p-t-20px "
 
-><div className="m-t-20px m-b-30px w-100 h-100px h-pr-fl-ma t-a-c b-s-b-b hover-underline-animation " Style="border: 1px solid; border-color: white;"><div className="h-pr-fl-ma w-a h-a centered ">Proximamente Banner Promo</div> </div></div>
+><div className="m-t-20px m-b-30px w-100 h-100px h-pr-fl-ma t-a-c b-s-b-b hover-underline-animation "><div className="h-pr-fl-ma w-a h-a centered "><img src={BannerMenu} className="w-100 h-100 h-pr-fl-ma" Style="object-fit: contain;" alt="" /> </div> </div></div>
         </div>
     </div>
     </ul>
