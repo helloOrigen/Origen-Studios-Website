@@ -2,7 +2,7 @@ import React from "react";
 import "../Styles/seed.css";
 import Infocircle from "../assets/icons/info.svg";
 export default function Info(props) {
-  const { title, text, className, children } = props;
+  const { title, text, className,} = props;
 
   return (
     <>
@@ -15,6 +15,7 @@ export default function Info(props) {
           <div className="w-and-h-50px r-h-c h-pr-fl-ma b-s-b-b">
             
             <img
+            alt="Infoicon"
               className="w-100 h-100 h-pr-fl-ma r-h-c"
               Style="object-fit: contain;"
               src={Infocircle}

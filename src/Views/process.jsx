@@ -3,8 +3,7 @@ import ContentBox from "../components/contentBox";
 import Btn from "../components/btn";
 import MessageWriting from "../assets/icons/message_writing.svg";
 import Documentlist from "../assets/icons/document_list.svg";
-import Users from "../assets/icons/users.svg";
-import Group from "../assets/icons/group.svg";
+
 import Quickreference from "../assets/icons/quick_reference.svg";
 import Cloudupload from "../assets/icons/cloud_upload.svg";
 import Superviseduser from "../assets/icons/supervised_user.svg";
@@ -75,6 +74,7 @@ const Process = () => {
 <div className="w-30 m-w-100 h-pr-fl-ma p-20px">
 <div className="w-and-h-150px r-h-c h-pr-fl-ma  b-s-b-b ">
               <img
+              alt="Documentlist"
             className="w-100 h-100 h-pr-fl-ma "
             Style="object-fit: contain;"
             src={Documentlist}
@@ -99,7 +99,7 @@ const Process = () => {
 <div className="m-w-100 w-50 h-pr-fl-ma   ">
 <div className="w-30 m-w-100 h-pr-fl-ma p-20px">
 <div className="w-and-h-150px r-h-c h-pr-fl-ma  b-s-b-b ">
-              <img
+              <img alt="Superviseduser"
             className="w-100 h-100 h-pr-fl-ma "
             Style="object-fit: contain;"
             src={Superviseduser}
@@ -130,7 +130,7 @@ const Process = () => {
 <div className="m-w-100 w-50 h-pr-fl-ma   ">
 <div className="w-30 m-w-100 h-pr-fl-ma p-20px">
 <div className="w-and-h-150px r-h-c h-pr-fl-ma  b-s-b-b ">
-              <img
+              <img alt="Quickreference"
             className="w-100 h-100 h-pr-fl-ma "
             Style="object-fit: contain;"
             src={Quickreference}
@@ -159,7 +159,7 @@ const Process = () => {
 <div className="m-w-100 w-50 h-pr-fl-ma   ">
 <div className="w-30 m-w-100 h-pr-fl-ma p-20px">
 <div className="w-and-h-150px r-h-c h-pr-fl-ma  b-s-b-b ">
-              <img
+              <img alt="Cloudupload"
             className="w-100 h-100 h-pr-fl-ma "
             Style="object-fit: contain;"
             src={Cloudupload}
@@ -255,7 +255,7 @@ const Process = () => {
           >
             <div className="w-100 h-a h-pr-fl-ma r-v-c  b-s-b-b" Style="border-bottom: 1px solid; border-color:white;">
               <div className="w-and-h-150px r-h-c h-pr-fl-ma  b-s-b-b m-b-20px">
-              <img
+              <img alt="Lightbulb"
             className="w-100 h-100 h-pr-fl-ma centered"
             Style="object-fit: contain;"
             src={Lightbulb}
@@ -282,7 +282,7 @@ const Process = () => {
           >
             <div className="w-100 h-a h-pr-fl-ma r-v-c  b-s-b-b" Style="border-bottom: 1px solid; border-color:white;">
               <div className="w-and-h-150px r-h-c h-pr-fl-ma  b-s-b-b m-b-20px">
-              <img
+              <img alt="Loader"
             className="w-100 h-100 h-pr-fl-ma centered"
             Style="object-fit: contain;"
             src={Loader}
@@ -309,7 +309,7 @@ const Process = () => {
           >
             <div className="w-100 h-a h-pr-fl-ma r-v-c  b-s-b-b" Style="border-bottom: 1px solid; border-color:white;">
               <div className="w-and-h-150px r-h-c h-pr-fl-ma  b-s-b-b m-b-20px">
-              <img
+              <img alt="Lightbulbon"
             className="w-100 h-100 h-pr-fl-ma centered"
             Style="object-fit: contain;"
             src={Lightbulbon}

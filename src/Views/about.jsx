@@ -14,6 +14,7 @@ const About = () => {
               className="w-and-h-500px m-w-250px m-h-250px  r-h-c h-pr-fl-ma "
               Style="object-fit: contain;"
               src={Logo}
+              alt="Logo"
             /></div>
         <div className="m-w-100 w-50 h-a h-pr-fl-ma p-20px" > <ContentBox className="w-100 h-a" title={"Nuestra historia."}
         subtitle="2023 - Montevideo, Uruguay. "/>
@@ -38,6 +39,7 @@ const About = () => {
             <div className="w-100 h-a h-pr-fl-ma r-v-c">
               <div className="w-and-h-150px h-pr-fl-ma r-h-c circle p-20px">
               <img
+                alt="target"
                 src={Target}
                 className="w-100 h-100 h-pr-fl-ma " Style="stroke: #ffffff !important;"/> 
               </div>
@@ -62,6 +64,8 @@ const About = () => {
             <div className="w-100 h-a h-pr-fl-ma r-v-c">
               <div className="w-and-h-150px h-pr-fl-ma r-h-c circle p-20px">
               <img
+
+              alt="IconEye"
                 src={Eye}
                 className="w-100 h-100 h-pr-fl-ma" Style="stroke: #ffffff !important;"/> 
               </div>
@@ -85,6 +89,7 @@ const About = () => {
             <div className="w-100 h-a h-pr-fl-ma r-v-c">
               <div className="w-and-h-150px h-pr-fl-ma r-h-c circle p-20px">
               <img
+              alt="diamond"
                 src={Diamond}
                 className="w-100 h-100 h-pr-fl-ma" Style="stroke: #ffffff !important;"/> 
               </div>

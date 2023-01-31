@@ -1,7 +1,6 @@
 
 
 import React, { Fragment } from "react";
-import ContentBox from "../components/contentBox";
 import PromoTitulo from "../assets/images/promo/casos-de-exito-titulo.svg"
 import PromoOferta from "../assets/images/promo/casos-de-exito-oferta.svg"
 

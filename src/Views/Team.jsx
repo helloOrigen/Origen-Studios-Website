@@ -8,7 +8,6 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import ContentBox from "../components/contentBox";
-import UserMaleCircle from "../assets/icons/user_male_circle.svg";
 import Patricia from "../assets/team/patricia-cor.png";
 import Nick from "../assets/team/nickolas-machado.png";
 import Cesar from "../assets/team/cesar-lima.png";

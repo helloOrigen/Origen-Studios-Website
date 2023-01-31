@@ -1,6 +1,6 @@
 import React from 'react'
 import { Fragment } from "react";
-import{ BrowserRouter, Routes,Route, } from "react-router-dom";
+import{ BrowserRouter, Routes,Route } from "react-router-dom";
 
 import NavBar from "./components/navBar";
 
@@ -9,8 +9,8 @@ import Notifier from "./components/notifier";
 import Footer from "./components/Footer";
 import MobileMenu from './components/mobileMenu';
 
-import Wallpaper14 from './assets/images/compressed/wallpaper-14.png';
-import { useCookies } from "react-cookie";
+import Background1 from './assets/images/compressed/background-1.png';
+
 
 
 
@@ -36,13 +36,9 @@ import Gallery from "./Views/gallery";
 import Promo from "./Views/promo";
 
 function App() {
-   const [cookies, setCookie] = useCookies(["user"]);
+  
 
-  function handleCookie() {
-    setCookie("user", "gowtham", {
-      path: "/"
-    });
-  }
+
   return (
     <BrowserRouter>
 
@@ -52,7 +48,7 @@ function App() {
         <div
           className=" l-0px r-0px t-0px b-0px m-a "/*blurbganimation */
           style={{
-            backgroundImage: `url(${Wallpaper14})`,
+            backgroundImage: `url(${Background1})`,
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",

@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import ContentBox from '../components/contentBox'
+
 import Info from '../components/info'
 
 import Wallpaper1 from '../assets/images/compressed/wallpaper-1.png';
@@ -27,16 +27,15 @@ const Gallery = () => {
     <div className="card-mosaic m-b-20px">
       
       <div className="card h-e card-tall card-wide  ">
-      <img
+      <img alt="Wallpaper1"
                         src={Wallpaper1}
                         className="w-100 h-100 h-pr-fl-ma  h-e-scale"
-                        alt="Coordinar"
                         Style="object-fit: cover;"
                       />
       </div>
 
       <div className="card h-e card-tall  ">
-      <img
+      <img alt="Wallpaper2"
                         src={Wallpaper2}
                         className="w-100 h-100 h-pr-fl-ma h-e-scale"
                         Style="object-fit: cover;"
@@ -44,7 +43,7 @@ const Gallery = () => {
       </div>
 
       <div className="card h-e  ">
-      <img
+      <img alt="Wallpaper3"
                         src={Wallpaper3}
                         className="w-100 h-100 h-pr-fl-ma h-e-scale"
                         Style="object-fit: cover;"
@@ -53,77 +52,77 @@ const Gallery = () => {
 
 
       <div className="card h-e  ">
-      <img
+      <img alt="Wallpaper4"
                         src={Wallpaper4}
                         className="w-100 h-100 h-pr-fl-ma h-e-scale"
                         Style="object-fit: cover;"
                       />
       </div>
       <div className="card h-e  ">
-      <img
+      <img alt="Wallpaper5"
                         src={Wallpaper5}
                         className="w-100 h-100 h-pr-fl-ma h-e-scale"
                         Style="object-fit: cover;"
                       />
       </div>
       <div className="card h-e  ">
-      <img
+      <img alt="Wallpaper6"
                         src={Wallpaper6}
                         className="w-100 h-100 h-pr-fl-ma h-e-scale"
                         Style="object-fit: cover;"
                       />
       </div>
       <div className="card h-e  ">
-      <img
+      <img alt="Wallpaper7"
                         src={Wallpaper7}
                         className="w-100 h-100 h-pr-fl-ma h-e-scale"
                         Style="object-fit: cover;"
                       />
       </div>
       <div className="card card-tall h-e  ">
-      <img
+      <img alt="Wallpaper8 "
                         src={Wallpaper8}
                         className="w-100 h-100 h-pr-fl-ma h-e-scale"
                         Style="object-fit: cover;"
                       />
       </div>
       <div className="card  h-e  ">
-      <img
+      <img alt="Wallpaper9"
                         src={Wallpaper9}
                         className="w-100 h-100 h-pr-fl-ma h-e-scale"
                         Style="object-fit: cover;"
                       />
       </div>
       <div className="card h-e  ">
-      <img
+      <img alt="Wallpaper10"
                         src={Wallpaper10}
                         className="w-100 h-100 h-pr-fl-ma h-e-scale"
                         Style="object-fit: cover;"
                       />
       </div>
       <div className="card h-e  ">
-      <img
+      <img alt="Wallpaper11"
                         src={Wallpaper11}
                         className="w-100 h-100 h-pr-fl-ma h-e-scale"
                         Style="object-fit: cover;"
                       />
       </div>
       <div className="card h-e  ">
-      <img
+      <img alt="Wallpaper12"
                         src={Wallpaper12}
                         className="w-100 h-100 h-pr-fl-ma h-e-scale"
                         Style="object-fit: cover;"
                       />
       </div>
       <div className="card h-e card-tall card-wide  ">
-      <img
+      <img alt="Wallpaper13"
                         src={Wallpaper13}
                         className="w-100 h-100 h-pr-fl-ma h-e-scale"
                         Style="object-fit: cover;"
                       />
       </div>
       <div className="card h-e card-wide  ">
-      <img
+      <img alt="Wallpaper14"
                         src={Wallpaper14}
                         className="w-100 h-100 h-pr-fl-ma h-e-scale"
                         Style="object-fit: cover;"

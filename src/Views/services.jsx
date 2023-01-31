@@ -8,13 +8,13 @@ import "../Styles/seed.css";
 import { Autoplay, Keyboard, Pagination } from "swiper";
 import ContentBox from "../components/contentBox";
 import MapaMundi from "../assets/images/mapamundi.svg";
-import MundoVector from "../assets/images/mundo-vector.svg";
+import Fotomontaje from "../assets/images/fotomontaje.png";
 import MundoIlustracion from "../assets/images/mundo-ilustracion.png";
 import PersonaElegida from "../assets/images/persona-elegida.png";
 import PiramidesArabe from "../assets/images/piramides-arabe.png";
 
 export default function Services(props) {
-  const { children } = props;
+  
 
   return (
     <>
@@ -40,6 +40,7 @@ export default function Services(props) {
         {/* PORTADA ----------------------------------- */}
         <SwiperSlide>
           <img
+            alt="Mapamundi"
             className="w-100 h-100 h-pr-fl-ma "
             Style="object-fit: contain;"
             src={MapaMundi}
@@ -50,15 +51,52 @@ export default function Services(props) {
         
            
 
-          
+  
+
+
+{/* DISEÑO GRÁFICO Y FOTOMONTAJE ----------------------------------- */}
+<SwiperSlide>
+          <div className="w-100 h-100 h-pr-fl-ma  ">
+           
+            <div className="m-d-n w-50 h-100 h-pr-fl-ma "><img alt="Fotomontaje"
+            className="w-100 h-100 h-pr-fl-ma "
+            Style="object-fit: contain;"
+            src={Fotomontaje}
+            /></div>
+             <div className="m-w-100 w-50 h-100 h-pr-fl-ma ">
+              <div className="w-100 h-50 h-pr-fl-ma b-s-b-b p-r p-20px">
+                <ContentBox
+                  link={"enlace accion"}
+                  className="p-20px w-100 h-a r-v-c"
+                  title={"Diseño Gráfico"}
+                  subtitle={"Su nueva imagen de marca."}
+                  text={
+                    "Diseñamos todo lo necesario para crear su marca desde cero, actualizamos la que ya tiene o hacerla despegar hasta las nubes. Nuestro servicio incluye Logos, manuales de marca, creación de presentaciones interactivas, banners web, plantillas para redes sociales, y mucho más... "
+                  }
+                  action={"Click aquí para saber más sobre este servicio."}
+                />{" "}
+              </div>{" "}
+              <div className="w-100 h-50 h-pr-fl-ma b-s-b-b p-r p-20px">
+                <ContentBox
+                  link={"enlace accion"}
+                  className="p-20px w-100 h-a r-v-c"
+                  title={"Fotomontaje"}
+                  subtitle={"Todo el poder de la edición."}
+                  text={
+                    "Realizamos fotomontajes de calidad, desde retoques faciales, pasando por eliminación de objetos y artefáctos visuales hasta simulación de ilustraciones de marca, Mockups y mucho más..."
+                  }
+                  action={"Click aquí para saber más sobre este servicio."}
+                />{" "}
+              </div>
+            </div>
+            </div> </SwiperSlide> {/* ----------------------------------- DISEÑO GRÁFICO Y FOTOMONTAJE */}
+
+
+        
         {/* DESARROLLO Y MARKETING ----------------------------------- */}
         <SwiperSlide>
           <div className="w-100 h-100 h-pr-fl-ma  ">
-          <div className="m-w-100 w-50 h-100 h-pr-fl-ma "><img
-            className="w-100 h-100 h-pr-fl-ma "
-            Style="object-fit: contain;"
-            src={MundoVector}
-            /></div>
+          
             <div className="m-d-n w-50 h-100 h-pr-fl-ma ">
               <div className="w-100 h-50 h-pr-fl-ma b-s-b-b p-r p-20px">
                 <ContentBox
@@ -85,51 +123,20 @@ export default function Services(props) {
                 />{" "}
               </div>
             </div>
-            
-            </div> </SwiperSlide>{/* ----------------------------------- DESARROLLO Y MARKETING */}
+            <div className="m-w-100 w-50 h-100 h-pr-fl-ma "><img            alt="Mundoilustración"
 
-
-{/* DISEÑO GRÁFICO Y FOTOMONTAJE ----------------------------------- */}
-<SwiperSlide>
-          <div className="w-100 h-100 h-pr-fl-ma  ">
-            <div className="m-w-100 w-50 h-100 h-pr-fl-ma ">
-              <div className="w-100 h-50 h-pr-fl-ma b-s-b-b p-r p-20px">
-                <ContentBox
-                  link={"enlace accion"}
-                  className="p-20px w-100 h-a r-v-c"
-                  title={"Diseño Gráfico"}
-                  subtitle={"Su nueva imagen de marca."}
-                  text={
-                    "Diseñamos todo lo necesario para crear su marca desde cero, actualizamos la que ya tiene o hacerla despegar hasta las nubes. Nuestro servicio incluye Logos, manuales de marca, creación de presentaciones interactivas, banners web, plantillas para redes sociales, y mucho más... "
-                  }
-                  action={"Click aquí para saber más sobre este servicio."}
-                />{" "}
-              </div>{" "}
-              <div className="w-100 h-50 h-pr-fl-ma b-s-b-b p-r p-20px">
-                <ContentBox
-                  link={"enlace accion"}
-                  className="p-20px w-100 h-a r-v-c"
-                  title={"Fotomontaje"}
-                  subtitle={"Todo el poder de la edición."}
-                  text={
-                    "Realizamos fotomontajes de calidad, desde retoques faciales, pasando por eliminación de objetos y artefáctos visuales hasta simulación de ilustraciones de marca, Mockups y mucho más..."
-                  }
-                  action={"Click aquí para saber más sobre este servicio."}
-                />{" "}
-              </div>
-            </div>
-            <div className="m-d-n w-50 h-100 h-pr-fl-ma "><img alt=""
             className="w-100 h-100 h-pr-fl-ma "
             Style="object-fit: contain;"
             src={MundoIlustracion}
             /></div>
-            </div> </SwiperSlide> {/* ----------------------------------- DISEÑO GRÁFICO Y FOTOMONTAJE */}
+            </div> </SwiperSlide>{/* ----------------------------------- DESARROLLO Y MARKETING */}
 
 
     {/* REDACCIÓN Y TRADUCCIÓN ----------------------------------- */}
     <SwiperSlide>
           <div className="w-100 h-100 h-pr-fl-ma  ">
-          <div className="m-w-100 w-50 h-100 h-pr-fl-ma "><img
+          <div className="m-w-100 w-50 h-100 h-pr-fl-ma "><img            alt="PiramidesArabe"
+
             className="w-100 h-100 h-pr-fl-ma "
             Style="object-fit: contain;"
             src={PiramidesArabe}
@@ -191,11 +198,12 @@ export default function Services(props) {
                 />{" "}
               </div>
             </div>
-            <div className="m-d-n w-50 h-100 h-pr-fl-ma "><img
-            className="w-100 h-100 h-pr-fl-ma "
+            <div className="m-d-n w-50 h-100 h-pr-fl-ma "><img alt="Personaelegida"
+            className="w-100 h-100 h-pr-fl-ma "           
+
             Style="object-fit: contain;"
             src={PersonaElegida}
-            alt=""
+          
             /></div>
             </div> </SwiperSlide> {/* ----------------------------------- RECLUTAMIENTO Y ASESORÍA */}
       </Swiper>

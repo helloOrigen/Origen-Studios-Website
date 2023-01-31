@@ -1,4 +1,4 @@
-import React, { Fragment, useRef, useState, useEffect } from "react";
+import React, { Fragment,} from "react";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -8,22 +8,19 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Btn from "../components/btn";
 import ContentBox from "../components/contentBox";
 import MessageWriting from "../assets/icons/message_writing.svg";
-import Typewriter from "../components/tipewriter";
 
-import Wallpaper1 from '../assets/images/compressed/wallpaper-1.png';
-import Wallpaper2 from '../assets/images/compressed/wallpaper-2.png';
+
+
 import Wallpaper3 from '../assets/images/compressed/wallpaper-3.png';
 import Wallpaper4 from '../assets/images/compressed/wallpaper-4.png';
-import Wallpaper5 from '../assets/images/compressed/wallpaper-5.png';
+
 import Wallpaper6 from '../assets/images/compressed/wallpaper-6.png';
 import Wallpaper7 from '../assets/images/compressed/wallpaper-7.png';
 import Wallpaper8 from '../assets/images/compressed/wallpaper-8.png';
-import Wallpaper9 from '../assets/images/compressed/wallpaper-9.png';
-import Wallpaper10 from '../assets/images/compressed/wallpaper-10.png';
+
 import Wallpaper11 from '../assets/images/compressed/wallpaper-11.png';
 import Wallpaper12 from '../assets/images/compressed/wallpaper-12.png';
-import Wallpaper13 from '../assets/images/compressed/wallpaper-13.png';
-import Wallpaper14 from '../assets/images/compressed/wallpaper-14.png';
+
 
 import Promo1 from "../assets/images/promo/promo-1.png";
 
@@ -31,10 +28,10 @@ import "../Styles/seed.css";
 import "../Styles/home.css";
 
 export default function Home(props) {
-  const { children } = props;
+
 
   return (
-    <>
+    <Fragment Fragment>
       <div className="w-100 h-100 h-pr-fl-ma b-s-b-b p-t-10px p-b-10px">
         <div
           className="m-d-n w-50 h-100 h-pr-fl-ma b-s-b-b p-r-10px "
@@ -150,7 +147,9 @@ export default function Home(props) {
 
 
 
-
+          <SwiperSlide className="h-pr-fl-ma b-s-b-b p-5px">
+               &nbsp;
+              </SwiperSlide>
               <SwiperSlide className="h-pr-fl-ma b-s-b-b p-5px">
                 <img
                   src={Promo1}
@@ -219,6 +218,6 @@ export default function Home(props) {
           </div>
         </div>
       </div>
-    </>
+    </Fragment>
   );
 }

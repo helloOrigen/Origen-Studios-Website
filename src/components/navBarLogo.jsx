@@ -3,10 +3,7 @@ import '../Styles/seed.css';
 import OSLogo from '../assets/logo/OS-logo-white.png';
 import OSLogotipo from '../assets/logo/OS-logotipo-m-white-transparent_svg.svg';
 export default function navBarLogo(props) {
-    const {
-
-  
-    } = props;
+ 
   
     return (
         <>
