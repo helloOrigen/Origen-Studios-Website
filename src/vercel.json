@@ -1,23 +1,9 @@
 {
   "version": 2,
   "routes": [
-<<<<<<< HEAD
-    { "src": "^/", "dest": "/index.html" },
-    { "src": ".*", "dest": "/index.html" }
-  ]
-}{
-  "rewrites": [
-    {
-      "source": "/:path*",
-      "destination": "/index.html"
-    }
-  ]
-}
-=======
     {
       "src": "^/404/?$",
       "destino": "/src/View/Page404.jsx
     }
   ]
 }
->>>>>>> 2119d32250d149df395371a7bdfe2fc954ccc5a2
