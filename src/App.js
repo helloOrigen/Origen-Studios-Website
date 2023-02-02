@@ -99,7 +99,7 @@ function App() {
            <Route exact path="/process" element={<Process/>} />
            <Route exact path="/gallery" element={<Gallery/>} />
            <Route exact path="/promo" element={<Promo/>} />
-           <Route path="*" element={<Page404/>} />
+           <Route path="/*" element={<Page404/>} />
            <Route component={<Page404/>} />
            
 
