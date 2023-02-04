@@ -1,5 +1,20 @@
 {
-  "rewrites":  [
-    {"source": "/(.*)", "destination": "/"}
+  "routes": [
+    { "src": "(?!/)", "dest": "/" },
+   
+    { "src": "(?!/Views/services.jsx)", "dest": "/services" },
+    { "src": "(?!/Views/team.jsx)", "dest": "/team" },
+    { "src": "(?!/Views/design.jsx)", "dest": "/design" },
+    { "src": "(?!/Views/dev.jsx)", "dest": "dev/" },
+    { "src": "(?!/Views/marketing.jsx)", "dest": "/marketing" },
+    { "src": "(?!/Views/faq.jsx)", "dest": "/faq" },
+    { "src": "(?!/Views/terms.jsx)", "dest": "/terms" },
+    { "src": "(?!/Views/cookies.jsx)", "dest": "/cookies" },
+    { "src": "(?!/Views/privacy.jsx)", "dest": "/privacy" },
+    { "src": "(?!/Views/plans.jsx)", "dest": "/plans" },
+    { "src": "(?!/Views/process.jsx)", "dest": "/process" },
+    { "src": "(?!/Views/gallery.jsx)", "dest": "/gallery" },
+    { "src": "(?!/Views/promo.jsx)", "dest": "/promo" },
+  { "src": "(?!//Views/page404.jsx)", "dest": "/404" }
   ]
 }
