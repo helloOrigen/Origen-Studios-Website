@@ -1,12 +1,17 @@
-import React, { Fragment } from "react";
+import React, { Fragment,useState } from "react";
 import "../Styles/seed.css";
 import { Link } from "react-router-dom";
 import OSLogotipo from '../assets/logo/OS-logotipo-m-white-transparent_svg.svg';
+import CloseHamburger from "../assets/icons/close.svg";
 
 import MenuHamburger from "../assets/icons/menu_hamburger.svg";
-export default function Footer(props) {
-  const { className } = props;
+const Footer=({className})=> {
+  const [open, setOpen] = useState(false);
 
+   const handleOpen =()=>{
+    setOpen(!open)
+   }
+  
   return (
     <Fragment>
       <div className={` ${className} h-pr-fl-ma w-80  h-100 m-h-80 b-s-b-b  `}>
@@ -175,7 +180,7 @@ export default function Footer(props) {
 
           {/* Hamburger Menu Button --------------- */}
           
-          <div
+          {!open?(<div
             className="d-n m-d-b w-20  h-100  b-s-b-b h-pr-fl-ma p-l-10px t-a-l"
             Style="z-index: 99999999;"
           >
@@ -185,9 +190,27 @@ export default function Footer(props) {
               className="w-100 h-100 h-pr-fl-ma"
               Style="stroke: #ffffff !important;"
               alt="Menu"
+              onClick = {handleOpen}
             /> </label>
             </div>
-          </div>{/* -------------- Hamburger Menu Button */}
+         </div> ):(<div
+            className="d-n m-d-b w-20  h-100  b-s-b-b h-pr-fl-ma p-l-10px t-a-l"
+            Style="z-index: 99999999;"
+          >
+            <div className="w-and-h-50px  h-pr-fr-ma h-e c-p">
+             <label for="menu" className="w-100 h-100 h-pr-fl-ma">             <img
+              src={CloseHamburger}
+              className="w-100 h-100 h-pr-fl-ma"
+              Style="stroke: #ffffff !important;"
+              alt="Menu"
+              onClick = {handleOpen}
+
+            /> </label>
+            </div>
+          </div>)}
+          
+          
+          {/* -------------- Hamburger Menu Button */}
         </div>
     
       </div>
@@ -206,3 +229,4 @@ export default function Footer(props) {
     </Fragment>
   );
 }
+export default Footer
