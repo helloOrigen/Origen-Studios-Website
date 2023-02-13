@@ -29,8 +29,8 @@ const notifier=({ title, subtitle, text, className, note, action, link, Style, i
 
   return (
     <Fragment>
-      {!Notifier && <div className={` ${className} notifier d-i-f m-d-b m-w-80 `} Style={` ${Style} `}>
-      <div className="w-a h-a h-pr-fl-ma  m-w-100 p-20px">
+      {!Notifier && <div className={` ${className} notifier d-i-f m-d-b  `} Style={` ${Style} `}>
+      <div className="w-100 h-a h-pr-fl-ma  p-20px">
        
       { title && <div className="h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy" Style="font-size: 25px; font-weight:bold; line-height: 30px; color: white;">{title}</div> }
       { subtitle && <div className="h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy" Style="font-size: 15px; font-weight:bold; line-height: 20px; color: #666666;"> {subtitle}<br/><br/></div> }
@@ -42,24 +42,22 @@ const notifier=({ title, subtitle, text, className, note, action, link, Style, i
     
       </div>
       
-      <div className="w-a m-w-100 h-a h-pr-fl-ma  p-10px b-s-b-b of-h info p-l-20px p-r-20px">
-      <div  className="w-100 m-d-f h-pr-fl-ma ">
+      <div className="w-150px  m-w-100 h-a h-pr-fl-ma  p-10px b-s-b-b of-h info  ">
+      <div  className="w-100 m-d-f h-pr-fl-ma -s-b-b">
 
-      <div className="w-100  m-w-33  h-a h-pr-fl-ma  p-5px">
-        <div  onClick={handleRemoveCookie}  className="w-and-h-40px r-h-c  h-pr-fl-ma circle h-e c-p" Style="border: 1px solid; border-color: white;"><button  type="button" className="centered f-f-Gilroy" Style="color:white;background-color:transparent;"   >X</button>  </div> 
-        </div> 
+  
       
-        <div className="d-n m-d-b w-100 m-w-33 h-pr-fl-ma p-5px">
-        <button  type="button"  className="h-pr-fl-ma b-s-b-b w-a p-5px h-a r-h-c f-f-Gilroy   hover-underline-animation" Style="font-size: 15px; line-height: 10px; color: white; background:none !important" onClick={handleRemoveCookie} >Rechazar</button>
+        <div className="d-n m-d-b m-w-50 h-100px h-pr-fl-ma p-5px">
+        <button  type="button"  className="h-pr-fl-ma b-s-b-b w-a centered p-5px h-a  f-f-Gilroy   hover-underline-animation" Style="font-size: 15px; line-height: 10px; color: white; background:none !important" onClick={handleRemoveCookie} >Rechazar</button>
         </div> 
 
-        <div className="w-100 m-w-33  h-pr-fl-ma p-5px">
-        <button type="button"   className="h-pr-fl-ma b-s-b-b w-a r-h-c p-20px h-a f-f-Gilroy   hover-underline-animation" Style="font-size: 15px; line-height: 10px; color: white; background:none !important ;" onClick={handleSetCookie}>Aceptar</button>
+        <div className="w-100 m-w-50 h-100px h-pr-fl-ma  p-5px">
+        <button type="button"   className="h-pr-fl-ma ghost default b-s-b-b w-a centered p-20px bg-orange h-a f-f-Gilroy   hover-underline-animation" Style="font-size: 15px; line-height: 10px; color: white; background:none !important ;" onClick={handleSetCookie}>Aceptar</button>
         </div> 
 
          
-        <div className="m-d-n d-b w-100 m-w-33 h-pr-fl-ma p-5px">
-        <button  type="button"  className="h-pr-fl-ma b-s-b-b w-a p-5px h-a r-h-c f-f-Gilroy   hover-underline-animation" Style="font-size: 15px; line-height: 10px; color: white; background:none !important" onClick={handleRemoveCookie} >Rechazar</button>
+        <div className="m-d-n d-b w-100  h-100px  h-pr-fl-ma p-5px">
+        <button  type="button"  className="h-pr-fl-ma  b-s-b-b w-a centered p-5px h-a r-h-c f-f-Gilroy   hover-underline-animation" Style="font-size: 15px; line-height: 10px; color: white; background:none !important" onClick={handleRemoveCookie} >Rechazar</button>
         </div> 
 
 
