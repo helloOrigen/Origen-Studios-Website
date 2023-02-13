@@ -11,19 +11,19 @@ import MessageWriting from "../assets/icons/message_writing.svg";
 
 
 
-import Wallpaper3 from '../assets/images/compressed/wallpaper-3.png';
-import Wallpaper4 from '../assets/images/compressed/wallpaper-4.png';
+import Wallpaper3 from '../assets/images/compressed/wallpaper-3.jpg';
+import Wallpaper4 from '../assets/images/compressed/wallpaper-4.jpg';
 
-import Wallpaper6 from '../assets/images/compressed/wallpaper-6.png';
-import Wallpaper7 from '../assets/images/compressed/wallpaper-7.png';
-import Wallpaper8 from '../assets/images/compressed/wallpaper-8.png';
+import Wallpaper6 from '../assets/images/compressed/wallpaper-6.jpg';
+import Wallpaper7 from '../assets/images/compressed/wallpaper-7.jpg';
+import Wallpaper8 from '../assets/images/compressed/wallpaper-8.jpg';
 
-import Wallpaper11 from '../assets/images/compressed/wallpaper-11.png';
-import Wallpaper12 from '../assets/images/compressed/wallpaper-12.png';
+import Wallpaper11 from '../assets/images/compressed/wallpaper-11.jpg';
+import Wallpaper12 from '../assets/images/compressed/wallpaper-12.jpg';
 
-import Wallpaper13 from '../assets/images/compressed/wallpaper-13.png';
+import Wallpaper13 from '../assets/images/compressed/wallpaper-13.jpg';
 
-import Promo1 from "../assets/images/promo/promo-1.png";
+import Promo1 from "../assets/images/promo/promo-1.jpg";
 
 import "../Styles/seed.css";
 import "../Styles/home.css";

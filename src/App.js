@@ -4,7 +4,7 @@ import{ BrowserRouter, Routes,Route } from "react-router-dom";
 import NavBar from "./components/navBar";
 import Footer from "./components/Footer";
 import MobileMenu from './components/mobileMenu';
-import Background1 from './assets/images/compressed/background-1.png';
+import Background1 from './assets/images/compressed/background-1.jpg';
 import "./Styles/seed.css";
 import "./Styles/home.css";
 import Notifier from "./components/notifier";

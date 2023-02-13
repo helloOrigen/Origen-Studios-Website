@@ -8,9 +8,9 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import ContentBox from "../components/contentBox";
-import Patricia from "../assets/team/patricia-cor.png";
-import Nick from "../assets/team/nickolas-machado.png";
-import Cesar from "../assets/team/cesar-lima.png";
+import Patricia from "../assets/team/patricia-cor.jpg";
+import Nick from "../assets/team/nickolas-machado.jpg";
+import Cesar from "../assets/team/cesar-lima.jpg";
 
 
 const Team = () => {

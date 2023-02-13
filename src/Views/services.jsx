@@ -8,7 +8,7 @@ import "../Styles/seed.css";
 import { Autoplay, Keyboard, Pagination } from "swiper";
 import ContentBox from "../components/contentBox";
 import MapaMundi from "../assets/images/mapamundi.svg";
-import Fotomontaje from "../assets/images/fotomontaje.png";
+import Fotomontaje from "../assets/images/fotomontaje.webp";
 import MundoIlustracion from "../assets/images/mundo-ilustracion.png";
 import PersonaElegida from "../assets/images/persona-elegida.png";
 import PiramidesArabe from "../assets/images/piramides-arabe.png";
@@ -49,21 +49,26 @@ export default function Services(props) {
           <div className="w-100 f-f-Gilroy f-w-bo  ns-c-e ns-f-s-giant m-ns-f-s-big" >TODO EL MUNDO</div></div></div>
         </SwiperSlide>
         
-           
-
-  
-
-
+           {/* IMAGEN SOLO MOBILE DISEÑO GRÁFICO Y FOTOMONTAJE ----------------------------------- */}
+        <SwiperSlide className="d-n m-d-b">
+          
+          <div className="w-100 h-a centered h-pr-fl-ma "><img alt="Fotomontaje"
+            className=" w-100 h-100  h-pr-fl-ma "
+            Style="object-fit: contain;"
+            src={Fotomontaje}
+            />
+          </div>
+         </SwiperSlide>
 {/* DISEÑO GRÁFICO Y FOTOMONTAJE ----------------------------------- */}
-<SwiperSlide>
+<SwiperSlide >
           <div className="w-100 h-100 h-pr-fl-ma  ">
            
-            <div className="m-d-n w-50 h-100 h-pr-fl-ma "><img alt="Fotomontaje"
-            className="w-100 h-100 h-pr-fl-ma "
+            <div className="m-d-n w-50 h-100 m-h-a h-pr-fl-ma "><img alt="Fotomontaje"
+            className="m-d-n w-100 h-100 h-pr-fl-ma "
             Style="object-fit: contain;"
             src={Fotomontaje}
             /></div>
-             <div className="m-w-100 w-50 h-100 h-pr-fl-ma ">
+             <div className="m-w-100 w-50 h-100 m-h-a h-pr-fl-ma ">
               <div className="w-100 h-50 h-pr-fl-ma b-s-b-b p-r p-20px">
                 <ContentBox
                   link={"enlace accion"}
@@ -76,7 +81,7 @@ export default function Services(props) {
                   action={"Click aquí para saber más sobre este servicio."}
                 />{" "}
               </div>{" "}
-              <div className="w-100 h-50 h-pr-fl-ma b-s-b-b p-r p-20px">
+              <div className="w-100 h-50 h-pr-fl-ma m-h-a b-s-b-b p-r p-20px">
                 <ContentBox
                   link={"enlace accion"}
                   className="p-20px w-100 h-a r-v-c"
@@ -92,12 +97,21 @@ export default function Services(props) {
             </div> </SwiperSlide> {/* ----------------------------------- DISEÑO GRÁFICO Y FOTOMONTAJE */}
 
 
-        
+         {/* IMAGEN SOLO MOBILE DESARROLLO Y MARKETING ----------------------------------- */}
+         <SwiperSlide className="d-n m-d-b">
+          
+          <div className="w-100 h-a centered h-pr-fl-ma "><img alt="Mundoilustración"
+            className=" w-100 h-100  h-pr-fl-ma "
+            Style="object-fit: contain;"
+            src={MundoIlustracion}
+            />
+          </div>
+         </SwiperSlide>
         {/* DESARROLLO Y MARKETING ----------------------------------- */}
         <SwiperSlide>
           <div className="w-100 h-100 h-pr-fl-ma  ">
           
-            <div className="m-d-n w-50 h-100 h-pr-fl-ma ">
+            <div className="m-w-100 w-50 h-100 h-pr-fl-ma ">
               <div className="w-100 h-50 h-pr-fl-ma b-s-b-b p-r p-20px">
                 <ContentBox
                   link={"enlace accion"}
@@ -110,7 +124,7 @@ export default function Services(props) {
                   action={"Click aquí para saber más sobre este servicio."}
                 />
               </div>
-              <div className="m-d-n w-100 h-50 h-pr-fl-ma b-s-b-b p-r p-20px">
+              <div className=" w-100 h-50 h-pr-fl-ma b-s-b-b p-r p-20px">
                 <ContentBox
                   link={"enlace accion"}
                   className="p-20px w-100 h-a r-v-c"
@@ -123,7 +137,7 @@ export default function Services(props) {
                 />{" "}
               </div>
             </div>
-            <div className="m-w-100 w-50 h-100 h-pr-fl-ma "><img            alt="Mundoilustración"
+            <div className="m-d-n w-50 h-100 h-pr-fl-ma "><img            alt="Mundoilustración"
 
             className="w-100 h-100 h-pr-fl-ma "
             Style="object-fit: contain;"
@@ -132,16 +146,26 @@ export default function Services(props) {
             </div> </SwiperSlide>{/* ----------------------------------- DESARROLLO Y MARKETING */}
 
 
+         {/* IMAGEN SOLO MOBILE REDACCIÓN Y TRADUCCIÓN ----------------------------------- */}
+         <SwiperSlide className="d-n m-d-b">
+          
+          <div className="w-100 h-a centered h-pr-fl-ma "><img alt="PiramidesArabe"
+            className=" w-100 h-100  h-pr-fl-ma "
+            Style="object-fit: contain;"
+            src={PiramidesArabe}
+            />
+          </div>
+         </SwiperSlide>
     {/* REDACCIÓN Y TRADUCCIÓN ----------------------------------- */}
     <SwiperSlide>
           <div className="w-100 h-100 h-pr-fl-ma  ">
-          <div className="m-w-100 w-50 h-100 h-pr-fl-ma "><img            alt="PiramidesArabe"
+          <div className=" m-d-n w-50 h-100 h-pr-fl-ma "><img            alt="PiramidesArabe"
 
             className="w-100 h-100 h-pr-fl-ma "
             Style="object-fit: contain;"
             src={PiramidesArabe}
             /></div>
-            <div className="m-d-n w-50 h-100 h-pr-fl-ma ">
+            <div className="m-w-100 w-50 h-100 h-pr-fl-ma ">
               <div className="w-100 h-50 h-pr-fl-ma b-s-b-b p-r p-20px">
                 <ContentBox
                   link={"enlace accion"}
@@ -154,7 +178,7 @@ export default function Services(props) {
                   action={"Click aquí para saber más sobre este servicio."}
                 />
               </div>
-              <div className="m-d-n w-100 h-50 h-pr-fl-ma b-s-b-b p-r p-20px">
+              <div className=" w-100 h-50 h-pr-fl-ma b-s-b-b p-r p-20px">
                 <ContentBox
                   link={"enlace accion"}
                   className="p-20px w-100 h-a r-v-c"
@@ -169,6 +193,17 @@ export default function Services(props) {
             </div>
             
             </div> </SwiperSlide>{/* ----------------------------------- REDACCIÓN Y TRADUCCIÓN */}
+         
+          {/* IMAGEN SOLO MOBILE RECLUTAMIENTO Y ASESORÍA ----------------------------------- */}
+          <SwiperSlide className="d-n m-d-b">
+          
+          <div className="w-100 h-a centered h-pr-fl-ma "><img alt="Personaelegida"
+            className=" w-100 h-100  h-pr-fl-ma "
+            Style="object-fit: contain;"
+            src={PersonaElegida}
+            />
+          </div>
+         </SwiperSlide>
             {/* RECLUTAMIENTO Y ASESORÍA ----------------------------------- */}
 <SwiperSlide>
           <div className="w-100 h-100 h-pr-fl-ma  ">
@@ -198,7 +233,7 @@ export default function Services(props) {
                 />{" "}
               </div>
             </div>
-            <div className="m-d-n w-50 h-100 h-pr-fl-ma "><img alt="Personaelegida"
+            <div className=" m-d-n w-50 h-100 h-pr-fl-ma "><img alt="Personaelegida"
             className="w-100 h-100 h-pr-fl-ma "           
 
             Style="object-fit: contain;"

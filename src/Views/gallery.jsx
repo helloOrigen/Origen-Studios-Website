@@ -2,20 +2,20 @@ import React, { Fragment } from 'react'
 
 import Info from '../components/info'
 
-import Wallpaper1 from '../assets/images/compressed/wallpaper-1.png';
-import Wallpaper2 from '../assets/images/compressed/wallpaper-2.png';
-import Wallpaper3 from '../assets/images/compressed/wallpaper-3.png';
-import Wallpaper4 from '../assets/images/compressed/wallpaper-4.png';
-import Wallpaper5 from '../assets/images/compressed/wallpaper-5.png';
-import Wallpaper6 from '../assets/images/compressed/wallpaper-6.png';
-import Wallpaper7 from '../assets/images/compressed/wallpaper-7.png';
-import Wallpaper8 from '../assets/images/compressed/wallpaper-8.png';
-import Wallpaper9 from '../assets/images/compressed/wallpaper-9.png';
-import Wallpaper10 from '../assets/images/compressed/wallpaper-10.png';
-import Wallpaper11 from '../assets/images/compressed/wallpaper-11.png';
-import Wallpaper12 from '../assets/images/compressed/wallpaper-12.png';
-import Wallpaper13 from '../assets/images/compressed/wallpaper-13.png';
-import Wallpaper14 from '../assets/images/compressed/wallpaper-14.png';
+import Wallpaper1 from '../assets/images/compressed/wallpaper-1.jpg';
+import Wallpaper2 from '../assets/images/compressed/wallpaper-2.jpg';
+import Wallpaper3 from '../assets/images/compressed/wallpaper-3.jpg';
+import Wallpaper4 from '../assets/images/compressed/wallpaper-4.jpg';
+import Wallpaper5 from '../assets/images/compressed/wallpaper-5.jpg';
+import Wallpaper6 from '../assets/images/compressed/wallpaper-6.jpg';
+import Wallpaper7 from '../assets/images/compressed/wallpaper-7.jpg';
+import Wallpaper8 from '../assets/images/compressed/wallpaper-8.jpg';
+import Wallpaper9 from '../assets/images/compressed/wallpaper-9.jpg';
+import Wallpaper10 from '../assets/images/compressed/wallpaper-10.jpg';
+import Wallpaper11 from '../assets/images/compressed/wallpaper-11.jpg';
+import Wallpaper12 from '../assets/images/compressed/wallpaper-12.jpg';
+import Wallpaper13 from '../assets/images/compressed/wallpaper-13.jpg';
+import Wallpaper14 from '../assets/images/compressed/wallpaper-14.jpg';
 const Gallery = () => {
   return (
   <Fragment>
