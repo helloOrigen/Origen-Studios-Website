@@ -277,6 +277,7 @@ html {
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
+  height: -webkit-fill-available;
   /* 2 */
 }
 
@@ -284,9 +285,14 @@ html {
    ========================================================================== */
 /**
  * Remove the margin in all browsers.
+ 
  */
 body {
-  margin: 0;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+body {
+
 }
 
 /**
@@ -3127,20 +3133,7 @@ input[type=range].info:focus::-ms-fill-upper {
   z-index: 999999 ;
 }
 
-.path {
-  stroke: #000;
-  fill: transparent;
-  stroke-dasharray: 500;
-  stroke-dashoffset: -500;
-  animation: animate 5s forwards infinite;
-}
 
-
-@keyframes animate {
-100% {
-  stroke-dashoffset: 500;
-}
-}
 
 
 .ripple {
