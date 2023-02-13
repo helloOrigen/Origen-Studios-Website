@@ -7,7 +7,7 @@ export default function Btn(props) {
   return (
     <>
       <div
-        className={` ${className} h-pr-fl-ma w-a  h-a p-5px h-e c-p  b-s-b-b ns-c-f-1 c-p h-e hover-underline-animation d-i-f `} Style="border: 1px solid; border-color: white;"
+        className={` ${className} h-pr-fl-ma w-a  h-a p-5px h-e c-p  b-s-b-b ns-c-f-1 c-p h-e hover-underline-animation d-i-f f-f-Gilroy `} Style="border: 1px solid; border-color: white;"
       >     <a href={enlace} className="w-a h-a h-pr-fl-ma d-i-f">
       <div className="w-a h-a h-pr-fl-ma ">{children}</div>
         <div

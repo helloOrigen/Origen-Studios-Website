@@ -156,6 +156,7 @@ margin: auto;
   text-decoration: none;
   color: #e1a54b;
 
+
 }
 
 
@@ -3116,14 +3117,29 @@ input[type=range].info:focus::-ms-fill-upper {
 }
 
 .h-e-scale{
-  transform: scale(1);
-  transition: 1s;
+  transform: scale(1) ;
+  transition: 1s ;
  
   
 }
 .h-e-scale:hover{
-  transform: scale(1.2);
-  z-index: 999999;
+  transform: scale(1.2) ;
+  z-index: 999999 ;
+}
+
+.path {
+  stroke: #000;
+  fill: transparent;
+  stroke-dasharray: 500;
+  stroke-dashoffset: -500;
+  animation: animate 5s forwards infinite;
+}
+
+
+@keyframes animate {
+100% {
+  stroke-dashoffset: 500;
+}
 }
 
 
@@ -11469,7 +11485,7 @@ i.success {
 }
 
 .d-n {
-  display: none;
+  display: none !important;
 }
 
 .d-h {
@@ -11543,11 +11559,11 @@ i.success {
     display: inherit;
   }
   .m-d-n {
-    display: none;
+    display: none !important;
   }
   /* =================-------| DISPLAY BLOCK |-------================= */
   .m-d-b {
-    display: block;
+    display: block !important;
   }
   .m-d-i-b {
     display: inline-block;

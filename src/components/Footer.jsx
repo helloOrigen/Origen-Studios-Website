@@ -14,7 +14,7 @@ const Footer=({className})=> {
   
   return (
     <Fragment>
-      <div className={` ${className} h-pr-fl-ma w-80  h-100 m-h-80 b-s-b-b  `}>
+      <div className={` ${className} h-pr-fl-ma w-80  h-100 m-h-80 b-s-b-b f-f-Gilroy `}>
         {/* Footer */}
        
         <div

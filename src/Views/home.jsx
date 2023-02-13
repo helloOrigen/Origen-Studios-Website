@@ -21,6 +21,7 @@ import Wallpaper8 from '../assets/images/compressed/wallpaper-8.png';
 import Wallpaper11 from '../assets/images/compressed/wallpaper-11.png';
 import Wallpaper12 from '../assets/images/compressed/wallpaper-12.png';
 
+import Wallpaper13 from '../assets/images/compressed/wallpaper-13.png';
 
 import Promo1 from "../assets/images/promo/promo-1.png";
 
@@ -54,7 +55,7 @@ export default function Home(props) {
             <div className="w-100 h-a h-pr-fl-ma m-b-20px ">
               <div className="w-a h-a h-pr-fl-ma ">
                 <div className="w-a h-a h-pr-fl-ma p-l-10px ">
-                  <Btn className="" text="Coordinar ahora"  enlace={"https://calendly.com/origenstudios/first_steps"}>
+                  <Btn className="" text="Coordinar reunión"  enlace={"https://calendly.com/origenstudios/first_steps"}>
                     <div className="w-25px h-25px m-5px h-pr-fl-ma">
                       <img
                         src={MessageWriting}
@@ -70,7 +71,7 @@ export default function Home(props) {
                 <ContentBox
                   className="h-pr-fl-ma w-a h-a p-l-10px m-t-10px "
                   subtitle={
-                    "Coordine una reunión y comience su marca hoy mismo!"
+                    "¡Comencemos a producir su marca hoy mismo!"
                   }
                 />
               </div>
@@ -100,7 +101,7 @@ export default function Home(props) {
               className="mySwiper h-100 w-100 h-pr-fl-ma b-s-b-b"
             >
 
-{/*<SwiperSlide className="d-n m-d-b h-pr-fl-ma b-s-b-b">
+<SwiperSlide className="d-n m-d-b h-pr-fl-ma b-s-b-b">
 <div className="w-100 h-a h-pr-fl-ma r-v-c b-s-b-b">
             <h1
               className="w-a f-f-Gilroy c-white h-pr-fl-ma r-v-c h-a p-l-10px b-s-b-b m-a"
@@ -112,13 +113,22 @@ export default function Home(props) {
               className="w-a f-f-Gilroy c-white h-pr-fl-ma  r-v-c h-a p-l-10px b-s-b-b m-a"
               Style="font-size: 25px; line-height: 30px;"
             >
-              <b>Se encuentra en el origen de su nueva marca.</b>
+              <b>Se encuentra en el origen <br /> de su nueva marca.</b>
             </h1>
 
             <div className="w-100 h-a h-pr-fl-ma m-b-20px ">
+              
+              <div className="w-a h-a h-pr-fl-ma a-i-c">
+                <ContentBox
+                  className="h-pr-fl-ma w-a h-a p-l-10px m-t-10px "
+                  subtitle={
+                    "¡Comencemos a producir su marca hoy mismo!"
+                  }
+                />
+              </div>
               <div className="w-a h-a h-pr-fl-ma ">
                 <div className="w-a h-a h-pr-fl-ma p-l-10px ">
-                  <Btn className="" text="Coordinar ahora" enlace={"https://calendly.com/origenstudios/first_steps"}>
+                  <Btn className="" text="Coordinar reunión" enlace={"https://calendly.com/origenstudios/first_steps"}>
                     <div className="w-25px h-25px m-5px h-pr-fl-ma">
                       <img
                         src={MessageWriting}
@@ -130,26 +140,19 @@ export default function Home(props) {
                   </Btn>
                 </div>
               </div>
-              <div className="w-a h-a h-pr-fl-ma a-i-c">
-                <ContentBox
-                  className="h-pr-fl-ma w-a h-a p-l-10px m-t-10px "
-                  subtitle={
-                    "Coordine una reunión y comience su marca hoy mismo!"
-                  }
-                />
-              </div>
               <div className="w-100 h-pr-fl-ma h-20px p-t-20px p-r-20px">
                 <div className="w-80 h-pr-fl-ma m-l-10px m-r-10px h-pr-fl-ma m-a b-s-b-b divider "></div>
               </div>
             </div>
           </div>
-          </SwiperSlide>*/}
+          </SwiperSlide>
 
 
-
-          <SwiperSlide className="h-pr-fl-ma b-s-b-b p-5px">
-               &nbsp;
+     
+          <SwiperSlide className="m-d-n d-b h-pr-fl-ma b-s-b-b p-5px">
+               &nbsp; 
               </SwiperSlide>
+          
               <SwiperSlide className="h-pr-fl-ma b-s-b-b p-5px">
                 <img
                   src={Promo1}
@@ -200,7 +203,7 @@ export default function Home(props) {
               </SwiperSlide>
               <SwiperSlide className="h-pr-fl-ma  b-s-b-b p-5px">
                 <img
-                  src={Wallpaper7}
+                  src={Wallpaper13}
                   Style="Object-fit: cover; "
                   alt=""
                   className="w-100 h-100 h-pr-fl-ma   b-s-b-b"
