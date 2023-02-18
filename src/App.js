@@ -96,6 +96,18 @@ function App() {
            
 
            </Routes>
+           <div
+          className="h-pr-fl-ma w-100 h-15 m-h-10  t-1s b-s-b-b of-n  "
+          Style="z-index: 13060324;"
+        >
+          <Notifier
+            title="Politica de cookies"
+            text="Nosotros y terceros seleccionados utilizamos cookies o tecnologías similares con fines técnicos y, con su consentimiento, para otras finalidades según se especifica en la cookie policy. Denegar el consentimiento puede provocar que características relacionadas no estén disponibles.
+         Utilice el botón “Aceptar” para dar su consentimiento. Utilice el botón “Rechazar” o cierre esta nota informativa para continuar sin aceptar."
+            link="/cookies"
+            action="Conozca nuestras poltiicas de cookies."
+          />
+        </div>
             </div>
           </div>
         </div>
