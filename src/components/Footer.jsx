@@ -14,15 +14,15 @@ const Footer=({className})=> {
   
   return (
     <Fragment>
-      <div className={` ${className} h-pr-fl-ma w-80  h-100 m-h-80 b-s-b-b f-f-Gilroy `}>
+      <div className={` ${className} h-pr-fl-ma w-80  h-100  p-10px m-h-80 b-s-b-b f-f-Gilroy `}>
         {/* Footer */}
        
         <div
-          className="w-100 r-h-c h-100 h-pr-fl-ma b-s-b-b d-i-f "
+          className="w-100  r-h-c h-100 h-pr-fl-ma b-s-b-b d-i-f"
           Style="font-size: 10px; color: white; line-height: 15px; "
         > {/* Block 1 --------------- */}
-          <div className="noselect m-d-n w-25  h-100  b-s-b-b h-pr-fl-ma p-l-10px p-r-10px">
-          <div className="p-t-10px w-100 m-d-n">&nbsp;</div>
+          <div className="noselect  m-d-n w-20 h-100  b-s-b-b h-pr-fl-ma p-l-10px p-r-10px">
+         
             {/* Bloque 1 - 25% height */}
             <b>
               OrigenStudios<sup Style="font-size:75%;  top: -0.28em;">®</sup>
@@ -44,8 +44,8 @@ const Footer=({className})=> {
           </div>
           {/* --------------- Block 1 */}
           {/* Block 2 --------------- */}
-          <div className="m-d-n w-20 h-100   b-s-b-b h-pr-fl-ma p-r-10px t-a-l">
-          <div className="p-t-10px w-100 m-d-n">&nbsp;</div>
+          <div className="m-d-n w-20 h-100  p-l-10px b-s-b-b h-pr-fl-ma p-r-10px t-a-l">
+         
             {/* Bloque 2 - 25% height */}
              <Link to="/">
               <span className="hover-underline-animation">
@@ -80,7 +80,7 @@ const Footer=({className})=> {
           </div>{/* --------------- Block 2 */}
           {/* Block 3 --------------- */}
           <div className="m-d-n w-20 h-100  b-s-b-b h-pr-fl-ma p-l-10px  t-a-l">
-          <div className="p-t-10px w-100 m-d-n">&nbsp;</div>
+          
             {/* Bloque 3 - 25% height */}
             <Link to="/about">
               <span className="noselect hover-underline-animation">
@@ -115,7 +115,7 @@ const Footer=({className})=> {
           </div>  {/* --------------- Block 3 */}
             {/* Block 4 --------------- */}
           <div className="m-w-40 w-20 h-100  b-s-b-b h-pr-fl-ma p-r-10px p-l-10px t-a-l">
-             <div className="p-t-10px w-100 m-d-n">&nbsp;</div>
+            
             {/* Bloque 4 - 25% height */}
             <Link to="/faq">
               <span className="noselect   hover-underline-animation">
@@ -144,18 +144,20 @@ const Footer=({className})=> {
           </div> {/* --------------- Block 4 */}
 
  {/* Block 5 DESKTOP ONLY --------------- */}
- <div className="noselect m-d-n  w-20 h-100 b-s-b-b h-pr-fl-ma ">
+ <div  className="noselect m-d-n w-20 h-100 b-s-b-b h-pr-fl-ma ">
              
 
-          <div className="h-pr-fr-ma w-120px r-v-c h-25px  t-1s b-s-b-b">
-            <img className="w-100 h-100 p-r m-a r-v-c" Style="object-fit: contain;" src={OSLogotipo} alt="OS-LOGOTIPO"/></div></div>
+          <div className="h-pr-fr-ma w-100 h-100 t-1s b-s-b-b">
+          <div Style="background: black;" className="h-pr-fl-ma w-100 h-100 ">
+            <img className="w-100 h-a p-20px  h-pr-fr-ma  " Style="object-fit: contain;" src={OSLogotipo} alt="OS-LOGOTIPO"/></div></div>
+            </div>
 {/* --------------- Block 5*/}
           
          
 
           {/* MOBILE ONLY */}
            {/* Block 5 --------------- */}
-          <div className="d-n m-d-b w-40  h-100  b-s-b-b h-pr-fl-ma p-l-10px p-r-10px t-a-l">
+          <div  className="d-n m-d-b w-40  h-100  b-s-b-b h-pr-fl-ma p-l-10px p-r-10px t-a-l">
           <div className="p-t-10px w-100 m-d-n">&nbsp;</div>
             {/* Bloque 2 - 25% height */}
              <Link to="/">

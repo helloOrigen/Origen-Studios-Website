@@ -113,7 +113,7 @@ function App() {
         </div>
 
         
-          <Footer className="w-90 h-100 r-h-c h-pr-fl-ma" />
+          <Footer className="w-90 h-15vh r-h-c h-pr-fl-ma" />
        
       </div>
     </Fragment>

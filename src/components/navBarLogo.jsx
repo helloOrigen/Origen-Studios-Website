@@ -7,9 +7,9 @@ export default function navBarLogo(props) {
   
     return (
         <>
-            <div className="h-pr-fl-ma w-a h-100 p-l-10px h-e c-p b-s-b-b ns-c-f-1">
+            <div Style="background: black;" className="p-10px h-pr-fl-ma w-a h-100  h-e c-p b-s-b-b ns-c-f-1">
            
-          <div className="m-d-n h-pr-fl-ma r-v-c w-80px h-80px noselect  t-1s b-s-b-b"><img className="w-100 h-100 p-r m-a r-v-c" Style="object-fit: contain;" src={OSLogo} alt="OS-LOGO"/> </div>
+          <div className="m-d-n h-pr-fl-ma r-v-c w-70px h-70px noselect  t-1s b-s-b-b"><img className="w-100 h-100 h-pr-fl-ma centered" Style="object-fit: contain;" src={OSLogo} alt="OS-LOGO"/> </div>
           <div className="d-n m-d-b h-pr-fl-ma r-v-c noselect  h-25px  t-1s b-s-b-b"><img className="w-100 h-100 p-r m-a r-v-c" Style="object-fit: contain;" src={OSLogotipo} alt="OS-LOGO"/> </div>
 
           

@@ -8,7 +8,7 @@ export default function Info(props) {
     <>
 
 <div
-          className={` ${className} w-100 h-a h-pr-fl-ma d-i-f   p-20px b-s-b-b `}
+          className={` ${className} w-100 h-a h-pr-fl-ma d-i-f f-f-Gilroy  p-20px b-s-b-b `}
           Style="border-left: 3px solid; border-color: #0096ff; background: rgba(0,150,255,0.2); "
         >
              <div className="w-80px h-a h-pr-fl-ma b-s-b-b">

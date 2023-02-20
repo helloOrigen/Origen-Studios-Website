@@ -19,7 +19,7 @@ import Wallpaper14 from '../assets/images/compressed/wallpaper-14.jpg';
 const Gallery = () => {
   return (
   <Fragment>
-    <div className="w-100 h-100 h-pr-fl-ma centered b-s-b-b of-auto p-10px" >
+    <div className="w-100 h-100 h-pr-fl-ma centered b-s-b-b of-auto " >
 
 
 
