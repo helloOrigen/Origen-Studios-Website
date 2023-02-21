@@ -26,6 +26,7 @@ import Page404 from "./Views/page404";
 import Process from "./Views/process";
 import Gallery from "./Views/gallery";
 import Promo from "./Views/promo";
+import Jobs from "./Views/jobs";
 
 function App() {
   
@@ -68,10 +69,10 @@ function App() {
         </div>
         
 
-        <div className="h-pr-fl-ma w-100 h-70 m-h-80  b-s-b-b of-n  ">
+        <div className="h-pr-fl-ma w-100 h-70 m-h-80 p-20px  b-s-b-b of-n  ">
           {/* 70% Height  Body Container*/}
           <div className="h-pr-fl-ma w-100 h-100  b-s-b-b of-n  ">
-            <div className="w-90 c-white h-100   r-h-c h-pr-fl-ma ">
+            <div className="w-90 c-white h-100 r-h-c h-pr-fl-ma ">
               {/* Todas las views se renderizan aquí*/} <MobileMenu className="p-a"/>
 
               <Routes> 
@@ -91,6 +92,7 @@ function App() {
            <Route exact path="/process" element={<Process/>} />
            <Route exact path="/gallery" element={<Gallery/>} />
            <Route exact path="/promo" element={<Promo/>} />
+           <Route exact path="/jobs" element={<Jobs/>} />
            <Route path="/*" element={<Page404/>} />
            <Route path="404"component={<Page404/>} />
            

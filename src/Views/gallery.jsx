@@ -1,6 +1,9 @@
 import React, { Fragment } from 'react'
 
 import Info from '../components/info'
+import CardContainer from "../components/cardcontainer";
+import Card from "../components/card";
+
 
 import Wallpaper1 from '../assets/images/compressed/wallpaper-1.jpg';
 import Wallpaper2 from '../assets/images/compressed/wallpaper-2.jpg';
@@ -22,9 +25,27 @@ const Gallery = () => {
     <div className="w-100 h-100 h-pr-fl-ma centered b-s-b-b of-auto " >
 
 
+<CardContainer className="m-b-20px">
+<Card activeoptions type="card-tall card-wide" image={Wallpaper1} alt="Wallpaper1" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card activeoptions type="card-tall" image={Wallpaper2} alt="Wallpaper2" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card activeoptions type="card-tall" image={Wallpaper3} alt="Wallpaper3" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card activeoptions type="card-tall" image={Wallpaper4} alt="Wallpaper4" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card activeoptions type="card-tall" image={Wallpaper5} alt="Wallpaper5" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card activeoptions type="card-tall" image={Wallpaper6} alt="Wallpaper6" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card activeoptions type="card-tall" image={Wallpaper7} alt="Wallpaper7" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card activeoptions type="card-tall card-wide" image={Wallpaper8} alt="Wallpaper8" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card activeoptions type="card-wide" image={Wallpaper9} alt="Wallpaper9" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card activeoptions type="card-tall" image={Wallpaper10} alt="Wallpaper10" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card activeoptions type="card-tall" image={Wallpaper11} alt="Wallpaper11" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card activeoptions type="card-tall" image={Wallpaper12} alt="Wallpaper12" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card activeoptions type="card-wide" image={Wallpaper13} alt="Wallpaper13" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card activeoptions type="card-wide" image={Wallpaper14} alt="Wallpaper14" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
 
 
-    <div className="card-mosaic m-b-20px">
+
+</CardContainer>
+
+  { /* <div className="card-mosaic m-b-20px">
       
       <div className="card h-e card-tall card-wide  ">
       <img alt="Wallpaper1"
@@ -129,7 +150,7 @@ const Gallery = () => {
                       />
       </div>
 
-      </div>
+      </div> */}
    
 
 

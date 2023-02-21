@@ -59,7 +59,7 @@ const Footer=({className})=> {
               </span>
             </Link>
             <br />
-            <Link to="/carreers">
+            <Link to="/jobs">
               <span className=" noselect  hover-underline-animation">
                 Empleos y pasantías.
               </span>
@@ -172,7 +172,7 @@ const Footer=({className})=> {
               </span>
             </Link>
             <br />
-             <Link to="/">
+             <Link to="/jobs">
               <span className=" noselect  hover-underline-animation">
                 Empleos y pasantías.
               </span>
