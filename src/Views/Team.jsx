@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-
+import Typewriter from "typewriter-effect";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Keyboard, Pagination } from "swiper";
 import "swiper/css";
@@ -14,6 +14,15 @@ import Cesar from "../assets/team/cesar-lima.jpg";
 
 
 const Team = () => {
+  var app = document.getElementById('app');
+
+  var typewriter = new Typewriter(app, {
+      loop: true,
+      delay: 75, // SET TO USE A 1 SECOND DELAY
+      cursorClassName: 'cursorSize', // SET TO MY CUSTOM CLASS NAME
+      
+  });
+
   return (
     <Fragment>
       <div className="w-100 h-100 h-pr-fl-ma centered b-s-b-b of-auto  ">
@@ -156,14 +165,21 @@ const Team = () => {
         <div className="h-pr-fl-ma m-w-100 w-40 h-100 m-h-500px b-s-b-b  ">
           
          <div className="w-100 h-100 h-pr-fl-ma  b-s-b-b ">
-            <div className="w-80 m-w-100 h-a h-pr-fl-ma centered">
+            <div className="w-90 bg-black-node-o-50 ns-br-r-1 of-h p-20px m-w-100 h-a f-f-Gilroy h-pr-fl-ma centered">
               <ContentBox
                 className="h-pr-fl-ma w-100 h-a "
                 title={"Un equipo en expansión"}
                 subtitle={"Crecemos contigo."}
-                text="Somos un equipo de expertos en expansión, completamente a disposición de su marca. Nos reunimos con el objetivo de potenciar la calidad de los productos y servicios de las empresas con las ideas más grandes y ambiciosas.
-                Tenemos amplia experiencia en el desarrollo comercial de productos y servicios, contenido digital, marketing y ventas.
-                Contamos con el conocimiento y las habilidades necesarias para hacer posible cualquier necesidad que su marca tenga."
+                text=""
+              />
+               <Typewriter
+                onInit={(typewriter) => {
+                       typewriter.typeString('Somos un equipo de expertos en expansión, completamente a disposición de su marca. Nos reunimos con el objetivo de potenciar la calidad de los productos y servicios de las empresas con las ideas más grandes y ambiciosas. <br/> Tenemos amplia experiencia en el desarrollo comercial de productos y servicios, contenido digital, marketing y ventas.<br/> Contamos con el conocimiento y las habilidades necesarias para hacer posible cualquier necesidad que su marca tenga.')
+                    .pauseFor(200)
+                    
+                   
+                    .start();
+                }}
               />
             </div>
           </div>
