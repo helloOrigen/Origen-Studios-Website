@@ -8,8 +8,8 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import ContentBox from "../components/contentBox";
-import Patricia from "../assets/team/patricia-cor.jpg";
 import Nick from "../assets/team/nickolas-machado.jpg";
+import Vicky from "../assets/team/victoria-brylka.jpg";
 import Cesar from "../assets/team/cesar-lima.jpg";
 
 
@@ -55,36 +55,36 @@ const Team = () => {
             modules={[Autoplay, Keyboard, Pagination]}
             className="mySwiper w-100 h-100 m-h-500px h-pr-fl-ma b-s-b-b"
           >
-            {/* ESTUDIO | DETECCIÓN DE NECESIDAD------------------------------------------------ */}
+            {/* OS-TEAMWORK | CESAR ------------------------------------------------ */}
 
             <SwiperSlide className="h-pr-fl-ma  w-a b-s-b-b   "> 
            
-            <div className="h-e h-pr-fl-ma  centered">
-              <div
-                 className="w-200px h-200px h-pr-fl-ma circle r-h-c p-10px m-b-20px h-up"
-                 Style="border: 1px solid; border-color: white;"
-              ><img
-              src={Patricia}
-              className="w-100 h-100 h-pr-fl-ma circle h-e-color h-e-scale"
-              Style="object-fit: contain; stroke: #ffffff !important; z-index: 9999;"
-             alt="Nickolas Machado"
-    
-            /></div>  <div
-            className="w-100 h-a h-pr-fl-ma r-h-c f-w-bo t-a-c f-f-Gilroy  m-b-10px"
-            Style="font-size: 15px; line-height: 20px;"
-          >
-             Patricia Cor 
-          </div> 
-              <span className="h-pr-fl-ma b-s-b-b divider r-h-c m-b-10px">&nbsp;</span>
-              <div
-                className="w-100 h-a h-pr-fl-ma r-h-c f-w-bo ns-c-e t-a-c f-f-Gilroy"
-                Style="font-size: 10px; line-height: 15px;"
-              >
-                Dir. Depto. Desarrollo & Tecnologías.
-              </div> 
-          </div>
-         
-            </SwiperSlide>
+           <div className="h-e h-pr-fl-ma  centered">
+             <div
+                className="w-200px h-200px h-pr-fl-ma circle r-h-c p-10px m-b-20px h-up"
+                Style="border: 1px solid; border-color: white;"
+             ><img
+             src={Vicky}
+             className="w-100 h-100 h-pr-fl-ma circle h-e-color h-e-scale"
+             Style="object-fit: contain; stroke: #ffffff !important; z-index: 9999;"
+            alt="Nickolas Machado"
+   
+           /></div>  <div
+           className="w-100 h-a h-pr-fl-ma r-h-c f-w-bo t-a-c f-f-Gilroy  m-b-10px"
+           Style="font-size: 15px; line-height: 20px;"
+         >
+            Victoria Brylka
+         </div> 
+             <span className="h-pr-fl-ma b-s-b-b divider r-h-c m-b-10px">&nbsp;</span>
+             <div
+               className="w-100 h-a h-pr-fl-ma r-h-c f-w-bo ns-c-e t-a-c f-f-Gilroy"
+               Style="font-size: 10px; line-height: 15px;"
+             >
+               Dir. Depto. Desarrollo e investigación Legal.
+             </div> 
+         </div>
+        
+           </SwiperSlide>
 
             <SwiperSlide className="h-pr-fl-ma  w-a b-s-b-b   "> 
            
@@ -114,7 +114,7 @@ const Team = () => {
          </div>
         
            </SwiperSlide>
-
+           {/* OS-TEAMWORK | NICK ------------------------------------------------ */}
            <SwiperSlide className="h-pr-fl-ma  w-a b-s-b-b   "> 
            
            <div className="h-e h-pr-fl-ma  centered">
@@ -138,7 +138,7 @@ const Team = () => {
                className="w-100 h-a h-pr-fl-ma r-h-c f-w-bo ns-c-e t-a-c f-f-Gilroy"
                Style="font-size: 10px; line-height: 15px;"
              >
-               Dir. Depto. Producción y Diseño Digital.
+               Dir. Depto. Producción & Diseño Digital.
              </div> 
          </div>
         
