@@ -3562,7 +3562,20 @@ i.success {
   background: none;
   color: inherit;
 }
+.h-e-ghost-inh:hover {
+    background: none;
+    color: inherit;
+    -webkit-box-shadow: 0 0 0 2px inset inherit;
+            box-shadow: 0 0 0 2px inset inherit;
 
+}
+.h-e-ghost-e:hover {
+  background: none;
+  color: #e1a54b;
+  -webkit-box-shadow: 0 0 0 2px inset #e1a54b;
+          box-shadow: 0 0 0 2px inset #e1a54b;
+
+}
 .ghost.info {
   color: #0096ff;
   -webkit-box-shadow: 0 0 0 2px inset #0096ff;
