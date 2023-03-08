@@ -7,9 +7,7 @@ import { Autoplay, Keyboard, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import Btn from "../components/btn";
-import MessageWriting from "../assets/icons/message_writing.svg";
-import Info from "../components/info";
+
 import CardContainer from "../components/cardcontainer";
 import Card from "../components/card";
 const Plans = () => {

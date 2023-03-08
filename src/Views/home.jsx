@@ -40,7 +40,7 @@ export default function Home(props) {
           className="m-d-n w-50 h-100 h-pr-fl-ma b-s-b-b p-r-10px "
           Style="z-index: 2000;"
         >
-          <div className="w-90 bg-black-node-o-50 ns-br-r-1 of-h p-20px h-a h-pr-fl-ma r-v-c b-s-b-b">
+          <div className="w-90 bg-black-node-o-70 blur ns-br-r-1 of-h p-20px h-a h-pr-fl-ma r-v-c b-s-b-b">
             <div id="app"
               className="app w-100  f-f-Gilroy c-white h-pr-fl-ma h-a p-l-10px b-s-b-b m-a"
               Style="font-size: 50px; line-height: 55px;"
@@ -101,7 +101,7 @@ export default function Home(props) {
               <div className="w-50 h-a h-pr-fl-ma a-i-c">
                 <ContentBox
                   className="h-pr-fl-ma w-a h-a p-l-10px m-t-10px "
-                  subtitle={"¡Comencemos a producir su marca hoy mismo!"}
+                  subtitle={"¡Agende una reunión hoy mismo!"}
                 />
               </div>
               <div className="w-50 h-a h-pr-fl-ma p-r-10px ">

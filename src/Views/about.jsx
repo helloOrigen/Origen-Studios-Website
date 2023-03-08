@@ -16,10 +16,10 @@ const About = () => {
               src={Logo}
               alt="Logo"
             /></div>
-        <div className="m-w-100 w-50 h-a h-pr-fl-ma p-20px" > <ContentBox className="w-100 h-a" title={"Nuestra historia."}
+        <div className="m-w-100 w-50 h-a h-pr-fl-ma p-20px b-s-b-b bg-black-node-o-70 blur ns-br-r-1" > <ContentBox className="w-100 h-a" title={"Nuestra historia."}
         subtitle="2023 - Montevideo, Uruguay. "/>
         
-        <ContentBox className="w-100 h-a m-b-10px"  text="Un grupo conformado por una Programadora (Patricia Cor), un Administrativo Contable (Cesar Lima) y un Diseñador Gráfico Sr. (Nickolás Machado), nos reunimos con el fin de mejorar la calidad, optimizar los recursos y generar oportunidades reales de crecimiento en todos aquellos productos y servicios digitales que hoy en día, se ofrecen al público por miles de empresas a nivel regional e internacional.  "/> 
+        <ContentBox className="w-100 h-a m-b-10px"  text="Un grupo conformado por un experto en Administración Contable (Cesar Lima), una Master y nuestro referente de Legal & Jurídica (Victoria Brylka) y un Diseñador Gráfico Sr. con más de 15 años de experiencia, (Nickolás Machado), nos reunimos con el fin de mejorar la calidad, optimizar los recursos y generar oportunidades reales de crecimiento en todos aquellos productos y servicios digitales que hoy en día, se ofrecen al público por miles de empresas a nivel regional e internacional.  "/> 
         <ContentBox className="w-100 h-a m-b-10px"  text="En ese entonces, iniciamos con un ''Estudio de mercado'', con la idea de sectorizar nuestros ''Nichos Prospecto'', en función a nuestros Conocimientos, Habilidades y Experiencias, pero lo que encontramos nos impactó...  "/> 
         <ContentBox className="w-100 h-a m-b-10px"  text="Actualmente, existen en internet un sin fin de sitios webs creados por ''Agencias de Desarrollo'' que no conocen de parámetros de rendimiento, optimización de recursos, y mucho menos certificación de calidad.  "/> 
         <ContentBox className="w-100 h-a m-b-10px"  text="Estas empresas, ofrecen servicios tales como: ''¡Creamos su página web original en el día!'', o ''¡Creamos su logo en 10 minutos!'', a las claras, se puede ver que no solo los sitios webs son clones uno de otros, sino que también los ''Logotipos Originales'' son generados con plantillas online y carecen totalmente de cualquier tipo de parámetro de rendimiento y calidad. "/> 
@@ -31,9 +31,9 @@ const About = () => {
                </div>
         </div>
 
-        <div className="m-w-100 w-33  h-100 h-pr-fl-ma p-20px">
+        <div className="m-w-100 w-33  h-100 h-pr-fl-ma p-20px ">
           <div
-            className="w-100 h-100 h-pr-fl-ma "
+            className="w-100 h-100 h-pr-fl-ma bg-black-node-o-70 blur ns-br-r-1"
             Style="border: 1px solid; border-color: white;"
           >
             <div className="w-100 h-a h-pr-fl-ma r-v-c">
@@ -56,9 +56,9 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="m-w-100 w-33  h-100 h-pr-fl-ma p-20px">
+        <div className="m-w-100 w-33  h-100 h-pr-fl-ma p-20px ">
           <div
-            className="w-100 h-100 h-pr-fl-ma "
+            className="w-100 h-100 h-pr-fl-ma bg-black-node-o-70 blur ns-br-r-1"
             Style="border: 1px solid; border-color: white;"
           >
             <div className="w-100 h-a h-pr-fl-ma r-v-c">
@@ -83,7 +83,7 @@ const About = () => {
         </div>
         <div className="m-w-100 w-33  h-100 h-pr-fl-ma p-20px">
           <div
-            className="w-100 h-100 h-pr-fl-ma "
+            className="w-100 h-100 h-pr-fl-ma bg-black-node-o-70 blur ns-br-r-1"
             Style="border: 1px solid; border-color: white;"
           >
             <div className="w-100 h-a h-pr-fl-ma r-v-c">

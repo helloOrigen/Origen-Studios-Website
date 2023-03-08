@@ -188,6 +188,9 @@ margin: auto;
   animation-duration: 40s;
 
 }
+.blur{
+  backdrop-filter: blur(10px);
+}
 .h-e:hover .h-e-style {
 
   text-decoration: none;

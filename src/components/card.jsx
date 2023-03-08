@@ -40,7 +40,7 @@ export default function Card(props) {
 
   return (
     <>
-      <div className={` ${CardClassName} ${type} card h-e  b-s-b-b bg-black-node-o-50 ns-br-r-1 of-h  `}>
+      <div className={` ${CardClassName} ${type} card h-e  b-s-b-b bg-black-node-o-70 blur ns-br-r-1 of-h  `}>
       {cardCategory && ( 
         
     

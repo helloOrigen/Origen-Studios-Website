@@ -11,7 +11,8 @@ import Lightbulb from "../assets/icons/lightbulb.svg";
 import Lightbulbon from "../assets/icons/lightbulb_on.svg";
 import Loader from "../assets/icons/loader.svg";
 
-
+import CardContainer from "../components/cardcontainer";
+import Card from "../components/card";
 const Process = () => {
   return (
     <Fragment>
@@ -65,13 +66,15 @@ const Process = () => {
 {/* -------------------------------------------------------------------- PLANIFICACION*/}
 
 
+
 <div className="w-100 h-pr-fl-ma m-b-20px">
 <div className="w-100 h-pr-fl-ma ">
 
 
   
-<div className="m-w-100 w-50 h-pr-fl-ma   ">
-<div className="w-30 m-w-100 h-pr-fl-ma p-20px">
+<div className="m-w-100 w-50 h-pr-fl-ma  p-20px  ">
+  <div className="w-100 h-100 h-pr-fl-ma bg-black-node-o-70 blur ns-br-r-1 p-20px">
+<div className="w-30 m-w-100 h-pr-fl-ma p-20p ">
 <div className="w-and-h-150px r-h-c h-pr-fl-ma  b-s-b-b ">
               <img
               alt="Documentlist"
@@ -81,7 +84,7 @@ const Process = () => {
             />
               </div>
 </div>
-<div className="w-70 m-w-100  h-pr-fl-ma  ">
+<div className="w-70 m-w-100  h-pr-fl-ma   ">
 <div className="w-100 h-a h-pr-fl-ma ">
 <ContentBox 
           className="w-100 "
@@ -94,10 +97,13 @@ const Process = () => {
 </div>
 </div>
 </div>
+</div>
 
 
-<div className="m-w-100 w-50 h-pr-fl-ma   ">
-<div className="w-30 m-w-100 h-pr-fl-ma p-20px">
+<div className="m-w-100 w-50 h-pr-fl-ma  p-20px  ">
+<div className="w-100 h-100 h-pr-fl-ma bg-black-node-o-70 blur ns-br-r-1 p-20px">
+
+<div className="w-30 m-w-100 h-pr-fl-ma p-20px  ">
 <div className="w-and-h-150px r-h-c h-pr-fl-ma  b-s-b-b ">
               <img alt="Superviseduser"
             className="w-100 h-100 h-pr-fl-ma "
@@ -114,11 +120,12 @@ const Process = () => {
               title={"COORDINACIÓN DE EQUIPO Y RECURSOS."}
             
             />
-          <ContentBox className="m-b-20px p-20px" text="Coordinaremos una reunión interna con nuestro equipo de expertos para conocer la cantidad de ."
+          <ContentBox className="m-b-20px p-20px" text="Coordinaremos una reunión interna con nuestro equipo de expertos para cuantificar la cantidad de recursos necesarios (Tiempo del personal, assets, servicios de terceros, tipografías & más.)."
           />
 </div>
 </div>
 </div>
+</div>
 
 
 
@@ -126,8 +133,9 @@ const Process = () => {
 
 
 
+<div className="m-w-100 w-50 h-pr-fl-ma p-20px  ">
+<div className="w-100 h-100 h-pr-fl-ma bg-black-node-o-70 blur ns-br-r-1 p-20px">
 
-<div className="m-w-100 w-50 h-pr-fl-ma   ">
 <div className="w-30 m-w-100 h-pr-fl-ma p-20px">
 <div className="w-and-h-150px r-h-c h-pr-fl-ma  b-s-b-b ">
               <img alt="Quickreference"
@@ -150,13 +158,15 @@ const Process = () => {
 </div>
 </div>
 </div>
+</div>
 
 
 
 
 
+<div className="m-w-100 w-50 h-pr-fl-ma  p-20px ">
+<div className="w-100 h-100 h-pr-fl-ma bg-black-node-o-70 blur ns-br-r-1 p-20px">
 
-<div className="m-w-100 w-50 h-pr-fl-ma   ">
 <div className="w-30 m-w-100 h-pr-fl-ma p-20px">
 <div className="w-and-h-150px r-h-c h-pr-fl-ma  b-s-b-b ">
               <img alt="Cloudupload"
@@ -179,7 +189,7 @@ const Process = () => {
 </div>
 </div>
 </div>
-
+</div>
 
 
 </div>
@@ -242,94 +252,46 @@ const Process = () => {
         </div>
 
 {/* -------------------------------------------------------------------- PRODUCCIÓN */}
-        <div
-          className="m-w-100 w-100 h-100 h-pr-fl-ma  b-s-b-b"
-          
-        >
-
-         
-
-<div
-            className="m-w-100 w-33 h-300px m-h-350px h-pr-fl-ma r-v-c b-s-b-b p-10px"
-            
-          >
-            <div className="w-100 h-a h-pr-fl-ma r-v-c  b-s-b-b" Style="border-bottom: 1px solid; border-color:white;">
-              <div className="w-and-h-150px r-h-c h-pr-fl-ma  b-s-b-b m-b-20px">
-              <img alt="Lightbulb"
-            className="w-100 h-100 h-pr-fl-ma centered"
-            Style="object-fit: contain;"
-            src={Lightbulb}
+  
+        <div className="w-100 h-pr-fl-ma m-b-20px">
+<CardContainer>
+            <Card
+              cardCategory="Producción"
+              title="Conceptualización"
+              subtitle="Primeros Pasos"
+              icon={` ${Loader} `}
+              description="Crearemos los conceptos necesarios para cada proyecto, estos conceptos se realizarán tomando en cuenta todos los aspectos ofrecidos en el Briefing."
+        
+              btn="Activo"
+              btnText="Coordinar Reunión"
+              btnLink="google.com"
             />
-              </div>
-              <div className="w-100 h-a r-h-c h-pr-fl-ma  b-s-b-b">
-                <ContentBox
-                  subtitle="Concepto"
-                  className=" w-100 t-a-c"
-                />{" "}
-              </div>
-              <ContentBox
-                  text="Crearemos los conceptos necesarios para cada proyecto, estos conceptos se realizarán tomando en cuenta todos los aspectos ofrecidos en el Briefing."
-                  className=" w-100 t-a-c m-b-20px"
-                />
-            </div>
-            
-          </div>
+                  <Card
+              cardCategory="Producción"
+              title="Feedback"
+              subtitle="Fase Interna"
+              icon={` ${Lightbulb} `}
+              description="Le ofreceremos etapas de feedback, para que tenga el control total en la toma de decisiones de los procesos conceptuales de su proyecto."
+             
 
-
-          <div
-            className="m-w-100 w-33 h-300px m-h-350px h-pr-fl-ma r-v-c b-s-b-b p-10px"
-            
-          >
-            <div className="w-100 h-a h-pr-fl-ma r-v-c  b-s-b-b" Style="border-bottom: 1px solid; border-color:white;">
-              <div className="w-and-h-150px r-h-c h-pr-fl-ma  b-s-b-b m-b-20px">
-              <img alt="Loader"
-            className="w-100 h-100 h-pr-fl-ma centered"
-            Style="object-fit: contain;"
-            src={Loader}
+              btn="Activo"
+              btnText="Coordinar Reunión"
+              btnLink="google.com"
             />
-              </div>
-              <div className="w-100 h-a r-h-c h-pr-fl-ma  b-s-b-b">
-                <ContentBox
-                  subtitle="Feedback"
-                  className=" w-100 t-a-c"
-                />{" "}
-              </div>
-              <ContentBox
-                  text="Le ofreceremos etapas de feedback, para que tenga el control total en la toma de decisiones de los procesos conceptuales de su proyecto. "
-                  className=" w-100 t-a-c m-b-20px"
-                />
-            </div>
-            
-          </div>
-
-
-          <div
-            className="m-w-100 w-33 h-300px m-h-350px h-pr-fl-ma r-v-c b-s-b-b p-10px"
-            
-          >
-            <div className="w-100 h-a h-pr-fl-ma r-v-c  b-s-b-b" Style="border-bottom: 1px solid; border-color:white;">
-              <div className="w-and-h-150px r-h-c h-pr-fl-ma  b-s-b-b m-b-20px">
-              <img alt="Lightbulbon"
-            className="w-100 h-100 h-pr-fl-ma centered"
-            Style="object-fit: contain;"
-            src={Lightbulbon}
+                  <Card
+              cardCategory="Producción"
+              title="Creación"
+              subtitle="Producción Maestra"
+              icon={` ${Lightbulbon} `}
+              description="Una vez afinadas todas las etapas de feedback necesarias, crearemos la Pieza Clave ó Pieza Maéstra, la cual será su elemento definitivo lísto para su reproducción y uso."
+              
+              btn="Activo"
+              btnText="Coordinar Reunión"
+              btnLink="google.com"
             />
-              </div>
-              <div className="w-100 h-a r-h-c h-pr-fl-ma  b-s-b-b">
-                <ContentBox
-                  subtitle="Creación"
-                  className=" w-100 t-a-c"
-                />{" "}
-              </div>
-              <ContentBox
-                  className=" w-100 t-a-c m-b-20px"
-                  text="Una vez afinadas todas las etapas de feedback necesarias, crearemos la Pieza Clave ó Pieza Maéstra, la cual será su elemento definitivo lísto para su reproducción y uso. "
-                />
+                  
+            </CardContainer>
             </div>
-            
-          </div>
-
-        </div>
       </div>
     </Fragment>
   );
