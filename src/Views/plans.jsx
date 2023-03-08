@@ -37,7 +37,7 @@ const Plans = () => {
               list4="Visibilidad & Progresión"
               btn="Activo"
               btnText="Coordinar Reunión"
-              btnLink="google.com"
+              btnLink="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
             />
             <Card
               cardCategory="Estudio"
@@ -53,7 +53,7 @@ const Plans = () => {
               list4="Análisis del contenido"
               btn="Activo"
               btnText="Coordinar Reunión"
-              btnLink="google.com"
+              btnLink="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
             />
             <Card
             cardCategory="Estudio"
@@ -69,7 +69,7 @@ const Plans = () => {
             list4="Habilitaciones Web"
             btn="Activo"
             btnText="Coordinar Reunión"
-            btnLink="google.com"
+            btnLink="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
             />
             <Card
                cardCategory="Estudio"
@@ -85,7 +85,7 @@ const Plans = () => {
                list4="Estudio de capacidad de crecimiento"
                btn="Activo"
                btnText="Coordinar Reunión"
-               btnLink="google.com"
+               btnLink="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
             />
             <Card
                cardCategory="Estudio"
@@ -101,7 +101,7 @@ const Plans = () => {
                list4="Detección de amenazas internas"
                btn="Activo"
                btnText="Coordinar Reunión"
-               btnLink="google.com"
+               btnLink="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
             />
           </CardContainer>
         </div>

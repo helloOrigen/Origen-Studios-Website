@@ -47,7 +47,7 @@ const Process = () => {
                 <Btn
                   className="h-pr-fr-ma "
                   text="Coordinar estudio"
-                  enlace="https://calendly.com/origenstudios/first_steps"
+                  enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
                 >
                   <div className="w-25px h-25px m-5px h-pr-fl-ma">
                     <img
@@ -235,7 +235,7 @@ const Process = () => {
                 <Btn
                   className="h-pr-fr-ma "
                   text="Coordinar estudio"
-                  enlace="https://calendly.com/origenstudios/first_steps"
+                  enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
                 >
                   <div className="w-25px h-25px m-5px h-pr-fl-ma">
                     <img
@@ -264,7 +264,7 @@ const Process = () => {
         
               btn="Activo"
               btnText="Coordinar Reunión"
-              btnLink="google.com"
+              btnLink="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
             />
                   <Card
               cardCategory="Producción"
@@ -276,7 +276,7 @@ const Process = () => {
 
               btn="Activo"
               btnText="Coordinar Reunión"
-              btnLink="google.com"
+              btnLink="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
             />
                   <Card
               cardCategory="Producción"
@@ -287,7 +287,7 @@ const Process = () => {
               
               btn="Activo"
               btnText="Coordinar Reunión"
-              btnLink="google.com"
+              btnLink="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
             />
                   
             </CardContainer>

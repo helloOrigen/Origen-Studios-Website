@@ -109,7 +109,7 @@ export default function Home(props) {
                   <Btn
                     className=""
                     text="Coordinar reunión &nbsp;"
-                    enlace={"https://calendly.com/origenstudios/first_steps"}
+                    enlace={"https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"}
                   >
                     <div className="w-25px h-25px m-5px h-pr-fl-ma">
                       <img
@@ -175,7 +175,7 @@ export default function Home(props) {
                           className=""
                           text="Coordinar reunión"
                           enlace={
-                            "https://calendly.com/origenstudios/first_steps"
+                            "https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
                           }
                         >
                           <div className="w-25px h-25px m-5px h-pr-fl-ma">
