@@ -5,6 +5,7 @@ import NavBar from "./components/navBar";
 import Footer from "./components/Footer";
 import MobileMenu from './components/mobileMenu';
 import Background1 from './assets/images/compressed/background-1.jpg';
+import Background2 from './assets/images/compressed/background-2.jpg';
 import "./Styles/seed.css";
 import "./Styles/home.css";
 import Notifier from "./components/notifier";
@@ -41,7 +42,7 @@ function App() {
         <div
           className=" l-0px r-0px t-0px b-0px m-a "/*blurbganimation */
           style={{
-            backgroundImage: `url(${Background1})`,
+            backgroundImage: `url(${Background2})`,
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",

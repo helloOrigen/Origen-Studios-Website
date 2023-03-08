@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 
 import Typewriter from "typewriter-effect";
+
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -26,10 +27,12 @@ export default function Home(props) {
   var app = document.getElementById('app');
 
   var typewriter = new Typewriter(app, {
-      loop: true,
-      delay: 500, // SET TO USE A 1 SECOND DELAY
-      cursorClassName: 'cursorSize' // SET TO MY CUSTOM CLASS NAME
-  });
+    loop: true,
+    delay: 100,
+   
+    
+});
+  
   return (
     <Fragment Fragment>
       <div className="w-100 h-100 h-pr-fl-ma b-s-b-b p-t-10px p-b-10px">
@@ -38,53 +41,54 @@ export default function Home(props) {
           Style="z-index: 2000;"
         >
           <div className="w-90 bg-black-node-o-50 ns-br-r-1 of-h p-20px h-a h-pr-fl-ma r-v-c b-s-b-b">
-            <div
-              className="w-100  f-f-Gilroy c-white h-pr-fl-ma h-a p-l-10px b-s-b-b m-a"
+            <div id="app"
+              className="app w-100  f-f-Gilroy c-white h-pr-fl-ma h-a p-l-10px b-s-b-b m-a"
               Style="font-size: 50px; line-height: 55px;"
             >
-              <Typewriter
+              
+              <Typewriter  className="homewriter"
                 onInit={(typewriter) => {
-                 
-                  typewriter.typeString('Le damos <br/>la bienvenida a... <br/><strong>OrigenStudios<span Style="color: #e1a54b;">.</span>com</strong>')
+                  typewriter
+                  .typeString('Le damos <br/>la bienvenida a... <br/><strong>OrigenStudios<span Style="color: #e1a54b;">.</span>com</strong>')
                     .pauseFor(200)
                     .deleteAll(10)
-                    typewriter.typeString('Somos la primer<br />agencia del Uruguay...')
+                    .typeString('Somos la primer<br />agencia del Uruguay...')
                   .pauseFor(200)
                   .deleteAll(10)
-                  typewriter.typeString('en utilizar<br /> <span Style="color: #27ae60;">Inteligencia Artificial</span>')
+                  .typeString('en utilizar<br /> <span Style="color: #27ae60;">Inteligencia Artificial</span>')
                   .pauseFor(200)
                   .deleteAll(10)
-                  typewriter.typeString('para potenciar sus <br /> <span Style="color: #27ae60;">Recursos</span>')
+                  .typeString('para potenciar sus <br /> <span Style="color: #27ae60;">Recursos</span>')
                   .pauseFor(200)
-                  .deleteChars(8);
-                  typewriter.typeString('<span Style="color: #27ae60;">Ventas</span>')
+                  .deleteChars(8)
+                  .typeString('<span Style="color: #27ae60;">Ventas</span>')
                   .pauseFor(200)
-                  .deleteChars(6);
-                  typewriter.typeString('<span Style="color: #27ae60;">Oportunidades</span>')
+                  .deleteChars(6)
+                  .typeString('<span Style="color: #27ae60;">Oportunidades</span>')
                   .pauseFor(200)
                   .deleteAll(10)
                   .typeString('Nos especializamos en: <br />')
-                  typewriter.typeString('<span Style="color: #27ae60;">Diseño gráfico</span>')      .pauseFor(200).deleteChars(14);
-                  typewriter.typeString('<span Style="color: #27ae60;">Marketing Digital</span>')
+                  .typeString('<span Style="color: #27ae60;">Diseño gráfico</span>')      .pauseFor(200).deleteChars(14)
+                  .typeString('<span Style="color: #27ae60;">Marketing Digital</span>')
                     .pauseFor(200)
-                    .deleteChars(17);
-                  typewriter.typeString('<span Style="color: #27ae60;">Desarrollo Web/App</span>')
+                    .deleteChars(17)
+                  .typeString('<span Style="color: #27ae60;">Desarrollo Web/App</span>')
                     .pauseFor(200)
-                    .deleteChars(18);
-                  typewriter.typeString('<span Style="color: #27ae60;">Asesoría Legal</span>')
+                    .deleteChars(18)
+                  .typeString('<span Style="color: #27ae60;">Asesoría Legal</span>')
                     .pauseFor(200)
                     .deleteChars(5)
-                    typewriter.typeString('<span Style="color: #27ae60;">financiera</span>')
+                    .typeString('<span Style="color: #27ae60;">financiera</span>')
                     .deleteChars(10)
                     .pauseFor(200)
-                    typewriter.typeString('<span Style="color: #27ae60;">de marca</span>')
+                    .typeString('<span Style="color: #27ae60;">de marca</span>')
                     .pauseFor(200)
                     .deleteAll(10)
-                    typewriter.typeString('Le damos <br/>la bienvenida a... <br/><strong>OrigenStudios<span Style="color: #e1a54b;">.</span>com</strong>')
+                    .typeString('Le damos <br/>la bienvenida a... <br/><strong>OrigenStudios<span Style="color: #e1a54b;">.</span>com</strong>')
                 
 
                     .start();
-                }}
+                                 }} options={{ delay: 60, }}
               />
             </div>
             <br />

@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import ContentBox from "../components/contentBox";
+import OSLogoSymbol from '../assets/logo/OS-Logo-Symbol-White-Png.png';
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Keyboard, Pagination } from "swiper";
@@ -9,10 +10,46 @@ import "swiper/css/navigation";
 import Btn from "../components/btn";
 import MessageWriting from "../assets/icons/message_writing.svg";
 import Info from "../components/info";
-
+import CardContainer from "../components/cardcontainer";
+import Card from "../components/card";
 const Plans = () => {
   return (
     <Fragment>
+
+<div className="w-100 h-100 h-pr-fl-ma centered b-s-b-b p-30px of-auto ">
+          {/* ESTUDIO -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */}
+
+          <div
+          className="w-100 h-a h-pr-fl-ma  "
+          Style="border-bottom: 1px solid; border-color: white;"
+        >
+          <div className="w-50 m-w-100 bg-orange b-s-b-b h-a h-pr-fl-ma ">
+            <ContentBox
+              title={"ESTUDIO."}
+              subtitle={"Conozca las necesidades de su sector de mercado."}
+            />
+          </div>
+          </div>
+          <div
+          className="w-100 h-a h-pr-fl-ma bg-red "
+          Style="border-bottom: 1px solid; "
+        >
+  <CardContainer >
+           <Card title="Ventas" subtitle="Activo" icon={` ${OSLogoSymbol} `}/>
+           <Card title="Ventas" subtitle="Activo" icon={` ${OSLogoSymbol} `}/>
+           <Card title="Ventas" subtitle="Activo" icon={` ${OSLogoSymbol} `}/>
+           <Card title="Ventas" subtitle="Activo" icon={` ${OSLogoSymbol} `}/>
+           <Card title="Ventas" subtitle="Activo" icon={` ${OSLogoSymbol} `}/>
+          </CardContainer>
+</div>
+
+
+
+  </div>
+
+
+
+
       <div className="w-100 h-100 h-pr-fl-ma centered b-s-b-b p-30px of-auto ">
         {/* ESTUDIO -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */}
         <div

@@ -10,6 +10,7 @@ export default function Card(props) {
     image,
     alt,
     type,
+    cardtype,
     filename,
     filetype,
     filesize,
@@ -22,7 +23,10 @@ export default function Card(props) {
 
   return (
     <>
-      <div className={` ${CardClassName} ${type} card h-e `}>
+      <div className={` ${CardClassName} ${type} card h-e bg-blue `}>
+      {cardtype && ( <div className="w-100 h-100  b-s-b-b of-n">ASESORÍA </div>)}
+
+
         {image && (
    <div className="w-100 h-100  b-s-b-b of-n">
           <img

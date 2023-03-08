@@ -179,7 +179,7 @@ const Team = () => {
                     
                    
                     .start();
-                }}
+                }} options={{ delay: 60, }}
               />
             </div>
           </div>
