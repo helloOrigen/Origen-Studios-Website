@@ -77,7 +77,7 @@ export default function Card(props) {
 
           {title && <ContentBox title={` ${title} `}> </ContentBox>}
           {subtitle && <ContentBox subtitle={` ${subtitle} `}> </ContentBox>}
-          {description && <div className="w-90  t-a-c f-f-Gilroy m-b-10px" >{description} </div>}
+          {description && <span className="w-90  t-a-c f-f-Gilroy m-b-10px" >{description} </span>}
           {list && <div className=" w-90 f-f-Gilroy m-b-10px ns-f-s-normal "  >  {list1 && <li  Style="display: flex; align-items: baseline;"> <span Style="margin-right: 10px;">&#8226;</span>{list1}</li>}
           {list2 && <li  Style="display: flex; align-items: baseline;"> <span Style="margin-right: 10px;">&#8226;</span>{list2}</li>}
            {list3 && <li  Style="display: flex; align-items: baseline;"> <span Style="margin-right: 10px;">&#8226;</span>{list3}</li>}

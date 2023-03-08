@@ -37,15 +37,15 @@ export default function contentBox(props) {
        
        
         {title && (
-          <div
+          <h1
             className={` ${titleclassName} h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy d-i `} 
             Style=" font-size: 25px; font-weight: bold; line-height: 30px; color: white;" 
           >
             {number && ( <div className={` ${numberclassName} m-b-10px h-pr-fl-ma ns-c-e w-and-h-30px t-a-c b-s-b-b of-h t-a-c m-r-10px `} Style="font-size: 13px; border: 1px solid; border-radius: 100%; border-color: white;"><div className="w-a h-a centered h-pr-fl-ma">{number}</div></div>        )} <div>{title}</div>
-          </div>
+          </h1>
         )}
         {subtitle && (
-          <div
+          <h2
             className={` ${subtitleclassName} h-pr-fl-ma b-s-b-b w-100 ns-c-e h-a f-f-Gilroy`}
             Style=" font-size: 15px; font-weight:bold; line-height: 20px;"
           >
@@ -54,7 +54,7 @@ export default function contentBox(props) {
             <br />
             <br />
         
-          </div>
+          </h2>
           
         )}
       
@@ -73,41 +73,41 @@ export default function contentBox(props) {
             className={` ${categoryclassName} h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy`}
             Style="border-bottom: 1px solid; border-color: white;"
           >
-            <div
+            <span
               className="w-100 h-a h-pr-fl-ma t-a-r f-w-bo p-l-10px p-r-10px ns-c-e "
               Style=" font-size:10px; line-height: 15px; "
             >
               {category}
-            </div>
+            </span>
           </div>
         )}
         {text && (
-          <div
+          <span
             className={` ${textclassName} h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy`}
             Style="font-size: 15px; line-height: 20px; "
           >
              
             {text}
-          </div>
+          </span>
         )}
         {note && (
-          <div
+          <span
             className={` ${noteclassName} ns-c-e h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy`}
             Style="font-size: 10px; line-height: 15px;  font-style: italic;"
           >
             {note}
-          </div>
+          </span>
         )}
         {children}
         {action && (
-          <div
+          <span
             className={` ${actionclassName} h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy  m-t-10px `}
             Style="font-size: 10px; line-height: 15px; color: white;"
           >
             <a href={`${link}`}>
               <span className="hover-underline-animation">{action}</span>
             </a>
-          </div>
+          </span>
         )}
       </div>
     </Fragment>
