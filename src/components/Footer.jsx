@@ -148,9 +148,9 @@ const Footer=({className})=> {
              
 
           <div className="h-pr-fr-ma w-100 h-100 t-1s b-s-b-b">
-          <div Style="background: black;" className="h-pr-fl-ma w-100 h-100 ">
-            <img className="w-100 h-a p-20px  h-pr-fr-ma  " Style="object-fit: contain;" src={OSLogotipo} alt="OS-LOGOTIPO"/></div></div>
-            </div>
+          <div Style="background: black;" className="h-pr-fl-ma w-100 h-100 "> 
+            <img className="w-100 h-a p-20px  h-pr-fr-ma  draw" Style="object-fit: contain;" src={OSLogotipo} alt="OS-LOGOTIPO"/></div></div>
+           </div>
 {/* --------------- Block 5*/}
           
          

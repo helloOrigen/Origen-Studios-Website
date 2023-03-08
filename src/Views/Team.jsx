@@ -6,7 +6,8 @@ import { Autoplay, Keyboard, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
+import OSLogoSymbolSvg from '../assets/logo/OS-Logo-Symbol-White-Svg.svg';
+import OSLogotipo from '../assets/logo/OS-logotipo-m-white-transparent_svg.svg';
 import ContentBox from "../components/contentBox";
 import Nick from "../assets/team/nickolas-machado.jpg";
 import Vicky from "../assets/team/victoria-brylka.jpg";
@@ -26,13 +27,16 @@ const Team = () => {
   return (
     <Fragment>
       <div className="w-100 h-100 h-pr-fl-ma centered b-s-b-b of-auto  ">
+      <div className="h-pr-fl-ma m-w-100 w-100  h-100" Style="overflow: visible !important;">
+        <div className="  centered " Style="z-index: 10000; overflow:visible  !important; height: 150%;">
+      <img className="w-100 h-100 h-pr-fl-ma " Style="object-fit: contain;" src={OSLogotipo} alt="OS-LOGO"/> 
+      </div> </div>
 
-
-        <div className="h-pr-fl-ma m-w-100 w-60  h-100   b-s-b-b f-w-w">
+        <div className="h-pr-fl-ma m-w-100 w-100  h-100   b-s-b-b f-w-w">
         <Swiper
             direction={"horizontal"}
             autoplay={{
-              delay: 5500,
+              delay: 3000,
               disableOnInteraction: true,
             }}
             loop={true}
@@ -162,10 +166,10 @@ const Team = () => {
 
 
 
-        <div className="h-pr-fl-ma m-w-100 w-40 h-100 m-h-500px b-s-b-b  ">
+        <div className="h-pr-fl-ma w-100 w-40 h-100 m-h-500px b-s-b-b  ">
           
          <div className="w-100 h-100 h-pr-fl-ma  b-s-b-b ">
-            <div className="w-90 bg-black-node-o-50 ns-br-r-1 of-h p-20px m-w-100 h-a f-f-Gilroy h-pr-fl-ma centered">
+            <div className="w-60 m-w-80 bg-black-node-o-50 ns-br-r-1 of-h p-20px m-w-100 h-a f-f-Gilroy h-pr-fl-ma centered">
               <ContentBox
                 className="h-pr-fl-ma w-100 h-a "
                 title={"Un equipo en expansión"}
@@ -174,12 +178,12 @@ const Team = () => {
               />
                <Typewriter
                 onInit={(typewriter) => {
-                       typewriter.typeString('Somos un equipo de expertos en expansión, completamente a disposición de su marca. Nos reunimos con el objetivo de potenciar la calidad de los productos y servicios de las empresas con las ideas más grandes y ambiciosas. <br/> Tenemos amplia experiencia en el desarrollo comercial de productos y servicios, contenido digital, marketing y ventas.<br/> Contamos con el conocimiento y las habilidades necesarias para hacer posible cualquier necesidad que su marca tenga.')
+                       typewriter.typeString('Somos un equipo de expertos en expansión, completamente a disposición de su marca. <br/> Nos reunimos con el objetivo de potenciar la calidad de los productos y servicios de las empresas con las ideas más grandes y ambiciosas. <br/> Tenemos amplia experiencia en el desarrollo comercial de productos y servicios, contenido digital, marketing y ventas.<br/> Contamos con el conocimiento y las habilidades necesarias para hacer posible cualquier necesidad que su marca tenga.')
                     .pauseFor(200)
                     
                    
                     .start();
-                }} options={{ delay: 60, }}
+                }} options={{ delay: 20, }}
               />
             </div>
           </div>

@@ -26,131 +26,25 @@ const Gallery = () => {
 
 
 <CardContainer className="m-b-20px">
-<Card activeoptions type="card-tall card-wide" image={Wallpaper1} alt="Wallpaper1" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
-<Card activeoptions type="card-tall" image={Wallpaper2} alt="Wallpaper2" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
-<Card activeoptions type="card-tall" image={Wallpaper3} alt="Wallpaper3" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
-<Card activeoptions type="card-tall" image={Wallpaper4} alt="Wallpaper4" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
-<Card activeoptions type="card-tall" image={Wallpaper5} alt="Wallpaper5" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
-<Card activeoptions type="card-tall" image={Wallpaper6} alt="Wallpaper6" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
-<Card activeoptions type="card-tall" image={Wallpaper7} alt="Wallpaper7" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
-<Card activeoptions type="card-tall card-wide" image={Wallpaper8} alt="Wallpaper8" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
-<Card activeoptions type="card-wide" image={Wallpaper9} alt="Wallpaper9" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
-<Card activeoptions type="card-tall" image={Wallpaper10} alt="Wallpaper10" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
-<Card activeoptions type="card-tall" image={Wallpaper11} alt="Wallpaper11" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
-<Card activeoptions type="card-tall" image={Wallpaper12} alt="Wallpaper12" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
-<Card activeoptions type="card-wide" image={Wallpaper13} alt="Wallpaper13" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
-<Card activeoptions type="card-wide" image={Wallpaper14} alt="Wallpaper14" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card type="card-tall card-wide" image={Wallpaper1} alt="Wallpaper1" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card type="card-tall" image={Wallpaper2} alt="Wallpaper2" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card type="card-tall" image={Wallpaper3} alt="Wallpaper3" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card type="card-tall" image={Wallpaper4} alt="Wallpaper4" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card type="card-tall" image={Wallpaper5} alt="Wallpaper5" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card type="card-tall" image={Wallpaper6} alt="Wallpaper6" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card type="card-tall" image={Wallpaper7} alt="Wallpaper7" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card type="card-tall card-wide" image={Wallpaper8} alt="Wallpaper8" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card type="card-wide" image={Wallpaper9} alt="Wallpaper9" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card type="card-tall" image={Wallpaper10} alt="Wallpaper10" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card type="card-tall" image={Wallpaper11} alt="Wallpaper11" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card type="card-tall" image={Wallpaper12} alt="Wallpaper12" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card type="card-wide" image={Wallpaper13} alt="Wallpaper13" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
+<Card type="card-wide" image={Wallpaper14} alt="Wallpaper14" filename="wallpaperX" filetype="jpg" filesize="0000x0000px"  />
 
 
 
 </CardContainer>
 
-  { /* <div className="card-mosaic m-b-20px">
-      
-      <div className="card h-e card-tall card-wide  ">
-      <img alt="Wallpaper1"
-                        src={Wallpaper1}
-                        className="w-100 h-100 h-pr-fl-ma  h-e-scale"
-                        Style="object-fit: cover;"
-                      />
-      </div>
-
-      <div className="card h-e card-tall  ">
-      <img alt="Wallpaper2"
-                        src={Wallpaper2}
-                        className="w-100 h-100 h-pr-fl-ma h-e-scale"
-                        Style="object-fit: cover;"
-                      />
-      </div>
-
-      <div className="card h-e  ">
-      <img alt="Wallpaper3"
-                        src={Wallpaper3}
-                        className="w-100 h-100 h-pr-fl-ma h-e-scale"
-                        Style="object-fit: cover;"
-                      />
-      </div>
-
-
-      <div className="card h-e  ">
-      <img alt="Wallpaper4"
-                        src={Wallpaper4}
-                        className="w-100 h-100 h-pr-fl-ma h-e-scale"
-                        Style="object-fit: cover;"
-                      />
-      </div>
-      <div className="card h-e  ">
-      <img alt="Wallpaper5"
-                        src={Wallpaper5}
-                        className="w-100 h-100 h-pr-fl-ma h-e-scale"
-                        Style="object-fit: cover;"
-                      />
-      </div>
-      <div className="card h-e  ">
-      <img alt="Wallpaper6"
-                        src={Wallpaper6}
-                        className="w-100 h-100 h-pr-fl-ma h-e-scale"
-                        Style="object-fit: cover;"
-                      />
-      </div>
-      <div className="card h-e  ">
-      <img alt="Wallpaper7"
-                        src={Wallpaper7}
-                        className="w-100 h-100 h-pr-fl-ma h-e-scale"
-                        Style="object-fit: cover;"
-                      />
-      </div>
-      <div className="card card-tall h-e  ">
-      <img alt="Wallpaper8 "
-                        src={Wallpaper8}
-                        className="w-100 h-100 h-pr-fl-ma h-e-scale"
-                        Style="object-fit: cover;"
-                      />
-      </div>
-      <div className="card  h-e  ">
-      <img alt="Wallpaper9"
-                        src={Wallpaper9}
-                        className="w-100 h-100 h-pr-fl-ma h-e-scale"
-                        Style="object-fit: cover;"
-                      />
-      </div>
-      <div className="card h-e  ">
-      <img alt="Wallpaper10"
-                        src={Wallpaper10}
-                        className="w-100 h-100 h-pr-fl-ma h-e-scale"
-                        Style="object-fit: cover;"
-                      />
-      </div>
-      <div className="card h-e  ">
-      <img alt="Wallpaper11"
-                        src={Wallpaper11}
-                        className="w-100 h-100 h-pr-fl-ma h-e-scale"
-                        Style="object-fit: cover;"
-                      />
-      </div>
-      <div className="card h-e  ">
-      <img alt="Wallpaper12"
-                        src={Wallpaper12}
-                        className="w-100 h-100 h-pr-fl-ma h-e-scale"
-                        Style="object-fit: cover;"
-                      />
-      </div>
-      <div className="card h-e card-tall card-wide  ">
-      <img alt="Wallpaper13"
-                        src={Wallpaper13}
-                        className="w-100 h-100 h-pr-fl-ma h-e-scale"
-                        Style="object-fit: cover;"
-                      />
-      </div>
-      <div className="card h-e card-wide  ">
-      <img alt="Wallpaper14"
-                        src={Wallpaper14}
-                        className="w-100 h-100 h-pr-fl-ma h-e-scale"
-                        Style="object-fit: cover;"
-                      />
-      </div>
-
-      </div> */}
    
 
 
