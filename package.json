@@ -18,7 +18,7 @@
     "react-scripts": "^5.0.1",
     "swiper": "^9.0.2",
     "typewriter-effect": "^2.19.0",
-    "vercel": "^28.14.0",
+    "vercel": "^28.14.1",
     "web-vitals": "^2.1.4",
     "workbox-background-sync": "^6.5.4",
     "workbox-broadcast-update": "^6.5.4",
