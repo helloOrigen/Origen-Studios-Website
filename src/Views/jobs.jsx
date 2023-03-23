@@ -56,10 +56,10 @@ const Jobs = () => {
 
       <div className="w-100  h-a h-pr-fl-ma b-s-b-b p-50px of-n">
           <CardContainer >
-            <Link className="h-e-scale" to="https://forms.gle/seue2ea7YTmRWrEo8" alt=""><Card title="Ventas" subtitle="Activo" icon={` ${Briefcase} `}/></Link>
-            <Link className="h-e-scale"  to="https://forms.gle/n2S1AM6nRfqsZpT6A" alt=""><Card title="Marketing" subtitle="Activo" icon={` ${BellRinging} `}/></Link>
-            <Link className="h-e-scale" to="https://forms.gle/ip6kQbCt54DsLace9" alt=""><Card title="Desarrollo" subtitle="Activo" icon={` ${Code} `}/></Link>
-            <Link className="h-e-scale" to="https://google.com" alt=""><Card title="Diseño" icon={` ${Pen} `}/></Link>
+            <Link className="h-e-scale" to="" alt=""><Card title="Ventas"  icon={` ${Briefcase} `}/></Link>
+            <Link className="h-e-scale"  to="" alt=""><Card title="Marketing"  icon={` ${BellRinging} `}/></Link>
+            <Link className="h-e-scale" to="https://forms.office.com/r/HxdyDm49a7" alt=""><Card title="Desarrollo" subtitle="Activo" icon={` ${Code} `}/></Link>
+            <Link className="h-e-scale" to="" alt=""><Card title="Diseño" icon={` ${Pen} `}/></Link>
             <Link className="h-e-scale" to="/jobs" alt=""><Card title="Testing" icon={` ${Terminal} `}/></Link>
             <Link className="h-e-scale" to="/jobs" alt=""><Card title="Redacción" icon={` ${DocumentStack} `}/></Link>
                 <Link className="h-e-scale"  to="/jobs" alt=""><Card title="Prod. Sonora" icon={` ${VolumeHigh} `}/></Link>
