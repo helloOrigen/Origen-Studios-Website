@@ -169,7 +169,7 @@ const Team = () => {
         <div className="h-pr-fl-ma w-100 w-40 h-100 m-h-500px b-s-b-b  ">
           
          <div className="w-100 h-100 h-pr-fl-ma  b-s-b-b ">
-            <div className="w-60 m-w-80 bg-black-node-o-50 ns-br-r-1 of-h p-20px m-w-100 h-a f-f-Gilroy h-pr-fl-ma centered">
+            <div className="w-60 m-w-80 bg-black-node-o-70 blur ns-br-r-1 of-h p-20px m-w-100 h-a f-f-Gilroy h-pr-fl-ma centered">
               <ContentBox
                 className="h-pr-fl-ma w-100 h-a "
                 title={"Un equipo en expansión"}
@@ -178,10 +178,14 @@ const Team = () => {
               />
                <Typewriter
                 onInit={(typewriter) => {
-                       typewriter.typeString('Somos un equipo de expertos en expansión, completamente a disposición de su marca. <br/> Nos reunimos con el objetivo de potenciar la calidad de los productos y servicios de las empresas con las ideas más grandes y ambiciosas. <br/> Tenemos amplia experiencia en el desarrollo comercial de productos y servicios, contenido digital, marketing y ventas.<br/> Contamos con el conocimiento y las habilidades necesarias para hacer posible cualquier necesidad que su marca tenga.')
+                       typewriter.typeString('Somos un equipo de expertos en expansión, completamente a disposición de su marca. <br/> Nos reunimos con el objetivo de potenciar la calidad de los productos y servicios de las empresas con las ideas más grandes y ambiciosas. ')
                     .pauseFor(200)
-                    
-                   
+                    typewriter.typeString('Tenemos amplia experiencia en el desarrollo comercial de productos y servicios, contenido digital, marketing y ventas. ')
+                    .pauseFor(200)
+                    typewriter.typeString('Contamos con el conocimiento y las habilidades necesarias para hacer posible cualquier necesidad que su marca tenga.  <br/> <br/>')
+                    .pauseFor(200)
+                    typewriter.typeString('Por cualquier consulta, no dude en comunicarse con nosotros!')
+                    .pauseFor(200)
                     .start();
                 }} options={{ delay: 20, }}
               />

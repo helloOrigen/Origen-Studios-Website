@@ -7,26 +7,36 @@ import "../Styles/home.css";
 const navBar = () => {
   return (
     <Fragment>
-      <div className="w-90 h-100 r-h-c h-pr-fl-ma">
+      <div className="w-90 h-100 r-h-c h-pr-fl-ma  of-h">
         <Link to="/">
           <NavBarLogo right />
         </Link>
         <Link to="/team">
-          <NavBarBtn className="m-d-n noselect" text={"Nosotros"}></NavBarBtn>
+          <NavBarBtn className="p-10px m-d-n noselect" text={"Nosotros"}></NavBarBtn>
         </Link>
         
         <Link to="/services">
            
-          <NavBarBtn className="m-d-n noselect" text={"Servicios"}></NavBarBtn>
+          <NavBarBtn className="p-10px m-d-n noselect" text={"Servicios"}></NavBarBtn>
         </Link>
         <Link to="/plans">
            
-          <NavBarBtn className="m-d-n noselect" text={"Planes"}></NavBarBtn>
+          <NavBarBtn className="p-10px m-d-n noselect" text={"Planes"}></NavBarBtn>
         </Link>
-        <Link to="/process"><NavBarBtn className="m-d-n noselect" text={"Procedimiento"}></NavBarBtn></Link>
-        <Link to="/gallery"><NavBarBtn className="m-d-n noselect" text={"Galería"}></NavBarBtn></Link>
+        <Link to="/process"><NavBarBtn className="p-10px m-d-n noselect" text={"Procedimiento"}></NavBarBtn></Link>
+        <Link to="/gallery"><NavBarBtn className="p-10px m-d-n noselect" text={"Galería"}></NavBarBtn></Link>
     
-        <Link to="/promo"><NavBarBtn className="m-d-n noselect" text={"Promos"} news></NavBarBtn></Link>
+        <Link to="/promo"><NavBarBtn className="p-10px m-d-n noselect" text={"Promos"} news></NavBarBtn></Link>
+        <Link to="/sponsors"><NavBarBtn className="p-10px m-d-n noselect" text={"Sponsors"} news></NavBarBtn></Link>
+
+   {/* REDES SOCIALES */}
+       
+          <NavBarBtn className="m-d-n h-pr-fr-ma noselect" Linkedin enlace="https://www.linkedin.com/company/helloorigen/"></NavBarBtn>
+          <NavBarBtn className="m-d-n h-pr-fr-ma noselect" Instagram enlace="https://www.instagram.com/helloorigen"></NavBarBtn>
+          <NavBarBtn className="m-d-n h-pr-fr-ma noselect" Facebook enlace="https://www.facebook.com/helloorigen/"></NavBarBtn>
+          <NavBarBtn className="m-d-n h-pr-fr-ma noselect" Twitter enlace="https://www.twitter.com/helloorigen/"></NavBarBtn>
+          <NavBarBtn className="m-d-n h-pr-fr-ma noselect" Whatsapp enlace=""></NavBarBtn>
+         
       </div>
     </Fragment>
   );

@@ -1,22 +1,37 @@
 import React from "react";
 import "../Styles/seed.css";
+import LinkedinIcon from "../assets/icons/linkedin-icon.svg";
+import InstagramIcon from "../assets/icons/instagram-icon.svg";
+import TwitterIcon from "../assets/icons/twitter-icon.svg";
+import FacebookIcon from "../assets/icons/facebook-icon.svg";
+import WhatsappIcon from "../assets/icons/whatsapp-icon.svg";
 
 export default function navBarBtn(props) {
-  const { text, className, children, news } = props;
+  const { text, className, children, news, enlace, Linkedin, Facebook, Twitter, Whatsapp, Instagram } = props;
 
   return (
     <>
       <div
-        className={` ${className} h-pr-fl-ma w-a h-100  p-10px h-e c-p  b-s-b-b `}
+        className={` ${className} h-pr-fl-ma w-a h-100  h-e c-p  b-s-b-b `}
       >
         <div className="w-a h-a noselect h-pr-fl-ma flexbox r-v-c f-w-n-w">
-        
+       
         <div
           className="t-a-c f-f-Gilroy noselect c-white h-e-style hover-underline-animation"
           Style="font-size: 15px; line-height: 20px;"
         >
-          <a href="" className="h-e c-p">
-            {text}
+          <a href={`${enlace}`} className="h-e c-p">
+          { Linkedin && (  <img className="w-40px h-40px h-pr-fl-ma p-5px"
+             src={LinkedinIcon} /> )}
+              { Instagram && (  <img className="w-40px h-40px h-pr-fl-ma p-5px"
+             src={InstagramIcon} /> )}
+              { Twitter && (  <img className="w-40px h-40px h-pr-fl-ma p-5px"
+             src={TwitterIcon} /> )}
+              { Facebook && (  <img className="w-40px h-40px h-pr-fl-ma p-5px"
+             src={FacebookIcon} /> )}
+              { Whatsapp && (  <img className="w-40px h-40px h-pr-fl-ma p-5px"
+             src={WhatsappIcon} /> )}
+             {text}
             {children}
             
           </a>

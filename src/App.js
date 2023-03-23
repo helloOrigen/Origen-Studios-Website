@@ -16,7 +16,7 @@ import Services from "./Views/services";
 import Team from "./Views/Team";
 import Design from "./Views/design";
 import Marketing from "./Views/marketing";
-import Dev from "./Views/dev";
+import Sponsors from "./Views/sponsors";
 import FAQ from "./Views/faq";
 import About from "./Views/about";
 import Terms from "./Views/terms";
@@ -82,7 +82,7 @@ function App() {
             <Route exact  path="/services" element={<Services />} />
            <Route exact path="/team" element={<Team/>} />
            <Route exact path="/design" element={<Design/>} />
-           <Route exact path="/dev" element={<Dev/>} />
+           <Route exact path="/sponsors" element={<Sponsors/>} />
            <Route exact path="/marketing" element={<Marketing/>} />
            <Route exact path="/faq" element={<FAQ/>} />
            <Route exact path="/about" element={<About/>} />
@@ -102,13 +102,12 @@ function App() {
            <div
           className="h-pr-fl-ma w-100 h-15 m-h-10  t-1s b-s-b-b of-n  "
           Style="z-index: 13060324;"
-        >
-          <Notifier
+        > 
+          <Notifier className="w-40" Accept
             title="Politica de cookies"
-            text="Nosotros y terceros seleccionados utilizamos cookies o tecnologías similares con fines técnicos y, con su consentimiento, para otras finalidades según se especifica en la cookie policy. Denegar el consentimiento puede provocar que características relacionadas no estén disponibles.
-         Utilice el botón “Aceptar” para dar su consentimiento. Utilice el botón “Rechazar” o cierre esta nota informativa para continuar sin aceptar."
+            text={` ${" Utilizamos cookies en nuestro sitio web para ofrecerle la mejor experiencia de usuario posible. Si continúa utilizando nuestro sitio web o nuestros servicios, acepta su uso."}`}
             link="/cookies"
-            action="Conozca nuestras poltiicas de cookies."
+            action="Más información."
           />
         </div>
             </div>

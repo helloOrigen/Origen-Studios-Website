@@ -7,11 +7,11 @@ import "swiper/css/navigation";
 import "../Styles/seed.css";
 import { Autoplay, Keyboard, Pagination } from "swiper";
 import ContentBox from "../components/contentBox";
-import MapaMundi from "../assets/images/mapamundi.svg";
-import Fotomontaje from "../assets/images/fotomontaje.webp";
-import MundoIlustracion from "../assets/images/mundo-ilustracion.png";
-import PersonaElegida from "../assets/images/persona-elegida.png";
-import PiramidesArabe from "../assets/images/piramides-arabe.png";
+import MapaMundi from "../assets/images/services/mapamundi.svg";
+import Fotomontaje from "../assets/images/services/fotomontaje.png";
+import MundoIlustracion from "../assets/images/services/mundo-ilustracion.png";
+import PersonaElegida from "../assets/images/services/persona-elegida.png";
+import PiramidesArabe from "../assets/images/services/piramides-arabe.png";
 
 export default function Services(props) {
   
@@ -41,7 +41,7 @@ export default function Services(props) {
         <SwiperSlide>
           <img
             alt="Mapamundi"
-            className="w-100 h-100 h-pr-fl-ma "
+            className="w-100 h-100 h-pr-fl-ma  "
             Style="object-fit: contain;"
             src={MapaMundi}
             />
@@ -50,7 +50,7 @@ export default function Services(props) {
         </SwiperSlide>
         
            {/* IMAGEN SOLO MOBILE DISEÑO GRÁFICO Y FOTOMONTAJE ----------------------------------- */}
-        <SwiperSlide className="d-n m-d-b">
+        <SwiperSlide className="d-n m-d-b bg-black-node-o-70 blur ns-br-r-1">
           
           <div className="w-100 h-a centered h-pr-fl-ma "><img alt="Fotomontaje"
             className=" w-100 h-100  h-pr-fl-ma "
@@ -61,7 +61,7 @@ export default function Services(props) {
          </SwiperSlide>
 {/* DISEÑO GRÁFICO Y FOTOMONTAJE ----------------------------------- */}
 <SwiperSlide >
-          <div className="w-100 h-100 h-pr-fl-ma  ">
+          <div className="w-100 h-100 h-pr-fl-ma bg-black-node-o-70 blur ns-br-r-1 ">
            
             <div className="m-d-n w-50 h-100 m-h-a h-pr-fl-ma "><img alt="Fotomontaje"
             className="m-d-n w-100 h-100 h-pr-fl-ma "
@@ -98,7 +98,7 @@ export default function Services(props) {
 
 
          {/* IMAGEN SOLO MOBILE DESARROLLO Y MARKETING ----------------------------------- */}
-         <SwiperSlide className="d-n m-d-b">
+         <SwiperSlide className="d-n m-d-b bg-black-node-o-70 blur ns-br-r-1">
           
           <div className="w-100 h-a centered h-pr-fl-ma "><img alt="Mundoilustración"
             className=" w-100 h-100  h-pr-fl-ma "
@@ -109,7 +109,7 @@ export default function Services(props) {
          </SwiperSlide>
         {/* DESARROLLO Y MARKETING ----------------------------------- */}
         <SwiperSlide>
-          <div className="w-100 h-100 h-pr-fl-ma  ">
+          <div className="w-100 h-100 h-pr-fl-ma bg-black-node-o-70 blur ns-br-r-1 ">
           
             <div className="m-w-100 w-50 h-100 h-pr-fl-ma ">
               <div className="w-100 h-50 h-pr-fl-ma b-s-b-b p-r p-20px">
@@ -147,7 +147,7 @@ export default function Services(props) {
 
 
          {/* IMAGEN SOLO MOBILE REDACCIÓN Y TRADUCCIÓN ----------------------------------- */}
-         <SwiperSlide className="d-n m-d-b">
+         <SwiperSlide className="d-n m-d-b bg-black-node-o-70 blur ns-br-r-1">
           
           <div className="w-100 h-a centered h-pr-fl-ma "><img alt="PiramidesArabe"
             className=" w-100 h-100  h-pr-fl-ma "
@@ -158,7 +158,7 @@ export default function Services(props) {
          </SwiperSlide>
     {/* REDACCIÓN Y TRADUCCIÓN ----------------------------------- */}
     <SwiperSlide>
-          <div className="w-100 h-100 h-pr-fl-ma  ">
+          <div className="w-100 h-100 h-pr-fl-ma  bg-black-node-o-70 blur ns-br-r-1 ">
           <div className=" m-d-n w-50 h-100 h-pr-fl-ma "><img            alt="PiramidesArabe"
 
             className="w-100 h-100 h-pr-fl-ma "
@@ -195,7 +195,7 @@ export default function Services(props) {
             </div> </SwiperSlide>{/* ----------------------------------- REDACCIÓN Y TRADUCCIÓN */}
          
           {/* IMAGEN SOLO MOBILE RECLUTAMIENTO Y ASESORÍA ----------------------------------- */}
-          <SwiperSlide className="d-n m-d-b">
+          <SwiperSlide className="d-n m-d-b bg-black-node-o-70 blur ns-br-r-1">
           
           <div className="w-100 h-a centered h-pr-fl-ma "><img alt="Personaelegida"
             className=" w-100 h-100  h-pr-fl-ma "
@@ -206,7 +206,7 @@ export default function Services(props) {
          </SwiperSlide>
             {/* RECLUTAMIENTO Y ASESORÍA ----------------------------------- */}
 <SwiperSlide>
-          <div className="w-100 h-100 h-pr-fl-ma  ">
+          <div className="w-100 h-100 h-pr-fl-ma  bg-black-node-o-70 blur ns-br-r-1 ">
             <div className="m-w-100 w-50 h-100 h-pr-fl-ma ">
               <div className="w-100 h-50 h-pr-fl-ma b-s-b-b p-r p-20px">
                 <ContentBox

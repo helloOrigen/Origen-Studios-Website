@@ -128,7 +128,7 @@ Seed.css cortesía de:
 
 .notifier{
   z-index: 99999999999;
-  width: 70%;
+  width: auto;
   height: auto;
   position: absolute;
  
