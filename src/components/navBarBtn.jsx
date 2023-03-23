@@ -21,15 +21,15 @@ export default function navBarBtn(props) {
           Style="font-size: 15px; line-height: 20px;"
         >
           <a href={`${enlace}`} className="h-e c-p">
-          { Linkedin && (  <img className="w-40px h-40px h-pr-fl-ma p-5px"
+          { Linkedin && (  <img alt="Linkedin" className="w-40px h-40px h-pr-fl-ma p-5px"
              src={LinkedinIcon} /> )}
-              { Instagram && (  <img className="w-40px h-40px h-pr-fl-ma p-5px"
+              { Instagram && (  <img alt="Instagram" className="w-40px h-40px h-pr-fl-ma p-5px"
              src={InstagramIcon} /> )}
-              { Twitter && (  <img className="w-40px h-40px h-pr-fl-ma p-5px"
+              { Twitter && (  <img alt="Twitter" className="w-40px h-40px h-pr-fl-ma p-5px"
              src={TwitterIcon} /> )}
-              { Facebook && (  <img className="w-40px h-40px h-pr-fl-ma p-5px"
+              { Facebook && (  <img alt="Facebook" className="w-40px h-40px h-pr-fl-ma p-5px"
              src={FacebookIcon} /> )}
-              { Whatsapp && (  <img className="w-40px h-40px h-pr-fl-ma p-5px"
+              { Whatsapp && (  <img alt="Whatsapp" className="w-40px h-40px h-pr-fl-ma p-5px"
              src={WhatsappIcon} /> )}
              {text}
             {children}

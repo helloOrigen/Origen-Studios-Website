@@ -77,7 +77,7 @@ import BannerMenu from "../assets/images/promo/casos-de-exito-banner-menu.gif"
           <div
 className="w-100 h-a h-pr-fl-ma p-b-10px p-t-10px "
 
-><div className="m-t-20px m-b-30px w-100 h-100px h-pr-fl-ma t-a-c b-s-b-b hover-underline-animation "><div className="h-pr-fl-ma w-a h-a centered "><img src={BannerMenu} className="w-100 h-100 h-pr-fl-ma" Style="object-fit: contain;" alt="" /> </div> </div></div>   </Link>
+><div className="m-t-20px m-b-30px w-100 h-100px h-pr-fl-ma t-a-c b-s-b-b hover-underline-animation "><div className="h-pr-fl-ma w-a h-a centered "><img src={BannerMenu} className="w-100 h-100 h-pr-fl-ma" Style="object-fit: contain;" alt="Casos De Exito" /> </div> </div></div>   </Link>
         </div>
     </div>
 
