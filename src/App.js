@@ -101,7 +101,7 @@ function App() {
            </Routes>
            <div
           className="h-pr-fl-ma w-100 h-15 m-h-10  t-1s b-s-b-b of-n  "
-          Style="z-index: 13060324;"
+         Style="z-index: 13060324;"
         > 
           <Notifier className="w-40" Accept
             title="Politica de cookies"

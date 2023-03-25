@@ -56,7 +56,7 @@ export default function Card(props) {
             src={` ${image} `}
             alt={` ${alt} `}
             className="w-100 h-100 h-pr-fl-ma h-e-scale "
-            Style="object-fit: cover;"
+           Style="object-fit: cover;"
           /> </div>
         )}
       

@@ -11,6 +11,7 @@ import Btn from "../components/btn";
 import ContentBox from "../components/contentBox";
 import MessageWriting from "../assets/icons/message_writing.svg";
 
+
 import Wallpaper3 from "../assets/images/compressed/wallpaper-3.jpg";
 import Wallpaper4 from "../assets/images/compressed/wallpaper-4.jpg";
 import Wallpaper6 from "../assets/images/compressed/wallpaper-6.jpg";
@@ -45,7 +46,7 @@ export default function Home(props) {
               className="app w-100  f-f-Gilroy c-white h-pr-fl-ma h-a p-l-10px b-s-b-b m-a"
               Style="font-size: 50px; line-height: 55px;"
             >
-              
+             
               <Typewriter  className="homewriter"
                 onInit={(typewriter) => {
                   typewriter
@@ -92,7 +93,7 @@ export default function Home(props) {
               />
             </div>
             <br />
-       
+                
             <div className="w-100 h-a h-pr-fl-ma m-b-20px ">
               <div className="w-100 h-pr-fl-ma m-b-20px h-20px p-t-20px p-r-20px">
                 <div className="w-100 h-pr-fl-ma m-l-10px m-r-10px h-pr-fl-ma m-a b-s-b-b divider "></div>
@@ -103,6 +104,7 @@ export default function Home(props) {
                   className="h-pr-fl-ma w-a h-a p-l-10px m-t-10px "
                   subtitle={"¡Agende una reunión hoy mismo!"}
                 />
+               
               </div>
               <div className="w-50 h-a h-pr-fl-ma p-r-10px ">
                 <div className="w-a h-a h-pr-fr-ma p-l-10px ">
