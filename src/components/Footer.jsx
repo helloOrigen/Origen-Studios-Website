@@ -14,142 +14,58 @@ const Footer=({className})=> {
   
   return (
     <Fragment>
-      <div className={` ${className} h-pr-fl-ma w-80  h-100  p-10px m-h-80 b-s-b-b f-f-Gilroy `}>
+      <div className={` ${className} h-pr-fl-ma w-80  h-100  b-s-b-b f-f-Gilroy `}>
         {/* Footer */}
        
         <div
-          className="w-100  r-h-c h-100 h-pr-fl-ma b-s-b-b d-i-f"
+          className="w-100    r-h-c h-100 h-pr-fl-ma b-s-b-b "
           Style="font-size: 10px; color: white; line-height: 15px; "
         > {/* Block 1 --------------- */}
-          <div className="noselect  m-d-n w-20 h-100  b-s-b-b h-pr-fl-ma p-l-10px p-r-10px">
+          <div className="noselect w-80 m-d-n w-80 h-100 flexbox b-s-b-b h-pr-fl-ma ">
          
             {/* Bloque 1 - 25% height */}
+            <div  className="w-a h-a h-pr-fl-ma noselect ">
             <b>
               OrigenStudios<sup Style="font-size:75%;  top: -0.28em;">®</sup>
             </b>
-            &zwj;&nbsp;Company
-            <br />
-            2023&zwj;&nbsp;&zwj;&nbsp;&zwj;&nbsp;©&zwj;&nbsp;&zwj;&nbsp;&zwj;&nbsp;Todos&nbsp;&zwj;los&nbsp;&zwj;derechos&nbsp;&zwj;reservados.
-            <br />
-            <a
+            &zwj;&nbsp;Somos&zwj;&nbsp;&zwj;el&zwj;&nbsp;&zwj;origen&zwj;&nbsp;&zwj;de&zwj;&nbsp;&zwj;su&zwj;&nbsp;&zwj;marca.
+   
+            </div>
+     
+            {/* Bloque 2 - 25% height */}
+            <div className="w-a h-a h-pr-fl-ma noselect  hover-underline-animation">
+            <Link className="w-a h-a  h-pr-fl-ma" to="/jobs">
+             
+              2023&zwj;&nbsp;&zwj;&nbsp;&zwj;&nbsp;©&zwj;&nbsp;&zwj;&nbsp;&zwj;&nbsp;Todos&nbsp;&zwj;los&nbsp;&zwj;derechos&nbsp;&zwj;reservados.
+             
+            </Link> 
+            </div>
+
+              {/* Block 3 --------------- */}
+           
+              <div className="w-a h-a h-pr-fl-ma noselect hover-underline-animation">
+              <a className="h-pr-fl-ma w-a h-a"
               href="mailto:hello@origenstudios.com"
               alt="Comuníquese con nosotros!"
-            >
-              <span className="noselect hover-underline-animation">
-                hello@origenstudios.com
-              </span>
-            </a> 
-            <br />
-            Montevideo, Uruguay.
-          </div>
-          {/* --------------- Block 1 */}
-          {/* Block 2 --------------- */}
-          <div className="m-d-n w-20 h-100  p-l-10px b-s-b-b h-pr-fl-ma p-r-10px t-a-l">
-         
-            {/* Bloque 2 - 25% height */}
-             <Link to="/">
-              <span className="hover-underline-animation">
-                Próximos eventos.
-              </span>
-            </Link>
-            <br />
-             <Link to="/">
-              <span className=" noselect  hover-underline-animation">
-                Agendar consultas.
-              </span>
-            </Link>
-            <br />
-            <Link to="/jobs">
-              <span className=" noselect  hover-underline-animation">
-                Empleos y pasantías.
-              </span>
-            </Link> 
-            <br />
-             <Link to="/">
-              <span className=" noselect  hover-underline-animation">
-                Planes de beneficencia.
-              </span>
-            </Link> 
-            <br />
-             <Link to="/">
-              <span className=" noselect  hover-underline-animation">
-                Planes cooperativos.
-              </span>
-            </Link> 
-            <br />
-          </div>{/* --------------- Block 2 */}
-          {/* Block 3 --------------- */}
-          <div className="m-d-n w-20 h-100  b-s-b-b h-pr-fl-ma p-l-10px  t-a-l">
-          
-            {/* Bloque 3 - 25% height */}
-            <Link to="/about">
-              <span className="noselect hover-underline-animation">
-                Nuestra empresa.
-              </span>
-            </Link> 
-            <br />
-             <Link to="/process">
-              <span className="  hover-underline-animation">
-                Metodología y producción.
-              </span>
-            </Link> 
-            <br />
-             <Link to="/">
-              <span className=" noselect  hover-underline-animation">
-                Recursos estratégicos.
-              </span>
-            </Link> 
-            <br />
-             <Link to="/">
-              <span className=" noselect  hover-underline-animation">
-                Generación de oportunidades.
-              </span>
-            </Link> 
-            <br />
-             <Link to="/">
-              <span className=" noselect  hover-underline-animation">
-                Casos de éxito.
-              </span>
-            </Link> 
-            <br />
-          </div>  {/* --------------- Block 3 */}
-            {/* Block 4 --------------- */}
-          <div className="m-w-40 w-20 h-100  b-s-b-b h-pr-fl-ma p-r-10px p-l-10px t-a-l">
-            
-            {/* Bloque 4 - 25% height */}
-            <Link to="/faq">
-              <span className="noselect   hover-underline-animation">
-                Preguntas frecuentes.
-              </span>
-            </Link> 
-            <br />
-            <Link to="/terms">
-              <span className=" noselect  hover-underline-animation">
-                Términos y condiciones.
-              </span>
-            </Link> 
-            <br />
-            <Link to="/privacy">
-              <span className=" noselect  hover-underline-animation">
-                Políticas de privacidad.
-              </span>
-            </Link> 
-            <br />
-            <Link to="/cookies" className="m-d-n">
-              <span className="noselect  hover-underline-animation">
-                Uso de cookies.
-              </span>
-            </Link> 
-            <br />
-          </div> {/* --------------- Block 4 */}
+            >hello@origenstudios.com  </a>
+              </div>
+           
+
+
+        {/* Block 4 --------------- */}
+              <div className="w-a h-a h-pr-fl-ma noselect hover-underline-animation">
+              <Link className="w-a h-a h-pr-fl-ma" to="/privacy">Políticas & Términos.</Link>
+              </div>
+            </div>
+     
 
  {/* Block 5 DESKTOP ONLY --------------- */}
  <div  className="noselect m-d-n w-20 h-100 b-s-b-b h-pr-fl-ma ">
              
 
           <div className="h-pr-fr-ma w-100 h-100 t-1s b-s-b-b">
-          <div Style="background: black;" className="h-pr-fl-ma w-100 h-100 "> 
-            <img className="w-100 h-a p-20px  h-pr-fr-ma  draw" Style="object-fit: contain;" src={OSLogotipo}  alt="OS-LOGOTIPO"/></div></div>
+          <div className="h-pr-fl-ma w-100 h-35px "> 
+            <img className=" h-80  h-pr-fr-ma  draw r-v-c" Style="object-fit: cover;  width: 170px;" src={OSLogotipo}  alt="OS-LOGOTIPO"/></div></div>
            </div>
 {/* --------------- Block 5*/}
           
@@ -157,27 +73,29 @@ const Footer=({className})=> {
 
           {/* MOBILE ONLY */}
            {/* Block 5 --------------- */}
-          <div  className="d-n m-d-b w-40  h-100  b-s-b-b h-pr-fl-ma p-l-10px p-r-10px t-a-l">
-          <div className="p-t-10px w-100 m-d-n">&nbsp;</div>
+          <div  className="d-n m-d-b w-80  h-100  b-s-b-b h-pr-fl-ma p-l-10px p-r-10px t-a-l">
+        
             {/* Bloque 2 - 25% height */}
-             <Link to="/">
-              <span className="noselect hover-underline-animation">
-                Próximos eventos.
-              </span>
-            </Link>
-            <br />
-             <Link to="/">
+   
+        <div className="w-50 h-pr-fl-ma " Style="color: white;">
+        <b>
+              OrigenStudios<sup Style="font-size:75%;  top: -0.28em;">®</sup> - 2023
+            </b><br />
+            &zwj;&nbsp;Somos&zwj;&nbsp;&zwj;el&zwj;&nbsp;&zwj;origen&zwj;&nbsp;&zwj;de&zwj;&nbsp;&zwj;su&zwj;&nbsp;&zwj;marca.
+        </div>
+  
+        <div className="w-50 h-pr-fl-ma " Style="color: white;">
+
               <span className=" noselect  hover-underline-animation">
-                Agendar consultas.
+              <Link to="/"> Mapa de sitio.     </Link>
               </span>
-            </Link>
             <br />
-             <Link to="/jobs">
               <span className=" noselect  hover-underline-animation">
-                Empleos y pasantías.
-              </span>
-            </Link> 
-           
+              <Link to="/jobs">
+                Políticas & Términos.
+                </Link>
+            </span>
+            </div>
           </div>{/* --------------- Block 5 */}
 
           {/* Hamburger Menu Button --------------- */}
@@ -186,7 +104,7 @@ const Footer=({className})=> {
             className="d-n m-d-b w-20  h-100  b-s-b-b h-pr-fl-ma p-l-10px t-a-l"
             Style="z-index: 99999999;"
           >
-            <div className="w-and-h-50px  h-pr-fr-ma h-e c-p">
+            <div className="w-and-h-50px h-pr-fr-ma h-e c-p">
              <label for="menu" className="w-100 h-100 h-pr-fl-ma">             <img
               src={MenuHamburger}
               className="w-100 h-100 h-pr-fl-ma"
@@ -215,19 +133,7 @@ const Footer=({className})=> {
           {/* -------------- Hamburger Menu Button */}
         </div>
     
-      </div>
-      <div
-        className="d-n m-d-b w-100 h-20 h-pr-fl-ma f-f-Gilroy t-a-c"
-        Style="background: #000000; font-size: 10px; font-color: white; z-index: 9999999;"
-      >
-        <div className="w-100 h-h-pr-fl-ma r-v-c " Style="color: white; t-a-c">
-          2023‍&zwj;&nbsp;&zwj;&nbsp;&zwj;&nbsp;&zwj;©‍&zwj;&nbsp;&zwj;&nbsp;&zwj;&nbsp;&zwj;
-          <span className="f-w-bo">
-            OrigenStudios<sup>&reg;</sup>
-          </span>
-          &zwj;&nbsp;&zwj;Company&zwj;&nbsp;&zwj;-&zwj;&nbsp;&zwj;Todos&zwj;&nbsp;&zwj;los&zwj;&nbsp;&zwj;derechos&zwj;&nbsp;&zwj;reservados.
         </div>
-      </div>
     </Fragment>
   );
 }

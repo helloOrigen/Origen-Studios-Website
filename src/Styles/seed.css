@@ -8,6 +8,8 @@ Seed.css cortesía de:
 ██   ████  ██████  ██████  ███████ ███████    ██    ███████    ██    ███████ ██      ██ ███████ ██  ██████     ██
                                         Node Seed > Framework by NODESYSTEMS.UY - Actualizado 07 marzo 2023 para: Origen Studios.
 */
+
+
 /* Unique for Origen Studios */
 .animated-text {
   overflow: hidden;
@@ -228,6 +230,7 @@ html {
 
     height: 100vh;
   height: -webkit-fill-available;
+
 
 }
 

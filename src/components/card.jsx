@@ -11,6 +11,7 @@ export default function Card(props) {
     image,
     btn,
     btnLink,
+    BtnOnClick,
     btnText,
     alt,
     type,
@@ -40,7 +41,7 @@ export default function Card(props) {
 
   return (
     <>
-      <div className={` ${CardClassName} ${type} card h-e  b-s-b-b bg-black-node-o-70 blur ns-br-r-1 of-h  `}>
+      <div   className={` ${CardClassName} ${type} card h-e  b-s-b-b bg-black-node-o-70 blur ns-br-r-1 of-h  `}>
       {cardCategory && ( 
         
     
@@ -145,10 +146,11 @@ export default function Card(props) {
        
        
           {btn &&  <div className="h-pr-fl-ma m-20px">
-          <Btn
+          <Btn       BtnonClick={` ${BtnOnClick} `}
                   className="h-pr-fr-ma "
                   text={` ${btnText} `}
                   enlace={` ${btnLink} `}
+
                 ></Btn>
              </div>
            }

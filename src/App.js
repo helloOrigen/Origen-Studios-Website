@@ -64,13 +64,13 @@ function App() {
       }}></div>
         {/* FullHeight Container*/}
 
-        <div className="h-pr-fl-ma w-100 m-h-10 h-15 b-s-b-b ">
+        <div className="h-pr-fl-ma w-100 m-h-5 h-10 b-s-b-b  ">
           {/* 15% Height Menu Container*/}
           <NavBar/>
         </div>
         
 
-        <div className="h-pr-fl-ma w-100 h-70 m-h-80 p-20px  b-s-b-b of-n  ">
+        <div className="h-pr-fl-ma w-100 h-85 b-s-b-b of-n ">
           {/* 70% Height  Body Container*/}
           <div className="h-pr-fl-ma w-100 h-100  b-s-b-b of-n  ">
             <div className="w-90 c-white h-100 r-h-c h-pr-fl-ma ">
@@ -100,7 +100,7 @@ function App() {
 
            </Routes>
            <div
-          className="h-pr-fl-ma w-100 h-15 m-h-10  t-1s b-s-b-b of-n  "
+          className="h-pr-fl-ma w-100 h-10 m-h-10  t-1s b-s-b-b of-n  "
          Style="z-index: 13060324;"
         > 
           <Notifier className="w-40" Accept
@@ -113,10 +113,13 @@ function App() {
             </div>
           </div>
         </div>
-
+        <div
+          className="h-pr-fl-ma w-100 h-5 m-h-10  t-1s b-s-b-b of-n  "
+         
+        > 
         
-          <Footer className="w-90 h-15vh r-h-c h-pr-fl-ma" />
-       
+          <Footer className="w-90 h-100 r-h-c h-pr-fl-ma bg-black" />
+          </div>
       </div>
     </Fragment>
     </BrowserRouter>

@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-
+import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
 
 import "swiper/css";
@@ -11,6 +11,7 @@ import Btn from "../components/btn";
 import ContentBox from "../components/contentBox";
 import MessageWriting from "../assets/icons/message_writing.svg";
 
+import MultimediaAssets from "../assets/icons/multimedia_assets.svg";
 
 import Wallpaper3 from "../assets/images/compressed/wallpaper-3.jpg";
 import Wallpaper4 from "../assets/images/compressed/wallpaper-4.jpg";
@@ -174,7 +175,7 @@ export default function Home(props) {
                     <div className="w-a h-a h-pr-fl-ma ">
                       <div className="w-a h-a h-pr-fl-ma p-l-10px ">
                         <Btn
-                          className=""
+                        
                           text="Coordinar reunión"
                           enlace={
                             "https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
@@ -199,17 +200,40 @@ export default function Home(props) {
               </SwiperSlide>
 
               <SwiperSlide className="m-d-n d-b h-pr-fl-ma b-s-b-b p-5px">
-                &nbsp;
+               <div className="w-100 h-100 h-pr-fl-ma p-20px bg-black-node-o-70 blur ns-br-r-1">
+             <div className="w-100 h-a h-pr-fl-ma  r-v-c">  
+             <div className="w-100 h-a h-pr-fl-ma "> 
+             <img
+              alt="MultimediaAssets"
+                src={MultimediaAssets}
+                className="w-and-h-250px r-h-c h-pr-fl-ma" />   </div>
+             <div className="w-100 h-a h-pr-fl-ma "> 
+              <ContentBox
+            className="t-a-c m-b-20px"
+            title={"Anuncie su empresa aquí"}
+            subtitle={"Conozca como poner sus anuncios en nuestra web."}
+          /> </div>
+             <div className="w-100 h-a h-pr-fl-ma">
+           <Btn className="t-a-c f-w-bo p-r-20px p-l-20px p-10px " text="Ver plan de anuncios"></Btn></div>
+              </div>
+              </div>
               </SwiperSlide>
 
               <SwiperSlide className="h-pr-fl-ma b-s-b-b p-5px">
+                <Link to="/promo">
                 <img
                   src={Promo1}
                   Style="Object-fit: contain; "
                   alt=""
                   className="w-100 h-100 h-pr-fl-ma  b-s-b-b"
-                />
+                /></Link>
               </SwiperSlide>
+
+             {/* <SwiperSlide className="m-d-n d-b h-pr-fl-ma b-s-b-b p-5px">
+                &nbsp;
+              </SwiperSlide>
+
+              
               <SwiperSlide className="h-pr-fl-ma  b-s-b-b p-5px">
                 <img
                   src={Wallpaper12}
@@ -265,7 +289,7 @@ export default function Home(props) {
                   alt=""
                   className="w-100 h-100 h-pr-fl-ma   b-s-b-b"
                 />
-              </SwiperSlide>
+              </SwiperSlide>*/}
             </Swiper>
           </div>
         </div>
