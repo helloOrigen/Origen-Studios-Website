@@ -1,13 +1,16 @@
 import React, { Fragment} from "react";
 import ContentBox from "../components/contentBox";
-
+import SubMenuLegal from "../components/submenuLegal";
 const Cookies = () => {
 
   return (
     <Fragment>
+          <div className="w-100 h-100 h-pr-fl-ma of-x-hidden of-auto b-s-b-b" Style="background: black;">
+      <SubMenuLegal/>
+  
       <div
-        className="w-100 h-100 h-pr-fl-ma centered b-s-b-b of-auto b-s-b-b"
-        Style="background: black;"
+        className="w-100 h-a h-pr-fl-ma b-s-b-b of-auto "
+        
       >
         <div className="m-w-90 w-60 h-100 h-pr-fl-ma r-h-c b-s-b-b p-20px ">
           <ContentBox
@@ -267,6 +270,7 @@ Cuando se produzcan cambios significativos en esta Política de Cookies, estos s
 
 
           </div>
+      </div>
       </div>
     </Fragment>
   );

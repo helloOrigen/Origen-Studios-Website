@@ -18,7 +18,7 @@ const Promo = () => {
   return (
     <Fragment>
       <div className="w-100 h-100 h-pr-fl-ma centered b-s-b-b of-auto  of-x-hidden p-20px">
-        <div className="w-100 h-a h-pr-fl-ma b-s-b-b p-20px b-s-b-b m-b-20px">
+        <div className="noselect w-100 h-a h-pr-fl-ma b-s-b-b p-20px b-s-b-b m-b-20px">
           <img
             src={PromoTitulo}
             alt=""
@@ -26,7 +26,7 @@ const Promo = () => {
             Style="object-fit: contain;"
           />
         </div>
-        <div className="m-d-n d-b w-100 h-a h-pr-fl-ma b-s-b-b p-20px b-s-b-b m-b-20px">
+        <div className="noselect m-d-n d-b w-100 h-a h-pr-fl-ma b-s-b-b p-20px b-s-b-b m-b-20px">
           <img
             src={PromoOferta}
             alt=""
@@ -34,7 +34,7 @@ const Promo = () => {
             Style="object-fit: contain;"
           />
         </div>
-        <div className="m-d-b d-n w-100 h-a h-pr-fl-ma b-s-b-b p-20px b-s-b-b m-b-50px">
+        <div className="noselect m-d-b d-n w-100 h-a h-pr-fl-ma b-s-b-b p-20px b-s-b-b m-b-50px">
           <img
             src={PromoOferta}
             alt=""
@@ -46,7 +46,7 @@ const Promo = () => {
         {/* PANEL IZQUIERDO */}
 
         {/* PANEL DERECHO */}
-        <div className="m-w-100 w-80 r-h-c h-a h-pr-fl-ma b-s-b-b  m-t-50px  p-10px">
+        <div className="noselect m-w-100 w-80 r-h-c h-a h-pr-fl-ma b-s-b-b  m-t-50px  p-10px">
           {/* BLOQUE RESPONSIVE 1 */}
           <div className="w-100 h-a h-pr-fl-ma p-10px bg-black-node-o-70 blur ns-br-r-1 b-s-b-b d-i-f m-d-b m-b-20px">
             <div
@@ -160,7 +160,7 @@ const Promo = () => {
 <div className="w-100 h-a h-pr-fl-ma p-10px">
 <div className="w-80 m-w-100 r-h-c h-a h-pr-fl-ma f-f-Gilroy p-10px bg-black-node-o-70 blur ns-br-r-1 b-s-b-b d-i-f m-d-b m-b-20px">
 <div className="w-100 h-pr-fl-ma bg-black p-20px d-i-f m-d-b">
-<div className="w-70 m-w-100 h-pr-fl-ma ns-f-s-medium"> Coordina una reunión hoy mismo <br /> y haga despegar su marca!</div>
+<div className="w-70 m-w-100 h-pr-fl-ma ns-f-s-medium noselect"> Coordine una reunión hoy mismo <br /> y haga despegar su marca!</div>
 <div className="w-a h-pr-fl-ma m-w-100 p-20px flexbox ">  <Btn
                     className=""
                     text="Coordinar reunión &nbsp;"

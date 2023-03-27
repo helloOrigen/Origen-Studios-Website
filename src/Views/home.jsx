@@ -214,8 +214,9 @@ export default function Home(props) {
             subtitle={"Conozca como poner sus anuncios en nuestra web."}
           /> </div>
              <div className="w-100 h-a h-pr-fl-ma">
-           <Btn className="t-a-c f-w-bo p-r-20px p-l-20px p-10px " text="Ver plan de anuncios"></Btn></div>
-              </div>
+             <Link  to="/sponsors">
+           <Btn className="t-a-c f-w-bo p-r-20px p-l-20px p-10px " btnLink="sponsors" text="Ver plan de anuncios"> </Btn></Link> </div>
+          </div>
               </div>
               </SwiperSlide>
 

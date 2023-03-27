@@ -9,7 +9,35 @@ Seed.css cortesía de:
                                         Node Seed > Framework by NODESYSTEMS.UY - Actualizado 07 marzo 2023 para: Origen Studios.
 */
 
+@keyframes coinanimationsponsor{
+  0% {
+    opacity: 0;
 
+    transform: scale(0.3);
+ }
+ 100% {
+    opacity: 1;
+
+    transform: scale(1);
+ }
+}
+@-webkit-keyframes coinanimationsponsor {
+  0% {
+     opacity: 0;
+
+     -webkit-transform: scale(0.3);
+  }
+  100% {
+     opacity: 1;
+
+     -webkit-transform: scale(1);
+  }
+}
+
+
+.coin-sponsor-animation{
+animation: coinanimationsponsor 2s ease-in-out 1s both ;
+}
 /* Unique for Origen Studios */
 .animated-text {
   overflow: hidden;

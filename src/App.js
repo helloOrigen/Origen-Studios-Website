@@ -77,7 +77,7 @@ function App() {
               {/* Todas las views se renderizan aquí*/} <MobileMenu className="p-a"/>
 
               <Routes> 
-          
+        
           <Route exact path="/" element={<Home/>} />
             <Route exact  path="/services" element={<Services />} />
            <Route exact path="/team" element={<Team/>} />

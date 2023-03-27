@@ -1,12 +1,15 @@
 import React, { Fragment } from "react";
 import ContentBox from "../components/contentBox";
-
+import SubMenuLegal from "../components/submenuLegal";
 const Terms = () => {
   return (
     <Fragment>
+   <div className="w-100 h-100 h-pr-fl-ma of-x-hidden of-auto" Style="background: black;">
+      <SubMenuLegal/>
+  
       <div
-        className="w-100 h-100 h-pr-fl-ma centered b-s-b-b of-auto b-s-b-b"
-        Style="background: black;"
+        className="w-100 h-a h-pr-fl-ma "
+        
       >
         <div className="m-w-90 w-60 h-100 h-pr-fl-ma r-h-c b-s-b-b p-20px ">
           <ContentBox
@@ -1014,7 +1017,7 @@ Tanto el Cliente como <span Style="font-weight: bold;">
 
 <div className="w-100 h-150px h-pr-fl-ma m-b-20px b-s-b-b" Style="border: 1px solid; border-color: white;"><div className="w-80 h-a h-pr-fl-ma centered  t-a-c" Style="color: #666666;"> Fin del Documento | Términos y Condiciones | 26 Ene 2023</div></div><span className="w-100 h-pr-fl-ma"><br />&nbsp;</span>
 {/* ------------------------------------------------------------------ ESPACIADO FINAL */}
-
+</div>
         </div>
       </div>
     </Fragment>

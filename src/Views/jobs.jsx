@@ -21,7 +21,7 @@ const Jobs = () => {
     <Fragment>
       <div className="w-100 h-100 h-pr-fl-ma b-s-b-b of-auto of-x-none">
 
-      <div className="w-100 h-100 h-pr-fl-ma b-s-b-b">
+      <div className="w-100 h-100 h-pr-fl-ma b-s-b-b noselect">
       <div className="w-60 m-w-100 m-h-40 h-100 h-pr-fl-ma b-s-b-b">
         <div className="w-100 h-a h-pr-fl-ma b-s-b-b  p-10px r-v-c">
           <div className="w-100 f-f-Gilroy f-w-bo   ns-f-s-big m-ns-f-s-medium ">
