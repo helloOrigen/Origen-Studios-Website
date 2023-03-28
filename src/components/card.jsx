@@ -22,6 +22,7 @@ export default function Card(props) {
     list,
     activeoptions,
     icon,
+    iconclassName,
     CardClassName,
     list1,
     list2,
@@ -66,12 +67,13 @@ export default function Card(props) {
              {icon && (
                     <div className="w-100 h-150px h-pr-fl-ma ">
    <div className="w-100 h-150px   h-pr-fl-ma b-s-b-b of-n ">
+            
           <img
             src={` ${icon} `}
             alt={` ${alt} `}
-            className="w-100px h-100px  centered h-pr-fl-ma  "
+            className={` ${iconclassName} w-100px h-100px `}
             Style="object-fit: cover;"
-          /> </div>
+            Style="position: absolute; margin: auto; right: 0px; left:0px; top: 0px; bottom: 0px;"/> </div>
                  </div>
         )}
      

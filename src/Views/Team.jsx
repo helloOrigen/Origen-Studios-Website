@@ -12,6 +12,7 @@ import ContentBox from "../components/contentBox";
 import Nick from "../assets/team/nickolas-machado.jpg";
 import Vicky from "../assets/team/victoria-brylka.jpg";
 import Cesar from "../assets/team/cesar-lima.jpg";
+import Carlos from "../assets/team/carlos-andres.jpg";
 
 
 const Team = () => {
@@ -51,7 +52,7 @@ const Team = () => {
                 spaceBetween: 5,
               },
               1024: {
-                slidesPerView: 3,
+                slidesPerView: 4,
                 spaceBetween: 5,
               },
            
@@ -68,7 +69,7 @@ const Team = () => {
             modules={[Autoplay, Keyboard, Pagination]}
             className="mySwiper w-100 h-100 m-h-500px h-pr-fl-ma b-s-b-b"
           >
-            {/* OS-TEAMWORK | CESAR ------------------------------------------------ */}
+            {/* OS-TEAMWORK | VICTORIA ------------------------------------------------ */}
 
             <SwiperSlide className="h-pr-fl-ma  w-a b-s-b-b   "> 
            
@@ -98,7 +99,7 @@ const Team = () => {
          </div>
         
            </SwiperSlide>
-
+{/* OS-TEAMWORK | CESAR ------------------------------------------------ */}
             <SwiperSlide className="h-pr-fl-ma  w-a b-s-b-b   "> 
            
            <div className="h-e h-pr-fl-ma  centered">
@@ -127,6 +128,43 @@ const Team = () => {
          </div>
         
            </SwiperSlide>
+
+
+{/* OS-TEAMWORK | CARLOS ------------------------------------------------ */}
+
+<SwiperSlide className="h-pr-fl-ma  w-a b-s-b-b   "> 
+           
+           <div className="h-e h-pr-fl-ma  centered">
+             <div
+                className="w-200px h-200px h-pr-fl-ma circle r-h-c p-10px m-b-20px h-up"
+                Style="border: 1px solid; border-color: white;"
+             ><img
+             src={Carlos}
+             className="w-100 h-100 h-pr-fl-ma circle h-e-color h-e-scale"
+             Style="object-fit: contain; stroke: #ffffff !important; z-index: 9999;"
+            alt="Nickolas Machado"
+   
+           /></div>  <div
+           className="w-100 h-a h-pr-fl-ma r-h-c f-w-bo t-a-c f-f-Gilroy  m-b-10px"
+           Style="font-size: 15px; line-height: 20px;"
+         >
+            Carlos Andrés
+         </div> 
+             <span className="h-pr-fl-ma b-s-b-b divider r-h-c m-b-10px">&nbsp;</span>
+             <div
+               className="w-100 h-a h-pr-fl-ma r-h-c f-w-bo ns-c-e t-a-c f-f-Gilroy"
+               Style="font-size: 10px; line-height: 15px;"
+             >
+               Dir. Depto. GameDevs - Desarrollo.
+             </div> 
+         </div>
+        
+           </SwiperSlide>
+
+          
+
+
+
            {/* OS-TEAMWORK | NICK ------------------------------------------------ */}
            <SwiperSlide className="h-pr-fl-ma  w-a b-s-b-b   "> 
            

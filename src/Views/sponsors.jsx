@@ -59,6 +59,7 @@ const Sponsors = () => {
  
   title="ADS & Publicidad"
   subtitle="En todos lados."
+  iconclassName="rotate-scale-up-vertical"
   icon={` ${MedalLvl1} `}
   description="Creamos su campaña publicitaria, la llevamos al medio que desee y la publicamos en nuestra web."
   btn="Activo"
@@ -71,7 +72,7 @@ const Sponsors = () => {
 
   <Card CardClassName=" t-a-c" title="Campañas Cooperativas"
   subtitle={" Sus mejores productos, nuestros mejores servicios."}
-
+  iconclassName="rotate-scale-up-vertical"
   icon={` ${MedalLvl2} `}
   description="Unimos nuestros conocimientos, habilidades y experiencias para fortalecer al máximo su producto/servicio."
   list="Activo"
@@ -82,16 +83,17 @@ const Sponsors = () => {
 
 <Card title="Inversión directa"
   subtitle="Potenciando el futuro."
+  iconclassName="rotate-scale-up-vertical"
   icon={` ${MedalLvl3} `}
   description="Generamos planes solidos de inversión rápida con retornos extremadamente rentables y super escalables."
   list="Activo"
   btnLink={"https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"}
-
   btn="Activo"
   btnText="Coordinar Reunión"></Card>
 
 <Card title="Donativos"
   subtitle="Plan Básico"
+  iconclassName="rotate-scale-up-vertical"
   icon={` ${MedalLvl4} `}
   description="Creamos su campaña publicitaria"
   list="Activo"

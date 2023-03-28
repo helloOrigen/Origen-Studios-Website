@@ -14,6 +14,7 @@ import Notifier from "./components/notifier";
 import Home from "./Views/home";
 import Services from "./Views/services";
 import Team from "./Views/Team";
+import Tools from "./Views/tools";
 import Design from "./Views/design";
 import Marketing from "./Views/marketing";
 import Sponsors from "./Views/sponsors";
@@ -81,6 +82,7 @@ function App() {
           <Route exact path="/" element={<Home/>} />
             <Route exact  path="/services" element={<Services />} />
            <Route exact path="/team" element={<Team/>} />
+           <Route exact path="/tools" element={<Tools/>} />
            <Route exact path="/design" element={<Design/>} />
            <Route exact path="/sponsors" element={<Sponsors/>} />
            <Route exact path="/marketing" element={<Marketing/>} />
