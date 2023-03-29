@@ -76,7 +76,7 @@ const Team = () => {
            <div className="h-e h-pr-fl-ma  centered">
              <div
                 className="w-200px h-200px h-pr-fl-ma circle r-h-c p-10px m-b-20px h-up"
-                Style="border: 1px solid; border-color: white;"
+                Style="border: 1px solid; border-color: #ffc550a2;"
              ><img
              src={Vicky}
              className="w-100 h-100 h-pr-fl-ma circle h-e-color h-e-scale"
@@ -105,7 +105,7 @@ const Team = () => {
            <div className="h-e h-pr-fl-ma  centered">
              <div
                 className="w-200px h-200px h-pr-fl-ma circle r-h-c p-10px m-b-20px h-up"
-                Style="border: 1px solid; border-color: white;"
+                Style="border: 1px solid; border-color: #ffc550a2;"
              ><img
              src={Cesar}
              className="w-100 h-100 h-pr-fl-ma circle h-e-color h-e-scale"
@@ -137,7 +137,7 @@ const Team = () => {
            <div className="h-e h-pr-fl-ma  centered">
              <div
                 className="w-200px h-200px h-pr-fl-ma circle r-h-c p-10px m-b-20px h-up"
-                Style="border: 1px solid; border-color: white;"
+                Style="border: 1px solid; border-color: #ffc550a2;"
              ><img
              src={Carlos}
              className="w-100 h-100 h-pr-fl-ma circle h-e-color h-e-scale"
@@ -171,7 +171,7 @@ const Team = () => {
            <div className="h-e h-pr-fl-ma  centered">
              <div
                 className="w-200px h-200px h-pr-fl-ma circle r-h-c p-10px m-b-20px h-up"
-                Style="border: 1px solid; border-color: white;"
+                Style="border: 1px solid; border-color: #ffc550a2;"
              ><img
              src={Nick}
              className="w-100 h-100 h-pr-fl-ma circle h-e-color h-e-scale"
