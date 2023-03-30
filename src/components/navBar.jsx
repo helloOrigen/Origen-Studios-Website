@@ -30,7 +30,8 @@ const navBar = () => {
     
         <Link to="/promo"><NavBarBtn className="p-10px m-d-n noselect" text={"Promos"} news></NavBarBtn></Link>
         <Link to="/sponsors"><NavBarBtn className="p-10px m-d-n noselect" text={"Sponsors"} news></NavBarBtn></Link>
-       
+        <Link to="/jobs"><NavBarBtn className="p-10px m-d-n noselect" text={"Empleo"} news></NavBarBtn></Link>
+
    {/* REDES SOCIALES */}
   
           <NavBarBtn className="m-d-n h-pr-fr-ma noselect" Linkedin enlace="https://www.linkedin.com/company/helloorigen/"></NavBarBtn>

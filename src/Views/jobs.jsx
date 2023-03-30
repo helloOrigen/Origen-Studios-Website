@@ -60,14 +60,14 @@ const Jobs = () => {
 
       <div className="w-100  h-a h-pr-fl-ma b-s-b-b p-50px of-n">
           <CardContainer >
-            <Link className="h-e-scale" to="" alt=""><Card title="Ventas"  icon={` ${Briefcase} `}/></Link>
-            <Link className="h-e-scale"  to="" alt=""><Card title="Marketing"  icon={` ${BellRinging} `}/></Link>
+            <Link className="h-e-scale" to="https://forms.office.com/r/pBrb5qizQE" alt=""><Card title="Ventas" subtitle="Activo"  icon={` ${Briefcase} `}/></Link>
+            <Link className="" to="" alt=""><Card titleclassName="m-b-20px ns-c-gray-6 " CardClassName="inactive" title="Marketing"  icon={` ${BellRinging} `}/></Link>
             <Link className="h-e-scale" to="https://forms.office.com/r/HxdyDm49a7" alt=""><Card title="Desarrollo" subtitle="Activo" icon={` ${Code} `}/></Link>
-            <Link className="h-e-scale" to="" alt=""><Card title="Diseño" icon={` ${Pen} `}/></Link>
-            <Link className="h-e-scale" to="/jobs" alt=""><Card title="Testing" icon={` ${Terminal} `}/></Link>
-            <Link className="h-e-scale" to="/jobs" alt=""><Card title="Redacción" icon={` ${DocumentStack} `}/></Link>
-                <Link className="h-e-scale"  to="/jobs" alt=""><Card title="Prod. Sonora" icon={` ${VolumeHigh} `}/></Link>
-                    <Link className="h-e-scale"  to="/jobs" alt=""><Card title="Traducción" icon={` ${Translate} `}/></Link>
+            <Link className="" to="" alt=""><Card titleclassName="m-b-20px ns-c-gray-6 " CardClassName="inactive" title="Diseño" icon={` ${Pen} `}/></Link>
+            <Link className="" to="/jobs" alt=""><Card titleclassName="m-b-20px ns-c-gray-6 " CardClassName="inactive" title="Testing" icon={` ${Terminal} `}/></Link>
+            <Link className="" to="/jobs" alt=""><Card titleclassName="m-b-20px ns-c-gray-6 " CardClassName="inactive" title="Redacción" icon={` ${DocumentStack} `}/></Link>
+                <Link className="" to="/jobs" alt=""><Card titleclassName="m-b-20px ns-c-gray-6 " CardClassName="inactive" title="Prod. Sonora" icon={` ${VolumeHigh} `}/></Link>
+                    <Link className="" to="/jobs" alt=""><Card titleclassName="m-b-20px ns-c-gray-6 " CardClassName="inactive " title="Traducción" icon={` ${Translate} `}/></Link>
           </CardContainer>
           </div>
       </div>
