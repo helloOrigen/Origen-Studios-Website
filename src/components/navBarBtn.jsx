@@ -4,10 +4,10 @@ import LinkedinIcon from "../assets/icons/linkedin-icon.svg";
 import InstagramIcon from "../assets/icons/instagram-icon.svg";
 import TwitterIcon from "../assets/icons/twitter-icon.svg";
 import FacebookIcon from "../assets/icons/facebook-icon.svg";
-import WhatsappIcon from "../assets/icons/whatsapp-icon.svg";
+import BehanceIcon from "../assets/icons/behance-icon.svg";
 
 export default function navBarBtn(props) {
-  const { text, className, children, news, enlace, Linkedin, Facebook, Twitter, Whatsapp, Instagram } = props;
+  const { text, className, children, news, enlace, Linkedin, Facebook, Twitter, Behance, Instagram } = props;
 
   return (
     <>
@@ -29,8 +29,8 @@ export default function navBarBtn(props) {
              src={TwitterIcon} /> )}
               { Facebook && (  <img alt="Facebook" className="w-40px h-40px h-pr-fl-ma p-5px"
              src={FacebookIcon} /> )}
-              { Whatsapp && (  <img alt="Whatsapp" className="w-40px h-40px h-pr-fl-ma p-5px"
-             src={WhatsappIcon} /> )}
+              { Behance && (  <img alt="Behance" className="w-40px h-40px h-pr-fl-ma p-5px"
+             src={BehanceIcon} /> )}
              {text}
             {children}
             

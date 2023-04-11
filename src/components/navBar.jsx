@@ -38,7 +38,7 @@ const navBar = () => {
           <NavBarBtn className="m-d-n h-pr-fr-ma noselect" Instagram enlace="https://www.instagram.com/helloorigen"></NavBarBtn>
           <NavBarBtn className="m-d-n h-pr-fr-ma noselect" Facebook enlace="https://www.facebook.com/helloorigen/"></NavBarBtn>
           <NavBarBtn className="m-d-n h-pr-fr-ma noselect" Twitter enlace="https://www.twitter.com/helloorigen/"></NavBarBtn>
-          <NavBarBtn className="m-d-n h-pr-fr-ma noselect" Whatsapp enlace=""></NavBarBtn>
+          <NavBarBtn className="m-d-n h-pr-fr-ma noselect" Behance enlace="https://www.behance.net/OrigenStudios/"></NavBarBtn>
          {/*  <BtnModal></BtnModal> */}
       </div>
     </Fragment>
