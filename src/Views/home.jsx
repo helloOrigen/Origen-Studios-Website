@@ -171,22 +171,23 @@ export default function Home(props) {
               className="mySwiper h-100 w-100 h-pr-fl-ma b-s-b-b"
             >
               <SwiperSlide className="d-n m-d-b h-pr-fl-ma b-s-b-b">
-                <div className="w-100 h-a h-pr-fl-ma r-v-c b-s-b-b">
-                  <h1
-                    className="w-100 f-f-Gilroy c-white h-pr-fl-ma r-v-c h-a p-l-10px b-s-b-b m-a t-a-c"
+                <div className="w-100 h-100 h-pr-fl-ma  b-s-b-b  b-s-b-b">
+                  <div className="w-100 h-a h-pr-fl-ma r-v-c bg-black-node-o-70 blur ns-br-r-1 p-t-40px p-b-40px">
+                  <span
+                    className="w-100 f-f-Gilroy c-white h-pr-fl-ma  h-a p-l-10px b-s-b-b m-a t-a-c"
                     Style="font-size: 50px; line-height: 55px;"
                   >
                     <b>¡Le damos la bienvenida!</b>
                
-                  </h1>
-                  <h1
-                    className="w-100 f-f-Gilroy c-white h-pr-fl-ma  r-v-c h-a p-l-10px b-s-b-b m-a t-a-c"
-                    Style="font-size: 25px; line-height: 30px;"
+                  </span>
+                  <span
+                    className="w-100 h-a f-f-Gilroy c-white h-pr-fl-ma  m-t-10px p-l-10px b-s-b-b m-a t-a-c"
+                    Style="font-size: 20px; line-height: 25px;"
                   >
                     <b>
                       Se encuentra en el origen <br /> de su nueva marca.
                     </b>
-                  </h1>
+                  </span>
 
                   <div className="w-100 h-a h-pr-fl-ma  ">
                     <div className="w-100 h-a h-pr-fl-ma a-i-c">
@@ -198,6 +199,7 @@ export default function Home(props) {
                     <div className="w-100 h-a h-pr-fl-ma ">
                       <div className="w-a h-a h-pr-fl-ma  t-a-c r-h-c">
                         <Btn
+                        textclassName="p-r-10px"
                           text="Coordinar reunión"
                           enlace={
                             "https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
@@ -206,7 +208,7 @@ export default function Home(props) {
                           <div className="w-25px h-25px m-5px h-pr-fl-ma">
                             <img
                               src={MessageWriting}
-                              className="w-100 h-100 h-pr-fl-ma"
+                              className="w-100 h-100 h-pr-fl-ma "
                               Style="stroke: #ffffff !important; "
                               alt="Coordinar"
                             />
@@ -223,6 +225,7 @@ export default function Home(props) {
                        <i>Para una una experiencia completa, <br /> recomendamos el acceso desde un equipo PC </i>
                         </span>
                     </div>
+                  </div>
                   </div>
                 </div>
               </SwiperSlide>
@@ -290,7 +293,7 @@ export default function Home(props) {
           <div className="w-100 h-a h-pr-fl-ma t-a-c">
             <div className="w-100 h-a h-pr-fl-ma p-20px f-w-bo t-a-c  f-f-Gilroy">
               <span className="UnderLineText" Style="font-size: 50px;">
-                ¿Cómo trabamos?
+                ¿Cómo trabajamos?
               </span>
             </div>
 
@@ -322,12 +325,12 @@ export default function Home(props) {
           </div>
         </div>
 
-        <div className="w-100 h-a h-pr-fl-ma b-s-b-b p-t-10px   p-20px of-a">
+        <div className="w-100 h-a h-pr-fl-ma b-s-b-b p-t-10px p-10px of-a">
           <div className="w-100 h-a h-pr-fl-ma t-a-c">
             <div className="w-100 h-a h-pr-fl-ma p-20px f-w-bo t-a-c  f-f-Gilroy">
-              <span className="UnderLineText" Style="font-size: 50px;">
-                Comuníquese con nosotros
-              </span>
+              <div className="UnderLineText" Style="font-size: 50px;">
+                Comuníquese <span className="d-n m-d-b">    </span> con nosotros
+              </div>
             </div>
 
             <div className="w-100 h-a h-pr-fl-ma d-i-f m-d-b">

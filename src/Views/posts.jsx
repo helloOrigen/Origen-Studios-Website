@@ -10,7 +10,7 @@ const Posts = () => {
     <Fragment>
            
           <div className="w-100 h-100 h-pr-fl-mans-br-r-1 p-10px b-s-b-b">
-            <div className="w-100 h-a   h-pr-fl-ma d-i-f m-d-b">
+            <div className="w-100 h-a h-pr-fl-ma d-i-f m-d-b">
           <div className="w-60 m-w-100 h-100 h-pr-fl-ma  p-10px b-s-b-b p-10px of-h"> 
           <div className="w-100 r-h-c h-a h-pr-fl-ma bg-black-node-o-70 blur ns-br-r-1 ">
         
