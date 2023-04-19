@@ -33,7 +33,7 @@ const navBar = () => {
         <Link to="/jobs"><NavBarBtn className="p-10px m-d-n noselect" text={"Empleo"} news></NavBarBtn></Link>
 
    {/* REDES SOCIALES */}
-  
+          <NavBarBtn className="m-d-n h-pr-fr-ma noselect" Whatsapp enlace="https://wa.me/message/QEHFJE3NEAVTE1"></NavBarBtn>
           <NavBarBtn className="m-d-n h-pr-fr-ma noselect" Linkedin enlace="https://www.linkedin.com/company/helloorigen/"></NavBarBtn>
           <NavBarBtn className="m-d-n h-pr-fr-ma noselect" Instagram enlace="https://www.instagram.com/helloorigen"></NavBarBtn>
           <NavBarBtn className="m-d-n h-pr-fr-ma noselect" Facebook enlace="https://www.facebook.com/helloorigen/"></NavBarBtn>

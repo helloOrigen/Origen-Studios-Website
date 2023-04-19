@@ -1,6 +1,6 @@
 import React from 'react'
 import { Fragment } from "react";
-import{ BrowserRouter, Routes,Route } from "react-router-dom";
+import{ BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/navBar";
 import Footer from "./components/Footer";
 import MobileMenu from './components/mobileMenu';
@@ -23,7 +23,12 @@ import About from "./Views/about";
 import Terms from "./Views/terms";
 import Privacy from "./Views/privacy";
 import Cookies from "./Views/cookies";
+
 import Plans from "./Views/plans";
+import Posts from "./Views/posts";
+import Identity from "./Views/identity";
+import Campaign from "./Views/campaign";
+
 import Page404 from "./Views/page404";
 import Process from "./Views/process";
 import Gallery from "./Views/gallery";
@@ -91,7 +96,13 @@ function App() {
            <Route exact path="/terms" element={<Terms/>} />
            <Route exact path="/cookies" element={<Cookies/>} />
            <Route exact path="/privacy" element={<Privacy/>} />
+
            <Route exact path="/plans" element={<Plans/>} />
+           <Route exact path="/plans/:id" element={<Plans/>} />
+           <Route  path="/plans/posts" element={<Posts/>} />
+           <Route  path="/plans/identity" element={<Identity/>} />
+           <Route  path="/plans/campaign" element={<Campaign/>} />
+
            <Route exact path="/process" element={<Process/>} />
            <Route exact path="/gallery" element={<Gallery/>} />
            <Route exact path="/promo" element={<Promo/>} />

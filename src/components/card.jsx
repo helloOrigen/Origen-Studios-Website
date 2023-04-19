@@ -7,7 +7,10 @@ export default function Card(props) {
   const {
     title,
     titleclassName,
+    titleStyle,
     subtitle,
+    subtitleclassName,
+    subtitleStyle,
     description,
     image,
     btn,
@@ -43,7 +46,7 @@ export default function Card(props) {
 
   return (
     <>
-      <div   className={` ${CardClassName} ${type} card h-e  b-s-b-b bg-black-node-o-70 blur ns-br-r-1 of-h  `}>
+      <div   className={` ${type} card h-e  b-s-b-b default blur ${CardClassName} ns-br-r-1 of-h p-20px `}>
       {cardCategory && ( 
         
     
@@ -54,7 +57,7 @@ export default function Card(props) {
 
 
         {image && (
-   <div className="w-100 h-100  b-s-b-b of-n">
+   <div className="w-100 h-100  b-s-b-b of-n ">
           <img
             src={` ${image} `}
             alt={` ${alt} `}
@@ -67,7 +70,7 @@ export default function Card(props) {
          
              {icon && (
                     <div className="w-100 h-150px h-pr-fl-ma ">
-   <div className="w-100 h-150px   h-pr-fl-ma b-s-b-b of-n ">
+   <div className="w-100 h-150px   h-pr-fl-ma b-s-b-b of-n  ">
             
           <img
             src={` ${icon} `}
@@ -79,8 +82,8 @@ export default function Card(props) {
         )}
      
 
-          {title && <ContentBox className={`${titleclassName}`} title={` ${title}  `}> </ContentBox>}
-          {subtitle && <ContentBox subtitle={` ${subtitle} `}> </ContentBox>}
+          {title && <span className={`w-100 h-a h-pr-fl-ma p-5px  f-f-Gilroy t-a-c ${titleclassName}`}  Style={`font-size: 25px; line-height: 25px; ${titleStyle}`}> {title}</span>}
+          {subtitle && <span className={`w-100 h-a h-pr-fl-ma p-10px t-a-c f-f-Gilroy ${subtitleclassName} ns-c-e`} Style={`font-size: 15px; line-height: 15px; ${subtitleStyle}`}> {subtitle}</span>}
           {description && <span className="w-90  t-a-c f-f-Gilroy m-b-10px" >{description} </span>}
           {list && <div className=" w-90 f-f-Gilroy m-b-10px ns-f-s-normal "  >  {list1 && <li  Style="display: flex; align-items: baseline;"> <span Style="margin-right: 10px;">&#8226;</span>{list1}</li>}
           {list2 && <li  Style="display: flex; align-items: baseline;"> <span Style="margin-right: 10px;">&#8226;</span>{list2}</li>}

@@ -1,117 +1,82 @@
-import React, { Fragment } from "react";
-import ContentBox from "../components/contentBox";
+import React, { Fragment, useState  } from "react";
 
-import OSLogoSymbol from "../assets/logo/OS-Logo-Symbol-White-Svg.svg";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Keyboard, Pagination } from "swiper";
+import { Routes, Route, Link } from 'react-router-dom';
+
+import Submenu from "../components/submenu";
+import Submenubtn from "../components/submenubtn";
+
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import CardContainer from "../components/cardcontainer";
-import Card from "../components/card";
-const Plans = () => {
+import Posts from "./posts";
+import Identity from "./identity";
+import Campaign from "./campaign";
+
+
+
+
+
+
+const Tabs = ({ children }) => {
+  const [activeTab, setActiveTab] = useState(0);
+
   return (
-    <Fragment>
-      <div className="w-100 h-100  h-pr-fl-ma centered b-s-b-b  of-auto p-20px">
-     
-     
-        {/* ESTUDIO -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */}
-
-        
-        <div
-          className="w-100 h-a h-pr-fl-ma "
-        
-        >
-          <CardContainer>
-            <Card
-              cardCategory="Estudio"
-              title="Estudio de Marca"
-              subtitle="Plan Básico"
-              icon={` ${OSLogoSymbol} `}
-              description="Analizamos su marca"
-              list="Activo"
-
-              list1="Análisis completo de Rendimiento de Logotipo"
-              list2="Estudio competencia local"
-              list3="Compatibilidad semántica en Redes Sociales"
-              list4="Visibilidad & Progresión"
-              btn="Activo"
-              btnText="Coordinar Reunión"
-              btnLink="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
-            />
-            <Card
-              cardCategory="Estudio"
-              title="Análisis SEO"
-              subtitle="Plan Básico"
-              icon={` ${OSLogoSymbol} `}
-              description="Analizamos sitio web"
-              list="Activo"
-
-              list1="Posicionamiento actual del sitio web"
-              list2="Estudio de palabras clave"
-              list3="Estudio de las meta etiquetas y URLs"
-              list4="Análisis del contenido"
-              btn="Activo"
-              btnText="Coordinar Reunión"
-              btnLink="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
-            />
-            <Card
-            cardCategory="Estudio"
-            title="Estudio Legal"
-            subtitle="Plan Básico"
-            icon={` ${OSLogoSymbol} `}
-            description="Analizamos sus políticas"
-            list="Activo"
-
-            list1="Cumplimiento de políticas"
-            list2="Análisis de registros RGPD"
-            list3="Estudio de protección al usuario/cliente"
-            list4="Habilitaciones Web"
-            btn="Activo"
-            btnText="Coordinar Reunión"
-            btnLink="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
-            />
-            <Card
-               cardCategory="Estudio"
-               title="Estudio Formativo"
-               subtitle="Plan Básico"
-               icon={` ${OSLogoSymbol} `}
-               description="Analizamos su personal"
-               list="Activo"
-   
-               list1="Percepción interna general"
-               list2="Análisis F.O.D.A"
-               list3="Capacidad de austeridad"
-               list4="Estudio de capacidad de crecimiento"
-               btn="Activo"
-               btnText="Coordinar Reunión"
-               btnLink="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
-            />
-            <Card
-               cardCategory="Estudio"
-               title="Estudio Técnico"
-               subtitle="Plan Básico"
-               icon={` ${OSLogoSymbol} `}
-               description="Reconocimiento del personal"
-               list="Activo"
-   
-               list1="Validación de aptitudes"
-               list2="Reorganización de personal"
-               list3="Optimización de recursos"
-               list4="Detección de amenazas internas"
-               btn="Activo"
-               btnText="Coordinar Reunión"
-               btnLink="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
-            />
-          </CardContainer>
-        </div>
+    <div className="w-100 h-100 h-pr-fl-ma  " >
+ 
+      <div className="w-100 h-90 h-pr-fl-ma  of-auto">
+        {children.map((child, index) => (
+          <div key={index} style={{ display: index === activeTab ? "block" : "none" }}>
+            {child}
+          </div>
+        ))}
       </div>
 
-      {/* CONTENEDOR GENERAL */}
-    </Fragment>
+      <div className=" bg-blur w-100 h-10 h-pr-fl-ma" Style={{ display: "flex" }}>
+        {children.map((child, index) => (
+          <button
+            key={index}
+            style={{
+              backgroundColor: index === activeTab ? "rgba(18, 18, 18, 0.7)" : "rgba(0,0,0,0.1)",
+              color: index === activeTab ? "#ffc671" : "#666666",
+              border: "none",
+              padding: "0.5rem 1rem",
+              cursor: "pointer",
+              fontFamily: "Gilroy",
+              fontSize: index === activeTab ? "15px" : "12px",
+              height: "100%",
+            }}
+            onClick={() => setActiveTab(index)}
+            className="hover-underline-animation"
+          >
+            {child.props.label}
+          </button>
+        ))}
+      </div>
+    </div>
   );
 };
 
-export default Plans;
+const posts = () => <Posts/>;
+
+const identity = () => <Identity/>;
+
+const campaign = () => <Campaign/>;
+
+const Plans = () => (
+  <Tabs>
+    <div label="Posts">
+      <Posts />
+    </div>
+    <div label="Identidad de marca">
+      <Identity />
+    </div>
+    <div label="Campañas">
+      <Campaign />
+    </div>
+    
+  </Tabs>
+);
+
+export default Plans; 
