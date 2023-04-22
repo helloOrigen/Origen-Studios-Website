@@ -28,10 +28,7 @@ const Team = () => {
   return (
     <Fragment>
       <div className="w-100 h-100 h-pr-fl-ma centered b-s-b-b of-auto  ">
-      <div className="h-pr-fl-ma m-w-100 w-100  h-100" Style="overflow: visible !important;">
-        <div className="  centered " Style="z-index: 10000; overflow:visible  !important; height: 150%;">
-      <img className="w-100 h-100 h-pr-fl-ma " Style="object-fit: contain;" src={OSLogotipo} alt="OS-LOGO"/> 
-      </div> </div>
+     
 
         <div className="h-pr-fl-ma m-w-100 w-100  h-100   b-s-b-b f-w-w">
         <Swiper

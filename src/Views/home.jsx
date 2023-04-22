@@ -21,7 +21,10 @@ import CardContainer from "../components/cardcontainer";
 import Card from "../components/card";
 
 import Promo1 from "../assets/images/promo/promo-1.jpg";
-import BehanceHome from "../assets/images/views/home/OS-behance-1080x1080.webp";
+import Promo2 from "../assets/images/promo/promo-2.jpg";
+import Behance from "../assets/images/promo/behance.jpg";
+import OSJobs from "../assets/images/promo/os-jobs.jpg";
+
 
 import "../Styles/seed.css";
 import "../Styles/home.css";
@@ -230,14 +233,15 @@ export default function Home(props) {
                 </div>
               </SwiperSlide>
 
-              <SwiperSlide className="h-pr-fl-ma b-s-b-b p-5px">
+              <SwiperSlide className="h-pr-fl-ma b-s-b-b p-5px ">
                 <Link to="/promo">
+                  <div className="w-a h-a h-pr-fl-ma ns-br-r-1 of-h">
                   <img
                     src={Promo1}
                     Style="Object-fit: contain; "
                     alt=""
-                    className="w-100 h-100 h-pr-fl-ma  b-s-b-b"
-                  />
+                    className="w-100 h-100 h-pr-fl-ma  b-s-b-b "
+                  /></div>
                 </Link>
               </SwiperSlide>
 
@@ -275,14 +279,38 @@ export default function Home(props) {
                 </div>
               </SwiperSlide>
 
-              <SwiperSlide className="h-pr-fl-ma b-s-b-b p-5px">
-                <Link to="https://www.behance.net/gallery/167658929/OrigenStudios-2023">
+              <SwiperSlide className="h-pr-fl-ma b-s-b-b p-5px ">
+                <Link to="mailto:hello@origenstudios.com">
+                  <div className="w-a h-a h-pr-fl-ma ns-br-r-1 of-h">
                   <img
-                    src={BehanceHome}
+                    src={Promo2}
                     Style="Object-fit: contain; "
                     alt=""
-                    className="w-100 h-100 h-pr-fl-ma  b-s-b-b"
-                  />
+                    className="w-100 h-100 h-pr-fl-ma  b-s-b-b "
+                  /></div>
+                </Link>
+              </SwiperSlide>
+
+              <SwiperSlide className="h-pr-fl-ma b-s-b-b p-5px ">
+                <Link to="https://behance.net/origenstudios">
+                  <div className="w-a h-a h-pr-fl-ma ns-br-r-1 of-h">
+                  <img
+                    src={Behance}
+                    Style="Object-fit: contain; "
+                    alt=""
+                    className="w-100 h-100 h-pr-fl-ma  b-s-b-b "
+                  /></div>
+                </Link>
+              </SwiperSlide>
+              <SwiperSlide className="h-pr-fl-ma b-s-b-b p-5px ">
+                <Link to="https://OrigenStudios.com/Jobs">
+                  <div className="w-a h-a h-pr-fl-ma ns-br-r-1 of-h">
+                  <img
+                    src={OSJobs}
+                    Style="Object-fit: contain; "
+                    alt=""
+                    className="w-100 h-100 h-pr-fl-ma  b-s-b-b "
+                  /></div>
                 </Link>
               </SwiperSlide>
             </Swiper>
