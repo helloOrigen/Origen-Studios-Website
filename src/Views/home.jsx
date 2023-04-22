@@ -235,7 +235,7 @@ export default function Home(props) {
 
               <SwiperSlide className="h-pr-fl-ma b-s-b-b p-5px ">
                 <Link to="/promo">
-                  <div className="w-a h-a h-pr-fl-ma ns-br-r-1 of-h">
+                  <div className="w-a h-a h-pr-fl-ma ns-br-r-1 r-v-c of-h">
                   <img
                     src={Promo1}
                     Style="Object-fit: contain; "
@@ -281,7 +281,7 @@ export default function Home(props) {
 
               <SwiperSlide className="h-pr-fl-ma b-s-b-b p-5px ">
                 <Link to="mailto:hello@origenstudios.com">
-                  <div className="w-a h-a h-pr-fl-ma ns-br-r-1 of-h">
+                  <div className="w-a h-a h-pr-fl-ma ns-br-r-1 r-v-c  of-h">
                   <img
                     src={Promo2}
                     Style="Object-fit: contain; "
@@ -293,7 +293,7 @@ export default function Home(props) {
 
               <SwiperSlide className="h-pr-fl-ma b-s-b-b p-5px ">
                 <Link to="https://behance.net/origenstudios">
-                  <div className="w-a h-a h-pr-fl-ma ns-br-r-1 of-h">
+                  <div className="w-a h-a h-pr-fl-ma ns-br-r-1 r-v-c  of-h">
                   <img
                     src={Behance}
                     Style="Object-fit: contain; "
@@ -304,7 +304,7 @@ export default function Home(props) {
               </SwiperSlide>
               <SwiperSlide className="h-pr-fl-ma b-s-b-b p-5px ">
                 <Link to="https://OrigenStudios.com/Jobs">
-                  <div className="w-a h-a h-pr-fl-ma ns-br-r-1 of-h">
+                  <div className="w-a h-a h-pr-fl-ma ns-br-r-1 r-v-c  of-h">
                   <img
                     src={OSJobs}
                     Style="Object-fit: contain; "
