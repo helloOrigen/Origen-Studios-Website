@@ -23,7 +23,7 @@ const MobileMenu = () => {
       checked={menuOpen}
       onChange={toggleMenu}
     />
-    <div className={`menu-container ${menuOpen ? "d-b" : "d-n"}`}  Style="position: fixed; left:0px; right:0px; top: 0px; bottom: 0px; z-index: 99998;">
+    <div className={` menu-container  ${menuOpen ? "d-b" : "d-n"}`}  Style="position: fixed; left:0px; right:0px; top: 0px; bottom: 0px; z-index: 99998;">
         <ul
           className="w-100 h-100 h-pr-fl-ma  d-b "
          
@@ -32,10 +32,10 @@ const MobileMenu = () => {
             className={`d-n m-d-b of-auto  bg-linear-b-t-menu`}
             Style="position: fixed; left:0px; right:0px; top: 0px; bottom: 0px; z-index: 99998;"
           >
-            <div className="w-100 h-a r-v-b  h-pr-fl-ma">
+            <div className="w-100 h-a r-v-b   h-pr-fl-ma">
               <Link
                 to="/team"
-                className="h-e   selected"
+                className="h-e selected nav-link"
                 onClick={handleLinkClick}
               >
                 <div
@@ -51,7 +51,7 @@ const MobileMenu = () => {
 
               <Link
                 to="/services"
-                className="h-e selected"
+                className="h-e selected nav-link"
                 onClick={handleLinkClick}
               >
                 {" "}
@@ -67,7 +67,7 @@ const MobileMenu = () => {
               </Link>
               <Link
                 to="/plans"
-                className="h-e selected"
+                className="h-e selected nav-link"
                 onClick={handleLinkClick}
               >
                 {" "}
@@ -83,7 +83,7 @@ const MobileMenu = () => {
               </Link>
               <Link
                 to="/process"
-                className="h-e selected"
+                className="h-e selected  nav-link"
                 onClick={handleLinkClick}
               >
                 <div
@@ -98,7 +98,7 @@ const MobileMenu = () => {
               </Link>
               <Link
                 to="/gallery"
-                className="h-e selected"
+                className="h-e selected nav-link"
                 onClick={handleLinkClick}
               >
                 <div
@@ -115,7 +115,7 @@ const MobileMenu = () => {
 
               <Link
                 to="/promo"
-                className="h-e selected"
+                className="h-e selected nav-link"
                 onClick={handleLinkClick}
               >
                 <div
@@ -131,7 +131,7 @@ const MobileMenu = () => {
               </Link>
               <Link
                 to="/promo"
-                className="h-e selected"
+                className="h-e selected  nav-link"
                 onClick={handleLinkClick}
               >
                 <div className="w-100 h-a h-pr-fl-ma p-b-10px p-t-10px ">

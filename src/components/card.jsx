@@ -46,7 +46,7 @@ export default function Card(props) {
 
   return (
     <>
-      <div   className={` ${type} card h-e  b-s-b-b default blur ${CardClassName} ns-br-r-1 of-h p-20px `}>
+      <div   className={` ${type} card h-e  b-s-b-b default blur ${CardClassName} ns-br-r-1 of-h`}>
       {cardCategory && ( 
         
     

@@ -10,6 +10,45 @@ Seed.css cortesía de:
 */
 
 /* Experimental NODESYSTEMS 2023 */
+/* Mobile menu */
+
+/* MobileMenu Btn Center */
+.menu-wrapper {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1341;
+  top: -18px;
+  transition: top 0.4s ease-in-out 0.2s;
+}
+
+.menu-open {
+  top: -28px;
+  transition: top 0.4s ease-in-out;
+}
+
+.menu-wrapper label:active img {
+  fill: #00ACEE !important; /* Cambia el color aquí */
+}
+
+.menu-open img[src*="MobileBtnMenu"] {
+  fill: #cccccc !important; /* Cambia el color aquí */
+}
+/* Mobile Menu Btn Right*/
+.MobileMenuBtnRight {
+  clip-path: polygon(0 35px, 35px 0,100% 0,100% 100%,0 100%)
+}
+
+/* Mobile Menu Btn Left*/
+.MobileMenuBtnLeft {
+  clip-path: polygon(0 0,calc(100% - 35px) 0,100% 35px,100% 100%,0 100%);
+}
+
+
+
+
 
 
 .UnderLineText {
@@ -138,6 +177,7 @@ animation: coinanimationsponsor 2s ease-in-out 1s both ;
     }
   }
 
+ 
 
 .card{
   object-fit: cover;
@@ -157,7 +197,9 @@ animation: coinanimationsponsor 2s ease-in-out 1s both ;
   margin: 0;
 }
 
-
+.card.circle{
+  border-radius: 50%;
+}
 
 @media(min-width: 768px){
     .card-tall{
@@ -287,19 +329,23 @@ backdrop-filter: blur(10px);
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
+
  */
- body {} 
-
-
-html {
-
-    height: 100vh;
-  height: -webkit-fill-available;
-
-
+ body {
+  height: 100vh;
 }
 
+/* Avoid Chrome to see Safari hack */
+@supports (-webkit-touch-callout: none) {
+  body {
+    /* The hack for Safari */
+    height: -webkit-fill-available;
+  }
+}
 
+html{
+  height: 100vh
+}
 /* Avoid Chrome to see Safari hack */
 
 /**
@@ -635,6 +681,7 @@ template {
 }
 
 /* Body */
+/*
 body {
   color: #7e7e7e;
   -o-font-smoothing: antialiased;
@@ -642,7 +689,7 @@ body {
   text-rendering: optimizeLegibility;
   -o-text-rendering: optimizeLegibility;
   font-size: 16px;
-}
+}*/
 
 /* Button */
 button {
@@ -2809,9 +2856,9 @@ input[type=range].info:focus::-ms-fill-upper {
 
 /*
 
-   ██ ██    ██ ███████ ████████ ██ ███████ ██    ██
-   ██ ██    ██ ██         ██    ██ ██       ██  ██
-   ██ ██    ██ ███████    ██    ██ █████     ████
+     ██ ██    ██ ███████ ████████ ██ ███████ ██    ██
+     ██ ██    ██ ██         ██    ██ ██       ██  ██
+     ██ ██    ██ ███████    ██    ██ █████     ████
 ██   ██ ██    ██      ██    ██    ██ ██         ██
  █████   ██████  ███████    ██    ██ ██         ██
 
@@ -11572,25 +11619,33 @@ i.success {
 
 */
 /* Sintax and specials overflow */
-.of-h {
-  overflow: hidden;
-}
 
 .of-inherit {
   overflow: inherit;
 }
-
+.of-i {
+  overflow: inherit;
+}
 .of-auto {
   overflow: auto;
 }
 
+.of-a {
+  overflow: auto;
+}
 .of-scroll {
   overflow: scroll;
 }
-
+.of-s {
+  overflow: scroll;
+}
 .of-hidden {
   overflow: hidden;
 }
+.of-h {
+  overflow: hidden;
+}
+
 .of-n {
   overflow: none;
 }
@@ -11599,6 +11654,9 @@ i.success {
 }
 
 .of-visible {
+  overflow: visible;
+}
+.of-v {
   overflow: visible;
 }
 
@@ -11618,8 +11676,11 @@ i.success {
 .of-y-hidden {
   overflow-y: hidden;
 }
+.of-y-h {
+  overflow-y: hidden;
+}
 .of-y-n {
-  overflow-y: none;
+  overflow-y: none ;
 }
 .of-y-none {
   overflow-y: none;

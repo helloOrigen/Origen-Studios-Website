@@ -8,24 +8,31 @@ import MobileMenu from './components/mobileMenu';
 import Notifier from './components/notifier';
 
 // Estilos y recursos
-import Background1 from './assets/images/compressed/background-1.jpg';
 import Background2 from './assets/images/compressed/background-2.jpg';
 import './Styles/seed.css';
 import './Styles/home.css';
 
 // Vistas
 import * as Views from "./Views/index.jsx";
+const appHeight = () => {
+  const doc = document.documentElement
+  doc.style.setProperty('--app-height', `${window.innerHeight}px`)
+}
+window.addEventListener('resize', appHeight)
+appHeight()
+
+
 
 function App() {
   
-
 
   return (
     <BrowserRouter>
 
     <Fragment>
-      <div className="h-pr-fl-ma w-100 h-100vh b-s-b-b of-h of-y-n ">
-      
+ 
+      <div className="h-pr-fl-ma w-100 h-100vh of-y-n of-h">
+        
         <div
           className=" l-0px r-0px t-0px b-0px m-a "/*blurbganimation */
           style={{
@@ -42,13 +49,16 @@ function App() {
        
         {/* FullHeight Container*/}
 
-        <div className="h-pr-fl-ma w-100 m-h-5 h-10 b-s-b-b  ">
+        <div className="h-pr-fl-ma w-100 h-10 b-s-b-b  ">
           {/* 15% Height Menu Container*/}
+          <div className="d-n m-d-b w-100 c-white h-a  bg-black f-f-Gilroy ns-f-s-nano  t-a-c" Style="position:fixed;">
+            OrigenStudios.com | Somos el origen de su marca. | &reg; 2023
+          </div>
           <NavBar/>
         </div>
         
 
-        <div className="h-pr-fl-ma w-100 h-85  b-s-b-b of-n ">
+        <div className="h-pr-fl-ma w-100 h-80 b-s-b-b of-n ">
           {/* 70% Height  Body Container*/}
           <div className="h-pr-fl-ma w-100 h-100  b-s-b-b of-n  ">
             <div className="w-90 c-white h-100 r-h-c h-pr-fl-ma ">
@@ -99,13 +109,13 @@ function App() {
           </div>
         </div>
         <div
-          className="h-pr-fl-ma w-100 h-5 m-h-10  t-1s b-s-b-b of-n  "
+          className="h-pr-fl-ma w-100 h-10 b-s-b-b of-v"
          
         > 
-        
-          <Footer className="w-90 h-100 r-h-c h-pr-fl-ma bg-black" />
+          <Footer className="w-100 h-100 r-h-c h-pr-fl-ma " />
           </div>
       </div>
+ 
     </Fragment>
     </BrowserRouter>
   );
