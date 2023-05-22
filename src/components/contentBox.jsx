@@ -31,11 +31,7 @@ export default function contentBox(props) {
       <div
         className={` ${className} h-pr-fl-ma w-a h-a b-s-b-b t-o-e f-f-Gilroy`}
         Style={` ${Style}`}
-      >
-
-
-       
-       
+      >       
         {title && (
           <h1
             className={` ${titleclassName} h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy d-i `} 

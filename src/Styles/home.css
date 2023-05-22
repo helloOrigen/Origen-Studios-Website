@@ -1,11 +1,21 @@
-ul{
-    display: none;
-  }
-  
+
   input:checked  ~ ul{
     display:block;
     
   }
   input {
     display: none;
+    
+  }
+
+ 
+
+  ul {
+ position: relative;
+ display: flex;
+  }
+  ul li {
+    list-style: none;
+    padding: 10px 20px;
+   
   }

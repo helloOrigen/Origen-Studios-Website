@@ -24,6 +24,7 @@ import Promo1 from "../assets/images/promo/promo-1.jpg";
 import Promo2 from "../assets/images/promo/promo-2.jpg";
 import Behance from "../assets/images/promo/behance.jpg";
 import OSJobs from "../assets/images/promo/os-jobs.jpg";
+import PromoHome from "../assets/images/compressed/promo-home.jpg";
 
 
 import "../Styles/seed.css";
@@ -38,356 +39,61 @@ export default function Home(props) {
   });
 
   return (
-    <Fragment Fragment>
-      <div className="w-100 h-100 h-pr-fl-ma b-s-b-b p-t-10px p-b-10px of-scroll of-y-none">
-        <div
-          className="m-d-n w-50 h-100 h-pr-fl-ma b-s-b-b p-r-10px "
-          Style="z-index: 2000;"
-        >
-          <div className="w-90 bg-black-node-o-70 blur ns-br-r-1 of-h p-20px h-a h-pr-fl-ma r-v-c b-s-b-b">
-            <div
-              id="app"
-              className="app w-100  f-f-Gilroy c-white h-pr-fl-ma h-a p-l-10px b-s-b-b m-a"
-              Style="font-size: 50px; line-height: 55px;"
-            >
-              <Typewriter
-                className="homewriter"
-                onInit={(typewriter) => {
-                  typewriter
-                    .typeString(
-                      'Le damos <br/>la bienvenida a... <br/><strong>OrigenStudios<span Style="color: #e1a54b;">.</span>com</strong>'
-                    )
-                    .pauseFor(200)
-                    .deleteAll(10)
-                    .typeString("Somos la primer<br />agencia del Uruguay...")
-                    .pauseFor(200)
-                    .deleteAll(10)
-                    .typeString(
-                      'en utilizar<br /> <span Style="color: #27ae60;">Inteligencia Artificial</span>'
-                    )
-                    .pauseFor(200)
-                    .deleteAll(10)
-                    .typeString(
-                      'para potenciar sus <br /> <span Style="color: #27ae60;">Recursos</span>'
-                    )
-                    .pauseFor(200)
-                    .deleteChars(8)
-                    .typeString('<span Style="color: #27ae60;">Ventas</span>')
-                    .pauseFor(200)
-                    .deleteChars(6)
-                    .typeString(
-                      '<span Style="color: #27ae60;">Oportunidades</span>'
-                    )
-                    .pauseFor(200)
-                    .deleteAll(10)
-                    .typeString("Nos especializamos en: <br />")
-                    .typeString(
-                      '<span Style="color: #27ae60;">Diseño gráfico</span>'
-                    )
-                    .pauseFor(200)
-                    .deleteChars(14)
-                    .typeString(
-                      '<span Style="color: #27ae60;">Marketing Digital</span>'
-                    )
-                    .pauseFor(200)
-                    .deleteChars(17)
-                    .typeString(
-                      '<span Style="color: #27ae60;">Desarrollo Web/App</span>'
-                    )
-                    .pauseFor(200)
-                    .deleteChars(18)
-                    .typeString(
-                      '<span Style="color: #27ae60;">Asesoría Legal</span>'
-                    )
-                    .pauseFor(200)
-                    .deleteChars(5)
-                    .typeString(
-                      '<span Style="color: #27ae60;">financiera</span>'
-                    )
-                    .deleteChars(10)
-                    .pauseFor(200)
-                    .typeString('<span Style="color: #27ae60;">de marca</span>')
-                    .pauseFor(200)
-                    .deleteAll(10)
-                    .typeString(
-                      'Le damos <br/>la bienvenida a... <br/><strong>OrigenStudios<span Style="color: #e1a54b;">.</span>com</strong>'
-                    )
+    <Fragment>
+      <div className="w-100 h-100 h-pr-fl-ma b-s-b-b  of-x-auto f-f-Gilroy c-white">
 
-                    .start();
-                }}
-                options={{ delay: 60 }}
-              />
-            </div>
-            <br />
+  
 
-            <div className="w-100 h-a h-pr-fl-ma m-b-20px ">
-              <div className="w-100 h-pr-fl-ma m-b-20px h-20px p-t-20px p-r-20px">
-                <div className="w-100 h-pr-fl-ma m-l-10px m-r-10px h-pr-fl-ma m-a b-s-b-b divider "></div>
-              </div>
 
-              <div className="w-50 h-a h-pr-fl-ma a-i-c">
-                <ContentBox
-                  className="h-pr-fl-ma w-a h-a p-l-10px m-t-10px "
-                  subtitle={"¡Agende una reunión hoy mismo!"}
-                />
-              </div>
-              <div className="w-50 h-a h-pr-fl-ma p-r-10px ">
-                <div className="w-a h-a h-pr-fr-ma p-l-10px ">
-                  <Btn
-                    className=""
-                    text="Coordinar reunión &nbsp;"
-                    enlace={
-                      "https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
-                    }
-                  >
-                    <div className="w-25px h-25px m-5px h-pr-fl-ma">
-                      <img
-                        src={MessageWriting}
-                        className="w-100 h-100 h-pr-fl-ma"
-                        Style="stroke: #ffffff !important;"
-                        alt="Coordinar"
-                      />
-                    </div>
-                  </Btn>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="m-w-100 w-50 h-100 b-s-b-b h-pr-fl-ma m-b-20px ">
-          <div className="w-100 h-100 h-pr-fl-ma  b-s-b-b ">
-            <Swiper
-              direction={"horizontal"}
-              centeredSlides={true}
-              autoplay={{
-                delay: 5500,
-                disableOnInteraction: true,
-              }}
-              keyboard={{
-                enabled: true,
-                onlyInViewport: false,
-              }}
-              pagination={{
-                clickable: true,
-              }}
-              modules={[Autoplay, Keyboard, Pagination]}
-              className="mySwiper h-100 w-100 h-pr-fl-ma b-s-b-b"
-            >
-              <SwiperSlide className="d-n m-d-b h-pr-fl-ma b-s-b-b">
-                <div className="w-100 h-100 h-pr-fl-ma  b-s-b-b  b-s-b-b">
-                  <div className="w-100 h-a h-pr-fl-ma r-v-c bg-black-node-o-70 blur ns-br-r-1 p-t-40px p-b-40px">
-                  <span
-                    className="w-100 f-f-Gilroy c-white h-pr-fl-ma  h-a p-l-10px b-s-b-b m-a t-a-c"
-                    Style="font-size: 50px; line-height: 55px;"
-                  >
-                    <b>¡Le damos la bienvenida!</b>
-               
-                  </span>
-                  <span
-                    className="w-100 h-a f-f-Gilroy c-white h-pr-fl-ma  m-t-10px p-l-10px b-s-b-b m-a t-a-c"
-                    Style="font-size: 20px; line-height: 25px;"
-                  >
-                    <b>
-                      Se encuentra en el origen <br /> de su nueva marca.
-                    </b>
-                  </span>
+      <div className="w-50 m-w-100 h-100 h-pr-fl-ma  b-s-b-b"> 
+      <div className="centered  ">
+      <span className="ns-f-s-big f-f-Gilroy  h-pr-fl-ma">Creamos todo tu</span>
+      <span className="ns-f-s-big f-f-Gilroy f-w-bo h-pr-fl-ma ns-c-e m-b-10px">ecosistema digital</span>
 
-                  <div className="w-100 h-a h-pr-fl-ma  ">
-                    <div className="w-100 h-a h-pr-fl-ma a-i-c">
-                      <ContentBox
-                        className="h-pr-fl-ma w-100 h-a p-l-10px m-t-10px t-a-c "
-                        subtitle={"¡Comencemos a producir su marca hoy mismo!"}
-                      />
-                    </div>
-                    <div className="w-100 h-a h-pr-fl-ma ">
-                      <div className="w-a h-a h-pr-fl-ma  t-a-c r-h-c">
-                        <Btn
-                        textclassName="p-r-10px"
-                          text="Coordinar reunión"
-                          enlace={
-                            "https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
-                          }
-                        >
-                          <div className="w-25px h-25px m-5px h-pr-fl-ma">
-                            <img
-                              src={MessageWriting}
-                              className="w-100 h-100 h-pr-fl-ma "
-                              Style="stroke: #ffffff !important; "
-                              alt="Coordinar"
-                            />
-                          </div>
-                        </Btn>
-                      </div>
-                    </div>
-                    <div className="w-100 h-pr-fl-ma h-20px  m-t-20px ">
-                      <div className="w-80 h-pr-fl-ma m-l-10px m-r-10px h-pr-fl-ma m-a b-s-b-b divider r-h-c"></div>
-                    </div>
-                    <div className="w-100 h-a h-pr-fl-ma ">
-                      <span
-                        className="h-pr-fl-ma w-90 r-h-c h-a  m-t-10px t-a-c m-t-20px default f-f-Gilroy ns-br-r-1 p-10px" Style="font-size: 15px;">
-                       <i>Para una una experiencia completa, <br /> recomendamos el acceso desde un equipo PC </i>
-                        </span>
-                    </div>
-                  </div>
-                  </div>
-                </div>
-              </SwiperSlide>
+      <div className="w-100 h-pr-fl-ma  b-s-b-b flexbox f-w-w ">
+        <span className="m-5px p-5px ns-f-s-normal f-w-bo bg-black">LOGOTIPOS</span>
+        <span className="m-5px p-5px ns-f-s-normal f-w-bo bg-black">IDENTIDAD PARA REDES</span>
+        <span className="m-5px p-5px ns-f-s-normal f-w-bo bg-black">POST PARA REDES</span>
+        <span className="m-5px p-5px ns-f-s-normal f-w-bo bg-black">EMAILS PROMOCIONALES</span>
+        <span className="m-5px p-5px ns-f-s-normal f-w-bo bg-black">CONTENIDO PARA VIDEOS</span>
+        <span className="m-5px p-5px ns-f-s-normal f-w-bo bg-black">REDACCIÓN</span>
+        <span className="m-5px p-5px ns-f-s-normal f-w-bo bg-black">TRADUCCIÓN</span>
+      </div>
+      <div className="w-a h-pr-fl-ma p-10px m-t-5px flexbox">
+      <Btn text="Enviar Email" enlace="mailto:hello@origenstudios.com"className="m-r-10px p-10px  ns-f-s-medium ns-bg-skyblue f-w-bo"></Btn>
+      <Btn text="Agendar reunión" enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/" className="m-r-10px p-10px ns-f-s-medium ns-bg-violet f-w-bo"></Btn>
+   <Btn text="Contacto Whatsapp" enlace="https://wa.me/message/QEHFJE3NEAVTE1" className="m-r-10px p-10px ns-f-s-medium ns-bg-green f-w-bo"></Btn>
 
-              <SwiperSlide className="h-pr-fl-ma b-s-b-b p-5px ">
-                <Link to="/promo">
-                  <div className="w-a h-a h-pr-fl-ma ns-br-r-1 r-v-c of-h">
-                  <img
-                    src={Promo1}
-                    Style="Object-fit: contain; "
-                    alt=""
-                    className="w-100 h-100 h-pr-fl-ma  b-s-b-b "
-                  /></div>
-                </Link>
-              </SwiperSlide>
+      </div>
+      </div>
+      </div>
 
-              <SwiperSlide className="m-d-n d-b h-pr-fl-ma b-s-b-b p-5px">
-                <div className="w-100 h-100 h-pr-fl-ma p-20px bg-black-node-o-70 blur ns-br-r-1">
-                  <div className="w-100 h-a h-pr-fl-ma  r-v-c">
-                    <div className="w-100 h-a h-pr-fl-ma ">
-                      <img
-                        alt="MultimediaAssets"
-                        src={MultimediaAssets}
-                        className="w-and-h-250px r-h-c h-pr-fl-ma"
-                      />{" "}
-                    </div>
-                    <div className="w-100 h-a h-pr-fl-ma ">
-                      <ContentBox
-                        className="t-a-c m-b-20px"
-                        title={"Anuncie su empresa aquí"}
-                        subtitle={
-                          "Conozca como poner sus anuncios en nuestra web."
-                        }
-                      />{" "}
-                    </div>
-                    <div className="w-100 h-a h-pr-fl-ma">
-                      <Link to="/sponsors">
-                        <Btn
-                          className="t-a-c f-w-bo p-r-20px p-l-20px p-10px "
-                          btnLink="sponsors"
-                          text="Ver plan de anuncios"
-                        >
-                          {" "}
-                        </Btn>
-                      </Link>{" "}
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
 
-              <SwiperSlide className="h-pr-fl-ma b-s-b-b p-5px ">
-                <Link to="mailto:hello@origenstudios.com">
-                  <div className="w-a h-a h-pr-fl-ma ns-br-r-1 r-v-c  of-h">
-                  <img
-                    src={Promo2}
-                    Style="Object-fit: contain; "
-                    alt=""
-                    className="w-100 h-100 h-pr-fl-ma  b-s-b-b "
-                  /></div>
-                </Link>
-              </SwiperSlide>
 
-              <SwiperSlide className="h-pr-fl-ma b-s-b-b p-5px ">
-                <Link to="https://behance.net/origenstudios">
-                  <div className="w-a h-a h-pr-fl-ma ns-br-r-1 r-v-c  of-h">
-                  <img
-                    src={Behance}
-                    Style="Object-fit: contain; "
-                    alt=""
-                    className="w-100 h-100 h-pr-fl-ma  b-s-b-b "
-                  /></div>
-                </Link>
-              </SwiperSlide>
-              <SwiperSlide className="h-pr-fl-ma b-s-b-b p-5px ">
-                <Link to="https://OrigenStudios.com/Jobs">
-                  <div className="w-a h-a h-pr-fl-ma ns-br-r-1 r-v-c  of-h">
-                  <img
-                    src={OSJobs}
-                    Style="Object-fit: contain; "
-                    alt=""
-                    className="w-100 h-100 h-pr-fl-ma  b-s-b-b "
-                  /></div>
-                </Link>
-              </SwiperSlide>
-            </Swiper>
-          </div>
-        </div>
 
-        <div className="w-100 h-a h-pr-fl-ma b-s-b-b p-t-10px   p-20px of-a m-b-10px">
-          <div className="w-100 h-a h-pr-fl-ma t-a-c">
-            <div className="w-100 h-a h-pr-fl-ma p-20px f-w-bo t-a-c  f-f-Gilroy">
-              <span className="UnderLineText" Style="font-size: 50px;">
-                ¿Cómo trabajamos?
-              </span>
-            </div>
 
-            <div className="w-100 h-a h-pr-fl-ma">
-              <CardContainer>
-                <Card
-                  title="Conversamos"
-                  subtitle="Escuchamos sus necesidades y nos ponemos al día."
-                  icon={` ${MessageWriting} `}
-                />
-                <Card
-                  title="Estudiamos su caso"
-                  subtitle="Completamos el briefing y creamos estratégias."
-                  icon={` ${ClipboardNotes} `}
-                />
-                <Card
-                  title="Coordinamos presupuestos"
-                  subtitle="Reunimos todo lo necesario y generamos un presupuesto."
-                  icon={` ${Wallet} `}
-                />
 
-                <Card
-                  title="Pasamos a la acción"
-                  subtitle="Hacemos todo lo necesario y le informamos en cada proceso."
-                  icon={` ${CheckCircle} `}
-                />
-              </CardContainer>
-            </div>
-          </div>
-        </div>
-
-        <div className="w-100 h-a h-pr-fl-ma b-s-b-b p-t-10px p-10px of-a">
-          <div className="w-100 h-a h-pr-fl-ma t-a-c">
-            <div className="w-100 h-a h-pr-fl-ma p-20px f-w-bo t-a-c  f-f-Gilroy">
-              <div className="UnderLineText" Style="font-size: 50px;">
-                Comuníquese <span className="d-n m-d-b">    </span> con nosotros
-              </div>
-            </div>
-
-            <div className="w-100 h-a h-pr-fl-ma d-i-f m-d-b">
-              <div className="w-60 h-a m-w-100 h-pr-fl-ma ">
-                <img
-                  src={OSChat}
-                  Style="Object-fit: contain; "
-                  alt=""
-                  className="w-100 h-100 h-pr-fl-ma  b-s-b-b"
-                />
-              </div>
-              <div className="w-40 h-a m-w-100 h-pr-fl-ma  ">
-                <div className=" w-100 h-a h-pr-fl-ma  bg-black-node-o-70 blur ns-br-r-1 of-h">
-                  <div className="w-100 h-a h-pr-fl-ma  ">
-                    <div className="w-100 h-a h-pr-fl-ma f-f-Gilroy t-a-c ns-f-s-big  m-ns-f-s-big m-l-h-30 f-w-bo p-t-20px p-10px" >
-                      Contacto 
-                    </div>
-                    <span className="w-100 h-a h-pr-fl-ma f-f-Gilroy t-a-c ns-f-s-normal p-20px ">
-                      Coordine una reunión, envienos sus comentarios &
-                      sugerencias o comuníquese directamente con nosotros por
-                      Whatsapp!
-                    </span>
-                  </div>
-                  <ContactForm />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div className="w-50 m-w-100 h-100 h-pr-fl-ma  b-s-b-b"> 
+      <div className="w-80 m-w-100 centered bg-black b-s-b-b p-20px">
+      <span className="w-100 h-pr-fl-ma ns-f-s-medium f-f-Gilroy f-w-bo m-b-20px">Descarga nuestro documento al que actualizamos periodicamente para que veas todo lo que podemos hacer por ti!</span>
+      <div className="w-100 h-pr-fl-ma  r-h-c"> <img
+                src={PromoHome}
+                alt=""
+                className="w-100  h-pr-fl-ma "
+                Style="object-fit: cover; border: #ffc666 solid 2px;"
+              /></div>
+              <div className="w-100 h-pr-fl-ma  p-10px m-t-5px">
+      <Btn text="Solicitar preview V 1.0.0" enlace="https://wa.me/message/QEHFJE3NEAVTE1" className="p-10px ns-f-s-medium ns-bg-e f-w-bo"></Btn>
+      </div>
+      </div>
+    
+      </div>
+        
+        
+        
+        
+        
+       
       </div>
     </Fragment>
   );

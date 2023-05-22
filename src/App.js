@@ -11,6 +11,7 @@ import Notifier from './components/notifier';
 import Background2 from './assets/images/compressed/background-2.jpg';
 import './Styles/seed.css';
 import './Styles/home.css';
+import './Styles/firefly.css';
 
 // Vistas
 import * as Views from "./Views/index.jsx";
@@ -31,10 +32,9 @@ function App() {
 
     <Fragment>
  
-      <div className="h-pr-fl-ma w-100 h-100vh of-y-n of-h">
+       <div className="h-pr-fl-ma w-100 h-100vh of-y-n of-h">
         
-        <div
-          className=" l-0px r-0px t-0px b-0px m-a "/*blurbganimation */
+      <div className=" l-0px r-0px t-0px b-0px m-a "
           style={{
             backgroundImage: `url(${Background2})`,
             backgroundPosition: "center",
@@ -45,7 +45,23 @@ function App() {
             width: "100vw",
             height: "100vh",
           }}
-        ></div>
+        >
+          <div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+          </div> 
        
         {/* FullHeight Container*/}
 

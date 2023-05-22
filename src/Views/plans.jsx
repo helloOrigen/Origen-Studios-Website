@@ -44,6 +44,7 @@ const Tabs = ({ children }) => {
               padding: "0.5rem 1rem",
               cursor: "pointer",
               fontFamily: "Gilroy",
+              fontWeight: "bold",
               fontSize: index === activeTab ? "15px" : "12px",
               height: "100%",
             }}
