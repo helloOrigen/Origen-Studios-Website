@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Careers = () => {
   return (
   <Fragment>
-    <div className="w-100 h-100 h-pr-fl-ma centered b-s-b-b  ">
+    <div className="w-100 h-100 h-pr-fl-ma centered b-s-b-b">
     <div className="w-100 h-a h-pr-fl-ma r-v-c">
  <div className="f-f-Gilroy t-a-c w-100 h-pr-fl-ma" Style="font-size: 180px; line-height: 185px ; font-weight: bold;">404</div>
  <div className="f-f-Gilroy t-a-c w-100 h-pr-fl-ma ns-c-e m-b-20px" Style="font-size: 40px; line-height: 45px ; font-weight: bold;">Pagina no encontrada</div>

@@ -1,11 +1,5 @@
 import React, { Fragment, useState  } from "react";
 
-
-import { Routes, Route, Link } from 'react-router-dom';
-
-import Submenu from "../components/submenu";
-import Submenubtn from "../components/submenubtn";
-
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -14,18 +8,14 @@ import Posts from "./posts";
 import Identity from "./identity";
 import Campaign from "./campaign";
 
-
-
-
-
-
 const Tabs = ({ children }) => {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <div className="w-100 h-100 h-pr-fl-ma  " >
+    <div className="w-100 h-100 b-s-b-b h-pr-fl-ma" >
+      <div className="w-90 h-pr-fl-ma h-100 b-s-b-b bg-red r-h-c">
  
-      <div className="w-100 h-90 h-pr-fl-ma  of-auto">
+      <div className="w-100 h-90 h-pr-fl-ma of-auto">
         {children.map((child, index) => (
           <div key={index} style={{ display: index === activeTab ? "block" : "none" }}>
             {child}
@@ -33,7 +23,7 @@ const Tabs = ({ children }) => {
         ))}
       </div>
 
-      <div className=" bg-blur w-100 h-10 h-pr-fl-ma" Style={{ display: "flex" }}>
+      <div className="w-100 h-10 h-pr-fl-ma" Style={{ display: "flex" }}>
         {children.map((child, index) => (
           <button
             key={index}
@@ -55,17 +45,17 @@ const Tabs = ({ children }) => {
           </button>
         ))}
       </div>
+      </div>
     </div>
+    
   );
 };
 
 const posts = () => <Posts/>;
-
 const identity = () => <Identity/>;
-
 const campaign = () => <Campaign/>;
-
 const Plans = () => (
+  
   <Tabs>
     <div label="Posts">
       <Posts />
@@ -78,6 +68,7 @@ const Plans = () => (
     </div>
     
   </Tabs>
+ 
 );
 
 export default Plans; 

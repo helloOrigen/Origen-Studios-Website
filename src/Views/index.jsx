@@ -16,6 +16,6 @@ export {default as Identity } from './identity';
 export {default as Campaign } from './campaign';
 export {default as Page404 } from './page404';
 export {default as Process } from './process';
-export {default as Gallery } from './gallery';
+
 export {default as Promo } from './promo';
 export {default as Jobs } from './jobs';

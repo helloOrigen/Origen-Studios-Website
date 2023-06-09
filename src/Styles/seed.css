@@ -11,7 +11,118 @@ Seed.css cortesía de:
 
 /* Experimental NODESYSTEMS 2023 */
 /* Mobile menu */
- 
+:root {
+  --current-color-emphasis: #ffc666;
+}
+.ns-b-c-e-h{
+  border-color: #202020;
+  transition: 0.3s ease-in-out;
+
+}
+.ns-b-c-e-h:hover{
+  border-color: #ffc666;
+}
+.d-n-on-h{
+  display: visible;
+  transition: 0.3s ease-in-out;
+}
+.tag {
+  width: auto;
+  height: auto;
+  position: relative;
+  margin: auto;
+  float: left;
+  border-radius: 3px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 5px;
+  line-height: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Gilroy;
+  background: black;
+  border: 1px solid rgba(100,100,100, 0.2);
+}
+.nbsc{
+  height: calc((100% - 70px) / 2) ;
+  box-sizing: border-box;
+}
+.p-a {
+  position: absolute;
+}
+.p-r {
+  position: relative;
+}
+.ns-fill-e {
+  fill: var(--current-color-emphasis);
+  color: var(--current-color-emphasis);
+}
+
+.d-n-on-h{
+  display: visible;
+}
+@media only screen and (max-width: 768px) {
+ .m-p-f{
+    position: fixed !important;
+  }
+
+ }
+.bg-d-t{
+  /*background default transparent*/
+  /*background: rgba(0, 0, 0, 0.5);*/
+  background: #0c0e0f88;
+  border-radius: 8px;
+  border: 1px solid rgba(25,25,25 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.bg-d{
+  /*background default transparent*/
+  /*background: rgba(0, 0, 0, 0.8);*/
+  background: #0b0b0b;
+  border-radius: 4px;
+  border: 1px solid rgba(100,100,100, 0.2);
+  backdrop-filter: blur(10px);
+}
+.t-5 {
+  margin-top: 5vh;
+}
+.t-10 {
+  margin-top: 10vh;
+}
+
+div .d-n-on-h-container:hover .d-n-on-h {
+  display: none;
+}
+
+@-webkit-keyframes fadeIn {
+  from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+    to { opacity: 1; }
+}
+.d-v-on-h{
+  display: none;
+  transition: 1s ease-in-out ;
+
+}
+
+
+div.d-v-on-h-container:hover .d-v-on-h {
+  display: block ;
+  -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s; 
+
+}
+
+
+.d-v-on-h:hover {
+  display: block !important;
+  
+}
 
 /* MobileMenu Btn Center */
 .menu-wrapper {
@@ -59,8 +170,8 @@ Seed.css cortesía de:
     box-shadow: inset 0 -0.5em 0 #27ae60;
 }
 .menu-container{
-
-  z-index: 92342234;
+  position: fixed !important;
+  z-index: 92342234 !important;
  
 }
 
@@ -156,10 +267,15 @@ animation: coinanimationsponsor 2s ease-in-out 1s both ;
   cursor: pointer;
 
 }
+
+.card.o-s-e:hover{
+  transform: scale(1.2);
+  z-index: 90;
+}
 .card-mosaic{
   display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+  gap: 0.5rem;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
   grid-auto-rows: auto;
 }
 
@@ -201,6 +317,27 @@ animation: coinanimationsponsor 2s ease-in-out 1s both ;
 .card.circle{
   border-radius: 50%;
 }
+
+/*tablet*/
+
+@media(max-width: 1200px){
+
+  .tab-d-n{
+    display: none  !important;
+  }
+  .tab-d-b{
+    display: block !important;
+  }
+
+  .tab-w-100{
+    width: 100% !important;
+  }
+
+
+  }
+
+
+
 
 @media(min-width: 768px){
     .card-tall{
@@ -244,7 +381,7 @@ animation: coinanimationsponsor 2s ease-in-out 1s both ;
  
   right: 0px;
   margin: auto;
-  bottom: 90px;
+  bottom: 0px;
   background: rgba(0,150,255,0.2);
   backdrop-filter: blur(10px);
 
@@ -4349,7 +4486,9 @@ i.success {
 .w-inh {
   width: inherit;
 }
-
+.w-a {
+  width: auto;
+}
 .w-auto {
   width: auto;
 }
@@ -5943,7 +6082,9 @@ i.success {
 .h-inh {
   height: inherit;
 }
-
+.h-a {
+  height: auto;
+}
 .h-auto {
   height: auto;
 }
@@ -6479,7 +6620,7 @@ i.success {
 }
 
 .h-100vh {
-  height: 100vh;
+  height: 100Svh;
 }
 .m-t{
   margin-top:115px;
@@ -11651,7 +11792,7 @@ i.success {
   overflow: none;
 }
 .of-none {
-  overflow: none;
+  overflow: none !important;
 }
 
 .of-visible {
@@ -11855,6 +11996,8 @@ i.success {
 ██       ██████  ███████ ██    ██    ██  ██████  ██   ████
 
 */
+
+
 .pr {
   position: relative;
 }
@@ -11885,6 +12028,7 @@ i.success {
   ██ █████ ▀▀▀ ██ ▀▀▀ █▀ ▀███ ███▀ ▀██ ▀▀▀ ██ ██▄ ██
   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
   */
+
   .m-pr {
     position: relative;
   }
@@ -12533,14 +12677,14 @@ i.success {
 }
   .ns-f-s-text {
   font-size: 15px;
-  line-height: 20px;
-}
-  .ns-f-s-nano {
-  font-size: 10px;
   line-height: 15px;
 }
-  .ns-f-s-small {
+  .ns-f-s-nano {
   font-size: 8px;
+  line-height: 10px;
+}
+  .ns-f-s-small {
+  font-size: 10px;
   line-height: 10px;
 }
   .ns-f-s-normal {
@@ -13031,6 +13175,10 @@ i.success {
 background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,91,255,0.9976584383753502) 49%, rgba(0,0,0,0) 100%);
 }
 
+.bg-g-2{
+background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0) 100%);
+}
 
 /* Sintax and specials background */
 .bg-inh {
@@ -13248,39 +13396,39 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,91,255,0.997658438375
 
 /* =================-------| BACKGROUND BLACK NODE  |-------================= */
 .bg-black-node-o-10 {
-  background-color: rgba(18, 18, 18, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .bg-black-node-o-20 {
-  background-color: rgba(18, 18, 18, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .bg-black-node-o-30 {
-  background-color: rgba(18, 18, 18, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .bg-black-node-o-40 {
-  background-color: rgba(18, 18, 18, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .bg-black-node-o-50 {
-  background-color: rgba(18, 18, 18, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .bg-black-node-o-60 {
-  background-color: rgba(18, 18, 18, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .bg-black-node-o-70 {
-  background-color: rgba(18, 18, 18, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .bg-black-node-o-80 {
-  background-color: rgba(18, 18, 18, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .bg-black-node-o-90 {
-  background-color: rgba(18, 18, 18, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 /* =================-------| BACKGROUND WHITE NODE  |-------================= */
@@ -13933,6 +14081,34 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,91,255,0.997658438375
 }
 
 /* =================-------| BORDER COLORS NODE |-------================= */
+/* emphasis */
+.ns-br-c-e {
+  border-color: var(--current-color-emphasis);
+}
+
+.ns-br-t-c-e {
+  border-top-color: var(--current-color-emphasis);
+}
+
+.ns-br-r-c-e {
+  border-right-color: var(--current-color-emphasis);
+}
+
+.ns-br-b-c-e {
+  border-bottom-color: var(--current-color-emphasis);
+}
+
+.ns-br-l-c-e {
+  border-left-color: var(--current-color-emphasis);
+}
+
+
+
+
+
+
+
+/*------------------------------ */
 .ns-br-c-white {
   border-color: #fefefe;
 }

@@ -24,11 +24,10 @@ const Footer = ({ className }) => {
   
   return (
     <Fragment>
-      <div
-        className={` ${className} h-pr-fl-ma w-80  h-100  b-s-b-b f-f-Gilroy  `}
+      <div 
+        className={` ${className} h-pr-fl-ma w-80  h-100 b-s-b-b f-f-Gilroy `}
       >
         {/* Footer */}
-
         <div
           className="w-100 r-h-c h-100 h-pr-fl-ma b-s-b-b "
           Style="font-size: 10px; color: white; line-height: 15px; "

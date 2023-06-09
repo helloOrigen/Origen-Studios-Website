@@ -22,17 +22,12 @@ const MobileMenu = () => {
       id="menu"
       checked={menuOpen}
       onChange={toggleMenu}
+   
     />
-    <div className={` menu-container  ${menuOpen ? "d-b" : "d-n"}`}  Style="position: fixed; left:0px; right:0px; top: 0px; bottom: 0px; z-index: 99998;">
-        <ul
-          className="w-100 h-100 h-pr-fl-ma  d-b "
-         
-        >
-          <div
-            className={`d-n m-d-b of-auto  bg-linear-b-t-menu`}
-            Style="position: fixed; left:0px; right:0px; top: 0px; bottom: 0px; z-index: 99998;"
-          >
-            <div className="w-100 h-a r-v-b   h-pr-fl-ma">
+    
+    <div className={` menu-container  ${menuOpen ? "d-b" : "d-n"}  p-20px `}  Style="position: fixed; left:0px; right:0px; bottom: 12%;  margin: auto;" >
+                
+            <div className="w-100  p-20px bg-d h-pr-fl-ma">
               <Link
                 to="/team"
                 className="h-e selected nav-link"
@@ -135,7 +130,7 @@ const MobileMenu = () => {
                 onClick={handleLinkClick}
               >
                 <div className="w-100 h-a h-pr-fl-ma p-b-10px p-t-10px ">
-                  <div className="m-t-20px m-b-30px w-100 h-100px h-pr-fl-ma t-a-c b-s-b-b hover-underline-animation ">
+                  <div className="m-t-20px w-100 h-100px h-pr-fl-ma t-a-c b-s-b-b hover-underline-animation ">
                     <div className="h-pr-fl-ma w-a h-a centered ">
                       <img
                         src={BannerMenu}
@@ -148,8 +143,8 @@ const MobileMenu = () => {
                 </div>{" "}
               </Link>
             </div>
-          </div>
-        </ul>
+          
+      
       </div>
     </Fragment>
   );

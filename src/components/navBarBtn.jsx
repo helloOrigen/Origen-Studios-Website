@@ -13,35 +13,41 @@ export default function navBarBtn(props) {
   return (
     <>
       <div
-        className={` ${className} h-pr-fl-ma w-a h-100  h-e c-p  b-s-b-b `}
+        className={` ${className}   d-v-on-h-container  h-e-style hover-underline-animation w-auto h-pr-fl-ma h-100 c-p  b-s-b-b`} 
       >
-        <div className="w-a h-a noselect h-pr-fl-ma flexbox r-v-c f-w-n-w">
-       
+         
+        <div className="w-a h-100  p-l-5px p-r-5px noselect h-pr-fl-ma  flexbox f-w-n-w a-i-c">
+
         <div
-          className="t-a-c f-f-Gilroy noselect c-white h-e-style hover-underline-animation"
+          className="w-a h-a noselect c-white  f-f-Gilroy flexbox r-h-c f-w-n-w "
           Style="font-size: 15px; line-height: 20px;"
         >
-          <a href={`${enlace}`} className="h-e c-p">
-          { Linkedin && (  <img alt="Linkedin" className="w-40px h-40px h-pr-fl-ma p-5px"
+          <a href={`${enlace}`} className="noselect h-auto">
+          { Linkedin && (  <img alt="Linkedin" className="w-40px h-40px h-pr-fl-ma p-2px"
              src={LinkedinIcon} /> )}
-              { Instagram && (  <img alt="Instagram" className="w-40px h-40px h-pr-fl-ma p-5px"
+              { Instagram && (  <img alt="Instagram" className="w-40px h-40px h-pr-fl-ma p-2px"
              src={InstagramIcon} /> )}
-              { Twitter && (  <img alt="Twitter" className="w-40px h-40px h-pr-fl-ma p-5px"
+              { Twitter && (  <img alt="Twitter" className="w-40px h-40px h-pr-fl-ma p-2px"
              src={TwitterIcon} /> )}
-              { Facebook && (  <img alt="Facebook" className="w-40px h-40px h-pr-fl-ma p-5px"
+              { Facebook && (  <img alt="Facebook" className="w-40px h-40px h-pr-fl-ma p-2px"
              src={FacebookIcon} /> )}
-              { Behance && (  <img alt="Behance" className="w-40px h-40px h-pr-fl-ma p-5px"
+              { Behance && (  <img alt="Behance" className="w-40px h-40px h-pr-fl-ma p-2px"
              src={BehanceIcon} /> )}
-             { Whatsapp && (  <img alt="Whatsapp" className="w-40px h-40px h-pr-fl-ma p-5px"
+             { Whatsapp && (  <img alt="Whatsapp" className="w-40px h-40px h-pr-fl-ma p-2px"
              src={WhatsappIcon} /> )}
              {text}
-            {children}
+        
             
           </a>
+          {news && ( <div className="w-auto h-15px noselect m-l-5px m-t-4px p-l-5px p-r-5px p-t-3px h-pr-fl-ma f-f-Gilroy c-white  ns-f-s-small ns-bg-e f-w-bo ghost">NUEVO</div> )}
         </div>
-        {news && ( <div className="w-a h-15px noselect m-l-5px m-t-4px p-l-5px p-r-5px p-t-3px h-pr-fl-ma f-f-Gilroy c-white  ns-f-s-small ns-bg-e f-w-bo ghost">NUEVO</div> )}
+     
+        
         </div>
+        <div className="w-auto max-w-250px bg-d h-auto pf d-v-on-h menu-container m-a  t-70px of-h b-s-b-b">{children}</div>
       </div>
+
+   
     </>
   );
 }

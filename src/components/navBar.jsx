@@ -2,43 +2,83 @@ import { React, Fragment } from "react";
 import { Link } from "react-router-dom";
 import NavBarLogo from "../components/navBarLogo";
 import NavBarBtn from "../components/navBarBtn";
+import NavSubItem from "../components/NavSubItem";
+import Btn from "../components/btn";
+
 import "../Styles/home.css";
-import BtnModal from "../components/btnModal";
 
 
 const navBar = () => {
+  
   return (
     <Fragment>
-      <div className="w-90 h-100 r-h-c h-pr-fl-ma  of-h">
+         {/* LOGO CENTRAL */}
+
+         <div className="w-a p-a l-0px r-0px m-r-0px m-r-0px m-auto w-200px h-80px  b-s-b-b" Style="z-index: 30;">
         <Link to="/">
-          <NavBarLogo right />
+          <NavBarLogo   />
         </Link>
+        </div>
+      <div className="w-90 h-100 r-h-c h-pr-fl-ma of-n" >
+        
+      <div className="w-50 h-pr-fl-ma r-v-c f-w-n-w h-70px tab-d-n ">
         <Link to="/team">
-          <NavBarBtn className="p-10px m-d-n noselect" text={"Nosotros"}></NavBarBtn>
+          <NavBarBtn className="m-d-n noselect" text={"Nosotros"}>
+            <NavSubItem text="Hola" enlace=""></NavSubItem>
+            <NavSubItem text="Holaadasdsada" enlace=""></NavSubItem>
+            <NavSubItem text="Hola" enlace=""></NavSubItem>
+            <NavSubItem text="Hola" enlace=""></NavSubItem>
+            <NavSubItem text="Hola" enlace=""></NavSubItem>
+          </NavBarBtn>
         </Link>
         
-        <Link to="/services">
+        <Link  to="/services">
            
-          <NavBarBtn className="p-10px m-d-n noselect" text={"Servicios"}></NavBarBtn>
+          <NavBarBtn className="m-d-n noselect" text={"Servicios"}>
+          <NavSubItem text="Hola" enlace=""></NavSubItem>
+            <NavSubItem text="Holaadasdsada" enlace=""></NavSubItem>
+            <NavSubItem text="Hola" enlace=""></NavSubItem>
+            <NavSubItem text="Hola" enlace=""></NavSubItem>
+            <NavSubItem text="Hola" enlace=""></NavSubItem>
+            </NavBarBtn>
+         
         </Link>
+        <Link  to="/services">
+           
+           <NavBarBtn className="m-d-n noselect" text={"Soluciones"}>
+           <NavSubItem text="Generación IA" enlace=""></NavSubItem>
+             <NavSubItem text="Streaming & Cast" enlace=""></NavSubItem>
+             <NavSubItem text="Identidad Gráfica" enlace=""></NavSubItem>
+             <NavSubItem text="Contenido para redes" enlace=""></NavSubItem>
+             <NavSubItem text="Anuncios Publicitarios" enlace=""></NavSubItem>
+             </NavBarBtn>
+          
+         </Link>
         <Link to="/plans">
            
-          <NavBarBtn className="p-10px m-d-n noselect" text={"Planes"}></NavBarBtn>
+          <NavBarBtn className="m-d-n noselect" text={"Planes"}></NavBarBtn>
         </Link>
-        <Link to="/process"><NavBarBtn className="p-10px m-d-n noselect" text={"Procedimiento"}></NavBarBtn></Link>
-        <Link to="/gallery"><NavBarBtn className="p-10px m-d-n noselect" text={"Galería"}></NavBarBtn></Link>
+        
+        <Link to="/tools"><NavBarBtn className="m-d-n noselect" text={"Herramientas"}></NavBarBtn></Link>
     
-        <Link to="/promo"><NavBarBtn className="p-10px m-d-n noselect" text={"Promos"} news></NavBarBtn></Link>
-        <Link to="/sponsors"><NavBarBtn className="p-10px m-d-n noselect" text={"Sponsors"} news></NavBarBtn></Link>
-        <Link to="/jobs"><NavBarBtn className="p-10px m-d-n noselect" text={"Empleo"} news></NavBarBtn></Link>
+        <Link to="/promo"><NavBarBtn className="m-d-n noselect" text={"Promos"} news></NavBarBtn></Link>
+        </div>
 
-   {/* REDES SOCIALES */}
-          <NavBarBtn className="m-d-n h-pr-fr-ma noselect" Whatsapp enlace="https://wa.me/message/QEHFJE3NEAVTE1"></NavBarBtn>
-          <NavBarBtn className="m-d-n h-pr-fr-ma noselect" Linkedin enlace="https://www.linkedin.com/company/helloorigen/"></NavBarBtn>
-          <NavBarBtn className="m-d-n h-pr-fr-ma noselect" Instagram enlace="https://www.instagram.com/helloorigen"></NavBarBtn>
-          <NavBarBtn className="m-d-n h-pr-fr-ma noselect" Facebook enlace="https://www.facebook.com/helloorigen/"></NavBarBtn>
-          <NavBarBtn className="m-d-n h-pr-fr-ma noselect" Twitter enlace="https://www.twitter.com/helloorigen/"></NavBarBtn>
-          <NavBarBtn className="m-d-n h-pr-fr-ma noselect" Behance enlace="https://www.behance.net/OrigenStudios/"></NavBarBtn>
+
+
+       
+
+
+
+
+
+
+   {/* BOTON CONTACTO */}
+   <div className="w-50 m-d-n h-pr-fl-ma h-100 tab-d-n">
+    <div className="w-a h-a h-pr-fr-ma r-v-c ">
+   <Btn className="w-200px h-pr-fr-ma  p-l-20px p-r-20px p-10px  f-w-bo  br-s-solid br-c-white br-r-50px" enlace="https://wa.me/message/QEHFJE3NEAVTE1" text="Contacto"></Btn>
+   </div>
+          </div>
          {/*  <BtnModal></BtnModal> */}
       </div>
     </Fragment>

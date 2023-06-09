@@ -1,8 +1,6 @@
 import React, { Fragment } from "react";
 import "../Styles/seed.css";
 import { Link } from "react-router-dom";
-import CardContainer from "./cardcontainer";
-import Card from "./card";
 import Whatsapp from "../assets/icons/whatsapp.svg";
 import Envelope from "../assets/icons/envelope.svg";
 import Calendar from "../assets/icons/calendar.svg";

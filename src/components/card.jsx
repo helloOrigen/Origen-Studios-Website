@@ -1,14 +1,15 @@
 import React from "react";
 import "../Styles/seed.css";
-import ContentBox from "./contentBox";
 import Btn from "./btn";
 
 export default function Card(props) {
   const {
+    color,
     title,
     titleclassName,
     titleStyle,
     subtitle,
+    ContentBox,
     subtitleclassName,
     subtitleStyle,
     description,
@@ -19,7 +20,6 @@ export default function Card(props) {
     btnText,
     alt,
     type,
-    cardCategory,
     filename,
     filetype,
     filesize,
@@ -28,139 +28,125 @@ export default function Card(props) {
     icon,
     iconclassName,
     CardClassName,
-    list1,
-    list2,
-    list3,
-    list4,
-    list5,
-    list6,
-    list7,
-    list8,
-    list9,
-    list10,
-    list11,
-    list12,
-  
-
   } = props;
 
   return (
     <>
-      <div   className={` ${type} card h-e  b-s-b-b default blur ${CardClassName} ns-br-r-1 of-h`}>
-      {cardCategory && ( 
-        
-    
-          <div className="w-80  f-f-Gilroy ns-f-s-normal  bg-black t-a-c p-b-2px ">{cardCategory}
-         
-          </div>
-       ) }
-
-
+      <div
+        className={`w-a h-a h-pr-fl-ma ${type} bg-red d-n-on-h-container card h-e b-s-b-b of-h ${CardClassName} ${color} c-p  br-w-1px br-s-solid ns-b-c-e-h br-r-10px`} 
+      >
+       
         {image && (
-   <div className="w-100 h-100  b-s-b-b of-n ">
-          <img
-            src={` ${image} `}
-            alt={` ${alt} `}
-            className="w-100 h-100 h-pr-fl-ma h-e-scale "
-           Style="object-fit: cover;"
-          /> </div>
+          <div className=" w-100 h-100 card m-a b-s-b-b of-n">
+            <img
+              src={` ${image} `}
+              alt={` ${alt} `}
+              className="w-100 h-100  m-a b-s-b-b h-e-scale "
+              Style="object-fit: cover;"
+            />{" "}
+          </div>
         )}
-      
-  
-         
-             {icon && (
-                    <div className="w-100 h-150px h-pr-fl-ma ">
-   <div className="w-100 h-150px   h-pr-fl-ma b-s-b-b of-n  ">
-            
-          <img
-            src={` ${icon} `}
-            alt={` ${alt} `}
-            className={` ${iconclassName} w-100px h-100px `}
-            Style="object-fit: cover;"
-            Style="position: absolute; margin: auto; right: 0px; left:0px; top: 0px; bottom: 0px;"/> </div>
-                 </div>
-        )}
-     
 
-          {title && <span className={`w-100 h-a h-pr-fl-ma p-5px  f-f-Gilroy t-a-c ${titleclassName}`}  Style={`font-size: 25px; line-height: 25px; ${titleStyle}`}> {title}</span>}
-          {subtitle && <span className={`w-100 h-a h-pr-fl-ma p-10px t-a-c f-f-Gilroy ${subtitleclassName} ns-c-e`} Style={`font-size: 15px; line-height: 15px; ${subtitleStyle}`}> {subtitle}</span>}
-          {description && <span className="w-90  t-a-c f-f-Gilroy m-b-10px" >{description} </span>}
-          {list && <div className=" w-90 f-f-Gilroy m-b-10px ns-f-s-normal "  >  {list1 && <li  Style="display: flex; align-items: baseline;"> <span Style="margin-right: 10px;">&#8226;</span>{list1}</li>}
-          {list2 && <li  Style="display: flex; align-items: baseline;"> <span Style="margin-right: 10px;">&#8226;</span>{list2}</li>}
-           {list3 && <li  Style="display: flex; align-items: baseline;"> <span Style="margin-right: 10px;">&#8226;</span>{list3}</li>}
-           {list4 && <li  Style="display: flex; align-items: baseline;"> <span Style="margin-right: 10px;">&#8226;</span>{list4}</li>}
-           {list5 && <li  Style="display: flex; align-items: baseline;"> <span Style="margin-right: 10px;">&#8226;</span>{list5}</li>}
-           {list6 && <li  Style="display: flex; align-items: baseline;"> <span Style="margin-right: 10px;">&#8226;</span>{list6}</li>}
-           {list7 && <li  Style="display: flex; align-items: baseline;"> <span Style="margin-right: 10px;">&#8226;</span>{list7}</li>}
-           {list8 && <li  Style="display: flex; align-items: baseline;"> <span Style="margin-right: 10px;">&#8226;</span>{list8}</li>}
-           {list9 && <li  Style="display: flex; align-items: baseline;"> <span Style="margin-right: 10px;">&#8226;</span>{list9}</li>}
-           {list10 && <li  Style="display: flex; align-items: baseline;"> <span Style="margin-right: 10px;">&#8226;</span>{list10}</li>}
-           {list11 && <li  Style="display: flex; align-items: baseline;"> <span Style="margin-right: 10px;">&#8226;</span>{list11}</li>}
-           {list12 && <li  Style="display: flex; align-items: baseline;"> <span Style="margin-right: 10px;">&#8226;</span>{list12}</li>}  
-           
- 
- </div>}
-
-
-{activeoptions && (     <div className=" h-pr-fl-ma card-h-opt  bg-black-node-o-50 br-r-5px f-f-Gilroy  " Style="z-index: 120;">
-          <div
-            className="w-100 h-a h-pr-fl-ma b-s-b-b "
-            Style="font-size: 12px;"
-          >
-            
-            <div className="w-100 h-100 h-pr-fl-ma b-s-b-b">
-            <div className="w-100 h-a h-pr-fr-ma p-5px">
-              <div className="w-a h-a h-pr-fr-ma flexbox">
-              <Btn className="m-r-10px">HazteSponsor</Btn>
-              <Btn>DESCARGAR</Btn></div>
-            </div>     </div> </div>
-            <div className="w-100 h-a bg-black br-r-10px flexbox p-5px f-f-Gilroy h-pr-fr-ma b-s-b-b ns-f-s-small">
-
-              <div className="w-a h-a h-pr-fl-ma p-5px">
-              <div className="h-pr-fl-ma  l-h-10px   f-w-bo ">
-                {" "}
-                Nombre del archivo:
-              </div>{" "}
-              <br />
-              <div className="h-pr-fl-ma l-h-15px   f-w-bo ns-c-e">
-                {filename}
-              </div>{" "}
-              </div>
-
-              <div className="w-a h-a h-pr-fl-ma p-5px">
-              <div className="h-pr-fl-ma l-h-10px   f-w-bo ">
-                Formato:
-              </div>{" "}
-              <br />
-              <div className="h-pr-fl-ma l-h-15px   f-w-bo ns-c-e">
-                {filetype}
-              </div></div>{" "}
-              
-
-              <div className="w-a h-a h-pr-fl-ma p-5px">
-              <div className=" h-pr-fl-ma  l-h-10px   f-w-bo ">
-                Tamaño:
-              </div>{" "}
-              <br />
-              <div className="h-pr-fl-ma l-h-15px   f-w-bo ns-c-e">
-                {filesize}
-             </div>{" "}
-             </div>
+        {icon && (
+          <div className="w-100 h-150px h-pr-fl-ma ">
+            <div className="w-100 h-150px h-pr-fl-ma b-s-b-b of-n ">
+              <img
+                src={` ${icon} `}
+                alt={` ${alt} `}
+                className={` ${iconclassName} w-100px h-100px `}
+                Style="object-fit: cover;"
+                Style="position: absolute; margin: auto; right: 0px; left:0px; top: 0px; bottom: 0px;"
+              />{" "}
             </div>
-        
-          </div> )}
-       
-       
-          {btn &&  <div className="h-pr-fl-ma m-20px">
-          <Btn       BtnonClick={` ${BtnOnClick} `}
-                  className="h-pr-fr-ma "
-                  text={` ${btnText} `}
-                  enlace={` ${btnLink} `}
+          </div>
+        )}
 
-                ></Btn>
-             </div>
-           }
-   
+{ContentBox && ( <div
+        className="w-100 bg-g-2  d-n-on-h"
+          Style={`padding:20px; position: absolute; margin: auto; top: 0px; `}
+        >
+          {title && (
+            <div
+              className={`w-100 p-10px  f-f-Gilroy  ${titleclassName} br-c-white br-s-solid br-c-white br-r-50px`}
+              Style={`font-size: 20px; line-height: 25px; ${titleStyle}`}
+            >
+              {title}
+            </div>
+          )}
+
+          {subtitle && (
+            <span
+              className={`w-100 h-a h-pr-fl-ma p-10px t-a-c f-f-Gilroy ${subtitleclassName} ns-c-e`}
+              Style={`font-size: 15px; line-height: 15px; ${subtitleStyle}`}
+            >
+              {" "}
+              {subtitle}
+            </span>
+          )}
+          {description && (
+            <span className="w-90 m-t-10px h-pr-fl-ma f-f-Gilroy m-t-10px m-b-50px p-10px">
+              {description}{" "}
+            </span>
+          )}
+        </div> )}
+       
+        {activeoptions && (
+          <div
+            className=" h-pr-fl-ma card-h-opt bg-black-node-o-50 br-r-5px f-f-Gilroy  "
+            Style="z-index: 120;"
+          >
+            <div
+              className="w-100 h-a h-pr-fl-ma b-s-b-b "
+              Style="font-size: 12px;"
+            >
+              <div className="w-100 h-100 h-pr-fl-ma b-s-b-b">
+                <div className="w-100 h-a h-pr-fr-ma p-5px">
+                  <div className="w-a h-a h-pr-fr-ma flexbox">
+                    <Btn className="m-r-10px">HazteSponsor</Btn>
+                    <Btn>DESCARGAR</Btn>
+                  </div>
+                </div>{" "}
+              </div>{" "}
+            </div>
+            <div className="w-100 h-a bg-black br-r-10px flexbox p-5px f-f-Gilroy h-pr-fr-ma b-s-b-b ns-f-s-small">
+              <div className="w-a h-a h-pr-fl-ma p-5px">
+                <div className="h-pr-fl-ma  l-h-10px   f-w-bo ">
+                  {" "}
+                  Nombre del archivo:
+                </div>{" "}
+                <br />
+                <div className="h-pr-fl-ma l-h-15px   f-w-bo ns-c-e">
+                  {filename}
+                </div>{" "}
+              </div>
+              <div className="w-a h-a h-pr-fl-ma p-5px">
+                <div className="h-pr-fl-ma l-h-10px   f-w-bo ">Formato:</div>{" "}
+                <br />
+                <div className="h-pr-fl-ma l-h-15px   f-w-bo ns-c-e">
+                  {filetype}
+                </div>
+              </div>{" "}
+              <div className="w-a h-a h-pr-fl-ma p-5px">
+                <div className=" h-pr-fl-ma  l-h-10px   f-w-bo ">Tamaño:</div>{" "}
+                <br />
+                <div className="h-pr-fl-ma l-h-15px   f-w-bo ns-c-e">
+                  {filesize}
+                </div>{" "}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {btn && (
+          <div className="h-pr-fl-ma m-20px">
+            <Btn
+              BtnonClick={` ${BtnOnClick} `}
+              className="h-pr-fr-ma "
+              text={` ${btnText} `}
+              enlace={` ${btnLink} `}
+            ></Btn>
+          </div>
+        )}
       </div>
     </>
   );
