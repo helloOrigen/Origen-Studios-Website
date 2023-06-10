@@ -22,9 +22,9 @@ export default function Services(props) {
   return (
     <>
       <div className="w-90 r-h-c m-w-100 h-a h-pr-fl-ma flexbox m-d-b p-20px b-s-b-b m-t-20px m-b-20px">
-        <div className="w-25 m-w-100 m-h-400px  h-70vh h-pr-fl-ma bg-d m-5px of-h">
+        <div className="w-25 m-w-100 m-h-400px  h-70vh h-pr-fl-ma bg-d   of-h">
           {" "}
-          <div className=" w-100 h-100 p-a m-a b-s-b-b of-n">
+          <div className=" w-100 h-100 p-a m-a b-s-b-b of-n p-10px">
             <img
               src={ColorsWpp}
               alt=""
@@ -40,9 +40,9 @@ export default function Services(props) {
             </div>
           </div>
         </div>
-        <div className="w-25 m-w-100 m-h-400px m-h-a  h-70vh h-pr-fl-ma bg-d m-5px of-h">
+        <div className="w-25 m-w-100 m-h-400px m-h-a  h-70vh h-pr-fl-ma bg-d   of-h">
           {" "}
-          <div className=" w-100 h-100 p-a m-a b-s-b-b of-n">
+          <div className=" w-100 h-100 p-a m-a b-s-b-b of-n p-10px">
             <img
               src={Marketing}
               alt=""
@@ -58,9 +58,9 @@ export default function Services(props) {
             </div>
           </div>
         </div>
-        <div className="w-25 m-w-100 m-h-400px m-h-a  h-70vh h-pr-fl-ma bg-d m-5px of-h">
+        <div className="w-25 m-w-100 m-h-400px m-h-a  h-70vh h-pr-fl-ma bg-d   of-h">
           {" "}
-          <div className=" w-100 h-100 p-a m-a b-s-b-b of-n">
+          <div className=" w-100 h-100 p-a m-a b-s-b-b of-n p-10px">
             <img
               src={Reclutamiento}
               alt=""
@@ -76,9 +76,9 @@ export default function Services(props) {
             </div>
           </div>
         </div>
-        <div className="w-25 m-w-100 m-h-400px m-h-a  h-70vh h-pr-fl-ma m-5px of-h">
+        <div className="w-25 m-w-100 m-h-400px m-h-a  h-70vh h-pr-fl-ma  bg-d  of-h">
           {" "}
-          <div className=" w-100 h-100 p-a m-a b-s-b-b of-n">
+          <div className=" w-100 h-100 p-a m-a b-s-b-b of-n p-10px  ">
             <img
               src={Asesora}
               alt=""
@@ -97,8 +97,8 @@ export default function Services(props) {
       </div>
 
       <div className="w-90 r-h-c m-w-100 h-a h-pr-fl-ma flexbox m-d-b p-20px b-s-b-b m-b-20px">
-        <div className="w-100 m-w-100 m-h-a  h-70vh h-pr-fl-ma bg-d m-5px of-h flexbox p-20px">
-          <div className="w-25 m-w-100 m-d-n  h-500px h-pr-fl-ma bg-d m-5px of-h">
+        <div className="w-100 m-w-100 m-h-a  h-70vh h-pr-fl-ma bg-d  of-h flexbox p-20px">
+          <div className="w-25 m-w-100 m-d-n  h-500px h-pr-fl-ma bg-d   of-h">
             {" "}
             <div className=" w-100 h-100 p-a m-a b-s-b-b of-n">
               <img
@@ -116,7 +116,7 @@ export default function Services(props) {
               </div>
             </div>
           </div>
-          <div className="w-75 m-w-100  h-a h-pr-fl-ma bg-d m-5px of-h">
+          <div className="w-75 m-w-100 h-a h-pr-fl-ma bg-d p-20px of-h">
             {" "}
             <ContentBox
               className="p-20px bg-d"

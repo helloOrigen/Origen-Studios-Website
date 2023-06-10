@@ -4,11 +4,11 @@ import Btn from '../components/btn'
 const FAQ = () => {
   return (
   <Fragment>
-    <div className="w-100 h-100 h-pr-fl-ma centered b-s-b-b of-auto ">
-    <ContentBox className="w-100" title={"Preguntas frecuentes:"} subtitle={"Todo lo que necesite saber, a su alcance."} />
-    <div className="w-60 m-w-80 h-100 h-pr-fl-ma r-h-c b-s-b-b  ">
+      <div className="w-90 h-a h-pr-fl-ma bg-d r-h-c m-t-20px m-b-20px b-s-b-b of-auto  of-x-hidden p-20px">
+    <ContentBox className="w-100 t-a-c" title={"Preguntas frecuentes:"} subtitle={"Todo lo que necesite saber, a su alcance."} />
+    <div className="w-100  h-100 h-pr-fl-ma r-h-c b-s-b-b  ">
 
-    <div className="w-100 m-w-100 b-s-b-b h-a h-pr-fl-ma bg-black-node-o-70 blur ns-br-r-1 of-h p-20px m-b-20px">
+    <div className="w-100 m-w-100 b-s-b-b h-a h-pr-fl-ma bg-d  ns-br-r-1 of-h p-20px m-b-20px">
             <ContentBox 
            
               title={"¿Cómo funciona el proceso de diseño y desarrollo web en OrigenStudios?."}
@@ -17,7 +17,7 @@ const FAQ = () => {
             />
           </div>
 
-          <div className="w-100 m-w-100 b-s-b-b h-a h-pr-fl-ma bg-black-node-o-70 blur ns-br-r-1 of-h p-20px m-b-20px">
+          <div className="w-100 m-w-100 b-s-b-b h-a h-pr-fl-ma bg-d  ns-br-r-1 of-h p-20px m-b-20px">
             <ContentBox 
            
               title={"¿Cómo se asegura OrigenStudios de que el diseño y desarrollo web se adapte a mis necesidades y objetivos?."}
@@ -28,7 +28,7 @@ const FAQ = () => {
 
 
 
-          <div className="w-100 m-w-100 b-s-b-b h-a h-pr-fl-ma bg-black-node-o-70 blur ns-br-r-1 of-h p-20px m-b-20px">
+          <div className="w-100 m-w-100 b-s-b-b h-a h-pr-fl-ma bg-d  ns-br-r-1 of-h p-20px m-b-20px">
             <ContentBox 
            
               title={"¿Qué plazos puedo esperar para el diseño y desarrollo web de mi proyecto?."}
@@ -37,7 +37,7 @@ const FAQ = () => {
             />
           </div>
 
-          <div className="w-100 m-w-100 b-s-b-b h-a h-pr-fl-ma bg-black-node-o-70 blur ns-br-r-1 of-h p-20px m-b-20px">
+          <div className="w-100 m-w-100 b-s-b-b h-a h-pr-fl-ma bg-d  ns-br-r-1 of-h p-20px m-b-20px">
             <ContentBox 
            
               title={"¿Qué costo tendría mi proyecto de diseño y desarrollo web?."}
@@ -46,7 +46,7 @@ const FAQ = () => {
             />
           </div>
 
-          <div className="w-100 m-w-100 b-s-b-b h-a h-pr-fl-ma bg-black-node-o-70 blur ns-br-r-1 of-h p-20px m-b-20px">
+          <div className="w-100 m-w-100 b-s-b-b h-a h-pr-fl-ma bg-d  ns-br-r-1 of-h p-20px m-b-20px">
             <ContentBox 
            
               title={"¿Cuántas revisiones puedo hacer antes de que se finalice el proyecto?."}
@@ -55,7 +55,7 @@ const FAQ = () => {
             />
           </div>
 
-          <div className="w-100 m-w-100 b-s-b-b h-a h-pr-fl-ma bg-black-node-o-70 blur ns-br-r-1 of-h p-20px m-b-20px">
+          <div className="w-100 m-w-100 b-s-b-b h-a h-pr-fl-ma bg-d  ns-br-r-1 of-h p-20px m-b-20px">
             <ContentBox 
            
               title={"¿Cómo maneja OrigenStudios la propiedad intelectual y los derechos de autor de los trabajos que realiza?."}
@@ -64,7 +64,7 @@ const FAQ = () => {
             />
           </div>
 
-          <div className="w-100 m-w-100 b-s-b-b h-a h-pr-fl-ma bg-black-node-o-70 blur ns-br-r-1 of-h p-20px m-b-20px">
+          <div className="w-100 m-w-100 b-s-b-b h-a h-pr-fl-ma bg-d  ns-br-r-1 of-h p-20px m-b-20px">
             <ContentBox 
            
               title={"¿Qué experiencia tiene OrigenStudios en mi sector o industria?."}
@@ -73,7 +73,7 @@ const FAQ = () => {
             />
           </div>
 
-          <div className="w-100 m-w-100 b-s-b-b h-a h-pr-fl-ma bg-black-node-o-70 blur ns-br-r-1 of-h p-20px m-b-20px">
+          <div className="w-100 m-w-100 b-s-b-b h-a h-pr-fl-ma bg-d  ns-br-r-1 of-h p-20px m-b-20px">
             <ContentBox 
            
               title={"¿Ofrecen servicios de mantenimiento, por ejemplo para mi web y soporte después de la finalización del proyecto?."}
@@ -82,7 +82,7 @@ const FAQ = () => {
             />
           </div>
 
-          <div className="w-100 m-w-100 b-s-b-b h-a h-pr-fl-ma bg-black-node-o-70 blur ns-br-r-1 of-h p-20px m-b-20px ">
+          <div className="w-100 m-w-100 b-s-b-b h-a h-pr-fl-ma bg-d  ns-br-r-1 of-h p-20px m-b-20px ">
             <ContentBox 
             className="w-100 t-a-c"
            
@@ -90,13 +90,16 @@ const FAQ = () => {
               subtitle={"¡Comuniquese con nosotros!"}
               
             />
-            <div className="w-100 h-a h-pr-fl-ma m-b-20px m-t-10px flexbox">
-              <Btn className="p-10px p-l-20px p-r-20px " text="hello@OrigenStudios.com"></Btn>
+            <div className="w-100 h-a h-pr-fl-ma  m-t-10px flexbox">
+              <Btn className=" p-l-20px p-r-20px " text="hello@OrigenStudios.com"></Btn>
             </div>
           </div>
 
           </div>
    </div>
+   <div className="w-100 h-200px h-pr-fl-ma b-s-b-b  m-d-b">
+            &nbsp; 
+          </div>
     </Fragment>
   
  

@@ -33,7 +33,7 @@ export default function Card(props) {
   return (
     <>
       <div
-        className={`w-a h-a h-pr-fl-ma ${type} bg-red d-n-on-h-container card h-e b-s-b-b of-h ${CardClassName} ${color} c-p  br-w-1px br-s-solid ns-b-c-e-h br-r-10px`} 
+        className={`w-a h-a h-pr-fl-ma ${type} d-n-on-h-container card h-e b-s-b-b of-h ${CardClassName} ${color} c-p  br-w-1px br-s-solid ns-b-c-e-h br-r-10px`} 
       >
        
         {image && (

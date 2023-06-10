@@ -70,9 +70,9 @@ function App() {
             <Route exact  path="/services" element={<Views.Services />} />
            <Route exact path="/team" element={<Views.Team/>} />
            <Route exact path="/tools" element={<Views.Tools/>} />
-           <Route exact path="/design" element={<Views.Design/>} />
+
            <Route exact path="/sponsors" element={<Views.Sponsors/>} />
-           <Route exact path="/marketing" element={<Views.Marketing/>} />
+
            <Route exact path="/faq" element={<Views.FAQ/>} />
            <Route exact path="/about" element={<Views.About/>} />
            <Route exact path="/terms" element={<Views.Terms/>} />

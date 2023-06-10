@@ -17,8 +17,8 @@ import Thumbnail4 from "../assets/images/promo/thumbnail-4.jpg";
 const Promo = () => {
   return (
     <Fragment>
-      <div className="w-100 h-100 h-pr-fl-ma centered b-s-b-b of-auto  of-x-hidden p-20px">
-        <div className="noselect w-100 h-a h-pr-fl-ma b-s-b-b p-20px b-s-b-b m-b-20px">
+      <div className="w-90 h-a h-pr-fl-ma bg-d r-h-c m-t-20px m-b-20px b-s-b-b of-auto  of-x-hidden p-20px">
+        <div className="noselect w-100 h-a h-pr-fl-ma b-s-b-b  b-s-b-b ">
           <img
             src={PromoTitulo}
             alt=""
@@ -42,13 +42,13 @@ const Promo = () => {
             Style="object-fit: contain; transform:scale(1.5);"
           />
         </div>
+        </div>
+       
+        <div className="w-90 h-a h-pr-fl-ma  r-h-c  b-s-b-b of-auto  of-x-hidden ">
 
-        {/* PANEL IZQUIERDO */}
 
-        {/* PANEL DERECHO */}
-        <div className="noselect m-w-100 w-80 r-h-c h-a h-pr-fl-ma b-s-b-b  m-t-50px  p-10px">
           {/* BLOQUE RESPONSIVE 1 */}
-          <div className="w-100 h-a h-pr-fl-ma p-10px bg-black-node-o-70 blur ns-br-r-1 b-s-b-b d-i-f m-d-b m-b-20px">
+          <div className="w-100 h-a h-pr-fl-ma p-10px bg-d-t   ns-br-r-1 b-s-b-b d-i-f m-d-b m-b-20px">
             <div
               className="m-w-100 w-300px h-200px h-pr-fl-ma "
               Style="z-index: 123;"
@@ -60,7 +60,7 @@ const Promo = () => {
                 Style="object-fit: cover;"
               />
             </div>
-            <div className="m-w-100 w-80 h-200px m-h-300px h-pr-fl-ma bg-black ">
+            <div className="m-w-100 w-80 h-200px m-h-300px h-pr-fl-ma bg-d ">
               <div className="m-w-100 w-90 centered p-20px">
                 <ContentBox
                   className=""
@@ -75,7 +75,7 @@ const Promo = () => {
           </div>
 
           {/* BLOQUE RESPONSIVE 2 */}
-          <div className="w-100 h-a h-pr-fl-ma p-10px bg-black-node-o-70 blur ns-br-r-1 b-s-b-b d-i-f m-d-b m-b-20px">
+          <div className="w-100 h-a h-pr-fl-ma p-10px bg-d-t   ns-br-r-1 b-s-b-b d-i-f m-d-b m-b-20px">
             <div
               className="m-w-100 w-300px h-200px h-pr-fl-ma "
               Style="z-index: 123;"
@@ -87,7 +87,7 @@ const Promo = () => {
                 Style="object-fit: cover;"
               />
             </div>
-            <div className="m-w-100 w-80 h-200px m-h-300px h-pr-fl-ma bg-black ">
+            <div className="m-w-100 w-80 h-200px m-h-300px h-pr-fl-ma bg-d ">
               <div className="m-w-100 w-90 centered p-20px">
                 <ContentBox
                   className=""
@@ -102,7 +102,7 @@ const Promo = () => {
           </div>
 
           {/* BLOQUE RESPONSIVE 3 */}
-          <div className="w-100 h-a h-pr-fl-ma p-10px bg-black-node-o-70 blur ns-br-r-1 b-s-b-b d-i-f m-d-b m-b-20px">
+          <div className="w-100 h-a h-pr-fl-ma p-10px bg-d-t   ns-br-r-1 b-s-b-b d-i-f m-d-b m-b-20px">
             <div
               className="m-w-100 w-300px h-200px h-pr-fl-ma "
               Style="z-index: 123;"
@@ -114,7 +114,7 @@ const Promo = () => {
                 Style="object-fit: cover;"
               />
             </div>
-            <div className="m-w-100 w-80 h-200px m-h-300px  h-pr-fl-ma bg-black ">
+            <div className="m-w-100 w-80 h-200px m-h-300px  h-pr-fl-ma bg-d ">
               <div className="m-w-100 w-90 centered p-20px">
                 <ContentBox
                   className=""
@@ -129,7 +129,7 @@ const Promo = () => {
           </div>
 
           {/* BLOQUE RESPONSIVE 4 */}
-          <div className="w-100 h-a h-pr-fl-ma p-10px bg-black-node-o-70 blur ns-br-r-1 b-s-b-b d-i-f m-d-b m-b-20px">
+          <div className="w-100 h-a h-pr-fl-ma p-10px bg-d-t   ns-br-r-1 b-s-b-b d-i-f m-d-b m-b-20px">
             <div
               className="m-w-100 w-300px h-200px  h-pr-fl-ma "
               Style="z-index: 123;"
@@ -141,7 +141,7 @@ const Promo = () => {
                 Style="object-fit: cover;"
               />
             </div>
-            <div className="m-w-100 w-80 h-200px m-h-300px h-pr-fl-ma bg-black ">
+            <div className="m-w-100 w-80 h-200px m-h-300px h-pr-fl-ma bg-d ">
               <div className="m-w-100 w-90 centered p-20px">
                 <ContentBox
                   className=""
@@ -154,13 +154,13 @@ const Promo = () => {
               </div>
             </div>
           </div>
-        </div>
+      
 
 {/* COORDINAR REUNIÓN AHORA */}
-<div className="w-100 h-a h-pr-fl-ma p-10px">
-<div className="w-80 m-w-100 r-h-c h-a h-pr-fl-ma f-f-Gilroy p-10px bg-black-node-o-70 blur ns-br-r-1 b-s-b-b d-i-f m-d-b m-b-20px">
-<div className="w-100 h-pr-fl-ma bg-black p-20px d-i-f m-d-b">
-<div className="w-70 m-w-100 h-pr-fl-ma ns-f-s-medium noselect"> Coordine una reunión hoy mismo <br /> y haga despegar su marca!</div>
+
+<div className="w-100 m-w-100 r-h-c h-a h-pr-fl-ma f-f-Gilroy bg-d-t ns-br-r-1 b-s-b-b d-i-f m-d-b ">
+<div className="w-100 h-pr-fl-ma bg-d p-20px d-i-f m-d-b">
+<div className="w-70 m-w-100 h-pr-fl-ma ns-f-s-medium noselect"> Coordine una reunión hoy mismo y haga despegar su marca!</div>
 <div className="w-a h-pr-fl-ma m-w-100 p-20px flexbox ">  <Btn
                     className=""
                     text="Coordinar reunión &nbsp;"
@@ -176,12 +176,15 @@ const Promo = () => {
                     </div>
                   </Btn></div>
 </div>
-</div>
+
 </div>
 
 
-        <div className="w-50 h-50px h-pr-fl-ma b-s-b-b p-20px">&nbsp;</div>
       </div>
+      <div className="w-100 h-200px h-pr-fl-ma b-s-b-b  flexbox m-d-b">
+            &nbsp; 
+          </div>
+    
     </Fragment>
   );
 };

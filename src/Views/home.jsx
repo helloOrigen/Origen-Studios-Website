@@ -27,6 +27,7 @@ import PromoHome from "../assets/images/compressed/promo-home.jpg";
 import ChevronRight from "../assets/icons/chevron_right.svg";
 import CheckCircle from "../assets/icons/check-circle.svg";
 import Calendar from "../assets/icons/calendar.svg";
+import Envelope from "../assets/icons/envelope.svg";
 
 import LinkedinIcon from "../assets/icons/linkedin-icon.svg";
 import InstagramIcon from "../assets/icons/instagram-icon.svg";
@@ -187,17 +188,17 @@ export default function Home(props) {
               <div className="h-pr-fl-ma w-and-h-50px  "> <Btn className="w-100 h-100" text="IR" enlace=""></Btn> </div>
             </div>
             <div className="w-100 h-a h-pr-fl-ma bg-d-t p-5px flexbox m-b-5px">
-            <img className="w-and-h-50px bg-d p-5px" src={WhatsappIcon} alt="" />
+            <img className="w-and-h-50px bg-d p-5px" src={LinkedinIcon} alt="" />
             <div className="w-80 h-a l-h-15px m-l-20px ">
               <div className="w-100 h-a r-v-c">
-              <span className="w-100 f-w-bo">Linkedin</span> <br /><span className="h-pr-fl-maw-100 ns-f-s-small">(+598) 92 22 15 16</span></div></div>
+              <span className="w-100 f-w-bo">Linkedin</span> <br /><span className="h-pr-fl-maw-100 ns-f-s-small">https://www.linkedin.com/company/helloorigen/</span></div></div>
               <div className="h-pr-fl-ma w-and-h-50px  "> <Btn className="w-100 h-100" text="IR" enlace=""></Btn> </div>
             </div>
             <div className="w-100 h-a h-pr-fl-ma bg-d-t p-5px flexbox m-b-5px">
-            <img className="w-and-h-50px bg-d p-5px" src={WhatsappIcon} alt="" />
+            <img className="w-and-h-50px bg-d p-5px" src={Envelope} alt="" />
             <div className="w-80 h-a l-h-15px m-l-20px ">
               <div className="w-100 h-a r-v-c">
-              <span className="w-100 f-w-bo">Whatsapp</span> <br /><span className="h-pr-fl-maw-100 ns-f-s-small">(+598) 92 22 15 16</span></div></div>
+              <span className="w-100 f-w-bo">Email</span> <br /><span className="h-pr-fl-maw-100 ns-f-s-small">hello@OrigenStudios.com</span></div></div>
               <div className="h-pr-fl-ma w-and-h-50px  "> <Btn className="w-100 h-100" text="IR" enlace=""></Btn> </div>
             </div>
           
@@ -471,7 +472,7 @@ export default function Home(props) {
           </div>
          
         </div>
-        <div className="w-100 h-20px h-pr-fl-ma b-s-b-b  flexbox m-d-b">
+        <div className="w-100 h-200px h-pr-fl-ma b-s-b-b  m-d-b">
             &nbsp; 
           </div>
       </div>

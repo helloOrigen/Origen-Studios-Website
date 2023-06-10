@@ -22,24 +22,27 @@ const navBar = () => {
       <div className="w-90 h-100 r-h-c h-pr-fl-ma of-n" >
         
       <div className="w-50 h-pr-fl-ma r-v-c f-w-n-w h-70px tab-d-n ">
+      <Link to="/">
+          <NavBarBtn className=" m-d-n noselect" text={"Inicio"}></NavBarBtn>
+        </Link>
         <Link to="/team">
           <NavBarBtn className="m-d-n noselect" text={"Nosotros"}>
-            <NavSubItem text="Hola" enlace=""></NavSubItem>
-            <NavSubItem text="Holaadasdsada" enlace=""></NavSubItem>
-            <NavSubItem text="Hola" enlace=""></NavSubItem>
-            <NavSubItem text="Hola" enlace=""></NavSubItem>
-            <NavSubItem text="Hola" enlace=""></NavSubItem>
+            <NavSubItem text="Equipo" enlace=""></NavSubItem>
+            <NavSubItem text="História" enlace=""></NavSubItem>
+            <NavSubItem text="Propósito" enlace=""></NavSubItem>
+            <NavSubItem text="Experiencia" enlace=""></NavSubItem>
+            <NavSubItem text="Sponsors" enlace=""></NavSubItem>
           </NavBarBtn>
         </Link>
         
         <Link  to="/services">
            
           <NavBarBtn className="m-d-n noselect" text={"Servicios"}>
-          <NavSubItem text="Hola" enlace=""></NavSubItem>
-            <NavSubItem text="Holaadasdsada" enlace=""></NavSubItem>
-            <NavSubItem text="Hola" enlace=""></NavSubItem>
-            <NavSubItem text="Hola" enlace=""></NavSubItem>
-            <NavSubItem text="Hola" enlace=""></NavSubItem>
+         
+            <NavSubItem text="Diseño gráfico" enlace=""></NavSubItem>
+            <NavSubItem text="Marketing Digital" enlace=""></NavSubItem>
+            <NavSubItem text="Reclutamiento Global" enlace=""></NavSubItem>
+            <NavSubItem text="Asesorías personalizadas" enlace=""></NavSubItem>
             </NavBarBtn>
          
         </Link>
@@ -56,10 +59,19 @@ const navBar = () => {
          </Link>
         <Link to="/plans">
            
-          <NavBarBtn className="m-d-n noselect" text={"Planes"}></NavBarBtn>
+          <NavBarBtn className="m-d-n noselect" text={"Planes"}>
+          <NavSubItem text="Para usted" enlace=""></NavSubItem>
+            <NavSubItem text="Para su proyecto" enlace=""></NavSubItem>
+            <NavSubItem text="Para su empresa" enlace=""></NavSubItem>
+            <NavSubItem text="Para su carrera" enlace=""></NavSubItem>
+
+          </NavBarBtn>
         </Link>
         
-        <Link to="/tools"><NavBarBtn className="m-d-n noselect" text={"Herramientas"}></NavBarBtn></Link>
+        <Link to="/tools"><NavBarBtn className="m-d-n noselect" text={"Herramientas"}>
+        <NavSubItem text="InteligenciaS Artificiales" enlace=""></NavSubItem>
+            <NavSubItem text="Utilidades de oficina" enlace=""></NavSubItem>
+            <NavSubItem text="Utilidades Descargables" enlace=""></NavSubItem></NavBarBtn></Link>
     
         <Link to="/promo"><NavBarBtn className="m-d-n noselect" text={"Promos"} news></NavBarBtn></Link>
         </div>

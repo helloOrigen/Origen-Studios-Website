@@ -2,8 +2,7 @@ export {default as Home } from './home';
 export {default as Services } from './services';
 export {default as Team } from './Team';
 export {default as Tools } from './tools';
-export {default as Design } from './design';
-export {default as Marketing } from './marketing';
+
 export {default as Sponsors } from './sponsors';
 export {default as FAQ } from './faq';
 export {default as About } from './about';

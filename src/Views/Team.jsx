@@ -11,14 +11,16 @@ import Carlos from "../assets/team/carlos-andres.jpg";
 const Team = () => {
   return (
     <Fragment>
+            <div className="w-90 h-a h-pr-fl-ma bg-d r-h-c m-t-20px m-b-20px b-s-b-b of-auto  of-x-hidden p-20px">
+
       <div className="w-100 h-100 h-pr-fl-ma b-s-b-b of-auto d-i-f m-d-b">
         
-          <div className="w-50 m-w-100  h-pr-fl-ma b-s-b-b">          
+          <div className="w-50 m-w-100 h-a h-pr-fl-ma b-s-b-b">          
            <div className="w-100 h-a h-pr-fl-ma b-s-b-b ">
           <div className="j-c-s-b d-f ">
            <Card
                   subtitle="Victoria Brylka"
-                  CardClassName="w-150px h-a bg-black m-5px"
+                  CardClassName="w-150px h-a  bg-d  m-5px"
                   image={Vicky}
                   alt="Victoria Brylka"
               
@@ -26,7 +28,7 @@ const Team = () => {
              
            <Card
                   subtitle="Carlos Andrés"
-                  CardClassName="w-150px h-a bg-black m-5px"
+                  CardClassName="w-150px h-a  bg-d  m-5px"
                   image={Carlos}
                   alt="Carlos Andrés"
              
@@ -34,7 +36,7 @@ const Team = () => {
              
                 <Card
                   subtitle="Cesar Lima"
-                  CardClassName="w-150px h-a bg-black m-5px"
+                  CardClassName="w-150px h-a  bg-d  m-5px"
                   image={Cesar}
                   alt="Cesar Lima"
               
@@ -43,7 +45,7 @@ const Team = () => {
                    
                 <Card
                   subtitle="Nickolas Machado"
-                  CardClassName="w-150px h-a bg-black m-5px"
+                  CardClassName="w-150px h-a  bg-d  m-5px"
                   image={Nick}
                   alt="Nickolas Machado"
                
@@ -53,10 +55,10 @@ const Team = () => {
 
          
           </div>
-          <div className="w-50 m-w-100 h-100 h-pr-fl-ma "> 
+          <div className="w-50 m-w-100 h-a h-pr-fl-ma "> 
          
-          <div className="w-100 h-100 h-pr-fl-ma  b-s-b-b ">
-            <div className="w-80 h-a bg-black-node-o-70 blur ns-br-r-1 of-h p-20px m-w-100 h-a f-f-Gilroy h-pr-fl-ma centered">
+          <div className="w-100 h-a h-pr-fl-ma  b-s-b-b ">
+            <div className="w-100 h-a  bg-d  ns-br-r-1 of-h p-20px m-w-100 h-a f-f-Gilroy h-pr-fl-ma ">
               <ContentBox
                 className="h-pr-fl-ma w-100 h-a "
                 title={"Un equipo en expansión"}
@@ -79,9 +81,12 @@ const Team = () => {
         </div>
         </div>
 
-        
+        </div>
       
       </div>
+      <div className="w-100 h-200px h-pr-fl-ma b-s-b-b  m-d-b">
+            &nbsp; 
+          </div>
     </Fragment>
   );
 };
