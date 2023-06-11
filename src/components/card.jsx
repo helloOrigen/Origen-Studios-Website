@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/seed.css";
 import Btn from "./btn";
-
+import ImageComponent from "./ImageComponent";
 export default function Card(props) {
   const {
     color,
@@ -38,12 +38,8 @@ export default function Card(props) {
        
         {image && (
           <div className=" w-100 h-100 card m-a b-s-b-b of-n">
-            <img
-              src={` ${image} `}
-              alt={` ${alt} `}
-              className="w-100 h-100  m-a b-s-b-b h-e-scale "
-              Style="object-fit: cover;"
-            />{" "}
+            <ImageComponent imageUrl={` ${image} `}   alt={` ${alt} `} Style="object-fit: cover;" className="w-100 h-100  m-a b-s-b-b h-e-scale "></ImageComponent>
+          
           </div>
         )}
 

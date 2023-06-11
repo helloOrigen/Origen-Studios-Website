@@ -1,14 +1,13 @@
 import React, { Fragment } from "react";
-import Typewriter from "typewriter-effect";
 
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+
+
 import Btn from "../components/btn";
 import ContentBox from "../components/contentBox";
 
 import CardContainer from "../components/cardcontainer";
 import Card from "../components/card";
+import ImageComponent from "../components/ImageComponent";
 
 import OSWoman from "../assets/images/compressed/os-woman.jpg";
 import SunSummer from "../assets/images/compressed/sunsummerthehero.jpg";
@@ -23,7 +22,6 @@ import PromoOtoño from "../assets/images/compressed/promo-otoño.jpg";
 import GodCreator from "../assets/images/compressed/god-creator.jpg";
 import HudStream from "../assets/images/compressed/hud-stream.jpg";
 
-import PromoHome from "../assets/images/compressed/promo-home.jpg";
 import ChevronRight from "../assets/icons/chevron_right.svg";
 import CheckCircle from "../assets/icons/check-circle.svg";
 import Calendar from "../assets/icons/calendar.svg";
@@ -42,19 +40,16 @@ import "../Styles/home.css";
 export default function Home(props) {
   var app = document.getElementById("app");
 
-  var typewriter = new Typewriter(app, {
-    loop: true,
-    delay: 100,
-  });
 
   return (
     <Fragment>
       <div className="w-100 h-100 h-pr-fl-ma b-s-b-b of-x-auto f-f-Gilroy c-white">
         <div className="w-100 r-h-c h-100 h-pr-fl-ma">
 
-        <div className="w-100 h-a h-pr-fl-ma b-s-b-b  m-d-b   m-t-10px m-b-20px ">
-
-            <span className="w-100 h-a h-pr-fl-ma b-s-b-b p-t-100px p-b-100px r-h-c f-w-bo f-f-Gilroy ns-f-s-big t-a-c m-ns-f-s-big">Somos el origen<br />de su marca.</span>
+        <div className="w-100 h-a h-pr-fl-ma b-s-b-b t-100px  m-d-b  m-t-10px m-b-20px ">
+        <h1 className="w-a h-a h-pr-fl-ma b-s-b-b r-h-c f-w-bo f-f-Gilroy ns-f-s-big m-ns-f-s-big">OrigenStudios&zwj;<sup className="m-d-n" className="RegHome" Style="font-size:33px; top: -30px;">&reg;</sup><br /></h1>
+        <h2 className="w-100 h-a h-pr-fl-ma b-s-b-b p-b-100px r-h-c f-w-bo f-f-Gilroy ns-f-s-medium SlogHome t-a-c ">Somos el origen de su marca</h2>
+          
 
             <div className="w-80 m-w-100 r-h-c h-a  h-pr-fl-ma b-s-b-b  m-t-20px m-b-20px ">
               <div className=" m-w-80 r-h-c h-a h-pr-fl-ma b-s-b-b flexbox f-w-n-w  ">
@@ -71,7 +66,7 @@ export default function Home(props) {
 
 
            {/* CONTENEDOR  */}
-        <div className="w-90  r-h-c  m-w-90 h-a h-pr-fl-ma b-s-b-b bg-d m-d-b m-b-20px">
+        <div className=" w-95   r-h-c  m- w-95  h-a h-pr-fl-ma b-s-b-b bg-d m-d-b m-b-20px">
         {/* PROCEDIMIENTO */}
        
              {/*  // ?                            SECCION 1 | CONTENIDO  80%                       */}
@@ -93,7 +88,7 @@ export default function Home(props) {
                   image={TheoryFragance}
                   title="Productos"
                   description="Creamos desde el envase, hasta la caja, incluyendo todos los elementos gráficos para la venta y distribución de su producto."
-                  alt="Wallpaper2"
+                  alt="Productos"
                
                 />
                 <Card
@@ -102,7 +97,7 @@ export default function Home(props) {
                   image={Caffeine}
                   title="Servicios"
                   description="Banners, Ploteos, Menu's, accesorios, Todo el estilo pronto para su negocio."
-                  alt="Wallpaper3"
+                  alt="Servicios"
                 
                 />
                  <Card
@@ -110,8 +105,8 @@ export default function Home(props) {
                   ContentBox
                   image={PromoOtoño}
                   title="Promociones"
-                  description="Banners, Ploteos, Menu's, accesorios, Todo el estilo pronto para su negocio."
-                  alt="Wallpaper3"
+                  description="Descuentos de temporada, Packs emprendedores, Ofertas corporativas, Paquetes Startups, Planes creativos y mucho más..."
+                  alt="Promociones"
               
                 />
               </CardContainer>
@@ -128,12 +123,8 @@ export default function Home(props) {
         {/* Porque elegirnos */}
         <div className="w-100 m-w-100 h-a h-pr-fl-ma bg-d-t m-b-20px b-s-b-b p-20px ">
           <div className="w-50 m-w-100 tab-w-100 h-a h-pr-fl-ma b-s-b-b bg-d of-h">
-            <img
-              className="w-100 h-pr-fl-ma"
-              Style="object-fit: cover;"
-              src={OSWoman}
-              alt=""
-            />
+          <ImageComponent className="w-100 h-a" imageUrl={OSWoman}></ImageComponent>
+         
           </div>
           <div className="w-50 m-w-100 tab-w-100 h-a h-pr-fl-ma b-s-b-b ">
             <div className="w-95 tab-w-100 m-w-100 r-h-c">
@@ -171,8 +162,8 @@ export default function Home(props) {
        {/*  // ?                            SECCION 1 | SIDEBAR 20%                      */}
         <div className="w-30  m-w-100 h-a h-pr-fl-ma b-s-b-b p-10px  m-d-b  tab-d-n ">
              {/*  // todo                            SECCION 1 - SIDEBAR | SOLICITE PRESUPUESTOS                  */}
-          <div className="w-100 h-a h-pr-fl-ma  bg-d-t p-10px m-b-10px">
-          Solicite presupuestos en:
+             <div className="w-100 h-pr-fl-ma b-s-b-b bg-d  p-20px m-b-10px">
+                              <ContentBox className="m-b-10px" title="Agende su reunión:"></ContentBox>
         <div className="w-100 h-a h-pr-fl-ma bg-d-t p-5px flexbox m-b-5px">
             <img className="w-and-h-50px bg-d p-5px" src={WhatsappIcon} alt="" />
             <div className="w-80 h-a l-h-15px m-l-20px ">
@@ -188,13 +179,6 @@ export default function Home(props) {
               <div className="h-pr-fl-ma w-and-h-50px  "> <Btn className="w-100 h-100" text="IR" enlace=""></Btn> </div>
             </div>
             <div className="w-100 h-a h-pr-fl-ma bg-d-t p-5px flexbox m-b-5px">
-            <img className="w-and-h-50px bg-d p-5px" src={LinkedinIcon} alt="" />
-            <div className="w-80 h-a l-h-15px m-l-20px ">
-              <div className="w-100 h-a r-v-c">
-              <span className="w-100 f-w-bo">Linkedin</span> <br /><span className="h-pr-fl-maw-100 ns-f-s-small">https://www.linkedin.com/company/helloorigen/</span></div></div>
-              <div className="h-pr-fl-ma w-and-h-50px  "> <Btn className="w-100 h-100" text="IR" enlace=""></Btn> </div>
-            </div>
-            <div className="w-100 h-a h-pr-fl-ma bg-d-t p-5px flexbox m-b-5px">
             <img className="w-and-h-50px bg-d p-5px" src={Envelope} alt="" />
             <div className="w-80 h-a l-h-15px m-l-20px ">
               <div className="w-100 h-a r-v-c">
@@ -203,8 +187,24 @@ export default function Home(props) {
             </div>
           
                   </div>
+                              {/*  // todo                            SECCION 1 - SIDEBAR | REDES SOCIALES             */}
+                            
+                              <div className="w-100 h-pr-fl-ma b-s-b-b bg-d  p-20px m-b-10px">
+                              <ContentBox className="m-b-10px" title="Visitenos en sus redes sociales:"></ContentBox>
+                                <div className="w-100 h-pr-fl-ma b-s-b-b flexbox ">
+                              <a href="https://Instagram.com/helloorigen"><img className="w-and-h-50px h-pr-fl-ma bg-d p-5px c-p h-e" src={InstagramIcon} alt="" /></a>
+                              <a href="https://Behance.net/helloorigen"><img className="w-and-h-50px h-pr-fl-ma bg-d p-5px c-p h-e" src={BehanceIcon} alt="" /></a>
+                              <a href="https://Twitter.com/helloorigen"><img className="w-and-h-50px h-pr-fl-ma bg-d p-5px c-p h-e" src={TwitterIcon} alt="" /></a>
+                              <a href="https://Facebook.com/helloorigen"><img className="w-and-h-50px h-pr-fl-ma bg-d p-5px c-p h-e" src={FacebookIcon} alt="" /></a>
+                              <a href="https://Linkedin.com/company/helloorigen"><img className="w-and-h-50px h-pr-fl-ma bg-d p-5px c-p h-e" src={LinkedinIcon} alt="" /></a>
+                                </div>
+                            
+
+
+                              </div>
             {/*  // todo                            SECCION 1 - SIDEBAR | ADS INTERNO                  */}
-           <div className="w-100 h-a h-pr-fl-ma  bg-d-t p-10px m-b-10px">   
+            <div className="w-100 h-pr-fl-ma b-s-b-b bg-d  p-20px m-b-10px">
+             
             <CardContainer className="h-a ">
                 <Card
                   type="card-tall"
@@ -213,12 +213,14 @@ export default function Home(props) {
                   alt="Wallpaper2"
                
                 /> </CardContainer>
+                <Btn text="Publicitate aquí" enlace="mailto:hello@origenstudios.com?subject=Quiero%20publicitarme%20en%20su%20web!&body=Buenos%20d%C3%ADas%20soy%20(Nombre)%20de%20(Empresa/Proyecto)%20y%20me%20gustar%C3%ADa%20conocer%20m%C3%A1s%20sobre%20la%20publicidad%20de%20su%20web%2C%20mi%20tel%C3%A9fono%20es%20(tel%C3%A9fono)%20y%20mis%20redes%20son%20(redes%20sociales)." className="ns-bg-e f-w-bo w-100 p-10px"></Btn>
               </div>
+   
             </div>
             {/*  // todo                            SECCION 1 | PROCEDIMIENTO                 */}
 
-        <div className="w-100 m-w-100 h-a h-pr-fl-ma b-s-b-b p-20px bg-d m-d-b flexbox   m-b-20px">
-
+            <div className="w-100 h-pr-fl-ma b-s-b-b  p-10px  ">
+<div className="w-100 h-pr-fl-ma bg-d p-20px">
 <div className="w-33 m-w-100 h-a h-pr-fl-ma b-s-b-b flexbox ">
 <div className="flexbox p-10px">
   <div className="w-50px h-50px h-pr-fl-ma br-w-1px br-s-solid br-r-50px">
@@ -271,7 +273,7 @@ export default function Home(props) {
     </div>
 
 </div>
-
+</div>
 </div>
         </div>
 
@@ -279,7 +281,7 @@ export default function Home(props) {
 
        
 
-  <div className="w-90 r-h-c  h-a h-pr-fl-ma b-s-b-b p-20px bg-d  m-b-20px">
+  <div className=" w-95  r-h-c  h-a h-pr-fl-ma b-s-b-b p-20px bg-d  m-b-20px">
 
 <div className="w-100 m-w-100 h-a t-a-c h-pr-fl-ma b-s-b-b ">
           <div className="bg-d-t  f-f-Gilroy f-w-bo m-b-20px" Style="font-size: 50px;">
@@ -343,11 +345,11 @@ export default function Home(props) {
 {/*  // !                                 SECCION 3                            */}
 
        
-        <div className="w-90 r-h-c  h-a h-pr-fl-ma flexbox tab-d-b m-d-b bg-d m-b-20px b-s-b-b p-10px">
+        <div className=" w-95  r-h-c  h-a h-pr-fl-ma flexbox tab-d-b m-d-b bg-d m-b-20px b-s-b-b p-10px">
           <div className="w-50 h-a  m-h-auto bg-d b-s-b-b m-w-100 tab-w-100 h-a h-pr-fl-ma ">
             <div className="w-100 h-a t-a-c h-pr-fl-ma b-s-b-b p-20px">
             <span className="bg-d-t  f-f-Gilroy f-w-bo " Style="font-size: 50px;">
-            Diseño de Portadas de Álbumes y Artes para Artistas Musicales</span>
+            Portadas de Álbumes para Artistas Musicales</span>
             </div>
             <ContentBox
                 className="p-20px bg-d t-a-c"
@@ -386,7 +388,7 @@ export default function Home(props) {
 
 
 {/*  // !                                 SECCION 4    | MULTIPLES IMAGENES (cards)                         */}
-        <div className="w-90 r-h-c h-a h-pr-fl-ma bg-d m-b-20px b-s-b-b p-20px">
+        <div className=" w-95  r-h-c h-a h-pr-fl-ma bg-d m-b-20px b-s-b-b p-20px">
           <CardContainer className="m-b-20px">
             <Card
               type="card-tall"
@@ -438,7 +440,7 @@ export default function Home(props) {
           </CardContainer>
         </div>
 
-        <div className="w-90 r-h-c h-a h-pr-fl-ma bg-d m-b-20px b-s-b-b  p-20px">
+        <div className=" w-95  r-h-c h-a h-pr-fl-ma bg-d m-b-20px b-s-b-b  p-20px">
           <ContentBox
             className="t-a-c w-100"
             title="Tenemos la solución a su necesidad."

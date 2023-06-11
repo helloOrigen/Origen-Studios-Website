@@ -1,13 +1,15 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" baseProfile="basic" id="Layer_1"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64"
-	 xml:space="preserve">
-	 <defs><style>.social-icon-color{fill: #666666;}</style></defs>
-<path class="social-icon-color" d="M32,12c18.548,0,20,1.452,20,20v0.18C52,50.561,50.562,52,32.18,52h-0.36C13.438,52,12,50.561,12,32.18v-0.36
-	C12,13.439,13.438,12,31.82,12H32z M32.024,42c5.522-0.013,9.989-4.502,9.976-10.024c-0.013-5.522-4.502-9.989-10.024-9.976
-	c-5.522,0.013-9.989,4.502-9.976,10.024C22.013,37.546,26.502,42.013,32.024,42z M44.005,22c1.105-0.003,1.998-0.9,1.995-2.005
-	S45.1,17.997,43.995,18c-1.105,0.003-1.998,0.9-1.995,2.005C42.003,21.11,42.9,22.003,44.005,22z"/>
-<path class="social-icon-color" d="M31.986,26c3.313-0.008,6.006,2.672,6.014,5.986c0.008,3.313-2.672,6.006-5.986,6.014c-3.313,0.008-6.006-2.672-6.014-5.985
-	C25.992,28.701,28.672,26.008,31.986,26z"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M32,6.3c23.8,0,25.7,1.9,25.7,25.7v0.2c0,23.6-1.8,25.5-25.5,25.5h-0.5c-23.6,0-25.5-1.8-25.5-25.5v-0.5
+	C6.3,8.2,8.2,6.3,31.8,6.3H32z"/>
+<path class="st1" d="M47.4,19.2c1.4,0,2.6-1.2,2.6-2.6c0-1.4-1.2-2.6-2.6-2.6c-1.4,0-2.6,1.2-2.6,2.6C44.8,18,46,19.2,47.4,19.2z"/>
+<path class="st1" d="M32,19.2c-7.1,0-12.8,5.8-12.8,12.9c0,7.1,5.8,12.8,12.9,12.8c7.1,0,12.8-5.8,12.8-12.9
+	C44.8,24.9,39.1,19.1,32,19.2z M32,39.7c-4.3,0-7.7-3.4-7.7-7.7c0-4.3,3.4-7.7,7.7-7.7c4.3,0,7.7,3.4,7.7,7.7
+	C39.7,36.2,36.3,39.7,32,39.7z"/>
 </svg>

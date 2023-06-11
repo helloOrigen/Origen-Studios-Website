@@ -1,9 +1,5 @@
 import React, { Fragment, useState  } from "react";
 
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-
 import Posts from "./posts";
 import Identity from "./identity";
 import Campaign from "./campaign";

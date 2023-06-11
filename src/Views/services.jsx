@@ -1,11 +1,6 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
 
-import "swiper/css/navigation";
 import "../Styles/seed.css";
-import { Autoplay, Keyboard, Pagination } from "swiper";
 import ContentBox from "../components/contentBox";
 import MapaMundi from "../assets/images/services/mapamundi.svg";
 import Fotomontaje from "../assets/images/services/fotomontaje.png";

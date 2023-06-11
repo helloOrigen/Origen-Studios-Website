@@ -11,7 +11,7 @@ import Notifier from './components/notifier';
 import Background2 from './assets/images/compressed/background-2.png';
 import './Styles/seed.css';
 import './Styles/home.css';
-import './Styles/firefly.css';
+
 
 // Vistas
 import * as Views from "./Views/index.jsx";
@@ -33,7 +33,7 @@ function App() {
     <Fragment>
  
        <div className="w-100 h-a h-pr-fl-ma of-h bg-black">
-        
+       <div id="modal-root" Style="z-index: 9999999;"></div>
       <div className="l-0px r-0px t-0px b-0px m-a "
           style={{
          backgroundImage: `url(${Background2})`,

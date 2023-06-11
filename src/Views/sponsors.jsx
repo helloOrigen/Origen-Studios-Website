@@ -1,7 +1,7 @@
 import React from 'react'
 import { Fragment } from "react";
 
-import Typewriter from "typewriter-effect";
+
 import ContentBox from "../components/contentBox";
 import OSLogoSymbol from "../assets/logo/OS-Logo-Symbol-White-Svg.svg";
 
@@ -18,12 +18,7 @@ import Btn from "../components/btn";
 const Sponsors = () => {
   var app = document.getElementById('app');
 
-  var typewriter = new Typewriter(app, {
-    loop: true,
-    delay: 40,
-   
-    
-});
+
 
   return (
   <Fragment>

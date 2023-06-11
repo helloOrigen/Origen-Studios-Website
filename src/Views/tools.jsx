@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-import Cifrador from "../components/cifrador";
+
 
 const Tools = () => {
   return (
@@ -11,7 +11,7 @@ const Tools = () => {
 
 {/*
     <div className="w-100 h-100 h-pr-fl-ma bg-red">
-        <Cifrador></Cifrador>
+        AQUI VAN LAS HERRAMIENTAS
 
 </div>*/}
 
