@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import ReactDOM from 'react-dom';
 
-const ImageComponent = ({ imageUrl }) => {
+const ImageComponent = ({ imageUrl, className }) => {
   const [modalOpen, setModalOpen] = useState(false);
   const imageRef = useRef(null);
 const [scale, setScale] = useState(1);
@@ -25,6 +25,7 @@ const [scale, setScale] = useState(1);
   const handleResetZoom = () => {
     setScale(1);
   };
+  
 
   if (modalOpen) {
     return ReactDOM.createPortal(
@@ -47,7 +48,7 @@ const [scale, setScale] = useState(1);
 
   return (
     <div className="img-component">
-      <img src={imageUrl} alt="Imagen" onClick={openModal} className="modal-image w-100 h-100 h-pr-fl-ma b-s-b-b bg-red " style={{ transform: `scale(${scale})` }}  />
+      <img src={imageUrl} alt="Imagen" onClick={openModal} className={` ${className} modal-image w-100 h-100 h-pr-fl-ma b-s-b-b bg-red `} style={{ transform: `scale(${scale})` }}  />
     </div>
   );
 };
