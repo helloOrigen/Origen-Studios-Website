@@ -55,7 +55,7 @@ export default function Home(props) {
       <div className="w-100 h-100 h-pr-fl-ma b-s-b-b of-x-auto f-f-Gilroy c-white">
         <div className="w-100 r-h-c h-100 h-pr-fl-ma">
           <div className="w-100 h-a h-pr-fl-ma b-s-b-b t-100px  m-d-b  m-t-10px m-b-20px ">
-            <h1 className="w-a h-a h-pr-fl-ma b-s-b-b r-h-c f-w-bo f-f-Gilroy ns-f-s-big m-ns-f-s-big">
+            <h1  className="w-a h-a h-pr-fl-ma b-s-b-b r-h-c f-w-bo f-f-Gilroy ns-f-s-big m-ns-f-s-big">
               OrigenStudios&zwj;
               <sup
                 className="m-d-n"
