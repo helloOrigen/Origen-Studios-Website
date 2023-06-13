@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 
+
 import Btn from "../components/btn";
 import ContentBox from "../components/contentBox";
-
 import CardContainer from "../components/cardcontainer";
 import Card from "../components/card";
 import ImageComponent from "../components/ImageComponent";
@@ -52,6 +52,7 @@ export default function Home(props) {
   ];
   return (
     <Fragment>
+    
       <div className="w-100 h-100 h-pr-fl-ma b-s-b-b of-x-auto f-f-Gilroy c-white">
         <div className="w-100 r-h-c h-100 h-pr-fl-ma">
           <div className="w-100 h-a h-pr-fl-ma b-s-b-b t-100px  m-d-b  m-t-10px m-b-20px ">
@@ -219,7 +220,7 @@ export default function Home(props) {
                     <img
                       className="w-and-h-50px bg-d p-5px"
                       src={WhatsappIcon}
-                      alt=""
+                      alt="Whatsapp"
                     />
                     <div className="w-80 h-a l-h-15px m-l-20px ">
                       <div className="w-100 h-a r-v-c">
@@ -239,31 +240,33 @@ export default function Home(props) {
                     </div>
                   </div>
                 </a>
+                <a href="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/">
                 <div className="w-100 h-a h-pr-fl-ma bg-d-t p-5px flexbox m-b-5px">
                   <img
                     className="w-and-h-50px bg-d p-5px"
                     src={Calendar}
-                    alt=""
+                    alt="Calendar"
                   />
                   <div className="w-80 h-a l-h-15px m-l-20px ">
                     <div className="w-100 h-a r-v-c">
                       <span className="w-100 f-w-bo">Agenda</span> <br />
                       <span className="h-pr-fl-maw-100 ns-f-s-small">
-                        (+598) 92 22 15 16
+                        Calendario Bookings (Disponible)
                       </span>
                     </div>
                   </div>
                   <div className="h-pr-fl-ma w-and-h-50px  ">
                     {" "}
-                    <Btn className="w-100 h-100" text="IR" enlace=""></Btn>{" "}
+                    <Btn className="w-100 h-100" text="IR" enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"></Btn>{" "}
                   </div>
                 </div>
+                </a>
                 <a href="mailto:hello@origenstudios.com">
                   <div className="w-100 h-a h-pr-fl-ma bg-d-t p-5px flexbox m-b-5px">
                     <img
                       className="w-and-h-50px bg-d p-5px"
                       src={Envelope}
-                      alt=""
+                      alt="Envelope"
                     />
                     <div className="w-80 h-a l-h-15px m-l-20px ">
                       <div className="w-100 h-a r-v-c">
