@@ -17,7 +17,7 @@ export default function ContactForm(props) {
             <div className=" nano ns-br-r-1 of-h default w-100px" Style=" margin: auto;">
               <div className="w-100 h-100 h-pr-fl-ma ns-bg-e ">
                 <span className="w-100 h-a h-pr-fl-ma p-t-20px p-10px">
-                  <img src={Calendar} className="w-and-h-70px" alt="" />
+                  <img src={Calendar} className="w-and-h-70px" alt="Calendar" />
                 </span>
                 <span className="w-100 h-a h-pr-fl-ma t-a-c m-ns-f-s-normal f-f-Gilroy p-10px f-w-bo">
                   Coordinar
@@ -33,7 +33,7 @@ export default function ContactForm(props) {
               <div className=" nano ns-br-r-1 of-h default  w-100px" Style=" margin: auto;">
                 <div className="w-100 h-100 h-pr-fl-ma info ">
                   <span className="w-100 h-a h-pr-fl-ma p-t-20px p-10px">
-                    <img src={Envelope} className="w-and-h-70px" alt="" />
+                    <img src={Envelope} className="w-and-h-70px" alt="Envelope" />
                   </span>
                   <span className="w-100 h-a h-pr-fl-ma t-a-c m-ns-f-s-normal f-f-Gilroy p-10px f-w-bo">
                     Correo
@@ -48,7 +48,7 @@ export default function ContactForm(props) {
               <div className=" nano ns-br-r-1 of-h default  w-100px" Style=" margin: auto;">
                 <div className="w-100 h-100 h-pr-fl-ma ns-bg-green ">
                   <span className="w-100 h-a h-pr-fl-ma p-t-20px p-10px">
-                    <img src={Whatsapp} className="w-and-h-70px" alt="" />
+                    <img src={Whatsapp} className="w-and-h-70px" alt="Whatsapp" />
                   </span>
                   <span className="w-100 h-a h-pr-fl-ma t-a-c m-ns-f-s-normal f-f-Gilroy p-10px f-w-bo">
                     Contacto

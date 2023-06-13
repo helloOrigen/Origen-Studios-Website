@@ -21,7 +21,7 @@ const Promo = () => {
         <div className="noselect w-100 h-a h-pr-fl-ma b-s-b-b  b-s-b-b ">
           <img
             src={PromoTitulo}
-            alt=""
+            alt="Titulo"
             className="w-100 h-100 h-pr-fl-ma"
             Style="object-fit: contain;"
           />
@@ -29,7 +29,7 @@ const Promo = () => {
         <div className="noselect m-d-n d-b w-100 h-a h-pr-fl-ma b-s-b-b p-20px b-s-b-b m-b-20px">
           <img
             src={PromoOferta}
-            alt=""
+            alt="Oferta"
             className="w-100 h-100 h-pr-fl-ma"
             Style="object-fit: contain;"
           />
@@ -37,7 +37,7 @@ const Promo = () => {
         <div className="noselect m-d-b d-n w-100 h-a h-pr-fl-ma b-s-b-b p-20px b-s-b-b m-b-50px">
           <img
             src={PromoOferta}
-            alt=""
+            alt="Promo"
             className="w-100 h-100 h-pr-fl-ma"
             Style="object-fit: contain; transform:scale(1.5);"
           />
@@ -55,7 +55,7 @@ const Promo = () => {
             >
               <img
                 src={Thumbnail1}
-                alt=""
+                alt="Logotipo"
                 className="w-100 h-100 h-pr-fl-ma h-e-scale"
                 Style="object-fit: cover;"
               />
@@ -82,7 +82,7 @@ const Promo = () => {
             >
               <img
                 src={Thumbnail2}
-                alt=""
+                alt="Manual de uso"
                 className="w-100 h-100 h-pr-fl-ma h-e-scale"
                 Style="object-fit: cover;"
               />
@@ -109,7 +109,7 @@ const Promo = () => {
             >
               <img
                 src={Thumbnail3}
-                alt=""
+                alt="Publicidad Masiva"
                 className="w-100 h-100 h-pr-fl-ma h-e-scale"
                 Style="object-fit: cover;"
               />
@@ -136,7 +136,7 @@ const Promo = () => {
             >
               <img
                 src={Thumbnail4}
-                alt=""
+                alt="Asesoría"
                 className="w-100 h-100 h-pr-fl-ma h-e-scale"
                 Style="object-fit: cover;"
               />

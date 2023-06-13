@@ -48,7 +48,7 @@ export default function Home(props) {
     "https://www.youtube.com/watch?v=IyJjKAGV1dk",
     "https://www.youtube.com/watch?v=DVqFyinDgE4",
 
-    // Agrega más URLs de YouTube según tu playlist
+
   ];
   return (
     <Fragment>
@@ -89,15 +89,9 @@ export default function Home(props) {
           {/*  // !                            SECCIÓN 1 |  CONTENEDOR CENTRAL                              */}
 
           {/* CONTENEDOR  */}
-          <div className=" w-95   r-h-c  m- w-95  h-a h-pr-fl-ma b-s-b-b bg-d m-d-b m-b-20px">
+          <div className="   r-h-c  m- w-95  h-a h-pr-fl-ma b-s-b-b bg-d m-d-b m-b-20px of-h">
             {/* PROCEDIMIENTO */}
 
-            {/*<MarqueeComponent
-        text="Ofrecemos soporte 24/7 y servicios para casos de emergencias, estando allí dónde la prioridad es ser los primeros. 131 Ofrecemos soporte 24/7 y servicios para casos de emergencias, estando allí dónde la prioridad es ser los primeros."
-        speed={100}
-        newsList={['Novedad 1', 'Novedad 2', 'Novedad 3']}
-      />
-   <RadioPlayer playlistUrls={playlistUrls} />*/}
             {/*  // ?                            SECCION 1 | CONTENIDO  80%                       */}
 
             <div className="w-70   p-10px tab-w-100 m-w-100 h-a h-pr-fl-ma b-s-b-b m-d-b  ">
@@ -299,42 +293,42 @@ export default function Home(props) {
                     <img
                       className="w-and-h-50px h-pr-fl-ma bg-d p-5px c-p h-e"
                       src={InstagramIcon}
-                      alt=""
+                      alt="Instagram"
                     />
                   </a>
                   <a href="https://www.behance.net/origenstudios">
                     <img
                       className="w-and-h-50px h-pr-fl-ma bg-d p-5px c-p h-e"
                       src={BehanceIcon}
-                      alt=""
+                      alt="Behance"
                     />
                   </a>
                   <a href="https://Twitter.com/helloorigen">
                     <img
                       className="w-and-h-50px h-pr-fl-ma bg-d p-5px c-p h-e"
                       src={TwitterIcon}
-                      alt=""
+                      alt="Twitter"
                     />
                   </a>
                   <a href="https://Facebook.com/helloorigen">
                     <img
                       className="w-and-h-50px h-pr-fl-ma bg-d p-5px c-p h-e"
                       src={FacebookIcon}
-                      alt=""
+                      alt="Facebook"
                     />
                   </a>
                   <a href="https://Linkedin.com/company/helloorigen">
                     <img
                       className="w-and-h-50px h-pr-fl-ma bg-d  p-5px c-p h-e"
                       src={LinkedinIcon}
-                      alt=""
+                      alt="Linkedin"
                     />
                   </a>
                   <a href="https://discord.gg/UMAFqpD8Xr">
                     <img
                       className="w-and-h-50px h-pr-fl-ma bg-d p-5px c-p h-e"
                       src={DiscordIcon}
-                      alt=""
+                      alt="Discord"
                     />
                   </a>
                 </div>
@@ -400,7 +394,7 @@ export default function Home(props) {
                       <img
                         className="h-40px h-pr-fl-ma "
                         src={ChevronRight}
-                        alt=""
+                        alt="ChevronRight"
                       />
                     </div>
                   </div>
@@ -422,7 +416,7 @@ export default function Home(props) {
                       <img
                         className="h-40px h-pr-fl-ma "
                         src={ChevronRight}
-                        alt=""
+                        alt="ChevronRight"
                       />
                     </div>
                   </div>{" "}
@@ -444,7 +438,7 @@ export default function Home(props) {
                       <img
                         className="h-40px h-pr-fl-ma "
                         src={CheckCircle}
-                        alt=""
+                        alt="CheckCircle"
                       />
                     </div>
                   </div>

@@ -2,11 +2,7 @@ import React from "react";
 
 import "../Styles/seed.css";
 import ContentBox from "../components/contentBox";
-import MapaMundi from "../assets/images/services/mapamundi.svg";
-import Fotomontaje from "../assets/images/services/fotomontaje.png";
-import MundoIlustracion from "../assets/images/services/mundo-ilustracion.png";
-import PersonaElegida from "../assets/images/services/persona-elegida.png";
-import PiramidesArabe from "../assets/images/services/piramides-arabe.png";
+
 
 import ColorsWpp from "../assets/images/compressed/colors.jpg";
 import Marketing from "../assets/images/compressed/marketing.jpg";
@@ -22,7 +18,7 @@ export default function Services(props) {
           <div className=" w-100 h-100 p-a m-a b-s-b-b of-n p-10px">
             <img
               src={ColorsWpp}
-              alt=""
+              alt="Diseño"
               className="w-100 h-100  m-a b-s-b-b h-e-scale "
               Style="object-fit: cover;"
             />{" "}
@@ -40,7 +36,7 @@ export default function Services(props) {
           <div className=" w-100 h-100 p-a m-a b-s-b-b of-n p-10px">
             <img
               src={Marketing}
-              alt=""
+              alt="Marketing"
               className="w-100 h-100  m-a b-s-b-b h-e-scale "
               Style="object-fit: cover;"
             />{" "}
@@ -58,7 +54,7 @@ export default function Services(props) {
           <div className=" w-100 h-100 p-a m-a b-s-b-b of-n p-10px">
             <img
               src={Reclutamiento}
-              alt=""
+              alt="Reclutamiento"
               className="w-100 h-100  m-a b-s-b-b h-e-scale "
               Style="object-fit: cover;"
             />{" "}
@@ -76,7 +72,7 @@ export default function Services(props) {
           <div className=" w-100 h-100 p-a m-a b-s-b-b of-n p-10px  ">
             <img
               src={Asesora}
-              alt=""
+              alt="Asesoría"
               className="w-100 h-100  m-a b-s-b-b h-e-scale "
               Style="object-fit: cover;"
             />{" "}
@@ -98,7 +94,7 @@ export default function Services(props) {
             <div className=" w-100 h-100 p-a m-a b-s-b-b of-n">
               <img
                 src={ColorsWpp}
-                alt=""
+                alt="Diseño"
                 className="w-100 h-100  m-a b-s-b-b h-e-scale "
                 Style="object-fit: cover;"
               />{" "}
