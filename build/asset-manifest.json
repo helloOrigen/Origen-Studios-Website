@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bd816451.css",
-    "main.js": "/static/js/main.8e98def8.js",
+    "main.js": "/static/js/main.52d5755b.js",
     "static/js/496.9dab60d2.chunk.js": "/static/js/496.9dab60d2.chunk.js",
     "static/media/casos-de-exito-oferta.svg": "/static/media/casos-de-exito-oferta.b28c45d5178959cbd1949336f232d880.svg",
     "static/media/casos-de-exito-banner-menu.gif": "/static/media/casos-de-exito-banner-menu.0890c758a59176b14513.gif",
@@ -20,13 +20,14 @@
     "static/media/aromadeamor.jpg": "/static/media/aromadeamor.7f2c1e5c2120163e4f50.jpg",
     "static/media/guerrera-atemporal.jpg": "/static/media/guerrera-atemporal.5a4ef190dcd8ec6371d7.jpg",
     "static/media/camisa.jpg": "/static/media/camisa.7f1d27c773fe045c9b77.jpg",
-    "static/media/theory-fragance.jpg": "/static/media/theory-fragance.9ad3232180df53d5d016.jpg",
     "service-worker.js": "/service-worker.js",
+    "static/media/theory-fragance.jpg": "/static/media/theory-fragance.9ad3232180df53d5d016.jpg",
     "static/media/caffeine.jpg": "/static/media/caffeine.b5e7d25a15c5f8709158.jpg",
     "static/media/colors.jpg": "/static/media/colors.2c76b022e2712ca404b9.jpg",
     "static/media/reclutamiento.jpg": "/static/media/reclutamiento.83223b8f279d0d294625.jpg",
     "static/media/ebook.jpg": "/static/media/ebook.158efc4d3e9ace738cc6.jpg",
     "static/media/OS-logotipo-m-white-transparent_svg.svg": "/static/media/OS-logotipo-m-white-transparent_svg.e6336003b3969df9c46b91e17028b0b1.svg",
+    "static/media/saboreame-burger.jpg": "/static/media/saboreame-burger.ccbdc56edc6f56735f2b.jpg",
     "static/media/asesora.jpg": "/static/media/asesora.41dc25baed943e24606d.jpg",
     "static/media/casos-de-exito-titulo.svg": "/static/media/casos-de-exito-titulo.0d908ec061fe91a7fdbbb473d83b73ec.svg",
     "static/media/marketing.jpg": "/static/media/marketing.c16f37215d0af27747af.jpg",
@@ -76,11 +77,11 @@
     "static/media/chevron_right.svg": "/static/media/chevron_right.4aec8e1324a1f7ded654040753a619d6.svg",
     "static/media/close.svg": "/static/media/close.0712d4c0fd22e6e4a6f2888d0d61b1c7.svg",
     "main.bd816451.css.map": "/static/css/main.bd816451.css.map",
-    "main.8e98def8.js.map": "/static/js/main.8e98def8.js.map",
+    "main.52d5755b.js.map": "/static/js/main.52d5755b.js.map",
     "496.9dab60d2.chunk.js.map": "/static/js/496.9dab60d2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd816451.css",
-    "static/js/main.8e98def8.js"
+    "static/js/main.52d5755b.js"
   ]
 }

@@ -9,7 +9,7 @@ import ColorsWpp from "../assets/images/compressed/colors.jpg";
 import Marketing from "../assets/images/compressed/marketing.jpg";
 import Reclutamiento from "../assets/images/compressed/reclutamiento.jpg";
 import Asesora from "../assets/images/compressed/asesora.jpg";
-
+import SaboreameBurger from "../assets/images/compressed/saboreame-burger.jpg";
 export default function Services(props) {
   return (
     <>
@@ -93,7 +93,7 @@ export default function Services(props) {
             {" "}
             <div className=" w-100 h-100 p-a m-a b-s-b-b of-n">
               <img
-                src={ColorsWpp}
+                src={SaboreameBurger}
                 alt="Diseño"
                 className="w-100 h-100  m-a b-s-b-b h-e-scale "
                 Style="object-fit: cover;"
