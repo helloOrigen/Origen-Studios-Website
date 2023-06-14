@@ -1,5 +1,6 @@
-import React from "react";
+import React, { Fragment } from "react";
 import "../Styles/seed.css";
+
 import Btn from "./btn";
 import ImageComponent from "./ImageComponent";
 export default function Card(props) {
@@ -32,13 +33,19 @@ export default function Card(props) {
 
   return (
     <>
+     
+   
+     
+  
+ 
       <div
         className={`w-a h-a h-pr-fl-ma ${type} d-n-on-h-container card h-e b-s-b-b of-h ${CardClassName} ${color} c-p  br-w-1px br-s-solid ns-b-c-e-h br-r-10px`} 
       >
-       
+
         {image && (
           <div className=" w-100 h-100 card m-a b-s-b-b of-n">
-            <ImageComponent imageUrl={` ${image} `}   alt={` ${alt} `} Style="object-fit: cover;" className="w-100 h-100  m-a b-s-b-b h-e-scale "></ImageComponent>
+           
+            <ImageComponent imageUrl={` ${image} `}   alt={` ${alt} `} Style="object-fit: cover;" className="w-100 h-100  m-a b-s-b-b h-e-scale "> </ImageComponent>
           
           </div>
         )}
@@ -143,7 +150,9 @@ export default function Card(props) {
             ></Btn>
           </div>
         )}
+       
       </div>
+  
     </>
   );
 }

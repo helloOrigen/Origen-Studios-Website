@@ -29,6 +29,7 @@ import ChevronRight from "../assets/icons/chevron_right.svg";
 import CheckCircle from "../assets/icons/check-circle.svg";
 import Calendar from "../assets/icons/calendar.svg";
 import Envelope from "../assets/icons/envelope.svg";
+import Title from "../components/title";
 
 import LinkedinIcon from "../assets/icons/linkedin-icon.svg";
 import InstagramIcon from "../assets/icons/instagram-icon.svg";
@@ -55,24 +56,14 @@ export default function Home(props) {
     
       <div className="w-100 h-100 h-pr-fl-ma b-s-b-b of-x-auto f-f-Gilroy c-white">
         <div className="w-100 r-h-c h-100 h-pr-fl-ma">
-          <div className="w-100 h-a h-pr-fl-ma b-s-b-b t-100px  m-d-b  m-t-10px m-b-20px ">
-            <h1  className="w-a h-a h-pr-fl-ma b-s-b-b r-h-c f-w-bo f-f-Gilroy ns-f-s-big m-ns-f-s-big">
-              OrigenStudios&zwj;
-              <sup
-                className="m-d-n"
-                className="RegHome"
-                Style="font-size:33px; top: -30px;"
-              >
-                &reg;
-              </sup>
-              <br />
-            </h1>
-            <h2 className="w-100 h-a h-pr-fl-ma b-s-b-b p-b-100px r-h-c f-w-bo f-f-Gilroy ns-f-s-medium SlogHome t-a-c ">
-              Somos el origen de su marca
-            </h2>
+          <div className="w-100 h-a h-pr-fl-ma b-s-b-bs t-a-c m-d-b  m-t-100px m-b-50px ">
+ 
 
-            <div className="w-80 m-w-100 r-h-c h-a  h-pr-fl-ma b-s-b-b  m-t-20px m-b-20px ">
-              <div className=" m-w-80 r-h-c h-a h-pr-fl-ma b-s-b-b flexbox f-w-n-w  ">
+            <div className="w-80 m-w-100 r-h-c h-a h-pr-fl-ma b-s-b-b   m-b-20px ">
+            <Title h1="OrigenStudios" sup="&reg;"></Title>
+          <Title h3="Somos el origen de su marca" ></Title>
+          
+              <div className=" m-w-80 r-h-c h-a h-pr-fl-ma b-s-b-b flexbox f-w-n-w m-t-40px  ">
                 <Btn
                   className="w-200px m-w-100 p-l-20px p-r-20px p-10px m-5px f-w-bo br-s-solid br-c-white br-r-50px"
                   text="Productos"
@@ -99,8 +90,8 @@ export default function Home(props) {
 
               <div className="w-100 h-a  m-h-auto bg-d-t b-s-b-b m-w-100 tab-w-100 h-a h-pr-fl-ma m-b-20px">
                 <div className="w-100 h-a t-a-c h-pr-fl-ma ns-f-s-medium  f-f-Gilroy f-w-bo b-s-b-b p-20px">
-                  {" "}
-                  ¿Qué podemos hacer por y para ti?
+                <Title h2=" ¿Qué podemos hacer por y para ti?" ></Title>
+                 
                 </div>
                 <div className="w-100 h-100 h-pr-fl-ma  b-s-b-b p-20px">
                   <CardContainer className="m-b-20px h-a ">

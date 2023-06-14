@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // Componentes personalizados
@@ -8,7 +9,7 @@ import MobileMenu from './components/mobileMenu';
 import Notifier from './components/notifier';
 
 // Estilos y recursos
-import Background2 from './assets/images/compressed/background-2.png';
+import Background2 from './assets/images/compressed/background-2.jpg';
 import './Styles/seed.css';
 import './Styles/home.css';
 
@@ -56,7 +57,7 @@ function App() {
         
        
       
-
+    
         <div className="h-pr-fl-ma w-100 h-50 b-s-b-b  ">
           {/* 70% Height  Body Container*/}
           <div className="h-pr-fl-ma w-100 h-100  b-s-b-b   ">
@@ -83,7 +84,7 @@ function App() {
            <Route exact path="/plans/:id" element={<Views.Plans/>} />
            <Route  path="/plans/posts" element={<Views.Posts/>} />
            <Route  path="/plans/identity" element={<Views.Identity/>} />
-           <Route  path="/plans/campaign" element={<Views.Campaign/>} />
+         
 
            <Route exact path="/process" element={<Views.Process/>} />
 
@@ -110,6 +111,7 @@ function App() {
           />
        
         </div>
+       
         <div
           className="h-pr-fl-ma w-100 h-70px b-s-b-b of-v b-0px m-p-f" Style="z-index: 9999;"
          

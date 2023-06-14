@@ -12,7 +12,6 @@ export {default as Cookies } from './cookies';
 export {default as Plans } from './plans';
 export {default as Posts } from './posts';
 export {default as Identity } from './identity';
-export {default as Campaign } from './campaign';
 export {default as Page404 } from './page404';
 export {default as Process } from './process';
 

@@ -2,7 +2,7 @@ import React, { Fragment, useState  } from "react";
 
 import Posts from "./posts";
 import Identity from "./identity";
-import Campaign from "./campaign";
+
 
 const Tabs = ({ children }) => {
   const [activeTab, setActiveTab] = useState(0);
@@ -49,7 +49,7 @@ const Tabs = ({ children }) => {
 
 const posts = () => <Posts/>;
 const identity = () => <Identity/>;
-const campaign = () => <Campaign/>;
+
 const Plans = () => (
   
   <Tabs>
@@ -59,9 +59,7 @@ const Plans = () => (
     <div label="Identidad de marca">
       <Identity />
     </div>
-    <div label="Campañas">
-      <Campaign />
-    </div>
+
     
   </Tabs>
  

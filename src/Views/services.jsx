@@ -2,7 +2,8 @@ import React from "react";
 
 import "../Styles/seed.css";
 import ContentBox from "../components/contentBox";
-
+import Btn from "../components/btn";
+import Title from "../components/title";
 
 import ColorsWpp from "../assets/images/compressed/colors.jpg";
 import Marketing from "../assets/images/compressed/marketing.jpg";
@@ -12,84 +13,20 @@ import Asesora from "../assets/images/compressed/asesora.jpg";
 export default function Services(props) {
   return (
     <>
-      <div className="w-90 r-h-c m-w-100 h-a h-pr-fl-ma flexbox m-d-b p-20px b-s-b-b m-t-20px m-b-20px">
-        <div className="w-25 m-w-100 m-h-400px  h-70vh h-pr-fl-ma bg-d   of-h">
-          {" "}
-          <div className=" w-100 h-100 p-a m-a b-s-b-b of-n p-10px">
-            <img
-              src={ColorsWpp}
-              alt="Diseño"
-              className="w-100 h-100  m-a b-s-b-b h-e-scale "
-              Style="object-fit: cover;"
-            />{" "}
-          </div>
-          <div className="w-100 h-a p-a f-f-Gilroy ns-f-s-medium p-5px b-0px">
-            <div className="w-100 h-100 h-pr-fl-ma bg-d p-5px f-w-bo t-a-c ">
-              DISEÑO
-              <br />
-              GRÁFICO
-            </div>
-          </div>
-        </div>
-        <div className="w-25 m-w-100 m-h-400px m-h-a  h-70vh h-pr-fl-ma bg-d   of-h">
-          {" "}
-          <div className=" w-100 h-100 p-a m-a b-s-b-b of-n p-10px">
-            <img
-              src={Marketing}
-              alt="Marketing"
-              className="w-100 h-100  m-a b-s-b-b h-e-scale "
-              Style="object-fit: cover;"
-            />{" "}
-          </div>
-          <div className="w-100 h-a p-a f-f-Gilroy ns-f-s-medium p-5px b-0px">
-            <div className="w-100 h-100 h-pr-fl-ma bg-d p-5px f-w-bo t-a-c ">
-              MARKETING
-              <br />
-              DIGITAL
-            </div>
-          </div>
-        </div>
-        <div className="w-25 m-w-100 m-h-400px m-h-a  h-70vh h-pr-fl-ma bg-d   of-h">
-          {" "}
-          <div className=" w-100 h-100 p-a m-a b-s-b-b of-n p-10px">
-            <img
-              src={Reclutamiento}
-              alt="Reclutamiento"
-              className="w-100 h-100  m-a b-s-b-b h-e-scale "
-              Style="object-fit: cover;"
-            />{" "}
-          </div>
-          <div className="w-100 h-a p-a f-f-Gilroy ns-f-s-medium p-5px b-0px">
-            <div className="w-100 h-100 h-pr-fl-ma bg-d p-5px f-w-bo t-a-c ">
-              RECLUTAMIENTO
-              <br />
-              GLOBAL
-            </div>
-          </div>
-        </div>
-        <div className="w-25 m-w-100 m-h-400px m-h-a  h-70vh h-pr-fl-ma  bg-d  of-h">
-          {" "}
-          <div className=" w-100 h-100 p-a m-a b-s-b-b of-n p-10px  ">
-            <img
-              src={Asesora}
-              alt="Asesoría"
-              className="w-100 h-100  m-a b-s-b-b h-e-scale "
-              Style="object-fit: cover;"
-            />{" "}
-          </div>
-          <div className="w-100 h-a p-a f-f-Gilroy ns-f-s-medium p-5px b-0px">
-            <div className="w-100 h-100 h-pr-fl-ma bg-d p-5px f-w-bo t-a-c ">
-              ASESORÍAS
-              <br />
-              PERSONALIZADAS
-            </div>
-          </div>
-        </div>
+      {/*  // !                            SECCIÓN 1 |  TITULO                             */}
+
+      <div className="w-95 r-h-c m-w-100 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
+        <Title
+          h1="Servicios"
+          className="w-100 t-a-c m-t-100px m-b-100px"
+        ></Title>
       </div>
 
-      <div className="w-90 r-h-c m-w-100 h-a h-pr-fl-ma flexbox m-d-b p-20px b-s-b-b m-b-20px">
-        <div className="w-100 m-w-100 m-h-a  h-70vh h-pr-fl-ma bg-d  of-h flexbox p-20px">
-          <div className="w-25 m-w-100 m-d-n  h-500px h-pr-fl-ma bg-d   of-h">
+      {/*  // !                            SECCIÓN 2 |  DISEÑO                            */}
+
+      <div className="w-95 r-h-c m-w-100 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
+        <div className="w-100 m-w-100 m-h-a  h-a h-pr-fl-ma bg-d p-20px of-h  ">
+          <div className="w-25 m-w-100   h-500px h-pr-fl-ma bg-d   of-h">
             {" "}
             <div className=" w-100 h-100 p-a m-a b-s-b-b of-n">
               <img
@@ -107,10 +44,10 @@ export default function Services(props) {
               </div>
             </div>
           </div>
-          <div className="w-75 m-w-100 h-a h-pr-fl-ma bg-d p-20px of-h">
+          <div className="w-75 m-w-100 h-a h-pr-fl-ma  p-20px of-h">
             {" "}
             <ContentBox
-              className="p-20px bg-d"
+              className="p-20px "
               title="Diseño gráfico"
               subtitle="Hacemos realidad su ecosistema digital."
               text="Creamos todos los assets para su idea, proyecto, empresa, evento, producto y/o servicio."
@@ -129,17 +66,101 @@ export default function Services(props) {
             <div className="tag">BANNERS WEB</div>
             <div className="tag">CORRECCIÓN FOTOGRÁFICA</div>
             <ContentBox
-              className="p-20px bg-d"
-             subtitle="Cómo funciona?"
-             
+              className="p-20px "
+              subtitle="Cómo funciona?"
               text="1) Celebramos una reunión. 2) Definimos el presupuesto disponible. 3) Completamos un Briefing. 4) Comenzamos la producción."
             ></ContentBox>
-             <ContentBox
-              className="p-20px bg-d"
-             subtitle="¿Cuantas modificaciones puedo hacer?"
-             
-              text="Por cada pieza a diseñar tendrá hasta 3 etapas de afinación/ajuste gratuitas para realizar los cambios que deseee. El costo por ajustes extras dependerá de la complejidad, la urgencia y el tiempo disponible para cambios, estos se mencionarán una vez completado el Briefing."
+            <div className="w-100 h-a bg-d h-pr-fl-ma b-s-b-b flexbox m-d-b">
+              <Title
+                className="w-a m-w-100 h-a h-pr-fl-ma b-s-b-b p-20px"
+                h3="¿Quieres saber más? Coordinemos una reunión!"
+              ></Title>
+              <div className="w-a m-w-100 h-a h-pr-fl-ma b-s-b-b p-20px">
+                <Btn
+                  className="w-a ns-bg-e p-10px f-w-bo"
+                  text="Coordinar Reunión"
+                ></Btn>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/*  // !                            SECCIÓN 2 | MARKETING                            */}
+      <div className="w-95 r-h-c m-w-100 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
+        <div className="w-100 m-w-100 m-h-a  h-a h-pr-fl-ma bg-d p-20px of-h  ">
+          <div className="w-25 m-w-100   h-500px h-pr-fl-ma bg-d   of-h">
+            {" "}
+            <div className=" w-100 h-100 p-a m-a b-s-b-b of-n">
+              <img
+                src={ColorsWpp}
+                alt="Diseño"
+                className="w-100 h-100  m-a b-s-b-b h-e-scale "
+                Style="object-fit: cover;"
+              />{" "}
+            </div>
+            <div className="w-100 h-a p-a f-f-Gilroy ns-f-s-medium p-5px b-0px">
+              <div className="w-100 h-100 h-pr-fl-ma bg-d p-5px f-w-bo t-a-c ">
+                MARKETING
+              </div>
+            </div>
+          </div>
+          <div className="w-75 m-w-100 h-a h-pr-fl-ma  p-20px of-h">
+            {" "}
+            <ContentBox
+              className="p-20px "
+              title="MARKETING"
+              subtitle="Te conectamos con tus clientes potenciales."
+              text="Generamos estratégias comerciales dirigidas a su sector y potenciamos su visibilidad en el mercado."
+            ></ContentBox>{" "}
+            <div className="tag">SEO</div>
+            <div className="tag">SEM</div>{" "}
+            <div className="tag"> Marketing de Contenidos</div>{" "}
+            <div className="tag"> Redes Sociales</div>{" "}
+            <div className="tag"> Email Marketing</div>{" "}
+            <div className="tag"> Analítica Web</div>{" "}
+            <div className="tag"> Publicidad en Línea</div>{" "}
+            <div className="tag"> Inbound Marketing</div>{" "}
+            <div className="tag"> Marketing de Influencers</div>{" "}
+            <div className="tag"> Estrategia Digital</div>{" "}
+            <div className="tag"> Optimización de Conversiones</div>{" "}
+            <div className="tag"> Marketing de Afiliados</div>{" "}
+            <div className="tag"> Marketing de Contenido Visual</div>{" "}
+            <div className="tag"> Automatización de Marketing</div>{" "}
+            <div className="tag"> Remarketing</div>{" "}
+            <div className="tag"> Marketing en Buscadores</div>{" "}
+            <div className="tag"> Estrategia de Palabras Clave</div>{" "}
+            <div className="tag"> Social Media Management</div>{" "}
+            <div className="tag"> Desarrollo de Sitios Web</div>{" "}
+            <div className="tag"> Marketing de Video</div>{" "}
+            <div className="tag"> Marketing de Contenido en Redes Sociales</div>{" "}
+            <div className="tag"> Estrategia de Embudos de Ventas</div>{" "}
+            <div className="tag"> Generación de Leads</div>{" "}
+            <div className="tag"> Marketing de Productos Digitales</div>{" "}
+            <div className="tag"> Publicidad en Redes Sociales</div>{" "}
+            <div className="tag"> Marketing en Dispositivos Móviles</div>{" "}
+            <div className="tag"> Relaciones Públicas Digitales</div>{" "}
+            <div className="tag"> Investigación de Mercado Online</div>{" "}
+            <div className="tag"> Posicionamiento de Marca</div>{" "}
+            <div className="tag"> Estrategia de Marketing Digital</div>{" "}
+            <div className="tag"> Marketing de E-commerce</div>
+            <ContentBox
+              className="p-20px "
+              subtitle="Cómo funciona?"
+              text="1) Celebramos una reunión. 2) Definimos el presupuesto disponible. 3) Completamos un Briefing. 4) Comenzamos la producción."
             ></ContentBox>
+            <div className="w-100 h-a bg-d h-pr-fl-ma b-s-b-b flexbox m-d-b">
+              <Title
+                className="w-a m-w-100 h-a h-pr-fl-ma b-s-b-b p-20px"
+                h3="¿Quieres saber más? Coordinemos una reunión!"
+              ></Title>
+              <div className="w-a m-w-100 h-a h-pr-fl-ma b-s-b-b p-20px">
+                <Btn
+                  className="w-a ns-bg-e p-10px f-w-bo"
+                  text="Coordinar Reunión"
+                ></Btn>
+              </div>
+            </div>
           </div>
         </div>
       </div>
