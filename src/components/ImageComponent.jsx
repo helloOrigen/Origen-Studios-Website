@@ -48,7 +48,7 @@ const [scale, setScale] = useState(1);
 
   return (
     <div className="img-component">
-      <img src={imageUrl} alt="Imagen" onClick={openModal} className={` ${className} modal-image w-100 h-100 h-pr-fl-ma b-s-b-b bg-red `} style={{ transform: `scale(${scale})` }}  />
+      <img src={imageUrl} alt="Imagen" onClick={openModal} className={` ${className} modal-image w-100 h-100 h-pr-fl-ma b-s-b-b `} style={{ transform: `scale(${scale})` }}  />
     </div>
   );
 };

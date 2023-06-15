@@ -103,11 +103,11 @@ function App() {
           </div>
 
          
-          <Notifier className="w-50" Accept
-            title="Politica de cookies"
-            text={` ${" Utilizamos cookies en nuestro sitio web para ofrecerle la mejor experiencia de usuario posible. Si continúa utilizando nuestro sitio web o nuestros servicios, acepta su uso."}`}
+          <Notifier className="w-50  UnderLineText " Accept
+          
+            text=" Utilizamos &#127850; cookies en este sitio ofrecerle la mejor experiencia de usuario posible."
             link="/cookies"
-            action="Más información."
+            action="Saber más..."
           />
        
         </div>

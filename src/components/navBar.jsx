@@ -27,26 +27,20 @@ const navBar = () => {
         </Link>
         <Link to="/team">
           <NavBarBtn className="m-d-n noselect" text={"Nosotros"}>
-            <NavSubItem text="Equipo" enlace=""></NavSubItem>
+           {/*    <NavSubItem text="Equipo" enlace=""></NavSubItem>
             <NavSubItem text="História" enlace=""></NavSubItem>
             <NavSubItem text="Propósito" enlace=""></NavSubItem>
             <NavSubItem text="Experiencia" enlace=""></NavSubItem>
-            <NavSubItem text="Sponsors" enlace=""></NavSubItem>
+            <NavSubItem text="Sponsors" enlace=""></NavSubItem>*/}
           </NavBarBtn>
         </Link>
         
         <Link  to="/services">
            
-          <NavBarBtn className="m-d-n noselect" text={"Servicios"}>
-         
-            <NavSubItem text="Diseño gráfico" enlace=""></NavSubItem>
-            <NavSubItem text="Marketing Digital" enlace=""></NavSubItem>
-            <NavSubItem text="Reclutamiento Global" enlace=""></NavSubItem>
-            <NavSubItem text="Asesorías personalizadas" enlace=""></NavSubItem>
-            </NavBarBtn>
+          <NavBarBtn className="m-d-n noselect" text={"Servicios"}></NavBarBtn>
          
         </Link>
-        <Link  to="/services">
+    {/*     <Link  to="/services">
            
            <NavBarBtn className="m-d-n noselect" text={"Soluciones"}>
            <NavSubItem text="Generación IA" enlace=""></NavSubItem>
@@ -56,23 +50,28 @@ const navBar = () => {
              <NavSubItem text="Anuncios Publicitarios" enlace=""></NavSubItem>
              </NavBarBtn>
           
-         </Link>
+         </Link>*/}
+
         <Link to="/plans">
            
           <NavBarBtn className="m-d-n noselect" text={"Planes"}>
-          <NavSubItem text="Para usted" enlace=""></NavSubItem>
-            <NavSubItem text="Para su proyecto" enlace=""></NavSubItem>
-            <NavSubItem text="Para su empresa" enlace=""></NavSubItem>
-            <NavSubItem text="Para su carrera" enlace=""></NavSubItem>
+          <NavSubItem text="Planes de Identidad" enlace="/plans/identity" className="ns-bg-darkgreen c-white"></NavSubItem>
+            <NavSubItem text="Planes de Contenidos" enlace="/plans/posts" className="ns-bg-blue c-white"></NavSubItem>
+
+
 
           </NavBarBtn>
         </Link>
         
-        <Link to="/tools"><NavBarBtn className="m-d-n noselect" text={"Herramientas"}>
-        <NavSubItem text="InteligenciaS Artificiales" enlace=""></NavSubItem>
-            <NavSubItem text="Utilidades de oficina" enlace=""></NavSubItem>
-            <NavSubItem text="Utilidades Descargables" enlace=""></NavSubItem></NavBarBtn></Link>
-    
+         {/* <Link to="/tools"><NavBarBtn className="m-d-n noselect" text={"Herramientas"}>
+        <NavSubItem text="Inteligencias Artificiales" enlace=""></NavSubItem>
+          <NavSubItem text="Utilidades de oficina" enlace=""></NavSubItem>
+            <NavSubItem text="Utilidades Descargables" enlace=""></NavSubItem>
+            <NavSubItem text="Assets 2D" enlace=""></NavSubItem>
+            <NavSubItem text="Assets 3D" enlace=""></NavSubItem>
+            <NavSubItem text="Guía para redes" enlace=""></NavSubItem>
+            </NavBarBtn></Link> */}
+       
         <Link to="/promo"><NavBarBtn className="m-d-n noselect" text={"Promos"} news></NavBarBtn></Link>
         </div>
 

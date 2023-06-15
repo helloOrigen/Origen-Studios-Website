@@ -67,6 +67,7 @@ export default function Home(props) {
                 <Btn
                   className="w-200px m-w-100 p-l-20px p-r-20px p-10px m-5px f-w-bo br-s-solid br-c-white br-r-50px"
                   text="Productos"
+                  enlace="/"
                 ></Btn>
                 <Btn
                   className="w-200px m-w-100  p-l-20px p-r-20px p-10px m-5px f-w-bo  br-s-solid br-c-white br-r-50px"
@@ -218,6 +219,7 @@ export default function Home(props) {
                     <div className="h-pr-fl-ma w-and-h-50px  ">
                       {" "}
                       <Btn
+                      enlace="on"
                         className="w-100 h-100"
                         text="IR"
                         enlace="https://wa.me/message/QEHFJE3NEAVTE1"
@@ -242,7 +244,7 @@ export default function Home(props) {
                   </div>
                   <div className="h-pr-fl-ma w-and-h-50px  ">
                     {" "}
-                    <Btn className="w-100 h-100" text="IR" enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"></Btn>{" "}
+                    <Btn className="w-100 h-100" text="IR"  enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"></Btn>{" "}
                   </div>
                 </div>
                 </a>

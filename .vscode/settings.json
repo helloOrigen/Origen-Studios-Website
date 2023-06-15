@@ -1,6 +1,9 @@
 {
     "git.ignoreLimitWarning": true,
     "better-comments.tags": [
+
+
+
         
 
 
@@ -10,7 +13,7 @@
             "strikethrough": false,
             "underline": false,
             "backgroundColor": "#ed293e",
-            "bold": false,
+            "bold": true,
             "italic": false
         },
         {
@@ -19,7 +22,52 @@
             "strikethrough": false,
             "underline": false,
             "backgroundColor": "#5857FA",
-            "bold": false,
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": "info",
+            "color": "#ffffff",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "#0096FF",
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": "blue",
+            "color": "#ffffff",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "#005dcf",
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": "green",
+            "color": "#ffffff",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "#02e473",
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": "yellow",
+            "color": "#ffffff",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "#ffbb00",
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": "orange",
+            "color": "#ffffff",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "#ff9500",
+            "bold": true,
             "italic": false
         },
         {
@@ -28,7 +76,7 @@
             "strikethrough": true,
             "underline": false,
             "backgroundColor": "#666666",
-            "bold": false,
+            "bold": true,
             "italic": false
         },
         {
@@ -37,7 +85,7 @@
             "strikethrough": false,
             "underline": false,
             "backgroundColor": "#52BF90",
-            "bold": false,
+            "bold": true,
             "italic": false
         },
         {
@@ -46,7 +94,7 @@
             "strikethrough": false,
             "underline": false,
             "backgroundColor": "transparent",
-            "bold": false,
+            "bold": true,
             "italic": false
         }
     ]

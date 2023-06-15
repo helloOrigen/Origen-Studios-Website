@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bd816451.css",
-    "main.js": "/static/js/main.52d5755b.js",
+    "main.css": "/static/css/main.1a3f91dd.css",
+    "main.js": "/static/js/main.dc5f828d.js",
     "static/js/496.9dab60d2.chunk.js": "/static/js/496.9dab60d2.chunk.js",
     "static/media/casos-de-exito-oferta.svg": "/static/media/casos-de-exito-oferta.b28c45d5178959cbd1949336f232d880.svg",
     "static/media/casos-de-exito-banner-menu.gif": "/static/media/casos-de-exito-banner-menu.0890c758a59176b14513.gif",
@@ -58,6 +58,7 @@
     "static/media/translate.svg": "/static/media/translate.75726edc973ece91311cede2726727b7.svg",
     "static/media/cloud_upload.svg": "/static/media/cloud_upload.51bb5be4c4dac78132edf58dcfd877da.svg",
     "static/media/pen.svg": "/static/media/pen.7d35404db23207ff59407ccfc874eef2.svg",
+    "static/media/create.svg": "/static/media/create.9352aac34e65b8cc4fb59270cd7a8f52.svg",
     "static/media/document_stack.svg": "/static/media/document_stack.997a494edc1d2c6a492561ca20b26eba.svg",
     "static/media/lightbulb.svg": "/static/media/lightbulb.52fba1e49e201cfab044a465b3259313.svg",
     "static/media/document_list.svg": "/static/media/document_list.107d513117e1750138fb1945ac9f87c2.svg",
@@ -76,12 +77,12 @@
     "static/media/chevron_left.svg": "/static/media/chevron_left.c57246a50e9b6eecdd2fa206a166fd5d.svg",
     "static/media/chevron_right.svg": "/static/media/chevron_right.4aec8e1324a1f7ded654040753a619d6.svg",
     "static/media/close.svg": "/static/media/close.0712d4c0fd22e6e4a6f2888d0d61b1c7.svg",
-    "main.bd816451.css.map": "/static/css/main.bd816451.css.map",
-    "main.52d5755b.js.map": "/static/js/main.52d5755b.js.map",
+    "main.1a3f91dd.css.map": "/static/css/main.1a3f91dd.css.map",
+    "main.dc5f828d.js.map": "/static/js/main.dc5f828d.js.map",
     "496.9dab60d2.chunk.js.map": "/static/js/496.9dab60d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd816451.css",
-    "static/js/main.52d5755b.js"
+    "static/css/main.1a3f91dd.css",
+    "static/js/main.dc5f828d.js"
   ]
 }
