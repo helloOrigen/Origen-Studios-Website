@@ -1,7 +1,5 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-
 import React, { Fragment, useState } from "react";
-import "../Styles/seed.css";
 import Cookies from "js-cookie";
 
 const notifier = ({

@@ -1,7 +1,5 @@
 import React, { Fragment } from "react";
 
-import "../Styles/seed.css";
-
 export default function contentBox(props) {
   const {
     title,
@@ -27,7 +25,6 @@ export default function contentBox(props) {
     categoryclassName,
     children,
     pricing,
-    pricingclassName,
     antes,
     ahora,
     plazo,
@@ -136,11 +133,25 @@ export default function contentBox(props) {
               </i>{" "}
             </div>
             <div className="w-100 h-pr-fl-ma flexbox j-c-c  ">
-              <div className="w-a a-s-c ns-f-s-medium  f-w-bo  ns-c-e">{simbolo}</div>
-              <div className="w-a a-s-c ns-f-s-big flexbox"><div className=" a-s-b">{ahora}</div><div className=" a-s-b ns-f-s-normal f-w-bo">,&nbsp;{decimas}</div> </div>
-              <div className="w-a a-s-c ns-f-s-medium f-w-bo ns-c-e">{divisa}</div>
+              <div className="w-a a-s-c ns-f-s-medium  f-w-bo  ns-c-e">
+                {simbolo}
+              </div>
+              <div className="w-a a-s-c ns-f-s-big flexbox">
+                <div className=" a-s-b">{ahora}</div>
+                <div className=" a-s-b ns-f-s-normal f-w-bo">
+                  ,&nbsp;{decimas}
+                </div>{" "}
+              </div>
+              <div className="w-a a-s-c ns-f-s-medium f-w-bo ns-c-e">
+                {divisa}
+              </div>
             </div>
-            <div className="w-100 h-pr-fl-ma t-a-c f-w-bo " Style="color: #666666;">I.V.A. Inc./ {plazo} </div>
+            <div
+              className="w-100 h-pr-fl-ma t-a-c f-w-bo "
+              Style="color: #666666;"
+            >
+              I.V.A. Inc./ {plazo}{" "}
+            </div>
           </div>
         )}
       </div>

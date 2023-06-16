@@ -1,8 +1,5 @@
 import React, { Fragment, useState  } from "react";
 
-import Posts from "./posts";
-import Identity from "./identity";
-
 import ContentBox from "../components/contentBox";
 import Title from "../components/title";
 import Btn from "../components/btn";
@@ -12,7 +9,6 @@ import ImageComponent from "../components/ImageComponent";
 import CreateIcon from "../assets/icons/create.svg"
 
 const Plans = ({ children }) => {
-  const [activeTab, setActiveTab] = useState(0);
 
   return (
     <div className="w-95 r-h-c m-w-100 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">

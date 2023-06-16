@@ -109,7 +109,7 @@ Seed.css cortesía de:
 
 
 
-{/* IMAGE COMPONENT CSS init*/}
+/* IMAGE COMPONENT CSS init*/
 /* Modal Desktop */
 
 /* Estilos para el componente de imagen */
@@ -238,7 +238,9 @@ Seed.css cortesía de:
   cursor: pointer;
   z-index: 2;
  }
-{/* IMAGE COMPONENT CSS finish */}
+
+
+/* IMAGE COMPONENT CSS finish */
 
 @media only screen and (max-width: 768px) {
  .m-p-f{
@@ -264,9 +266,9 @@ Seed.css cortesía de:
 .bg-d{
   /*background default transparent*/
   /*background: rgba(0, 0, 0, 0.8);*/
-  background: #0b0b0b;
-  border-radius: 4px;
-  border: 1px solid rgba(100,100,100, 0.2);
+  background: #000000;
+  border-radius: 0px;
+  border: 1px solid #101010;
   backdrop-filter: blur(10px);
 }
 .t-5 {
@@ -519,7 +521,9 @@ animation: coinanimationsponsor 2s ease-in-out 1s both ;
   .tab-w-100{
     width: 100% !important;
   }
-
+  .tab-w-200px{
+    width: 200px !important;
+  }
 
   }
 
@@ -12317,14 +12321,14 @@ i.success {
 }
 
 .d-n {
-  display: none !important;
+  display: none ;
 }
 
 .d-h {
   display: hidden;
 }
-.d-i-flow{
-  display: ;
+.d-i-flex{
+  display: inline-flex ;
 }
 .d-v-h:hover {
   display: visible;

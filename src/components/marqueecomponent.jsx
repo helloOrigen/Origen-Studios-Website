@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from "react";
 
 const MarqueeComponent = () => {
   const [isPaused, setPaused] = useState(false);
@@ -16,43 +16,48 @@ const MarqueeComponent = () => {
   useEffect(() => {
     const marqueeElement = marqueeRef.current;
     const containerElement = containerRef.current;
-    
+
     if (isPaused) {
-      const distance = marqueeElement.offsetWidth - containerElement.offsetWidth;
+      const distance =
+        marqueeElement.offsetWidth - containerElement.offsetWidth;
       marqueeElement.style.transform = `translateX(-${distance}px)`;
     } else {
-      marqueeElement.style.transform = 'translateX(0)';
+      marqueeElement.style.transform = "translateX(0)";
     }
   }, [isPaused]);
 
   return (
     <div
-    className="w-100 h-30px h-pr-fl-ma bg-green m-5px p-t-5px b-s-b-b of-h"
-
+      className="w-100 h-30px h-pr-fl-ma bg-green m-5px p-t-5px b-s-b-b of-h"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
       <div
-      className="w-a m-a f-f-Gilroy f-w-bo bg-red of-h"
+        className="w-a m-a f-f-Gilroy f-w-bo bg-red of-h"
         ref={containerRef}
         style={{
-
-          display: 'flex',
-          position: 'absolute',
-          animation: 'marquee 20s linear infinite',
-          animationPlayState: `${isPaused ? 'paused' : 'running'}`,
-          lineHeight: '1em',
+          display: "flex",
+          position: "absolute",
+          animation: "marquee 20s linear infinite",
+          animationPlayState: `${isPaused ? "paused" : "running"}`,
+          lineHeight: "1em",
         }}
       >
         <div ref={marqueeRef} className="w-a bg-orange">
-          <span style={{ color: 'red' }}>Lorem ipsum dolor sit amet,{' '}</span>
-          <span style={{ color: 'blue' }}>consectetur adipiscing elit.{' '}</span>
-          <span style={{ color: 'green' }}>Sed cursus ante ac mauris fringilla,{' '}</span>
-          <span style={{ color: 'purple' }}>vel sagittis elit vestibulum.</span>
-          <span style={{ color: 'green' }}>Sed cursus ante ac mauris fringilla,{' '}</span>
-          <span style={{ color: 'purple' }}>vel sagittis elit vestibulum.</span>
-          <span style={{ color: 'green' }}>Sed cursus ante ac mauris fringilla,{' '}</span>
-          <span style={{ color: 'purple' }}>vel sagittis elit vestibulum.</span>
+          <span style={{ color: "red" }}>Lorem ipsum dolor sit amet, </span>
+          <span style={{ color: "blue" }}>consectetur adipiscing elit. </span>
+          <span style={{ color: "green" }}>
+            Sed cursus ante ac mauris fringilla,{" "}
+          </span>
+          <span style={{ color: "purple" }}>vel sagittis elit vestibulum.</span>
+          <span style={{ color: "green" }}>
+            Sed cursus ante ac mauris fringilla,{" "}
+          </span>
+          <span style={{ color: "purple" }}>vel sagittis elit vestibulum.</span>
+          <span style={{ color: "green" }}>
+            Sed cursus ante ac mauris fringilla,{" "}
+          </span>
+          <span style={{ color: "purple" }}>vel sagittis elit vestibulum.</span>
         </div>
       </div>
     </div>
@@ -60,11 +65,3 @@ const MarqueeComponent = () => {
 };
 
 export default MarqueeComponent;
-
-
-
-
-
-
-
-

@@ -1,6 +1,5 @@
 import React, { Fragment, useState } from "react";
-import { useHistory } from 'react-router-dom';
-import "../Styles/seed.css";
+
 import { Link } from "react-router-dom";
 import OSLogotipo from "../assets/logo/OS-logotipo-m-white-transparent_svg.svg";
 
@@ -18,13 +17,9 @@ const Footer = ({ className }) => {
     setOpen(!open);
   };
 
-  const handleClose = () => {
-    setOpen(false);
-  };
-  
   return (
     <Fragment>
-      <div 
+      <div
         className={` ${className} h-pr-fl-ma w-80  h-100 b-s-b-b f-f-Gilroy `}
       >
         {/* Footer */}
@@ -98,19 +93,21 @@ const Footer = ({ className }) => {
                 </span>{" "}
               </div>
               <div className="w-40 h-100 h-pr-fl-ma ">
-                <Link to="" >
-                <div
-                  className="w-100 h-100 h-pr-fl-ma MobileMenuBtnLeft h-e c-p"
-                  Style="background: #000000;"
-                >
-               <div className="centered h-a w-a f-f-Gilroy c-white ns-f-s-normal f-w-bo flexbox "> <img
-                      src={ChervronLeft}
-                      className="w-and-h-25px  h-pr-fl-ma m-l-5px"
-                      alt="Inicio"
-                    />
-                    <span className="w-a h-a  h-pr-fl-ma t-a-c">Volver</span>
-                   </div>
-                </div>
+                <Link to="">
+                  <div
+                    className="w-100 h-100 h-pr-fl-ma MobileMenuBtnLeft h-e c-p"
+                    Style="background: #000000;"
+                  >
+                    <div className="centered h-a w-a f-f-Gilroy c-white ns-f-s-normal f-w-bo flexbox ">
+                      {" "}
+                      <img
+                        src={ChervronLeft}
+                        className="w-and-h-25px  h-pr-fl-ma m-l-5px"
+                        alt="Inicio"
+                      />
+                      <span className="w-a h-a  h-pr-fl-ma t-a-c">Volver</span>
+                    </div>
+                  </div>
                 </Link>
               </div>
               <div className="w-20 h-100 h-pr-fl-ma  ">
@@ -149,15 +146,16 @@ const Footer = ({ className }) => {
                 >
                   {" "}
                   <Link to="/">
-                  <div className="centered h-a w-a f-f-Gilroy c-white ns-f-s-normal f-w-bo flexbox "> <img
-                      src={Home}
-                      className="w-and-h-25px  h-pr-fl-ma m-r-5px"
-                      alt="Inicio"
-                    />
-                  <span className="w-a h-a  h-pr-fl-ma t-a-c">Inicio</span>
-                   
-                 
-                  </div></Link>
+                    <div className="centered h-a w-a f-f-Gilroy c-white ns-f-s-normal f-w-bo flexbox ">
+                      {" "}
+                      <img
+                        src={Home}
+                        className="w-and-h-25px  h-pr-fl-ma m-r-5px"
+                        alt="Inicio"
+                      />
+                      <span className="w-a h-a  h-pr-fl-ma t-a-c">Inicio</span>
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>

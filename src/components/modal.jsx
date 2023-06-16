@@ -4,7 +4,7 @@ const Modal = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="bg-red ">
+    <div className=" ">
       <button onClick={() => setIsOpen(true)}>Open Modal</button>
       {isOpen && (
         <div className="modal">

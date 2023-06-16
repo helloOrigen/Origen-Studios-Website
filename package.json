@@ -37,7 +37,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "optimizecss": "purgecss --config ./src/purgecss.config.js"
   },
   "eslintConfig": {
     "extends": [
@@ -59,6 +60,8 @@
   },
   "devDependencies": {
     "postcss": "^8.4.23",
-    "postcss-100vh-fix": "^1.0.2"
+    "postcss-100vh-fix": "^1.0.2",
+    "purgecss": "^5.0.0"
   }
+
 }

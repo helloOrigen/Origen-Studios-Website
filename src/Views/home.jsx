@@ -1,13 +1,10 @@
 import React, { Fragment } from "react";
 
-
 import Btn from "../components/btn";
 import ContentBox from "../components/contentBox";
 import CardContainer from "../components/cardcontainer";
 import Card from "../components/card";
 import ImageComponent from "../components/ImageComponent";
-import MarqueeComponent from "../components/marqueecomponent";
-import RadioPlayer from "./RadioPlayer";
 
 import OSWoman from "../assets/images/compressed/os-woman.jpg";
 import SunSummer from "../assets/images/compressed/sunsummerthehero.jpg";
@@ -20,7 +17,6 @@ import Camisa from "../assets/images/compressed/camisa.jpg";
 import GuerreraAtemproal from "../assets/images/compressed/guerrera-atemporal.jpg";
 import PromoOtoño from "../assets/images/compressed/promo-otoño.jpg";
 import GodCreator from "../assets/images/compressed/god-creator.jpg";
-import HudStream from "../assets/images/compressed/hud-stream.jpg";
 
 import BloosyAdHorizontal from "../assets/images/compressed/bloosyadhorizontal.jpg";
 import BloosyAdSquare from "../assets/images/compressed/bloosyadsquare.jpg";
@@ -39,30 +35,19 @@ import BehanceIcon from "../assets/icons/behance-icon.svg";
 import WhatsappIcon from "../assets/icons/whatsapp-icon.svg";
 import DiscordIcon from "../assets/icons/discord-icon.svg";
 
-import "../Styles/seed.css";
 import "../Styles/home.css";
+import "../Styles/styles.css";
 
 export default function Home(props) {
-  var app = document.getElementById("app");
-
-  const playlistUrls = [
-    "https://www.youtube.com/watch?v=IyJjKAGV1dk",
-    "https://www.youtube.com/watch?v=DVqFyinDgE4",
-
-
-  ];
   return (
     <Fragment>
-    
       <div className="w-100 h-100 h-pr-fl-ma b-s-b-b of-x-auto f-f-Gilroy c-white">
         <div className="w-100 r-h-c h-100 h-pr-fl-ma">
           <div className="w-100 h-a h-pr-fl-ma b-s-b-bs t-a-c m-d-b  m-t-100px m-b-50px ">
- 
-
             <div className="w-80 m-w-100 r-h-c h-a h-pr-fl-ma b-s-b-b   m-b-20px ">
-            <Title h1="OrigenStudios" sup="&reg;"></Title>
-          <Title h3="Somos el origen de su marca" ></Title>
-          
+              <Title h1="OrigenStudios" sup="&reg;"></Title>
+              <Title h3="Somos el origen de su marca"></Title>
+
               <div className=" m-w-80 r-h-c h-a h-pr-fl-ma b-s-b-b flexbox f-w-n-w m-t-40px  ">
                 <Btn
                   className="w-200px m-w-100 p-l-20px p-r-20px p-10px m-5px f-w-bo br-s-solid br-c-white br-r-50px"
@@ -89,10 +74,9 @@ export default function Home(props) {
             <div className="w-70   p-10px tab-w-100 m-w-100 h-a h-pr-fl-ma b-s-b-b m-d-b  ">
               {/*  // todo                            SECCION 1 | QUE PODEMOS HACER POR Y PARA TI                     */}
 
-              <div className="w-100 h-a  m-h-auto bg-d-t b-s-b-b m-w-100 tab-w-100 h-a h-pr-fl-ma m-b-20px">
+              <div className="w-100 h-a  m-h-auto  b-s-b-b m-w-100 tab-w-100 h-a h-pr-fl-ma m-b-20px">
                 <div className="w-100 h-a t-a-c h-pr-fl-ma ns-f-s-medium  f-f-Gilroy f-w-bo b-s-b-b p-20px">
-                <Title h2=" ¿Qué podemos hacer por y para ti?" ></Title>
-                 
+                  <Title h2=" ¿Qué podemos hacer por y para ti?"></Title>
                 </div>
                 <div className="w-100 h-100 h-pr-fl-ma  b-s-b-b p-20px">
                   <CardContainer className="m-b-20px h-a ">
@@ -132,8 +116,8 @@ export default function Home(props) {
               {/*  // todo                            SECCION 1 | PORQUÉ ELEGIRNOS                   */}
 
               {/* Porque elegirnos */}
-              <div className="w-100 m-w-100 h-a h-pr-fl-ma bg-d-t m-b-10px b-s-b-b p-20px ">
-                <div className="w-50 m-w-100 tab-w-100 h-a h-pr-fl-ma b-s-b-b bg-d of-h">
+              <div className="w-100 m-w-100 h-a h-pr-fl-ma bg-d m-b-10px b-s-b-b p-20px ">
+                <div className="w-50 m-w-100 tab-w-100 h-a h-pr-fl-ma b-s-b-b  of-h">
                   <ImageComponent
                     className="w-100 h-a"
                     imageUrl={OSWoman}
@@ -202,7 +186,7 @@ export default function Home(props) {
                   title="Agende su reunión:"
                 ></ContentBox>
                 <a href="https://wa.me/message/QEHFJE3NEAVTE1">
-                  <div className="w-100 h-a h-pr-fl-ma bg-d-t p-5px flexbox m-b-5px">
+                  <div className="w-100 h-a h-pr-fl-ma bg-d p-5px flexbox m-b-5px">
                     <img
                       className="w-and-h-50px bg-d p-5px"
                       src={WhatsappIcon}
@@ -217,39 +201,41 @@ export default function Home(props) {
                       </div>
                     </div>
                     <div className="h-pr-fl-ma w-and-h-50px  ">
-                      {" "}
                       <Btn
-                      enlace="on"
                         className="w-100 h-100"
                         text="IR"
                         enlace="https://wa.me/message/QEHFJE3NEAVTE1"
-                      ></Btn>{" "}
+                      ></Btn>
                     </div>
                   </div>
                 </a>
                 <a href="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/">
-                <div className="w-100 h-a h-pr-fl-ma bg-d-t p-5px flexbox m-b-5px">
-                  <img
-                    className="w-and-h-50px bg-d p-5px"
-                    src={Calendar}
-                    alt="Calendar"
-                  />
-                  <div className="w-80 h-a l-h-15px m-l-20px ">
-                    <div className="w-100 h-a r-v-c">
-                      <span className="w-100 f-w-bo">Agenda</span> <br />
-                      <span className="h-pr-fl-maw-100 ns-f-s-small">
-                        Calendario Bookings (Disponible)
-                      </span>
+                  <div className="w-100 h-a h-pr-fl-ma bg-d p-5px flexbox m-b-5px">
+                    <img
+                      className="w-and-h-50px bg-d p-5px"
+                      src={Calendar}
+                      alt="Calendar"
+                    />
+                    <div className="w-80 h-a l-h-15px m-l-20px ">
+                      <div className="w-100 h-a r-v-c">
+                        <span className="w-100 f-w-bo">Agenda</span> <br />
+                        <span className="h-pr-fl-maw-100 ns-f-s-small">
+                          Calendario Bookings (Disponible)
+                        </span>
+                      </div>
+                    </div>
+                    <div className="h-pr-fl-ma w-and-h-50px  ">
+                      {" "}
+                      <Btn
+                        className="w-100 h-100"
+                        text="IR"
+                        enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
+                      ></Btn>{" "}
                     </div>
                   </div>
-                  <div className="h-pr-fl-ma w-and-h-50px  ">
-                    {" "}
-                    <Btn className="w-100 h-100" text="IR"  enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"></Btn>{" "}
-                  </div>
-                </div>
                 </a>
                 <a href="mailto:hello@origenstudios.com">
-                  <div className="w-100 h-a h-pr-fl-ma bg-d-t p-5px flexbox m-b-5px">
+                  <div className="w-100 h-a h-pr-fl-ma bg-d p-5px flexbox m-b-5px">
                     <img
                       className="w-and-h-50px bg-d p-5px"
                       src={Envelope}
@@ -328,21 +314,26 @@ export default function Home(props) {
               </div>
               {/*  // todo                            SECCION 1 - SIDEBAR | ADS BLOOSYSQUARE            */}
               <div className="w-100 h-pr-fl-ma b-s-b-b bg-d m-d-n p-20px m-b-10px">
-              <CardContainer className="h-a ">
-                  <Card type="card-tall" image={BloosyAdSquare} alt="ADSBloosySquareSidebar" />{" "}
+                <CardContainer className="h-a ">
+                  <Card
+                    type="card-tall"
+                    image={BloosyAdSquare}
+                    alt="ADSBloosySquareSidebar"
+                  />{" "}
                 </CardContainer>
                 <Btn
                   text="Acceso gratuito"
                   enlace="https://discord.gg/UMAFqpD8Xr"
                   className="ns-bg-e f-w-bo w-100 p-10px"
                 ></Btn>
-                <p className="w-100 h-a h-pr-lf-ma ns-f-s-small f-f-Gilroy f-w-bo t-a-c">acceso gratuito sin suscripciones mensuales</p>
+                <p className="w-100 h-a h-pr-lf-ma ns-f-s-small f-f-Gilroy f-w-bo t-a-c">
+                  acceso gratuito sin suscripciones mensuales
+                </p>
               </div>
               {/*  // todo                            SECCION 1 - SIDEBAR | ADS INTERNO                  */}
               <div className="w-100 h-pr-fl-ma b-s-b-b bg-d  p-20px m-b-10px">
                 <CardContainer className="h-a ">
                   <Card type="card-tall" image={GodCreator} alt="Wallpaper2" />{" "}
-              
                 </CardContainer>
                 <Btn
                   text="Publicitate aquí"
@@ -435,58 +426,6 @@ export default function Home(props) {
                       />
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/*  // !                                 SECCION 2                           */}
-
-          <div className=" w-95  r-h-c  h-a h-pr-fl-ma b-s-b-b p-20px bg-d  m-b-20px">
-            <div className="w-100 m-w-100 h-a t-a-c h-pr-fl-ma b-s-b-b ">
-              <div
-                className="bg-d-t  f-f-Gilroy f-w-bo m-b-20px"
-                Style="font-size: 50px;"
-              >
-                ¿Eres influencer o quieres empezar?
-              </div>
-            </div>
-            <div className="w-100 h-a t-a-c h-pr-fl-ma b-s-b-b ">
-              <CardContainer className="m-w-100  h-a ">
-                <Card type="card-wide" image={HudStream} alt="Wallpaper2" />
-              </CardContainer>
-            </div>
-
-            <div className="w-100 m-w-100 h-a h-pr-fl-ma bg-d m-b-20px b-s-b-b  p-20px">
-              <ContentBox
-                className="t-a-c w-100"
-                title="¡Todo lo que necesitas para comenzar o actualizarte!"
-              ></ContentBox>
-
-              <div className="w-100 h-100 h-pr-fl-ma b-s-b-b  flexbox m-d-b">
-                <div className="w-33 m-w-100 h-100 h-pr-fl-ma b-s-b-b p-10px">
-                  <ContentBox
-                    className="p-20px bg-d"
-                    title="Miniaturas Impactantes"
-                    subtitle="Somos expertos en cickBait Ok no..."
-                    text="Creamos diseños personalizados que reflejan la esencia de tu contenido y generan curiosidad en los espectadores. Nuestras miniaturas están diseñadas para destacar entre la multitud y aumentar la visibilidad de tus videos en plataformas de streaming y redes sociales. "
-                  ></ContentBox>
-                </div>
-                <div className="w-33 m-w-100 h-100 h-pr-fl-ma b-s-b-b p-10px ">
-                  <ContentBox
-                    className="p-20px bg-d"
-                    title="Logotipos y Marcas"
-                    subtitle="Status de servicio Online"
-                    text="Diseñamos tu Logotipo para ayudarte a establecer una identidad visual única y memorable. También, creamos una identidad de marca coherente que incluya paleta de colores, tipografía y elementos gráficos, para que puedas transmitir una imagen profesional y cohesiva en todas tus plataformas y contenidos"
-                  ></ContentBox>
-                </div>
-                <div className="w-33 m-w-100 h-100 h-pr-fl-ma b-s-b-b p-10px">
-                  <ContentBox
-                    className="p-20px bg-d"
-                    title="Interfaces y HUDs."
-                    subtitle="Primer consulta gratuita"
-                    text="Creamos interfaces intuitivas y llamativas que resaltan tus contenidos y mejoran la interacción con tu audiencia. Nuestros diseños están diseñados para adaptarse a tus necesidades específicas y reflejar tu personalidad y estilo único."
-                  ></ContentBox>
                 </div>
               </div>
             </div>

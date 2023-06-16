@@ -1,8 +1,6 @@
 import React, { Fragment, useState } from "react";
-import "../Styles/seed.css";
 import { Link } from "react-router-dom";
 import NavBarBtn from "./navBarBtn";
-import "../Styles/home.css";
 import BannerMenu from "../assets/images/promo/casos-de-exito-banner-menu.gif";
 
 const MobileMenu = () => {

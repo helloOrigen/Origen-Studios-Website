@@ -1,11 +1,15 @@
 import React from "react";
-import "../Styles/seed.css";
+
 import LinkedinIcon from "../assets/icons/linkedin-icon.svg";
 import InstagramIcon from "../assets/icons/instagram-icon.svg";
 import TwitterIcon from "../assets/icons/twitter-icon.svg";
 import FacebookIcon from "../assets/icons/facebook-icon.svg";
 import BehanceIcon from "../assets/icons/behance-icon.svg";
 import WhatsappIcon from "../assets/icons/whatsapp-icon.svg";
+
+
+
+
 
 export default function navBarBtn(props) {
   const { text, className, children, news, enlace, Linkedin, Facebook, Twitter, Behance, Whatsapp, Instagram } = props;

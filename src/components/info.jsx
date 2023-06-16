@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/seed.css";
+
 import Infocircle from "../assets/icons/info.svg";
 export default function Info(props) {
   const { title, text, className,} = props;

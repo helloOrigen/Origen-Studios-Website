@@ -1,14 +1,11 @@
 import React from "react";
 
-import "../Styles/seed.css";
 import ContentBox from "../components/contentBox";
 import Btn from "../components/btn";
 import Title from "../components/title";
 
 import ColorsWpp from "../assets/images/compressed/colors.jpg";
-import Marketing from "../assets/images/compressed/marketing.jpg";
-import Reclutamiento from "../assets/images/compressed/reclutamiento.jpg";
-import Asesora from "../assets/images/compressed/asesora.jpg";
+
 import SaboreameBurger from "../assets/images/compressed/saboreame-burger.jpg";
 export default function Services(props) {
   return (

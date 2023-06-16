@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import "../Styles/seed.css";
 
 import Btn from "./btn";
 import ImageComponent from "./ImageComponent";
@@ -24,7 +23,6 @@ export default function Card(props) {
     filename,
     filetype,
     filesize,
-    list,
     activeoptions,
     icon,
     iconclassName,
@@ -33,20 +31,19 @@ export default function Card(props) {
 
   return (
     <>
-     
-   
-     
-  
- 
       <div
-        className={`w-a h-a h-pr-fl-ma ${type} d-n-on-h-container card h-e b-s-b-b of-h ${CardClassName} ${color} c-p  br-w-1px br-s-solid ns-b-c-e-h br-r-10px`} 
+        className={`w-a h-a h-pr-fl-ma ${type} d-n-on-h-container card h-e b-s-b-b of-h ${CardClassName} ${color} c-p  br-w-1px br-s-solid ns-b-c-e-h br-r-10px`}
       >
-
         {image && (
           <div className=" w-100 h-100 card m-a b-s-b-b of-n">
-           
-            <ImageComponent imageUrl={` ${image} `}   alt={` ${alt} `} Style="object-fit: cover;" className="w-100 h-100  m-a b-s-b-b h-e-scale "> </ImageComponent>
-          
+            <ImageComponent
+              imageUrl={` ${image} `}
+              alt={` ${alt} `}
+              Style="object-fit: cover;"
+              className="w-100 h-100  m-a b-s-b-b h-e-scale "
+            >
+              {" "}
+            </ImageComponent>
           </div>
         )}
 
@@ -57,42 +54,43 @@ export default function Card(props) {
                 src={` ${icon} `}
                 alt={` ${alt} `}
                 className={` ${iconclassName} w-100px h-100px `}
-                Style="object-fit: cover;"
-                Style="position: absolute; margin: auto; right: 0px; left:0px; top: 0px; bottom: 0px;"
+                Style="position: absolute; margin: auto; right: 0px; left:0px; top: 0px; bottom: 0px; object-fit: cover;"
               />{" "}
             </div>
           </div>
         )}
 
-{ContentBox && ( <div
-        className="w-100 bg-g-2  d-n-on-h"
-          Style={`padding:20px; position: absolute; margin: auto; top: 0px; `}
-        >
-          {title && (
-            <div
-              className={`w-100 p-10px  f-f-Gilroy  ${titleclassName} br-c-white br-s-solid br-c-white br-r-50px`}
-              Style={`font-size: 20px; line-height: 25px; ${titleStyle}`}
-            >
-              {title}
-            </div>
-          )}
+        {ContentBox && (
+          <div
+            className="w-100 bg-g-2  d-n-on-h"
+            Style={`padding:20px; position: absolute; margin: auto; top: 0px; `}
+          >
+            {title && (
+              <div
+                className={`w-100 p-10px  f-f-Gilroy  ${titleclassName} br-c-white br-s-solid br-c-white br-r-50px`}
+                Style={`font-size: 20px; line-height: 25px; ${titleStyle}`}
+              >
+                {title}
+              </div>
+            )}
 
-          {subtitle && (
-            <span
-              className={`w-100 h-a h-pr-fl-ma p-10px t-a-c f-f-Gilroy ${subtitleclassName} ns-c-e`}
-              Style={`font-size: 15px; line-height: 15px; ${subtitleStyle}`}
-            >
-              {" "}
-              {subtitle}
-            </span>
-          )}
-          {description && (
-            <span className="w-90 m-t-10px h-pr-fl-ma f-f-Gilroy m-t-10px m-b-50px p-10px">
-              {description}{" "}
-            </span>
-          )}
-        </div> )}
-       
+            {subtitle && (
+              <span
+                className={`w-100 h-a h-pr-fl-ma p-10px t-a-c f-f-Gilroy ${subtitleclassName} ns-c-e`}
+                Style={`font-size: 15px; line-height: 15px; ${subtitleStyle}`}
+              >
+                {" "}
+                {subtitle}
+              </span>
+            )}
+            {description && (
+              <span className="w-90 m-t-10px h-pr-fl-ma f-f-Gilroy m-t-10px m-b-50px p-10px">
+                {description}{" "}
+              </span>
+            )}
+          </div>
+        )}
+
         {activeoptions && (
           <div
             className=" h-pr-fl-ma card-h-opt bg-black-node-o-50 br-r-5px f-f-Gilroy  "
@@ -150,9 +148,7 @@ export default function Card(props) {
             ></Btn>
           </div>
         )}
-       
       </div>
-  
     </>
   );
 }

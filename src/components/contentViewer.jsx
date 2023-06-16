@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import "../Styles/seed.css";
+
 
 export default function contentViewer(props) {
   const { className, children } = props;

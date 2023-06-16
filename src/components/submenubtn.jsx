@@ -1,5 +1,4 @@
 import React from "react";
-import "../Styles/seed.css";
 
 export default function Submenubtn(props) {
   const { text, className, enlace, children } = props;

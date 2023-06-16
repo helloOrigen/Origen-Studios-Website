@@ -1,8 +1,7 @@
 import React from "react";
-import "../Styles/seed.css";
 
 export default function Title(props) {
-  const { text, className, enlace,h1,h2,h3,h4,h5,h6, children, sup,  } = props;
+  const {className,h1,h2,h3,h4,h5,h6, sup,  } = props;
 
   return (
     <>

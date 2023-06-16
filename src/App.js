@@ -10,8 +10,8 @@ import Notifier from './components/notifier';
 
 // Estilos y recursos
 import Background2 from './assets/images/compressed/background-2.jpg';
-import './Styles/seed.css';
-import './Styles/home.css';
+
+import "./Styles/fixedcss/seed.css";
 
 
 // Vistas
@@ -22,7 +22,6 @@ const appHeight = () => {
 }
 window.addEventListener('resize', appHeight)
 appHeight()
-
 
 
 function App() {
@@ -37,8 +36,7 @@ function App() {
        <div id="modal-root" Style="z-index: 9999999;"></div>
       <div className="l-0px r-0px t-0px b-0px m-a "
           style={{
-         backgroundImage: `url(${Background2})`,
-          
+            backgroundImage: `url(${Background2})`,
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
@@ -66,56 +64,39 @@ function App() {
               {/* Todas las views se renderizan aquí*/} 
 
               <Routes> 
-        
-          <Route exact path="/" element={<Views.Home/>} />
-            <Route exact  path="/services" element={<Views.Services />} />
-           <Route exact path="/team" element={<Views.Team/>} />
-           <Route exact path="/tools" element={<Views.Tools/>} />
-
-           <Route exact path="/sponsors" element={<Views.Sponsors/>} />
-
-           <Route exact path="/faq" element={<Views.FAQ/>} />
-           <Route exact path="/about" element={<Views.About/>} />
-           <Route exact path="/terms" element={<Views.Terms/>} />
-           <Route exact path="/cookies" element={<Views.Cookies/>} />
-           <Route exact path="/privacy" element={<Views.Privacy/>} />
-
-           <Route exact path="/plans" element={<Views.Plans/>} />
-           <Route exact path="/plans/:id" element={<Views.Plans/>} />
-           <Route  path="/plans/posts" element={<Views.Posts/>} />
-           <Route  path="/plans/identity" element={<Views.Identity/>} />
-         
-
-           <Route exact path="/process" element={<Views.Process/>} />
-
-           <Route exact path="/promo" element={<Views.Promo/>} />
-           <Route exact path="/jobs" element={<Views.Jobs/>} />
-           <Route path="/*" element={<Views.Page404/>} />
-           <Route path="404"component={<Views.Page404/>} />
-           
-
+              <Route exact path="/" element={<Views.Home/>} />
+              <Route exact  path="/services" element={<Views.Services />} />
+              <Route exact path="/team" element={<Views.Team/>} />
+              <Route exact path="/tools" element={<Views.Tools/>} />
+              <Route exact path="/sponsors" element={<Views.Sponsors/>} />
+              <Route exact path="/faq" element={<Views.FAQ/>} />
+              <Route exact path="/about" element={<Views.About/>} />
+              <Route exact path="/terms" element={<Views.Terms/>} />
+              <Route exact path="/cookies" element={<Views.Cookies/>} />
+              <Route exact path="/privacy" element={<Views.Privacy/>} />
+              <Route exact path="/plans" element={<Views.Plans/>} />
+              <Route exact path="/plans/:id" element={<Views.Plans/>} />
+              <Route  path="/plans/posts" element={<Views.Posts/>} />
+              <Route  path="/plans/identity" element={<Views.Identity/>} />
+              <Route exact path="/promo" element={<Views.Promo/>} />
+              <Route exact path="/jobs" element={<Views.Jobs/>} />
+              <Route path="/*" element={<Views.Page404/>} />
+              <Route path="404"component={<Views.Page404/>} />
            </Routes>
           
             </div>
-
-          
-          
           </div>
 
-         
           <Notifier className="w-50  UnderLineText " Accept
-          
             text=" Utilizamos &#127850; cookies en este sitio ofrecerle la mejor experiencia de usuario posible."
             link="/cookies"
             action="Saber más..."
           />
-       
         </div>
        
         <div
-          className="h-pr-fl-ma w-100 h-70px b-s-b-b of-v b-0px m-p-f" Style="z-index: 9999;"
-         
-        > <MobileMenu className="p-a"/>
+          className="h-pr-fl-ma w-100 h-70px b-s-b-b of-v b-0px m-p-f" Style="z-index: 9999;">
+             <MobileMenu className="p-a"/>
           <Footer className="w-100 h-100 r-h-c h-pr-fl-ma b-s-b-b bg-d"   Style="z-index: 9999;"/>
           </div>
           
