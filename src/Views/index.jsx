@@ -17,3 +17,11 @@ export {default as Page404 } from './page404';
 
 export {default as Promo } from './promo';
 export {default as Jobs } from './jobs';
+
+
+
+export {default as TLVAITools} from '../Views/ToolListViews/TLVAITools';
+export {default as TLVMarketing} from '../Views/ToolListViews/TLVMarketing';
+export {default as TLVMultimediaDesign} from '../Views/ToolListViews/TLVMultimediaDesign';
+export {default as TLVMusicProduction} from '../Views/ToolListViews/TLVMusicProduction';
+export {default as TLVDevelopment} from '../Views/ToolListViews/TLVDevelopment';

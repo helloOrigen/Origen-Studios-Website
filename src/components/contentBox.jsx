@@ -60,9 +60,9 @@ export default function contentBox(props) {
             className={` ${subtitleclassName} h-pr-fl-ma b-s-b-b w-100 ns-c-e h-a f-f-Gilroy`}
             Style=" font-size: 15px; font-weight:bold; line-height: 20px; letter-spacing: 1px;"
           >
-            {subtitle}
-            <br />
-            <br />
+           {subtitle}
+           
+     
           </h3>
         )}
 

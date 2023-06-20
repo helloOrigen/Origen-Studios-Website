@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "../Styles/seed.css";
+
 
 export default function NavSubItem(props) {
     const { text, className, enlace} = props;

@@ -5,6 +5,7 @@ import ContentBox from "../components/contentBox";
 import CardContainer from "../components/cardcontainer";
 import Card from "../components/card";
 import ImageComponent from "../components/ImageComponent";
+import GoogleAd from "../components/GoogleAd";
 
 import OSWoman from "../assets/images/compressed/os-woman.jpg";
 import SunSummer from "../assets/images/compressed/sunsummerthehero.jpg";
@@ -76,7 +77,7 @@ export default function Home(props) {
 
               <div className="w-100 h-a  m-h-auto  b-s-b-b m-w-100 tab-w-100 h-a h-pr-fl-ma m-b-20px">
                 <div className="w-100 h-a t-a-c h-pr-fl-ma ns-f-s-medium  f-f-Gilroy f-w-bo b-s-b-b p-20px">
-                  <Title h2=" ¿Qué podemos hacer por y para ti?"></Title>
+                  <Title h2=" ¿Qué podemos hacer por y para usted?"></Title>
                 </div>
                 <div className="w-100 h-100 h-pr-fl-ma  b-s-b-b p-20px">
                   <CardContainer className="m-b-20px h-a ">
@@ -93,7 +94,7 @@ export default function Home(props) {
                       ContentBox
                       image={Caffeine}
                       title="Servicios"
-                      description="Banners, Ploteos, Menu's, accesorios, Todo el estilo pronto para su negocio."
+                      description="Banners, Ploteos, Menu's, accesorios, todo el estilo pronto para su negocio."
                       alt="Servicios"
                     />
                     <Card
@@ -107,8 +108,7 @@ export default function Home(props) {
                   </CardContainer>
                   <div className="w-100 h-a t-a-c h-pr-fl-ma ns-f-s-medium f-f-Gilroy f-w-bo b-s-b-b p-20px ns-c-e">
                     {" "}
-                    Hacemos realidad todo lo necesario para que triunfes con tu
-                    producto, tu servicio, como negocio o como artísta.
+                   Nos encanta ayudar a crear las marcas de sus sueños y para eso tenemos un sin fin de planes disponibles que puede convinar a su medida.<br />Y si lo desea, creamos uno personalizado para usted.
                   </div>
                 </div>
               </div>
@@ -150,18 +150,9 @@ export default function Home(props) {
               </div>
 
               {/*  // todo                            SECCION 1 | ADS             */}
-              <div className="w-100 m-w-100 h-150px h-pr-fl-ma bg-d m-b-10px b-s-b-b p-5px ">
-                <amp-ad
-                  width="100%"
-                  height="320px"
-                  type="adsense"
-                  data-ad-client="ca-pub-6375603115544403"
-                  data-ad-slot="5342947434"
-                  data-auto-format="rspv"
-                  data-full-width=""
-                >
-                  <div overflow=""></div>
-                </amp-ad>
+              <div className="w-100 m-w-100 h-a h-pr-fl-ma m-b-10px b-s-b-b p-5px ">
+              <GoogleAd slot="9886328101" googleAdId="ca-pub-6375603115544403"/>
+           
               </div>
 
               {/*  // todo                            SECCION 1 | BLOOSY ADS             */}
@@ -344,18 +335,8 @@ export default function Home(props) {
 
               {/*  // todo                            SECCION 1 - SIDEBAR | ADS             */}
               <div className="w-100 h-pr-fl-ma b-s-b-b bg-d  p-20px m-b-10px">
-                {" "}
-                <amp-ad
-                  width="100%"
-                  height="320px"
-                  type="adsense"
-                  data-ad-client="ca-pub-6375603115544403"
-                  data-ad-slot="5342947434"
-                  data-auto-format="rspv"
-                  data-full-width=""
-                >
-                  <div overflow=""></div>
-                </amp-ad>
+              <GoogleAd slot="9886328101" googleAdId="ca-pub-6375603115544403"/>
+
               </div>
             </div>
             {/*  // todo                            SECCION 1 | PROCEDIMIENTO                 */}
@@ -450,9 +431,8 @@ export default function Home(props) {
               ></ContentBox>
 
               <div className="w-100 h-a t-a-c h-pr-fl-ma ns-f-s-medium f-f-Gilroy f-w-bo b-s-b-b p-20px ns-c-e">
-                {" "}
-                Hacemos realidad todo lo necesario para que triunfes con tu
-                producto, tu servicio, como negocio o como artísta.
+              Hacemos realidad todo lo necesario para que triunfe con su
+                    producto, su servicio, como negocio o como artísta.
               </div>
             </div>
 
@@ -557,7 +537,13 @@ export default function Home(props) {
               </div>
             </div>
           </div>
-          <div className="w-100 h-200px h-pr-fl-ma b-s-b-b  m-d-b">&nbsp;</div>
+          {/*  // !                           ADS                         */}
+      <div className="w-95 r-h-c m-w-90 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
+        <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma ">
+          <GoogleAd slot="9886328101" googleAdId="ca-pub-6375603115544403" />
+        </div>
+      </div>
+      <div className="w-100 h-200px h-pr-fl-ma b-s-b-b  m-d-b">&nbsp;</div>
         </div>
       </div>
     </Fragment>

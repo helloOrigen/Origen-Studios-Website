@@ -11,8 +11,9 @@ import Notifier from './components/notifier';
 // Estilos y recursos
 import Background2 from './assets/images/compressed/background-2.jpg';
 
-import "./Styles/fixedcss/seed.css";
+/*import "./Styles/fixedcss/seed.css";*/
 
+import "./Styles/fixedcss/seed.min.css";
 
 // Vistas
 import * as Views from "./Views/index.jsx";

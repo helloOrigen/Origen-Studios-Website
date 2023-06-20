@@ -9,9 +9,11 @@
     "@testing-library/user-event": "^14.4.3",
     "acme-http-01-standalone": "^3.0.5",
     "google-ads-api": "^13.0.1",
+    "google-ads-node": "^11.0.0",
     "greenlock": "^4.0.4",
     "greenlock-store-fs": "^3.2.2",
     "js-cookie": "^3.0.1",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
@@ -63,5 +65,4 @@
     "postcss-100vh-fix": "^1.0.2",
     "purgecss": "^5.0.0"
   }
-
 }

@@ -36,7 +36,7 @@ const notifier = ({
     <Fragment>
       {!Notifier && (
         <div
-          className={` ${className} notifier d-i-f m-d-b  `}
+          className={` ${className} notifier d-i-f  `}
           Style={` ${Style} `}
         >
           <div className="w-100 h-a h-pr-fl-ma  p-20px">

@@ -1,7 +1,7 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import ReactDOM from "react-dom";
 
-const ImageComponent = ({ imageUrl, className }) => {
+const ImageComponent = ({ imageUrl, className, imgcStyle,imgcclassName }) => {
   const [modalOpen, setModalOpen] = useState(false);
 
   const [scale, setScale] = useState(1);
@@ -32,8 +32,8 @@ const ImageComponent = ({ imageUrl, className }) => {
           <img
             src={imageUrl}
             alt="Imagen"
-            className="w-100 h-100 centered "
-            Style="object-fit: contain;"
+            className={`${imgcclassName} w-100 h-100 centered`}
+            Style={` object-fit: contain;  ${imgcStyle} `}
           />
           <div className="ZoomControls w-300px bg-d-t flexbox d-n">
             <button className="zoom-button c-p h-e" onClick={handleZoomIn}>
