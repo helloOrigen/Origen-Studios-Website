@@ -1,14 +1,16 @@
+/* global adsbygoogle */
 import React, { Fragment } from "react";
+
 
 import ContentBox from "../components/contentBox";
 import Title from "../components/title";
 import Btn from "../components/btn";
 import ImageComponent from "../components/ImageComponent";
-import GoogleAd from "../components/GoogleAd";
 
 import CreateIcon from "../assets/icons/create.svg";
 
 const Plans = ({ children }) => {
+
   return (
     <Fragment>
       <div className="w-95 r-h-c m-w-100 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
@@ -179,8 +181,8 @@ const Plans = ({ children }) => {
       </div>
       {/*  // !                           ADS                         */}
       <div className="w-95 r-h-c m-w-90 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
-        <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma ">
-          <GoogleAd slot="9886328101" googleAdId="ca-pub-6375603115544403" />
+        <div  className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma ">
+        /*GOOGLEAD*/
         </div>
       </div>
 

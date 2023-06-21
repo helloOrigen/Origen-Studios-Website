@@ -267,9 +267,9 @@ Seed.css cortesía de:
 .bg-d{
   /*background default transparent*/
   /*background: rgba(0, 0, 0, 0.8);*/
-  background: #121212;
+  background: #000000;
   border-radius: 0px;
-  border: 1px solid #202020;
+  border: 1px solid #101010;
   backdrop-filter: blur(10px);
 }
 .t-5 {

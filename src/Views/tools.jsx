@@ -2,7 +2,7 @@ import React, { Fragment, useState } from "react";
 
 import Title from "../components/title";
 import Btn from "../components/btn";
-import GoogleAd from "../components/GoogleAd";
+import GoogleAd from 'react-google-ad';
 
 import {
   TLVAITools,
@@ -77,7 +77,8 @@ const Tools = () => {
         {/*  // !                           ADS                         */}
         <div className="w-95 r-h-c m-w-90 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
         <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma ">
-          <GoogleAd slot="9886328101" googleAdId="ca-pub-6375603115544403" />
+              <GoogleAd client="ca-pub-6375603115544403" slot="9886328101" format="auto" />
+
         </div>
       </div>
       <div className="w-100 h-200px h-pr-fl-ma b-s-b-b  m-d-b">&nbsp;</div>

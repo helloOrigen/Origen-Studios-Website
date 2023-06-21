@@ -1,11 +1,12 @@
+
 import React, { Fragment } from "react";
 
+import VersionComponent from "../components/VersionComponent";
 import Btn from "../components/btn";
 import ContentBox from "../components/contentBox";
 import CardContainer from "../components/cardcontainer";
 import Card from "../components/card";
 import ImageComponent from "../components/ImageComponent";
-import GoogleAd from "../components/GoogleAd";
 
 import OSWoman from "../assets/images/compressed/os-woman.jpg";
 import SunSummer from "../assets/images/compressed/sunsummerthehero.jpg";
@@ -22,24 +23,26 @@ import GodCreator from "../assets/images/compressed/god-creator.jpg";
 import BloosyAdHorizontal from "../assets/images/compressed/bloosyadhorizontal.jpg";
 import BloosyAdSquare from "../assets/images/compressed/bloosyadsquare.jpg";
 
-import ChevronRight from "../assets/icons/chevron_right.svg";
-import CheckCircle from "../assets/icons/check-circle.svg";
-import Calendar from "../assets/icons/calendar.svg";
-import Envelope from "../assets/icons/envelope.svg";
+
 import Title from "../components/title";
 
-import LinkedinIcon from "../assets/icons/linkedin-icon.svg";
-import InstagramIcon from "../assets/icons/instagram-icon.svg";
-import TwitterIcon from "../assets/icons/twitter-icon.svg";
-import FacebookIcon from "../assets/icons/facebook-icon.svg";
-import BehanceIcon from "../assets/icons/behance-icon.svg";
-import WhatsappIcon from "../assets/icons/whatsapp-icon.svg";
-import DiscordIcon from "../assets/icons/discord-icon.svg";
-
+import {
+LinkedinIcon, 
+InstagramIcon,
+TwitterIcon,
+FacebookIcon,
+BehanceIcon,    
+WhatsappIcon,
+DiscordIcon, 
+ChevronRight, 
+CheckCircle,
+Calendar,
+Envelope, } from "../components/icons";
 import "../Styles/home.css";
 import "../Styles/styles.css";
 
 export default function Home(props) {
+
   return (
     <Fragment>
       <div className="w-100 h-100 h-pr-fl-ma b-s-b-b of-x-auto f-f-Gilroy c-white">
@@ -151,7 +154,13 @@ export default function Home(props) {
 
               {/*  // todo                            SECCION 1 | ADS             */}
               <div className="w-100 m-w-100 h-a h-pr-fl-ma m-b-10px b-s-b-b p-5px ">
-              <GoogleAd slot="9886328101" googleAdId="ca-pub-6375603115544403"/>
+              <ins class="adsbygoogle-Home-1"
+     Style="display:block"
+     data-ad-client="ca-pub-6375603115544403"
+     data-ad-slot="9886328101"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
            
               </div>
 
@@ -171,6 +180,9 @@ export default function Home(props) {
             {/*  // ?                            SECCION 1 | SIDEBAR 20%                      */}
             <div className="w-30  m-w-100 h-a h-pr-fl-ma b-s-b-b p-10px  m-d-b  tab-d-n ">
               {/*  // todo                            SECCION 1 - SIDEBAR | SOLICITE PRESUPUESTOS                  */}
+              <div className="w-100 h-pr-fl-ma b-s-b-b bg-d  p-20px m-b-10px">
+                <VersionComponent></VersionComponent>
+              </div>
               <div className="w-100 h-pr-fl-ma b-s-b-b bg-d  p-20px m-b-10px">
                 <ContentBox
                   className="m-b-10px"
@@ -335,7 +347,7 @@ export default function Home(props) {
 
               {/*  // todo                            SECCION 1 - SIDEBAR | ADS             */}
               <div className="w-100 h-pr-fl-ma b-s-b-b bg-d  p-20px m-b-10px">
-              <GoogleAd slot="9886328101" googleAdId="ca-pub-6375603115544403"/>
+              /*GOOGLEAD*/
 
               </div>
             </div>
@@ -540,7 +552,7 @@ export default function Home(props) {
           {/*  // !                           ADS                         */}
       <div className="w-95 r-h-c m-w-90 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
         <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma ">
-          <GoogleAd slot="9886328101" googleAdId="ca-pub-6375603115544403" />
+        /*GOOGLEAD*/
         </div>
       </div>
       <div className="w-100 h-200px h-pr-fl-ma b-s-b-b  m-d-b">&nbsp;</div>
