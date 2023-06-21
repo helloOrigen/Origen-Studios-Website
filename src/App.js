@@ -1,4 +1,4 @@
-/* global adsbygoogle */
+
 import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -10,7 +10,6 @@ import Notifier from "./components/notifier";
 import Background1 from "./assets/images/compressed/background-1.jpg";
 
 import "./Styles/fixedcss/seed.min.css";
-
 
 import * as Views from "./Views/index.jsx";
 
@@ -57,6 +56,7 @@ const App = () => {
                 <Route path="/" element={<Views.Home />} />
                 <Route path="/services" element={<Views.Services />} />
                 <Route path="/team" element={<Views.Team />} />
+              
                 <Route path="/tools" element={<Views.Tools />} />
                 <Route path="/sponsors" element={<Views.Sponsors />} />
                 <Route path="/faq" element={<Views.FAQ />} />
@@ -64,10 +64,19 @@ const App = () => {
                 <Route path="/terms" element={<Views.Terms />} />
                 <Route path="/cookies" element={<Views.Cookies />} />
                 <Route path="/privacy" element={<Views.Privacy />} />
+
                 <Route path="/plans" element={<Views.Plans />} />
                 <Route path="/plans/:id" element={<Views.Plans />} />
-                <Route path="/plans/posts" element={<Views.Posts />} />
+                <Route path="/plans/contents" element={<Views.Contents />} />
                 <Route path="/plans/identity" element={<Views.Identity />} />
+
+                <Route path="/downloads" element={<Views.Downloads/>} />
+                <Route path="/downloads/:id" element={<Views.Downloads />} />
+                <Route path="/downloads/identity" element={<Views.DLIdentity/>} />
+                <Route path="/downloads/contents" element={<Views.DLContents/>} />
+                <Route path="/downloads/consultancy" element={<Views.DLConsultancy/>} />
+
+
                 <Route path="/promo" element={<Views.Promo />} />
                 <Route path="/jobs" element={<Views.Jobs />} />
                 <Route path="/404" element={<Views.Page404 />} />

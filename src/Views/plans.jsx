@@ -1,6 +1,6 @@
-/* global adsbygoogle */
-import React, { Fragment } from "react";
 
+import React, { Fragment } from "react";
+import AdSense from 'react-adsense';
 
 import ContentBox from "../components/contentBox";
 import Title from "../components/title";
@@ -112,13 +112,13 @@ const Plans = ({ children }) => {
                   <Btn
                     className="w-100 p-20px f-w-bo m-t-20px ns-bg-blue "
                     text="Ver más..."
-                    enlace="/plans/posts"
+                    enlace="/plans/contents"
                   ></Btn>
                   <ContentBox
                     className="w-100 t-a-c m-t-5px f-w-bo "
                     Style="font-size: 10px;"
                   >
-                    OrigenStudios.com/plans/posts
+                    OrigenStudios.com/plans/contents
                   </ContentBox>
                 </div>
               </div>
@@ -182,7 +182,15 @@ const Plans = ({ children }) => {
       {/*  // !                           ADS                         */}
       <div className="w-95 r-h-c m-w-90 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
         <div  className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma ">
-        /*GOOGLEAD*/
+        <AdSense.Google
+        className="adsbygoogle-Plans-1"
+  client='ca-pub-6375603115544403'
+  slot='9886328101'
+  Style={{ display: 'block' }}
+  format='auto'
+  responsive='true'
+ 
+/>
         </div>
       </div>
 

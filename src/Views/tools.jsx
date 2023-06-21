@@ -1,15 +1,15 @@
 import React, { Fragment, useState } from "react";
-
+import AdSense from "react-adsense";
 import Title from "../components/title";
 import Btn from "../components/btn";
-import GoogleAd from 'react-google-ad';
 
 import {
   TLVAITools,
   TLVMarketing,
   TLVMultimediaDesign,
   TLVMusicProduction,
-  TLVDevelopment,} from "./index.jsx";
+  TLVDevelopment,
+} from "./index.jsx";
 
 const Tools = () => {
   const [selectedView, setSelectedView] = useState("");
@@ -62,23 +62,48 @@ const Tools = () => {
 
       <div className="w-95 r-h-c h-a h-pr-fl-ma b-s-b-b m-d-b bg-d-t  m-d-b f-f-Gilroy ">
         <div className="w-70 m-w-100 h-a h-pr-fl-ma p-10px">
-        {selectedView === "Productividad" && <TLVMusicProduction />}
-        {selectedView === "Herramientas IA" && <TLVAITools />}
-        {selectedView === "Diseño & Multimedia" && <TLVMultimediaDesign />}
-        {selectedView === "Producción Musical" && <TLVMusicProduction />}
-        {selectedView === "Desarrollo Web" && <TLVDevelopment />}
-        {selectedView === "Marketing Digital" && <TLVMarketing />}
-        <GoogleAd slot="9886328101" googleAdId="ca-pub-6375603115544403"/>
+          {selectedView === "Productividad" && <TLVMusicProduction />}
+          {selectedView === "Herramientas IA" && <TLVAITools />}
+          {selectedView === "Diseño & Multimedia" && <TLVMultimediaDesign />}
+          {selectedView === "Producción Musical" && <TLVMusicProduction />}
+          {selectedView === "Desarrollo Web" && <TLVDevelopment />}
+          {selectedView === "Marketing Digital" && <TLVMarketing />}
+          <AdSense.Google
+                  className="adsbygoogle-Tools-1"
+            client="ca-pub-6375603115544403"
+            slot="9886328101"
+            style={{ display: "block" }}
+            format="auto"
+            responsive="true"
+            
+          />
         </div>
         <div className="w-30 m-w-100 h-a h-pr-fl-ma  p-10px">
-        <div className="w-100 m-w-100 h-a h-pr-fl-ma bg-d p-10px">         <GoogleAd slot="9886328101" googleAdId="ca-pub-6375603115544403"/></div>
-           </div>
+          <div className="w-100 m-w-100 h-a h-pr-fl-ma bg-d p-10px">
+            <AdSense.Google
+            className="adsbygoogle-Tools-2"
+              client="ca-pub-6375603115544403"
+              slot="9886328101"
+              style={{ display: "block" }}
+              format="auto"
+              responsive="true"
+              
+            />
+          </div>
+        </div>
       </div>
-        {/*  // !                           ADS                         */}
-        <div className="w-95 r-h-c m-w-90 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
+      {/*  // !                           ADS                         */}
+      <div className="w-95 r-h-c m-w-90 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
         <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma ">
-              <GoogleAd client="ca-pub-6375603115544403" slot="9886328101" format="auto" />
-
+          <AdSense.Google
+          className="adsbygoogle-Tools-3"
+            client="ca-pub-6375603115544403"
+            slot="9886328101"
+            style={{ display: "block" }}
+            format="auto"
+            responsive="true"
+            
+          />
         </div>
       </div>
       <div className="w-100 h-200px h-pr-fl-ma b-s-b-b  m-d-b">&nbsp;</div>

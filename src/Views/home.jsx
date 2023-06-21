@@ -1,7 +1,8 @@
 
 import React, { Fragment } from "react";
+import AdSense from 'react-adsense';
 
-import VersionComponent from "../components/VersionComponent";
+
 import Btn from "../components/btn";
 import ContentBox from "../components/contentBox";
 import CardContainer from "../components/cardcontainer";
@@ -154,7 +155,8 @@ export default function Home(props) {
 
               {/*  // todo                            SECCION 1 | ADS             */}
               <div className="w-100 m-w-100 h-a h-pr-fl-ma m-b-10px b-s-b-b p-5px ">
-              <ins class="adsbygoogle-Home-1"
+              <ins 
+              className="adsbygoogle-Home-1"
      Style="display:block"
      data-ad-client="ca-pub-6375603115544403"
      data-ad-slot="9886328101"
@@ -180,9 +182,7 @@ export default function Home(props) {
             {/*  // ?                            SECCION 1 | SIDEBAR 20%                      */}
             <div className="w-30  m-w-100 h-a h-pr-fl-ma b-s-b-b p-10px  m-d-b  tab-d-n ">
               {/*  // todo                            SECCION 1 - SIDEBAR | SOLICITE PRESUPUESTOS                  */}
-              <div className="w-100 h-pr-fl-ma b-s-b-b bg-d  p-20px m-b-10px">
-                <VersionComponent></VersionComponent>
-              </div>
+              
               <div className="w-100 h-pr-fl-ma b-s-b-b bg-d  p-20px m-b-10px">
                 <ContentBox
                   className="m-b-10px"
@@ -347,7 +347,16 @@ export default function Home(props) {
 
               {/*  // todo                            SECCION 1 - SIDEBAR | ADS             */}
               <div className="w-100 h-pr-fl-ma b-s-b-b bg-d  p-20px m-b-10px">
-              /*GOOGLEAD*/
+              <AdSense.Google
+              className="adsbygoogle-Home-2"
+  client='ca-pub-6375603115544403'
+  slot='9886328101'
+  Style={{ display: 'block' }}
+  format='auto'
+  responsive='true'
+ 
+/>
+
 
               </div>
             </div>
@@ -552,7 +561,19 @@ export default function Home(props) {
           {/*  // !                           ADS                         */}
       <div className="w-95 r-h-c m-w-90 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
         <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma ">
-        /*GOOGLEAD*/
+
+        <AdSense.Google
+        className="adsbygoogle-Home-3"
+  client='ca-pub-6375603115544403'
+  slot='9886328101'
+  Style={{ display: 'block' }}
+  format='auto'
+  responsive='true'
+ 
+/>
+
+
+        
         </div>
       </div>
       <div className="w-100 h-200px h-pr-fl-ma b-s-b-b  m-d-b">&nbsp;</div>

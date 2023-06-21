@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import AdSense from 'react-adsense';
 
 import PromoTitulo from "../assets/images/promo/casos-de-exito-titulo.svg";
 import PromoOferta from "../assets/images/promo/casos-de-exito-oferta.svg";
@@ -180,9 +181,22 @@ const Promo = () => {
           </div>
         </div>
       </div>
-      <div className="w-100 h-200px h-pr-fl-ma b-s-b-b  flexbox m-d-b">
-        &nbsp;
+       {/*  // !                           ADS                         */}
+       <div className="w-95 r-h-c m-w-90 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
+        <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma ">
+        <AdSense.Google
+        className="adsbygoogle-Promo-1"
+  client='ca-pub-6375603115544403'
+  slot='9886328101'
+  Style={{ display: 'block' }}
+  format='auto'
+  responsive='true'
+ 
+/>
+
+        </div>
       </div>
+      <div className="w-100 h-200px h-pr-fl-ma b-s-b-b  m-d-b">&nbsp;</div>
     </Fragment>
   );
 };

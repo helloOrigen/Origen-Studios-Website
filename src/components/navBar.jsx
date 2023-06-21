@@ -55,7 +55,7 @@ const navBar = () => {
            
           <NavBarBtn className="m-d-n noselect" text={"Planes"}>
           <NavSubItem text="Planes de Identidad" enlace="/plans/identity" className="ns-bg-darkgreen c-white"></NavSubItem>
-            <NavSubItem text="Planes de Contenidos" enlace="/plans/posts" className="ns-bg-blue c-white"></NavSubItem>
+            <NavSubItem text="Planes de Contenidos" enlace="/plans/contents" className="ns-bg-blue c-white"></NavSubItem>
 
 
 

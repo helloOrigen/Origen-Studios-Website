@@ -1,14 +1,27 @@
-export {default as LinkedinIcon} from '../assets/icons/linkedin-icon.svg';
-export {default as InstagramIcon} from '../assets/icons/instagram-icon.svg';
-export {default as TwitterIcon} from '../assets/icons/twitter-icon.svg';
-export {default as FacebookIcon} from '../assets/icons/facebook-icon.svg';
-export {default as BehanceIcon} from '../assets/icons/behance-icon.svg';
-export {default as WhatsappIcon} from '../assets/icons/whatsapp-icon.svg';
-export {default as DiscordIcon} from '../assets/icons/discord-icon.svg';
+import LinkedinIcon from '../assets/icons/linkedin-icon.svg';
+import InstagramIcon from '../assets/icons/instagram-icon.svg';
+import TwitterIcon from '../assets/icons/twitter-icon.svg';
+import FacebookIcon from '../assets/icons/facebook-icon.svg';
+import BehanceIcon from '../assets/icons/behance-icon.svg';
+import WhatsappIcon from '../assets/icons/whatsapp-icon.svg';
+import DiscordIcon from '../assets/icons/discord-icon.svg';
+import ChevronRight from '../assets/icons/chevron_right.svg';
+import CheckCircle from '../assets/icons/check-circle.svg';
+import Calendar from '../assets/icons/calendar.svg';
+import Envelope from '../assets/icons/envelope.svg';
 
 
+export {
+  LinkedinIcon,
+  InstagramIcon,
+  TwitterIcon,
+  FacebookIcon,
+  BehanceIcon,
+  WhatsappIcon,
+  DiscordIcon,
+  ChevronRight,
+  CheckCircle,
+  Calendar,
+  Envelope,
 
-export {default as ChevronRight} from '../assets/icons/chevron_right.svg';
-export {default as CheckCircle} from '../assets/icons/check-circle.svg';
-export {default as Calendar} from '../assets/icons/calendar.svg';
-export {default as Envelope} from '../assets/icons/envelope.svg';
+};
