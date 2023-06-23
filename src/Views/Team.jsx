@@ -1,9 +1,9 @@
 import React, { Fragment } from "react";
-import AdSense from 'react-adsense';
 
 import ContentBox from "../components/contentBox";
 import Title from "../components/title";
-import Btn from "../components/btn";
+import Adsense from "../components/Adsense";
+
 
 
 import LinkedinIcon from "../assets/icons/linkedin-icon.svg";
@@ -89,15 +89,7 @@ const Team = () => {
        {/*  // !                           ADS                         */}
        <div className="w-95 r-h-c m-w-90 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
         <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma ">
-        <AdSense.Google
-        className="adsbygoogle-Team-1"
-  client='ca-pub-6375603115544403'
-  slot='9886328101'
-  Style={{ display: 'block' }}
-  format='auto'
-  responsive='true'
- 
-/>
+        <Adsense/>
 
         </div>
       </div>

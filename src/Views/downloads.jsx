@@ -2,6 +2,7 @@ import React, { Fragment, useState } from "react";
 import AdSense from "react-adsense";
 import Title from "../components/title";
 import Btn from "../components/btn";
+import Adsense from "../components/Adsense";
 
 import {
     DLContents,
@@ -27,15 +28,7 @@ const Downloads = () => {
 
       <div className="w-95 r-h-c h-a h-pr-fl-ma b-s-b-b m-d-b bg-d-t  m-d-b f-f-Gilroy ">
       <div className="w-20 m-w-100 h-a m-d-n h-pr-fl-ma p-10px bg-d">
-      <AdSense.Google
-      className="adsbygoogle-Downloads-1"
-  client='ca-pub-6375603115544403'
-  slot='9886328101'
-  Style={{ display: 'block' }}
-  format='auto'
-  responsive='true'
- 
-/>
+      <Adsense/>
       </div>
         <div className="w-60 m-w-70 h-a h-pr-fl-ma p-10px">
         {selectedView === "Identidad" && <DLIdentity/>}
@@ -72,39 +65,15 @@ const Downloads = () => {
 
 
         <div className="w-100 m-w-100 h-a h-pr-fl-ma bg-d p-10px">
-          <AdSense.Google
-          className="adsbygoogle-Downloads-2"
-  client='ca-pub-6375603115544403'
-  slot='9886328101'
-  Style={{ display: 'block' }}
-  format='auto'
-  responsive='true'
- 
-/></div>
+        <Adsense/></div>
            </div>
            <div className="w-100 h-a d-n m-d-b h-pr-fl-ma p-10px bg-d">
-      <AdSense.Google
-      className="adsbygoogle-Downloads-3"
-  client='ca-pub-6375603115544403'
-  slot='9886328101'
-  Style={{ display: 'block' }}
-  format='auto'
-  responsive='true'
- 
-/></div>
+           <Adsense/></div>
       </div>
         {/*  // !                           ADS                         */}
         <div className="w-95 r-h-c m-w-90 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
         <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma ">
-        <AdSense.Google
-        className="adsbygoogle-Downloads-4"
-  client='ca-pub-6375603115544403'
-  slot='9886328101'
-  Style={{ display: 'block' }}
-  format='auto'
-  responsive='true'
- 
-/>
+        <Adsense/>
 
         </div>
       </div>

@@ -60,9 +60,9 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.14.5",
     "postcss": "^8.4.23",
     "postcss-100vh-fix": "^1.0.2",
-    "purgecss": "^5.0.0",
-    "@babel/plugin-proposal-private-property-in-object": "^7.14.5"
+    "purgecss": "^5.0.0"
   }
 }

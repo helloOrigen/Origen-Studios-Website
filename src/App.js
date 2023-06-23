@@ -7,7 +7,7 @@ import MobileMenu from "./components/mobileMenu";
 import Notifier from "./components/notifier";
 
 
-import fondo from "./assets/images/compressed/fondo.jpg";
+import fondo from "./assets/images/compressed/fondo-web.png";
 
 import "./Styles/fixedcss/seed.min.css";
 

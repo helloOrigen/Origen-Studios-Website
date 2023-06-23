@@ -8,6 +8,10 @@ import ContentBox from "../components/contentBox";
 import CardContainer from "../components/cardcontainer";
 import Card from "../components/card";
 import ImageComponent from "../components/ImageComponent";
+import TestCompone from "../components/TestCompone";
+import Adsense from "../components/Adsense";
+
+
 import BannerPrincipal from "../assets/images/compressed/banner-principal.jpg";
 import OSWoman from "../assets/images/compressed/os-woman.jpg";
 import SunSummer from "../assets/images/compressed/sunsummerthehero.jpg";
@@ -43,7 +47,12 @@ import "../Styles/home.css";
 import "../Styles/styles.css";
 import { Link } from "react-router-dom";
 
+
+
+
 export default function Home(props) {
+
+  const logos = [Ebook, AromaDeAmor, TheoryFragance];
 
   return (
     <Fragment>
@@ -78,7 +87,10 @@ export default function Home(props) {
             {/*  // ?                            SECCION 1 | CONTENIDO  80%                       */}
 
             <div className="w-70   p-10px tab-w-100 m-w-100 h-a h-pr-fl-ma b-s-b-b m-d-b  ">
-
+            <div className="w-100 h-a  m-h-auto  b-s-b-b m-w-100 tab-w-100 h-a h-pr-fl-ma m-b-20px">
+                <Adsense/>
+             
+                </div>
 <div className="w-100 h-a  m-h-auto  b-s-b-b m-w-100 tab-w-100 h-a h-pr-fl-ma m-b-20px">
                 <div className="w-100 h-a t-a-c h-pr-fl-ma ns-f-s-medium  f-f-Gilroy f-w-bo b-s-b-b p-20px">
                   <Link to="/plans">
@@ -359,15 +371,7 @@ export default function Home(props) {
 
               {/*  // todo                            SECCION 1 - SIDEBAR | ADS             */}
               <div className="w-100 h-pr-fl-ma b-s-b-b bg-d  p-20px m-b-10px">
-              <AdSense.Google
-              className="adsbygoogle-Home-2"
-  client='ca-pub-6375603115544403'
-  slot='9886328101'
-  Style={{ display: 'block' }}
-  format='auto'
-  responsive='true'
- 
-/>
+              <Adsense/>
 
 
               </div>
@@ -573,17 +577,7 @@ export default function Home(props) {
           {/*  // !                           ADS                         */}
       <div className="w-95 r-h-c m-w-90 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
         <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma ">
-
-        <AdSense.Google
-        className="adsbygoogle-Home-3"
-  client='ca-pub-6375603115544403'
-  slot='9886328101'
-  Style={{ display: 'block' }}
-  format='auto'
-  responsive='true'
- 
-/>
-
+        <Adsense/>
 
         
         </div>

@@ -1,6 +1,6 @@
 import React, { Fragment, useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import AdSense from "react-adsense";
+import Adsense from "../components/Adsense";
 import Title from "../components/title";
 import Btn from "../components/btn";
 import {
@@ -77,39 +77,18 @@ const Tools = () => {
           {selectedView === "Desarrollo" && <TLVDevelopment />}
           {selectedView === "Marketing" && <TLVMarketing />}
 
-          <AdSense.Google
-            className="adsbygoogle-Tools-1"
-            client="ca-pub-6375603115544403"
-            slot="9886328101"
-            style={{ display: "block" }}
-            format="auto"
-            responsive="true"
-          />
+          <Adsense/>
         </div>
         <div className="w-30 m-w-100 h-a h-pr-fl-ma  p-10px">
           <div className="w-100 m-w-100 h-a h-pr-fl-ma bg-d p-10px">
-            <AdSense.Google
-              className="adsbygoogle-Tools-2"
-              client="ca-pub-6375603115544403"
-              slot="9886328101"
-              style={{ display: "block" }}
-              format="auto"
-              responsive="true"
-            />
+          <Adsense/>
           </div>
         </div>
       </div>
 
       <div className="w-95 r-h-c m-w-90 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
         <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma ">
-          <AdSense.Google
-            className="adsbygoogle-Tools-3"
-            client="ca-pub-6375603115544403"
-            slot="9886328101"
-            style={{ display: "block" }}
-            format="auto"
-            responsive="true"
-          />
+        <Adsense/>
         </div>
       </div>
       <div className="w-100 h-200px h-pr-fl-ma b-s-b-b  m-d-b">&nbsp;</div>
