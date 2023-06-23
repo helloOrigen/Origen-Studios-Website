@@ -20,7 +20,7 @@ const navBar = () => {
           <NavBarLogo   />
         </Link>
         </div>
-      <div className="w-50  h-pr-fl-ma r-v-c f-w-n-w h-70px tab-d-n ">
+      <div className="w-100  h-pr-fl-ma r-v-c f-w-n-w h-70px tab-d-n ">
       <Link to="/">
           <NavBarBtn className=" m-d-n noselect" text={"Inicio"}></NavBarBtn>
         </Link>
@@ -62,14 +62,12 @@ const navBar = () => {
           </NavBarBtn>
         </Link>
         
-         {/* <Link to="/tools"><NavBarBtn className="m-d-n noselect" text={"Herramientas"}>
-        <NavSubItem text="Inteligencias Artificiales" enlace=""></NavSubItem>
-          <NavSubItem text="Utilidades de oficina" enlace=""></NavSubItem>
-            <NavSubItem text="Utilidades Descargables" enlace=""></NavSubItem>
-            <NavSubItem text="Assets 2D" enlace=""></NavSubItem>
-            <NavSubItem text="Assets 3D" enlace=""></NavSubItem>
-            <NavSubItem text="Guía para redes" enlace=""></NavSubItem>
-            </NavBarBtn></Link> */}
+         <Link to="/tools"><NavBarBtn className="m-d-n noselect" text={"Herramientas"}>
+      
+
+
+  
+            </NavBarBtn></Link> 
        
         <Link to="/promo"><NavBarBtn className="m-d-n noselect" text={"Promos"} news></NavBarBtn></Link>
         </div>
@@ -84,7 +82,7 @@ const navBar = () => {
 
 
    {/* BOTON CONTACTO */}
-   <div className="w-100 m-d-n h-pr-fl-ma h-100 tab-d-n">
+   <div className="w-30 m-d-n h-pr-fl-ma h-100 tab-d-n">
     <div className="w-a h-a h-pr-fr-ma r-v-c ">
    <Btn className="w-200px h-pr-fr-ma  p-l-20px p-r-20px p-10px  f-w-bo  br-s-solid br-c-white br-r-50px" enlace="https://wa.me/message/QEHFJE3NEAVTE1" text="Contacto"></Btn>
    </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import BlockList from "../../components/BlockList";
 import OSLogotipo from "../../assets/logo/OS-logotipo-m-white-transparent_svg.svg";
+import OpenAiLogo from "../../assets/images/tools/openai.jpg";
 import Title from "../../components/title";
 export default function TLVAITools(props) {
   return (
@@ -16,7 +17,7 @@ export default function TLVAITools(props) {
           ContentBox
           image
           btn
-          image={OSLogotipo}
+          image={OpenAiLogo}
           title="CHATGPT-OPENAI"
           text="ChatGPT Es la Inteligencia Artificial más potente y reconocida a nivel internacional, con ella puedes crear desde guiones, mejorar tus emails, generar ideas de contenidos y muchisimo más..."
           btnText="Visitar"

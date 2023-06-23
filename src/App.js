@@ -1,4 +1,3 @@
-
 import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -7,7 +6,8 @@ import Footer from "./components/Footer";
 import MobileMenu from "./components/mobileMenu";
 import Notifier from "./components/notifier";
 
-import Background1 from "./assets/images/compressed/background-1.jpg";
+
+import fondo from "./assets/images/compressed/fondo.jpg";
 
 import "./Styles/fixedcss/seed.min.css";
 
@@ -17,35 +17,35 @@ const App = () => {
   useEffect(() => {
     const appHeight = () => {
       const doc = document.documentElement;
-      doc.style.setProperty('--app-height', `${window.innerHeight}px`);
+      doc.style.setProperty("--app-height", `${window.innerHeight}px`);
     };
 
-    window.addEventListener('resize', appHeight);
+    window.addEventListener("resize", appHeight);
     appHeight();
 
     return () => {
-      window.removeEventListener('resize', appHeight);
+      window.removeEventListener("resize", appHeight);
     };
   }, []);
 
   return (
     <BrowserRouter>
       <div className="w-100 h-a h-pr-fl-ma of-h bg-black">
-        <div id="modal-root" style={{ zIndex: '9999999' }}></div>
+        <div id="modal-root" style={{ zIndex: "9999999" }}></div>
         <div
           className="l-0px r-0px t-0px b-0px m-a"
           style={{
-            backgroundImage: `url(${Background1})`,
-            backgroundPosition: 'center',
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat',
-            position: 'fixed',
-            objectFit: 'cover',
-            width: '100vw',
-            height: '100vh',
+            backgroundImage: `url(${fondo})`,
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            position: "fixed",
+            objectFit: "cover",
+            width: "100vw",
+            height: "100vh",
           }}
         ></div>
-        <div className="h-pr-fl-ma w-100 h-70px b-s-b-b bg-d" style={{ zIndex: '1234' }}>
+        <div className="h-pr-fl-ma w-100 h-70px b-s-b-b bg-d" style={{ zIndex: "1234" }}>
           <NavBar />
         </div>
 
@@ -56,8 +56,15 @@ const App = () => {
                 <Route path="/" element={<Views.Home />} />
                 <Route path="/services" element={<Views.Services />} />
                 <Route path="/team" element={<Views.Team />} />
-              
-                <Route path="/tools" element={<Views.Tools />} />
+
+                <Route path="/tools/*" element={<Views.Tools />} />
+                <Route path="/tools/IA" element={<Views.TLVAITools />} />
+                <Route path="/tools/Development" element={<Views.TLVDevelopment />} />
+                <Route path="/tools/Marketing" element={<Views.TLVMarketing />} />
+                <Route path="/tools/Design" element={<Views.TLVDesign />} />
+                <Route path="/tools/Productivity" element={<Views.TLVProductivity />} />
+                <Route path="/tools/Music" element={<Views.TLVMusic />} />
+
                 <Route path="/sponsors" element={<Views.Sponsors />} />
                 <Route path="/faq" element={<Views.FAQ />} />
                 <Route path="/about" element={<Views.About />} />
@@ -70,12 +77,11 @@ const App = () => {
                 <Route path="/plans/contents" element={<Views.Contents />} />
                 <Route path="/plans/identity" element={<Views.Identity />} />
 
-                <Route path="/downloads" element={<Views.Downloads/>} />
+                <Route path="/downloads" element={<Views.Downloads />} />
                 <Route path="/downloads/:id" element={<Views.Downloads />} />
-                <Route path="/downloads/identity" element={<Views.DLIdentity/>} />
-                <Route path="/downloads/contents" element={<Views.DLContents/>} />
-                <Route path="/downloads/consultancy" element={<Views.DLConsultancy/>} />
-
+                <Route path="/downloads/identity" element={<Views.DLIdentity />} />
+                <Route path="/downloads/contents" element={<Views.DLContents />} />
+                <Route path="/downloads/consultancy" element={<Views.DLConsultancy />} />
 
                 <Route path="/promo" element={<Views.Promo />} />
                 <Route path="/jobs" element={<Views.Jobs />} />
@@ -87,15 +93,15 @@ const App = () => {
           <Notifier
             className="w-50  UnderLineText"
             Accept
-            text=" Utilizamos &#127850; cookies en este sitio ofrecerle la mejor experiencia de usuario posible."
+            text=" Utilizamos 🍪 cookies en este sitio para ofrecerle la mejor experiencia de usuario posible."
             link="/cookies"
             action="Saber más..."
           />
         </div>
 
-        <div className="h-pr-fl-ma w-100 h-70px b-s-b-b of-v b-0px m-p-f" style={{ zIndex: '9999' }}>
+        <div className="h-pr-fl-ma w-100 h-70px b-s-b-b of-v b-0px m-p-f" style={{ zIndex: "9999" }}>
           <MobileMenu className="p-a" />
-          <Footer className="w-100 h-100 r-h-c h-pr-fl-ma b-s-b-b bg-d" style={{ zIndex: '9999' }} />
+          <Footer className="w-100 h-100 r-h-c h-pr-fl-ma b-s-b-b bg-d" style={{ zIndex: "9999" }} />
         </div>
       </div>
     </BrowserRouter>

@@ -8,7 +8,7 @@ import ContentBox from "../components/contentBox";
 import CardContainer from "../components/cardcontainer";
 import Card from "../components/card";
 import ImageComponent from "../components/ImageComponent";
-
+import BannerPrincipal from "../assets/images/compressed/banner-principal.jpg";
 import OSWoman from "../assets/images/compressed/os-woman.jpg";
 import SunSummer from "../assets/images/compressed/sunsummerthehero.jpg";
 import TheoryFragance from "../assets/images/compressed/theory-fragance.jpg";
@@ -41,6 +41,7 @@ Calendar,
 Envelope, } from "../components/icons";
 import "../Styles/home.css";
 import "../Styles/styles.css";
+import { Link } from "react-router-dom";
 
 export default function Home(props) {
 
@@ -77,6 +78,17 @@ export default function Home(props) {
             {/*  // ?                            SECCION 1 | CONTENIDO  80%                       */}
 
             <div className="w-70   p-10px tab-w-100 m-w-100 h-a h-pr-fl-ma b-s-b-b m-d-b  ">
+
+<div className="w-100 h-a  m-h-auto  b-s-b-b m-w-100 tab-w-100 h-a h-pr-fl-ma m-b-20px">
+                <div className="w-100 h-a t-a-c h-pr-fl-ma ns-f-s-medium  f-f-Gilroy f-w-bo b-s-b-b p-20px">
+                  <Link to="/plans">
+                <img
+                      className="w-100 h-a bg-d ns-br-r-3"
+                      src={BannerPrincipal}
+                      alt="OrigenStudios.com/plans"
+                    /></Link>
+                </div>
+          </div>
               {/*  // todo                            SECCION 1 | QUE PODEMOS HACER POR Y PARA TI                     */}
 
               <div className="w-100 h-a  m-h-auto  b-s-b-b m-w-100 tab-w-100 h-a h-pr-fl-ma m-b-20px">

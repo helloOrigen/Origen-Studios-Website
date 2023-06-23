@@ -34,15 +34,15 @@ export default function BlockList(props) {
         {image && (
           <div className=" w-250px m-w-100 h-100px h-pr-fl-ma b-s-b-b p-10px of-n bg-d">
             <div className="w-100 h-a h-pr-fl-m b-s-b-b  r-v-c">
-            <ImageComponent
-              imageUrl={` ${image} `}
+            <img
+              src={` ${image} `}
               alt={` ${alt} `}
               imgcStyle="object-fit: contain;"
 
-              className="w-100 h-100 p-5px b-s-b-b h-e-scale ns-br-r-1"
+              className="w-100 h-100 p-5px b-s-b-b h-e-scale ns-br-r-2 of-h"
             >
           
-            </ImageComponent>  </div>
+            </img>  </div>
           </div>
         )}
 

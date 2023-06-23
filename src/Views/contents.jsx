@@ -130,6 +130,8 @@ const Contents = () => {
                     <Btn
                       className="w-100 p-15px f-w-bo m-t-20px ns-bg-blue "
                       text="¡Empezar ahora!"
+                      enlace="mailto:hello@OrigenStudios.com?subject=Plan-Contenidos-Unicos-GeneracionIA&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Contenidos%20Unicos-GeneraciónIA"
+
                     ></Btn>
                     <ContentBox
                       className="w-100 t-a-c m-t-5px f-w-bo "
@@ -205,6 +207,8 @@ const Contents = () => {
                     <Btn
                       className="w-100 p-15px f-w-bo m-t-20px ns-bg-blue "
                       text="¡Empezar ahora!"
+                      enlace="mailto:hello@OrigenStudios.com?subject=Plan-Contenidos-Unicos-Edicion-De-Fotos&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Contenidos%20Unicos-Edicion-De-Fotos"
+
                     ></Btn>
                     <ContentBox
                       className="w-100 t-a-c m-t-5px f-w-bo "
@@ -253,6 +257,8 @@ const Contents = () => {
                     <Btn
                       className="w-100 p-15px f-w-bo  m-t-20px ns-bg-blue "
                       text="¡Empezar ahora!"
+                      enlace="mailto:hello@OrigenStudios.com?subject=Plan-Contenidos-Unicos-BannerADS&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Contenidos%20Unicos-BannerADS"
+
                     ></Btn>
                     <ContentBox
                       className="w-100 t-a-c m-t-5px f-w-bo "
@@ -326,6 +332,8 @@ const Contents = () => {
                     <Btn
                       className="w-100 p-15px f-w-bo  m-t-20px ns-bg-blue "
                       text="¡Empezar ahora!"
+                      enlace="mailto:hello@OrigenStudios.com?subject=Plan-Contenidos-Unicos-Illustración&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Contenidos%20Unicos-Illustración"
+
                     ></Btn>
                     <ContentBox
                       className="w-100 t-a-c m-t-5px f-w-bo "
@@ -412,6 +420,8 @@ const Contents = () => {
                     <Btn
                       className="w-100 p-15px f-w-bo  m-t-20px ns-bg-blue ns-bg-tone-1"
                       text="¡Empezar ahora!"
+                      enlace="mailto:hello@OrigenStudios.com?subject=Plan-Contenidos-Mensuales-Planificación-Mensual&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Contenidos%20Mensuales-Planificación-Mensual"
+
                     ></Btn>
                     <ContentBox
                       className="w-100 t-a-c m-t-5px f-w-bo "
@@ -483,6 +493,8 @@ const Contents = () => {
                     <Btn
                       className="w-100 p-15px f-w-bo  m-t-20px ns-bg-blue ns-bg-tone-1"
                       text="¡Empezar ahora!"
+                      enlace="mailto:hello@OrigenStudios.com?subject=Plan-Contenidos-Mensuales-5-Post-Mensuales&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Contenidos%20Mensuales-5-Post-Mensuales"
+
                     ></Btn>
                     <ContentBox
                       className="w-100 t-a-c m-t-5px f-w-bo "
@@ -537,6 +549,8 @@ const Contents = () => {
                     <Btn
                       className="w-100 p-15px f-w-bo  m-t-20px ns-bg-blue ns-bg-tone-1"
                       text="¡Empezar ahora!"
+                      enlace="mailto:hello@OrigenStudios.com?subject=Plan-Contenidos-Mensuales-10-Post-Mensuales&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Contenidos%20Mensuales-10-Post-Mensuales"
+
                     ></Btn>
                     <ContentBox
                       className="w-100 t-a-c m-t-5px f-w-bo "
@@ -610,6 +624,8 @@ const Contents = () => {
                     <Btn
                       className="w-100 p-15px f-w-bo  m-t-20px ns-bg-blue ns-bg-tone-1"
                       text="¡Empezar ahora!"
+                      enlace="mailto:hello@OrigenStudios.com?subject=Plan-Contenidos-Mensuales-5-Stories-Mensuales&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Contenidos%20Mensuales-5-Stories-Mensuales"
+
                     ></Btn>
                     <ContentBox
                       className="w-100 t-a-c m-t-5px f-w-bo "

@@ -136,6 +136,7 @@ const Identity = () => {
                     <Btn
                       className="w-100 p-15px f-w-bo m-t-20px ns-bg-darkgreen  "
                       text="¡Empezar ahora!"
+                      enlace="mailto:hello@OrigenStudios.com?subject=Plan-Identidad-Emprendimiento&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Identidad%20Emprendimiento"
                     ></Btn>
                     <ContentBox
                       className="w-100 t-a-c m-t-5px f-w-bo "
@@ -215,6 +216,7 @@ const Identity = () => {
                     <Btn
                       className="w-100 p-15px f-w-bo m-t-20px ns-bg-darkgreen  "
                       text="¡Empezar ahora!"
+                      enlace="mailto:hello@OrigenStudios.com?subject=Plan-Identidad-Startup&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Identidad%20Startup"
                     ></Btn>
                     <ContentBox
                       className="w-100 t-a-c m-t-5px f-w-bo "
@@ -298,6 +300,8 @@ const Identity = () => {
                     <Btn
                       className="w-100 p-15px f-w-bo m-t-20px ns-bg-darkgreen  "
                       text="¡Empezar ahora!"
+                      enlace="mailto:hello@OrigenStudios.com?subject=Plan-Identidad-Mediana-Empresa&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Identidad%20Mediana-Empresa"
+
                     ></Btn>
                     <ContentBox
                       className="w-100 t-a-c m-t-5px f-w-bo "
@@ -389,6 +393,8 @@ const Identity = () => {
                     <Btn
                       className="w-100 p-15px f-w-bo m-t-20px ns-bg-darkgreen  "
                       text="¡Empezar ahora!"
+                      enlace="mailto:hello@OrigenStudios.com?subject=Plan-Identidad-Empresa-Nacional&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Identidad%20Empresa-Nacional"
+
                     ></Btn>
                     <ContentBox
                       className="w-100 t-a-c m-t-5px f-w-bo "

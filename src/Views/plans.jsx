@@ -21,7 +21,7 @@ const Plans = ({ children }) => {
 
         <div className="w-90 h-pr-fl-ma h-100 b-s-b-b r-h-c flexbox j-c-c  tab-d-b m-d-b">
           {/* //green PLANES: 1 - PLANES DE MARCA */}
-          <div className="w-25 tab-w-50 m-w-100 h-a h-pr-fl-ma p-5px  ns-bg-darkgreen">
+          <div className="w-25 tab-w-50 m-w-100 h-a h-pr-fl-ma p-5px  ns-bg-darkgreen ns-br-r-1">
             <div className="w-100 h-a h-pr-fl-mab-s-b-b ">
               <div className="w-100 h-a b-s-b-b h-pr-fl-ma flexbox j-c-c p-10px">
                 <ImageComponent
@@ -74,7 +74,7 @@ const Plans = ({ children }) => {
 
           {/* //blue PLANES: 2 - PLANES DE CONTENIDO */}
 
-          <div className="w-25 tab-w-50 m-w-100 h-a h-pr-fl-ma p-5px  ns-bg-blue ">
+          <div className="w-25 tab-w-50 m-w-100 h-a h-pr-fl-ma p-5px  ns-bg-blue ns-br-r-1">
             <div className="w-100 h-a h-pr-fl-mab-s-b-b ">
               <div className="w-100 h-a b-s-b-b h-pr-fl-ma flexbox j-c-c p-10px">
                 <ImageComponent
@@ -127,7 +127,7 @@ const Plans = ({ children }) => {
 
           {/* //blue PLANES: 2 - PLANES DE CONTENIDO */}
 
-          <div className="w-25 tab-w-50 m-w-100 h-a h-pr-fl-ma p-5px  ns-bg-violet ">
+          <div className="w-25 tab-w-50 m-w-100 h-a h-pr-fl-ma p-5px  ns-bg-violet ns-br-r-1">
             <div className="w-100 h-a h-pr-fl-mab-s-b-b ">
               <div className="w-100 h-a b-s-b-b h-pr-fl-ma flexbox j-c-c p-10px">
                 <ImageComponent
@@ -171,7 +171,7 @@ const Plans = ({ children }) => {
                     className="w-100 t-a-c m-t-5px f-w-bo "
                     Style="font-size: 10px;"
                   >
-                    OrigenStudios.com/plans/specials
+                    OrigenStudios.com/plans
                   </ContentBox>
                 </div>
               </div>
