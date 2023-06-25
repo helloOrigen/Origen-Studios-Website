@@ -5,3 +5,4 @@ module.exports = {
     output: "./src/Styles/fixedcss/seed.css",
   };
   
+  /* npm run optimizecss */

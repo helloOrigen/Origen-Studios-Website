@@ -1,48 +1,45 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-const initAd = () => {
-  (window.adsbygoogle = window.adsbygoogle || []).push({});
-};
+class Adsense extends Component {
+  googleInit = null;
 
-class Adsense extends React.Component {
   componentDidMount() {
-    initAd();
+    const { timeout } = this.props;
+    this.googleInit = setTimeout(() => {
+      if (typeof window !== 'undefined')
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
+    }, timeout);
   }
 
-  shouldComponentUpdate(nextProps) {
-    const { props: { path } } = this;
-    return nextProps.path !== path;
-  }
-
-  componentDidUpdate() {
-    initAd();
+  componentWillUnmount() {
+    if (this.googleInit) clearTimeout(this.googleInit);
   }
 
   render() {
-    const { children, className, path } = this.props;
+    const { classNames, slot, googleAdId, style, format } = this.props;
     return (
-      <div key={path} className={`adsense ${className}`}>
+      <div className={classNames}>
         <ins
           className="adsbygoogle"
-          style={{ display: 'block' }}
-          data-ad-client="ca-pub-6375603115544403"
-          data-ad-slot="9886328101"
-          data-ad-format="auto"
+          style={style || { display: 'block', textAlign: "center" }}
+          data-ad-client={googleAdId}
+          data-ad-slot={slot}
+          data-ad-format={format || "auto"}
           data-full-width-responsive="true"
-        />
+        ></ins>
       </div>
     );
   }
 }
-
 Adsense.propTypes = {
-  path: PropTypes.string.isRequired,
-  className: PropTypes.string,
+  classNames: PropTypes.string,
+  slot: PropTypes.string,
+  timeout: PropTypes.number,
+  googleAdId: PropTypes.string,
 };
-
 Adsense.defaultProps = {
-  className: '',
+  classNames: '',
+  timeout: 200,
 };
-
 export default Adsense;

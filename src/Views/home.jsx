@@ -43,8 +43,9 @@ ChevronRight,
 CheckCircle,
 Calendar,
 Envelope, } from "../components/icons";
+/*
 import "../Styles/home.css";
-import "../Styles/styles.css";
+import "../Styles/styles.css";*/
 import { Link } from "react-router-dom";
 
 
@@ -87,10 +88,7 @@ export default function Home(props) {
             {/*  // ?                            SECCION 1 | CONTENIDO  80%                       */}
 
             <div className="w-70   p-10px tab-w-100 m-w-100 h-a h-pr-fl-ma b-s-b-b m-d-b  ">
-            <div className="w-100 h-a  m-h-auto  b-s-b-b m-w-100 tab-w-100 h-a h-pr-fl-ma m-b-20px">
-                <Adsense/>
-             
-                </div>
+          
 <div className="w-100 h-a  m-h-auto  b-s-b-b m-w-100 tab-w-100 h-a h-pr-fl-ma m-b-20px">
                 <div className="w-100 h-a t-a-c h-pr-fl-ma ns-f-s-medium  f-f-Gilroy f-w-bo b-s-b-b p-20px">
                   <Link to="/plans">
@@ -140,7 +138,11 @@ export default function Home(props) {
                   </div>
                 </div>
               </div>
-
+     {/*  // !                           ADS                         */}
+              <div className="w-100 h-a  m-h-auto  b-s-b-b m-w-100 tab-w-100 h-a h-pr-fl-ma m-b-20px">
+            <Adsense  slot="9886328101" googleAdId="ca-pub-6375603115544403"/>
+             
+                </div>
               {/*  // todo                            SECCION 1 | PORQUÉ ELEGIRNOS                   */}
 
               {/* Porque elegirnos */}
@@ -371,8 +373,8 @@ export default function Home(props) {
 
               {/*  // todo                            SECCION 1 - SIDEBAR | ADS             */}
               <div className="w-100 h-pr-fl-ma b-s-b-b bg-d  p-20px m-b-10px">
-              <Adsense/>
-
+              <Adsense  slot="9886328101" googleAdId="ca-pub-6375603115544403"/>
+     
 
               </div>
             </div>
@@ -577,7 +579,7 @@ export default function Home(props) {
           {/*  // !                           ADS                         */}
       <div className="w-95 r-h-c m-w-90 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
         <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma ">
-        <Adsense/>
+        <Adsense  slot="9886328101" googleAdId="ca-pub-6375603115544403"/>
 
         
         </div>

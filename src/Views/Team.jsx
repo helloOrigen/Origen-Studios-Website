@@ -14,10 +14,6 @@ import BehanceIcon from "../assets/icons/behance-icon.svg";
 import WhatsappIcon from "../assets/icons/whatsapp-icon.svg";
 import DiscordIcon from "../assets/icons/discord-icon.svg";
 
-import Nick from "../assets/team/nickolas-machado.jpg";
-import Vicky from "../assets/team/victoria-brylka.jpg";
-import Cesar from "../assets/team/cesar-lima.jpg";
-import Carlos from "../assets/team/carlos-andres.jpg";
 
 const Team = () => {
   return (
