@@ -1,6 +1,4 @@
-
-import React, { Fragment } from "react";
-
+import React, { Fragment, useState } from "react";
 
 import ContentBox from "../components/contentBox";
 import Title from "../components/title";
@@ -8,22 +6,29 @@ import Btn from "../components/btn";
 import ImageComponent from "../components/ImageComponent";
 import Adsense from "../components/Adsense";
 
-
 import CreateIcon from "../assets/icons/create.svg";
 
 const Plans = ({ children }) => {
+  const [infoVisible, setInfoVisible] = useState([false, false]);
 
+  const toggleInfo = (index) => {
+    setInfoVisible((prevState) => {
+      const updatedInfoVisible = [...prevState];
+      updatedInfoVisible[index] = !prevState[index];
+      return updatedInfoVisible;
+    });
+  };
   return (
     <Fragment>
       <div className="w-95 r-h-c m-w-100 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
         <Title
           h1="Todos los planes"
-          className="w-100 t-a-c m-t-100px m-b-100px"
+          className="w-100 t-a-c m-t-100px m-b-100px "
         ></Title>
 
         <div className="w-90 h-pr-fl-ma h-100 b-s-b-b r-h-c flexbox j-c-c  tab-d-b m-d-b">
           {/* //green PLANES: 1 - PLANES DE MARCA */}
-          <div className="w-25 tab-w-50 m-w-100 h-a h-pr-fl-ma p-5px  ns-bg-darkgreen ns-br-r-1">
+          <div className="w-25 tab-w-50 m-w-100 h-a h-pr-fl-ma p-5px m-b-10px ns-bg-darkgreen ns-br-r-1">
             <div className="w-100 h-a h-pr-fl-mab-s-b-b ">
               <div className="w-100 h-a b-s-b-b h-pr-fl-ma flexbox j-c-c p-10px">
                 <ImageComponent
@@ -76,7 +81,7 @@ const Plans = ({ children }) => {
 
           {/* //blue PLANES: 2 - PLANES DE CONTENIDO */}
 
-          <div className="w-25 tab-w-50 m-w-100 h-a h-pr-fl-ma p-5px  ns-bg-blue ns-br-r-1">
+          <div className="w-25 tab-w-50 m-w-100 h-a h-pr-fl-ma p-5px m-b-10px ns-bg-blue ns-br-r-1">
             <div className="w-100 h-a h-pr-fl-mab-s-b-b ">
               <div className="w-100 h-a b-s-b-b h-pr-fl-ma flexbox j-c-c p-10px">
                 <ImageComponent
@@ -129,7 +134,7 @@ const Plans = ({ children }) => {
 
           {/* //blue PLANES: 2 - PLANES DE CONTENIDO */}
 
-          <div className="w-25 tab-w-50 m-w-100 h-a h-pr-fl-ma p-5px  ns-bg-violet ns-br-r-1">
+          <div className="w-25 tab-w-50 m-w-100 h-a h-pr-fl-ma p-5px m-b-10px ns-bg-violet ns-br-r-1">
             <div className="w-100 h-a h-pr-fl-mab-s-b-b ">
               <div className="w-100 h-a b-s-b-b h-pr-fl-ma flexbox j-c-c p-10px">
                 <ImageComponent
@@ -181,10 +186,313 @@ const Plans = ({ children }) => {
           </div>
         </div>
       </div>
+
+      <div className="w-80 m-w-90 h-pr-fl-ma h-100 b-s-b-b r-h-c p-5px bg-d m-t-50px m-b-50px tab-d-b m-d-b ns-br-r-2">
+        {/* //todo PLANES: 4 - PLANES DE ESPECIALES */}
+
+        <div className="w-100 h-pr-fl-ma p-10px ">
+          <Title className="t-a-c p-50px ns-c-e" h2="Planes especiales"></Title>
+        </div>
+
+        {/* //? PLANES: 4 - TRADERS Y BROKERS */}
+        <div className="w-100 h-pr-fl-ma p-10px ns-bg-gray-9 ns-br-r-1 m-b-5px">
+          <div className="w-100 h-pr-fl-ma  flexbox m-d-b">
+            <div className="w-70 m-w-100 h-pr-fl-ma">
+              <Title className="ns-c-e" h3="&#8599; TRADERS & BROKERS"></Title>
+            </div>
+            <div className="w-30 m-w-100 h-pr-fl-ma ">
+              <div className="w-a h-a h-pr-fr-ma d-i-f p-10px">
+                <Btn
+                  className="p-10px f-w-bo bg-d h-pr-fr-ma"
+                  text={infoVisible[0] ? "- Cerrar info" : "+ Abrir info"}
+                  click={() => toggleInfo(0)}
+                ></Btn>
+                <Btn
+                  className="p-10px f-w-bo ns-bg-e h-pr-fr-ma m-l-10px"
+                  text="Solicitar Reunión"
+                ></Btn>
+              </div>
+            </div>
+          </div>
+          <div className="w-100 h-pr-fl-ma ">
+            <div
+              id="contenedorinfo"
+              className={`w-100 h-a h-pr-fl-ma ${infoVisible[0] ? "" : "d-n"}`}
+            >
+              <span className="w-a h-pr-fl-ma bg-d ns-c-e f-f-Gilroy f-w-bo p-5px m-t-5px">
+                Creamos todo el contenido que su empresa necesite:
+              </span>
+              <span className="tag">Logotipo</span>
+              <span className="tag">Tarjetas de presentación</span>
+              <span className="tag">
+                Papelería corporativa (sobres, hojas membretadas, etc.)
+              </span>
+              <span className="tag">Presentaciones corporativas</span>
+              <span className="tag">
+                Infografías (Gráficos y visualizaciones de datos)
+              </span>
+              <span className="tag">Plantillas de correo electrónico</span>
+              <span className="tag">Diseño de página web</span>
+              <span className="tag">Banners y anuncios publicitarios</span>
+              <span className="tag">Plantillas para redes sociales</span>
+              <span className="tag">Imágenes y fotografías de productos</span>
+              <span className="tag">Documentos corporativos</span>
+              <span className="tag">
+                Material promocional impreso (folletos, volantes, etc.)
+              </span>
+              <span className="tag">Identidad de marca</span>
+              <span className="tag">
+                Iconos y elementos gráficos para aplicaciones o plataformas
+              </span>
+              <span className="tag">Ilustraciones y gráficos vectoriales</span>
+              <span className="tag">
+                Plantillas de presentación de productos o servicios
+              </span>
+              <span className="tag">
+                Diseño de interfaz de usuario (UI) para aplicaciones o
+                plataformas
+              </span>
+              <span className="tag">
+                Material de marketing (brochures, catálogos, etc.)
+              </span>
+              <span className="tag">Animaciones y videos promocionales</span>
+              <span className="tag">Packaging de productos</span>
+            </div>
+          </div>
+        </div>
+
+        {/* //? PLANES: 4 - CASINOS */}
+
+        <div className="w-100 h-pr-fl-ma p-10px ns-bg-gray-9 ns-br-r-1 m-b-5px">
+          <div className="w-100 h-pr-fl-ma  flexbox m-d-b">
+            <div className="w-70 m-w-100 h-pr-fl-ma">
+              <Title className="ns-c-e" h3="&#8599; CASINOS"></Title>
+            </div>
+            <div className="w-30 m-w-100 h-pr-fl-ma ">
+              <div className="w-a h-a h-pr-fr-ma d-i-f p-10px">
+                <Btn
+                  className="p-10px f-w-bo bg-d h-pr-fr-ma"
+                  text={infoVisible[1] ? "- Cerrar info" : "+ Abrir info"}
+                  click={() => toggleInfo(1)}
+                ></Btn>
+                <Btn
+                  className="p-10px f-w-bo ns-bg-e h-pr-fr-ma m-l-10px"
+                  text="Solicitar Reunión"
+                ></Btn>
+              </div>
+            </div>
+          </div>
+          <div className="w-100 h-pr-fl-ma ">
+            <div
+              id="contenedorinfo"
+              className={`w-100 h-a h-pr-fl-ma ${infoVisible[1] ? "" : "d-n"}`}
+            >
+              <span className="w-a h-pr-fl-ma bg-d ns-c-e f-f-Gilroy f-w-bo p-5px m-t-5px">
+                Creamos todo el contenido que su empresa necesite:
+              </span>
+              <span className="tag">Infografías</span>
+              <span className="tag">Identidad de marca</span>
+              <span className="tag">Post para redes sociales</span>
+              <span className="tag">Logotipo</span>
+              <span className="tag">Tarjetas de presentación</span>
+              <span className="tag">Menús y carteles</span>
+              <span className="tag">Banners publicitarios</span>
+              <span className="tag">Diseño de página web</span>
+              <span className="tag">Folletos promocionales</span>
+              <span className="tag">
+                Papelería corporativa (sobres, hojas membretadas)
+              </span>
+              <span className="tag">Anuncios de revistas y periódicos</span>
+              <span className="tag">Pósters y vallas publicitarias</span>
+              <span className="tag">Tarjetas de regalo y cupones</span>
+              <span className="tag">Plantillas de correo electrónico</span>
+              <span className="tag">Diseño de uniformes para el personal</span>
+              <span className="tag">Señalización interior y exterior</span>
+              <span className="tag">
+                Packaging y etiquetas para productos promocionales
+              </span>
+              <span className="tag">
+                Pantallas digitales y señalización digital
+              </span>
+              <span className="tag">
+                Diseño de escenografía y decoración de eventos
+              </span>
+              <span className="tag">
+                Materiales promocionales para eventos (banners, roll-ups)
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {/* //? PLANES: 4 - RESTAURANTES*/}
+
+        <div className="w-100 h-pr-fl-ma p-10px ns-bg-gray-9 ns-br-r-1 m-b-5px">
+          <div className="w-100 h-pr-fl-ma  flexbox m-d-b">
+            <div className="w-70 m-w-100 h-pr-fl-ma">
+              <Title className="ns-c-e" h3="&#8599; RESTAURANTES"></Title>
+            </div>
+            <div className="w-30 m-w-100 h-pr-fl-ma ">
+              <div className="w-a h-a h-pr-fr-ma d-i-f p-10px">
+                <Btn
+                  className="p-10px f-w-bo bg-d h-pr-fr-ma"
+                  text={infoVisible[2] ? "- Cerrar info" : "+ Abrir info"}
+                  click={() => toggleInfo(2)}
+                ></Btn>
+                <Btn
+                  className="p-10px f-w-bo ns-bg-e h-pr-fr-ma m-l-10px"
+                  text="Solicitar Reunión"
+                ></Btn>
+              </div>
+            </div>
+          </div>
+          <div className="w-100 h-pr-fl-ma ">
+            <div
+              id="contenedorinfo"
+              className={`w-100 h-a h-pr-fl-ma ${infoVisible[2] ? "" : "d-n"}`}
+            >
+              <span className="w-a h-pr-fl-ma bg-d ns-c-e f-f-Gilroy f-w-bo p-5px m-t-5px">
+                Creamos todo el contenido que su empresa necesite:
+              </span>
+              <span className="tag">Menú del restaurante</span>
+              <span className="tag">Logotipo</span>
+              <span className="tag">Tarjetas de presentación</span>
+              <span className="tag">Cartas de vinos y bebidas</span>
+              <span className="tag">
+                Papelería corporativa (sobres, hojas membretadas)
+              </span>
+              <span className="tag">Diseño de página web</span>
+              <span className="tag">Menús para eventos especiales</span>
+              <span className="tag">Banners publicitarios</span>
+              <span className="tag">Anuncios de revistas y periódicos</span>
+              <span className="tag">Pósters y vallas publicitarias</span>
+              <span className="tag">Tarjetas de regalo y cupones</span>
+              <span className="tag">Plantillas de correo electrónico</span>
+              <span className="tag">Diseño de uniformes para el personal</span>
+              <span className="tag">Señalización interior y exterior</span>
+              <span className="tag">
+                Packaging y etiquetas para productos promocionales (si el
+                restaurante vende productos envasados)
+              </span>
+              <span className="tag">
+                Diseño de escenografía y decoración de eventos
+              </span>
+              <span className="tag">
+                Materiales promocionales para eventos (banners, roll-ups)
+              </span>
+              <span className="tag">
+                Diseño de menús digitales para tablets o pantallas interactivas
+              </span>
+              <span className="tag">
+                Diseño de etiquetas para productos frescos o para llevar
+              </span>
+              <span className="tag">
+                Diseño de material gráfico para promociones especiales o
+                descuentos
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {/* //? PLANES: 4 - SUPERMERCADOS*/}
+
+        <div className="w-100 h-pr-fl-ma p-10px ns-bg-gray-9 ns-br-r-1 m-b-5px">
+          <div className="w-100 h-pr-fl-ma  flexbox m-d-b">
+            <div className="w-70 m-w-100 h-pr-fl-ma">
+              <Title className="ns-c-e" h3="&#8599; SUPERMERCADOS"></Title>
+            </div>
+            <div className="w-30 m-w-100 h-pr-fl-ma ">
+              <div className="w-a h-a h-pr-fr-ma d-i-f p-10px">
+                <Btn
+                  className="p-10px f-w-bo bg-d h-pr-fr-ma"
+                  text={infoVisible[3] ? "- Cerrar info" : "+ Abrir info"}
+                  click={() => toggleInfo(3)}
+                ></Btn>
+                <Btn
+                  className="p-10px f-w-bo ns-bg-e h-pr-fr-ma m-l-10px"
+                  text="Solicitar Reunión"
+                ></Btn>
+              </div>
+            </div>
+          </div>
+          <div className="w-100 h-pr-fl-ma ">
+            <div
+              id="contenedorinfo"
+              className={`w-100 h-a h-pr-fl-ma ${infoVisible[3] ? "" : "d-n"}`}
+            >
+              <span className="w-a h-pr-fl-ma bg-d ns-c-e f-f-Gilroy f-w-bo p-5px m-t-5px">
+                Creamos todo el contenido que su empresa necesite:
+              </span>
+
+              <span className="tag">Logotipo del supermercado</span>
+              <span className="tag">
+                Diseño de la fachada y señalización exterior
+              </span>
+              <span className="tag">
+                Diseño de letreros y carteles promocionales
+              </span>
+              <span className="tag">
+                Etiquetas de precio y promociones para productos
+              </span>
+              <span className="tag">
+                Diseño de tarjetas de fidelidad o membresía
+              </span>
+              <span className="tag">
+                Catálogos de productos y folletos informativos
+              </span>
+              <span className="tag">
+                Anuncios y publicidad para medios impresos y digitales
+              </span>
+              <span className="tag">
+                Diseño de envases y etiquetas para productos de marca propia
+              </span>
+              <span className="tag">
+                Señalización interior (direcciones, secciones, información del
+                producto)
+              </span>
+              <span className="tag">
+                Diseño de banners y pancartas para promociones especiales
+              </span>
+              <span className="tag">
+                Etiquetas y carteles de información nutricional
+              </span>
+              <span className="tag">Diseño de tarjetas de regalo</span>
+              <span className="tag">
+                Material gráfico para eventos especiales o ferias comerciales
+              </span>
+              <span className="tag">
+                Diseño de rótulos y señalización en estanterías y pasillos
+              </span>
+              <span className="tag">
+                Diseño de bolsas de compras reutilizables
+              </span>
+              <span className="tag">
+                Diseño de etiquetas y materiales de promoción para productos
+                frescos
+              </span>
+              <span className="tag">
+                Diseño de envoltorios y etiquetas para productos de panadería y
+                pastelería
+              </span>
+              <span className="tag">
+                Diseño de cupones y vales de descuento
+              </span>
+              <span className="tag">
+                Material gráfico para campañas de responsabilidad social y
+                sostenibilidad
+              </span>
+              <span className="tag">
+                Diseño de gráficos para pantallas digitales y puntos de venta
+                interactivos
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/*  // !                           ADS                         */}
       <div className="w-95 r-h-c m-w-90 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
-        <div  className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma ">
-        <Adsense/>
+        <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma ">
+          <Adsense slot="9886328101" googleAdId="ca-pub-6375603115544403" />
         </div>
       </div>
 

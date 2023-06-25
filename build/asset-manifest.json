@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7025309.css",
-    "main.js": "/static/js/main.3b99eb1b.js",
+    "main.css": "/static/css/main.f5d990dd.css",
+    "main.js": "/static/js/main.c056f2cf.js",
     "static/js/496.3fa9eda0.chunk.js": "/static/js/496.3fa9eda0.chunk.js",
     "static/media/casos-de-exito-oferta.svg": "/static/media/casos-de-exito-oferta.b28c45d5178959cbd1949336f232d880.svg",
     "static/media/casos-de-exito-banner-menu.gif": "/static/media/casos-de-exito-banner-menu.0890c758a59176b14513.gif",
@@ -63,12 +63,12 @@
     "static/media/chevron_left.svg": "/static/media/chevron_left.c57246a50e9b6eecdd2fa206a166fd5d.svg",
     "static/media/chevron_right.svg": "/static/media/chevron_right.4aec8e1324a1f7ded654040753a619d6.svg",
     "static/media/close.svg": "/static/media/close.0712d4c0fd22e6e4a6f2888d0d61b1c7.svg",
-    "main.a7025309.css.map": "/static/css/main.a7025309.css.map",
-    "main.3b99eb1b.js.map": "/static/js/main.3b99eb1b.js.map",
+    "main.f5d990dd.css.map": "/static/css/main.f5d990dd.css.map",
+    "main.c056f2cf.js.map": "/static/js/main.c056f2cf.js.map",
     "496.3fa9eda0.chunk.js.map": "/static/js/496.3fa9eda0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7025309.css",
-    "static/js/main.3b99eb1b.js"
+    "static/css/main.f5d990dd.css",
+    "static/js/main.c056f2cf.js"
   ]
 }

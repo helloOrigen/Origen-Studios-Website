@@ -9,7 +9,7 @@ import ChevronRight from '../assets/icons/chevron_right.svg';
 import CheckCircle from '../assets/icons/check-circle.svg';
 import Calendar from '../assets/icons/calendar.svg';
 import Envelope from '../assets/icons/envelope.svg';
-
+import ChevronUpDouble from '../assets/icons/chevron_up_double.svg';
 
 export {
   LinkedinIcon,
@@ -21,6 +21,7 @@ export {
   DiscordIcon,
   ChevronRight,
   CheckCircle,
+  ChevronUpDouble,
   Calendar,
   Envelope,
 

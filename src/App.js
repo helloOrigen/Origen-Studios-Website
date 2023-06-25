@@ -11,7 +11,7 @@ import fondo from "./assets/images/compressed/fondo-web.jpg";
 
 
 import "./Styles/fixedcss/seed.min.css";
-
+import "./Styles/seed.css";
 import * as Views from "./Views/index.jsx";
 
 const App = () => {

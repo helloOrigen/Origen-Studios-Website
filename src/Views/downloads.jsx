@@ -28,7 +28,7 @@ const Downloads = () => {
 
       <div className="w-95 r-h-c h-a h-pr-fl-ma b-s-b-b m-d-b bg-d-t  m-d-b f-f-Gilroy ">
       <div className="w-20 m-w-100 h-a m-d-n h-pr-fl-ma p-10px bg-d">
-      <Adsense/>
+      <Adsense  slot="9886328101" googleAdId="ca-pub-6375603115544403"/>
       </div>
         <div className="w-60 m-w-70 h-a h-pr-fl-ma p-10px">
         {selectedView === "Identidad" && <DLIdentity/>}
@@ -65,15 +65,15 @@ const Downloads = () => {
 
 
         <div className="w-100 m-w-100 h-a h-pr-fl-ma bg-d p-10px">
-        <Adsense/></div>
+        <Adsense  slot="9886328101" googleAdId="ca-pub-6375603115544403"/></div>
            </div>
            <div className="w-100 h-a d-n m-d-b h-pr-fl-ma p-10px bg-d">
-           <Adsense/></div>
+           <Adsense  slot="9886328101" googleAdId="ca-pub-6375603115544403"/></div>
       </div>
         {/*  // !                           ADS                         */}
         <div className="w-95 r-h-c m-w-90 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
         <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma ">
-        <Adsense/>
+        <Adsense  slot="9886328101" googleAdId="ca-pub-6375603115544403"/>
 
         </div>
       </div>

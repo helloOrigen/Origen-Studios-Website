@@ -85,7 +85,7 @@ const Team = () => {
        {/*  // !                           ADS                         */}
        <div className="w-95 r-h-c m-w-90 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
         <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma ">
-        <Adsense/>
+        <Adsense  slot="9886328101" googleAdId="ca-pub-6375603115544403"/>
 
         </div>
       </div>

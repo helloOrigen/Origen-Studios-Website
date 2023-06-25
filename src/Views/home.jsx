@@ -41,6 +41,7 @@ WhatsappIcon,
 DiscordIcon, 
 ChevronRight, 
 CheckCircle,
+ChevronUpDouble,
 Calendar,
 Envelope, } from "../components/icons";
 /*
@@ -210,6 +211,36 @@ export default function Home(props) {
               {/*  // todo                            SECCION 1 - SIDEBAR | SOLICITE PRESUPUESTOS                  */}
               
               <div className="w-100 h-pr-fl-ma b-s-b-b bg-d  p-20px m-b-10px">
+              <ContentBox
+                  className="m-b-10px"
+                  title="Soluciones para:"
+                ></ContentBox>
+   <a href="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/">
+                  <div className="w-100 h-a h-pr-fl-ma bg-d p-5px flexbox m-b-5px">
+                    <img
+                      className="w-and-h-50px bg-d p-5px"
+                      src={ChevronUpDouble}
+                      alt="Trading"
+                    />
+                    <div className="w-80 h-a l-h-15px m-l-20px ">
+                      <div className="w-100 h-a r-v-c">
+                        <span className="w-100 f-w-bo">Traders & Brokers</span> <br />
+                        <span className="h-pr-fl-maw-100 ns-f-s-small">
+                          Identidad, Presentaciones, Informes...
+                        </span>
+                      </div>
+                    </div>
+                    <div className="h-pr-fl-ma w-and-h-50px  ">
+                      {" "}
+                      <Btn
+                        className="w-100 h-100"
+                        text="IR"
+                        enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
+                      ></Btn>{" "}
+                    </div>
+                  </div>
+                </a>
+
                 <ContentBox
                   className="m-b-10px"
                   title="Agende su reunión:"
