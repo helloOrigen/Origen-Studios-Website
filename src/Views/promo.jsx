@@ -16,8 +16,8 @@ import Thumbnail4 from "../assets/images/promo/thumbnail-4.jpg";
 const Promo = () => {
   return (
     <Fragment>
-      <div className="w-90 h-a h-pr-fl-ma bg-d r-h-c m-t-20px m-b-20px b-s-b-b of-auto  of-x-hidden p-20px">
-        <div className="noselect w-100 h-a h-pr-fl-ma b-s-b-b  b-s-b-b ">
+      <div className="w-95 h-a h-pr-fl-ma bg-d r-h-c m-t-20px m-b-20px b-s-b-b of-auto  of-x-hidden p-20px">
+        <div className="noselect w-100 h-a h-pr-fl-ma b-s-b-b  b-s-b-b p-10px">
           <img
             src={PromoTitulo}
             alt="Titulo"
@@ -43,17 +43,17 @@ const Promo = () => {
         </div>
       </div>
 
-      <div className="w-90 h-a h-pr-fl-ma  r-h-c  b-s-b-b of-auto  of-x-hidden ">
+      <div className="w-95 h-a h-pr-fl-ma  r-h-c  b-s-b-b of-auto  of-x-hidden ">
         {/* BLOQUE RESPONSIVE 1 */}
-        <div className="w-100 h-a h-pr-fl-ma p-10px bg-d-t   ns-br-r-1 b-s-b-b d-i-f m-d-b m-b-20px">
+        <div className="w-100 h-a h-pr-fl-ma p-10px bg-d bg-d bg-d ns-br-r-1    ns-br-r-1 b-s-b-b d-i-f m-d-b m-b-20px">
           <div
-            className="m-w-100 w-300px h-200px h-pr-fl-ma "
+            className="m-w-100 w-300px h-200px m-h-300px h-pr-fl-ma ns-br-r-1 "
             Style="z-index: 123;"
           >
             <img
               src={Thumbnail1}
               alt="Logotipo"
-              className="w-100 h-100 h-pr-fl-ma h-e-scale"
+              className="w-100 h-100 h-pr-fl-ma "
               Style="object-fit: cover;"
             />
           </div>
@@ -72,15 +72,15 @@ const Promo = () => {
         </div>
 
         {/* BLOQUE RESPONSIVE 2 */}
-        <div className="w-100 h-a h-pr-fl-ma p-10px bg-d-t   ns-br-r-1 b-s-b-b d-i-f m-d-b m-b-20px">
+        <div className="w-100 h-a h-pr-fl-ma p-10px bg-d bg-d bg-d ns-br-r-1    ns-br-r-1 b-s-b-b d-i-f m-d-b m-b-20px">
           <div
-            className="m-w-100 w-300px h-200px h-pr-fl-ma "
+            className="m-w-100 w-300px h-200px m-h-300px h-pr-fl-ma ns-br-r-1 "
             Style="z-index: 123;"
           >
             <img
               src={Thumbnail2}
               alt="Manual de uso"
-              className="w-100 h-100 h-pr-fl-ma h-e-scale"
+              className="w-100 h-100 h-pr-fl-ma "
               Style="object-fit: cover;"
             />
           </div>
@@ -99,15 +99,15 @@ const Promo = () => {
         </div>
 
         {/* BLOQUE RESPONSIVE 3 */}
-        <div className="w-100 h-a h-pr-fl-ma p-10px bg-d-t   ns-br-r-1 b-s-b-b d-i-f m-d-b m-b-20px">
+        <div className="w-100 h-a h-pr-fl-ma p-10px bg-d bg-d bg-d ns-br-r-1    ns-br-r-1 b-s-b-b d-i-f m-d-b m-b-20px">
           <div
-            className="m-w-100 w-300px h-200px h-pr-fl-ma "
+            className="m-w-100 w-300px h-200px m-h-300px h-pr-fl-ma ns-br-r-1 "
             Style="z-index: 123;"
           >
             <img
               src={Thumbnail3}
               alt="Publicidad Masiva"
-              className="w-100 h-100 h-pr-fl-ma h-e-scale"
+              className="w-100 h-100 h-pr-fl-ma "
               Style="object-fit: cover;"
             />
           </div>
@@ -126,15 +126,15 @@ const Promo = () => {
         </div>
 
         {/* BLOQUE RESPONSIVE 4 */}
-        <div className="w-100 h-a h-pr-fl-ma p-10px bg-d-t   ns-br-r-1 b-s-b-b d-i-f m-d-b m-b-20px">
+        <div className="w-100 h-a h-pr-fl-ma p-10px bg-d bg-d bg-d ns-br-r-1    ns-br-r-1 b-s-b-b d-i-f m-d-b m-b-20px">
           <div
-            className="m-w-100 w-300px h-200px  h-pr-fl-ma "
+            className="m-w-100 w-300px h-200px m-h-300px h-pr-fl-ma ns-br-r-1 "
             Style="z-index: 123;"
           >
             <img
               src={Thumbnail4}
               alt="Asesoría"
-              className="w-100 h-100 h-pr-fl-ma h-e-scale"
+              className="w-100 h-100 h-pr-fl-ma "
               Style="object-fit: cover;"
             />
           </div>
@@ -154,16 +154,16 @@ const Promo = () => {
 
         {/* COORDINAR REUNIÓN AHORA */}
 
-        <div className="w-100 m-w-100 r-h-c h-a h-pr-fl-ma f-f-Gilroy bg-d-t ns-br-r-1 b-s-b-b d-i-f m-d-b ">
+        <div className="w-100 m-w-100 r-h-c h-a h-pr-fl-ma f-f-Gilroy bg-d bg-d bg-d ns-br-r-1  ns-br-r-1 b-s-b-b d-i-f m-d-b ">
           <div className="w-100 h-pr-fl-ma bg-d p-20px d-i-f m-d-b">
-            <div className="w-70 m-w-100 h-pr-fl-ma ns-f-s-medium noselect">
+            <div className="w-70 m-w-100 h-pr-fl-ma t-a-c f-w-bo ns-f-s-medium noselect ">
               {" "}
-              Coordine una reunión hoy mismo y haga despegar su marca!
+              Coordinemos una reunión hoy mismo y hagamos realidad su nueva marca!
             </div>
             <div className="w-a h-pr-fl-ma m-w-100 p-20px flexbox ">
               {" "}
               <Btn
-                className=""
+                className="ns-bg-e f-w-bo "
                 text="Coordinar reunión &nbsp;"
                 enlace={
                   "https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
@@ -172,7 +172,7 @@ const Promo = () => {
                 <div className="w-25px h-25px m-5px h-pr-fl-ma">
                   <img
                     src={MessageWriting}
-                    className="w-100 h-100 h-pr-fl-ma"
+                    className="w-100 h-100 h-pr-fl-ma "
                     Style="stroke: #ffffff !important;"
                     alt="Coordinar"
                   />
@@ -183,13 +183,13 @@ const Promo = () => {
         </div>
       </div>
        {/*  // !                           ADS                         */}
-       <div className="w-95 r-h-c m-w-90 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
+       <div className="w-95 r-h-c h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px bg-d m-t-10px m-b-10px ">
         <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma ">
         <Adsense  slot="9886328101" googleAdId="ca-pub-6375603115544403"/>
 
         </div>
       </div>
-      <div className="w-100 h-200px h-pr-fl-ma b-s-b-b  m-d-b">&nbsp;</div>
+      <div className="w-100 h-50px  h-pr-fl-ma b-s-b-b ">&nbsp;</div>
     </Fragment>
   );
 };

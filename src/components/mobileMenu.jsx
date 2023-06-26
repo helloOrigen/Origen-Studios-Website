@@ -20,10 +20,11 @@ const MobileMenu = () => {
       id="menu"
       checked={menuOpen}
       onChange={toggleMenu}
+      Style="visibility: hidden;"
    
     />
     
-    <div className={` menu-container  ${menuOpen ? "d-b" : "d-n"}  p-20px `}  Style="position: fixed; left:0px; right:0px; bottom: 12%;  margin: auto;" >
+    <div className={` menu-container  ${menuOpen ? "d-b" : "d-n"}  p-10px `}  Style="position: fixed; left:0px; right:0px; bottom: 12%;  margin: auto;" >
                 
             <div className="w-100  p-20px bg-d h-pr-fl-ma">
               <Link

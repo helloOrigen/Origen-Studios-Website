@@ -6,12 +6,12 @@ import Footer from "./components/Footer";
 import MobileMenu from "./components/mobileMenu";
 import Notifier from "./components/notifier";
 
-
 import fondo from "./assets/images/compressed/fondo-web.jpg";
-
 
 import "./Styles/fixedcss/seed.min.css";
 import "./Styles/seed.css";
+
+
 import * as Views from "./Views/index.jsx";
 
 const App = () => {
@@ -59,12 +59,13 @@ const App = () => {
                 <Route path="/team" element={<Views.Team />} />
 
                 <Route path="/tools/*" element={<Views.Tools />} />
-                <Route path="/tools/IA" element={<Views.TLVAITools />} />
-                <Route path="/tools/Development" element={<Views.TLVDevelopment />} />
-                <Route path="/tools/Marketing" element={<Views.TLVMarketing />} />
-                <Route path="/tools/Design" element={<Views.TLVDesign />} />
-                <Route path="/tools/Productivity" element={<Views.TLVProductivity />} />
-                <Route path="/tools/Music" element={<Views.TLVMusic />} />
+                <Route path="/tools/Alojamiento" element={<Views.TLVAlojamiento />} />
+                <Route path="/tools/Automatizacion" element={<Views.TLVAutomatizacion />} />
+                <Route path="/tools/Conversion" element={<Views.TLVConversion />} />
+                <Route path="/tools/Compresion" element={<Views.TLVCompresion />} />
+                <Route path="/tools/Creacion" element={<Views.TLVCreacion />} />
+                <Route path="/tools/Organizacion" element={<Views.TLVOrganizacion />} />
+                <Route path="/tools/Recursos" element={<Views.TLVRecursos />} />
 
                 <Route path="/sponsors" element={<Views.Sponsors />} />
                 <Route path="/faq" element={<Views.FAQ />} />

@@ -4,6 +4,7 @@ import NavBarLogo from "../components/navBarLogo";
 import NavBarBtn from "../components/navBarBtn";
 import NavSubItem from "../components/NavSubItem";
 import Btn from "../components/btn";
+import SearchComponent from "./SearchComponent";
 
 
 
@@ -15,12 +16,12 @@ const navBar = () => {
 
        
       <div className="w-95 h-100 r-h-c h-pr-fl-ma  d-i-f" >
-      <div className="w-100px m-w-200px tab-w-200px h-pr-fl-ma h-a  b-s-b-b" Style="z-index: 30;">
+      <div className="w-100px m-w-200px  tab-w-200px h-pr-fl-ma h-a  b-s-b-b" Style="z-index: 30;">
         <Link to="/">
           <NavBarLogo   />
         </Link>
         </div>
-      <div className="w-100  h-pr-fl-ma r-v-c f-w-n-w h-70px tab-d-n ">
+      <div className="w-100  h-pr-fl-ma  r-v-c f-w-n-w h-70px tab-d-n ">
       <Link to="/">
           <NavBarBtn className=" m-d-n noselect" text={"Inicio"}></NavBarBtn>
         </Link>
@@ -72,9 +73,9 @@ const navBar = () => {
         <Link to="/promo"><NavBarBtn className="m-d-n noselect" text={"Promos"} news></NavBarBtn></Link>
         </div>
 
-
-
-       
+      {/*  <div className="w-a  h-pr-fl-ma bg-green r-v-c f-w-n-w h-70px tab-d-n ">
+<SearchComponent></SearchComponent>
+        </div> */}
 
 
 

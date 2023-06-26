@@ -1,6 +1,6 @@
 
 import React, { Fragment } from "react";
-import AdSense from 'react-adsense';
+import Adsense from "../components/Adsense";
 
 
 import Btn from "../components/btn";
@@ -9,10 +9,10 @@ import CardContainer from "../components/cardcontainer";
 import Card from "../components/card";
 import ImageComponent from "../components/ImageComponent";
 import TestCompone from "../components/TestCompone";
-import Adsense from "../components/Adsense";
 
 
 import BannerPrincipal from "../assets/images/compressed/banner-principal.jpg";
+import BannerPrincipalMobile from "../assets/images/compressed/banner-principal-mobile.jpg";
 import OSWoman from "../assets/images/compressed/os-woman.jpg";
 import SunSummer from "../assets/images/compressed/sunsummerthehero.jpg";
 import TheoryFragance from "../assets/images/compressed/theory-fragance.jpg";
@@ -94,8 +94,13 @@ export default function Home(props) {
                 <div className="w-100 h-a t-a-c h-pr-fl-ma ns-f-s-medium  f-f-Gilroy f-w-bo b-s-b-b p-20px">
                   <Link to="/plans">
                 <img
-                      className="w-100 h-a bg-d ns-br-r-3"
+                      className="w-100 h-a m-d-n bg-d ns-br-r-3"
                       src={BannerPrincipal}
+                      alt="OrigenStudios.com/plans"
+                    />
+                     <img
+                      className="w-100 d-n m-d-b h-a bg-d ns-br-r-3"
+                      src={BannerPrincipalMobile}
                       alt="OrigenStudios.com/plans"
                     /></Link>
                 </div>
@@ -135,7 +140,7 @@ export default function Home(props) {
                   </CardContainer>
                   <div className="w-100 h-a t-a-c h-pr-fl-ma ns-f-s-medium f-f-Gilroy f-w-bo b-s-b-b p-20px ns-c-e">
                     {" "}
-                   Nos encanta ayudar a crear las marcas de sus sueños y para eso tenemos un sin fin de planes disponibles que puede convinar a su medida.<br />Y si lo desea, creamos uno personalizado para usted.
+                   Tenemos un sin fin de planes disponibles que puede combinar a su medida.<br />Y si lo desea, generamos uno personalizado para usted.
                   </div>
                 </div>
               </div>
@@ -158,7 +163,7 @@ export default function Home(props) {
                   <div className="w-95 tab-w-100 m-w-100 r-h-c">
                     <ContentBox
                       className=" p-10px w-100"
-                      title="¿Porqué elegirnos?"
+                      title="¿Por qué elegirnos?"
                       subtitle="Somos más que una agencia de diseño."
                     ></ContentBox>
                     <span className="w-100 h-a h-pr-fl-ma bg-d m-b-5px p-l-15px p-r-15px p-10px b-s-b-b">
@@ -211,20 +216,21 @@ export default function Home(props) {
               {/*  // todo                            SECCION 1 - SIDEBAR | SOLICITE PRESUPUESTOS                  */}
               
               <div className="w-100 h-pr-fl-ma b-s-b-b bg-d  p-20px m-b-10px">
-              <ContentBox
-                  className="m-b-10px"
-                  title="Soluciones para:"
-                ></ContentBox>
+              <Title
+                  className="m-b-20px t-a-c"
+                  h4="Soluciones para:"
+                ></Title>
+                {/* //orange traders y brokers */}
    <a href="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/">
                   <div className="w-100 h-a h-pr-fl-ma bg-d p-5px flexbox m-b-5px">
                     <img
-                      className="w-and-h-50px bg-d p-5px"
+                      className="w-and-h-50px bg-d p-5px "
                       src={ChevronUpDouble}
                       alt="Trading"
                     />
                     <div className="w-80 h-a l-h-15px m-l-20px ">
                       <div className="w-100 h-a r-v-c">
-                        <span className="w-100 f-w-bo">Traders & Brokers</span> <br />
+                        <span className="w-100 f-w-bo ns-c-e">Traders & Brokers</span> <br />
                         <span className="h-pr-fl-maw-100 ns-f-s-small">
                           Identidad, Presentaciones, Informes...
                         </span>
@@ -240,11 +246,88 @@ export default function Home(props) {
                     </div>
                   </div>
                 </a>
-
-                <ContentBox
-                  className="m-b-10px"
-                  title="Agende su reunión:"
-                ></ContentBox>
+              {/* //orange supermercados & Depósitos */}
+                <a href="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/">
+                  <div className="w-100 h-a h-pr-fl-ma bg-d p-5px flexbox m-b-5px">
+                    <img
+                      className="w-and-h-50px bg-d p-5px "
+                      src={ChevronUpDouble}
+                      alt="Trading"
+                    />
+                    <div className="w-80 h-a l-h-15px m-l-20px ">
+                      <div className="w-100 h-a r-v-c">
+                        <span className="w-100 f-w-bo ns-c-e">Supermercados & Depósitos</span> <br />
+                        <span className="h-pr-fl-maw-100 ns-f-s-small">
+                          Identidad, Mailings, Señalética...
+                        </span>
+                      </div>
+                    </div>
+                    <div className="h-pr-fl-ma w-and-h-50px  ">
+                      {" "}
+                      <Btn
+                        className="w-100 h-100"
+                        text="IR"
+                        enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
+                      ></Btn>{" "}
+                    </div>
+                  </div>
+                </a>
+  {/* //orange Hoteles y casinos */}
+  <a href="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/">
+                  <div className="w-100 h-a h-pr-fl-ma bg-d p-5px flexbox m-b-5px">
+                    <img
+                      className="w-and-h-50px bg-d p-5px "
+                      src={ChevronUpDouble}
+                      alt="Trading"
+                    />
+                    <div className="w-80 h-a l-h-15px m-l-20px ">
+                      <div className="w-100 h-a r-v-c">
+                        <span className="w-100 f-w-bo ns-c-e">Hoteles & Casinos</span> <br />
+                        <span className="h-pr-fl-maw-100 ns-f-s-small">
+                          Identidad, Publicidad, Banners...
+                        </span>
+                      </div>
+                    </div>
+                    <div className="h-pr-fl-ma w-and-h-50px  ">
+                      {" "}
+                      <Btn
+                        className="w-100 h-100"
+                        text="IR"
+                        enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
+                      ></Btn>{" "}
+                    </div>
+                  </div>
+                </a>
+{/* //orange Restaurantes & Franquicias*/}
+<a href="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/">
+                  <div className="w-100 h-a h-pr-fl-ma bg-d p-5px flexbox m-b-5px">
+                    <img
+                      className="w-and-h-50px bg-d p-5px "
+                      src={ChevronUpDouble}
+                      alt="Trading"
+                    />
+                    <div className="w-80 h-a l-h-15px m-l-20px ">
+                      <div className="w-100 h-a r-v-c">
+                        <span className="w-100 f-w-bo ns-c-e">Restaurantes & Franquicias</span> <br />
+                        <span className="h-pr-fl-maw-100 ns-f-s-small">
+                          Publicidad, Contenido en redes, Menus...
+                        </span>
+                      </div>
+                    </div>
+                    <div className="h-pr-fl-ma w-and-h-50px  ">
+                      {" "}
+                      <Btn
+                        className="w-100 h-100"
+                        text="IR"
+                        enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
+                      ></Btn>{" "}
+                    </div>
+                  </div>
+                </a>
+                <Title
+                  className="m-b-20px t-a-c m-t-10px "
+                  h4="Agende su consulta Gratis:"
+                ></Title>
                 <a href="https://wa.me/message/QEHFJE3NEAVTE1">
                   <div className="w-100 h-a h-pr-fl-ma bg-d p-5px flexbox m-b-5px">
                     <img
@@ -502,7 +585,7 @@ export default function Home(props) {
 
               <div className="w-100 h-a t-a-c h-pr-fl-ma ns-f-s-medium f-f-Gilroy f-w-bo b-s-b-b p-20px ns-c-e">
               Hacemos realidad todo lo necesario para que triunfe con su
-                    producto, su servicio, como negocio o como artísta.
+                    producto, su servicio, como negocio o como artista.
               </div>
             </div>
 
