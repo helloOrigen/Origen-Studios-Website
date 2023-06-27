@@ -46,11 +46,11 @@ const App = () => {
             height: "100vh",
           }}
         ></div>
-        <div className="h-pr-fl-ma w-100 h-70px b-s-b-b bg-d" style={{ zIndex: "1234" }}>
+        <div className="h-pr-fl-ma w-100 h-70px b-s-b-b bg-d" Style={{ zIndex: "1234" }}>
           <NavBar />
         </div>
 
-        <div className="h-pr-fl-ma w-100 h-50 b-s-b-b">
+        <div className="h-pr-fl-ma w-100 h-100 b-s-b-b">
           <div className="h-pr-fl-ma w-100 h-100 b-s-b-b">
             <div className="w-100 c-white h-100 r-h-c h-pr-fl-ma of-auto">
               <Routes>
@@ -93,7 +93,7 @@ const App = () => {
             </div>
           </div>
           <Notifier
-            className="w-50  UnderLineText"
+            className="w-80  UnderLineText"
             Accept
             text=" Utilizamos 🍪 cookies en este sitio para ofrecerle la mejor experiencia de usuario posible."
             link="/cookies"
@@ -101,7 +101,7 @@ const App = () => {
           />
         </div>
 
-        <div className="h-pr-fl-ma w-100 h-70px b-s-b-b of-v b-0px m-p-f" style={{ zIndex: "9999" }}>
+        <div className="h-pr-fl-ma w-100 h-70px  b-s-b-b of-v b-0px m-p-f" style={{ zIndex: "9999" }}>
           <MobileMenu className="p-a" />
           <Footer className="w-100 h-100 r-h-c h-pr-fl-ma b-s-b-b bg-d" style={{ zIndex: "9999" }} />
         </div>

@@ -74,8 +74,9 @@ export default function Services(props) {
               ></Title>
               <div className="w-a m-w-100 h-a h-pr-fl-ma b-s-b-b p-20px">
                 <Btn
-                  className="w-a ns-bg-e p-10px f-w-bo"
+                  className="w-a m-w-100 ns-bg-e p-15px f-w-bo"
                   text="Coordinar Reunión"
+                  enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
                 ></Btn>
               </div>
             </div>
@@ -153,8 +154,9 @@ export default function Services(props) {
               ></Title>
               <div className="w-a m-w-100 h-a h-pr-fl-ma b-s-b-b p-20px">
                 <Btn
-                  className="w-a ns-bg-e p-10px f-w-bo"
+                  className="w-a m-w-100 ns-bg-e p-15px f-w-bo"
                   text="Coordinar Reunión"
+                  enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
                 ></Btn>
               </div>
             </div>

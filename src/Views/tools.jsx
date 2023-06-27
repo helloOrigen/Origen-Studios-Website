@@ -27,7 +27,7 @@ const Tools = () => {
 
   return (
     <Fragment>
-      <div className="w-100 h-a h-pr-fl-ma b-s-b-bs t-a-c m-d-b  m-t-100px m-b-50px ">
+      <div className="w-95 r-h-c h-a h-pr-fl-ma b-s-b-bs t-a-c m-d-b  m-t-100px m-b-50px ">
       <div className="w-100 h-500px h-pr-fl-ma bg-d b-s-b-b">
         <div className="w-100 h-a h-pr-fl-ma r-v-c">
       <Title className=" ns-c-e" h2="Sección en construcción"></Title>
@@ -101,11 +101,18 @@ const Tools = () => {
         </div>
       </div>
 */}
-      <div className="w-95 r-h-c m-w-90 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
-        <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma ">
-        <Adsense  slot="9886328101" googleAdId="ca-pub-6375603115544403"/>
-        </div>
-      </div>
+     {/*  // !                           ADS                         */}
+     <div className="w-95 r-h-c  h-a h-pr-fl-ma  bg-d m-d-b flexbox m-d-b b-s-b-b m-b-20px">
+            <div className="w-33 m-d-n m-w-100 h-a h-pr-fl-ma   p-10px">
+              <Adsense className="p-10px" slot="9886328101" googleAdId="ca-pub-6375603115544403" />
+            </div>
+            <div className="w-33 m-d-n m-w-100 h-a h-pr-fl-ma   p-10px">
+              <Adsense className="p-10px" slot="9886328101" googleAdId="ca-pub-6375603115544403" />
+            </div>
+            <div className="w-33  m-w-100 h-a h-pr-fl-ma   p-10px">
+              <Adsense className="p-10px" slot="9886328101" googleAdId="ca-pub-6375603115544403" />
+            </div>
+          </div>
       <div className="w-100 h-200px h-pr-fl-ma b-s-b-b  m-d-b">&nbsp;</div>
     </Fragment>
   );

@@ -10,7 +10,7 @@ import CheckCircle from '../assets/icons/check-circle.svg';
 import Calendar from '../assets/icons/calendar.svg';
 import Envelope from '../assets/icons/envelope.svg';
 import ChevronUpDouble from '../assets/icons/chevron_up_double.svg';
-
+import MessageWriting from '../assets/icons/message_writing.svg';
 export {
   LinkedinIcon,
   InstagramIcon,
@@ -24,5 +24,6 @@ export {
   ChevronUpDouble,
   Calendar,
   Envelope,
+  MessageWriting,
 
 };

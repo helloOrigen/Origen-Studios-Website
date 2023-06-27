@@ -1,7 +1,5 @@
-
 import React, { Fragment } from "react";
 import Adsense from "../components/Adsense";
-
 
 import Btn from "../components/btn";
 import ContentBox from "../components/contentBox";
@@ -9,7 +7,7 @@ import CardContainer from "../components/cardcontainer";
 import Card from "../components/card";
 import ImageComponent from "../components/ImageComponent";
 import TestCompone from "../components/TestCompone";
-
+import NewsletterForm from "../components/newsletterform.jsx";
 
 import BannerPrincipal from "../assets/images/compressed/banner-principal.jpg";
 import BannerPrincipalMobile from "../assets/images/compressed/banner-principal-mobile.jpg";
@@ -28,54 +26,53 @@ import GodCreator from "../assets/images/compressed/god-creator.jpg";
 import BloosyAdHorizontal from "../assets/images/compressed/bloosyadhorizontal.jpg";
 import BloosyAdSquare from "../assets/images/compressed/bloosyadsquare.jpg";
 
-
 import Title from "../components/title";
 
 import {
-LinkedinIcon, 
-InstagramIcon,
-TwitterIcon,
-FacebookIcon,
-BehanceIcon,    
-WhatsappIcon,
-DiscordIcon, 
-ChevronRight, 
-CheckCircle,
-ChevronUpDouble,
-Calendar,
-Envelope, } from "../components/icons";
-/*
-import "../Styles/home.css";
-import "../Styles/styles.css";*/
+  LinkedinIcon,
+  InstagramIcon,
+  TwitterIcon,
+  FacebookIcon,
+  BehanceIcon,
+  WhatsappIcon,
+  DiscordIcon,
+  ChevronRight,
+  CheckCircle,
+  ChevronUpDouble,
+  Calendar,
+  Envelope,
+  MessageWriting,
+} from "../components/icons";
+
 import { Link } from "react-router-dom";
 
-
-
-
 export default function Home(props) {
-
   const logos = [Ebook, AromaDeAmor, TheoryFragance];
 
   return (
     <Fragment>
       <div className="w-100 h-100 h-pr-fl-ma b-s-b-b of-x-auto f-f-Gilroy c-white">
         <div className="w-100 r-h-c h-100 h-pr-fl-ma">
-          <div className="w-100 h-a h-pr-fl-ma b-s-b-bs t-a-c m-d-b  m-t-100px m-b-50px ">
+          <div className="w-100 h-a h-pr-fl-ma b-s-b-bs t-a-c m-d-b m-t-100px m-b-50px ">
             <div className="w-80 m-w-100 r-h-c h-a h-pr-fl-ma b-s-b-b   m-b-20px ">
               <Title h1="OrigenStudios" sup="&reg;"></Title>
               <Title h3="Somos el origen de su marca"></Title>
 
-              <div className=" m-w-80 r-h-c h-a h-pr-fl-ma b-s-b-b flexbox f-w-n-w m-t-40px  ">
+              <div className=" m-w-80 r-h-c h-a h-pr-fl-ma b-s-b-b flexbox f-w-n-w m-t-20px  ">
                 <Btn
-                  className="w-200px m-w-100 p-l-20px p-r-20px p-10px m-5px f-w-bo br-s-solid br-c-white br-r-50px"
-                  text="Productos"
-                  enlace="/"
-                ></Btn>
-                <Btn
-                  className="w-200px m-w-100  p-l-20px p-r-20px p-10px m-5px f-w-bo  br-s-solid br-c-white br-r-50px"
-                  enlace="/services"
-                  text="Servicios"
-                ></Btn>
+                  className="w-a m-w-100  p-l-20px p-r-20px  ns-bg-e f-w-bo br-s-solid br-c-white br-r-50px"
+                  enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
+                  text="Coordinar una reunión"
+                >
+                  <div className="w-25px h-25px m-5px h-pr-fl-ma">
+                    <img
+                      className="w-100 h-100 h-pr-fl-ma "
+                      Style="stroke: #ffffff !important;"
+                      src={MessageWriting}
+                      alt="Coordinar"
+                    />
+                  </div>
+                </Btn>
               </div>
             </div>
           </div>
@@ -89,22 +86,22 @@ export default function Home(props) {
             {/*  // ?                            SECCION 1 | CONTENIDO  80%                       */}
 
             <div className="w-70   p-10px tab-w-100 m-w-100 h-a h-pr-fl-ma b-s-b-b m-d-b  ">
-          
-<div className="w-100 h-a  m-h-auto  b-s-b-b m-w-100 tab-w-100 h-a h-pr-fl-ma m-b-20px">
+              <div className="w-100 h-a  m-h-auto  b-s-b-b m-w-100 tab-w-100 h-a h-pr-fl-ma m-b-20px">
                 <div className="w-100 h-a t-a-c h-pr-fl-ma ns-f-s-medium  f-f-Gilroy f-w-bo b-s-b-b p-20px">
                   <Link to="/plans">
-                <img
+                    <img
                       className="w-100 h-a m-d-n bg-d ns-br-r-3"
                       src={BannerPrincipal}
                       alt="OrigenStudios.com/plans"
                     />
-                     <img
+                    <img
                       className="w-100 d-n m-d-b h-a bg-d ns-br-r-3"
                       src={BannerPrincipalMobile}
                       alt="OrigenStudios.com/plans"
-                    /></Link>
+                    />
+                  </Link>
                 </div>
-          </div>
+              </div>
               {/*  // todo                            SECCION 1 | QUE PODEMOS HACER POR Y PARA TI                     */}
 
               <div className="w-100 h-a  m-h-auto  b-s-b-b m-w-100 tab-w-100 h-a h-pr-fl-ma m-b-20px">
@@ -140,22 +137,26 @@ export default function Home(props) {
                   </CardContainer>
                   <div className="w-100 h-a t-a-c h-pr-fl-ma ns-f-s-medium f-f-Gilroy f-w-bo b-s-b-b p-20px ns-c-e">
                     {" "}
-                   Tenemos un sin fin de planes disponibles que puede combinar a su medida.<br />Y si lo desea, generamos uno personalizado para usted.
+                    Tenemos un sin fin de planes disponibles que puede combinar
+                    a su medida.
+                    <br />Y si lo desea, generamos uno personalizado para usted.
                   </div>
                 </div>
               </div>
-     {/*  // !                           ADS                         */}
+              {/*  // !                           ADS                         */}
               <div className="w-100 h-a  m-h-auto  b-s-b-b m-w-100 tab-w-100 h-a h-pr-fl-ma m-b-20px">
-            <Adsense  slot="9886328101" googleAdId="ca-pub-6375603115544403"/>
-             
-                </div>
+                <Adsense
+                  slot="9886328101"
+                  googleAdId="ca-pub-6375603115544403"
+                />
+              </div>
               {/*  // todo                            SECCION 1 | PORQUÉ ELEGIRNOS                   */}
 
               {/* Porque elegirnos */}
-              <div className="w-100 m-w-100 h-a h-pr-fl-ma bg-d m-b-10px b-s-b-b p-20px ">
-                <div className="w-50 m-w-100 tab-w-100 h-a h-pr-fl-ma b-s-b-b  of-h">
+              <div className="w-100 m-w-100 h-a h-pr-fl-ma bg-d m-b-10px b-s-b-b p-20px flexbox ">
+                <div className="w-50 m-w-100 tab-w-100 h-300px h-pr-fl-ma b-s-b-b  of-h">
                   <ImageComponent
-                    className="w-100 h-a"
+                    className="w-100 h-100 h-pr-fl-ma"
                     imageUrl={OSWoman}
                   ></ImageComponent>
                 </div>
@@ -187,19 +188,18 @@ export default function Home(props) {
 
               {/*  // todo                            SECCION 1 | ADS             */}
               <div className="w-100 m-w-100 h-a h-pr-fl-ma m-b-10px b-s-b-b p-5px ">
-              <ins 
-              className="adsbygoogle-Home-1"
-     Style="display:block"
-     data-ad-client="ca-pub-6375603115544403"
-     data-ad-slot="9886328101"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-           
+                <ins
+                  className="adsbygoogle-Home-1"
+                  Style="display:block"
+                  data-ad-client="ca-pub-6375603115544403"
+                  data-ad-slot="9886328101"
+                  data-ad-format="auto"
+                  data-full-width-responsive="true"
+                ></ins>
               </div>
 
               {/*  // todo                            SECCION 1 | BLOOSY ADS             */}
-              <div className="w-100 m-w-100 h-A h-pr-fl-ma bg-d m-b-10px b-s-b-b p-5px ">
+              <div className="w-100 m-w-100 h-a h-pr-fl-ma bg-d m-b-10px b-s-b-b p-5px ">
                 <ImageComponent
                   className="w-100 h-a m-d-n "
                   imageUrl={BloosyAdHorizontal}
@@ -214,116 +214,94 @@ export default function Home(props) {
             {/*  // ?                            SECCION 1 | SIDEBAR 20%                      */}
             <div className="w-30  m-w-100 h-a h-pr-fl-ma b-s-b-b p-10px  m-d-b  tab-d-n ">
               {/*  // todo                            SECCION 1 - SIDEBAR | SOLICITE PRESUPUESTOS                  */}
-              
+
               <div className="w-100 h-pr-fl-ma b-s-b-b bg-d  p-20px m-b-10px">
-              <Title
-                  className="m-b-20px t-a-c"
-                  h4="Soluciones para:"
-                ></Title>
+                <Title className="m-b-20px t-a-c" h4="Soluciones para:"></Title>
                 {/* //orange traders y brokers */}
-   <a href="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/">
-                  <div className="w-100 h-a h-pr-fl-ma bg-d p-5px flexbox m-b-5px">
+                <Link to="/plans">
+                  <div className="w-100 h-a h-pr-fl-ma bg-g-green ns-br-r-1 p-5px flexbox m-b-5px">
                     <img
-                      className="w-and-h-50px bg-d p-5px "
+                      className="w-and-h-50px bg-d p-5px ns-br-r-1"
                       src={ChevronUpDouble}
                       alt="Trading"
                     />
                     <div className="w-80 h-a l-h-15px m-l-20px ">
                       <div className="w-100 h-a r-v-c">
-                        <span className="w-100 f-w-bo ns-c-e">Traders & Brokers</span> <br />
+                        <span className="w-100 f-w-bo ">Traders & Brokers</span>{" "}
+                        <br />
                         <span className="h-pr-fl-maw-100 ns-f-s-small">
                           Identidad, Presentaciones, Informes...
                         </span>
                       </div>
                     </div>
-                    <div className="h-pr-fl-ma w-and-h-50px  ">
-                      {" "}
-                      <Btn
-                        className="w-100 h-100"
-                        text="IR"
-                        enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
-                      ></Btn>{" "}
-                    </div>
                   </div>
-                </a>
-              {/* //orange supermercados & Depósitos */}
-                <a href="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/">
-                  <div className="w-100 h-a h-pr-fl-ma bg-d p-5px flexbox m-b-5px">
+                </Link>
+                {/* //orange supermercados & Depósitos */}
+                <Link to="/plans">
+                  {" "}
+                  <div className="w-100 h-a h-pr-fl-ma bg-d bg-g-blue ns-br-r-1 p-5px flexbox m-b-5px">
                     <img
-                      className="w-and-h-50px bg-d p-5px "
+                      className="w-and-h-50px bg-d p-5px ns-br-r-1 "
                       src={ChevronUpDouble}
                       alt="Trading"
                     />
                     <div className="w-80 h-a l-h-15px m-l-20px ">
                       <div className="w-100 h-a r-v-c">
-                        <span className="w-100 f-w-bo ns-c-e">Supermercados & Depósitos</span> <br />
+                        <span className="w-100 f-w-bo ">
+                          Supermercados & Depósitos
+                        </span>{" "}
+                        <br />
                         <span className="h-pr-fl-maw-100 ns-f-s-small">
                           Identidad, Mailings, Señalética...
                         </span>
                       </div>
                     </div>
-                    <div className="h-pr-fl-ma w-and-h-50px  ">
-                      {" "}
-                      <Btn
-                        className="w-100 h-100"
-                        text="IR"
-                        enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
-                      ></Btn>{" "}
-                    </div>
                   </div>
-                </a>
-  {/* //orange Hoteles y casinos */}
-  <a href="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/">
-                  <div className="w-100 h-a h-pr-fl-ma bg-d p-5px flexbox m-b-5px">
+                </Link>
+                {/* //orange Hoteles y casinos */}
+                <Link to="/plans">
+                  <div className="w-100 h-a h-pr-fl-ma bg-d bg-g-purple ns-br-r-1 p-5px flexbox m-b-5px">
                     <img
-                      className="w-and-h-50px bg-d p-5px "
+                      className="w-and-h-50px bg-d ns-br-r-1 p-5px "
                       src={ChevronUpDouble}
                       alt="Trading"
                     />
                     <div className="w-80 h-a l-h-15px m-l-20px ">
                       <div className="w-100 h-a r-v-c">
-                        <span className="w-100 f-w-bo ns-c-e">Hoteles & Casinos</span> <br />
+                        <span className="w-100 f-w-bo ">Hoteles & Casinos</span>{" "}
+                        <br />
                         <span className="h-pr-fl-maw-100 ns-f-s-small">
                           Identidad, Publicidad, Banners...
                         </span>
                       </div>
                     </div>
-                    <div className="h-pr-fl-ma w-and-h-50px  ">
-                      {" "}
-                      <Btn
-                        className="w-100 h-100"
-                        text="IR"
-                        enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
-                      ></Btn>{" "}
-                    </div>
                   </div>
-                </a>
-{/* //orange Restaurantes & Franquicias*/}
-<a href="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/">
-                  <div className="w-100 h-a h-pr-fl-ma bg-d p-5px flexbox m-b-5px">
+                </Link>
+                {/* //orange Restaurantes & Franquicias*/}
+                <Link to="/plans">
+                  {" "}
+                  <div className="w-100 h-a h-pr-fl-ma bg-d p-5px bg-g-pink s-br-r-1 flexbox m-b-5px">
                     <img
-                      className="w-and-h-50px bg-d p-5px "
+                      className="w-and-h-50px bg-d p-5px ns-br-r-1"
                       src={ChevronUpDouble}
                       alt="Trading"
                     />
                     <div className="w-80 h-a l-h-15px m-l-20px ">
                       <div className="w-100 h-a r-v-c">
-                        <span className="w-100 f-w-bo ns-c-e">Restaurantes & Franquicias</span> <br />
+                        <span className="w-100 f-w-bo ">
+                          Restaurantes & Franquicias
+                        </span>{" "}
+                        <br />
                         <span className="h-pr-fl-maw-100 ns-f-s-small">
                           Publicidad, Contenido en redes, Menus...
                         </span>
                       </div>
                     </div>
-                    <div className="h-pr-fl-ma w-and-h-50px  ">
-                      {" "}
-                      <Btn
-                        className="w-100 h-100"
-                        text="IR"
-                        enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
-                      ></Btn>{" "}
-                    </div>
                   </div>
-                </a>
+                </Link>
+              </div>
+
+              <div className="w-100 h-pr-fl-ma b-s-b-b bg-d  p-20px m-b-10px">
                 <Title
                   className="m-b-20px t-a-c m-t-10px "
                   h4="Agende su consulta Gratis:"
@@ -331,7 +309,7 @@ export default function Home(props) {
                 <a href="https://wa.me/message/QEHFJE3NEAVTE1">
                   <div className="w-100 h-a h-pr-fl-ma bg-d p-5px flexbox m-b-5px">
                     <img
-                      className="w-and-h-50px bg-d p-5px"
+                      className="w-and-h-50px ns-br-r-2 bg-g-green p-5px"
                       src={WhatsappIcon}
                       alt="Whatsapp"
                     />
@@ -345,7 +323,7 @@ export default function Home(props) {
                     </div>
                     <div className="h-pr-fl-ma w-and-h-50px  ">
                       <Btn
-                        className="w-100 h-100"
+                        className="w-100 bg-d ns-br-r-2 h-100"
                         text="IR"
                         enlace="https://wa.me/message/QEHFJE3NEAVTE1"
                       ></Btn>
@@ -355,7 +333,7 @@ export default function Home(props) {
                 <a href="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/">
                   <div className="w-100 h-a h-pr-fl-ma bg-d p-5px flexbox m-b-5px">
                     <img
-                      className="w-and-h-50px bg-d p-5px"
+                      className="w-and-h-50px ns-br-r-2 bg-g-yellow p-5px"
                       src={Calendar}
                       alt="Calendar"
                     />
@@ -370,7 +348,7 @@ export default function Home(props) {
                     <div className="h-pr-fl-ma w-and-h-50px  ">
                       {" "}
                       <Btn
-                        className="w-100 h-100"
+                        className="w-100 bg-d ns-br-r-2 h-100"
                         text="IR"
                         enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
                       ></Btn>{" "}
@@ -380,7 +358,7 @@ export default function Home(props) {
                 <a href="mailto:hello@origenstudios.com">
                   <div className="w-100 h-a h-pr-fl-ma bg-d p-5px flexbox m-b-5px">
                     <img
-                      className="w-and-h-50px bg-d p-5px"
+                      className="w-and-h-50px ns-br-r-2 bg-g-blue p-5px"
                       src={Envelope}
                       alt="Envelope"
                     />
@@ -395,9 +373,9 @@ export default function Home(props) {
                     <div className="h-pr-fl-ma w-and-h-50px  ">
                       {" "}
                       <Btn
-                        className="w-100 h-100"
+                        className="w-100 bg-d ns-br-r-2 h-100"
                         text="IR"
-                        enlace=""
+                        enlace="mailto:hello@origenstudios.com"
                       ></Btn>{" "}
                     </div>
                   </div>
@@ -405,7 +383,7 @@ export default function Home(props) {
               </div>
               {/*  // todo                            SECCION 1 - SIDEBAR | REDES SOCIALES             */}
 
-              <div className="w-100 h-pr-fl-ma b-s-b-b bg-d  p-20px m-b-10px">
+              <div className="w-100 h-pr-fl-ma b-s-b-b ns-bg-e ns-br-r-1 p-20px m-b-10px">
                 <ContentBox
                   className="m-b-10px"
                   title="Visitenos en sus redes sociales:"
@@ -413,47 +391,51 @@ export default function Home(props) {
                 <div className="w-100 h-pr-fl-ma b-s-b-b flexbox ">
                   <a href="https://Instagram.com/helloorigen">
                     <img
-                      className="w-and-h-50px h-pr-fl-ma bg-d p-5px c-p h-e"
+                      className="w-and-h-50px h-pr-fl-ma ns-bg-e ns-br-r-2 p-5px c-p h-e"
                       src={InstagramIcon}
                       alt="Instagram"
                     />
                   </a>
                   <a href="https://www.behance.net/origenstudios">
                     <img
-                      className="w-and-h-50px h-pr-fl-ma bg-d p-5px c-p h-e"
+                      className="w-and-h-50px h-pr-fl-ma ns-bg-e ns-br-r-2 p-5px c-p h-e"
                       src={BehanceIcon}
                       alt="Behance"
                     />
                   </a>
                   <a href="https://Twitter.com/helloorigen">
                     <img
-                      className="w-and-h-50px h-pr-fl-ma bg-d p-5px c-p h-e"
+                      className="w-and-h-50px h-pr-fl-ma ns-bg-e ns-br-r-2 p-5px c-p h-e"
                       src={TwitterIcon}
                       alt="Twitter"
                     />
                   </a>
                   <a href="https://Facebook.com/helloorigen">
                     <img
-                      className="w-and-h-50px h-pr-fl-ma bg-d p-5px c-p h-e"
+                      className="w-and-h-50px h-pr-fl-ma ns-bg-e ns-br-r-2 p-5px c-p h-e"
                       src={FacebookIcon}
                       alt="Facebook"
                     />
                   </a>
                   <a href="https://Linkedin.com/company/helloorigen">
                     <img
-                      className="w-and-h-50px h-pr-fl-ma bg-d  p-5px c-p h-e"
+                      className="w-and-h-50px h-pr-fl-ma ns-bg-e ns-br-r-2 p-5px c-p h-e"
                       src={LinkedinIcon}
                       alt="Linkedin"
                     />
                   </a>
                   <a href="https://discord.gg/UMAFqpD8Xr">
                     <img
-                      className="w-and-h-50px h-pr-fl-ma bg-d p-5px c-p h-e"
+                      className="w-and-h-50px h-pr-fl-ma ns-bg-e ns-br-r-2 p-5px c-p h-e"
                       src={DiscordIcon}
                       alt="Discord"
                     />
                   </a>
                 </div>
+              </div>
+              {/*  // todo                            SECCION 1 - SIDEBAR | FORM SUSCRIPCION            */}
+              <div className="w-100 h-a h-pr-fl-ma b-s-b-b bg-d m-d-n p-20px m-b-10px">
+                <NewsletterForm></NewsletterForm>
               </div>
               {/*  // todo                            SECCION 1 - SIDEBAR | ADS BLOOSYSQUARE            */}
               <div className="w-100 h-pr-fl-ma b-s-b-b bg-d m-d-n p-20px m-b-10px">
@@ -487,16 +469,17 @@ export default function Home(props) {
 
               {/*  // todo                            SECCION 1 - SIDEBAR | ADS             */}
               <div className="w-100 h-pr-fl-ma b-s-b-b bg-d  p-20px m-b-10px">
-              <Adsense  slot="9886328101" googleAdId="ca-pub-6375603115544403"/>
-     
-
+                <Adsense
+                  slot="9886328101"
+                  googleAdId="ca-pub-6375603115544403"
+                />
               </div>
             </div>
             {/*  // todo                            SECCION 1 | PROCEDIMIENTO                 */}
 
             <div className="w-100 h-pr-fl-ma b-s-b-b  p-10px  ">
-              <div className="w-100 h-pr-fl-ma bg-d p-20px">
-                <div className="w-33 m-w-100 h-a h-pr-fl-ma b-s-b-b flexbox ">
+              <div className="w-100 h-pr-fl-ma bg-d p-20px ns-bg-e ns-br-r-1">
+                <div className="w-33 m-w-100 h-a h-pr-fl-ma  b-s-b-b flexbox ">
                   <div className="flexbox p-10px">
                     <div className="w-50px h-50px h-pr-fl-ma br-w-1px br-s-solid br-r-50px">
                       <span className="centered" Style="font-size: 30px;">
@@ -568,12 +551,9 @@ export default function Home(props) {
           {/*  // !                                 SECCION 3                            */}
 
           <div className=" w-95  r-h-c  h-a h-pr-fl-ma flexbox tab-d-b m-d-b bg-d m-b-20px b-s-b-b p-10px">
-            <div className="w-50 h-a  m-h-auto bg-d b-s-b-b m-w-100 tab-w-100 h-a h-pr-fl-ma ">
-              <div className="w-100 h-a t-a-c h-pr-fl-ma b-s-b-b p-20px">
-                <span
-                  className="bg-d-t  f-f-Gilroy f-w-bo "
-                  Style="font-size: 50px;"
-                >
+            <div className="w-50 h-a  m-h-auto ns-bg-e ns-br-r-1 b-s-b-b m-w-100 tab-w-100 h-a h-pr-fl-ma p-20px">
+              <div className="w-100 h-a t-a-c h-pr-fl-ma b-s-b-b p-20px ">
+                <span className=" f-f-Gilroy f-w-bo " Style="font-size: 50px;">
                   Portadas de Álbumes para Artistas Musicales
                 </span>
               </div>
@@ -583,9 +563,9 @@ export default function Home(props) {
                 "
               ></ContentBox>
 
-              <div className="w-100 h-a t-a-c h-pr-fl-ma ns-f-s-medium f-f-Gilroy f-w-bo b-s-b-b p-20px ns-c-e">
-              Hacemos realidad todo lo necesario para que triunfe con su
-                    producto, su servicio, como negocio o como artista.
+              <div className="w-100 h-a t-a-c h-pr-fl-ma ns-f-s-medium f-f-Gilroy f-w-bo b-s-b-b p-20px ">
+                Hacemos realidad todo lo necesario para que triunfe con su
+                producto, su servicio, como negocio o como artista.
               </div>
             </div>
 
@@ -666,7 +646,7 @@ export default function Home(props) {
             <div className="w-100 h-100 h-pr-fl-ma b-s-b-b  flexbox m-d-b">
               <div className="w-33 m-w-100 h-100 h-pr-fl-ma b-s-b-b p-10px">
                 <ContentBox
-                  className="p-20px bg-d"
+                  className="p-20px ns-bg-e ns-br-r-1 "
                   title="Presupuestos personalizados."
                   subtitle="Primer servicio con descuentos"
                   text="Nos ajustamos a su presupuesto y le ayudamos a generar el mayor rendimiento con el menor costo posible, manteniendo la calidad y los mejores resultados."
@@ -674,7 +654,7 @@ export default function Home(props) {
               </div>
               <div className="w-33 m-w-100 h-100 h-pr-fl-ma b-s-b-b p-10px">
                 <ContentBox
-                  className="p-20px bg-d"
+                  className="p-20px ns-bg-e ns-br-r-1 "
                   title="Asesoría personalizada."
                   subtitle="Primer consulta gratuita"
                   text="Estudiamos su necesidad para ofrecerle el servicio más directo y eficiente posible. Además, le acompañamos en todo el proceso y por supuesto, posteriormente a él, para que logre sus objetivos lo antes posible."
@@ -682,7 +662,7 @@ export default function Home(props) {
               </div>
               <div className="w-33 m-w-100 h-100 h-pr-fl-ma b-s-b-b p-10px ">
                 <ContentBox
-                  className="p-20px bg-d"
+                  className="p-20px ns-bg-e ns-br-r-1 "
                   title="Compromiso y Seguridad"
                   subtitle="Status de servicio Online"
                   text="Nuestro compromiso es con cada detalle de su pieza gráfica, incluyendo los tiempos de entrega. Consulte en todo momento el tiempo estimado de entrega."
@@ -691,14 +671,30 @@ export default function Home(props) {
             </div>
           </div>
           {/*  // !                           ADS                         */}
-      <div className="w-95 r-h-c m-w-90 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
-        <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma ">
-        <Adsense  slot="9886328101" googleAdId="ca-pub-6375603115544403"/>
-
-        
-        </div>
-      </div>
-      <div className="w-100 h-200px h-pr-fl-ma b-s-b-b  m-d-b">&nbsp;</div>
+          <div className="w-95 r-h-c m-w-95 h-a h-pr-fl-ma  bg-d m-d-b flexbox m-d-b b-s-b-b ">
+            <div className="w-33 m-w-100 h-a h-pr-fl-ma   p-10px">
+              <Adsense
+                className="p-10px"
+                slot="9886328101"
+                googleAdId="ca-pub-6375603115544403"
+              />
+            </div>
+            <div className="w-33 m-w-100 h-a h-pr-fl-ma  p-10px">
+              <Adsense
+                className="p-10px"
+                slot="9886328101"
+                googleAdId="ca-pub-6375603115544403"
+              />
+            </div>
+            <div className="w-33 m-w-100 h-a h-pr-fl-ma  p-10px">
+              <Adsense
+                className="p-10px"
+                slot="9886328101"
+                googleAdId="ca-pub-6375603115544403"
+              />
+            </div>
+          </div>
+          <div className="w-100 h-200px h-pr-fl-ma b-s-b-b  m-d-b">&nbsp;</div>
         </div>
       </div>
     </Fragment>

@@ -20,19 +20,20 @@ const Plans = ({ children }) => {
   };
   return (
     <Fragment>
-      <div className="w-95 r-h-c m-w-100 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
+      <div className="w-95 r-h-c m-w-100 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px ">
         <Title
           h1="Todos los planes"
           className="w-100 t-a-c m-t-100px m-b-100px "
         ></Title>
+      <div className="w-100 m-w-95 h-pr-fl-ma h-100 b-s-b-b r-h-c  bg-d m-t-20px m-b-20px flexbox j-c-c tab-d-b m-d-b ns-br-r-1">
 
-        <div className="w-90 h-pr-fl-ma h-100 b-s-b-b r-h-c flexbox j-c-c  tab-d-b m-d-b">
           {/* //green PLANES: 1 - PLANES DE MARCA */}
-          <div className="w-25 tab-w-50 m-w-100 h-a h-pr-fl-ma p-5px m-b-10px ns-bg-darkgreen ns-br-r-1">
-            <div className="w-100 h-a h-pr-fl-mab-s-b-b ">
+          <div className="w-33 tab-w-50 m-w-100 h-a h-pr-fl-ma ns-br-r-1 p-10px">
+          <div className="w-100 h-a h-pr-fl-ma b-s-b-b p-5px bg-g-identity ns-br-r-1">
+
               <div className="w-100 h-a b-s-b-b h-pr-fl-ma flexbox j-c-c p-10px">
                 <ImageComponent
-                  className="w-and-h-150px b-s-b-b  h-pr-fl-ma ns-bg-darkgreen ns-br-r-1"
+                  className="w-and-h-150px b-s-b-b  h-pr-fl-ma bg-d ns-br-r-1"
                   imageUrl={CreateIcon}
                 ></ImageComponent>
                 <Title
@@ -43,7 +44,7 @@ const Plans = ({ children }) => {
               <div className="w-100 h-100 h-pr-fl-ma ">
                 <div className="w-100 h-pr-fl-ma bg-d p-20px ">
                   <ContentBox
-                    className="w-100 t-a-c ns-bg-darkgreen f-w-bo p-10px"
+                    className="w-100 t-a-c bg-g-identity f-w-bo p-10px"
                     text="Ideal para su emprendimiento/empresa."
                   ></ContentBox>
                   <Title
@@ -64,7 +65,7 @@ const Plans = ({ children }) => {
                   ></ContentBox>
 
                   <Btn
-                    className="w-100 p-20px f-w-bo m-t-20px ns-bg-darkgreen "
+                    className="w-100 p-20px f-w-bo m-t-20px bg-g-identity "
                     text="Ver más..."
                     enlace="/plans/identity"
                   ></Btn>
@@ -76,16 +77,17 @@ const Plans = ({ children }) => {
                   </ContentBox>
                 </div>
               </div>
-            </div>
+       
           </div>
-
+          </div>
           {/* //blue PLANES: 2 - PLANES DE CONTENIDO */}
 
-          <div className="w-25 tab-w-50 m-w-100 h-a h-pr-fl-ma p-5px m-b-10px ns-bg-blue ns-br-r-1">
-            <div className="w-100 h-a h-pr-fl-mab-s-b-b ">
+          <div className="w-33 tab-w-50 m-w-100 h-a h-pr-fl-ma ns-br-r-1 p-10px">
+          <div className="w-100 h-a h-pr-fl-ma b-s-b-b p-5px bg-g-contents ns-br-r-1">
+           
               <div className="w-100 h-a b-s-b-b h-pr-fl-ma flexbox j-c-c p-10px">
                 <ImageComponent
-                  className="w-and-h-150px b-s-b-b  h-pr-fl-ma ns-bg-blue ns-br-r-1"
+                  className="w-and-h-150px b-s-b-b  h-pr-fl-ma bg-d  ns-br-r-1"
                   imageUrl={CreateIcon}
                 ></ImageComponent>
                 <Title
@@ -96,7 +98,7 @@ const Plans = ({ children }) => {
               <div className="w-100 h-100 h-pr-fl-ma ">
                 <div className="w-100 h-pr-fl-ma bg-d p-20px ">
                   <ContentBox
-                    className="w-100 t-a-c ns-bg-blue f-w-bo p-10px"
+                    className="w-100 t-a-c bg-g-contents f-w-bo p-10px"
                     text="Ideal para su emprendimiento/empresa."
                   ></ContentBox>
                   <Title
@@ -117,7 +119,7 @@ const Plans = ({ children }) => {
                   ></ContentBox>
 
                   <Btn
-                    className="w-100 p-20px f-w-bo m-t-20px ns-bg-blue "
+                    className="w-100 p-20px f-w-bo m-t-20px bg-g-contents "
                     text="Ver más..."
                     enlace="/plans/contents"
                   ></Btn>
@@ -129,16 +131,17 @@ const Plans = ({ children }) => {
                   </ContentBox>
                 </div>
               </div>
-            </div>
+        
           </div>
-
+          </div>
           {/* //blue PLANES: 2 - PLANES DE CONTENIDO */}
 
-          <div className="w-25 tab-w-50 m-w-100 h-a h-pr-fl-ma p-5px m-b-10px ns-bg-violet ns-br-r-1">
-            <div className="w-100 h-a h-pr-fl-mab-s-b-b ">
+          <div className="w-33 tab-w-50 m-w-100 h-a h-pr-fl-ma  p-10px">
+          <div className="w-100 h-a h-pr-fl-ma b-s-b-b p-5px bg-g-asesoria ns-br-r-1">
+    
               <div className="w-100 h-a b-s-b-b h-pr-fl-ma flexbox j-c-c p-10px">
                 <ImageComponent
-                  className="w-and-h-150px b-s-b-b  h-pr-fl-ma ns-bg-violet ns-br-r-1"
+                  className="w-and-h-150px b-s-b-b  h-pr-fl-ma bg-d ns-br-r-1"
                   imageUrl={CreateIcon}
                 ></ImageComponent>
                 <Title
@@ -149,7 +152,7 @@ const Plans = ({ children }) => {
               <div className="w-100 h-100 h-pr-fl-ma ">
                 <div className="w-100 h-pr-fl-ma bg-d p-20px ">
                   <ContentBox
-                    className="w-100 t-a-c ns-bg-violet f-w-bo p-10px"
+                    className="w-100 t-a-c bg-g-asesoria f-w-bo p-10px"
                     text="Ideal para su emprendimiento/empresa."
                   ></ContentBox>
                   <Title
@@ -170,7 +173,7 @@ const Plans = ({ children }) => {
                   ></ContentBox>
 
                   <Btn
-                    className="w-100 p-20px f-w-bo m-t-20px ns-bg-violet "
+                    className="w-100 p-20px f-w-bo m-t-20px bg-g-asesoria "
                     text="Ver más..."
                     enlace="/plans/specials"
                   ></Btn>
@@ -185,31 +188,33 @@ const Plans = ({ children }) => {
             </div>
           </div>
         </div>
+     
       </div>
 
-      <div className="w-80 m-w-90 h-pr-fl-ma h-100 b-s-b-b r-h-c p-5px bg-d m-t-50px m-b-50px tab-d-b m-d-b ns-br-r-2">
+      <div className="w-95 h-pr-fl-ma h-100 b-s-b-b r-h-c p-20px bg-d m-t-20px m-b-20px tab-d-b m-d-b ns-br-r-1">
         {/* //todo PLANES: 4 - PLANES DE ESPECIALES */}
 
-        <div className="w-100 h-pr-fl-ma p-10px ">
-          <Title className="t-a-c p-50px ns-c-e" h2="Planes especiales"></Title>
+        <div className="w-100 h-pr-fl-ma ">
+          <Title className="t-a-c p-50px ns-c-white" h1="Planes especiales"></Title>
         </div>
 
         {/* //? PLANES: 4 - TRADERS Y BROKERS */}
-        <div className="w-100 h-pr-fl-ma p-10px ns-bg-gray-9 ns-br-r-1 m-b-5px">
-          <div className="w-100 h-pr-fl-ma  flexbox m-d-b">
+        <div className="w-100 h-pr-fl-ma p-10px bg-g-green ns-br-r-1 m-b-5px">
+          <div className="w-100 h-pr-fl-ma  flexbox m-d-b p-20px">
             <div className="w-70 m-w-100 h-pr-fl-ma">
-              <Title className="ns-c-e" h3="&#8599; TRADERS & BROKERS"></Title>
+              <Title className="ns-c-white" h3="&#8599; TRADERS & BROKERS"></Title>
             </div>
             <div className="w-30 m-w-100 h-pr-fl-ma ">
-              <div className="w-a h-a h-pr-fr-ma d-i-f p-10px">
+              <div className="w-a m-w-100 m-d-b h-a h-pr-fr-ma d-i-f p-10px">
                 <Btn
-                  className="p-10px f-w-bo bg-d h-pr-fr-ma"
+                  className="p-10px  m-w-100 f-w-bo bg-d h-pr-fr-ma"
                   text={infoVisible[0] ? "- Cerrar info" : "+ Abrir info"}
                   click={() => toggleInfo(0)}
                 ></Btn>
                 <Btn
-                  className="p-10px f-w-bo ns-bg-e h-pr-fr-ma m-l-10px"
-                  text="Solicitar Reunión"
+                  className="p-10px m-d-n m-w-100 f-w-bo ns-bg-e h-pr-fr-ma m-l-10px"
+                  enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
+                  text="Coordinar Reunión"
                 ></Btn>
               </div>
             </div>
@@ -219,7 +224,7 @@ const Plans = ({ children }) => {
               id="contenedorinfo"
               className={`w-100 h-a h-pr-fl-ma ${infoVisible[0] ? "" : "d-n"}`}
             >
-              <span className="w-a h-pr-fl-ma bg-d ns-c-e f-f-Gilroy f-w-bo p-5px m-t-5px">
+              <span className="w-a h-pr-fl-ma bg-d ns-c-white f-f-Gilroy f-w-bo p-5px m-t-5px">
                 Creamos todo el contenido que su empresa necesite:
               </span>
               <span className="tag">Logotipo</span>
@@ -257,26 +262,33 @@ const Plans = ({ children }) => {
               </span>
               <span className="tag">Animaciones y videos promocionales</span>
               <span className="tag">Packaging de productos</span>
+              <Btn
+                  className="p-15px m-w-100 f-w-bo ns-bg-e h-pr-fr-ma m-t-20px m-l-10px d-n m-d-b"
+                  enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
+                  text="Coordinar Reunión"
+
+                ></Btn>
             </div>
           </div>
         </div>
       {/* //? PLANES: 4 - SUPERMERCADOS*/}
 
-      <div className="w-100 h-pr-fl-ma p-10px ns-bg-gray-9 ns-br-r-1 m-b-5px">
-          <div className="w-100 h-pr-fl-ma  flexbox m-d-b">
+      <div className="w-100 h-pr-fl-ma p-10px bg-g-blue ns-br-r-1 m-b-5px">
+      <div className="w-100 h-pr-fl-ma  flexbox m-d-b p-20px">
             <div className="w-70 m-w-100 h-pr-fl-ma">
-              <Title className="ns-c-e" h3="&#8599; SUPERMERCADOS & DEPÓSITOS"></Title>
+              <Title className="ns-c-white" h3="&#8599; SUPERMERCADOS & DEPÓSITOS"></Title>
             </div>
             <div className="w-30 m-w-100 h-pr-fl-ma ">
-              <div className="w-a h-a h-pr-fr-ma d-i-f p-10px">
+              <div className="w-a m-w-100 m-d-b h-a h-pr-fr-ma d-i-f p-10px">
                 <Btn
-                  className="p-10px f-w-bo bg-d h-pr-fr-ma"
+                  className="p-10px  m-w-100 f-w-bo bg-d h-pr-fr-ma"
                   text={infoVisible[3] ? "- Cerrar info" : "+ Abrir info"}
                   click={() => toggleInfo(3)}
                 ></Btn>
                 <Btn
-                  className="p-10px f-w-bo ns-bg-e h-pr-fr-ma m-l-10px"
-                  text="Solicitar Reunión"
+                  className="p-10px m-d-n m-w-100 f-w-bo ns-bg-e h-pr-fr-ma m-l-10px"
+                  enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
+                  text="Coordinar Reunión"
                 ></Btn>
               </div>
             </div>
@@ -286,7 +298,7 @@ const Plans = ({ children }) => {
               id="contenedorinfo"
               className={`w-100 h-a h-pr-fl-ma ${infoVisible[3] ? "" : "d-n"}`}
             >
-              <span className="w-a h-pr-fl-ma bg-d ns-c-e f-f-Gilroy f-w-bo p-5px m-t-5px">
+              <span className="w-a h-pr-fl-ma bg-d ns-c-white f-f-Gilroy f-w-bo p-5px m-t-5px">
                 Creamos todo el contenido que su empresa necesite:
               </span>
 
@@ -351,26 +363,33 @@ const Plans = ({ children }) => {
                 Diseño de gráficos para pantallas digitales y puntos de venta
                 interactivos
               </span>
+              <Btn
+                  className="p-15px m-w-100 f-w-bo ns-bg-e h-pr-fr-ma m-t-20px m-l-10px d-n m-d-b"
+                  enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
+                  text="Coordinar Reunión"
+
+                ></Btn>
             </div>
           </div>
         </div>
         {/* //? PLANES: 4 - CASINOS */}
 
-        <div className="w-100 h-pr-fl-ma p-10px ns-bg-gray-9 ns-br-r-1 m-b-5px">
-          <div className="w-100 h-pr-fl-ma  flexbox m-d-b">
+        <div className="w-100 h-pr-fl-ma p-10px bg-g-purple ns-br-r-1 m-b-5px">
+        <div className="w-100 h-pr-fl-ma  flexbox m-d-b p-20px">
             <div className="w-70 m-w-100 h-pr-fl-ma">
-              <Title className="ns-c-e" h3="&#8599; CASINOS & HOTELES"></Title>
+              <Title className="ns-c-white" h3="&#8599; CASINOS & HOTELES"></Title>
             </div>
             <div className="w-30 m-w-100 h-pr-fl-ma ">
-              <div className="w-a h-a h-pr-fr-ma d-i-f p-10px">
+              <div className="w-a m-w-100 m-d-b h-a h-pr-fr-ma d-i-f p-10px">
                 <Btn
-                  className="p-10px f-w-bo bg-d h-pr-fr-ma"
+                  className="p-10px  m-w-100 f-w-bo bg-d h-pr-fr-ma"
                   text={infoVisible[1] ? "- Cerrar info" : "+ Abrir info"}
                   click={() => toggleInfo(1)}
                 ></Btn>
                 <Btn
-                  className="p-10px f-w-bo ns-bg-e h-pr-fr-ma m-l-10px"
-                  text="Solicitar Reunión"
+                  className="p-10px m-d-n m-w-100 f-w-bo ns-bg-e h-pr-fr-ma m-l-10px"
+                  enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
+                  text="Coordinar Reunión"
                 ></Btn>
               </div>
             </div>
@@ -380,7 +399,7 @@ const Plans = ({ children }) => {
               id="contenedorinfo"
               className={`w-100 h-a h-pr-fl-ma ${infoVisible[1] ? "" : "d-n"}`}
             >
-              <span className="w-a h-pr-fl-ma bg-d ns-c-e f-f-Gilroy f-w-bo p-5px m-t-5px">
+              <span className="w-a h-pr-fl-ma bg-d ns-c-white f-f-Gilroy f-w-bo p-5px m-t-5px">
                 Creamos todo el contenido que su empresa necesite:
               </span>
               <span className="tag">Infografías</span>
@@ -413,27 +432,34 @@ const Plans = ({ children }) => {
               <span className="tag">
                 Materiales promocionales para eventos (banners, roll-ups)
               </span>
+              <Btn
+                  className="p-15px m-w-100 f-w-bo ns-bg-e h-pr-fr-ma m-t-20px m-l-10px d-n m-d-b"
+                  enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
+                  text="Coordinar Reunión"
+
+                ></Btn>
             </div>
           </div>
         </div>
 
         {/* //? PLANES: 4 - RESTAURANTES*/}
 
-        <div className="w-100 h-pr-fl-ma p-10px ns-bg-gray-9 ns-br-r-1 m-b-5px">
-          <div className="w-100 h-pr-fl-ma  flexbox m-d-b">
+        <div className="w-100 h-pr-fl-ma p-10px bg-g-pink ns-br-r-1 m-b-5px">
+        <div className="w-100 h-pr-fl-ma  flexbox m-d-b p-20px">
             <div className="w-70 m-w-100 h-pr-fl-ma">
-              <Title className="ns-c-e" h3="&#8599; RESTAURANTES & FRANQUICIAS"></Title>
+              <Title className="ns-c-white  ns-br-r-1" h3="&#8599; RESTAURANTES & FRANQUICIAS"></Title>
             </div>
             <div className="w-30 m-w-100 h-pr-fl-ma ">
-              <div className="w-a h-a h-pr-fr-ma d-i-f p-10px">
+              <div className="w-a m-w-100 m-d-b h-a h-pr-fr-ma d-i-f p-10px">
                 <Btn
-                  className="p-10px f-w-bo bg-d h-pr-fr-ma"
+                  className="p-10px  m-w-100 f-w-bo h-pr-fr-ma"
                   text={infoVisible[2] ? "- Cerrar info" : "+ Abrir info"}
                   click={() => toggleInfo(2)}
                 ></Btn>
                 <Btn
-                  className="p-10px f-w-bo ns-bg-e h-pr-fr-ma m-l-10px"
-                  text="Solicitar Reunión"
+                  className="p-10px m-d-n m-w-100 f-w-bo ns-bg-e h-pr-fr-ma m-l-10px"
+                  enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
+                  text="Coordinar Reunión"
                 ></Btn>
               </div>
             </div>
@@ -443,7 +469,7 @@ const Plans = ({ children }) => {
               id="contenedorinfo"
               className={`w-100 h-a h-pr-fl-ma ${infoVisible[2] ? "" : "d-n"}`}
             >
-              <span className="w-a h-pr-fl-ma bg-d ns-c-e f-f-Gilroy f-w-bo p-5px m-t-5px">
+              <span className="w-a h-pr-fl-ma bg-d ns-c-white f-f-Gilroy f-w-bo p-5px m-t-5px">
                 Creamos todo el contenido que su empresa necesite:
               </span>
               <span className="tag">Menú del restaurante</span>
@@ -482,19 +508,34 @@ const Plans = ({ children }) => {
                 Diseño de material gráfico para promociones especiales o
                 descuentos
               </span>
+              <Btn
+                  className="p-15px m-w-100 f-w-bo ns-bg-e h-pr-fr-ma m-t-20px m-l-10px d-n m-d-b"
+                  enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
+                  text="Coordinar Reunión"
+
+                ></Btn>
+             
+              
             </div>
+            
           </div>
         </div>
 
   
       </div>
 
-      {/*  // !                           ADS                         */}
-      <div className="w-95 r-h-c m-w-90 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
-        <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma ">
-          <Adsense slot="9886328101" googleAdId="ca-pub-6375603115544403" />
-        </div>
-      </div>
+    {/*  // !                           ADS                         */}
+    <div className="w-95 r-h-c  h-a h-pr-fl-ma  bg-d m-d-b flexbox m-d-b b-s-b-b m-b-20px">
+            <div className="w-33 m-d-n m-w-100 h-a h-pr-fl-ma   p-10px">
+              <Adsense className="p-10px" slot="9886328101" googleAdId="ca-pub-6375603115544403" />
+            </div>
+            <div className="w-33 m-d-n m-w-100 h-a h-pr-fl-ma   p-10px">
+              <Adsense className="p-10px" slot="9886328101" googleAdId="ca-pub-6375603115544403" />
+            </div>
+            <div className="w-33  m-w-100 h-a h-pr-fl-ma   p-10px">
+              <Adsense className="p-10px" slot="9886328101" googleAdId="ca-pub-6375603115544403" />
+            </div>
+          </div>
 
       <div className="w-100 h-200px h-pr-fl-ma b-s-b-b  m-d-b">&nbsp;</div>
     </Fragment>

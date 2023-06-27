@@ -36,13 +36,13 @@ const notifier = ({
     <Fragment>
       {!Notifier && (
         <div
-          className={` ${className} notifier d-i-f  `}
+          className={`m-w-95  ${className} notifier d-i-f ns-bg-e p-5px `}
           Style={` ${Style} `}
         >
-          <div className="w-100 h-a h-pr-fl-ma  p-20px">
+          <div className="w-100 h-a h-pr-fl-ma bg-d circle p-20px p-l-30px">
             {title && (
               <div
-                className="h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy"
+                className="h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy "
                 Style="font-size: 25px; font-weight:bold; line-height: 30px; color: white;"
               >
                 {title}
@@ -107,7 +107,7 @@ const notifier = ({
             )}
           </div>
 
-          <div className="w-150px  m-w-100 h-a h-pr-fl-ma  p-10px b-s-b-b of-h  ">
+          <div className="w-150px  h-a h-pr-fl-ma  p-10px b-s-b-b of-h  ">
             <div className="w-100 m-d-f h-pr-fl-ma -s-b-b">
               {Decline && (
                 <div className="d-n m-d-b m-w-50 h-100px h-pr-fl-ma p-5px">
@@ -126,7 +126,7 @@ const notifier = ({
                 <div className="w-100 m-w-50 h-50px h-pr-fl-ma  p-5px">
                   <button
                     type="button"
-                    className="h-pr-fl-ma bg-white b-s-b-b w-a centered p-20px  h-a f-f-Gilroy h-e c-p"
+                    className="h-pr-fl-ma bg-white b-s-b-b w-a centered p-20px  f-w-bo h-a f-f-Gilroy h-e c-p"
                     Style="font-size: 15px; border-radius: 50px; line-height: 10px; color: black; "
                     onClick={handleSetCookie}
                   >

@@ -36,12 +36,12 @@ const Identity = () => {
           </span>
           <div className="w-100 h-pr-fl-ma flexbox f-w-n-w j-c-c p-10px p-b-20px">
             <Btn
-              className="w-200px m-w-100 ns-bg-darkgreen  p-l-20px p-r-20px p-10px m-5px f-w-bo br-s-solid br-c-white br-r-50px"
+              className="w-200px m-w-100 bg-g-identity  p-l-20px p-r-20px p-10px m-5px f-w-bo br-s-solid br-c-white br-r-50px"
               text="Planes al costo"
               click={mostrarPlanesUnicos}
             ></Btn>
             <Btn
-              className="w-200px m-w-100  ns-bg-darkgreen ns-bg-tone-1 p-l-20px p-r-20px p-10px m-5px f-w-bo  br-s-solid br-c-white br-r-50px"
+              className="w-200px m-w-100  bg-g-identity ns-bg-tone-1 p-l-20px p-r-20px p-10px m-5px f-w-bo  br-s-solid br-c-white br-r-50px"
               text="Planes a presupuestar"
               click={mostrarPlanesMensuales}
             ></Btn>
@@ -51,18 +51,18 @@ const Identity = () => {
 
 {/* //! ----------------------------------------- MOSTRANDO PLANES UNICOS */}
 {mostrarUnicos && (
-        <div id="planes-unicos" className="w-80 h-pr-fl-ma r-h-c bg-d">
+        <div id="planes-unicos" className="w-95 h-pr-fl-ma r-h-c bg-d m-b-20px">
           <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma p-10px m-d-b b-s-b-b">
             <Title
               h4="&#129150; Planes al costo"
-              className="w-100 t-a-l p-20px bg-d ns-bg-darkgreen "
+              className="w-100 t-a-l p-20px bg-g-identity "
             ></Title>
           </div>
 
           <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma p-10px m-d-b b-s-b-b m-b-20px">
             <Title
               h1="&#129150; Logotipo."
-              className="w-100 t-a-l p-20px bg-d ns-c-darkgreen ns-c-tone-1 "
+              className="w-100 t-a-l p-20px bg-g-identity ns-c-white ns-c-tone-1 "
             ></Title>
           </div>
 
@@ -73,7 +73,7 @@ const Identity = () => {
               <div className="w-100 h-pr-fl-ma bg-d p-5px">
                 <Title
                   h4="Emprendimiento"
-                  className="p-10px bg-d m-b-10px w-100 t-a-c ns-bg-darkgreen "
+                  className="p-10px bg-d m-b-10px w-100 t-a-c bg-g-identity "
                 ></Title>
                 <ContentBox
                   className="w-90 r-h-c m-b-10px bg-d p-10px"
@@ -134,7 +134,7 @@ const Identity = () => {
                     ></ContentBox>
 
                     <Btn
-                      className="w-100 p-15px f-w-bo m-t-20px ns-bg-darkgreen  "
+                      className="w-100 p-15px f-w-bo m-t-20px bg-g-identity "
                       text="¡Empezar ahora!"
                       enlace="mailto:hello@OrigenStudios.com?subject=Plan-Identidad-Emprendimiento&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Identidad%20Emprendimiento"
                     ></Btn>
@@ -153,7 +153,7 @@ const Identity = () => {
               <div className="w-100 h-pr-fl-ma bg-d p-5px">
                 <Title
                   h4="Startup"
-                  className="p-10px bg-d m-b-10px w-100 t-a-c ns-bg-darkgreen"
+                  className="p-10px bg-d m-b-10px w-100 t-a-c bg-g-identity "
                 ></Title>
                 <ContentBox
                   className="w-90 r-h-c m-b-10px bg-d p-10px"
@@ -214,7 +214,7 @@ const Identity = () => {
                     ></ContentBox>
 
                     <Btn
-                      className="w-100 p-15px f-w-bo m-t-20px ns-bg-darkgreen  "
+                      className="w-100 p-15px f-w-bo m-t-20px bg-g-identity  "
                       text="¡Empezar ahora!"
                       enlace="mailto:hello@OrigenStudios.com?subject=Plan-Identidad-Startup&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Identidad%20Startup"
                     ></Btn>
@@ -233,7 +233,7 @@ const Identity = () => {
               <div className="w-100 h-pr-fl-ma bg-d p-5px">
                 <Title
                   h4="Mediana empresa"
-                  className="p-10px bg-d m-b-10px w-100 t-a-c ns-bg-darkgreen "
+                  className="p-10px bg-d m-b-10px w-100 t-a-c bg-g-identity "
                 ></Title>
                 <ContentBox
                   className="w-90 r-h-c m-b-10px bg-d p-10px"
@@ -298,7 +298,7 @@ const Identity = () => {
                     ></ContentBox>
 
                     <Btn
-                      className="w-100 p-15px f-w-bo m-t-20px ns-bg-darkgreen  "
+                      className="w-100 p-15px f-w-bo m-t-20px bg-g-identity  "
                       text="¡Empezar ahora!"
                       enlace="mailto:hello@OrigenStudios.com?subject=Plan-Identidad-Mediana-Empresa&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Identidad%20Mediana-Empresa"
 
@@ -318,7 +318,7 @@ const Identity = () => {
               <div className="w-100 h-pr-fl-ma bg-d p-5px">
                 <Title
                   h4="Empresa Nacional"
-                  className="p-10px bg-d m-b-10px w-100 t-a-c ns-bg-darkgreen "
+                  className="p-10px bg-d m-b-10px w-100 t-a-c bg-g-identity "
                 ></Title>
                 <ContentBox
                   className="w-90 r-h-c m-b-10px bg-d p-10px"
@@ -391,7 +391,7 @@ const Identity = () => {
                       text="Editables Brandbook"
                     ></ContentBox>
                     <Btn
-                      className="w-100 p-15px f-w-bo m-t-20px ns-bg-darkgreen  "
+                      className="w-100 p-15px f-w-bo m-t-20px bg-g-identity  "
                       text="¡Empezar ahora!"
                       enlace="mailto:hello@OrigenStudios.com?subject=Plan-Identidad-Empresa-Nacional&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Identidad%20Empresa-Nacional"
 
@@ -414,11 +414,11 @@ const Identity = () => {
 
 {/* //! ----------------------------------------- MOSTRANDO PLANES MENSUALES */}
 {mostrarMensuales && (
-       <div id="planes-mensuales" className="w-80 h-pr-fl-ma r-h-c bg-d">
+       <div id="planes-mensuales" className="w-95 h-pr-fl-ma r-h-c bg-d m-b-20px">
        <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma p-10px m-d-b b-s-b-b">
          <Title
            h4="&#129150; Planes a presupuestar"
-           className="w-100 t-a-l p-20px bg-d ns-bg-darkgreen "
+           className="w-100 t-a-l p-20px bg-d bg-g-identity "
          ></Title>
        </div>
 

@@ -1,3 +1,4 @@
+import { object } from "prop-types";
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 
@@ -63,7 +64,7 @@ const ImageComponent = ({ imageUrl, className, imgcStyle,imgcclassName }) => {
         alt="Imagen"
         onClick={openModal}
         className={` ${className} modal-image w-100 h-100 h-pr-fl-ma b-s-b-b `}
-        style={{ transform: `scale(${scale})` }}
+        Style={{ objectFit: 'contain', transform: `scale(${scale})` }}
       />
     </div>
   );

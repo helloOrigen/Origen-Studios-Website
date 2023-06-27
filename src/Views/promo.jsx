@@ -152,8 +152,19 @@ const Promo = () => {
           </div>
         </div>
 
-        {/* COORDINAR REUNIÓN AHORA */}
-
+         {/*  // !                           ADS                         */}
+         <div className="w-100   h-a h-pr-fl-ma  bg-d m-d-b flexbox m-d-b b-s-b-b m-b-20px">
+            <div className="w-33 m-d-n m-w-100 h-a h-pr-fl-ma   p-10px">
+              <Adsense className="p-10px" slot="9886328101" googleAdId="ca-pub-6375603115544403" />
+            </div>
+            <div className="w-33 m-d-n m-w-100 h-a h-pr-fl-ma   p-10px">
+              <Adsense className="p-10px" slot="9886328101" googleAdId="ca-pub-6375603115544403" />
+            </div>
+            <div className="w-33  m-w-100 h-a h-pr-fl-ma   p-10px">
+              <Adsense className="p-10px" slot="9886328101" googleAdId="ca-pub-6375603115544403" />
+            </div>
+          </div>
+       {/* COORDINAR REUNIÓN AHORA */}
         <div className="w-100 m-w-100 r-h-c h-a h-pr-fl-ma f-f-Gilroy bg-d bg-d bg-d ns-br-r-1  ns-br-r-1 b-s-b-b d-i-f m-d-b ">
           <div className="w-100 h-pr-fl-ma bg-d p-20px d-i-f m-d-b">
             <div className="w-70 m-w-100 h-pr-fl-ma t-a-c f-w-bo ns-f-s-medium noselect ">
@@ -171,24 +182,21 @@ const Promo = () => {
               >
                 <div className="w-25px h-25px m-5px h-pr-fl-ma">
                   <img
-                    src={MessageWriting}
+                 
                     className="w-100 h-100 h-pr-fl-ma "
                     Style="stroke: #ffffff !important;"
+                    src={MessageWriting}
                     alt="Coordinar"
                   />
                 </div>
               </Btn>
             </div>
+            
           </div>
         </div>
       </div>
-       {/*  // !                           ADS                         */}
-       <div className="w-95 r-h-c h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px bg-d m-t-10px m-b-10px ">
-        <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma ">
-        <Adsense  slot="9886328101" googleAdId="ca-pub-6375603115544403"/>
-
-        </div>
-      </div>
+     
+   
       <div className="w-100 h-50px  h-pr-fl-ma b-s-b-b ">&nbsp;</div>
     </Fragment>
   );

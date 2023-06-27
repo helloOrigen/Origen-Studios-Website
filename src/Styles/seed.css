@@ -255,23 +255,59 @@ Seed.css cortesía de:
     font-size: 20px !important;
   }
  }
+
 .bg-d-t{
-  /*background default transparent*/
-  /*background: rgba(0, 0, 0, 0.5);*/
-  background: #0c0e0f88;
-  border-radius: 8px;
+
+  background-image: linear-gradient(
+    315deg,
+    hsl(0deg 0% 0%) 0%,
+    hsl(344deg 0% 1%) 13%,
+    hsl(344deg 0% 2%) 25%,
+    hsl(344deg 0% 3%) 36%,
+    hsl(344deg 0% 4%) 46%,
+    hsl(344deg 0% 5%) 56%,
+    hsl(344deg 0% 6%) 66%,
+    hsl(344deg 0% 7%) 76%,
+    hsl(344deg 0% 7%) 88%,
+    hsl(0deg 0% 8%) 100%
+  );
   border: 1px solid rgba(25,25,25 0.2);
-  backdrop-filter: blur(10px);
+  
 }
 
 .bg-d{
-  /*background default transparent*/
-  /*background: rgba(0, 0, 0, 0.8);*/
-  background: #000000;
-  border-radius: 0px;
-  border: 1px solid #101010;
-  backdrop-filter: blur(10px);
+
+  background-image: linear-gradient(
+    135deg,
+    hsl(0deg 0% 0%) 0%,
+    hsl(344deg 0% 1%) 13%,
+    hsl(344deg 0% 2%) 25%,
+    hsl(344deg 0% 3%) 36%,
+    hsl(344deg 0% 4%) 46%,
+    hsl(344deg 0% 5%) 56%,
+    hsl(344deg 0% 6%) 66%,
+    hsl(344deg 0% 7%) 76%,
+    hsl(344deg 0% 7%) 88%,
+    hsl(0deg 0% 8%) 100%
+  );
+
+  border: 1px solid #141414;
+
 }
+.bg-g-green {background: linear-gradient(to right, rgb(21, 153, 89), rgb(13, 139, 150));}
+.bg-g-orange{ background-image: linear-gradient(120deg, #ffcb56 0%, #ff6b42 100%);}
+
+.bg-g-purple{background: linear-gradient(91.1deg, rgb(77, 39, 147) -2.3%, rgb(115, 43, 155) 44.4%, rgb(133, 26, 199) 103.4%);}
+
+.bg-g-blue{background: radial-gradient(circle at 10% 20%, rgb(26, 89, 152) 0%, rgb(6, 63, 120) 90%);}
+.bg-g-yellow{background: radial-gradient(circle at 10% 20%, rgb(252, 217, 59) 0%, rgb(255, 178, 25) 90%);}
+
+.bg-g-pink{background: linear-gradient(143.3deg, rgb(200, 40, 149) 33.1%, rgb(237, 107, 154) 74.9%);}
+
+.bg-g-identity {  background: linear-gradient(to right, rgb(10, 164, 133), rgb(7, 77, 68));}
+.bg-g-contents{ background: linear-gradient(to right, rgb(42, 67, 113), rgb(6, 30, 61));}
+.bg-g-asesoria{ background: linear-gradient(to right, rgb(185, 52, 152), rgb(99, 15, 54));}
+
 .t-5 {
   margin-top: 5vh;
 }
@@ -352,8 +388,7 @@ div.d-v-on-h-container:hover .d-v-on-h {
 
 .UnderLineText {
     display: inline;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%,
-            rgb(255 69 0) 65%);
+
     box-shadow: inset 0 -0.2em 0 #FFC666;
 }
 .menu-container{
@@ -575,8 +610,8 @@ animation: coinanimationsponsor 2s ease-in-out 1s both ;
   right: 0px;
   margin: auto;
   bottom: 30px;
-  background: #000000;
-  border-radius: 20px;
+
+  border-radius: 50px;
  
 
 }
@@ -3476,7 +3511,7 @@ input[type=range].info:focus::-ms-fill-upper {
 
 /* TEXT ALIGN CENTER */
 .t-a-c {
-  text-align: center;
+  text-align: center ;
 }
 
 /* TEXT ALIGN LAST CENTER */
@@ -13296,7 +13331,7 @@ i.success {
 }
 
 .ns-c-pink-1 {
-  color: #F2916D;
+  color: #ff3676;
 }
 
 .ns-c-green {
@@ -13537,14 +13572,15 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(
 }
 
 .ns-bg-pink-1 {
-  background-color: #F2916D;
+  background-color: #ff3676;
 }
 
 .ns-bg-green {
   background-color: #02e473;
 }
 .ns-bg-darkgreen {
-  background-color: #00994d;
+background-color: #2ca03f;
+  
 }
 .ns-bg-gray-1 {
   background-color: #FFFFFF;
@@ -13600,7 +13636,9 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(
 }
 
 .ns-bg-e {
-  background-color: rgb(255 203 86);
+
+  background: linear-gradient(135deg, #ffc666 10%, #9f7b3d 50%, #f8d18e 100%);
+  
 }
 
 /* =================-------| BACKGROUND BLACK NODE  |-------================= */
@@ -13805,7 +13843,7 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(
 }
 
 .ns-fill-pink-1 {
-  fill: #F2916D;
+  fill: #ff3676;
 }
 
 .ns-fill-green {
@@ -14619,23 +14657,23 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(
 }
 
 .ns-br-c-pink-1 {
-  border-color: #F2916D;
+  border-color: #ff3676;
 }
 
 .ns-br-t-c-pink-1 {
-  border-top-color: #F2916D;
+  border-top-color: #ff3676;
 }
 
 .ns-br-r-c-pink-1 {
-  border-right-color: #F2916D;
+  border-right-color: #ff3676;
 }
 
 .ns-br-b-c-pink-1 {
-  border-bottom-color: #F2916D;
+  border-bottom-color: #ff3676;
 }
 
 .ns-br-l-c-pink-1 {
-  border-left-color: #F2916D;
+  border-left-color: #ff3676;
 }
 
 .ns-br-c-green {

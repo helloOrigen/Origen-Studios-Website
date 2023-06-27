@@ -34,12 +34,12 @@ const Contents = () => {
           </span>
           <div className="w-100 h-pr-fl-ma flexbox f-w-n-w j-c-c p-10px p-b-20px">
             <Btn
-              className="w-200px m-w-100 ns-bg-blue  p-l-20px p-r-20px p-10px m-5px f-w-bo br-s-solid br-c-white br-r-50px"
+              className="w-200px m-w-100 bg-g-contents  p-l-20px p-r-20px p-10px m-5px f-w-bo br-s-solid br-c-white br-r-50px"
               text="Planes únicos"
               click={mostrarPlanesUnicos}
             ></Btn>
             <Btn
-              className="w-200px m-w-100  ns-bg-blue ns-bg-tone-1 p-l-20px p-r-20px p-10px m-5px f-w-bo  br-s-solid br-c-white br-r-50px"
+              className="w-200px m-w-100  bg-g-contents ns-bg-tone-1 p-l-20px p-r-20px p-10px m-5px f-w-bo  br-s-solid br-c-white br-r-50px"
               text="Planes mensuales"
               click={mostrarPlanesMensuales}
             ></Btn>
@@ -49,18 +49,18 @@ const Contents = () => {
 
       {/* //! ----------------------------------------- MOSTRANDO PLANES UNICOS */}
       {mostrarUnicos && (
-        <div id="planes-unicos" className="w-80 h-pr-fl-ma r-h-c bg-d">
+        <div id="planes-unicos" className="w-95 h-pr-fl-ma r-h-c bg-d m-b-20px">
           <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma p-10px m-d-b b-s-b-b">
             <Title
               h4="&#129150; Pago único."
-              className="w-100 t-a-l p-20px bg-d ns-bg-blue "
+              className="w-100 t-a-l p-20px bg-d bg-g-contents "
             ></Title>
           </div>
 
           <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma p-10px m-d-b b-s-b-b m-b-20px">
             <Title
               h1="&#129150; Imágenes."
-              className="w-100 t-a-l p-20px bg-d ns-c-blue ns-c-tone-1 "
+              className="w-100 t-a-l p-20px bg-g-contents ns-c-white ns-c-tone-1 "
             ></Title>
           </div>
 
@@ -71,7 +71,7 @@ const Contents = () => {
               <div className="w-100 h-pr-fl-ma bg-d p-5px">
                 <Title
                   h4="Generación con I.A."
-                  className="p-10px bg-d m-b-10px w-100 t-a-c ns-bg-blue "
+                  className="p-10px bg-d m-b-10px w-100 t-a-c bg-g-contents "
                 ></Title>
                 <ContentBox
                   className="w-90 r-h-c m-b-10px bg-d p-10px"
@@ -128,7 +128,7 @@ const Contents = () => {
                     ></ContentBox>
 
                     <Btn
-                      className="w-100 p-15px f-w-bo m-t-20px ns-bg-blue "
+                      className="w-100 p-15px f-w-bo m-t-20px bg-g-contents "
                       text="¡Empezar ahora!"
                       enlace="mailto:hello@OrigenStudios.com?subject=Plan-Contenidos-Unicos-GeneracionIA&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Contenidos%20Unicos-GeneraciónIA"
 
@@ -148,7 +148,7 @@ const Contents = () => {
               <div className="w-100 h-pr-fl-ma bg-d p-5px">
                 <Title
                   h4="Edición de fotos"
-                  className="p-10px bg-d m-b-10px w-100 t-a-c ns-bg-blue "
+                  className="p-10px bg-d m-b-10px w-100 t-a-c bg-g-contents "
                 ></Title>
                 <ContentBox
                   className="w-90 r-h-c m-b-10px bg-d p-10px"
@@ -205,7 +205,7 @@ const Contents = () => {
                       list="Optimización para impresión o publicación en línea."
                     ></ContentBox>
                     <Btn
-                      className="w-100 p-15px f-w-bo m-t-20px ns-bg-blue "
+                      className="w-100 p-15px f-w-bo m-t-20px bg-g-contents "
                       text="¡Empezar ahora!"
                       enlace="mailto:hello@OrigenStudios.com?subject=Plan-Contenidos-Unicos-Edicion-De-Fotos&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Contenidos%20Unicos-Edicion-De-Fotos"
 
@@ -225,7 +225,7 @@ const Contents = () => {
               <div className="w-100 h-pr-fl-ma bg-d p-5px">
                 <Title
                   h4="Banner para ADS"
-                  className="p-10px bg-d m-b-10px w-100 t-a-c ns-bg-blue "
+                  className="p-10px bg-d m-b-10px w-100 t-a-c bg-g-contents "
                 ></Title>
                 <ContentBox
                   className="w-90 r-h-c m-b-10px bg-d p-10px"
@@ -255,7 +255,7 @@ const Contents = () => {
                     ></ContentBox>
 
                     <Btn
-                      className="w-100 p-15px f-w-bo  m-t-20px ns-bg-blue "
+                      className="w-100 p-15px f-w-bo  m-t-20px bg-g-contents "
                       text="¡Empezar ahora!"
                       enlace="mailto:hello@OrigenStudios.com?subject=Plan-Contenidos-Unicos-BannerADS&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Contenidos%20Unicos-BannerADS"
 
@@ -275,7 +275,7 @@ const Contents = () => {
               <div className="w-100 h-pr-fl-ma bg-d p-5px">
                 <Title
                   h4="Illustración"
-                  className="p-10px bg-d m-b-10px w-100 t-a-c ns-bg-blue "
+                  className="p-10px bg-d m-b-10px w-100 t-a-c bg-g-contents "
                 ></Title>
                 <ContentBox
                   className="w-90 r-h-c m-b-10px bg-d p-10px"
@@ -330,7 +330,7 @@ const Contents = () => {
                     ></ContentBox>
 
                     <Btn
-                      className="w-100 p-15px f-w-bo  m-t-20px ns-bg-blue "
+                      className="w-100 p-15px f-w-bo  m-t-20px bg-g-contents "
                       text="¡Empezar ahora!"
                       enlace="mailto:hello@OrigenStudios.com?subject=Plan-Contenidos-Unicos-Illustración&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Contenidos%20Unicos-Illustración"
 
@@ -346,31 +346,24 @@ const Contents = () => {
               </div>
             </div>{" "}
           </div>
-          {/* //blue CONTENIDO --------------------------------------------------------------- REDACCIÓN */}
-
-          <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma p-10px m-d-b b-s-b-b m-b-20px">
-            <Title
-              h1="&#129150; Redacción."
-              className="w-100 t-a-l p-20px bg-d ns-c-blue ns-c-tone-1 "
-            ></Title>
-          </div>
+      
         </div>
       )}
 
       {/* //! ----------------------------------------- MOSTRANDO PLANES MENSUALES */}
       {mostrarMensuales && (
-        <div id="planes-mensuales" className="w-80 h-pr-fl-ma r-h-c bg-d">
+        <div id="planes-mensuales" className="w-95 h-pr-fl-ma r-h-c bg-d m-b-20px">
   <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma p-10px m-d-b b-s-b-b">
             <Title
               h4="&#129150; Pago mensual."
-              className="w-100 t-a-l p-20px bg-d ns-bg-blue ns-bg-tone-1"
+              className="w-100 t-a-l p-20px bg-d bg-g-contents ns-bg-tone-1"
             ></Title>
           </div>
 
-          <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma p-10px m-d-b b-s-b-b m-b-20px">
+          <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma p-10px m-d-b  b-s-b-b m-b-20px">
             <Title
               h1="&#129150; Posteos."
-              className="w-100 t-a-l p-20px bg-d ns-c-blue ns-c-tone-1  "
+              className="w-100 t-a-l p-20px bg-d bg-g-contents ns-c-white  ns-c-tone-1  "
             ></Title>
           </div>
 
@@ -382,7 +375,7 @@ const Contents = () => {
               <div className="w-100 h-pr-fl-ma bg-d p-5px">
                 <Title
                   h4="Planificación mensual"
-                  className="p-10px bg-d m-b-10px w-100 t-a-c ns-bg-blue ns-bg-tone-1"
+                  className="p-10px bg-d m-b-10px w-100 t-a-c bg-g-contents ns-bg-tone-1"
                 ></Title>
                 <ContentBox
                   className="w-90 r-h-c m-b-10px bg-d p-10px"
@@ -418,7 +411,7 @@ const Contents = () => {
 
 
                     <Btn
-                      className="w-100 p-15px f-w-bo  m-t-20px ns-bg-blue ns-bg-tone-1"
+                      className="w-100 p-15px f-w-bo  m-t-20px bg-g-contents ns-bg-tone-1"
                       text="¡Empezar ahora!"
                       enlace="mailto:hello@OrigenStudios.com?subject=Plan-Contenidos-Mensuales-Planificación-Mensual&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Contenidos%20Mensuales-Planificación-Mensual"
 
@@ -439,7 +432,7 @@ const Contents = () => {
               <div className="w-100 h-pr-fl-ma bg-d p-5px">
                 <Title
                   h4="5 Post Mensuales"
-                  className="p-10px bg-d m-b-10px w-100 t-a-c ns-bg-blue ns-bg-tone-1"
+                  className="p-10px bg-d m-b-10px w-100 t-a-c bg-g-contents ns-bg-tone-1"
                 ></Title>
                 <ContentBox
                   className="w-90 r-h-c m-b-10px bg-d p-10px"
@@ -491,7 +484,7 @@ const Contents = () => {
 
 
                     <Btn
-                      className="w-100 p-15px f-w-bo  m-t-20px ns-bg-blue ns-bg-tone-1"
+                      className="w-100 p-15px f-w-bo  m-t-20px bg-g-contents ns-bg-tone-1"
                       text="¡Empezar ahora!"
                       enlace="mailto:hello@OrigenStudios.com?subject=Plan-Contenidos-Mensuales-5-Post-Mensuales&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Contenidos%20Mensuales-5-Post-Mensuales"
 
@@ -511,7 +504,7 @@ const Contents = () => {
               <div className="w-100 h-pr-fl-ma bg-d p-5px">
                 <Title
                   h4="10 Post Mensuales"
-                  className="p-10px bg-d m-b-10px w-100 t-a-c ns-bg-blue ns-bg-tone-1"
+                  className="p-10px bg-d m-b-10px w-100 t-a-c bg-g-contents ns-bg-tone-1"
                 ></Title>
                 <ContentBox
                   className="w-90 r-h-c m-b-10px bg-d p-10px"
@@ -547,7 +540,7 @@ const Contents = () => {
 
 
                     <Btn
-                      className="w-100 p-15px f-w-bo  m-t-20px ns-bg-blue ns-bg-tone-1"
+                      className="w-100 p-15px f-w-bo  m-t-20px bg-g-contents ns-bg-tone-1"
                       text="¡Empezar ahora!"
                       enlace="mailto:hello@OrigenStudios.com?subject=Plan-Contenidos-Mensuales-10-Post-Mensuales&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Contenidos%20Mensuales-10-Post-Mensuales"
 
@@ -568,7 +561,7 @@ const Contents = () => {
               <div className="w-100 h-pr-fl-ma bg-d p-5px">
                 <Title
                   h4="5 Stories Mensuales"
-                  className="p-10px bg-d m-b-10px w-100 t-a-c ns-bg-blue ns-bg-tone-1"
+                  className="p-10px bg-d m-b-10px w-100 t-a-c bg-g-contents ns-bg-tone-1"
                 ></Title>
                 <ContentBox
                   className="w-90 r-h-c m-b-10px bg-d p-10px"
@@ -622,7 +615,7 @@ const Contents = () => {
                       list="1080px / 1920px 9:16 | Vertical"
                     ></ContentBox>
                     <Btn
-                      className="w-100 p-15px f-w-bo  m-t-20px ns-bg-blue ns-bg-tone-1"
+                      className="w-100 p-15px f-w-bo  m-t-20px bg-g-contents ns-bg-tone-1"
                       text="¡Empezar ahora!"
                       enlace="mailto:hello@OrigenStudios.com?subject=Plan-Contenidos-Mensuales-5-Stories-Mensuales&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Contenidos%20Mensuales-5-Stories-Mensuales"
 

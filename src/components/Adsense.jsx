@@ -7,8 +7,9 @@ class Adsense extends Component {
   componentDidMount() {
     const { timeout } = this.props;
     this.googleInit = setTimeout(() => {
-      if (typeof window !== 'undefined')
-        (window.adsbygoogle = window.adsbygoogle || []).push({});
+      if (typeof window !== 'undefined' && window.adsbygoogle) {
+        window.adsbygoogle.push({});
+      }
     }, timeout);
   }
 
@@ -17,29 +18,36 @@ class Adsense extends Component {
   }
 
   render() {
-    const { classNames, slot, googleAdId, style, format } = this.props;
+    const { className, slot, googleAdId, style, format } = this.props;
     return (
-      <div className={classNames}>
+      <div className={`${className} ns-br-r-1`}>
         <ins
           className="adsbygoogle"
-          style={style || { display: 'block', textAlign: "center" }}
+          style={style || { display: 'block', textAlign: 'center' }}
           data-ad-client={googleAdId}
           data-ad-slot={slot}
-          data-ad-format={format || "auto"}
+          data-ad-format={format || 'auto'}
           data-full-width-responsive="true"
-        ></ins>
+
+          data-ad-responsive="true"
+        />
       </div>
     );
   }
 }
+
 Adsense.propTypes = {
-  classNames: PropTypes.string,
+  className: PropTypes.string,
   slot: PropTypes.string,
   timeout: PropTypes.number,
-  googleAdId: PropTypes.string,
+  googleAdId: PropTypes.string.isRequired,
+  format: PropTypes.string,
+  style: PropTypes.object,
 };
+
 Adsense.defaultProps = {
   classNames: '',
   timeout: 200,
 };
+
 export default Adsense;
