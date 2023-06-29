@@ -103,8 +103,8 @@ const App = () => {
           />
         </div>
         <MobileMenu />
-        <div className="h-pr-fl-ma w-100 h-70px  b-s-b-b of-v b-0px m-p-f" style={{ zIndex: "9999" }}>
-          <Footer className="w-100 h-100 r-h-c h-pr-fl-ma b-s-b-b bg-d" style={{ zIndex: "9999" }} />
+        <div className="h-pr-fl-ma w-100 h-70px  b-s-b-b of-v b-0px m-p-f" Style={{ zIndex: "9999" }}>
+          <Footer className="w-100 h-100 r-h-c h-pr-fl-ma b-s-b-b bg-d" Style={{ zIndex: "9999" }} />
         </div>
       </div>
     </BrowserRouter>

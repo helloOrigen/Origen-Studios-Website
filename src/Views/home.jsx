@@ -1,13 +1,14 @@
 import React, { Fragment } from "react";
 import Adsense from "../components/Adsense";
 
-import Btn from "../components/btn";
-import ContentBox from "../components/contentbox";
-import CardContainer from "../components/cardcontainer";
-import Card from "../components/card";
-import ImageComponent from "../components/ImageComponent";
-import TestCompone from "../components/TestCompone";
-import NewsletterForm from "../components/newsletterform.jsx";
+import {
+  Btn,
+  ContentBox,
+  CardContainer,
+  Card,
+  ImageComponent,
+  NewsletterForm,
+} from "../components/index";
 
 import BannerPrincipal from "../assets/images/compressed/banner-principal.jpg";
 import BannerPrincipalMobile from "../assets/images/compressed/banner-principal-mobile.jpg";
@@ -91,10 +92,12 @@ export default function Home(props) {
                   <img
                     className="w-100 p-a m-a m-d-n d-b"
                     src={BannerPrincipal}
+                    alt="BannerPrincipal"
                   />
                   <img
                     className="h-100 p-a m-a d-n m-d-b"
                     src={BannerPrincipalMobile}
+                    alt="banner principal mobile"
                   />
                   <div className="w-100 h-a h-pr-fl-ma r-v-b  flexbox m-d-b ">
                     <div className="w-70 m-w-100 h-a h-pr-fl-ma p-20px  ns-br-r-1 ">
@@ -109,7 +112,7 @@ export default function Home(props) {
                     </div>
                     <div className="w-30 m-d-n m-w-100 h-a h-pr-fl-ma p-20px ">
                       <Btn
-                         className="w-a t-a-c h-a ns-bg-e f-w-bo p-r-10px  h-pr-fr-ma"
+                        className="w-a t-a-c h-a ns-bg-e f-w-bo p-r-10px  h-pr-fr-ma"
                         text="Ver más..."
                         enlace="/plans"
                       >
@@ -234,10 +237,11 @@ export default function Home(props) {
 
               <div className="w-100 h-100 h-pr-fl-ma  b-s-b-b p-20px">
                 <div className="w-100 h-350px h-pr-fl-ma b-s-b-b of-h ns-br-r-2">
-                  <img className="w-100 p-a m-a m-d-n d-b" src={TitleStore} />
+                  <img className="w-100 p-a m-a m-d-n d-b" src={TitleStore} alt="tienda"/>
                   <img
                     className="h-100 p-a m-a d-n m-d-b"
                     src={TitleStoreMobile}
+                    alt="TiendaMobile"
                   />
                   <div className="w-100 h-a h-pr-fl-ma r-v-c  flexbox m-d-b ">
                     <div className="w-40 m-w-100 h-a h-pr-fl-ma p-20px bg-d ns-br-r-1 ">
@@ -319,12 +323,18 @@ export default function Home(props) {
 
             {/*  // ?                            SECCION 1 | SIDEBAR 20%                      */}
             <div className="w-30  m-w-100 h-a h-pr-fl-ma b-s-b-b p-10px  m-d-b  tab-d-n ">
-                            {/*  // todo                            SECCION 1 - SIDEBAR | REDES SOCIALES             */}
+              {/*  // todo                            SECCION 1 - SIDEBAR | REDES SOCIALES             */}
 
-                            <div className="w-100 h-pr-fl-ma b-s-b-b bg-g-identity ns-br-r-1 p-10px m-b-10px flexbox">
-                <div className="w-70 h-a h-pr-fl-ma f-w-bo p-r-5px noselect">Comencemos a crear su marca hoy mismo</div>
+              <div className="w-100 h-pr-fl-ma b-s-b-b bg-g-identity ns-br-r-1 p-10px m-b-10px flexbox">
+                <div className="w-70 h-a h-pr-fl-ma f-w-bo p-r-5px noselect">
+                  Comencemos a crear su marca hoy mismo
+                </div>
                 <div className="w-200px h-a  h-a h-pr-fl-ma">
-                <Btn  className="w-100 h-a ns-bg-e f-w-bo p-15px" text="Comenzar Ahora" enlace="https://wa.me/message/QEHFJE3NEAVTE1"></Btn>{" "}
+                  <Btn
+                    className="w-100 h-a ns-bg-e f-w-bo p-15px"
+                    text="Comenzar Ahora"
+                    enlace="https://wa.me/message/QEHFJE3NEAVTE1"
+                  ></Btn>{" "}
                 </div>
               </div>
               {/*  // todo                            SECCION 1 - SIDEBAR | SOLICITE PRESUPUESTOS                  */}
@@ -341,7 +351,9 @@ export default function Home(props) {
                     />
                     <div className="w-80 h-a l-h-15px m-l-20px ">
                       <div className="w-100 h-a r-v-c">
-                        <span className="w-100 f-w-bo noselect ">Traders & Brokers</span>{" "}
+                        <span className="w-100 f-w-bo noselect ">
+                          Traders & Brokers
+                        </span>{" "}
                         <br />
                         <span className="h-pr-fl-maw-100 ns-f-s-small noselect">
                           Identidad, Presentaciones, Informes...
@@ -382,7 +394,9 @@ export default function Home(props) {
                     />
                     <div className="w-80 h-a l-h-15px m-l-20px ">
                       <div className="w-100 h-a r-v-c">
-                        <span className="w-100 f-w-bo noselect">Hoteles & Casinos</span>{" "}
+                        <span className="w-100 f-w-bo noselect">
+                          Hoteles & Casinos
+                        </span>{" "}
                         <br />
                         <span className="h-pr-fl-maw-100 ns-f-s-small noselect">
                           Identidad, Publicidad, Banners...
@@ -566,8 +580,9 @@ export default function Home(props) {
                   enlace="https://discord.gg/UMAFqpD8Xr"
                   className="bg-g-blue f-w-bo w-100 p-15px m-b-10px"
                 ></Btn>
-                  <p className="w-100 h-a h-pr-lf-ma ns-f-s-small  f-f-Gilroy f-w-bo t-a-c">Acceso gratuito sin suscripciones mensuales.</p>
-              
+                <p className="w-100 h-a h-pr-lf-ma ns-f-s-small  f-f-Gilroy f-w-bo t-a-c">
+                  Acceso gratuito sin suscripciones mensuales.
+                </p>
               </div>
               {/*  // todo                            SECCION 1 - SIDEBAR | ADS INTERNO                  */}
               <div className="w-100 h-pr-fl-ma b-s-b-b bg-d  p-20px m-b-10px noselect">

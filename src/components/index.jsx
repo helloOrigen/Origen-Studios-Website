@@ -11,7 +11,7 @@ export {default as ContentBox} from "./contentbox";
 export {default as contentViewer} from "./contentViewer";
 
 
-
+export {default as NewsletterForm} from "./newsletterform";
 
 export {default as ImageComponent} from "./ImageComponent";
 
