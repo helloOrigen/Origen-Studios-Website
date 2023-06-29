@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from "react";
 
-import ContentBox from "../components/contentbox";
+import ContentBox from "../components/contentBox";
 import Title from "../components/title";
 import Btn from "../components/btn";
 import ImageComponent from "../components/ImageComponent";

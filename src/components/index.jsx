@@ -7,7 +7,7 @@ export {default as BtnModal} from "./btnModal";
 export {default as Card} from "./card";
 export {default as CardContainer} from "./cardcontainer";
 
-export {default as ContentBox} from "./contentbox";
+export {default as ContentBox} from "./contentBox";
 export {default as contentViewer} from "./contentViewer";
 
 
@@ -26,9 +26,9 @@ export {default as NavSubItem} from "./NavSubItem";
 
 
 
-export {default as Submenu} from "./submenu";
-export {default as Submenubtn} from "./submenubtn";
-export {default as submenuLegal} from "./submenuLegal";
+export {default as SubMenu} from "./submenu";
+export {default as SubMenuBtn} from "./submenubtn";
+export {default as SubMenuLegal} from "./submenuLegal";
 
 
 

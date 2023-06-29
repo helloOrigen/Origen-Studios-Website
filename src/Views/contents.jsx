@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from "react";
 
 import Title from "../components/title";
-import ContentBox from "../components/contentbox";
+
 import Btn from "../components/btn";
 import { PVContentsUnicos, PVContentsMensuales } from './index';
 

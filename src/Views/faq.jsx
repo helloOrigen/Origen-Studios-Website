@@ -1,6 +1,6 @@
-import React, { Fragment } from 'react'
-import ContentBox from '../components/contentbox'
-import Btn from '../components/btn'
+import React, { Fragment } from "react";
+import ContentBox from "../components/contentBox";
+import Btn from "../components/btn";
 const FAQ = () => {
   return (
   <Fragment>

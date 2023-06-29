@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
-import ContentBox from "../components/contentbox";
+import {ContentBox} from "../components/index";
+
 import Eye from "../assets/icons/eye.svg";
 import Target from "../assets/icons/target.svg";
 import Diamond from "../assets/icons/diamond.svg";

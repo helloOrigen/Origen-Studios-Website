@@ -1,8 +1,6 @@
 import React, { Fragment, useState } from 'react';
-import { Link } from 'react-router-dom';
 
 import Title from "../components/title";
-import ContentBox from "../components/contentbox";
 import Btn from "../components/btn";
 
 import { PVIdentityUnicos, PVIdentityMensuales } from './index';

@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import ContentBox from "../components/contentbox";
+import ContentBox from "../components/contentBox";
 import SubMenuLegal from "../components/submenuLegal";
 const Terms = () => {
   return (

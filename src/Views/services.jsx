@@ -1,6 +1,6 @@
 import React from "react";
 
-import ContentBox from "../components/contentbox";
+import ContentBox from "../components/contentBox";
 import Btn from "../components/btn";
 import Title from "../components/title";
 

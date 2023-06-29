@@ -150,7 +150,7 @@ export default function ContentBox(props) {
               className="w-100 h-pr-fl-ma t-a-c f-w-bo "
               Style="color: #666666;"
             >
-              I.V.A. Inc./ {plazo}{" "}
+              I.V.A. Inc./ {plazo}
             </div>
           </div>
         )}

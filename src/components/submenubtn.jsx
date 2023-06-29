@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Submenubtn(props) {
+export default function SubMenuBtn(props) {
   const { text, className, enlace, children } = props;
 
   return (

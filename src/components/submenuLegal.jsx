@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 
 import Btn from "./btn";
 
-export default function submenuLegal(props) {
+export default function SubMenuLegal(props) {
   return (
     <Fragment>
       <div className="w-100 h-a p-10px flexbox f-w-a m-d-b bg-black-node-o-70 blur ns-br-r-1 m-5px h-pr-fl-ma">

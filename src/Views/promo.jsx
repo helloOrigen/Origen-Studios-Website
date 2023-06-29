@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 
 import PromoTitulo from "../assets/images/promo/casos-de-exito-titulo.svg";
 import PromoOferta from "../assets/images/promo/casos-de-exito-oferta.svg";
-import ContentBox from "../components/contentbox";
+import ContentBox from "../components/contentBox";
 import Btn from "../components/btn";
 import MessageWriting from "../assets/icons/message_writing.svg";
 import Adsense from "../components/Adsense";

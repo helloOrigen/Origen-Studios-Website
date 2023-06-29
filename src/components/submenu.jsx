@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 
 
 
-export default function Submenu(props) {
+export default function SubMenu(props) {
   const { children } = props;
 
   return (

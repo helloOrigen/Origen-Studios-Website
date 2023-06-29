@@ -1,18 +1,9 @@
 import React, { Fragment } from "react";
 
-import ContentBox from "../components/contentbox";
+import ContentBox from "../components/contentBox";
 import Title from "../components/title";
 import Adsense from "../components/Adsense";
 
-
-
-import LinkedinIcon from "../assets/icons/linkedin-icon.svg";
-import InstagramIcon from "../assets/icons/instagram-icon.svg";
-import TwitterIcon from "../assets/icons/twitter-icon.svg";
-import FacebookIcon from "../assets/icons/facebook-icon.svg";
-import BehanceIcon from "../assets/icons/behance-icon.svg";
-import WhatsappIcon from "../assets/icons/whatsapp-icon.svg";
-import DiscordIcon from "../assets/icons/discord-icon.svg";
 
 
 const Team = () => {

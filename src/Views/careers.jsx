@@ -1,7 +1,7 @@
-import React, { Fragment } from 'react'
-import ContentBox from '../components/ContentBox'
-import Btn from '../components/btn'
-import HomeIcon from '../assets/icons/home.svg'
+import React, { Fragment } from "react";
+import {Btn} from "../components/index";
+
+import HomeIcon from "../assets/icons/home.svg";
 import { Link } from "react-router-dom";
 
 const Careers = () => {

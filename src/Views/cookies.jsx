@@ -1,6 +1,7 @@
 import React, { Fragment} from "react";
-import ContentBox from "../components/contentbox";
-import SubMenuLegal from "../components/submenuLegal";
+
+import {ContentBox, SubMenuLegal} from "../components/index";
+
 const Cookies = () => {
 
   return (
