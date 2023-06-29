@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-export default function contentBox(props) {
+export default function ContentBox(props) {
   const {
     title,
     titleclassName,

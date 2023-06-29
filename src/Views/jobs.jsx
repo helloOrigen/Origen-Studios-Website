@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
-import ContentBox from "../components/contentBox";
+import ContentBox from "../components/contentbox";
 
 import CardContainer from "../components/cardcontainer";
 import Card from "../components/card";

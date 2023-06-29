@@ -82,8 +82,8 @@ const Footer = ({ className }) => {
           {/* Block 5 --------------- */}
           {/* ---------------  Block 5 */}
           {/* Hamburger Menu Button --------------- */}
-          <div className="d-n m-d-b w-100 h-100 h-pr-fl-ma r-h-c  d-f b-s-b-b">
-            <div className="w-100 h-60px h-pr-fl-ma r-v-b ">
+          <div className="d-n m-d-b w-100 h-100 h-pr-fl-ma r-h-c  b-s-b-b">
+            <div className="w-100 h-70px h-pr-fl-ma r-v-b ">
               <div
                 className=" t-a-c f-f-Gilroy f-w-bo"
                 Style="width: 100%; height: 30px; background: #000000; color: #666666; position: absolute; margin: auto; bottom: 0px; left: 0px; right: 0px;"

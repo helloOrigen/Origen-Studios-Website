@@ -20,7 +20,7 @@ const MobileMenu = () => {
       id="menu"
       checked={menuOpen}
       onChange={toggleMenu}
-      Style="visibility: hidden;"
+     
    
     />
     

@@ -9,7 +9,7 @@ import Notifier from "./components/notifier";
 import fondo from "./assets/images/compressed/fondo-web.jpg";
 
 import "./Styles/fixedcss/seed.min.css";
-import "./Styles/seed.css";
+
 
 
 import * as Views from "./Views/index.jsx";
@@ -31,8 +31,8 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <div className="w-100 h-a h-pr-fl-ma of-h bg-black">
-        <div id="modal-root" style={{ zIndex: "9999999" }}></div>
+      <div className="w-100 h-100 h-pr-fl-ma of-h ">
+        <div id="modal-root" Style={{ zIndex: "9999999" }}></div>
         <div
           className="l-0px r-0px t-0px b-0px m-a"
           style={{
@@ -46,11 +46,11 @@ const App = () => {
             height: "100vh",
           }}
         ></div>
-        <div className="h-pr-fl-ma w-100 h-70px b-s-b-b bg-d" Style={{ zIndex: "1234" }}>
-          <NavBar />
+  <div className="h-pr-fl-ma w-100 h-70px b-s-b-b bg-d" Style={"z-index:99999;"}>
+              <NavBar/>
         </div>
 
-        <div className="h-pr-fl-ma w-100 h-100 b-s-b-b">
+        <div className="h-pr-fl-ma h-80 w-100 min-h-80 b-s-b-b">
           <div className="h-pr-fl-ma w-100 h-100 b-s-b-b">
             <div className="w-100 c-white h-100 r-h-c h-pr-fl-ma of-auto">
               <Routes>
@@ -77,8 +77,10 @@ const App = () => {
                 <Route path="/plans" element={<Views.Plans />} />
                 <Route path="/plans/:id" element={<Views.Plans />} />
                 <Route path="/plans/contents" element={<Views.Contents />} />
-                <Route path="/plans/identity" element={<Views.Identity />} />
-
+                <Route path="/plans/identity" element={<Views.Identity  />} />
+<Route path="/plans/identity/planes-mensuales" element={<Views.Identity mostrarUnicos={false} mostrarMensuales={true} />} />
+<Route path="/plans/identity/planes-unicos" element={<Views.Identity mostrarUnicos={true} mostrarMensuales={false} />} />
+                
                 <Route path="/downloads" element={<Views.Downloads />} />
                 <Route path="/downloads/:id" element={<Views.Downloads />} />
                 <Route path="/downloads/identity" element={<Views.DLIdentity />} />
@@ -100,9 +102,8 @@ const App = () => {
             action="Saber más..."
           />
         </div>
-
+        <MobileMenu />
         <div className="h-pr-fl-ma w-100 h-70px  b-s-b-b of-v b-0px m-p-f" style={{ zIndex: "9999" }}>
-          <MobileMenu className="p-a" />
           <Footer className="w-100 h-100 r-h-c h-pr-fl-ma b-s-b-b bg-d" style={{ zIndex: "9999" }} />
         </div>
       </div>

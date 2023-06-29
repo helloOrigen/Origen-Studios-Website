@@ -9,13 +9,13 @@ const navBar = () => {
   
   return (
     <Fragment>
-      <div className="w-95 h-100 r-h-c h-pr-fl-ma   d-i-f" >
-      <div className="w-100px m-w-200px  tab-w-200px h-pr-fl-ma h-a  b-s-b-b" Style="z-index: 30;">
+      <div className="w-95 h-100 r-h-c h-pr-fl-ma d-i-f">
+      <div className="w-100px m-w-200px tab-w-200px h-pr-fl-ma h-a b-s-b-b" Style="z-index: 30;">
         <Link to="/">
           <NavBarLogo   />
         </Link>
         </div>
-      <div className="w-100  h-pr-fl-ma  r-v-c f-w-n-w h-70px tab-d-n ">
+      <div className="w-100  h-pr-fl-ma  r-v-b f-w-n-w h-100  tab-d-n ">
       <Link to="/">
           <NavBarBtn className=" m-d-n noselect" text={"Inicio"}></NavBarBtn>
         </Link>
@@ -32,11 +32,9 @@ const navBar = () => {
         </Link>
 
         <Link to="/plans">
-           
           <NavBarBtn className="m-d-n noselect" text={"Planes"}>
           <NavSubItem text="Planes de Identidad" enlace="/plans/identity" className="bg-g-identity  c-white"></NavSubItem>
             <NavSubItem text="Planes de Contenidos" enlace="/plans/contents" className="bg-g-contents c-white"></NavSubItem>
-
           </NavBarBtn>
         </Link>
         

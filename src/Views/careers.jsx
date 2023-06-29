@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import ContentBox from '../components/contentBox'
+import ContentBox from '../components/ContentBox'
 import Btn from '../components/btn'
 import HomeIcon from '../assets/icons/home.svg'
 import { Link } from "react-router-dom";

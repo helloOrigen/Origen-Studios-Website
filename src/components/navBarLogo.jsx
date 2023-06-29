@@ -7,7 +7,7 @@ export default function navBarLogo(props) {
     <>
       <div className="w-70px p-10px m-d-n tab-d-n h-100 h-pr-fl-ma noselect t-1s b-s-b-b ">
         <img
-          className="w-100 h-50 bg-d h-pr-fl-ma"
+          className="w-100 h-50 ns-bg-e ns-br-r-2 h-pr-fl-ma"
           Style="object-fit: contain;"
           src={OSLogoSymbolSvg}
           alt="OS-LOGO"
@@ -15,7 +15,7 @@ export default function navBarLogo(props) {
       </div>
       <div className="w-a  m-d-b tab-d-b d-n h-100 h-pr-fl-ma noselect t-1s b-s-b-b ">
         <img
-          className="w-100 h-50 bg-d h-pr-fl-ma"
+          className="w-100 h-50 ns-bg-e ns-br-r-1 h-pr-fl-ma"
           Style="object-fit: contain;"
           src={OSLogotipo}
           alt="OS-LOGO"

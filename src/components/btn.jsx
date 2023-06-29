@@ -3,7 +3,7 @@ export default function Btn(props) {
 
   if (enlace) {
     return (
-      <a href={enlace} className="w-a h-a h-pr-fl-ma d-i-f">
+      <a href={enlace} className="w-a h-a ">
         <button
           type="button"
           onClick={click}

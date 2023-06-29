@@ -17,10 +17,11 @@ export default function navBarBtn(props) {
   return (
     <>
       <div
-        className={` ${className}   d-v-on-h-container  h-e-style hover-underline-animation w-auto h-pr-fl-ma h-100 c-p  b-s-b-b`} 
-      >
-         
-        <div className="w-a h-100  p-l-5px p-r-5px noselect h-pr-fl-ma  flexbox f-w-n-w a-i-c">
+        className={` ${className}  d-v-on-h-container  h-e-style hover-underline-animation w-auto h-pr-fl-ma h-100 c-p  b-s-b-b`} 
+      Style="z-index: 99999;">
+                 <div className="w-a max-w-250px h-a menu-container  d-v-on-h  m-a of-h b-s-b-b" Style="top: 69px;">{children}</div>
+
+        <div className="w-a h-100 p-l-5px p-r-5px noselect h-pr-fl-ma  flexbox f-w-n-w a-i-c">
 
         <div
           className="w-a h-a noselect c-white  f-f-Gilroy flexbox r-h-c f-w-n-w "
@@ -43,15 +44,14 @@ export default function navBarBtn(props) {
         
             
           </a>
-          {news && ( <div className="w-auto h-15px noselect m-l-5px m-t-4px p-l-5px p-r-5px p-t-3px h-pr-fl-ma f-f-Gilroy c-white  ns-f-s-small ns-bg-e f-w-bo ghost">NUEVO</div> )}
+          {news && ( <div className="w-a h-15px noselect m-l-5px m-t-4px p-l-5px p-r-5px p-t-3px h-pr-fl-ma f-f-Gilroy c-white  ns-f-s-small ns-bg-e f-w-bo ghost">NUEVO</div> )}
         </div>
      
         
         </div>
-        <div className="w-auto max-w-250px bg-d h-auto pf d-v-on-h menu-container m-a  t-70px of-h b-s-b-b">{children}</div>
       </div>
 
-   
+  
     </>
   );
 }

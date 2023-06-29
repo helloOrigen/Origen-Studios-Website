@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-import ContentBox from "../components/contentBox";
+import ContentBox from "../components/contentbox";
 import Title from "../components/title";
 import Adsense from "../components/Adsense";
 

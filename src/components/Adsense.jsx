@@ -6,29 +6,31 @@ class Adsense extends Component {
 
   componentDidMount() {
     const { timeout } = this.props;
-    this.googleInit = setTimeout(() => {
-      if (typeof window !== 'undefined' && window.adsbygoogle) {
-        window.adsbygoogle.push({});
-      }
-    }, timeout);
+    if (timeout) {
+      this.googleInit = setTimeout(() => {
+        if (typeof window !== 'undefined' && window.adsbygoogle) {
+          window.adsbygoogle.push({});
+        }
+      }, timeout);
+    }
   }
-
   componentWillUnmount() {
     if (this.googleInit) clearTimeout(this.googleInit);
   }
 
   render() {
     const { className, slot, googleAdId, style, format } = this.props;
+    const finalClassName = className ? `${className} ns-br-r-1` : 'ns-br-r-1';
+    const insStyle = style || { display: 'block', textAlign: 'center' };
     return (
-      <div className={`${className} ns-br-r-1`}>
+      <div className={finalClassName}>
         <ins
           className="adsbygoogle"
-          style={style || { display: 'block', textAlign: 'center' }}
+          style={insStyle}
           data-ad-client={googleAdId}
           data-ad-slot={slot}
           data-ad-format={format || 'auto'}
           data-full-width-responsive="true"
-
           data-ad-responsive="true"
         />
       </div>
@@ -46,7 +48,7 @@ Adsense.propTypes = {
 };
 
 Adsense.defaultProps = {
-  classNames: '',
+  className: '',
   timeout: 200,
 };
 

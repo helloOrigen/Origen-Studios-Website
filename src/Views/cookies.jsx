@@ -1,5 +1,5 @@
 import React, { Fragment} from "react";
-import ContentBox from "../components/contentBox";
+import ContentBox from "../components/contentbox";
 import SubMenuLegal from "../components/submenuLegal";
 const Cookies = () => {
 

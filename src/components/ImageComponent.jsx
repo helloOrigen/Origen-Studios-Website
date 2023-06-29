@@ -1,4 +1,3 @@
-import { object } from "prop-types";
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 
@@ -29,11 +28,11 @@ const ImageComponent = ({ imageUrl, className, imgcStyle,imgcclassName }) => {
   if (modalOpen) {
     return ReactDOM.createPortal(
       <div className="modal">
-        <div className="modal-content">
+        <div className="modal-content ">
           <img
             src={imageUrl}
             alt="Imagen"
-            className={`${imgcclassName} w-100 h-100 centered`}
+            className={`${imgcclassName} w-100 h-100 centered `}
             Style={` object-fit: contain;  ${imgcStyle} `}
           />
           <div className="ZoomControls w-300px bg-d-t flexbox d-n">
@@ -53,7 +52,7 @@ const ImageComponent = ({ imageUrl, className, imgcStyle,imgcclassName }) => {
         </div>
         <div className="modal-overlay" onClick={closeModal}></div>
       </div>,
-      document.getElementById("modal-root") // Aquí debes especificar el ID del elemento en el DOM donde deseas renderizar la modal
+      document.getElementById("modal-root") 
     );
   }
 

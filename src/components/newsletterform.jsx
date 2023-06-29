@@ -19,7 +19,7 @@ export default function NewsletterForm(props) {
         <iframe
           className="h-a h-pr-fl-ma"
           src="https://a5455d64.sibforms.com/serve/MUIFAF4kToT94r3Yzc_vIzBHcjdkdI-bej5X5TXNHuRQPz3N8XUwwkMNaJxwcO_tEC9YLES-UqjUiJo4U-wG7VzcnGYzPrJcoLEVy4xXj0a2tZKhOhJPppzZsIui4r-Bz6WhPU406-HzHpbdwm5YaeTtFN8KQ66VpNl-M7EG81F_tXTeijbkm74KZN5u-XOy1lh70QBZthkOJF-Q"
-          frameborder="0"
+          frameBorder="0"
           allowfullscreen
           Style="height: 680px; width: 100%; display: block; margin-left: auto;margin-right: auto;max-width: 100%;"
         ></iframe>

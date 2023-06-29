@@ -1,6 +1,6 @@
 import React from "react";
 
-import ContentBox from "../components/contentBox";
+import ContentBox from "../components/contentbox";
 import Btn from "../components/btn";
 import Title from "../components/title";
 
@@ -12,7 +12,7 @@ export default function Services(props) {
     <>
       {/*  // !                            SECCIÓN 1 |  TITULO                             */}
 
-      <div className="w-95 r-h-c m-w-100 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
+      <div className="w-95 r-h-c  h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
         <Title
           h1="Servicios"
           className="w-100 t-a-c m-t-100px m-b-100px"
@@ -21,7 +21,7 @@ export default function Services(props) {
 
       {/*  // !                            SECCIÓN 2 |  DISEÑO                            */}
 
-      <div className="w-95 r-h-c m-w-100 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
+      <div className="w-95 r-h-c   h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
         <div className="w-100 m-w-100 m-h-a  h-a h-pr-fl-ma bg-d p-20px of-h  ">
           <div className="w-25 m-w-100   h-500px h-pr-fl-ma bg-d   of-h">
             {" "}
@@ -85,7 +85,7 @@ export default function Services(props) {
       </div>
 
       {/*  // !                            SECCIÓN 2 | MARKETING                            */}
-      <div className="w-95 r-h-c m-w-100 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
+      <div className="w-95 r-h-c h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
         <div className="w-100 m-w-100 m-h-a  h-a h-pr-fl-ma bg-d p-20px of-h  ">
           <div className="w-25 m-w-100   h-500px h-pr-fl-ma bg-d   of-h">
             {" "}

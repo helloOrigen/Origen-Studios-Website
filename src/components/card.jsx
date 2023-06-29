@@ -67,10 +67,10 @@ export default function Card(props) {
           >
             {title && (
               <div
-                className={`w-100 p-10px  f-f-Gilroy  ${titleclassName} br-c-white br-s-solid br-c-white br-r-50px`}
-                Style={`font-size: 20px; line-height: 25px; ${titleStyle}`}
+                className={`w-100 p-5px f-w-bo f-f-Gilroy  ${titleclassName} br-c-white br-s-solid br-c-white br-r-50px`}
+                Style={`font-size: 15px; line-height: 25px; ${titleStyle}`}
               >
-                {title}
+                &nbsp;{title}
               </div>
             )}
 

@@ -7,7 +7,7 @@ export {default as BtnModal} from "./btnModal";
 export {default as Card} from "./card";
 export {default as CardContainer} from "./cardcontainer";
 
-export {default as contentBox} from "./contentBox";
+export {default as ContentBox} from "./contentbox";
 export {default as contentViewer} from "./contentViewer";
 
 
