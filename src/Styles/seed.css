@@ -55,9 +55,12 @@ Seed.css cortesía de:
   background: var(--current-color-emphasis);
 }
 .box-container {
+  width: auto;
   display: flex;
-  flex-wrap: wrap;
 
+  gap: 50px 20px; /* row-gap column gap */
+  row-gap: 10px;
+  column-gap: 10px;
 }
 
 .box {
@@ -68,7 +71,12 @@ Seed.css cortesía de:
  
  
 }
+.box-inside{
+  width: 200px; /* Ajusta el ancho según tus necesidades */
+  height: 200px; /* Ajusta la altura según tus necesidades */
+  margin: auto; /* Ajusta los márgenes según tus necesidades */
 
+}
 .box-image {
   width: 100%;
   height: 100%;
@@ -302,6 +310,20 @@ Seed.css cortesía de:
     display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important;
     grid-gap: 5px !important;
+  }
+  .box {
+    width: 160px; /* Ajusta el ancho según tus necesidades */
+    height: 160px; /* Ajusta la altura según tus necesidades */
+    margin: auto; /* Ajusta los márgenes según tus necesidades */
+    margin: 15px;
+   
+   
+  }
+  .box-inside{
+    width: 160px; /* Ajusta el ancho según tus necesidades */
+    height: 160px; /* Ajusta la altura según tus necesidades */
+    margin: auto; /* Ajusta los márgenes según tus necesidades */
+ 
   }
  }
 

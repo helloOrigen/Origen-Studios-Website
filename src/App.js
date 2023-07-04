@@ -96,11 +96,12 @@ const App = () => {
             </div>
           </div>
           <Notifier
-            className="w-80  UnderLineText"
+            className="w-80 UnderLineText"
             Accept
             text=" Utilizamos 🍪 cookies en este sitio para ofrecerle la mejor experiencia de usuario posible."
             link="/cookies"
             action="Saber más..."
+          
           />
         </div>
         <MobileMenu />

@@ -77,7 +77,7 @@ export default function Home(props) {
               <Title h1="OrigenStudios" sup="&reg;"></Title>
               <Title h3="Somos el origen de su marca"></Title>
 
-              <div className=" m-w-80 r-h-c h-a h-pr-fl-ma b-s-b-b flexbox f-w-n-w m-t-20px  ">
+              <div className="m-w-80 r-h-c h-a h-pr-fl-ma b-s-b-b flexbox f-w-n-w m-t-20px  ">
                 <Btn
                   className="w-a m-w-100 p-l-20px p-r-20px  ns-bg-e f-w-bo br-s-solid br-c-white br-r-50px"
                   enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"

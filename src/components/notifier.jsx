@@ -39,7 +39,7 @@ const notifier = ({
           className={`m-w-95  ${className} notifier d-i-f ns-bg-e p-5px `}
           Style={` ${Style} `}
         >
-          <div className="w-100 h-a h-pr-fl-ma bg-d circle p-20px p-l-30px">
+          <div className="w-100 h-a h-pr-fl-ma bg-d br-r-50px p-20px p-l-30px">
             {title && (
               <div
                 className="h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy "
