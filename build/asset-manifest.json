@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6e04bcc.css",
-    "main.js": "/static/js/main.f5bf0d8d.js",
+    "main.css": "/static/css/main.b66dce9c.css",
+    "main.js": "/static/js/main.d2d1c6b6.js",
     "static/js/496.f228d8d8.chunk.js": "/static/js/496.f228d8d8.chunk.js",
     "static/media/casos-de-exito-oferta.svg": "/static/media/casos-de-exito-oferta.b28c45d5178959cbd1949336f232d880.svg",
     "static/media/fondo-web.jpg": "/static/media/fondo-web.57caff51e7ebfe3ac51e.jpg",
@@ -91,12 +91,12 @@
     "static/media/chevron_left.svg": "/static/media/chevron_left.c57246a50e9b6eecdd2fa206a166fd5d.svg",
     "static/media/chevron_right.svg": "/static/media/chevron_right.4aec8e1324a1f7ded654040753a619d6.svg",
     "static/media/close.svg": "/static/media/close.0712d4c0fd22e6e4a6f2888d0d61b1c7.svg",
-    "main.e6e04bcc.css.map": "/static/css/main.e6e04bcc.css.map",
-    "main.f5bf0d8d.js.map": "/static/js/main.f5bf0d8d.js.map",
+    "main.b66dce9c.css.map": "/static/css/main.b66dce9c.css.map",
+    "main.d2d1c6b6.js.map": "/static/js/main.d2d1c6b6.js.map",
     "496.f228d8d8.chunk.js.map": "/static/js/496.f228d8d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6e04bcc.css",
-    "static/js/main.f5bf0d8d.js"
+    "static/css/main.b66dce9c.css",
+    "static/js/main.d2d1c6b6.js"
   ]
 }
