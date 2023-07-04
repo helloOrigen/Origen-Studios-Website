@@ -9,7 +9,7 @@ import Notifier from "./components/notifier";
 import fondo from "./assets/images/compressed/fondo-web.jpg";
 
 import "./Styles/fixedcss/seed.min.css";
-
+/*import "./Styles/seed.css";*/
 
 
 import * as Views from "./Views/index.jsx";
@@ -73,6 +73,7 @@ const App = () => {
                 <Route path="/terms" element={<Views.Terms />} />
                 <Route path="/cookies" element={<Views.Cookies />} />
                 <Route path="/privacy" element={<Views.Privacy />} />
+                <Route path="/concepts" element={<Views.Concepts />} />
 
                 <Route path="/plans" element={<Views.Plans />} />
                 <Route path="/plans/:id" element={<Views.Plans />} />

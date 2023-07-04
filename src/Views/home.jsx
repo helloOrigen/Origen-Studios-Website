@@ -10,6 +10,7 @@ import {
   NewsletterForm,
 } from "../components/index";
 
+import Concepts from "../assets/images/compressed/concepts.webp";
 import BannerPrincipal from "../assets/images/compressed/banner-principal.jpg";
 import BannerPrincipalMobile from "../assets/images/compressed/banner-principal-mobile.jpg";
 import OSWoman from "../assets/images/compressed/os-woman.jpg";
@@ -25,7 +26,6 @@ import PromoOtoño from "../assets/images/compressed/promo-otoño.jpg";
 import GodCreator from "../assets/images/compressed/god-creator.jpg";
 import TitleStore from "../assets/images/compressed/titlestore.jpg";
 import TitleStoreMobile from "../assets/images/compressed/titlestoremobile.jpg";
-
 import BloosyAdHorizontal from "../assets/images/compressed/bloosyadhorizontal.jpg";
 import BloosyAdSquare from "../assets/images/compressed/bloosyadsquare.jpg";
 
@@ -53,15 +53,33 @@ export default function Home(props) {
   return (
     <Fragment>
       <div className="w-100 h-100 h-pr-fl-ma b-s-b-b of-x-auto f-f-Gilroy c-white">
-        <div className="w-100 r-h-c h-100 h-pr-fl-ma">
-          <div className="w-100 h-a h-pr-fl-ma b-s-b-bs t-a-c m-d-b m-t-100px m-b-50px ">
-            <div className="w-80 m-w-100 r-h-c h-a h-pr-fl-ma b-s-b-b   m-b-20px ">
+        <div className="w-100 r-h-c h-100 h-pr-fl-ma m-t-100px ">
+         
+          <div className="w-95 r-h-c  h-a h-pr-fl-ma b-s-b-bs t-a-c m-d-b noselect   m-b-50px">
+          <div className="w-25 m-d-n  h-a h-pr-fl-ma b-s-b-b t-a-c   ">
+            <div className="w-and-h-250px h-pr-fl-ma bg-d-t p-10px r-h-c ns-br-r-2">  <img
+                    className="w-100 ns-br-r-2 a-h-c p-a m-a m-d-b"
+                    src={Concepts}
+                    alt="Ver Conceptos"
+                  /><div className="centered w-100 h-a ">
+                    <Title className="w-100 m-b-20px " h2="Nuevos Conceptos!"></Title>
+                    <Btn
+                        className="w-150px p-10px t-a-c h-a ns-bg-e f-w-bo r-h-c  h-pr-fl-ma"
+                        text="Ver más..."
+                        enlace="/concepts"
+                      >
+                        
+                      </Btn>
+                  </div> </div>
+          </div>
+            <div className="w-50 m-w-100  h-a h-pr-fl-ma b-s-b-b  m-b-20px ">
+              <div className="w-100  h-pr-fl-ma  m-t-20px"> 
               <Title h1="OrigenStudios" sup="&reg;"></Title>
               <Title h3="Somos el origen de su marca"></Title>
 
               <div className=" m-w-80 r-h-c h-a h-pr-fl-ma b-s-b-b flexbox f-w-n-w m-t-20px  ">
                 <Btn
-                  className="w-a m-w-100  p-l-20px p-r-20px  ns-bg-e f-w-bo br-s-solid br-c-white br-r-50px"
+                  className="w-a m-w-100 p-l-20px p-r-20px  ns-bg-e f-w-bo br-s-solid br-c-white br-r-50px"
                   enlace="https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
                   text="Coordinar una reunión"
                 >
@@ -75,7 +93,11 @@ export default function Home(props) {
                   </div>
                 </Btn>
               </div>
+              </div>
             </div>
+            <div className="w-25 m-d-n  h-a h-pr-fl-ma b-s-b-b t-a-c  ">
+            <div className="w-and-h-250px h-pr-fl-ma  r-h-c ns-br-r-2">&nbsp;</div>
+          </div>
           </div>
 
           {/*  // !                            SECCIÓN 1 |  CONTENEDOR CENTRAL                              */}
@@ -237,7 +259,11 @@ export default function Home(props) {
 
               <div className="w-100 h-100 h-pr-fl-ma  b-s-b-b p-20px">
                 <div className="w-100 h-350px h-pr-fl-ma b-s-b-b of-h ns-br-r-2">
-                  <img className="w-100 p-a m-a m-d-n d-b" src={TitleStore} alt="tienda"/>
+                  <img
+                    className="w-100 p-a m-a m-d-n d-b"
+                    src={TitleStore}
+                    alt="tienda"
+                  />
                   <img
                     className="h-100 p-a m-a d-n m-d-b"
                     src={TitleStoreMobile}
@@ -269,7 +295,7 @@ export default function Home(props) {
               </div>
 
               {/*  // !                                 SECCION 2    | MULTIPLES IMAGENES (cards)                         */}
-              <div className=" w-95  r-h-c h-a h-pr-fl-ma bg-d m-b-20px b-s-b-b p-20px">
+              <div className=" w-95  r-h-c h-a h-pr-fl-ma bg-d m-b-20px b-s-b-b m-d-n p-20px">
                 <CardContainer className="m-b-20px card-mosaic">
                   <Card
                     type="card-tall"
@@ -324,17 +350,18 @@ export default function Home(props) {
             {/*  // ?                            SECCION 1 | SIDEBAR 20%                      */}
             <div className="w-30  m-w-100 h-a h-pr-fl-ma b-s-b-b p-10px  m-d-b  tab-d-n ">
               {/*  // todo                            SECCION 1 - SIDEBAR | REDES SOCIALES             */}
-
-              <div className="w-100 h-pr-fl-ma b-s-b-b bg-g-identity ns-br-r-1 p-10px m-b-10px flexbox">
-                <div className="w-70 h-a h-pr-fl-ma f-w-bo p-r-5px noselect">
-                  Comencemos a crear su marca hoy mismo
-                </div>
-                <div className="w-200px h-a  h-a h-pr-fl-ma">
-                  <Btn
-                    className="w-100 h-a ns-bg-e f-w-bo p-15px"
-                    text="Comenzar Ahora"
-                    enlace="https://wa.me/message/QEHFJE3NEAVTE1"
-                  ></Btn>{" "}
+              <div className="w-100 h-pr-fl-ma b-s-b-b bg-d  p-20px m-b-10px">
+                <div className="w-100 h-pr-fl-ma b-s-b-b bg-g-identity ns-br-r-1 p-10px  flexbox">
+                  <div className="w-70 h-a h-pr-fl-ma f-w-bo p-r-5px noselect">
+                    Comencemos a crear su marca hoy mismo
+                  </div>
+                  <div className="w-200px h-a  h-a h-pr-fl-ma">
+                    <Btn
+                      className="w-100 h-a ns-bg-e f-w-bo p-15px"
+                      text="Comenzar Ahora"
+                      enlace="https://wa.me/message/QEHFJE3NEAVTE1"
+                    ></Btn>{" "}
+                  </div>
                 </div>
               </div>
               {/*  // todo                            SECCION 1 - SIDEBAR | SOLICITE PRESUPUESTOS                  */}

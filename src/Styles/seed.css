@@ -26,7 +26,13 @@ Seed.css cortesía de:
   display: visible;
   transition: 0.3s ease-in-out;
 }
-
+.polka {
+  background-image: 
+    radial-gradient(rgb(36, 36, 36) 10%, transparent 10%);
+  background-position: 8px 8px;
+  background-size: 16px 16px;
+  background-color: rgb(0, 0, 0);
+}
 .tag {
   width: auto;
   height: auto;
@@ -47,6 +53,39 @@ Seed.css cortesía de:
 }
 .tag:hover{
   background: var(--current-color-emphasis);
+}
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.box {
+  width: 200px; /* Ajusta el ancho según tus necesidades */
+  height: 200px; /* Ajusta la altura según tus necesidades */
+  margin: 10px; /* Ajusta los márgenes según tus necesidades */
+  display: flex;
+ 
+ 
+}
+
+.box-image {
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  position: relative;
+  object-fit: contain;
+  transition: 0.3s;
+  transform: scale(0.8);
+}
+.box-image:hover 
+{
+  transform: scale(1);
+  object-fit: contain;
 }
 
 .nbsc{
@@ -257,6 +296,12 @@ Seed.css cortesía de:
   }
   .SlogHome{
     font-size: 20px !important;
+  }
+  
+  .box-container {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-gap: 5px !important;
   }
  }
 
@@ -12394,6 +12439,7 @@ i.success {
 
 /* Responsive */
 @media only screen and (max-width: 768px) {
+ 
   /*
   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
   ██ ▄▄▀█▄ ▄██ ▄▄▄ ██ ▄▄ ██ ████ ▄▄▀██ ███ ██

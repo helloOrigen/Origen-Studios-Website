@@ -12,6 +12,7 @@ export { default as Privacy } from './privacy';
 export { default as Cookies } from './cookies';
 export { default as Plans } from './plans';
 export { default as Contents } from './contents';
+export { default as Concepts } from './concepts';
 
 
 
