@@ -44,7 +44,7 @@ export default function ContactForm(props) {
               </div>
             </Link>
          
-            <Link to="https://wa.me/message/QEHFJE3NEAVTE1">
+            <Link to="https://wa.me/message/3J7NXI5ETDK7F1">
               <div className=" nano ns-br-r-1 of-h default  w-100px" Style=" margin: auto;">
                 <div className="w-100 h-100 h-pr-fl-ma ns-bg-green ">
                   <span className="w-100 h-a h-pr-fl-ma p-t-20px p-10px">

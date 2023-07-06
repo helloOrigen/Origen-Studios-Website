@@ -12,7 +12,7 @@ import WhatsappIcon from "../assets/icons/whatsapp-icon.svg";
 
 
 export default function navBarBtn(props) {
-  const { text, className, children, news, enlace, Linkedin, Facebook, Twitter, Behance, Whatsapp, Instagram } = props;
+  const { text, className, children, news, disabled, enlace, Linkedin, Facebook, Twitter, Behance, Whatsapp, Instagram } = props;
 
   return (
     <>
@@ -45,6 +45,8 @@ export default function navBarBtn(props) {
             
           </a>
           {news && ( <div className="w-a h-15px noselect m-l-5px m-t-4px p-l-5px p-r-5px p-t-3px h-pr-fl-ma f-f-Gilroy c-white  ns-f-s-small ns-bg-e f-w-bo ghost">NUEVO</div> )}
+          {disabled && ( <div className="w-a h-15px noselect m-l-5px m-t-4px p-l-5px p-r-5px p-t-3px h-pr-fl-ma f-f-Gilroy c-white  ns-f-s-small bg-d f-w-bo ghost">offline</div> )}
+
         </div>
      
         

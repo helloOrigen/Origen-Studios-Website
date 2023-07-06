@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.b66dce9c.css",
-    "main.js": "/static/js/main.d2d1c6b6.js",
+    "main.css": "/static/css/main.fe660c79.css",
+    "main.js": "/static/js/main.e47e804c.js",
     "static/js/496.f228d8d8.chunk.js": "/static/js/496.f228d8d8.chunk.js",
     "static/media/casos-de-exito-oferta.svg": "/static/media/casos-de-exito-oferta.b28c45d5178959cbd1949336f232d880.svg",
     "static/media/fondo-web.jpg": "/static/media/fondo-web.57caff51e7ebfe3ac51e.jpg",
     "static/media/casos-de-exito-banner-menu.gif": "/static/media/casos-de-exito-banner-menu.0890c758a59176b14513.gif",
+    "static/media/concepts.png": "/static/media/concepts.d50eb5e1f7bdd0ca6463.png",
     "static/media/OS-logo-white.png": "/static/media/OS-logo-white.5b702dea24ed534c6f95.png",
     "static/media/sunsummerthehero.jpg": "/static/media/sunsummerthehero.4b3c031a208ad490ae3b.jpg",
     "static/media/god-creator.jpg": "/static/media/god-creator.8242c536f3a7c69d6c2a.jpg",
@@ -32,7 +33,6 @@
     "static/media/thumbnail-4.jpg": "/static/media/thumbnail-4.a4b1e8866ddb5482d43e.jpg",
     "static/media/os-woman.jpg": "/static/media/os-woman.0f658f9584405872034b.jpg",
     "static/media/OS-Logo-Symbol-White-Svg.svg": "/static/media/OS-Logo-Symbol-White-Svg.3bf8dee9499d31c49d0a4176120aa06e.svg",
-    "static/media/concepts.webp": "/static/media/concepts.3f597b15cedffdb490f9.webp",
     "static/media/thumbnail-3.jpg": "/static/media/thumbnail-3.cf4b3594092f17de3971.jpg",
     "static/media/35.png": "/static/media/35.84d10e33a39f9407de10.png",
     "static/media/60.png": "/static/media/60.aca5c7cfb5fbdee0c78d.png",
@@ -91,12 +91,12 @@
     "static/media/chevron_left.svg": "/static/media/chevron_left.c57246a50e9b6eecdd2fa206a166fd5d.svg",
     "static/media/chevron_right.svg": "/static/media/chevron_right.4aec8e1324a1f7ded654040753a619d6.svg",
     "static/media/close.svg": "/static/media/close.0712d4c0fd22e6e4a6f2888d0d61b1c7.svg",
-    "main.b66dce9c.css.map": "/static/css/main.b66dce9c.css.map",
-    "main.d2d1c6b6.js.map": "/static/js/main.d2d1c6b6.js.map",
+    "main.fe660c79.css.map": "/static/css/main.fe660c79.css.map",
+    "main.e47e804c.js.map": "/static/js/main.e47e804c.js.map",
     "496.f228d8d8.chunk.js.map": "/static/js/496.f228d8d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b66dce9c.css",
-    "static/js/main.d2d1c6b6.js"
+    "static/css/main.fe660c79.css",
+    "static/js/main.e47e804c.js"
   ]
 }

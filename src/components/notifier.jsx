@@ -36,7 +36,7 @@ const notifier = ({
     <Fragment>
       {!Notifier && (
         <div
-          className={`m-w-95  ${className} notifier d-i-f ns-bg-e p-5px `}
+          className={`m-w-95  ${className} notifier d-i-f ns-bg-e p-5px noselect `}
           Style={` ${Style} `}
         >
           <div className="w-100 h-a h-pr-fl-ma bg-d br-r-50px p-20px p-l-30px">

@@ -70,7 +70,7 @@ const navBar = () => {
           <div className="w-a h-a h-pr-fr-ma r-v-c ">
             <Btn
               className="w-200px h-pr-fr-ma ns-bg-e p-l-20px p-r-20px p-10px  f-w-bo  br-s-solid  br-r-50px"
-              enlace="https://wa.me/message/QEHFJE3NEAVTE1"
+              enlace="https://wa.me/message/3J7NXI5ETDK7F1"
               text="Contacto"
             ></Btn>
           </div>

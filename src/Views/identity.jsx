@@ -21,7 +21,7 @@ const Identity = () => {
 
   return (
     <Fragment>
-           <div className="w-95 min-h-90vh r-h-c m-w-100 h-a h-pr-fl-ma  m-d-b  b-s-b-b m-b-20px">
+           <div className="w-95 min-h-90vh r-h-c m-w-100 h-a h-pr-fl-ma noselect  m-d-b  b-s-b-b m-b-20px">
         <div className="w-100 h-a h-pr-fl-ma">
         <Title h4="Planes:" className="w-100 t-a-c m-t-100px ns-c-e"></Title>
         <Title
@@ -52,14 +52,14 @@ const Identity = () => {
 
       {/* //! ----------------------------------------- MOSTRANDO PLANES UNICOS */}
       {mostrarUnicos && (
-        <div id="planes-unicos" className="w-95 h-pr-fl-ma r-h-c bg-d m-b-20px">
+        <div id="planes-unicos" className="w-95 h-pr-fl-ma r-h-c noselect bg-d m-b-20px">
           <PVIdentityUnicos></PVIdentityUnicos>
         </div>
       )}
 
       {/* //! ----------------------------------------- MOSTRANDO PLANES MENSUALES */}
       {mostrarMensuales && (
-        <div id="planes-mensuales" className="w-95 h-pr-fl-ma r-h-c bg-d m-b-20px">
+        <div id="planes-mensuales" className="w-95 h-pr-fl-ma r-h-c noselect bg-d m-b-20px">
           <PVIdentityMensuales></PVIdentityMensuales>
         </div>
       )}

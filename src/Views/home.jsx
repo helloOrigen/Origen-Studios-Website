@@ -10,7 +10,7 @@ import {
   NewsletterForm,
 } from "../components/index";
 
-import Concepts from "../assets/images/compressed/concepts.webp";
+import Concepts from "../assets/images/compressed/concepts.png";
 import BannerPrincipal from "../assets/images/compressed/banner-principal.jpg";
 import BannerPrincipalMobile from "../assets/images/compressed/banner-principal-mobile.jpg";
 import OSWoman from "../assets/images/compressed/os-woman.jpg";
@@ -55,22 +55,18 @@ export default function Home(props) {
       <div className="w-100 h-100 h-pr-fl-ma b-s-b-b of-x-auto f-f-Gilroy c-white">
         <div className="w-100 r-h-c h-100 h-pr-fl-ma m-t-100px ">
          
-          <div className="w-95 r-h-c  h-a h-pr-fl-ma b-s-b-bs t-a-c m-d-b noselect   m-b-50px">
+          <div className="w-95 r-h-c  h-a h-pr-fl-ma b-s-b-bs t-a-c m-d-b noselect m-b-50px">
           <div className="w-25 m-d-n  h-a h-pr-fl-ma b-s-b-b t-a-c   ">
-            <div className="w-and-h-250px h-pr-fl-ma bg-d-t p-10px r-h-c ns-br-r-2">  <img
-                    className="w-100 ns-br-r-2 a-h-c p-a m-a m-d-b"
+           <a href="/concepts">
+            <div className="w-and-h-250px of-h image-container h-pr-fl-ma bg-d-t  r-h-c ns-br-r-2">  <img
+                    className="w-100 h-e-scale ns-br-r-2 a-h-c p-a m-a m-d-b "
                     src={Concepts}
                     alt="Ver Conceptos"
-                  /><div className="centered w-100 h-a ">
-                    <Title className="w-100 m-b-20px " h2="Nuevos Conceptos!"></Title>
-                    <Btn
-                        className="w-150px p-10px t-a-c h-a ns-bg-e f-w-bo r-h-c  h-pr-fl-ma"
-                        text="Ver más..."
-                        enlace="/concepts"
-                      >
-                        
-                      </Btn>
-                  </div> </div>
+                  /> <div className="centered w-100 h-a bg-d" Style="z-index: 99999;">
+                    <Title className="w-100 ns-c-white" h4="Nuevos Conceptos:"></Title>
+                    <Title className="w-100    ns-c-e-animated" h2="LOGOTIPOS"></Title>
+                   
+                  </div> </div></a>
           </div>
             <div className="w-50 m-w-100  h-a h-pr-fl-ma b-s-b-b  m-b-20px ">
               <div className="w-100  h-pr-fl-ma  m-t-20px"> 
@@ -108,7 +104,7 @@ export default function Home(props) {
 
             {/*  // ?                            SECCION 1 | CONTENIDO  80%                       */}
 
-            <div className="w-70   p-10px tab-w-100 m-w-100 h-a h-pr-fl-ma b-s-b-b m-d-b  ">
+            <div className="w-70   p-10px tab-w-100 m-w-100 noselect h-a h-pr-fl-ma b-s-b-b m-d-b  ">
               <div className="w-100 h-100 h-pr-fl-ma  b-s-b-b p-20px">
                 <div className="w-100 h-350px h-pr-fl-ma b-s-b-b of-h ns-br-r-2">
                   <img
@@ -191,10 +187,7 @@ export default function Home(props) {
               </div>
               {/*  // !                           ADS                         */}
               <div className="w-100 h-a  m-h-auto  b-s-b-b m-w-100 tab-w-100 h-a h-pr-fl-ma m-b-20px">
-                <Adsense
-                  slot="9886328101"
-                  googleAdId="ca-pub-6375603115544403"
-                />
+                   <Adsense  dataAdSlot='9886328101'  />
               </div>
               {/*  // todo                            SECCION 1 | PORQUÉ ELEGIRNOS                   */}
 
@@ -350,7 +343,7 @@ export default function Home(props) {
             {/*  // ?                            SECCION 1 | SIDEBAR 20%                      */}
             <div className="w-30  m-w-100 h-a h-pr-fl-ma b-s-b-b p-10px  m-d-b  tab-d-n ">
               {/*  // todo                            SECCION 1 - SIDEBAR | REDES SOCIALES             */}
-              <div className="w-100 h-pr-fl-ma b-s-b-b bg-d  p-20px m-b-10px">
+              <div className="w-100 h-pr-fl-ma b-s-b-b bg-d noselect p-20px m-b-10px">
                 <div className="w-100 h-pr-fl-ma b-s-b-b bg-g-identity ns-br-r-1 p-10px  flexbox">
                   <div className="w-70 h-a h-pr-fl-ma f-w-bo p-r-5px noselect">
                     Comencemos a crear su marca hoy mismo
@@ -359,14 +352,14 @@ export default function Home(props) {
                     <Btn
                       className="w-100 h-a ns-bg-e f-w-bo p-15px"
                       text="Comenzar Ahora"
-                      enlace="https://wa.me/message/QEHFJE3NEAVTE1"
+                      enlace="https://wa.me/message/3J7NXI5ETDK7F1"
                     ></Btn>{" "}
                   </div>
                 </div>
               </div>
               {/*  // todo                            SECCION 1 - SIDEBAR | SOLICITE PRESUPUESTOS                  */}
 
-              <div className="w-100 h-pr-fl-ma b-s-b-b bg-d  p-20px m-b-10px">
+              <div className="w-100 h-pr-fl-ma b-s-b-b bg-d noselect p-20px m-b-10px">
                 <Title className="m-b-20px t-a-c" h4="Soluciones para:"></Title>
                 {/* //orange traders y brokers */}
                 <Link to="/plans">
@@ -461,7 +454,7 @@ export default function Home(props) {
                   className="m-b-20px t-a-c m-t-10px "
                   h4="Agende su consulta Gratis:"
                 ></Title>
-                <a href="https://wa.me/message/QEHFJE3NEAVTE1">
+                <a href="https://wa.me/message/3J7NXI5ETDK7F1">
                   <div className="w-100 h-a h-pr-fl-ma bg-d p-5px flexbox m-b-5px noselect">
                     <img
                       className="w-and-h-50px ns-br-r-2 bg-g-green p-5px"
@@ -480,7 +473,7 @@ export default function Home(props) {
                       <Btn
                         className="w-100 bg-d ns-br-r-2 h-100"
                         text="IR"
-                        enlace="https://wa.me/message/QEHFJE3NEAVTE1"
+                        enlace="https://wa.me/message/3J7NXI5ETDK7F1"
                       ></Btn>
                     </div>
                   </div>
@@ -626,14 +619,14 @@ export default function Home(props) {
               {/*  // todo                            SECCION 1 - SIDEBAR | ADS             */}
               <div className="w-100 h-pr-fl-ma b-s-b-b bg-d  p-20px m-b-10px">
                 <Adsense
-                  slot="9886328101"
-                  googleAdId="ca-pub-6375603115544403"
+                  dataAdSlot='9886328101'
                 />
+                
               </div>
             </div>
             {/*  // todo                            SECCION 1 | PROCEDIMIENTO                 */}
 
-            <div className="w-100 h-pr-fl-ma b-s-b-b  p-10px  ">
+            <div className="w-100 h-pr-fl-ma b-s-b-b noselect p-10px  ">
               <div className="w-100 h-pr-fl-ma bg-d p-20px ns-bg-e ns-br-r-1">
                 <div className="w-33 m-w-100 h-a h-pr-fl-ma  b-s-b-b flexbox ">
                   <div className="flexbox p-10px">
@@ -706,7 +699,7 @@ export default function Home(props) {
 
           {/*  // !                                 SECCION 3                            */}
 
-          <div className=" w-95  r-h-c  h-a h-pr-fl-ma flexbox tab-d-b m-d-b bg-d m-b-20px b-s-b-b p-10px">
+          <div className=" w-95  r-h-c noselect h-a h-pr-fl-ma flexbox tab-d-b m-d-b bg-d m-b-20px b-s-b-b p-10px">
             <div className="w-50 h-a  m-h-auto ns-bg-e ns-br-r-1 b-s-b-b m-w-100 tab-w-100 h-a h-pr-fl-ma p-20px">
               <div className="w-100 h-a t-a-c h-pr-fl-ma b-s-b-b p-20px ">
                 <span className=" f-f-Gilroy f-w-bo " Style="font-size: 50px;">
@@ -740,7 +733,7 @@ export default function Home(props) {
             </div>
           </div>
 
-          <div className=" w-95  r-h-c h-a h-pr-fl-ma bg-d m-b-20px b-s-b-b  p-20px">
+          <div className=" w-95  r-h-c h-a h-pr-fl-ma noselect bg-d m-b-20px b-s-b-b  p-20px">
             <ContentBox
               className="t-a-c w-100"
               title="Tenemos la solución a su necesidad."
@@ -776,25 +769,13 @@ export default function Home(props) {
           {/*  // !                           ADS                         */}
           <div className="w-95 r-h-c m-w-95 h-a h-pr-fl-ma  bg-d m-d-b flexbox m-d-b b-s-b-b ">
             <div className="w-33 m-w-100 h-a h-pr-fl-ma   p-10px">
-              <Adsense
-                className="p-10px"
-                slot="9886328101"
-                googleAdId="ca-pub-6375603115544403"
-              />
+                <Adsense  dataAdSlot='9886328101'  />
             </div>
             <div className="w-33 m-w-100 h-a h-pr-fl-ma  p-10px">
-              <Adsense
-                className="p-10px"
-                slot="9886328101"
-                googleAdId="ca-pub-6375603115544403"
-              />
+                <Adsense  dataAdSlot='9886328101'  />
             </div>
             <div className="w-33 m-w-100 h-a h-pr-fl-ma  p-10px">
-              <Adsense
-                className="p-10px"
-                slot="9886328101"
-                googleAdId="ca-pub-6375603115544403"
-              />
+                <Adsense  dataAdSlot='9886328101'  />
             </div>
           </div>
           <div className="w-100 h-200px h-pr-fl-ma b-s-b-b  m-d-b">&nbsp;</div>

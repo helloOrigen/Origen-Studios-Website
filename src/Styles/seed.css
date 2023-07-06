@@ -54,23 +54,27 @@ Seed.css cortesía de:
 .tag:hover{
   background: var(--current-color-emphasis);
 }
-.box-container {
-  width: auto;
+
+.box-container{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  gap: 10px;
 
-  gap: 50px 20px; /* row-gap column gap */
-  row-gap: 10px;
-  column-gap: 10px;
 }
-
 .box {
+  display: flex;
   width: 200px; /* Ajusta el ancho según tus necesidades */
   height: 200px; /* Ajusta la altura según tus necesidades */
-  margin: 10px; /* Ajusta los márgenes según tus necesidades */
-  display: flex;
- 
+  margin: auto; /* Ajusta los márgenes según tus necesidades */
  
 }
+
+
+
 .box-inside{
   width: 200px; /* Ajusta el ancho según tus necesidades */
   height: 200px; /* Ajusta la altura según tus necesidades */
@@ -306,15 +310,10 @@ Seed.css cortesía de:
     font-size: 20px !important;
   }
   
-  .box-container {
-    display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important;
-    grid-gap: 5px !important;
-  }
+ 
   .box {
     width: 160px; /* Ajusta el ancho según tus necesidades */
     height: 160px; /* Ajusta la altura según tus necesidades */
-    margin: auto; /* Ajusta los márgenes según tus necesidades */
     margin: 15px;
    
    
@@ -3623,6 +3622,8 @@ input[type=range].info:focus::-ms-fill-upper {
 }
 
 /* EFFECTS - Fx FX fx fX */
+
+
 
 .h-e:hover {
   filter: brightness(1.1);
@@ -13434,7 +13435,31 @@ i.success {
 }
 
 .ns-c-e {
-  color: rgb(255 203 86);
+  background: linear-gradient(135deg, #ffc666 10%, #efc275 50%, #cf9e4b 70%, #f8d18e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ns-c-e-animated {
+
+  background-image: -webkit-linear-gradient(315deg, #a8864a 23%, #fcc15b 36%, #fae3bc 45%, #ffecc8 50%, #ffc666 65%, #423620 100%);
+  
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  animation: tech-text-animation 5s linear infinite;
+}
+
+@keyframes tech-text-animation {
+  0% {
+    background-position: 0% center;
+  }
+  50% {
+    background-position: 100% center;
+  }
+  100% {
+    background-position: 0% center;
+  }
 }
 
 /*color: #e1a54b;*/

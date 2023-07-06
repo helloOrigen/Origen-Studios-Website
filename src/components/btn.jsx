@@ -3,11 +3,11 @@ export default function Btn(props) {
 
   if (enlace) {
     return (
-      <a href={enlace} className="w-a h-a ">
+      <a href={enlace} style={{ display: 'contents' }}>
         <button
           type="button"
           onClick={click}
-          className={`${className} h-pr-fl-ma w-a  h-e-ghost-e t-02s h-a p-5px h-e c-p br-r-5px b-s-b-b ns-c-f-1 c-p h-e d-i-f f-f-Gilroy`}
+          className={`${className} h-pr-fl-ma w-a noselect h-e-ghost-e t-02s h-a p-5px h-e c-p br-r-5px b-s-b-b ns-c-f-1 c-p h-e flexbox f-w-n-w f-f-Gilroy`}
         >
           {children && (
             <div className={`${childrenclassName} w-a h-a h-pr-fl-ma`}>{children}</div>
@@ -27,7 +27,7 @@ export default function Btn(props) {
         <button
           type="button"
           onClick={click}
-          className={`${className} h-pr-fl-ma w-a bg-d-t h-e-ghost-e t-02s h-a p-5px h-e c-p br-r-5px b-s-b-b ns-c-f-1 c-p h-e d-i-f f-f-Gilroy`}
+          className={`${className} h-pr-fl-ma w-a bg-d-t noselect h-e-ghost-e t-02s h-a p-5px h-e c-p br-r-5px b-s-b-b ns-c-f-1 c-p h-e flexbox f-w-n-w f-f-Gilroy`}
         >
           {children && (
             <div className={`${childrenclassName} w-a h-a h-pr-fl-ma`}>{children}</div>

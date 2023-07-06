@@ -1,55 +1,37 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import React, { useEffect  } from 'react';
 
-class Adsense extends Component {
-  googleInit = null;
+const Adsense = (props) => {
+  const { dataAdSlot } = props;  
 
-  componentDidMount() {
-    const { timeout } = this.props;
-    if (timeout) {
-      this.googleInit = setTimeout(() => {
-        if (typeof window !== 'undefined' && window.adsbygoogle) {
-          window.adsbygoogle.push({});
-        }
-      }, timeout);
+
+
+useEffect(() => {
+
+    try {
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
     }
-  }
-  componentWillUnmount() {
-    if (this.googleInit) clearTimeout(this.googleInit);
-  }
 
-  render() {
-    const { className, slot, googleAdId, style, format } = this.props;
-    const finalClassName = className ? `${className} ns-br-r-1` : 'ns-br-r-1';
-    const insStyle = style || { display: 'block', textAlign: 'center' };
-    return (
-      <div className={finalClassName}>
-        <ins
-          className="adsbygoogle"
-          style={insStyle}
-          data-ad-client={googleAdId}
-          data-ad-slot={slot}
-          data-ad-format={format || 'auto'}
-          data-full-width-responsive="true"
-          data-ad-responsive="true"
-        />
-      </div>
-    );
-  }
-}
+    catch (e) {
 
-Adsense.propTypes = {
-  className: PropTypes.string,
-  slot: PropTypes.string,
-  timeout: PropTypes.number,
-  googleAdId: PropTypes.string.isRequired,
-  format: PropTypes.string,
-  style: PropTypes.object,
-};
+    }
 
-Adsense.defaultProps = {
-  className: '',
-  timeout: 200,
-};
+},[]);
 
-export default Adsense;
+
+
+return (
+    <>
+        <ins className="adsbygoogle noselect"
+            style={{ display: "block" }}
+            data-ad-client="ca-pub-6375603115544403"
+            data-ad-slot={dataAdSlot}
+            data-ad-format="auto"
+            data-full-width-responsive="true">
+        </ins>
+    </>
+);
+ };
+
+  export default Adsense;
+
+ 

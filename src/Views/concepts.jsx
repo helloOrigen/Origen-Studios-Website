@@ -163,15 +163,15 @@ export default function Concepts(props) {
       <div className="w-95 r-h-c h-a h-pr-fl-ma   b-s-b-b m-t-20px">
         <div className="w-100 bg-d h-a h-pr-fl-ma  m-b-20px m-d-b p-10px ns-br-r-2 b-s-b-b ">
         <div className="w-100  h-a h-pr-fl-ma p-20px ">
-          <Title h1="Conceptos" className="  w-100 t-a-c m-t-100px m-b-100px" />
+          <Title h1="Conceptos" className=" noselect w-100 t-a-c m-t-100px m-b-100px" />
         </div>
         <div className="w-100  h-a h-pr-fl-ma m-d-b ns-bg-e ns-br-r-2 b-s-b-b  p-10px">
-          <Title h4="Solicitenos cualquiera de estos conceptos como base para crear su logo, contactanos en:" className="w-100 t-a-c  m-b-10px" />
+          <Title h4="Solicitenos cualquiera de estos conceptos como base para crear su logo, contactanos en:" className="w-100 t-a-c noselect m-b-10px" />
           <Title h3="hello@OrigenStudios.com" className="w-a  t-a-c bg-d ns-br-r-2 p-10px" />
 
         </div>
         </div>
-        <div className="w-100 r-h-c h-a h-pr-fl-ma p-20px m-b-20px b-s-b-b">
+        <div className="w-100 r-h-c h-a h-pr-fl-ma p-20px m-b-20px noselect b-s-b-b">
           <div className="w-a m-w-100 h-a h-pr-fl-ma bg-d f-w-bo f-f-Gilroy br-r-50px p-10px r-h-c flexbox">
             <div className="flexbox">
               <div className="h-pr-fl-ma p-10px">Conceptos Disponibles:</div>
@@ -186,8 +186,8 @@ export default function Concepts(props) {
 
 
 
-      <div className="w-100 r-h-c h-a h-pr-fl-ma polka ns-br-r-2 p-10px b-s-b-b m-b-20px">
-        <div className="w-100  p-5px m-b-20px box-container  h-a j-c-c">
+      <div className="w-100 h-a h-pr-fl-ma polka ns-br-r-2 p-10px b-s-b-b noselect m-b-20px">
+        <div className="w-100 h-a p-5px box-container noselect m-b-20px  b-s-b-b  ">
         {concepts.map((concept, index) => (
               <Box
                 key={index}
