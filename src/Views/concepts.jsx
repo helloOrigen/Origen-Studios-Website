@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from "react";
 import { Title, Box, Btn  } from "../components/index";
-
+import Adsense from "../components/Adsense";
 import {
   MessageWriting,
 } from "../components/icons";
@@ -161,16 +161,16 @@ export default function Concepts(props) {
   return (
     <Fragment>
       <div className="w-95 r-h-c h-a h-pr-fl-ma   b-s-b-b m-t-20px">
-        <div className="w-100 bg-d h-a h-pr-fl-ma  m-b-20px m-d-b p-10px ns-br-r-2 b-s-b-b ">
-        <div className="w-100  h-a h-pr-fl-ma p-20px ">
-          <Title h1="Conceptos" className=" noselect w-100 t-a-c m-t-100px m-b-100px" />
+        
+      <div className="w-500px w-100 h-200px h-pr-fl-ma b-s-b-b t-a-c m-d-b   ">
+          <div className="w-a centered h-a h-pr-fl-ma b-s-b-b  ">
+            <Title className="m-b-20px" h1="Conceptos" ></Title>
+            <Title className="w-a r-h-c ns-bg-e ns-br-r-1 p-10px" h5>¿Le gusta alguno?, contáctenos ahora mismo!</Title>
+          </div>
+         
         </div>
-        <div className="w-100  h-a h-pr-fl-ma m-d-b ns-bg-e ns-br-r-2 b-s-b-b  p-10px">
-          <Title h4="Solicitenos cualquiera de estos conceptos como base para crear su logo, contactanos en:" className="w-100 t-a-c noselect m-b-10px" />
-          <Title h3="hello@OrigenStudios.com" className="w-a  t-a-c bg-d ns-br-r-2 p-10px" />
-
-        </div>
-        </div>
+        
+    
         <div className="w-100 r-h-c h-a h-pr-fl-ma p-20px m-b-20px noselect b-s-b-b">
           <div className="w-a m-w-100 h-a h-pr-fl-ma bg-d f-w-bo f-f-Gilroy br-r-50px p-10px r-h-c flexbox">
             <div className="flexbox">
@@ -208,10 +208,10 @@ export default function Concepts(props) {
               {" "}
               Coordinemos una reunión hoy mismo y hagamos realidad su nueva marca!
             </div>
-            <div className="w-a h-pr-fl-ma m-w-100 p-20px flexbox">
+            <div className="w-a h-pr-fl-ma m-w-100 p-20px flexbox ">
               {" "}
               <Btn
-                className="ns-bg-e f-w-bo r-h-c "
+                className=" ns-bg-e f-w-bo "
                 text="Coordinar reunión &nbsp;"
                 enlace={
                   "https://outlook.office365.com/owa/calendar/OrigenStudiosPrimerosPasos@origenstudios.com/bookings/"
@@ -230,6 +230,12 @@ export default function Concepts(props) {
             </div>
             
           </div>
+        </div>
+
+
+        <div className="w-100 m-w-100 r-h-c h-a h-pr-fl-ma f-f-Gilroy bg-d bg-d bg-d ns-br-r-1  ns-br-r-1 b-s-b-b d-i-f m-d-b m-b-100px">
+
+        <Adsense dataAdSlot="9886328101" adKey="unique-key-1" />
         </div>
       </div>
     </Fragment>

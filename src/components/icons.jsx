@@ -8,7 +8,7 @@ import DiscordIcon from '../assets/icons/discord-icon.svg';
 import ChevronRight from '../assets/icons/chevron_right.svg';
 import CheckCircle from '../assets/icons/check-circle.svg';
 import Calendar from '../assets/icons/calendar.svg';
-import Envelope from '../assets/icons/envelope.svg';
+import EnvelopeIcon from '../assets/icons/envelope.svg';
 import ChevronUpDouble from '../assets/icons/chevron_up_double.svg';
 import MessageWriting from '../assets/icons/message_writing.svg';
 export {
@@ -23,7 +23,7 @@ export {
   CheckCircle,
   ChevronUpDouble,
   Calendar,
-  Envelope,
+  EnvelopeIcon,
   MessageWriting,
 
 };

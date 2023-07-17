@@ -33,7 +33,7 @@ export { default as DLIdentity } from '../Views/DownloadsViews/DLIdentity';
 export { default as DLContents } from '../Views/DownloadsViews/DLContents';
 export { default as DLConsultancy } from '../Views/DownloadsViews/DLConsultancy';
 
-export { default as Tools } from './tools';
+
 
 export { default as TLVAutomatizacion } from './ToolListViews/TLVAutomatizacion';
 export { default as TLVAlojamiento } from './ToolListViews/TLVAlojamiento';

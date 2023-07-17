@@ -97,13 +97,13 @@ export default function ContentBox(props) {
           </p>
         )}
         {list && (
-          <p
-            className={` ${listclassName} h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy`}
-            Style="font-size: 15px; line-height: 20px; "
+          <div
+            className={` ${listclassName} h-pr-fl-ma b-s-b-b w-100 ns-f-s-normal h-a f-f-Gilroy`}
+            Style="line-height: 20px; "
           >
             <span className="f-w-bo ns-c-e">&#8600;&zwj;&nbsp;&zwj;</span>&zwj;
-            {list}
-          </p>
+            <span className={` ${listclassName}`}>{list}</span>
+          </div>
         )}
         {note && (
           <span
@@ -136,18 +136,18 @@ export default function ContentBox(props) {
               <div className="w-a a-s-c ns-f-s-medium  f-w-bo  ns-c-e">
                 {simbolo}
               </div>
-              <div className="w-a a-s-c ns-f-s-big flexbox">
-                <div className=" a-s-b">{ahora}</div>
+              <div className="w-a a-s-c  flexbox">
+                <div className=" a-s-b" Style="font-size: 40px;">{ahora}</div>
                 <div className=" a-s-b ns-f-s-normal f-w-bo">
                   ,&nbsp;{decimas}
                 </div>{" "}
               </div>
-              <div className="w-a a-s-c ns-f-s-medium f-w-bo ns-c-e">
-                {divisa}
+              <div className="w-a a-s-c  f-w-bo ns-c-e" Style="font-size: 20px;">
+                &nbsp;{divisa}
               </div>
             </div>
             <div
-              className="w-100 h-pr-fl-ma t-a-c f-w-bo "
+              className="w-100 h-pr-fl-ma t-a-c f-w-bo ns-f-s-small"
               Style="color: #666666;"
             >
               I.V.A. Inc./ {plazo}

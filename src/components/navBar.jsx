@@ -18,9 +18,7 @@ const navBar = () => {
           </Link>
         </div>
         <div className="w-100  h-pr-fl-ma  r-v-b f-w-n-w h-100  tab-d-n ">
-          <Link to="/">
-            <NavBarBtn className=" m-d-n noselect" text={"Inicio"}></NavBarBtn>
-          </Link>
+         
           <Link to="/team">
             <NavBarBtn className="m-d-n noselect" text={"Nosotros"}></NavBarBtn>
           </Link>
@@ -46,13 +44,8 @@ const navBar = () => {
               ></NavSubItem>
             </NavBarBtn>
           </Link>
-
-          <Link to="/tools">
-            <NavBarBtn
-              className="m-d-n noselect"
-              text={"Herramientas"}
-            ></NavBarBtn>
-          </Link>
+        
+         
           <Link to="/concepts">
             <NavBarBtn className="m-d-n noselect" text={"Conceptos"} news></NavBarBtn>
           </Link>
@@ -63,8 +56,11 @@ const navBar = () => {
               news
             ></NavBarBtn>
           </Link>
+          <Link to="https://behance.net/origenstudios">
+            <NavBarBtn className="m-d-n noselect" text={"Portfolios"} news></NavBarBtn>
+          </Link>
         </div>
-
+      
         {/* BOTON CONTACTO */}
         <div className="w-30 m-d-n h-pr-fl-ma h-100 tab-d-n ">
           <div className="w-a h-a h-pr-fr-ma r-v-c ">

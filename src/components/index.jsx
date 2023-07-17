@@ -12,11 +12,14 @@ export {default as contentViewer} from "./contentViewer";
 export {default as Box} from "./Box";
 
 export {default as NewsletterForm} from "./newsletterform";
-
+export {default as ParallaxEffect} from "./ParallaxEffect";
 export {default as ImageComponent} from "./ImageComponent";
 
+export {default as LoaderComponent} from "./LoaderComponent";
+
 export {default as MarqueeComponent} from "./marqueecomponent";
-export {default as MobileMenu} from "./mobileMenu";
+export {default as MobileMenu} from "./MobileMenu";
+export {default as MobileMenuContent} from "./mobileMenuContent";
 export {default as Modal} from "./modal";
 
 export {default as navBar} from "./navBar";

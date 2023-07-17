@@ -155,13 +155,13 @@ const Promo = () => {
          {/*  // !                           ADS                         */}
          <div className="w-100   h-a h-pr-fl-ma  bg-d m-d-b flexbox m-d-b b-s-b-b m-b-20px">
             <div className="w-33 m-d-n m-w-100 h-a h-pr-fl-ma   p-10px">
-                <Adsense  dataAdSlot='9886328101'  />
+                {/* ADS */}
             </div>
             <div className="w-33 m-d-n m-w-100 h-a h-pr-fl-ma   p-10px">
-                <Adsense  dataAdSlot='9886328101'  />
+                {/* ADS */}
             </div>
             <div className="w-33  m-w-100 h-a h-pr-fl-ma   p-10px">
-                <Adsense  dataAdSlot='9886328101'  />
+                {/* ADS */}
             </div>
           </div>
        {/* COORDINAR REUNIÓN AHORA */}

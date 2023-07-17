@@ -21,10 +21,11 @@ const Plans = ({ children }) => {
   return (
     <Fragment>
       <div className="w-95 r-h-c m-w-100 h-a h-pr-fl-ma noselect m-d-b  b-s-b-b m-b-20px ">
-        <Title
-          h1="Todos los planes"
-          className="w-100 t-a-c m-t-100px m-b-100px "
-        ></Title>
+      <div className="w-500px w-100 h-200px h-pr-fl-ma b-s-b-b t-a-c m-d-b   ">
+          <div className="w-100 centered h-a h-pr-fl-ma b-s-b-b  ">
+            <Title h1>Todos los <span className="ns-c-e-animated">planes</span></Title>
+          </div>
+        </div>
       <div className="w-100 m-w-95 h-pr-fl-ma h-100 b-s-b-b r-h-c  bg-d m-t-20px m-b-20px flexbox j-c-c tab-d-b m-d-b ns-br-r-1">
 
           {/* //green PLANES: 1 - PLANES DE MARCA */}
@@ -195,7 +196,7 @@ const Plans = ({ children }) => {
         {/* //todo PLANES: 4 - PLANES DE ESPECIALES */}
 
         <div className="w-100 h-pr-fl-ma ">
-          <Title className="t-a-c p-50px ns-c-white" h1="Planes especiales"></Title>
+          <Title className="t-a-c p-50px ns-c-white" h1>Planes <span className="ns-c-e-animated">especiales</span></Title>
         </div>
 
         {/* //? PLANES: 4 - TRADERS Y BROKERS */}
@@ -524,20 +525,7 @@ const Plans = ({ children }) => {
   
       </div>
 
-    {/*  // !                           ADS                         */}
-    <div className="w-95 r-h-c  h-a h-pr-fl-ma  bg-d m-d-b flexbox m-d-b b-s-b-b m-b-20px">
-            <div className="w-33 m-d-n m-w-100 h-a h-pr-fl-ma   p-10px">
-                <Adsense  dataAdSlot='9886328101'  />
-            </div>
-            <div className="w-33 m-d-n m-w-100 h-a h-pr-fl-ma   p-10px">
-                <Adsense  dataAdSlot='9886328101'  />
-            </div>
-            <div className="w-33  m-w-100 h-a h-pr-fl-ma   p-10px">
-                <Adsense  dataAdSlot='9886328101'  />
-            </div>
-          </div>
-
-      <div className="w-100 h-200px h-pr-fl-ma b-s-b-b  m-d-b">&nbsp;</div>
+   
     </Fragment>
   );
 };

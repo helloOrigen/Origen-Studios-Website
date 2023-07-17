@@ -27,24 +27,24 @@ export default function PVIdentityUnicos(props) {
                 <div className="w-100 h-100 h-pr-fl-ma ">
                   <div className="w-100 h-pr-fl-ma bg-d p-20px ">
                   <Title
-                      h4="&#8599; 3 Conceptualizaciones."
+                      h4="&#8599; 2 Conceptos."
                       className="w-100 h-pr-fl-ma m-t-10px"
                     ></Title>
                     <ContentBox
                       className="w-100"
-                      list="Le ofrecemos 3 conceptos según su Briefing."
+                      list="Le ofrecemos 2 conceptos según su Briefing."
                     ></ContentBox>
 
 <Title
-                      h4="&#8599; 3 Fases de Afinación."
+                      h4="&#8599; 2 Afinaciones."
                       className="w-100 h-pr-fl-ma m-t-10px"
                     ></Title>
                     <ContentBox
                       className="w-100"
-                      list="Le ofrecemos 3 reuniones de corrección."
+                      list="Le ofrecemos 2 reuniones de corrección."
                     ></ContentBox>
                     <Title
-                      h4="&#8599; Adaptación de parámetros de rendimiento."
+                      h4="&#8599; Validación PRC."
                       className="w-100 h-pr-fl-ma m-t-10px"
                     ></Title>
                     <ContentBox
@@ -52,25 +52,33 @@ export default function PVIdentityUnicos(props) {
                       list="Realizamos las correcciones necesarias para cumplir los parámetros de rendimiento y calidad correspondientes."
                     ></ContentBox>
                     <Title
-                      h4="&#8599; Generamos el Logotipo Maestro."
+                      h4="&#8599; 1 Logotipo Maestro."
                       className="w-100 h-pr-fl-ma m-t-10px"
                     ></Title>
+                               <ContentBox
+                      className="w-100  m-b-10px"
+                      list="Logotipo, isotipo, imagotipo ó imagologo técnico."
+                    ></ContentBox>
+                           <div className="w-100 h-pr-fl-ma p-10px ns-br-r-1 m-b-10px  ghost enfasis">
                     <ContentBox className="w-100 ns-c-e f-w-bo">
                       Entregables:
                     </ContentBox>
                     <ContentBox
                       className="w-100"
+                      listclassName="ns-f-s-small f-w-bo"
                       list="1 Logo - Vector (SVG + PNG + JPG)"
                     ></ContentBox>
                    <ContentBox
                       className="w-100"
+                      listclassName="ns-f-s-small f-w-bo"
                       list="1 Mockup funcional (PNG ó JPG)"
                     ></ContentBox>
                  <ContentBox
                       className="w-100"
+                      listclassName="ns-f-s-small f-w-bo"
                       list="Informe de construcción (Básico)"
                     ></ContentBox>
-
+</div>
                     <Btn
                       className="w-100 p-15px f-w-bo m-t-20px bg-g-identity "
                       text="¡Empezar ahora!"
@@ -107,7 +115,7 @@ export default function PVIdentityUnicos(props) {
 <div className="w-100 h-100 h-pr-fl-ma ">
                   <div className="w-100 h-pr-fl-ma bg-d p-20px ">
                   <Title
-                      h4="&#8599; 4 Conceptualizaciones."
+                      h4="&#8599; 4 Conceptos."
                       className="w-100 h-pr-fl-ma m-t-10px"
                     ></Title>
                     <ContentBox
@@ -116,7 +124,7 @@ export default function PVIdentityUnicos(props) {
                     ></ContentBox>
 
 <Title
-                      h4="&#8599; 3 Fases de Afinación."
+                      h4="&#8599; 3 Afinaciones."
                       className="w-100 h-pr-fl-ma m-t-10px"
                     ></Title>
                     <ContentBox
@@ -124,7 +132,7 @@ export default function PVIdentityUnicos(props) {
                       list="Le ofrecemos 3 reuniones de corrección."
                     ></ContentBox>
                     <Title
-                      h4="&#8599; Adaptación de parámetros de rendimiento."
+                      h4="&#8599; Validación PRC."
                       className="w-100 h-pr-fl-ma m-t-10px"
                     ></Title>
                     <ContentBox
@@ -132,25 +140,36 @@ export default function PVIdentityUnicos(props) {
                       list="Realizamos las correcciones necesarias para cumplir los parámetros de rendimiento y calidad correspondientes."
                     ></ContentBox>
                     <Title
-                      h4="&#8599; Generamos el Logotipo Maestro."
+                      h4="&#8599; 1 Logotipo Maestro."
                       className="w-100 h-pr-fl-ma m-t-10px"
                     ></Title>
+                               <ContentBox
+                      className="w-100  m-b-10px"
+                      list="Logotipo, isotipo, imagotipo ó imagologo técnico."
+                    ></ContentBox>
+                    <div className="w-100 h-pr-fl-ma p-10px ns-br-r-1 m-b-10px  ghost enfasis">
                     <ContentBox className="w-100 ns-c-e f-w-bo">
                       Entregables:
                     </ContentBox>
                     <ContentBox
                       className="w-100"
+                      listclassName="ns-f-s-small f-w-bo"
                       list="1 Logo - Vector (SVG + PNG + JPG)"
                     ></ContentBox>
                    <ContentBox
                       className="w-100"
+                      listclassName="ns-f-s-small f-w-bo"
                       list="3 Mockup funcional (PNG ó JPG)"
                     ></ContentBox>
                  <ContentBox
-                      className="w-100"
+                      className="w-100 m-b-10px"
+                      listclassName="ns-f-s-small f-w-bo"
                       list="Informe de construcción (Básico)"
+                    ></ContentBox></div>
+ <ContentBox
+                      className="w-100 p-5px ns-bg-e ns-br-r-1 ns-f-s-small f-w-bo"
+                      list="Registro de respaldo"
                     ></ContentBox>
-
                     <Btn
                       className="w-100 p-15px f-w-bo m-t-20px bg-g-identity  "
                       text="¡Empezar ahora!"
@@ -187,7 +206,7 @@ export default function PVIdentityUnicos(props) {
 <div className="w-100 h-100 h-pr-fl-ma ">
                   <div className="w-100 h-pr-fl-ma bg-d p-20px ">
                   <Title
-                      h4="&#8599; 5 Conceptualizaciones."
+                      h4="&#8599; 5 Conceptos."
                       className="w-100 h-pr-fl-ma m-t-10px"
                     ></Title>
                     <ContentBox
@@ -196,7 +215,7 @@ export default function PVIdentityUnicos(props) {
                     ></ContentBox>
 
 <Title
-                      h4="&#8599; 3 Fases de Afinación."
+                      h4="&#8599; 3 Afinaciones."
                       className="w-100 h-pr-fl-ma m-t-10px"
                     ></Title>
                     <ContentBox
@@ -204,7 +223,7 @@ export default function PVIdentityUnicos(props) {
                       list="Le ofrecemos 5 reuniones de corrección."
                     ></ContentBox>
                     <Title
-                      h4="&#8599; Adaptación de parámetros de rendimiento."
+                      h4="&#8599; Validación PRC."
                       className="w-100 h-pr-fl-ma m-t-10px"
                     ></Title>
                     <ContentBox
@@ -212,28 +231,41 @@ export default function PVIdentityUnicos(props) {
                       list="Realizamos las correcciones necesarias para cumplir los parámetros de rendimiento y calidad correspondientes."
                     ></ContentBox>
                     <Title
-                      h4="&#8599; Generamos el Logotipo Maestro."
+                      h4="&#8599; 1 Logotipo Maestro."
                       className="w-100 h-pr-fl-ma m-t-10px"
                     ></Title>
+                               <ContentBox
+                      className="w-100  m-b-10px"
+                      list="Logotipo, isotipo, imagotipo ó imagologo técnico."
+                    ></ContentBox>
+                    <div className="w-100 h-pr-fl-ma p-10px ns-br-r-1 m-b-10px  ghost enfasis">
                     <ContentBox className="w-100 ns-c-e f-w-bo">
                       Entregables:
                     </ContentBox>
                     <ContentBox
                       className="w-100"
+                      listclassName="ns-f-s-small f-w-bo"
                       list="1 Logo - Vector (SVG + PNG + JPG)"
                     ></ContentBox>
                    <ContentBox
                       className="w-100"
+                      listclassName="ns-f-s-small f-w-bo"
                       list="5 Mockup funcional (PNG ó JPG)"
                     ></ContentBox>
                  <ContentBox
-                      className="w-100"
+                      className="w-100 m-b-10px"
+                      listclassName="ns-f-s-small f-w-bo"
                       list="Informe de construcción (Estandar)"
+                    ></ContentBox></div>
+                     <ContentBox
+                      className="w-100 p-5px  m-b-10px ns-bg-e ns-br-r-1 ns-f-s-small f-w-bo"
+                      list="Registro de respaldo"
                     ></ContentBox>
-                    <ContentBox
-                      className="w-100 ns-c-e f-w-bo p-10px bg-d m-t-10px"
-                      text="Editables Logo"
+                     <ContentBox
+                      className="w-100 p-5px ns-bg-e ns-br-r-1 ns-f-s-small f-w-bo"
+                      list="Editables logotipo"
                     ></ContentBox>
+                   
 
                     <Btn
                       className="w-100 p-15px f-w-bo m-t-20px bg-g-identity  "
@@ -272,7 +304,7 @@ export default function PVIdentityUnicos(props) {
 <div className="w-100 h-100 h-pr-fl-ma ">
                   <div className="w-100 h-pr-fl-ma bg-d p-20px ">
                   <Title
-                      h4="&#8599; 8 Conceptualizaciones."
+                      h4="&#8599; 8 Conceptos."
                       className="w-100 h-pr-fl-ma m-t-10px"
                     ></Title>
                     <ContentBox
@@ -281,7 +313,7 @@ export default function PVIdentityUnicos(props) {
                     ></ContentBox>
 
 <Title
-                      h4="&#8599; 3 Fases de Afinación."
+                      h4="&#8599; 3 Afinaciones."
                       className="w-100 h-pr-fl-ma m-t-10px"
                     ></Title>
                     <ContentBox
@@ -289,7 +321,7 @@ export default function PVIdentityUnicos(props) {
                       list="Le ofrecemos 3 reuniones de corrección."
                     ></ContentBox>
                     <Title
-                      h4="&#8599; Adaptación de parámetros de rendimiento."
+                      h4="&#8599; Validación PRC."
                       className="w-100 h-pr-fl-ma m-t-10px"
                     ></Title>
                     <ContentBox
@@ -297,37 +329,56 @@ export default function PVIdentityUnicos(props) {
                       list="Realizamos las correcciones necesarias para cumplir los parámetros de rendimiento y calidad correspondientes."
                     ></ContentBox>
                     <Title
-                      h4="&#8599; Generamos el Logotipo Maestro."
+                      h4="&#8599; 1 Logotipo Maestro."
                       className="w-100 h-pr-fl-ma m-t-10px"
                     ></Title>
+                           <ContentBox
+                      className="w-100"
+                      list="Logotipo, isotipo, imagotipo ó imagologo técnico."
+                    ></ContentBox>
+                      <Title
+                      h4="&#8599; 1 BrandBook Básico."
+                      className="w-100 h-pr-fl-ma m-t-10px"
+                    ></Title>
+                           <ContentBox
+                      className="w-100   m-b-10px"
+                      list="Realizamos las correcciones necesarias para cumplir los parámetros de rendimiento y calidad correspondientes."
+                    ></ContentBox>
+                    <div className="w-100 h-pr-fl-ma p-10px ns-br-r-1 m-b-10px  ghost enfasis">
                     <ContentBox className="w-100 ns-c-e f-w-bo">
                       Entregables:
                     </ContentBox>
                     <ContentBox
-                      className="w-100"
+                      className="w-100 "
+                      listclassName="ns-f-s-small f-w-bo"
                       list="1 Logo - Vector (SVG + PNG + JPG)"
                     ></ContentBox>
                    <ContentBox
                       className="w-100"
+                      listclassName="ns-f-s-small f-w-bo"
                       list="10 Mockup funcional (PNG ó JPG)"
                     ></ContentBox>
-                     <ContentBox
-                      className="w-100"
+                 
+                
+ <ContentBox
+                      className="w-100 m-b-10px"
+                      listclassName="ns-f-s-small f-w-bo"
                       list="Informe de construcción (Estandar)"
+                    ></ContentBox>  </div>
+                     <ContentBox
+                      className="w-100 p-5px  m-b-10px ns-bg-e ns-br-r-1 ns-f-s-small f-w-bo"
+                      list="Registro de respaldo"
                     ></ContentBox>
-                 <ContentBox
-                      className="w-100"
-                      list="Brandbook (Estandar)"
+                     <ContentBox
+                      className="w-100 p-5px ns-bg-e m-b-10px ns-br-r-1 ns-f-s-small f-w-bo"
+                      list="Editables logotipo"
+                    ></ContentBox>
+                        <ContentBox
+                      className="w-100 p-5px ns-bg-e ns-br-r-1 ns-f-s-small f-w-bo"
+                      list="Editables brandbook"
                     ></ContentBox>
 
-<ContentBox
-                      className="w-100 ns-c-e f-w-bo p-10px bg-d m-t-10px"
-                      text="Editables Logo"
-                    ></ContentBox>
- <ContentBox
-                      className="w-100 ns-c-e f-w-bo p-10px bg-d m-t-10px"
-                      text="Editables Brandbook"
-                    ></ContentBox>
+
                     <Btn
                       className="w-100 p-15px f-w-bo m-t-20px bg-g-identity  "
                       text="¡Empezar ahora!"

@@ -31,131 +31,145 @@ export default function TLVAlojamiento(props) {
        
       </div>
       <BlockList
-          ContentBox
-          image
-          btn
-          image={Drive}
-          title="Drive"
-          text=" "
-          btnText="Visitar"
-        ></BlockList>
-         <BlockList
-          ContentBox
-          image
-          btn
-          image={OneDrive}
-          title="OneDrive"
-          text=" "
-          btnText="Visitar"
-        ></BlockList>
-          <BlockList
-          ContentBox
-          image
-          btn
-          image={Dropbox}
-          title="Dropbox"
-          text=" "
-          btnText="Visitar"
-        ></BlockList>
-         <BlockList
-          ContentBox
-          image
-          btn
-          image={Box}
-          title="Box"
-          text=" "
-          btnText="Visitar"
-        ></BlockList>
-         <BlockList
-          ContentBox
-          image
-          btn
-          image={Mega}
-          title="Mega"
-          text=" "
-          btnText="Visitar"
-        ></BlockList>
-         <BlockList
-          ContentBox
-          image
-          btn
-          image={iCloud}
-          title="iCloud"
-          text=" "
-          btnText="Visitar"
-        ></BlockList>
-         <BlockList
-          ContentBox
-          image
-          btn
-          image={AmazonDrive}
-          title="AmazonDrive"
-          text=" "
-          btnText="Visitar"
-        ></BlockList>
-         <div className="w-100 m-w-100 r-h-c p-20px ns-br-r-2 h-a  bg-d h-pr-fl-ma b-s-b-b   m-b-10px ">
-        <Title className=" " h3="&#129150; Alojamiento de código"></Title>
-       
-      </div>
-      <BlockList
-          ContentBox
-          image
-          btn
-          image={AmazonDrive}
-          title="AmazonDrive"
-          text=" "
-          btnText="Visitar"
-        ></BlockList>
+  ContentBox
+  image
+  btn
+  image={Drive}
+  title="Drive"
+  text=" "
+  btnText="Visitar"
+  btnLink="https://www.google.com/intl/es/drive/"
+></BlockList>
 
 <BlockList
-          ContentBox
-          image
-          btn
-          image={GitHub}
-          title="GitHub "
-          btnText="Visitar"
-        ></BlockList>
-<BlockList
-          ContentBox
-          image
-          btn
-          image={GitLab}
-          title="GitLab "
-          btnText="Visitar"
-        ></BlockList>
-<BlockList
-          ContentBox
-          image
-          btn
-          image={Bitbucket}
-          title="Bitbucket "
-          btnText="Visitar"
-        ></BlockList>
+  ContentBox
+  image
+  btn
+  image={OneDrive}
+  title="OneDrive"
+  text=" "
+  btnText="Visitar"
+  btnLink="https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage"
+></BlockList>
 
 <BlockList
-          ContentBox
-          image
-          btn
-          image={AWSCodeCommit}
-          title="AWS CodeCommit "
-          btnText="Visitar"
-        ></BlockList>
+  ContentBox
+  image
+  btn
+  image={Dropbox}
+  title="Dropbox"
+  text=" "
+  btnText="Visitar"
+  btnLink="https://www.dropbox.com/es/"
+></BlockList>
+
 <BlockList
-          ContentBox
-          image
-          btn
-          image={SourceForge}
-          title="SourceForge "
-          btnText="Visitar"
-        ></BlockList>
+  ContentBox
+  image
+  btn
+  image={Box}
+  title="Box"
+  text=" "
+  btnText="Visitar"
+  btnLink="https://www.box.com/es-419"
+></BlockList>
+
 <BlockList
-          ContentBox
-          image
-          btn
-          image={Beanstalk}
-          title="Beanstalk "
-          btnText="Visitar"
-        ></BlockList>
+  ContentBox
+  image
+  btn
+  image={Mega}
+  title="Mega"
+  text=" "
+  btnText="Visitar"
+  btnLink="https://mega.io/"
+></BlockList>
+
+<BlockList
+  ContentBox
+  image
+  btn
+  image={iCloud}
+  title="iCloud"
+  text=" "
+  btnText="Visitar"
+  btnLink="https://www.icloud.com/"
+></BlockList>
+
+<BlockList
+  ContentBox
+  image
+  btn
+  image={AmazonDrive}
+  title="AmazonDrive"
+  text=" "
+  btnText="Visitar"
+  btnLink="https://www.amazon.com/clouddrive"
+></BlockList>
+
+<div className="w-100 m-w-100 r-h-c p-20px ns-br-r-2 h-a  bg-d h-pr-fl-ma b-s-b-b m-b-10px">
+  <Title className="" h3="&#129150; Alojamiento de código"></Title>
+</div>
+
+<BlockList
+  ContentBox
+  image
+  btn
+  image={GitHub}
+  title="GitHub"
+  btnText="Visitar"
+  btnLink="https://github.com/"
+></BlockList>
+
+<BlockList
+  ContentBox
+  image
+  btn
+  image={GitLab}
+  title="GitLab"
+  btnText="Visitar"
+  btnLink="https://gitlab.com/"
+></BlockList>
+
+<BlockList
+  ContentBox
+  image
+  btn
+  image={Bitbucket}
+  title="Bitbucket"
+  btnText="Visitar"
+  btnLink="https://bitbucket.org/"
+></BlockList>
+
+<BlockList
+  ContentBox
+  image
+  btn
+  image={AWSCodeCommit}
+  title="AWS CodeCommit"
+  btnText="Visitar"
+  btnLink="https://aws.amazon.com/es/codecommit/"
+></BlockList>
+
+<BlockList
+  ContentBox
+  image
+  btn
+  image={SourceForge}
+  title="SourceForge"
+  btnText="Visitar"
+  btnLink="https://www.sourceforge.net/"
+></BlockList>
+
+<BlockList
+  ContentBox
+  image
+  btn
+  image={Beanstalk}
+  title="Beanstalk"
+  btnText="Visitar"
+  btnLink="https://www.beanstalkapp.com/"
+></BlockList>
 
 
 

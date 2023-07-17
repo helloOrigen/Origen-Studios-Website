@@ -1,170 +1,70 @@
-import React, { Fragment, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import NavBarBtn from "./navBarBtn";
-import BannerMenu from "../assets/images/promo/casos-de-exito-banner-menu.gif";
-import Btn from "./btn";
+import ChervronLeft from "../assets/icons/chevron_left.svg";
+import MobileBtnMenu from "../assets/components/SVG/mobile-btn-menu.svg";
+import Close from "../assets/icons/close.svg";
+import ChervronUpDouble from "../assets/icons/chevron_up_double.svg";
+import Home from "../assets/icons/home.svg";
 
-import { WhatsappIcon, Envelope } from "../components/icons";
 
-const MobileMenu = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
-
-  const handleLinkClick = () => {
-    setMenuOpen(false);
-  };
+export default function MobileMenu({ onToggleMenu, open }) {
+    const handleOpen = () => {
+      onToggleMenu();
+    };
+  
   return (
-    <Fragment>
-      <input
-        type="checkbox"
-        id="menu"
-        checked={menuOpen}
-        onChange={toggleMenu}
-      />
-
-      <div
-        className={` menu-container  ${menuOpen ? "d-b" : "d-n"}  p-10px `}
-        Style="position: fixed; left:0px; right:0px; bottom: 12%;  margin: auto;"
-      >
-        <div className="w-100 noselect   p-20px bg-d h-pr-fl-ma ns-br-r-2">
-          <Link
-            to="/team"
-            className="h-e selected nav-link "
-            onClick={handleLinkClick}
-          >
-            <div className="w-100 h-a h-pr-fl-ma bg-d ns-br-r-1 ">
-              <NavBarBtn
-              enlace="/team"
-                className="b w-100 h-100 h-pr-fl-ma p-15px f-w-bo "
-                text={"Nosotros"}
-              ></NavBarBtn>
-            </div>
-          </Link>
-
-          <Link
-            to="/services"
-            className="h-e selected nav-link"
-            onClick={handleLinkClick}
-          >
-            <div className="w-100 h-a h-pr-fl-ma bg-d ns-br-r-1 ">
-              <NavBarBtn
-              enlace="/services"
-                className="b w-100 h-100 h-pr-fl-ma p-15px f-w-bo "
-                text={"Servicios"}
-              ></NavBarBtn>
-            </div>
-          </Link>
-          <Link
-            to="/plans"
-            className="h-e selected nav-link"
-            onClick={handleLinkClick}
-          >
-            <div className="w-100 h-a h-pr-fl-ma bg-d ns-br-r-1 ">
-              <NavBarBtn
-              enlace="/plans"
-                news
-                className="b w-100 h-100 h-pr-fl-ma p-15px f-w-bo "
-                text={"Planes"}
-              ></NavBarBtn>
-            </div>
-          </Link>
-          
-          <Link
-            to="/concepts"
-            className="h-e selected nav-link"
-            onClick={handleLinkClick}
-          >
-            <div className="w-100 h-a h-pr-fl-ma bg-d ns-br-r-1 ">
-              <NavBarBtn
-              enlace="/concepts"
-                news
-                className="b w-100 h-100 h-pr-fl-ma p-15px f-w-bo "
-                text={"Conceptos +66"}
-              ></NavBarBtn>
-            </div>
-          </Link>
-
-          <Link
-            to="/promo"
-            className="h-e selected nav-link"
-            onClick={handleLinkClick}
-          >
-            <div className="w-100 h-a h-pr-fl-ma bg-d ns-br-r-1 ">
-              <NavBarBtn
-              enlace="/promo"
-                news
-                className="b w-100 h-100 h-pr-fl-ma p-15px f-w-bo "
-                text={"Promociones"}
-              ></NavBarBtn>
-            </div>
-          </Link>
-
-          <Link
-            to="/promo"
-            className="h-e selected  nav-link"
-            onClick={handleLinkClick}
-          >
-            <div className="w-100 h-a h-pr-fl-ma p-b-10px p-t-10px ">
-              <div className="m-t-20px w-100 h-100px h-pr-fl-ma t-a-c b-s-b-b hover-underline-animation ">
-                <div className="h-pr-fl-ma w-a h-a centered ">
-                  <img
-                    src={BannerMenu}
-                    className="w-100 h-100 h-pr-fl-ma"
-                    Style="object-fit: contain;"
-                    alt="Casos De Exito"
-                  />{" "}
-                </div>{" "}
-              </div>
-            </div>{" "}
-          </Link>
-
-          <Link
-            to="/promo"
-            className="h-e selected nav-link"
-            onClick={handleLinkClick}
-          >
-            <div className="w-100 h-a h-pr-fl-ma flexbox f-w-n-w  ">
-              <div className="w-50 p-5px h-a h-pr-fl-ma flexbox f-w-n-w  ">
-                <Btn
-                  enlace="mailto: hello@origenstudios.com"
-                  className="w-100 h-100 bg-g-blue p-10px h-pr-fl-ma ns-br-r-1  "
-                  text={"Email"}
-                >
-                  <div className="w-25px h-25px h-pr-fl-ma">
-                    <img
-                      className="w-100 h-100 h-pr-fl-ma "
-                      Style="stroke: #ffffff !important;"
-                      src={Envelope}
-                      alt="Coordinar"
-                    />{" "}
-                  </div>
-                </Btn>
-              </div>
-              <div className="w-50 p-5px h-a h-pr-fl-ma flexbox f-w-n-w  ">
-                <Btn
-                  enlace="https://wa.me/message/3J7NXI5ETDK7F1"
-                  className="w-100 h-100 bg-g-green p-10px f-w-bo h-pr-fl-ma ns-br-r-1  "
-                  text={"Whatsapp"}
-                >
-                  <div className="w-25px h-25px h-pr-fl-ma">
-                    <img
-                      className="w-100 h-100 h-pr-fl-ma "
-                      Style="stroke: #ffffff !important;"
-                      src={WhatsappIcon}
-                      alt="Coordinar"
-                    />{" "}
-                  </div>
-                </Btn>
+    <div className="pf m-a b-0px h-80px d-n m-d-b w-100  b-s-b-b">
+      <div className="w-100  h-70px b-0px m-a h-pr-fl-ma r-v-b">
+        <div
+          className="t-a-c f-f-Gilroy f-w-bo"
+          style={{
+            width: "100%",
+            height: "30px",
+            background: "#000000",
+            color: "#666666",
+            position: "absolute",
+            margin: "auto",
+            bottom: "0px",
+            left: "0px",
+            right: "0px",
+          }}
+        >
+          <span className="ns-f-s-small" Style={{ bottom: "0px", margin: "auto", position: "absolute", left: "0px", right: "0px" }}>
+            OrigenStudios<sup>&reg;</sup>{" "}
+          </span>
+        </div>
+        <div className="w-40 h-100 h-pr-fl-ma">
+          <Link to="">
+            <div className="w-100 h-100 h-pr-fl-ma MobileMenuBtnLeft h-e c-p" style={{ background: "#000000" }}>
+              <div className="centered h-a w-a f-f-Gilroy c-white ns-f-s-normal f-w-bo flexbox">
+                <img src={ChervronLeft} className="w-and-h-25px h-pr-fl-ma m-l-5px" alt="Inicio" />
+                <span className="w-a h-a h-pr-fl-ma t-a-c">Volver</span>
               </div>
             </div>
           </Link>
         </div>
+        <div className="w-20 h-100 h-pr-fl-ma noselect">
+          <div className={`w-150px r-h-c h-60px h-pr-fl-ma menu-wrapper ${open ? "menu-open" : ""}`} onClick={handleOpen}>
+            <label htmlFor="menu" className="w-100 r-h-c h-100 h-pr-fl-ma c-p h-e" onClick={handleOpen}>
+              <img src={MobileBtnMenu} className="w-150px r-h-c h-60px of-v noselect" style={{ position: "absolute" }} alt="Menu" />
+              <div className="w-150px h-a r-h-c h-pr-fl-ma flexbox">
+                <img src={open ? Close : ChervronUpDouble} className="noselect w-and-h-50px h-pr-fl-ma p-t-8px" alt="Menu" Style={{ stroke: open ? "#FF0000" : "#666666" }} />
+              </div>
+            </label>
+          </div>
+        </div>
+        <div className="w-40 h-100 h-pr-fl-ma">
+          <div className="w-100 h-100 h-pr-fl-ma MobileMenuBtnRight h-e c-p" style={{ background: "#000000" }}>
+            <Link to="/">
+              <div className="centered h-a w-a f-f-Gilroy c-white ns-f-s-normal f-w-bo flexbox">
+                <img src={Home} className="w-and-h-25px h-pr-fl-ma m-r-5px" alt="Inicio" />
+                <span className="w-a h-a h-pr-fl-ma t-a-c">Inicio</span>
+              </div>
+            </Link>
+          </div>
+        </div>
       </div>
-    </Fragment>
+    </div>
+   
   );
-};
-
-export default MobileMenu;
+}
