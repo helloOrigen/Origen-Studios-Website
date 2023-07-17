@@ -34,11 +34,3 @@ export { default as DLContents } from '../Views/DownloadsViews/DLContents';
 export { default as DLConsultancy } from '../Views/DownloadsViews/DLConsultancy';
 
 
-
-export { default as TLVAutomatizacion } from './ToolListViews/TLVAutomatizacion';
-export { default as TLVAlojamiento } from './ToolListViews/TLVAlojamiento';
-export { default as TLVCompresion } from './ToolListViews/TLVCompresion';
-export { default as TLVConversion } from './ToolListViews/TLVConversion';
-export { default as TLVCreacion } from './ToolListViews/TLVCreacion';
-export { default as TLVOrganizacion } from './ToolListViews/TLVOrganizacion';
-export { default as TLVRecursos } from './ToolListViews/TLVRecursos';
