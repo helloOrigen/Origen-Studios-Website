@@ -119,7 +119,7 @@ const LoaderComponent = () => {
   }`;
 
   return (
-    <div>
+    <div className="pa l-0px r-0px t-0px b-0px m-a">
       {isLoading && (
         <div Style={loaderStyle}>
           <img

@@ -11,8 +11,8 @@ import Notifier from "./components/notifier";
 
 import fondo from "./assets/images/compressed/fondo-web.jpg";
 
-import "./Styles/fixedcss/seed.css"
-/*import "./Styles/seed.css";*/
+
+import "./Styles/seed.css";
 
 import * as Views from "./Views/index";
 
