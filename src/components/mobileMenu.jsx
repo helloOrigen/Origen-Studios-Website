@@ -29,7 +29,7 @@ export default function MobileMenu({ onToggleMenu, open }) {
             right: "0px",
           }}
         >
-          <span className="ns-f-s-small" Style={{ bottom: "0px", margin: "auto", position: "absolute", left: "0px", right: "0px" }}>
+          <span className="ns-f-s-small" style={{ bottom: "0px", margin: "auto", position: "absolute", left: "0px", right: "0px" }}>
             OrigenStudios<sup>&reg;</sup>{" "}
           </span>
         </div>
@@ -48,7 +48,7 @@ export default function MobileMenu({ onToggleMenu, open }) {
             <label htmlFor="menu" className="w-100 r-h-c h-100 h-pr-fl-ma c-p h-e" onClick={handleOpen}>
               <img src={MobileBtnMenu} className="w-150px r-h-c h-60px of-v noselect" style={{ position: "absolute" }} alt="Menu" />
               <div className="w-150px h-a r-h-c h-pr-fl-ma flexbox">
-                <img src={open ? Close : ChervronUpDouble} className="noselect w-and-h-50px h-pr-fl-ma p-t-8px" alt="Menu" Style={{ stroke: open ? "#FF0000" : "#666666" }} />
+                <img src={open ? Close : ChervronUpDouble} className="noselect w-and-h-50px h-pr-fl-ma p-t-8px" alt="Menu" style={{ stroke: open ? "#FF0000" : "#666666" }} />
               </div>
             </label>
           </div>

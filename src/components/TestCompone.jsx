@@ -32,12 +32,12 @@ const TestCompone = ({ images, speed }) => {
   }, [currentIndex, images, visibleImages.length]);
 
   return (
-    <div className="marquee-container" style={{ whiteSpace: 'nowrap', overflow: 'hidden' }}>
+    <div className="marquee-container" Style={{ whiteSpace: 'nowrap', overflow: 'hidden' }}>
       {visibleImages.map((image, index) => (
         <div
           className="marquee-image"
           key={index}
-          style={{
+          Style={{
             display: 'inline-block',
             marginRight: '20px',
             width: '150px',

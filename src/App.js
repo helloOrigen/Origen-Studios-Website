@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+
 import LoaderComponent from "./components/LoaderComponent";
 import NavBar from "./components/navBar";
 import Footer from "./components/Footer";
 import MobileMenu from "./components/MobileMenu";
-import MobileMenuContent from "./components/mobileMenuContent";
+import MobileMenuContent from "./components/MobileMenuContent";
 import Notifier from "./components/notifier";
 
 import fondo from "./assets/images/compressed/fondo-web.jpg";
@@ -55,7 +57,7 @@ const App = () => {
           }}
         ></div>
         <div className="w-80 h-80 tab-w-90 m-w-100 m-h-100   ns-br-r-1 h-pr-fl-ma centered of-h bg-d b-s-b-b ">
-          <div className="h-pr-fl-ma w-100 h-70px b-s-b-b bg-d" style={{ zIndex: "99999" }}>
+          <div className="h-pr-fl-ma w-100 h-70px b-s-b-b bg-d" Style={{ zIndex: "99999" }}>
             <NavBar />
           </div>
 

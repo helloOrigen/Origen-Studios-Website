@@ -19,7 +19,7 @@ const Adsense = (props) => {
   return (
     <ins
       className={`adsbygoogle ${adsClass}`}
-      style={{ display: "block" }}
+      Style={{ display: "block" }}
       data-ad-client="ca-pub-6375603115544403"
       data-ad-slot={dataAdSlot}
       data-ad-format="auto"

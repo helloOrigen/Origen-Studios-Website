@@ -19,7 +19,7 @@ export {default as LoaderComponent} from "./LoaderComponent";
 
 export {default as MarqueeComponent} from "./marqueecomponent";
 export {default as MobileMenu} from "./MobileMenu";
-export {default as MobileMenuContent} from "./mobileMenuContent";
+export {default as MobileMenuContent} from "./MobileMenuContent";
 export {default as Modal} from "./modal";
 
 export {default as navBar} from "./navBar";

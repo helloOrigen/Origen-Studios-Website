@@ -35,7 +35,7 @@ const MarqueeComponent = () => {
       <div
         className="w-a m-a f-f-Gilroy f-w-bo bg-red of-h"
         ref={containerRef}
-        style={{
+        Style={{
           display: "flex",
           position: "absolute",
           animation: "marquee 20s linear infinite",
@@ -44,20 +44,20 @@ const MarqueeComponent = () => {
         }}
       >
         <div ref={marqueeRef} className="w-a bg-orange">
-          <span style={{ color: "red" }}>Lorem ipsum dolor sit amet, </span>
-          <span style={{ color: "blue" }}>consectetur adipiscing elit. </span>
-          <span style={{ color: "green" }}>
+          <span Style={{ color: "red" }}>Lorem ipsum dolor sit amet, </span>
+          <span Style={{ color: "blue" }}>consectetur adipiscing elit. </span>
+          <span Style={{ color: "green" }}>
             Sed cursus ante ac mauris fringilla,{" "}
           </span>
-          <span style={{ color: "purple" }}>vel sagittis elit vestibulum.</span>
-          <span style={{ color: "green" }}>
+          <span Style={{ color: "purple" }}>vel sagittis elit vestibulum.</span>
+          <span Style={{ color: "green" }}>
             Sed cursus ante ac mauris fringilla,{" "}
           </span>
-          <span style={{ color: "purple" }}>vel sagittis elit vestibulum.</span>
-          <span style={{ color: "green" }}>
+          <span Style={{ color: "purple" }}>vel sagittis elit vestibulum.</span>
+          <span Style={{ color: "green" }}>
             Sed cursus ante ac mauris fringilla,{" "}
           </span>
-          <span style={{ color: "purple" }}>vel sagittis elit vestibulum.</span>
+          <span Style={{ color: "purple" }}>vel sagittis elit vestibulum.</span>
         </div>
       </div>
     </div>

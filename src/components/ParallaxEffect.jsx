@@ -110,7 +110,7 @@ const ParallaxEffect = ({ image1, image2, image1StyleProps, image2StyleProps,  }
   return (
     <div
       className="parallax-effect"
-      style={containerStyle}
+     style={containerStyle}
       onMouseMove={handleMouseMove}
     >
       <div className="image1" style={image1Style} />

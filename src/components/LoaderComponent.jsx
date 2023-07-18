@@ -121,19 +121,19 @@ const LoaderComponent = () => {
   return (
     <div>
       {isLoading && (
-        <div style={loaderStyle}>
+        <div Style={loaderStyle}>
           <img
             className="pa l-0px r-0px t-0px b-0px m-a w-300px h-300px"
-            style={{ objectFit: 'contain' }}
+            Style={{ objectFit: 'contain' }}
             src={OSLogoSymbolSvg}
             alt="OS-LOGO"
           />
           <style>{keyframes}</style>
-          <div style={ellipsisStyle}>
-            <div style={{ ...dotStyle, ...dot1Style }}></div>
-            <div style={{ ...dotStyle, ...dot2Style }}></div>
-            <div style={{ ...dotStyle, ...dot3Style }}></div>
-            <div style={{ ...dotStyle, ...dot4Style }}></div>
+          <div Style={ellipsisStyle}>
+            <div Style={{ ...dotStyle, ...dot1Style }}></div>
+            <div Style={{ ...dotStyle, ...dot2Style }}></div>
+            <div Style={{ ...dotStyle, ...dot3Style }}></div>
+            <div Style={{ ...dotStyle, ...dot4Style }}></div>
             <div className="f-f-Gilroy ns-f-s-small w-100 c-white f-w-bo ns-c-e-animated t-a-c">
               {loadingText}
             </div>
@@ -143,7 +143,7 @@ const LoaderComponent = () => {
       {showLogo && !isLoading && (
         <object
           className="pa l-0px r-0px t-0px b-0px m-a w-300px h-300px"
-          style={{ objectFit: 'contain' }}
+          Style={{ objectFit: 'contain' }}
           data={OSLogoSymbolSvg}
           type="image/svg+xml"
         >

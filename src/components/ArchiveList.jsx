@@ -34,7 +34,7 @@ export default function ArchiveList(props) {
         {name && (
           <div
             className="w-80 m-l-10px p-20px f-f-Gilroy"
-            style={{ fontSize: "15px", lineHeight: "15px" }}
+            Style={{ fontSize: "15px", lineHeight: "15px" }}
           >
             <a href={enlace}>
             {name}</a>

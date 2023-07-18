@@ -30,7 +30,7 @@ const Identity = () => {
         ></Title>
         <div
           className=" m-w-100 r-h-c h-a h-pr-fl-ma b-s-b-b  m-t-40px m-b-40px  bg-d"
-          style={{ borderRadius: '20px' }}
+          Style={{ borderRadius: '20px' }}
         >
           <span className="w-100 h-pr-fl-ma t-a-c f-f-Gilroy p-20px f-w-bo">
             Haz click aquí para conocer nuestros planes!

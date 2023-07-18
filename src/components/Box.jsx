@@ -13,7 +13,7 @@ const Box = ({ image, number, Disponible }) => {
         {Disponible && (
           <div
             className="m-a h-a l-10px t-10px b-s-b-b p-a m-a ns-f-s-normal f-f-Gilroy f-w-bo p-l-10px p-r-10px ns-br-r-1 b-s-b-b"
-            style={boxStyle}
+            Style={boxStyle}
           >
             {Disponible}
           </div>
