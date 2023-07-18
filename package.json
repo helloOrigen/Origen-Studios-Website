@@ -19,6 +19,7 @@
     "react-dom": "^18.2.0",
     "react-google-ad": "^1.0.2",
     "react-icons": "^4.8.0",
+    "react-id-swiper": "^4.0.0",
     "react-router-dom": "^6.13.0",
     "react-scripts": "^5.0.1",
     "swiper": "^10.0.4",
@@ -62,8 +63,14 @@
       "last 1 safari version"
     ]
   },
+  "jest": {
+    "moduleNameMapper": {
+      "swiper/css": "swiper/swiper.min.css"
+    }
+  },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.14.5",
+    "jest": "^27.5.1",
     "postcss": "^8.4.23",
     "postcss-100vh-fix": "^1.0.2",
     "purgecss": "^5.0.0"

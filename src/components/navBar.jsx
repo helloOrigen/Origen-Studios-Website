@@ -20,18 +20,19 @@ const navBar = () => {
         <div className="w-100  h-pr-fl-ma  r-v-b f-w-n-w h-100  tab-d-n ">
          
           <Link to="/team">
-            <NavBarBtn className="m-d-n noselect" text={"Nosotros"}></NavBarBtn>
+            <NavBarBtn enlace="/team" className="m-d-n noselect" text={"Nosotros"}></NavBarBtn>
           </Link>
 
           <Link to="/services">
             <NavBarBtn
               className="m-d-n noselect"
               text={"Servicios"}
+              enlace="/services"
             ></NavBarBtn>
           </Link>
          
           <Link to="/plans">
-            <NavBarBtn className="m-d-n noselect" text={"Planes"}>
+            <NavBarBtn enlace="/plans" className="m-d-n noselect" text={"Planes"}>
               <NavSubItem
                 text="Planes de Identidad"
                 enlace="/plans/identity"
@@ -47,17 +48,18 @@ const navBar = () => {
         
          
           <Link to="/concepts">
-            <NavBarBtn className="m-d-n noselect" text={"Conceptos"} news></NavBarBtn>
+            <NavBarBtn enlace="/concepts" className="m-d-n noselect" text={"Conceptos"} news></NavBarBtn>
           </Link>
           <Link to="/promo">
             <NavBarBtn
               className="m-d-n noselect"
+              enlace="/promo"
               text={"Promos"}
               news
             ></NavBarBtn>
           </Link>
           <Link to="https://behance.net/origenstudios">
-            <NavBarBtn className="m-d-n noselect" text={"Portfolios"} news></NavBarBtn>
+            <NavBarBtn    enlace="https://behance.net/origenstudios" className="m-d-n noselect" text={"Portfolios"} news></NavBarBtn>
           </Link>
         </div>
       

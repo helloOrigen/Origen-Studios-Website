@@ -3,7 +3,7 @@ export default function Btn(props) {
 
   if (enlace) {
     return (
-      <a href={enlace} Style={{ display: 'contents' }}>
+      <a href={enlace} style={{ display: 'contents' }}>
         <button
           type="button"
           onClick={click}
@@ -14,7 +14,7 @@ export default function Btn(props) {
           )}
           <div
             className={`${textclassName} w-a h-a h-pr-fl-ma t-a-c c-white d-i-f`}
-            Style={{ fontSize: '15px', lineHeight: '20px' }}
+            style={{ fontSize: '15px', lineHeight: '20px' }}
           >
             {text}
           </div>
@@ -34,7 +34,7 @@ export default function Btn(props) {
           )}
           <div
             className={`${textclassName} w-a h-a h-pr-fl-ma t-a-c c-white d-i-f`}
-            Style={{ fontSize: '15px', lineHeight: '20px' }}
+           style={{ fontSize: '15px', lineHeight: '20px' }}
           >
             {text}
           </div>

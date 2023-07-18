@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c1aef970.css",
-    "main.js": "/static/js/main.830c6577.js",
+    "main.css": "/static/css/main.aad9f9ea.css",
+    "main.js": "/static/js/main.f6a2e522.js",
     "static/js/496.f228d8d8.chunk.js": "/static/js/496.f228d8d8.chunk.js",
     "static/media/casos-de-exito-oferta.svg": "/static/media/casos-de-exito-oferta.b28c45d5178959cbd1949336f232d880.svg",
     "static/media/parallax-woman.png": "/static/media/parallax-woman.7db425c72113ce606346.png",
@@ -83,12 +83,12 @@
     "static/media/chevron_left.svg": "/static/media/chevron_left.c57246a50e9b6eecdd2fa206a166fd5d.svg",
     "static/media/chevron_right.svg": "/static/media/chevron_right.4aec8e1324a1f7ded654040753a619d6.svg",
     "static/media/close.svg": "/static/media/close.0712d4c0fd22e6e4a6f2888d0d61b1c7.svg",
-    "main.c1aef970.css.map": "/static/css/main.c1aef970.css.map",
-    "main.830c6577.js.map": "/static/js/main.830c6577.js.map",
+    "main.aad9f9ea.css.map": "/static/css/main.aad9f9ea.css.map",
+    "main.f6a2e522.js.map": "/static/js/main.f6a2e522.js.map",
     "496.f228d8d8.chunk.js.map": "/static/js/496.f228d8d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1aef970.css",
-    "static/js/main.830c6577.js"
+    "static/css/main.aad9f9ea.css",
+    "static/js/main.f6a2e522.js"
   ]
 }

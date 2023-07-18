@@ -1,20 +1,20 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-
+import MobileMenu from "./components/MobileMenu";
+import MobileMenuContent from "./components/MobileMenuContent";
 import LoaderComponent from "./components/LoaderComponent";
 import NavBar from "./components/navBar";
 import Footer from "./components/Footer";
-import MobileMenu from "./components/MobileMenu";
-import MobileMenuContent from "./components/MobileMenuContent";
+
 import Notifier from "./components/notifier";
 
 import fondo from "./assets/images/compressed/fondo-web.jpg";
 
+import "./Styles/fixedcss/seed.css"
+/*import "./Styles/seed.css";*/
 
-import "./Styles/seed.css";
-
-import * as Views from "./Views/index.jsx";
+import * as Views from "./Views/index";
 
 
 const App = () => {

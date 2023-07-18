@@ -1,8 +1,11 @@
-import React, { Fragment, useEffect } from "react";
-import Swiper from "swiper";
+import React, { Fragment, useEffect } from 'react';
+import Swiper from 'swiper';
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+
+
+
 
 import { Btn, ParallaxEffect, } from "../components/index";
 import Box3D from "../assets/images/compressed/box-3d-ia.webp";
@@ -17,22 +20,16 @@ import ParallaxBg from "../assets/images/compressed/parallax-background.png";
 import ParallaxWoman from "../assets/images/compressed/parallax-woman.png";
 
 import Title from "../components/title";
-import { object } from "prop-types";
+
 
 export default function Home(props) {
   const image1StyleProps = {
     width: '240%',
-
-
   };
-  
-
-
   const image2StyleProps = {
   left: '50%',
     height: '100%',
     width: '100%',
-
   };
   useEffect(() => {
     const swiper = new Swiper(".swiper", {
@@ -141,7 +138,7 @@ export default function Home(props) {
                     Creamos o Actualizamos su logo.
                   </Title>
                   <Btn
-                    className="w-80 t-a-c  p-10px h-a bg-d-t f-w-bo   h-pr-fl-ma"
+                    className="w-80  t-a-c p-10px h-a bg-d-t f-w-bo h-pr-fl-ma"
                     text="Ver ejemplos"
                     enlace="/concepts"
                   ></Btn>

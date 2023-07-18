@@ -1,8 +1,16 @@
 @charset "UTF-8";
+/*
+Seed.css cortesía de:
+███    ██  ██████  ██████  ███████ ███████ ██    ██ ███████ ████████ ███████ ███    ███ ███████    ██    ██ ██    ██
+████   ██ ██    ██ ██   ██ ██      ██       ██  ██  ██         ██    ██      ████  ████ ██         ██    ██  ██  ██
+██ ██  ██ ██    ██ ██   ██ █████   ███████   ████   ███████    ██    █████   ██ ████ ██ ███████    ██    ██   ████
+██  ██ ██ ██    ██ ██   ██ ██           ██    ██         ██    ██    ██      ██  ██  ██      ██    ██    ██    ██
+██   ████  ██████  ██████  ███████ ███████    ██    ███████    ██    ███████ ██      ██ ███████ ██  ██████     ██
+                                        Node Seed > Framework by NODESYSTEMS.UY - Actualizado 07 marzo 2023 para: Origen Studios.
+*/
 
-
-
-
+/* Experimental NODESYSTEMS 2023 */
+/* Mobile menu */
 :root {
   --current-color-emphasis: #ffc666;
 }
@@ -82,18 +90,18 @@
 }
 .box {
   display: flex;
-  width: 200px;
-  height: 200px;
-  margin: auto;
+  width: 200px; /* Ajusta el ancho según tus necesidades */
+  height: 200px; /* Ajusta la altura según tus necesidades */
+  margin: auto; /* Ajusta los márgenes según tus necesidades */
  
 }
 
 
 
 .box-inside{
-  width: 200px;
-  height: 200px;
-  margin: auto;
+  width: 200px; /* Ajusta el ancho según tus necesidades */
+  height: 200px; /* Ajusta la altura según tus necesidades */
+  margin: auto; /* Ajusta los márgenes según tus necesidades */
 
 }
 .box-image {
@@ -124,17 +132,17 @@
 
 
 
+/* RADIO PLAYER */
+/* RADIO PLAYER FINISHED */
 
 
 
 
 
+/* IMAGE COMPONENT CSS init*/
+/* Modal Desktop */
 
-
-
-
-
-
+/* Estilos para el componente de imagen */
 .img-component {
   display: inline-block;
   position: relative;
@@ -152,7 +160,7 @@
   height: auto;
 }
 
-
+/* Estilos para la modal */
 .modal {
   position: fixed;
   top: 0;
@@ -220,7 +228,7 @@
   transition: 0.5s ease-in-out;
 }
 
-
+ /* Zoom controls*/
  *:hover .ZoomControls{
   opacity: 1;
  }
@@ -262,22 +270,22 @@
  }
 
 
-
+/* IMAGE COMPONENT CSS finish */
 
 @media only screen and (max-width: 768px) {
   
  
   .box {
-    width: 160px;
-    height: 160px;
+    width: 160px; /* Ajusta el ancho según tus necesidades */
+    height: 160px; /* Ajusta la altura según tus necesidades */
     margin: 15px;
    
    
   }
   .box-inside{
-    width: 160px;
-    height: 160px;
-    margin: auto;
+    width: 160px; /* Ajusta el ancho según tus necesidades */
+    height: 160px; /* Ajusta la altura según tus necesidades */
+    margin: auto; /* Ajusta los márgenes según tus necesidades */
  
   }
  }
@@ -334,7 +342,7 @@ div.d-v-on-h-container:hover .d-v-on-h:hover{
   
 }
 
-
+/* MobileMenu Btn Center */
 .menu-wrapper {
   position: absolute;
   margin: auto;
@@ -352,18 +360,18 @@ div.d-v-on-h-container:hover .d-v-on-h:hover{
 }
 
 .menu-wrapper label:active img {
-  fill: #00ACEE !important;
+  fill: #00ACEE !important; /* Cambia el color aquí */
 }
 
 .menu-open img[src*="MobileBtnMenu"] {
-  fill: #cccccc !important;
+  fill: #cccccc !important; /* Cambia el color aquí */
 }
-
+/* Mobile Menu Btn Right*/
 .MobileMenuBtnRight {
   clip-path: polygon(0 35px, 35px 0,100% 0,100% 100%,0 100%)
 }
 
-
+/* Mobile Menu Btn Left*/
 .MobileMenuBtnLeft {
   clip-path: polygon(0 0,calc(100% - 35px) 0,100% 35px,100% 100%,0 100%);
 }
@@ -408,7 +416,7 @@ div.d-v-on-h-container:hover .d-v-on-h:hover{
      -webkit-transform: scale(1);
   }
 }
-
+/* Unique for Origen Studios */
 
 @keyframes typing {
   from { width: 0 }
@@ -487,7 +495,7 @@ div.d-v-on-h-container:hover .d-v-on-h:hover{
   border-radius: 50%;
 }
 
-
+/*tablet*/
 
 @media(max-width: 1200px){
   .tab-d-n{
@@ -603,10 +611,10 @@ margin-right: 10px;
   height: 100vh;
 }
 
-
+/* Avoid Chrome to see Safari hack */
 @supports (-webkit-touch-callout: none) {
   body {
-   
+    /* The hack for Safari */
     height: -webkit-fill-available;
   }
 }
@@ -614,7 +622,7 @@ margin-right: 10px;
 html{
   height: 100vh
 }
-
+/* Avoid Chrome to see Safari hack */
 
 /**
  * Render the `main` element consistently in IE.
@@ -629,7 +637,8 @@ h1 {
   margin: 0.67em 0;
 }
 
-
+/* Grouping content
+   ========================================================================== */
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
@@ -640,7 +649,8 @@ h1 {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 
-
+/* Text-level semantics
+   ========================================================================== */
 /**
  * Remove the gray background on active links in IE 10.
  */
@@ -685,7 +695,8 @@ sup {
   top: -0.5em;
 }
 
-
+/* Embedded content
+   ========================================================================== */
 /**
  * Remove the border on images inside links in IE 10.
  */
@@ -693,7 +704,8 @@ img {
   border-style: none;
 }
 
-
+/* Forms
+   ========================================================================== */
 /**
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
@@ -701,13 +713,13 @@ img {
 button,
 input {
   font-family: inherit;
- 
+  /* 1 */
   font-size: 100%;
- 
+  /* 1 */
   line-height: 1.15;
- 
+  /* 1 */
   margin: 0;
- 
+  /* 2 */
 }
 
 /**
@@ -716,7 +728,7 @@ input {
  */
 button,
 input {
- 
+  /* 1 */
   overflow: visible;
 }
 
@@ -725,7 +737,7 @@ input {
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button {
- 
+  /* 1 */
   text-transform: none;
 }
 
@@ -801,17 +813,23 @@ button:-moz-focusring,
  */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
- 
+  /* 1 */
   font: inherit;
- 
+  /* 2 */
 }
 
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
 
+/*
+ * Add the correct display in all browsers.
+ */
 
-
-
-
-
+/* Misc
+   ========================================================================== */
 /**
  * Add the correct display in IE 10+.
  */
@@ -823,7 +841,7 @@ button:-moz-focusring,
   display: none;
 }
 
-
+/* Global */
 *, *::after, *::before {
   margin: 0;
   padding: 0;
@@ -835,10 +853,18 @@ button:-moz-focusring,
   outline: none;
 }
 
+/* Body */
+/*
+body {
+  color: #7e7e7e;
+  -o-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  font-size: 16px;
+}*/
 
-
-
-
+/* Button */
 button {
   color: none;
   outline: none;
@@ -859,7 +885,7 @@ button {
   -webkit-appearance: button;
 }
 
-
+/* Ancle */
 a {
   outline: none;
   text-decoration: none;
@@ -897,7 +923,7 @@ a:active {
   color: #ff0096;
 }
 
-
+/* Headers */
 h1, h2, h3, h4, h5, h6 {
   font-family: "'Permanent Marker', cursive";
 }
@@ -932,7 +958,7 @@ h6 {
   line-height: 1em;
 }
 
-
+/* Input */
 input:focus {
   outline: none;
 }
@@ -945,11 +971,11 @@ input::-webkit-outer-spin-button {
 
 
 
+/* Select */
 
+/* Textarea */
 
-
-
-
+/* Scrollbar */
 div::-webkit-scrollbar {
   width: 11px;
   height: 11px;
@@ -992,17 +1018,17 @@ div::-webkit-scrollbar-corner {
   background: transparent;
 }
 
-
+/* Responsive */
 @media only screen and (max-height: 500px) {
   body {
     font-size: 10px;
   }
 }
 
-
-
-
-
+/* Components */
+/* Components */
+/* Atoms */
+/* Select */
 
 @-webkit-keyframes marquee {
   0% {
@@ -1117,9 +1143,9 @@ div::-webkit-scrollbar-corner {
   font-size: var(--current-font-normal);
 }
 
+/* CONTROLES */
 
-
-
+/* CONTROLES MULTIMEDIA */
 
 .Btn:active {
   filter: brightness(1.5);
@@ -1133,20 +1159,59 @@ div::-webkit-scrollbar-corner {
   -o-transform: scale(0.98);
 }
 
+/* SIZES */
 
+/* SIZES ADJUSTS */
 
+/*      ----------------------       */
 
+/* FOR NORMAL DEFAULT CHECK */
 
+/* FOR GHOST CHECKS */
 
+/*  ------ */
 
-
-
-
-
-
-
-
-
+/*
+@keyframes s-ripple {
+  0% {
+      transform: scale(0);
+  }
+  20% {
+      transform: scale(1);
+  }
+  100% {
+      opacity: 0;
+      transform: scale(1);
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+}
+} */
+/*
+@keyframes s-ripple-dup {
+ 0% {
+     transform: scale(0);
+  }
+ 30% {
+      transform: scale(1);
+  }
+  60% {
+      transform: scale(1.5);
+      -webkit-transform: scale(1.5);
+      -moz-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+      -o-transform: scale(1.5);
+}
+  100% {
+      opacity: 0;
+      transform: scale(2);
+      -webkit-transform: scale(2);
+      -moz-transform: scale(2);
+      -ms-transform: scale(2);
+      -o-transform: scale(2);
+}
+}*/
 
 @-webkit-keyframes dropdownanim {
   from {
@@ -1201,18 +1266,46 @@ div::-webkit-scrollbar-corner {
   display: visible;
 }
 
+/*
+.image:empty::before{
+    width: 50px !important;
+    height: 50px !important;
+    background: red !important;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f2bd' !important;
+    font-size: calc(4vw - 0.5vh)  !important;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}*/
 
+/* VALORES SQUARE */
 
-
-
-
+/* ----------------------- */
 
 input:focus {
   filter: brightness(110%);
   -webkit-filter: brightness(110%);
 }
 
+/*
+  label[type="email"] .email .InputIconLeft i {
+    content: "\f885" !important;
 
+  }
+  label[type="email"] .email .InputIconRight i {
+  content: "\f885" !important;
+
+  } */
 
 input.info {
   filter: brightness(1.1);
@@ -1234,11 +1327,11 @@ input.white {
   -webkit-filter: brightness(-0.8);
 }
 
+/*  --------------  */
 
+/* RANGE */
 
-
-
-
+/*----------------------------------------------------*/
 
 @-webkit-keyframes progLoad {
   0% {
@@ -1278,17 +1371,25 @@ input.white {
   }
 }
 
+/* Molecules */
+
+/* DATALIST */
+
+/* DATALIST */
+
+/* Layout */
 
 
 
+/*
 
+███████ ██      ███████ ██   ██ ██████   ██████  ██   ██
+██      ██      ██       ██ ██  ██   ██ ██    ██  ██ ██
+█████   ██      █████     ███   ██████  ██    ██   ███
+██      ██      ██       ██ ██  ██   ██ ██    ██  ██ ██
+██      ███████ ███████ ██   ██ ██████   ██████  ██   ██
 
-
-
-
-
-
-
+*/
 .flexbox {
   overflow: hidden;
   
@@ -1298,9 +1399,9 @@ input.white {
   display: flex;
 }
 
+/* =================-------| FLEX - DIRECTION |-------================= */
 
-
-
+/* =================-------| FLEX - WRAP |-------================= */
 .f-w-w {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -1311,10 +1412,18 @@ input.white {
       flex-wrap: nowrap;
 }
 
+/* =================-------| FLEX - BASIS |-------================= */
 
+/*
 
+     ██ ██    ██ ███████ ████████ ██ ███████ ██    ██
+     ██ ██    ██ ██         ██    ██ ██       ██  ██
+     ██ ██    ██ ███████    ██    ██ █████     ████
+██   ██ ██    ██      ██    ██    ██ ██         ██
+ █████   ██████  ███████    ██    ██ ██         ██
 
-
+*/
+/* =================-------| JUSTIFY - CONTENT |-------================= */
 
 .j-c-c {
   -webkit-box-pack: center;
@@ -1322,17 +1431,25 @@ input.white {
           justify-content: center;
 }
 
+/* =================-------| JUSTIFY - ITEMS |-------================= */
 
+/*
 
+ █████  ██      ██  ██████  ███    ██
+██   ██ ██      ██ ██       ████   ██
+███████ ██      ██ ██   ███ ██ ██  ██
+██   ██ ██      ██ ██    ██ ██  ██ ██
+██   ██ ███████ ██  ██████  ██   ████
 
-
+*/
+/* =================-------| ALIGN GLOBAL |-------================= */
 .centered {
   position: relative;
   margin: auto;
   float: left;
   top: 50%;
   left: 50%;
- 
+  /*bringyourownprefixes*/
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
@@ -1340,7 +1457,7 @@ input.white {
   -o-transform: translate(-50%, -50%);
 }
 
-
+/* =================-------| ALIGN RELATIVE |-------================= */
 .r-h-c {
   position: relative;
   margin: auto;
@@ -1373,9 +1490,9 @@ input.white {
           transform: translateY(-100%);
 }
 
+/* =================-------| ALIGN ABSOLUTE |-------================= */
 
-
-
+/* =================-------| ALIGN - ITEMS |-------================= */
 
 .a-i-c {
   -webkit-box-align: center;
@@ -1383,7 +1500,7 @@ input.white {
           align-items: center;
 }
 
-
+/* =================-------| ALIGN - SELF |-------================= */
 
 .a-s-b {
   -ms-flex-item-align: baseline;
@@ -1396,39 +1513,39 @@ input.white {
       align-self: center;
 }
 
+/* =================-------| ALIGN - CONTENT |-------================= */
 
+/* =================-------| ALIGN - TEXT |-------================= */
+/* TEXT ALIGN START */
 
-
-
-
-
+/* TEXT ALIGN CENTER */
 .t-a-c {
   text-align: center ;
 }
 
+/* TEXT ALIGN LAST CENTER */
 
-
-
+/* TEXT ALIGN LEFT */
 .t-a-l {
   text-align: left;
 }
 
-
+/* TEXT ALIGN RIGHT*/
 .t-a-r {
   text-align: right;
 }
 
+/* =================-------| VERTICAL ALIGN |-------================= */
 
 
 
+/* Helpers */
+/* Helpers */
+/* flip */
 
+/* OBJECT FIT */
 
-
-
-
-
-
-
+/* EFFECTS - Fx FX fx fX */
 
 
 
@@ -1449,39 +1566,79 @@ input.white {
   z-index: 99 ;
 }
 
+/*
 
+███    ███  █████  ██   ██     ██      ██ ███    ██ ███████ ███████
+████  ████ ██   ██  ██ ██      ██      ██ ████   ██ ██      ██
+██ ████ ██ ███████   ███       ██      ██ ██ ██  ██ █████   ███████
+██  ██  ██ ██   ██  ██ ██      ██      ██ ██  ██ ██ ██           ██
+██      ██ ██   ██ ██   ██     ███████ ██ ██   ████ ███████ ███████
 
+*/
+/* =================-------| MAX LINES |-------================= */
 
+/*
 
+███    ███  █████  ██   ██     ██      ███████ ███    ██  ██████  ██   ██ ████████
+████  ████ ██   ██  ██ ██      ██      ██      ████   ██ ██       ██   ██    ██
+██ ████ ██ ███████   ███       ██      █████   ██ ██  ██ ██   ███ ███████    ██
+██  ██  ██ ██   ██  ██ ██      ██      ██      ██  ██ ██ ██    ██ ██   ██    ██
+██      ██ ██   ██ ██   ██     ███████ ███████ ██   ████  ██████  ██   ██    ██
 
+*/
+/* =================-------| MAX LENGHT |-------================= */
 
+/*
 
+ █████  ███████ ██████  ███████  ██████ ████████     ██████   █████  ████████ ██  ██████
+██   ██ ██      ██   ██ ██      ██         ██        ██   ██ ██   ██    ██    ██ ██    ██
+███████ ███████ ██████  █████   ██         ██        ██████  ███████    ██    ██ ██    ██
+██   ██      ██ ██      ██      ██         ██        ██   ██ ██   ██    ██    ██ ██    ██
+██   ██ ███████ ██      ███████  ██████    ██        ██   ██ ██   ██    ██    ██  ██████
 
+*/
+/* =================-------| ASPECT RATIO |-------================= */
 .b-0px {
   bottom: 0;
 }
 
+/* NUEVOS AÑADIDOS 20 JUNIO 2021 */
 
+/* Special ratios */
 
+/* textarea */
 
+/*
 
+████████ ███████ ██   ██ ████████
+   ██    ██       ██ ██     ██
+   ██    █████     ███      ██
+   ██    ██       ██ ██     ██
+   ██    ███████ ██   ██    ██
 
+*/
+/* =================-------| TEXT - RENDERING |-------================= */
 
-
-
-
-
+/* =================-------| TEXT - OVERFLOW |-------================= */
 
 .noselect {
-  -webkit-touch-callout: none;
-    -webkit-user-select: none;
-     -khtml-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; 
 }
 
+/*
 
+███████ ████████ ██    ██ ██      ███████ ███████
+██         ██     ██  ██  ██      ██      ██
+███████    ██      ████   ██      █████   ███████
+     ██    ██       ██    ██      ██           ██
+███████    ██       ██    ███████ ███████ ███████
+
+*/
 i.default {
   background: none;
   color: #7e7e7e;
@@ -1523,9 +1680,9 @@ i.info {
   color: white;
 }
 
+/* MORE COLORS */
 
-
-
+/* GHOST */
 .ghost {
   background: none;
   color: inherit;
@@ -1567,20 +1724,36 @@ i.info {
           box-shadow: 0 0 0 2px inset #fefefe;
 }
 
+/* LINES Left */
 
+/* LINES Right */
 
+/* LINES Top */
 
+/* LINES Bottom */
 
+/*
 
+███████ ██    ██ ███████ ███    ██ ████████ ███████
+██      ██    ██ ██      ████   ██    ██    ██
+█████   ██    ██ █████   ██ ██  ██    ██    ███████
+██       ██  ██  ██      ██  ██ ██    ██         ██
+███████   ████   ███████ ██   ████    ██    ███████
 
+*/
 
+/*
 
+█████  ███    ██ ██ ███    ███  █████  ████████ ██  ██████  ███    ██ ███████
+██   ██ ████   ██ ██ ████  ████ ██   ██    ██    ██ ██    ██ ████   ██ ██
+███████ ██ ██  ██ ██ ██ ████ ██ ███████    ██    ██ ██    ██ ██ ██  ██ ███████
+██   ██ ██  ██ ██ ██ ██  ██  ██ ██   ██    ██    ██ ██    ██ ██  ██ ██      ██
+██   ██ ██   ████ ██ ██      ██ ██   ██    ██    ██  ██████  ██   ████ ███████
 
+*/
+/* =================-------| ANIMATIONS |-------================= */
 
-
-
-
-
+/* =================-------| ANIMATIONS - DELAY |-------================= */
 
 @-webkit-keyframes flip {
   from {
@@ -1616,8 +1789,16 @@ i.info {
   }
 }
 
+/*
 
+████████ ██████   █████  ███    ██ ███████ ██ ████████ ██  ██████  ███    ██ ███████
+   ██    ██   ██ ██   ██ ████   ██ ██      ██    ██    ██ ██    ██ ████   ██ ██
+ ██    ██████  ███████ ██ ██  ██ ███████ ██    ██    ██ ██    ██ ██ ██  ██ ███████
+ ██    ██   ██ ██   ██ ██  ██ ██      ██ ██    ██    ██ ██    ██ ██  ██ ██      ██
+ ██    ██   ██ ██   ██ ██   ████ ███████ ██    ██    ██  ██████  ██   ████ ███████
 
+*/
+/* =================-------| TRANSITIONS - MILISEGUNDOS |-------================= */
 
 .t-02s {
   transition: 0.2s;
@@ -1635,7 +1816,7 @@ i.info {
   -o-transition: 0.3s;
 }
 
-
+/* =================-------| TRANSITIONS - SEGUNDOS |-------================= */
 .t-1s {
   transition: 1s;
   -webkit-transition: 1s;
@@ -1644,23 +1825,39 @@ i.info {
   -o-transition: 1s;
 }
 
+/*
 
+██   ██  █████  ██████  ██ ████████ ███████
+██   ██ ██   ██ ██   ██ ██    ██    ██
+███████ ███████ ██████  ██    ██    ███████
+██   ██ ██   ██ ██   ██ ██    ██         ██
+██   ██ ██   ██ ██████  ██    ██    ███████
 
+*/
+/* = Position Relative - Float Left - Margin Auto - MARGIN AUTO */
 .h-pr-fl-ma {
   position: relative;
   float: left;
   margin: auto;
 }
 
-
+/* = Position Relative - Float Right - Margin Auto - MARGIN AUTO */
 .h-pr-fr-ma {
   position: relative;
   float: right;
   margin: auto;
 }
 
+/*
 
+██     ██ ██ ██████  ████████ ██   ██
+██     ██ ██ ██   ██    ██    ██   ██
+██  █  ██ ██ ██   ██    ██    ███████
+██ ███ ██ ██ ██   ██    ██    ██   ██
+ ███ ███  ██ ██████     ██    ██   ██
 
+*/
+/* Sintax and specials width */
 .w-a {
   width: auto;
 }
@@ -1668,7 +1865,7 @@ i.info {
   width: auto;
 }
 
-
+/* Width px - pt - % - vw - vh */
 
 .w-25px {
   width: 25px;
@@ -1766,16 +1963,24 @@ i.info {
   width: 100%;
 }
 
+/* Min Width px - pt - % - vw - vh */
 
-
-
+/* Max Width px - pt - % - vw - vh */
 
 .max-w-250px {
   max-width: 250px;
 }
 
+/*
 
+██   ██ ███████ ██  ██████  ██   ██ ████████
+██   ██ ██      ██ ██       ██   ██    ██
+███████ █████   ██ ██   ███ ███████    ██
+██   ██ ██      ██ ██    ██ ██   ██    ██
+██   ██ ███████ ██  ██████  ██   ██    ██
 
+*/
+/* Sintax and specials height */
 .h-a {
   height: auto;
 }
@@ -1783,7 +1988,7 @@ i.info {
   height: auto;
 }
 
-
+/* Height px - pt - % - vw - vh */
 
 .h-15px {
   height: 15px;
@@ -1857,18 +2062,26 @@ i.info {
   height: 100%;
 }
 
+/* Max Height px - pt - % - vw - vh */
 
-
-
+/* Min Height px - pt - % - vw - vh */
 
 .min-h-90vh {
   min-height: 90vh;
 }
 
+/*
 
+██     ██ ██ ██████  ████████ ██   ██      █████  ███    ██ ██████      ██   ██ ███████ ██  ██████  ██   ██ ████████
+██     ██ ██ ██   ██    ██    ██   ██     ██   ██ ████   ██ ██   ██     ██   ██ ██      ██ ██       ██   ██    ██
+██  █  ██ ██ ██   ██    ██    ███████     ███████ ██ ██  ██ ██   ██     ███████ █████   ██ ██   ███ ███████    ██
+██ ███ ██ ██ ██   ██    ██    ██   ██     ██   ██ ██  ██ ██ ██   ██     ██   ██ ██      ██ ██    ██ ██   ██    ██
+ ███ ███  ██ ██████     ██    ██   ██     ██   ██ ██   ████ ██████      ██   ██ ███████ ██  ██████  ██   ██    ██
 
+*/
+/* Sintax and specials width and height */
 
-
+/* Width and Height px */
 
 .w-and-h-25px {
   width: 25px;
@@ -1910,9 +2123,9 @@ i.info {
   height: 500px;
 }
 
+/* Width and Height % */
 
-
-
+/* Responsive */
 @media only screen and (max-width: 768px) {
   .notifier{
     width: 100%;
@@ -1921,9 +2134,15 @@ i.info {
     right: 0px;
     margin: auto;
   }
- 
- 
- 
+  /*
+  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+  ██ ███ █▄ ▄██ ▄▄▀█▄▄ ▄▄██ ██ ██
+  ██ █ █ ██ ███ ██ ███ ████ ▄▄ ██
+  ██▄▀▄▀▄█▀ ▀██ ▀▀ ███ ████ ██ ██
+  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+  */
+  /* Sintax and specials mobile width */
+  /* Width px - pt - % - vw - vh */
   .m-w-100px {
     width: 100px;
   }
@@ -1951,11 +2170,17 @@ i.info {
   .m-w-100 {
     width: 100% !important;
   }
- 
- 
- 
- 
- 
+  /* Min Width px - pt - % - vw - vh */
+  /* Max Width px - pt - % - vw - vh */
+  /*
+  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+  ██ ██ ██ ▄▄▄█▄ ▄██ ▄▄ ██ ██ █▄▄ ▄▄██
+  ██ ▄▄ ██ ▄▄▄██ ███ █▀▀██ ▄▄ ███ ████
+  ██ ██ ██ ▀▀▀█▀ ▀██ ▀▀▄██ ██ ███ ████
+  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+  */
+  /* Sintax and specials height */
+  /* Height px - pt - % - vw - vh */
   .m-h-100px {
     height: 100px;
   }
@@ -1971,17 +2196,25 @@ i.info {
   .m-h-60 {
     height: 60%;
   }
- 
- 
+  /* Max Height px - pt - % - vw - vh */
+  /* Min Height px - pt - % - vw - vh */
 }
 
+/*
 
+███    ███  █████  ██████   ██████  ██ ███    ██
+████  ████ ██   ██ ██   ██ ██       ██ ████   ██
+██ ████ ██ ███████ ██████  ██   ███ ██ ██ ██  ██
+██  ██  ██ ██   ██ ██   ██ ██    ██ ██ ██  ██ ██
+██      ██ ██   ██ ██   ██  ██████  ██ ██   ████
 
+*/
+/* Sintax and specials margin */
 .m-a {
   margin: auto;
 }
 
-
+/* Margin , Margin-Top , Margin-Right , Margin-Bottom , Margin-Left px */
 
 .m-5px {
   margin: 5px;
@@ -2057,20 +2290,20 @@ i.info {
 
 
 
+/* --------------------------------------- */
 
 
 
+/* POSITIONS LEFT - RIGHT - TOP - BOTTOM */
 
 
 
-
-
-
+/* --------------------------------------- */
 
     
 
 
-
+/* --------------- TOP --------------------*/
 
 
 .t-0px {
@@ -2082,7 +2315,7 @@ i.info {
 }
 
 
-
+/* --------------- RIGHT --------------------*/
 
 
 .r-0px {
@@ -2093,7 +2326,7 @@ i.info {
   right: 10px;
 }
 
-
+/* ---------------- LEFT --------------------*/
 
 .l-0px {
   left: 0px;
@@ -2105,7 +2338,7 @@ i.info {
 
 
 
-
+/* --------------- BOTTOM --------------------*/
 .b-0px {
   bottom: 0px;
 }
@@ -2115,10 +2348,18 @@ i.info {
 }
 
 
+/*
 
+██████   █████  ██████  ██████  ██ ███    ██  ██████
+██   ██ ██   ██ ██   ██ ██   ██ ██ ████   ██ ██
+██████  ███████ ██   ██ ██   ██ ██ ██ ██  ██ ██   ███
+██      ██   ██ ██   ██ ██   ██ ██ ██  ██ ██ ██    ██
+██      ██   ██ ██████  ██████  ██ ██   ████  ██████
 
+*/
+/* Sintax and specials padding */
 
-
+/* Padding , Padding-Top , Padding-Right , Padding-Bottom , Padding-Left px */
 
 .p-2px {
   padding: 2px;
@@ -2207,13 +2448,13 @@ i.info {
   padding-left: 30px;
 }
 
+/* NS padding */
 
+/* Responsive */
 
+/* SQUARE */
 
-
-
-
-
+/* Circle */
 .circle {
   border-radius: 50696px;
   -webkit-border-radius: 50696px;
@@ -2224,8 +2465,16 @@ i.info {
   border-style: inherit;
 }
 
+/*
 
+ ██████  ██    ██ ███████ ██████  ███████ ██       ██████  ██     ██
+██    ██ ██    ██ ██      ██   ██ ██      ██      ██    ██ ██     ██
+██    ██ ██    ██ █████   ██████  █████   ██      ██    ██ ██  █  ██
+██    ██  ██  ██  ██      ██   ██ ██      ██      ██    ██ ██ ███ ██
+ ██████    ████   ███████ ██   ██ ██      ███████  ██████   ███ ███
 
+*/
+/* Sintax and specials overflow */
 .of-auto {
   overflow: auto;
 }
@@ -2240,13 +2489,13 @@ i.info {
   overflow: visible;
 }
 
+/* =================-------| OVERFLOW Y |-------================= */
 
+/* Show overflow y scroll on hover */
 
+/*  Show overflow y auto on hover */
 
-
-
-
-
+/* =================-------| OVERFLOW X |-------================= */
 
 .of-x-auto {
   overflow-x: auto;
@@ -2260,25 +2509,39 @@ i.info {
   overflow-x: none;
 }
 
+/* Show overflow x scroll on hover */
 
+/*  Show overflow x auto on hover */
 
+/* =================-------| OVERFLOW TEXT |-------================= */
 
-
-
-
-
+/* Responsive */
 @media only screen and (max-width: 768px) {
- 
- 
- 
- 
- 
- 
- 
- 
+  /*
+  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+  ██ ▄▄▄ ██ ███ ██ ▄▄▄██ ▄▄▀██ ▄▄▄██ █████ ▄▄▄ ██ ███ ██
+  ██ ███ ███ █ ███ ▄▄▄██ ▀▀▄██ ▄▄███ █████ ███ ██ █ █ ██
+  ██ ▀▀▀ ███▄▀▄███ ▀▀▀██ ██ ██ █████ ▀▀ ██ ▀▀▀ ██▄▀▄▀▄██
+  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+  */
+  /* Sintax and specials overflow */
+  /* =================-------| OVERFLOW Y |-------================= */
+  /* Show overflow y scroll on hover */
+  /*  Show overflow y auto on hover */
+  /* =================-------| OVERFLOW X |-------================= */
+  /* Show overflow x scroll on hover */
+  /*  Show overflow x auto on hover */
 }
 
+/*
 
+██████   ██████  ███████ ██ ████████ ██  ██████  ███    ██
+██   ██ ██    ██ ██      ██    ██    ██ ██    ██ ████   ██
+██████  ██    ██ ███████ ██    ██    ██ ██    ██ ██ ██  ██
+██      ██    ██      ██ ██    ██    ██ ██    ██ ██  ██ ██
+██       ██████  ███████ ██    ██    ██  ██████  ██   ████
+
+*/
 
 
 .pr {
@@ -2293,28 +2556,50 @@ i.info {
   position: fixed;
 }
 
-
+/* Responsive */
 @media only screen and (max-width: 768px) {
- 
+  /*
+  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+  ██ ▄▄ ██ ▄▄▄ ██ ▄▄▄ █▄ ▄█▄▄ ▄▄█▄ ▄██ ▄▄▄ ██ ▀██ ██
+  ██ ▀▀ ██ ███ ██▄▄▄▀▀██ ████ ████ ███ ███ ██ █ █ ██
+  ██ █████ ▀▀▀ ██ ▀▀▀ █▀ ▀███ ███▀ ▀██ ▀▀▀ ██ ██▄ ██
+  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+  */
 }
 
+/*
 
+███████      ██ ███    ██ ██████  ███████ ██   ██
+   ███       ██ ████   ██ ██   ██ ██       ██ ██
+  ███  █████ ██ ██ ██  ██ ██   ██ █████     ███
+ ███         ██ ██  ██ ██ ██   ██ ██       ██ ██
+███████      ██ ██   ████ ██████  ███████ ██   ██
 
+*/
 
+/*
 
+██████  ██ ███████ ██████  ██       █████  ██    ██
+██   ██ ██ ██      ██   ██ ██      ██   ██  ██  ██
+██   ██ ██ ███████ ██████  ██      ███████   ████
+██   ██ ██      ██ ██      ██      ██   ██    ██
+██████  ██ ███████ ██      ███████ ██   ██    ██
+
+*/
+/* Sintax and specials display */
 
 .d-n {
   display: none ;
 }
 
-
+/* =================-------| DISPLAY BLOCK |-------================= */
 .d-b {
   display: block;
 }
 
+/* =================-------| DISPLAY GRID |-------================= */
 
-
-
+/* =================-------| DISPLAY FLEX |-------================= */
 .d-f {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2328,54 +2613,76 @@ i.info {
   clear: both;
 }
 
+/* =================-------| DISPLAY TABLE |-------================= */
 
-
-
+/* Responsive */
 @media only screen and (max-width: 768px) {
  
- 
- 
+  /*
+  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+  ██ ▄▄▀█▄ ▄██ ▄▄▄ ██ ▄▄ ██ ████ ▄▄▀██ ███ ██
+  ██ ██ ██ ███▄▄▄▀▀██ ▀▀ ██ ████ ▀▀ ██▄▀▀▀▄██
+  ██ ▀▀ █▀ ▀██ ▀▀▀ ██ █████ ▀▀ █ ██ ████ ████
+  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+  */
+  /* Sintax and specials mobile display */
   .m-d-n {
     display: none !important;
   }
- 
+  /* =================-------| DISPLAY BLOCK |-------================= */
   .m-d-b {
     display: block !important;
   }
- 
- 
+  /* =================-------| DISPLAY GRID |-------================= */
+  /* =================-------| DISPLAY FLEX |-------================= */
   .m-d-f {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
- 
+  /* =================-------| DISPLAY TABLE |-------================= */
 }
 
+/*
 
+ ██████  ██████   █████   ██████ ██ ████████ ██    ██
+██    ██ ██   ██ ██   ██ ██      ██    ██     ██  ██
+██    ██ ██████  ███████ ██      ██    ██      ████
+██    ██ ██      ██   ██ ██      ██    ██       ██
+ ██████  ██      ██   ██  ██████ ██    ██       ██
 
+*/
+/* Sintax and specials opacity */
 
+/* =================-------| OPACITY % |-------================= */
 
+/*
 
+███████  ██████  ███    ██ ████████
+██      ██    ██ ████   ██    ██
+█████   ██    ██ ██ ██  ██    ██
+██      ██    ██ ██  ██ ██    ██
+██       ██████  ██   ████    ██
 
+*/
+/* Sintax and specials font */
 
+/* =================-------| FONT STYLE |-------================= */
 
-
-
-
+/* =================-------| FONT WEIGHT |-------================= */
 
 .f-w-bo {
   font-weight: bold;
 }
 
-
+/* =================-------| FONT FAMILY |-------================= */
 .f-f-Gilroy {
   font-family: 'Gilroy', cursive;
 }
 
+/* =================-------| FONT SIZE PX , EM |-------================= */
 
-
-
+/* =================-------| NODE FONT SIZE |-------================= */
   .ns-f-s-small {
   font-size: 10px;
   line-height: 10px;
@@ -2393,7 +2700,7 @@ i.info {
   line-height: 75px;
 }
 
-
+/* Responsive */
 @media only screen and (max-width: 768px) {
   .m-ns-f-s-text {
    
@@ -2417,8 +2724,16 @@ i.info {
   }
 }
 
+/*
 
+██      ██ ███    ██ ███████     ██   ██
+██      ██ ████   ██ ██          ██   ██
+██      ██ ██ ██  ██ █████ █████ ███████
+██      ██ ██  ██ ██ ██          ██   ██
+███████ ██ ██   ████ ███████     ██   ██
 
+*/
+/* =================-------| LINE HEIGHT PX , EM |-------================= */
 
 .l-h-10px {
   line-height: 10px;
@@ -2432,21 +2747,37 @@ i.info {
   line-height: 30px;
 }
 
+/*
 
+ ██████ ██    ██ ██████  ███████  ██████  ██████
+██      ██    ██ ██   ██ ██      ██    ██ ██   ██
+██      ██    ██ ██████  ███████ ██    ██ ██████
+██      ██    ██ ██   ██      ██ ██    ██ ██   ██
+ ██████  ██████  ██   ██ ███████  ██████  ██   ██
+
+*/
 
 .c-p {
   cursor: pointer;
 }
 
+/*
 
+ ██████  ██████  ██       ██████  ██████
+██      ██    ██ ██      ██    ██ ██   ██
+██      ██    ██ ██      ██    ██ ██████
+██      ██    ██ ██      ██    ██ ██   ██
+ ██████  ██████  ███████  ██████  ██   ██
 
+*/
+/* Sintax and specials color */
 
-
+/* =================-------| PURE COLOR |-------================= */
 .c-white {
   color: white;
 }
 
-
+/* =================-------| NS GLOBAL COLOR |-------================= */
 .ns-c-white {
   color: #fefefe;
 }
@@ -2459,7 +2790,7 @@ i.info {
   color: #666666;
 }
 
-
+/* =================-------| NS COLOR |-------================= */
 
 .ns-c-e {
   background: linear-gradient(135deg, #ffc666 10%, #efc275 50%, #cf9e4b 70%, #f8d18e 100%);
@@ -2489,30 +2820,38 @@ i.info {
   }
 }
 
+/*color: #e1a54b;*/
+/*
 
+██████   █████   ██████ ██   ██  ██████  ██████   ██████  ██    ██ ███    ██ ██████
+██   ██ ██   ██ ██      ██  ██  ██       ██   ██ ██    ██ ██    ██ ████   ██ ██   ██
+██████  ███████ ██      █████   ██   ███ ██████  ██    ██ ██    ██ ██ ██  ██ ██   ██
+██   ██ ██   ██ ██      ██  ██  ██    ██ ██   ██ ██    ██ ██    ██ ██  ██ ██ ██   ██
+██████  ██   ██  ██████ ██   ██  ██████  ██   ██  ██████   ██████  ██   ████ ██████
 
+*/
 
 .ns-bg-tone-1{
   filter: brightness(140%);
 }
-
+/* Gradients */
 
 .bg-g-2{
 background: rgb(0,0,0);
 background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0) 100%);
 }
 
-
+/* Sintax and specials background */
 
 .bg-none {
   background: none;
 }
 
+/* =================-------| BACKGROUND SIZE  |-------================= */
 
+/* =================-------| BACKGROUND POSITION |-------================= */
 
-
-
-
+/* =================-------| BACKGROUND PURE COLOR |-------================= */
 .bg-black {
   background-color: black;
 }
@@ -2532,13 +2871,13 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(
   background-color: green;
 }
 
-
+/* =================-------| BACKGROUND GLOBAL COLOR  |-------================= */
 
 .ns-bg-green {
   background-color: #02e473;
 }
 
-
+/* =================-------| NS BACKGROUND COLOR  |-------================= */
 
 .ns-bg-e {
 
@@ -2546,7 +2885,7 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(
   
 }
 
-
+/* =================-------| BACKGROUND BLACK NODE  |-------================= */
 
 .bg-black-node-o-50 {
   background-color: rgba(0, 0, 0, 0.5);
@@ -2556,29 +2895,39 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+/* =================-------| BACKGROUND WHITE NODE  |-------================= */
 
+/* =================-------| BACKGROUND SOCIAL |-------================= */
 
+/* =================-------| PURE FILL |-------================= */
 
+/* =================-------| NS GLOBAL FILL |-------================= */
 
+/*
 
+██████   ██████  ██████  ██████  ███████ ██████
+██   ██ ██    ██ ██   ██ ██   ██ ██      ██   ██
+██████  ██    ██ ██████  ██   ██ █████   ██████
+██   ██ ██    ██ ██   ██ ██   ██ ██      ██   ██
+██████   ██████  ██   ██ ██████  ███████ ██   ██
 
+*/
+/* =================-------| BORDER |-------================= */
 
+/* =================-------| BORDER - HALF |-------================= */
 
-
-
-
-
-
-
+/* =================-------| BORDER STYLE |-------================= */
 .br-s-solid {
   border-style: solid;
 }
 
-
+/* =================-------| BORDER COLORS PURE |-------================= */
 .br-c-white {
   border-color: white;
 }
 
+/* =================-------| BORDER COLORS NODE |-------================= */
+/* emphasis */
 
 
 
@@ -2586,17 +2935,15 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(
 
 
 
+/*------------------------------ */
 
-
-
-
-
+/* =================-------| BORDER WIDTH |-------================= */
 
 .br-w-1px {
   border-width: 1px;
 }
 
-
+/* =================-------| BORDER RADIUS |-------================= */
 
 .br-r-5px {
   border-radius: 5px;
@@ -2610,7 +2957,7 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(
   border-radius: 50px;
 }
 
-
+/* =================-------| NODE BORDER RADIUS |-------================= */
 .ns-br-r-1 {
   border-radius: 5px;
 }
@@ -2623,13 +2970,21 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(
   border-radius: 15px;
 }
 
+/*
 
+██████   ██████  ██   ██
+██   ██ ██    ██  ██ ██
+██████  ██    ██   ███
+██   ██ ██    ██  ██ ██
+██████   ██████  ██   ██
 
+*/
+/* =================-------| BOX - SIZING |-------================= */
 .b-s-b-b {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
+/* =================-------| BOX - SHADOW |-------================= */
 
-
-
+/* =================-------| NODE BOX SHADOW |-------================= */
