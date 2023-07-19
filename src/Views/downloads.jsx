@@ -1,27 +1,24 @@
-import React, { Fragment, useState } from "react";
-import AdSense from "react-adsense";
-import Title from "../components/title";
-import Btn from "../components/btn";
-
+import React, { Fragment, useState } from 'react'
+import Title from '../components/title'
+import Btn from '../components/btn'
 
 import {
-    DLContents,
-    DLConsultancy,
-    DLIdentity,
-} from "./index.jsx";
-
+  DLContents,
+  DLConsultancy,
+  DLIdentity
+} from './index.jsx'
 
 const Downloads = () => {
-  const [selectedView, setSelectedView] = useState("");
+  const [selectedView, setSelectedView] = useState('')
   const handleViewClick = (viewName) => {
-    setSelectedView(viewName);
-  };
+    setSelectedView(viewName)
+  }
   return (
     <Fragment>
       <div className="w-100 h-a h-pr-fl-ma b-s-b-bs t-a-c m-d-b  m-t-100px m-b-50px ">
         <div className="w-80 m-w-100 r-h-c h-a h-pr-fl-ma b-s-b-b m-b-20px ">
           <Title h1="Descargas"></Title>
-         
+
         </div>
 
       </div>
@@ -31,11 +28,10 @@ const Downloads = () => {
        {/* ADS */}
       </div>
         <div className="w-60 m-w-70 h-a h-pr-fl-ma p-10px">
-        {selectedView === "Identidad" && <DLIdentity/>}
-        {selectedView === "Contenido" && <DLContents/>}
-        {selectedView === "Consultoría" && <DLConsultancy/>}
-  
-       
+        {selectedView === 'Identidad' && <DLIdentity/>}
+        {selectedView === 'Contenido' && <DLContents/>}
+        {selectedView === 'Consultoría' && <DLConsultancy/>}
+
         </div>
         <div className="w-20 m-w-30 h-a h-pr-fl-ma bg-d p-10px">
 
@@ -43,26 +39,22 @@ const Downloads = () => {
           <div className="w-100 h-a h-pr-fl-ma b-s-b-b  m-d-b">
             <Btn
               className="w-100 m-w-100 p-l-20px p-r-20px p-10px  f-w-bo bg-d m-b-5px"
-              click={() => handleViewClick("Identidad")}
+              click={() => handleViewClick('Identidad')}
               text="Identidad"
             ></Btn>
             <Btn
               className="w-100 m-w-100 p-l-20px p-r-20px p-10px  f-w-bo bg-d m-b-5px"
-              click={() => handleViewClick("Contenido")}
+              click={() => handleViewClick('Contenido')}
               text="Contenido"
             ></Btn>
             <Btn
               className="w-100 m-w-100 p-l-20px p-r-20px p-10px  f-w-bo bg-d m-b-5px"
-              click={() => handleViewClick("Consultoría")}
+              click={() => handleViewClick('Consultoría')}
               text="Consultoría"
             ></Btn>
-       
-         
+
           </div>
         </div>
-
-
-
 
         <div className="w-100 m-w-100 h-a h-pr-fl-ma bg-d p-10px">
          {/* ADS */}</div>
@@ -79,7 +71,7 @@ const Downloads = () => {
       </div>
       <div className="w-100 h-200px h-pr-fl-ma b-s-b-b  m-d-b">&nbsp;</div>
     </Fragment>
-  );
-};
+  )
+}
 
-export default Downloads;
+export default Downloads

@@ -1,29 +1,30 @@
-import React, { useState } from "react";
-import ReactDOM from "react-dom";
+import React, { useState } from 'react'
+import PropTypes from 'prop-types'
+import ReactDOM from 'react-dom'
 
-const ImageComponent = ({ imageUrl, className, imgcStyle,imgcclassName }) => {
-  const [modalOpen, setModalOpen] = useState(false);
+const ImageComponent = ({ imageUrl, className, imgcStyle, imgcclassName }) => {
+  const [modalOpen, setModalOpen] = useState(false)
 
-  const [scale, setScale] = useState(1);
+  const [scale, setScale] = useState(1)
   const openModal = () => {
-    setModalOpen(true);
-  };
+    setModalOpen(true)
+  }
 
   const closeModal = () => {
-    setModalOpen(false);
-  };
+    setModalOpen(false)
+  }
 
   const handleZoomIn = () => {
-    setScale(scale + 0.1);
-  };
+    setScale(scale + 0.1)
+  }
 
   const handleZoomOut = () => {
-    setScale(scale - 0.1);
-  };
+    setScale(scale - 0.1)
+  }
 
   const handleResetZoom = () => {
-    setScale(1);
-  };
+    setScale(1)
+  }
 
   if (modalOpen) {
     return ReactDOM.createPortal(
@@ -33,7 +34,7 @@ const ImageComponent = ({ imageUrl, className, imgcStyle,imgcclassName }) => {
             src={imageUrl}
             alt="Imagen"
             className={`${imgcclassName} w-100 h-100 centered `}
-            Style={` object-fit: contain;  ${imgcStyle} `}
+            style={` object-fit: contain;  ${imgcStyle} `}
           />
           <div className="ZoomControls w-300px bg-d-t flexbox d-n">
             <button className="zoom-button c-p h-e" onClick={handleZoomIn}>
@@ -52,8 +53,8 @@ const ImageComponent = ({ imageUrl, className, imgcStyle,imgcclassName }) => {
         </div>
         <div className="modal-overlay" onClick={closeModal}></div>
       </div>,
-      document.getElementById("modal-root") 
-    );
+      document.getElementById('modal-root')
+    )
   }
 
   return (
@@ -63,10 +64,15 @@ const ImageComponent = ({ imageUrl, className, imgcStyle,imgcclassName }) => {
         alt="Imagen"
         onClick={openModal}
         className={` ${className} modal-image w-100 h-100 h-pr-fl-ma b-s-b-b `}
-        Style={{ objectFit: 'contain', transform: `scale(${scale})` }}
+        style={{ objectFit: 'contain', transform: `scale(${scale})` }}
       />
     </div>
-  );
-};
-
-export default ImageComponent;
+  )
+}
+ImageComponent.propTypes = {
+  imageUrl: PropTypes.string.isRequired,
+  className: PropTypes.string,
+  imgcStyle: PropTypes.string,
+  imgcclassName: PropTypes.string
+}
+export default ImageComponent

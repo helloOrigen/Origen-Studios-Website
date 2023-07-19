@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 
 const Modal = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false)
 
   return (
     <div className=" ">
@@ -15,7 +15,7 @@ const Modal = () => {
         </div>
       )}
     </div>
-  );
+  )
 }
 
-export default Modal;
+export default Modal

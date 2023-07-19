@@ -1,8 +1,8 @@
-import React, { Fragment } from "react";
+import React, { Fragment } from 'react'
 
-import Btn from "./btn";
+import Btn from './btn'
 
-export default function SubMenuLegal(props) {
+export default function SubMenuLegal (props) {
   return (
     <Fragment>
       <div className="w-100 h-a p-10px flexbox f-w-a m-d-b bg-black-node-o-70 blur ns-br-r-1 m-5px h-pr-fl-ma">
@@ -10,12 +10,12 @@ export default function SubMenuLegal(props) {
           className="p-l-10px f-w-bo p-r-10px"
           enlace="/terms"
           text="Términos y condiciones"
-        ></Btn>{" "}
+        ></Btn>{' '}
         <Btn
           className="p-l-10px f-w-bo p-r-10px"
           enlace="/privacy"
           text="Políticas de Privacidad"
-        ></Btn>{" "}
+        ></Btn>{' '}
         <Btn
           className="p-l-10px f-w-bo p-r-10px"
           enlace="/cookies"
@@ -23,5 +23,5 @@ export default function SubMenuLegal(props) {
         ></Btn>
       </div>
     </Fragment>
-  );
+  )
 }

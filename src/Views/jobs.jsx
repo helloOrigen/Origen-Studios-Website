@@ -1,20 +1,17 @@
-import React, { Fragment } from "react";
-import { Link } from "react-router-dom";
-import ContentBox from "../components/contentBox";
+import React, { Fragment } from 'react'
+import { Link } from 'react-router-dom'
+import ContentBox from '../components/contentBox'
 
-import CardContainer from "../components/cardcontainer";
-import Card from "../components/card";
-import Pen from "../assets/icons/pen.svg";
-import Code from "../assets/icons/code.svg";
-import Briefcase from "../assets/icons/briefcase.svg";
-import Terminal from "../assets/icons/terminal.svg";
-import DocumentStack from "../assets/icons/document_stack.svg";
-import Translate from "../assets/icons/translate.svg";
-import VolumeHigh from "../assets/icons/volume_high.svg";
-import BellRinging from "../assets/icons/bell_ringing.svg";
-
-
-
+import CardContainer from '../components/cardcontainer'
+import Card from '../components/card'
+import Pen from '../assets/icons/pen.svg'
+import Code from '../assets/icons/code.svg'
+import Briefcase from '../assets/icons/briefcase.svg'
+import Terminal from '../assets/icons/terminal.svg'
+import DocumentStack from '../assets/icons/document_stack.svg'
+import Translate from '../assets/icons/translate.svg'
+import VolumeHigh from '../assets/icons/volume_high.svg'
+import BellRinging from '../assets/icons/bell_ringing.svg'
 
 const Jobs = () => {
   return (
@@ -36,32 +33,25 @@ const Jobs = () => {
 
         <div className="w-40 m-w-100 m-h-60 h-100 h-pr-fl-ma b-s-b-b of-auto f-f-Gilroy p-10px  ">
         <div className="w-100 h-a h-pr-fl-ma p-10px r-v-c bg-black-node-o-70 blur ns-br-r-1">
-       
-   <ContentBox className="p-10px " title="¿Estás disponible?" subtitle="¡Conocé nuestras vacantes disponibles!"></ContentBox>   
+
+   <ContentBox className="p-10px " title="¿Estás disponible?" subtitle="¡Conocé nuestras vacantes disponibles!"></ContentBox>
    <div className="w-100 h-a h-pr-fl-ma p-l-30px p-r-30px  f-f-Gilroy f-w-bo c-white">
       <ol className="l-h-30px h-pr-fl-ma w-a h-a m-b-20px ">
-     
+
         <li type="disc">Haz click en el sector que más te represente</li>
         <li type="disc">Completa nuestro formulario y postúlate!</li>
-      
+
       </ol>
     </div>
  <span className="w-100 h-a p-10px h-pr-fl-ma bg-black-node-o-70 blur ns-br-r-1">  En caso de no tener vacantes, contamos con nuestra lista de oportunidades para que otras empresas puedan saber de ti!</span>
 
-
-   
    </div>
    </div>
-     
-   
-
-     
-
 
       <div className="w-100  h-a h-pr-fl-ma b-s-b-b p-50px of-n">
           <CardContainer >
-            <Link className="h-e-scale" to="https://forms.office.com/r/pBrb5qizQE" alt="Ventas"><Card title="Ventas" subtitle="Activo"  icon={` ${Briefcase} `}/></Link>
-            <Link className="" to="" alt="Marketing"><Card titleclassName="m-b-20px ns-c-gray-6 " CardClassName="inactive" title="Marketing"  icon={` ${BellRinging} `}/></Link>
+            <Link className="h-e-scale" to="https://forms.office.com/r/pBrb5qizQE" alt="Ventas"><Card title="Ventas" subtitle="Activo" icon={` ${Briefcase} `}/></Link>
+            <Link className="" to="" alt="Marketing"><Card titleclassName="m-b-20px ns-c-gray-6 " CardClassName="inactive" title="Marketing" icon={` ${BellRinging} `}/></Link>
             <Link className="h-e-scale" to="https://forms.office.com/r/HxdyDm49a7" alt="Desarrollo"><Card title="Desarrollo" subtitle="Activo" icon={` ${Code} `}/></Link>
             <Link className="" to="" alt="Diseño"><Card titleclassName="m-b-20px ns-c-gray-6 " CardClassName="inactive" title="Diseño" icon={` ${Pen} `}/></Link>
             <Link className="" to="/jobs" alt="Testing"><Card titleclassName="m-b-20px ns-c-gray-6 " CardClassName="inactive" title="Testing" icon={` ${Terminal} `}/></Link>
@@ -73,7 +63,7 @@ const Jobs = () => {
       </div>
       </div>
     </Fragment>
-  );
-};
+  )
+}
 
-export default Jobs;
+export default Jobs

@@ -1,8 +1,8 @@
-import React from "react";
-import Btn from "./btn";
-import ImageComponent from "./ImageComponent";
+import React from 'react'
+import PropTypes from 'prop-types'
+import Btn from './btn'
 
-export default function BlockList(props) {
+export default function BlockList (props) {
   const {
     color,
     title,
@@ -24,24 +24,24 @@ export default function BlockList(props) {
     type,
     icon,
     iconclassName,
-    CardClassName,
-  } = props;
+    CardClassName
+  } = props
 
   const renderTags = () => {
-    if (!tags) return null; // Si no hay etiquetas, no renderizar nada
+    if (!tags) return null
 
-    const tagArray = tags.split(","); // Separar el texto por comas y crear un array
+    const tagArray = tags.split(',')
 
     return tagArray.map((tag, index) => (
       <div
         key={index}
-        className={`tag ${titleclassName}`} // Agrega la clase "tag" y la clase "titleclassName" si es necesario
-        Style={`font-size: 20px; line-height: 25px; ${titleStyle}`}
+        className={`tag ${titleclassName}`}
+        style={{ fontSize: '20px', lineHeight: '25px', ...titleStyle }}
       >
-        {tag.trim()} {/* Agrega .trim() para eliminar espacios en blanco alrededor de cada etiqueta */}
+        {tag.trim()}
       </div>
-    ));
-  };
+    ))
+  }
 
   return (
     <>
@@ -54,11 +54,10 @@ export default function BlockList(props) {
               <img
                 src={image}
                 alt={alt}
-                imgcStyle="object-fit: contain;"
+                style={{ objectFit: 'contain' }}
                 className="w-100 h-100 p-5px b-s-b-b  ns-br-r-2 of-h"
               />
             </div>
-           
           </div>
         )}
 
@@ -69,7 +68,15 @@ export default function BlockList(props) {
                 src={icon}
                 alt={alt}
                 className={`${iconclassName} w-100px h-100px`}
-                Style="position: absolute; margin: auto; right: 0px; left:0px; top: 0px; bottom: 0px; object-fit: cover;"
+                style={{
+                  position: 'absolute',
+                  margin: 'auto',
+                  right: '0px',
+                  left: '0px',
+                  top: '0px',
+                  bottom: '0px',
+                  objectFit: 'cover'
+                }}
               />
             </div>
           </div>
@@ -80,7 +87,7 @@ export default function BlockList(props) {
             {title && (
               <div
                 className={`w-100 p-5px f-f-Gilroy ${titleclassName} f-w-bo ns-c-e`}
-                Style={`font-size: 20px; line-height: 25px; ${titleStyle}`}
+                style={{ fontSize: '20px', lineHeight: '25px', ...titleStyle }}
               >
                 {title}
               </div>
@@ -89,7 +96,7 @@ export default function BlockList(props) {
             {text && (
               <div
                 className={`w-100 p-5px f-f-Gilroy ${titleclassName}`}
-                Style={`font-size: 15px; line-height: 20px; ${titleStyle}`}
+                style={{ fontSize: '15px', lineHeight: '20px', ...titleStyle }}
               >
                 {text}
               </div>
@@ -98,7 +105,7 @@ export default function BlockList(props) {
             {subtitle && (
               <span
                 className={`w-100 h-a h-pr-fl-ma p-10px t-a-c f-f-Gilroy ${subtitleclassName} ns-c-e`}
-                Style={`font-size: 15px; line-height: 15px; ${subtitleStyle}`}
+                style={{ fontSize: '15px', lineHeight: '15px', ...subtitleStyle }}
               >
                 {subtitle}
               </span>
@@ -114,7 +121,7 @@ export default function BlockList(props) {
         {btn && (
           <div className="w-250px flexbox m-d-b m-w-100 h-pr-fl-ma p-10px">
             <Btn
-              BtnonClick={BtnOnClick}
+              BtnOnClick={BtnOnClick}
               className="w-100 m-w-100 h-pr-fr-ma p-15px ns-bg-e f-w-bo"
               text={btnText}
               enlace={btnLink}
@@ -123,5 +130,29 @@ export default function BlockList(props) {
         )}
       </div>
     </>
-  );
+  )
+}
+
+BlockList.propTypes = {
+  color: PropTypes.string,
+  title: PropTypes.string,
+  titleclassName: PropTypes.string,
+  titleStyle: PropTypes.object,
+  subtitle: PropTypes.string,
+  ContentBox: PropTypes.string,
+  subtitleclassName: PropTypes.string,
+  subtitleStyle: PropTypes.object,
+  description: PropTypes.string,
+  image: PropTypes.string,
+  text: PropTypes.string,
+  btn: PropTypes.string,
+  tags: PropTypes.string,
+  btnLink: PropTypes.string,
+  BtnOnClick: PropTypes.string,
+  btnText: PropTypes.string,
+  alt: PropTypes.string,
+  type: PropTypes.string,
+  icon: PropTypes.string,
+  iconclassName: PropTypes.string,
+  CardClassName: PropTypes.string
 }

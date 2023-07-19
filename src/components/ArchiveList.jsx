@@ -1,24 +1,25 @@
-import React from "react";
-import Btn from "./btn";
-import { PDFIcon } from "./icons-component";
+import React from 'react'
+import PropTypes from 'prop-types'
+import Btn from './btn'
+import { PDFIcon } from './icons-component'
 
-export default function ArchiveList(props) {
-  const { enlace, format, name } = props;
+export default function ArchiveList (props) {
+  const { enlace, format, name } = props
 
   const getIconComponent = (format) => {
     switch (format) {
-      case "PDF":
-        return <PDFIcon />;
+      case 'PDF':
+        return <PDFIcon />
       default:
-        return null;
+        return null
     }
-  };
+  }
 
-  const iconComponent = getIconComponent(format);
+  const iconComponent = getIconComponent(format)
 
   const handleButtonClick = () => {
-    window.open(enlace);
-  };
+    window.open(enlace)
+  }
 
   return (
     <>
@@ -34,10 +35,11 @@ export default function ArchiveList(props) {
         {name && (
           <div
             className="w-80 m-l-10px p-20px f-f-Gilroy"
-            Style={{ fontSize: "15px", lineHeight: "15px" }}
+            style={{ fontSize: '15px', lineHeight: '15px' }}
           >
             <a href={enlace}>
-            {name}</a>
+              {name}
+            </a>
           </div>
         )}
 
@@ -53,5 +55,11 @@ export default function ArchiveList(props) {
         )}
       </div>
     </>
-  );
+  )
+}
+
+ArchiveList.propTypes = {
+  enlace: PropTypes.string.isRequired,
+  format: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired
 }

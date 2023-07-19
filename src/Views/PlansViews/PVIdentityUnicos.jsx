@@ -1,9 +1,8 @@
-import React, { Fragment } from 'react';
+import React, { Fragment } from 'react'
 
-import   {Title, ContentBox, Btn } from "../../components/index";
+import { Title, ContentBox, Btn } from '../../components/index'
 
-export default function PVIdentityUnicos(props) {
-
+export default function PVIdentityUnicos (props) {
   return (
     <Fragment>
 <div className="w-100 h-a h-pr-fl-ma">
@@ -84,12 +83,11 @@ export default function PVIdentityUnicos(props) {
                       text="¡Empezar ahora!"
                       enlace="mailto:hello@OrigenStudios.com?subject=Plan-Identidad-Emprendimiento&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Identidad%20Emprendimiento"
                     ></Btn>
-                    <ContentBox
-                      className="w-100 t-a-c m-t-5px f-w-bo "
-                      Style="font-size: 10px;"
-                    >
-                      Cósto único por temporada y/o hasta agotar stock.
-                    </ContentBox>
+                     <div
+                  className="h-pr-fl-ma w-100 t-a-c m-t-5px f-w-bo ns-f-s-small f-f-Gilroy "
+                >
+                  Cósto único por temporada y/o hasta agotar stock.
+                </div>
                   </div>
                 </div>
               </div>
@@ -175,12 +173,11 @@ export default function PVIdentityUnicos(props) {
                       text="¡Empezar ahora!"
                       enlace="mailto:hello@OrigenStudios.com?subject=Plan-Identidad-Startup&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Identidad%20Startup"
                     ></Btn>
-                    <ContentBox
-                      className="w-100 t-a-c m-t-5px f-w-bo "
-                      Style="font-size: 10px;"
-                    >
-                      Cósto único por temporada y/o hasta agotar stock.
-                    </ContentBox>
+                    <div
+                  className="h-pr-fl-ma w-100 t-a-c m-t-5px f-w-bo ns-f-s-small f-f-Gilroy "
+                >
+                  Cósto único por temporada y/o hasta agotar stock.
+                </div>
                   </div>
                 </div>
               </div>
@@ -265,7 +262,6 @@ export default function PVIdentityUnicos(props) {
                       className="w-100 p-5px ns-bg-e ns-br-r-1 ns-f-s-small f-w-bo"
                       list="Editables logotipo"
                     ></ContentBox>
-                   
 
                     <Btn
                       className="w-100 p-15px f-w-bo m-t-20px bg-g-identity  "
@@ -273,12 +269,11 @@ export default function PVIdentityUnicos(props) {
                       enlace="mailto:hello@OrigenStudios.com?subject=Plan-Identidad-Mediana-Empresa&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Identidad%20Mediana-Empresa"
 
                     ></Btn>
-                    <ContentBox
-                      className="w-100 t-a-c m-t-5px f-w-bo "
-                      Style="font-size: 10px;"
-                    >
-                      Cósto único por temporada y/o hasta agotar stock.
-                    </ContentBox>
+                     <div
+                  className="h-pr-fl-ma w-100 t-a-c m-t-5px f-w-bo ns-f-s-small f-f-Gilroy "
+                >
+                  Cósto único por temporada y/o hasta agotar stock.
+                </div>
                   </div>
                 </div>
               </div>
@@ -358,8 +353,6 @@ export default function PVIdentityUnicos(props) {
                       listclassName="ns-f-s-small f-w-bo"
                       list="10 Mockup funcional (PNG ó JPG)"
                     ></ContentBox>
-                 
-                
  <ContentBox
                       className="w-100 m-b-10px"
                       listclassName="ns-f-s-small f-w-bo"
@@ -378,19 +371,17 @@ export default function PVIdentityUnicos(props) {
                       list="Editables brandbook"
                     ></ContentBox>
 
-
                     <Btn
                       className="w-100 p-15px f-w-bo m-t-20px bg-g-identity  "
                       text="¡Empezar ahora!"
                       enlace="mailto:hello@OrigenStudios.com?subject=Plan-Identidad-Empresa-Nacional&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Identidad%20Empresa-Nacional"
 
                     ></Btn>
-                    <ContentBox
-                      className="w-100 t-a-c m-t-5px f-w-bo "
-                      Style="font-size: 10px;"
-                    >
-                      Cósto único por temporada y/o hasta agotar stock.
-                    </ContentBox>
+                     <div
+                  className="h-pr-fl-ma w-100 t-a-c m-t-5px f-w-bo ns-f-s-small f-f-Gilroy "
+                >
+                  Cósto único por temporada y/o hasta agotar stock.
+                </div>
                   </div>
                 </div>
               </div>
@@ -398,5 +389,5 @@ export default function PVIdentityUnicos(props) {
             </div>
 
          </Fragment>
-         );
+  )
 }

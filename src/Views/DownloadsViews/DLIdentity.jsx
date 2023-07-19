@@ -1,8 +1,8 @@
-import React from "react";
-import { ArchiveList } from "../../components/index";
+import React from 'react'
+import { ArchiveList } from '../../components/index'
 
-export default function DLIdentity(props) {
-    return (
+export default function DLIdentity (props) {
+  return (
       <>
       <ArchiveList
         name="OS-Preguntas-Clave-Branding.pdf"
@@ -11,5 +11,5 @@ export default function DLIdentity(props) {
         alt="Icono PDF"
       />
     </>
-  );
+  )
 }

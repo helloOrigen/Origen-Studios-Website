@@ -1,17 +1,9 @@
-import React, { Fragment} from "react";
-
-import { Link } from "react-router-dom";
-import OSLogotipo from "../assets/logo/OS-logotipo-m-white-transparent_svg.svg";
-
-import Close from "../assets/icons/close.svg";
-import ChervronUpDouble from "../assets/icons/chevron_up_double.svg";
-import ChervronLeft from "../assets/icons/chevron_left.svg";
-import Home from "../assets/icons/home.svg";
-
-import MobileBtnMenu from "../assets/components/SVG/mobile-btn-menu.svg";
+import React, { Fragment } from 'react'
+import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom'
+import OSLogotipo from '../assets/logo/OS-logotipo-m-white-transparent_svg.svg'
 
 const Footer = ({ className }) => {
-
   return (
     <Fragment>
       <div
@@ -20,15 +12,14 @@ const Footer = ({ className }) => {
         {/* Footer */}
         <div
           className="w-100 r-h-c h-100 h-pr-fl-ma b-s-b-b "
-          Style="font-size: 10px; color: white; line-height: 15px; "
+          style={{ fontSize: '10px', color: 'white', lineHeight: '15px' }}
         >
-          {" "}
           {/* Block 1 --------------- */}
           <div className="noselect w-80 m-d-n h-100 flexbox b-s-b-b h-pr-fl-ma ">
             {/* Bloque 1 - 25% height */}
             <div className="w-a h-a h-pr-fl-ma noselect ">
               <b>
-                OrigenStudios<sup Style="font-size:75%;  top: -0.28em;">®</sup>
+                OrigenStudios<sup style={{ fontSize: '75%', top: '-0.28em' }}>®</sup>
               </b>
               &zwj;&nbsp;Somos&zwj;&nbsp;&zwj;el&zwj;&nbsp;&zwj;origen&zwj;&nbsp;&zwj;de&zwj;&nbsp;&zwj;su&zwj;&nbsp;&zwj;marca.
             </div>
@@ -48,7 +39,7 @@ const Footer = ({ className }) => {
                 href="mailto:hello@origenstudios.com"
                 alt="Comuníquese con nosotros!"
               >
-                hello@origenstudios.com{" "}
+                hello@origenstudios.com{' '}
               </a>
             </div>
 
@@ -65,17 +56,22 @@ const Footer = ({ className }) => {
               <div className="h-pr-fl-ma w-100 h-35px  r-v-c flexbox">
                 <img
                   className=" h-80  h-pr-fr-ma  draw "
-                  Style="object-fit: cover;  width: 170px;"
+                  style={{ objectFit: 'cover', width: '170px' }}
                   src={OSLogotipo}
                   alt="OS-LOGOTIPO"
                 />
               </div>
             </div>
           </div>
-       
+
         </div>
       </div>
     </Fragment>
-  );
-};
-export default Footer;
+  )
+}
+
+Footer.propTypes = {
+  className: PropTypes.string
+}
+
+export default Footer

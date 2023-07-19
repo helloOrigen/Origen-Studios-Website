@@ -1,10 +1,9 @@
-import React from "react";
-import { ArchiveList } from "../../components/index";
+import React from 'react'
 
-export default function DLConsultancy(props) {
+export default function DLConsultancy (props) {
   return (
     <>
 
     </>
-  );
+  )
 }

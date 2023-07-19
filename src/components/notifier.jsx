@@ -1,6 +1,6 @@
-/* eslint-disable react-hooks/rules-of-hooks */
-import React, { Fragment, useState } from "react";
-import Cookies from "js-cookie";
+import React, { Fragment, useState } from 'react'
+import PropTypes from 'prop-types'
+import Cookies from 'js-cookie'
 
 const notifier = ({
   title,
@@ -14,36 +14,41 @@ const notifier = ({
   Accept,
   Decline,
   intitle,
-  children,
+  children
 }) => {
-  const [Notifier, setNotifier] = useState("");
+  const [Notifier, setNotifier] = useState('')
 
   const handleSetCookie = () => {
-    Cookies.set("user", "value", { expires: 7, path: "/", secure: true });
-    handleReadCookie();
-    setNotifier(!Notifier);
-  };
+    Cookies.set('user', 'value', { expires: 7, path: '/', secure: true })
+    handleReadCookie()
+    setNotifier(!Notifier)
+  }
   const handleReadCookie = () => {
-    Cookies.get("user", "value", { domain: "origenstudios.com" });
-  };
+    Cookies.get('user', 'value', { domain: 'origenstudios.com' })
+  }
 
   const handleRemoveCookie = () => {
-    Cookies.remove("user", "value", { path: "/", domain: "origenstudios.com" });
-    setNotifier(!Notifier);
-  };
+    Cookies.remove('user', 'value', { path: '/', domain: 'origenstudios.com' })
+    setNotifier(!Notifier)
+  }
 
   return (
     <Fragment>
       {!Notifier && (
         <div
-          className={`m-w-95  ${className} notifier d-i-f ns-bg-e p-5px noselect `}
-          Style={` ${Style} `}
+          className={`m-w-95 ${className} notifier d-i-f ns-bg-e p-5px noselect`}
+          style={{ ...Style }}
         >
           <div className="w-100 h-a h-pr-fl-ma bg-d br-r-50px p-20px p-l-30px">
             {title && (
               <div
-                className="h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy "
-                Style="font-size: 25px; font-weight:bold; line-height: 30px; color: white;"
+                className="h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy"
+                style={{
+                  fontSize: '25px',
+                  fontWeight: 'bold',
+                  lineHeight: '30px',
+                  color: 'white'
+                }}
               >
                 {title}
               </div>
@@ -51,9 +56,13 @@ const notifier = ({
             {subtitle && (
               <div
                 className="h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy"
-                Style="font-size: 15px; font-weight:bold; line-height: 20px; color: #666666;"
+                style={{
+                  fontSize: '15px',
+                  fontWeight: 'bold',
+                  lineHeight: '20px',
+                  color: '#666666'
+                }}
               >
-                {" "}
                 {subtitle}
                 <br />
                 <br />
@@ -62,13 +71,23 @@ const notifier = ({
             {intitle && (
               <div
                 className="h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy"
-                Style="font-size: 25px; font-weight:bold; line-height: 30px; color: white;"
+                style={{
+                  fontSize: '25px',
+                  fontWeight: 'bold',
+                  lineHeight: '30px',
+                  color: 'white'
+                }}
               >
                 <div className="h-pr-fl-ma w-a h-a ">{title}</div>
                 {intitle && (
                   <div
-                    className="h-pr-fl-ma b-s-b-b w-a h-a f-f-Gilroy "
-                    Style="font-size: 15px; line-height: 30px; font-style: italic; color: white;"
+                    className="h-pr-fl-ma b-s-b-b w-a h-a f-f-Gilroy"
+                    style={{
+                      fontSize: '15px',
+                      lineHeight: '30px',
+                      fontStyle: 'italic',
+                      color: 'white'
+                    }}
                   >
                     &nbsp;{intitle}
                   </div>
@@ -78,7 +97,7 @@ const notifier = ({
             {text && (
               <div
                 className="h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy"
-                Style="font-size: 15px; line-height: 20px; color: white;"
+                style={{ fontSize: '15px', lineHeight: '20px', color: 'white' }}
               >
                 {text}
               </div>
@@ -86,17 +105,21 @@ const notifier = ({
             {note && (
               <div
                 className="h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy m-t-10px"
-                Style="font-size: 10px; line-height: 15px; color: white;  font-style: italic;"
+                style={{
+                  fontSize: '10px',
+                  lineHeight: '15px',
+                  color: 'white',
+                  fontStyle: 'italic'
+                }}
               >
-                {" "}
                 {note}
               </div>
             )}
             {children}
             {action && (
               <div
-                className="h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy  m-t-10px "
-                Style="font-size: 15px; line-height: 15px; ;"
+                className="h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy m-t-10px"
+                style={{ fontSize: '15px', lineHeight: '15px' }}
               >
                 <a href={`${link}`}>
                   <span className="hover-underline-animation ns-c-e">
@@ -107,14 +130,19 @@ const notifier = ({
             )}
           </div>
 
-          <div className="w-150px  h-a h-pr-fl-ma  p-10px b-s-b-b of-h  ">
+          <div className="w-150px h-a h-pr-fl-ma p-10px b-s-b-b of-h">
             <div className="w-100 m-d-f h-pr-fl-ma -s-b-b">
               {Decline && (
                 <div className="d-n m-d-b m-w-50 h-100px h-pr-fl-ma p-5px">
                   <button
                     type="button"
-                    className="h-pr-fl-ma b-s-b-b w-a centered p-5px h-a  f-f-Gilroy   hover-underline-animation"
-                    Style="font-size: 15px; line-height: 10px; color: white; background:none !important"
+                    className="h-pr-fl-ma b-s-b-b w-a centered p-5px h-a f-f-Gilroy hover-underline-animation"
+                    style={{
+                      fontSize: '15px',
+                      lineHeight: '10px',
+                      color: 'white',
+                      background: 'none !important'
+                    }}
                     onClick={handleRemoveCookie}
                   >
                     Rechazar
@@ -123,11 +151,16 @@ const notifier = ({
               )}
 
               {Accept && (
-                <div className="w-100 m-w-50 h-50px h-pr-fl-ma  p-5px">
+                <div className="w-100 m-w-50 h-50px h-pr-fl-ma p-5px">
                   <button
                     type="button"
-                    className="h-pr-fl-ma bg-white b-s-b-b w-a centered p-20px  f-w-bo h-a f-f-Gilroy h-e c-p"
-                    Style="font-size: 15px; border-radius: 50px; line-height: 10px; color: black; "
+                    className="h-pr-fl-ma bg-white b-s-b-b w-a centered p-20px f-w-bo h-a f-f-Gilroy h-e c-p"
+                    style={{
+                      fontSize: '15px',
+                      borderRadius: '50px',
+                      lineHeight: '10px',
+                      color: 'black'
+                    }}
                     onClick={handleSetCookie}
                   >
                     Aceptar
@@ -136,11 +169,16 @@ const notifier = ({
               )}
 
               {Decline && (
-                <div className="m-d-n d-b w-100  h-100px  h-pr-fl-ma p-5px">
+                <div className="m-d-n d-b w-100 h-100px h-pr-fl-ma p-5px">
                   <button
                     type="button"
-                    className="h-pr-fl-ma  b-s-b-b w-a centered p-5px h-a r-h-c f-f-Gilroy   hover-underline-animation"
-                    Style="font-size: 15px; line-height: 10px; color: white; background:none !important"
+                    className="h-pr-fl-ma b-s-b-b w-a centered p-5px h-a r-h-c f-f-Gilroy hover-underline-animation"
+                    style={{
+                      fontSize: '15px',
+                      lineHeight: '10px',
+                      color: 'white',
+                      background: 'none !important'
+                    }}
                     onClick={handleRemoveCookie}
                   >
                     Rechazar
@@ -152,6 +190,21 @@ const notifier = ({
         </div>
       )}
     </Fragment>
-  );
-};
-export default notifier;
+  )
+}
+
+notifier.propTypes = {
+  title: PropTypes.string,
+  subtitle: PropTypes.string,
+  text: PropTypes.string,
+  className: PropTypes.string,
+  note: PropTypes.string,
+  action: PropTypes.string,
+  link: PropTypes.string,
+  Style: PropTypes.object,
+  Accept: PropTypes.bool,
+  Decline: PropTypes.bool,
+  intitle: PropTypes.string,
+  children: PropTypes.node
+}
+export default notifier

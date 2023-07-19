@@ -1,23 +1,23 @@
-import React, { Fragment, useState } from 'react';
+import React, { Fragment, useState } from 'react'
 
-import Title from "../components/title";
-import Btn from "../components/btn";
+import Title from '../components/title'
+import Btn from '../components/btn'
 
-import { PVIdentityUnicos, PVIdentityMensuales } from './index';
+import { PVIdentityUnicos, PVIdentityMensuales } from './index'
 
 const Identity = () => {
-  const [mostrarMensuales, setMostrarMensuales] = useState(false);
-  const [mostrarUnicos, setMostrarUnicos] = useState(false);
+  const [mostrarMensuales, setMostrarMensuales] = useState(false)
+  const [mostrarUnicos, setMostrarUnicos] = useState(false)
 
   const mostrarPlanesMensuales = () => {
-    setMostrarMensuales(true);
-    setMostrarUnicos(false);
-  };
+    setMostrarMensuales(true)
+    setMostrarUnicos(false)
+  }
 
   const mostrarPlanesUnicos = () => {
-    setMostrarMensuales(false);
-    setMostrarUnicos(true);
-  };
+    setMostrarMensuales(false)
+    setMostrarUnicos(true)
+  }
 
   return (
     <Fragment>
@@ -30,7 +30,7 @@ const Identity = () => {
         ></Title>
         <div
           className=" m-w-100 r-h-c h-a h-pr-fl-ma b-s-b-b  m-t-40px m-b-40px  bg-d"
-          Style={{ borderRadius: '20px' }}
+          style={{ borderRadius: '20px' }}
         >
           <span className="w-100 h-pr-fl-ma t-a-c f-f-Gilroy p-20px f-w-bo">
             Haz click aquí para conocer nuestros planes!
@@ -48,7 +48,6 @@ const Identity = () => {
             ></Btn>
           </div>
         </div>
-    
 
       {/* //! ----------------------------------------- MOSTRANDO PLANES UNICOS */}
       {mostrarUnicos && (
@@ -65,10 +64,7 @@ const Identity = () => {
       )}
          </div>  </div>
     </Fragment>
-  );
-};
+  )
+}
 
-export default Identity;
-
-
-
+export default Identity

@@ -1,23 +1,23 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useState } from 'react'
 
-import Title from "../components/title";
+import Title from '../components/title'
 
-import Btn from "../components/btn";
-import { PVContentsUnicos, PVContentsMensuales } from './index';
+import Btn from '../components/btn'
+import { PVContentsUnicos, PVContentsMensuales } from './index'
 
 const Contents = () => {
-  const [mostrarMensuales, setMostrarMensuales] = useState(false);
-  const [mostrarUnicos, setMostrarUnicos] = useState(false);
+  const [mostrarMensuales, setMostrarMensuales] = useState(false)
+  const [mostrarUnicos, setMostrarUnicos] = useState(false)
 
   const mostrarPlanesMensuales = () => {
-    setMostrarMensuales(true);
-    setMostrarUnicos(false);
-  };
+    setMostrarMensuales(true)
+    setMostrarUnicos(false)
+  }
 
   const mostrarPlanesUnicos = () => {
-    setMostrarMensuales(false);
-    setMostrarUnicos(true);
-  };
+    setMostrarMensuales(false)
+    setMostrarUnicos(true)
+  }
 
   return (
     <Fragment>
@@ -30,7 +30,7 @@ const Contents = () => {
         ></Title>
         <div
           className=" m-w-100 r-h-c h-a h-pr-fl-ma b-s-b-b  m-t-40px m-b-40px  bg-d"
-          Style="border-radius: 20px;"
+          style={{ borderRadius: '20px' }}
         >
           <span className="w-100 h-pr-fl-ma t-a-c f-f-Gilroy p-20px f-w-bo">
             Haz click aquí para conocer nuestros planes!
@@ -48,7 +48,6 @@ const Contents = () => {
             ></Btn>
           </div>
         </div>
-    
 
       {/* //! ----------------------------------------- MOSTRANDO PLANES UNICOS */}
       {mostrarUnicos && (
@@ -64,11 +63,11 @@ const Contents = () => {
         </div>
       )}
 </div>
-     
-</div>
-    
-    </Fragment>
-  );
-};
 
-export default Contents;
+</div>
+
+    </Fragment>
+  )
+}
+
+export default Contents

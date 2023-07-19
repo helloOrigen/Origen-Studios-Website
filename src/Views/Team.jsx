@@ -1,10 +1,7 @@
-import React, { Fragment } from "react";
+import React, { Fragment } from 'react'
 
-import ContentBox from "../components/contentBox";
-import Title from "../components/title";
-import Adsense from "../components/Adsense";
-
-
+import ContentBox from '../components/contentBox'
+import Title from '../components/title'
 
 const Team = () => {
   return (
@@ -20,12 +17,9 @@ const Team = () => {
         <div className="w-100  h-100 h-pr-fl-ma b-s-b-b of-auto ">
           <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma b-s-b-b">
             <div className="w-100 h-pr-fl-ma tab-d-b flexbox tab-d-b m-d-b m-d-b tab-w-100 m-w-100 p-20px">
-         
 
-             
               </div>
 
-             
             {/*  // !                            Descripcion                         */}
 
             <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma ">
@@ -33,8 +27,8 @@ const Team = () => {
                 <div className="w-100 h-a  bg-d  ns-br-r-1 of-h p-20px m-w-100 h-a f-f-Gilroy h-pr-fl-ma ">
                   <ContentBox
                     className="h-pr-fl-ma w-100 h-a m-b-10px "
-                    title={"Un equipo en expansión"}
-                    subtitle={"Crecemos contigo."}
+                    title={'Un equipo en expansión'}
+                    subtitle={'Crecemos contigo.'}
                   />
 
                   <span className="h-pr-fl-ma w-100 h-a m-b-20px">
@@ -56,7 +50,7 @@ const Team = () => {
                     nuestros clientes por igual. Trabajamos en estrecha colaboración con
                     su equipo para entender las necesidades específicas de su
                     marca y desarrollar soluciones personalizadas que le generen los
-                    resultados más efectivos. "
+                    resultados más efectivos.
                   </span>
                   <span className="h-pr-fl-ma w-100 h-a m-b-20px ns-c-e-animated">
                     No dude en ponerse en contacto con nosotros para ayudarle a su marca a
@@ -65,14 +59,14 @@ const Team = () => {
                 </div>
               </div>
             </div>
-           
+
           </div>
-         
+
         </div>
       </div>
-    
-    </Fragment>
-  );
-};
 
-export default Team;
+    </Fragment>
+  )
+}
+
+export default Team

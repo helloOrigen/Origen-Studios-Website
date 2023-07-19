@@ -1,23 +1,20 @@
-import React, { useState } from 'react';
-import Btn from './btn';
+import React, { useState } from 'react'
+import Btn from './btn'
 const SearchComponent = () => {
-  const [searchText, setSearchText] = useState('');
-  const [filters, setFilters] = useState([]);
+  const [searchText, setSearchText] = useState('')
+  const [filters] = useState([])
 
   const handleSearch = () => {
-    // Lógica de búsqueda
-    console.log('Realizando búsqueda:', searchText);
-  };
+    console.log('Realizando búsqueda:', searchText)
+  }
 
   const handleClear = () => {
-    setSearchText('');
-    // Lógica adicional de limpieza
-  };
+    setSearchText('')
+  }
 
   const handleFilter = () => {
-    // Lógica de filtros
-    console.log('Aplicando filtros:', filters);
-  };
+    console.log('Aplicando filtros:', filters)
+  }
 
   return (
     <div className="w-100 h-50px h-pr-fl-ma  r-v-c">
@@ -33,7 +30,7 @@ const SearchComponent = () => {
       <Btn className="w-a h-50px h-pr-fl-ma p-l-5px p-r-5px" click={handleSearch} text="Buscar"></Btn>
       </label>
     </div>
-  );
-};
+  )
+}
 
-export default SearchComponent;
+export default SearchComponent

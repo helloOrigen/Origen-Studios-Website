@@ -1,8 +1,7 @@
-import React from "react";
-
-
-export default function CardContainer(props) {
-  const { children } = props;
+import React from 'react'
+import PropTypes from 'prop-types'
+export default function CardContainer (props) {
+  const { children } = props
 
   return (
     <>
@@ -10,5 +9,8 @@ export default function CardContainer(props) {
         {children}
       </div>
     </>
-  );
+  )
+}
+CardContainer.propTypes = {
+  children: PropTypes.string.isRequired
 }

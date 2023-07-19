@@ -1,12 +1,14 @@
-import React, { useState } from "react";
+import React, { useState } from 'react'
+import PropTypes from 'prop-types'
 
-function BtnModal(props) {
-  const [isVisible, setIsVisible] = useState(false);
+function BtnModal (props) {
+  const [isVisible, setIsVisible] = useState(false)
 
   const toggleVisibility = () => {
-    setIsVisible(!isVisible);
-  };
-  const { children, className } = props;
+    setIsVisible(!isVisible)
+  }
+
+  const { children, className } = props
 
   return (
     <div className={` ${className} h-pr-fr-ma  p-10px of-v r-v-c`}>
@@ -18,14 +20,30 @@ function BtnModal(props) {
       </button>
 
       {isVisible && (
-        <div Style="top: 50px; width: 250px; height: 300px; left: 0px; right: 0px; margin: auto; position: absolute; background: red; p-20px; z-index: 99992;">
-          {" "}
+        <div
+          style={{
+            top: '50px',
+            width: '250px',
+            height: '300px',
+            left: '0px',
+            right: '0px',
+            margin: 'auto',
+            position: 'absolute',
+            background: 'red',
+            padding: '20px',
+            zIndex: '99992'
+          }}
+        >
           {children}
-         
         </div>
       )}
     </div>
-  );
+  )
 }
 
-export default BtnModal;
+BtnModal.propTypes = {
+  children: PropTypes.string,
+  className: PropTypes.string
+}
+
+export default BtnModal

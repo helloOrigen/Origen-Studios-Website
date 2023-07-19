@@ -1,23 +1,22 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useState } from 'react'
+import PropTypes from 'prop-types'
+import ContentBox from '../components/contentBox'
+import Title from '../components/title'
+import Btn from '../components/btn'
+import ImageComponent from '../components/ImageComponent'
 
-import ContentBox from "../components/contentBox";
-import Title from "../components/title";
-import Btn from "../components/btn";
-import ImageComponent from "../components/ImageComponent";
-import Adsense from "../components/Adsense";
-
-import CreateIcon from "../assets/icons/create.svg";
+import CreateIcon from '../assets/icons/create.svg'
 
 const Plans = ({ children }) => {
-  const [infoVisible, setInfoVisible] = useState([false, false]);
+  const [infoVisible, setInfoVisible] = useState([false, false])
 
   const toggleInfo = (index) => {
     setInfoVisible((prevState) => {
-      const updatedInfoVisible = [...prevState];
-      updatedInfoVisible[index] = !prevState[index];
-      return updatedInfoVisible;
-    });
-  };
+      const updatedInfoVisible = [...prevState]
+      updatedInfoVisible[index] = !prevState[index]
+      return updatedInfoVisible
+    })
+  }
   return (
     <Fragment>
       <div className="w-95 r-h-c m-w-100 h-a h-pr-fl-ma noselect m-d-b  b-s-b-b m-b-20px ">
@@ -72,20 +71,20 @@ const Plans = ({ children }) => {
                   ></Btn>
                   <ContentBox
                     className="w-100 t-a-c m-t-5px f-w-bo "
-                    Style="font-size: 10px;"
+                    style={{ fontSize: '10px' }}
                   >
                     OrigenStudios.com/plans/identity
                   </ContentBox>
                 </div>
               </div>
-       
+
           </div>
           </div>
           {/* //blue PLANES: 2 - PLANES DE CONTENIDO */}
 
           <div className="w-33 tab-w-50 m-w-100 h-a noselect h-pr-fl-ma ns-br-r-1 p-10px">
           <div className="w-100 h-a h-pr-fl-ma b-s-b-b p-5px bg-g-contents ns-br-r-1">
-           
+
               <div className="w-100 h-a b-s-b-b h-pr-fl-ma flexbox j-c-c p-10px">
                 <ImageComponent
                   className="w-and-h-150px b-s-b-b  h-pr-fl-ma bg-d  ns-br-r-1"
@@ -126,20 +125,20 @@ const Plans = ({ children }) => {
                   ></Btn>
                   <ContentBox
                     className="w-100 t-a-c m-t-5px f-w-bo "
-                    Style="font-size: 10px;"
+                    style={{ fontSize: '10px' }}
                   >
                     OrigenStudios.com/plans/contents
                   </ContentBox>
                 </div>
               </div>
-        
+
           </div>
           </div>
           {/* //blue PLANES: 2 - PLANES DE CONTENIDO */}
 
           <div className="w-33 tab-w-50 m-w-100 h-a h-pr-fl-ma noselect p-10px">
           <div className="w-100 h-a h-pr-fl-ma b-s-b-b p-5px bg-g-asesoria ns-br-r-1">
-    
+
               <div className="w-100 h-a b-s-b-b h-pr-fl-ma flexbox j-c-c p-10px">
                 <ImageComponent
                   className="w-and-h-150px b-s-b-b  h-pr-fl-ma bg-d ns-br-r-1"
@@ -180,7 +179,7 @@ const Plans = ({ children }) => {
                   ></Btn>
                   <ContentBox
                     className="w-100 t-a-c m-t-5px f-w-bo "
-                    Style="font-size: 10px;"
+                    style={{ fontSize: '10px' }}
                   >
                     OrigenStudios.com/plans
                   </ContentBox>
@@ -189,7 +188,7 @@ const Plans = ({ children }) => {
             </div>
           </div>
         </div>
-     
+
       </div>
 
       <div className="w-95 h-pr-fl-ma h-100 b-s-b-b r-h-c noselect p-20px bg-d m-t-20px m-b-20px tab-d-b m-d-b ns-br-r-1">
@@ -209,7 +208,7 @@ const Plans = ({ children }) => {
               <div className="w-a m-w-100 m-d-b h-a h-pr-fr-ma d-i-f p-10px">
                 <Btn
                   className="p-10px  m-w-100 f-w-bo bg-d h-pr-fr-ma"
-                  text={infoVisible[0] ? "- Cerrar info" : "+ Abrir info"}
+                  text={infoVisible[0] ? '- Cerrar info' : '+ Abrir info'}
                   click={() => toggleInfo(0)}
                 ></Btn>
                 <Btn
@@ -223,7 +222,7 @@ const Plans = ({ children }) => {
           <div className="w-100 h-pr-fl-ma ">
             <div
               id="contenedorinfo"
-              className={`w-100 h-a h-pr-fl-ma ${infoVisible[0] ? "" : "d-n"}`}
+              className={`w-100 h-a h-pr-fl-ma ${infoVisible[0] ? '' : 'd-n'}`}
             >
               <span className="w-a h-pr-fl-ma bg-d ns-c-white f-f-Gilroy f-w-bo p-5px m-t-5px">
                 Creamos todo el contenido que su empresa necesite:
@@ -272,7 +271,7 @@ const Plans = ({ children }) => {
             </div>
           </div>
         </div>
-      {/* //? PLANES: 4 - SUPERMERCADOS*/}
+      {/* //? PLANES: 4 - SUPERMERCADOS */}
 
       <div className="w-100 h-pr-fl-ma p-10px bg-g-blue ns-br-r-1 m-b-5px">
       <div className="w-100 h-pr-fl-ma  flexbox m-d-b p-20px">
@@ -283,7 +282,7 @@ const Plans = ({ children }) => {
               <div className="w-a m-w-100 m-d-b h-a h-pr-fr-ma d-i-f p-10px">
                 <Btn
                   className="p-10px  m-w-100 f-w-bo bg-d h-pr-fr-ma"
-                  text={infoVisible[3] ? "- Cerrar info" : "+ Abrir info"}
+                  text={infoVisible[3] ? '- Cerrar info' : '+ Abrir info'}
                   click={() => toggleInfo(3)}
                 ></Btn>
                 <Btn
@@ -297,7 +296,7 @@ const Plans = ({ children }) => {
           <div className="w-100 h-pr-fl-ma ">
             <div
               id="contenedorinfo"
-              className={`w-100 h-a h-pr-fl-ma ${infoVisible[3] ? "" : "d-n"}`}
+              className={`w-100 h-a h-pr-fl-ma ${infoVisible[3] ? '' : 'd-n'}`}
             >
               <span className="w-a h-pr-fl-ma bg-d ns-c-white f-f-Gilroy f-w-bo p-5px m-t-5px">
                 Creamos todo el contenido que su empresa necesite:
@@ -384,7 +383,7 @@ const Plans = ({ children }) => {
               <div className="w-a m-w-100 m-d-b h-a h-pr-fr-ma d-i-f p-10px">
                 <Btn
                   className="p-10px  m-w-100 f-w-bo bg-d h-pr-fr-ma"
-                  text={infoVisible[1] ? "- Cerrar info" : "+ Abrir info"}
+                  text={infoVisible[1] ? '- Cerrar info' : '+ Abrir info'}
                   click={() => toggleInfo(1)}
                 ></Btn>
                 <Btn
@@ -398,7 +397,7 @@ const Plans = ({ children }) => {
           <div className="w-100 h-pr-fl-ma ">
             <div
               id="contenedorinfo"
-              className={`w-100 h-a h-pr-fl-ma ${infoVisible[1] ? "" : "d-n"}`}
+              className={`w-100 h-a h-pr-fl-ma ${infoVisible[1] ? '' : 'd-n'}`}
             >
               <span className="w-a h-pr-fl-ma bg-d ns-c-white f-f-Gilroy f-w-bo p-5px m-t-5px">
                 Creamos todo el contenido que su empresa necesite:
@@ -443,7 +442,7 @@ const Plans = ({ children }) => {
           </div>
         </div>
 
-        {/* //? PLANES: 4 - RESTAURANTES*/}
+        {/* //? PLANES: 4 - RESTAURANTES */}
 
         <div className="w-100 h-pr-fl-ma p-10px bg-g-pink ns-br-r-1 m-b-5px">
         <div className="w-100 h-pr-fl-ma  flexbox m-d-b p-20px">
@@ -454,7 +453,7 @@ const Plans = ({ children }) => {
               <div className="w-a m-w-100 m-d-b h-a h-pr-fr-ma d-i-f p-10px">
                 <Btn
                   className="p-10px  m-w-100 f-w-bo h-pr-fr-ma"
-                  text={infoVisible[2] ? "- Cerrar info" : "+ Abrir info"}
+                  text={infoVisible[2] ? '- Cerrar info' : '+ Abrir info'}
                   click={() => toggleInfo(2)}
                 ></Btn>
                 <Btn
@@ -468,7 +467,7 @@ const Plans = ({ children }) => {
           <div className="w-100 h-pr-fl-ma ">
             <div
               id="contenedorinfo"
-              className={`w-100 h-a h-pr-fl-ma ${infoVisible[2] ? "" : "d-n"}`}
+              className={`w-100 h-a h-pr-fl-ma ${infoVisible[2] ? '' : 'd-n'}`}
             >
               <span className="w-a h-pr-fl-ma bg-d ns-c-white f-f-Gilroy f-w-bo p-5px m-t-5px">
                 Creamos todo el contenido que su empresa necesite:
@@ -515,19 +514,16 @@ const Plans = ({ children }) => {
                   text="Coordinar Reunión"
 
                 ></Btn>
-             
-              
+
             </div>
-            
+
           </div>
         </div>
-
-  
       </div>
-
-   
     </Fragment>
-  );
-};
-
-export default Plans;
+  )
+}
+Plans.propTypes = {
+  children: PropTypes.string
+}
+export default Plans

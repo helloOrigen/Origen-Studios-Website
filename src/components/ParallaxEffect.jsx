@@ -1,69 +1,70 @@
-import React, { useState, useEffect, useLayoutEffect } from 'react';
+import React, { useState, useEffect, useLayoutEffect } from 'react'
+import PropTypes from 'prop-types'
 
-const ParallaxEffect = ({ image1, image2, image1StyleProps, image2StyleProps,  }) => {
-  const [gyroX, setGyroX] = useState(0);
-  const [mouseX, setMouseX] = useState(0);
-  const [containerWidth, setContainerWidth] = useState(0);
-  const [containerHeight, setContainerHeight] = useState(0);
+const ParallaxEffect = ({ image1, image2, peimg1StyleProps, peimg2StyleProps }) => {
+  const [gyroX, setGyroX] = useState(0)
+  const [mouseX, setMouseX] = useState(0)
+  const [containerWidth, setContainerWidth] = useState(0)
+  const [containerHeight, setContainerHeight] = useState(0)
 
   useEffect(() => {
-    let permissionGranted = false;
+    let permissionGranted = false
 
     const handleMotion = (event) => {
-      const { gamma } = event;
-      const normalizedGamma = gamma / 90;
-      setGyroX(normalizedGamma);
-    };
+      const { gamma } = event
+      const normalizedGamma = gamma / 90
+      setGyroX(normalizedGamma)
+    }
 
     const requestPermission = async () => {
       try {
-        await DeviceOrientationEvent.requestPermission();
-        permissionGranted = true;
-        window.addEventListener('deviceorientation', handleMotion);
+        await DeviceOrientationEvent.requestPermission()
+        permissionGranted = true
+        window.addEventListener('deviceorientation', handleMotion)
       } catch (error) {
-        console.error('Error requesting device orientation permission:', error);
+        console.error('Error requesting device orientation permission:', error)
       }
     }
 
-    if (typeof(DeviceOrientationEvent) !== 'undefined' && typeof(DeviceOrientationEvent.requestPermission) === 'function') {
-      requestPermission();
+    if (typeof DeviceOrientationEvent !== 'undefined' && typeof DeviceOrientationEvent.requestPermission === 'function') {
+      requestPermission()
     } else {
-      window.addEventListener('deviceorientation', handleMotion);
+      window.addEventListener('deviceorientation', handleMotion)
     }
 
     return () => {
       if (permissionGranted) {
-        window.removeEventListener('deviceorientation', handleMotion);
+        window.removeEventListener('deviceorientation', handleMotion)
       }
-    };
-  }, []);
+    }
+  }, [])
 
   useLayoutEffect(() => {
     const handleResize = () => {
-      setContainerWidth(document.documentElement.clientWidth);
-      setContainerHeight(document.documentElement.clientHeight);
-    };
+      setContainerWidth(document.documentElement.clientWidth)
+      setContainerHeight(document.documentElement.clientHeight)
+    }
 
-    handleResize();
+    handleResize()
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener('resize', handleResize)
 
     return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
+      window.removeEventListener('resize', handleResize)
+    }
+  }, [])
 
   const handleMouseMove = (event) => {
-    const mouseX = event.clientX;
-    setMouseX(mouseX);
-  };
+    const mouseX = event.clientX
+    setMouseX(mouseX)
+  }
 
   const containerStyle = {
     position: 'relative',
     width: '100%',
     height: '100vh',
-    overflow: 'hidden',
-  };
+    overflow: 'hidden'
+  }
 
   const image1Style = {
     position: 'absolute',
@@ -76,22 +77,22 @@ const ParallaxEffect = ({ image1, image2, image1StyleProps, image2StyleProps,  }
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     transition: 'transform 0.2s ease-out',
-    ...image1StyleProps,
-  };
+    ...peimg1StyleProps
+  }
 
   const image2ContainerStyle = {
     position: 'absolute',
     bottom: '0',
     left: '50%',
-    transform: `translateX(-50%)`,
+    transform: 'translateX(-50%)',
     width: '180%',
     height: `${containerHeight}px`,
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'flex-end',
-    transition: 'transform 0.2s ease-out',
-  
-  };
+    transition: 'transform 0.2s ease-out'
+
+  }
 
   const image2Style = {
     position: 'absolute',
@@ -104,8 +105,8 @@ const ParallaxEffect = ({ image1, image2, image1StyleProps, image2StyleProps,  }
     backgroundImage: `url(${image2})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    ...image2StyleProps,
-  };
+    ...peimg2StyleProps
+  }
 
   return (
     <div
@@ -118,7 +119,14 @@ const ParallaxEffect = ({ image1, image2, image1StyleProps, image2StyleProps,  }
         <div className="image2" style={image2Style} />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ParallaxEffect;
+ParallaxEffect.propTypes = {
+  image1: PropTypes.string.isRequired,
+  image2: PropTypes.string.isRequired,
+  peimg1StyleProps: PropTypes.object,
+  peimg2StyleProps: PropTypes.object
+}
+
+export default ParallaxEffect

@@ -1,6 +1,7 @@
-import React, { Fragment } from "react";
+import React, { Fragment } from 'react'
+import PropTypes from 'prop-types'
 
-export default function ContentBox(props) {
+export default function ContentBox (props) {
   const {
     title,
     titleclassName,
@@ -30,46 +31,59 @@ export default function ContentBox(props) {
     plazo,
     divisa,
     simbolo,
-    decimas,
-  } = props;
+    decimas
+  } = props
 
   return (
     <Fragment>
       <div
         className={` ${className} h-pr-fl-ma w-a h-a b-s-b-b t-o-e f-f-Gilroy`}
-        Style={` ${Style}`}
+        style={Style}
       >
         {title && (
           <h2
             className={` ${titleclassName} h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy d-i `}
-            Style=" font-size: 25px; font-weight: bold; line-height: 30px; "
+            style={{ fontSize: '25px', fontWeight: 'bold', lineHeight: '30px' }}
           >
             {number && (
               <div
                 className={` ${numberclassName} m-b-10px h-pr-fl-ma ns-c-e w-and-h-30px t-a-c b-s-b-b of-h t-a-c m-r-10px `}
-                Style="font-size: 13px; border: 1px solid; border-radius: 100%; border-color: white;"
+                style={{
+                  fontSize: '13px',
+                  border: '1px solid',
+                  borderRadius: '100%',
+                  borderColor: 'white'
+                }}
               >
                 <div className="w-a h-a centered h-pr-fl-ma">{number}</div>
               </div>
-            )}{" "}
+            )}{' '}
             <div>{title}</div>
           </h2>
         )}
         {subtitle && (
           <h3
             className={` ${subtitleclassName} h-pr-fl-ma b-s-b-b w-100 ns-c-e h-a f-f-Gilroy`}
-            Style=" font-size: 15px; font-weight:bold; line-height: 20px; letter-spacing: 1px;"
+            style={{
+              fontSize: '15px',
+              fontWeight: 'bold',
+              lineHeight: '20px',
+              letterSpacing: '1px'
+            }}
           >
-           {subtitle}
-           
-     
+            {subtitle}
           </h3>
         )}
 
         {intitle && (
           <div
             className={` ${intitleclassName} h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy`}
-            Style=" font-size: 15px; line-height: 20px; font-style: italic; color: white;"
+            style={{
+              fontSize: '15px',
+              lineHeight: '20px',
+              fontStyle: 'italic',
+              color: 'white'
+            }}
           >
             {intitle}
           </div>
@@ -78,11 +92,11 @@ export default function ContentBox(props) {
         {category && (
           <div
             className={` ${categoryclassName} h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy`}
-            Style="border-bottom: 1px solid; border-color: white;"
+            style={{ borderBottom: '1px solid', borderColor: 'white' }}
           >
             <span
               className="w-100 h-a h-pr-fl-ma t-a-r f-w-bo p-l-10px p-r-10px ns-c-e "
-              Style=" font-size:10px; line-height: 15px; "
+              style={{ fontSize: '10px', lineHeight: '15px' }}
             >
               {category}
             </span>
@@ -91,7 +105,7 @@ export default function ContentBox(props) {
         {text && (
           <p
             className={` ${textclassName} h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy`}
-            Style="font-size: 15px; line-height: 20px; "
+            style={{ fontSize: '15px', lineHeight: '20px' }}
           >
             {text}
           </p>
@@ -99,7 +113,7 @@ export default function ContentBox(props) {
         {list && (
           <div
             className={` ${listclassName} h-pr-fl-ma b-s-b-b w-100 ns-f-s-normal h-a f-f-Gilroy`}
-            Style="line-height: 20px; "
+            style={{ lineHeight: '20px' }}
           >
             <span className="f-w-bo ns-c-e">&#8600;&zwj;&nbsp;&zwj;</span>&zwj;
             <span className={` ${listclassName}`}>{list}</span>
@@ -108,7 +122,7 @@ export default function ContentBox(props) {
         {note && (
           <span
             className={` ${noteclassName} ns-c-e h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy`}
-            Style="font-size: 10px; line-height: 15px;  font-style: italic;"
+            style={{ fontSize: '10px', lineHeight: '15px', fontStyle: 'italic' }}
           >
             {note}
           </span>
@@ -117,7 +131,7 @@ export default function ContentBox(props) {
         {action && (
           <span
             className={` ${actionclassName} h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy  m-t-10px `}
-            Style="font-size: 10px; line-height: 15px; color: white;"
+            style={{ fontSize: '10px', lineHeight: '15px', color: 'white' }}
           >
             <a href={`${link}`}>
               <span className="hover-underline-animation">{action}</span>
@@ -129,26 +143,26 @@ export default function ContentBox(props) {
           <div className="w-100 h-pr-fl-ma">
             <div className="w-100 h-pr-fl-ma t-a-r f-w-bo">
               <i>
-                <span Style="color:#666666;">Antes:</span>&nbsp;<s>{antes}</s>
-              </i>{" "}
+                <span style={{ color: '#666666' }}>Antes:</span>&nbsp;<s>{antes}</s>
+              </i>{' '}
             </div>
             <div className="w-100 h-pr-fl-ma flexbox j-c-c  ">
               <div className="w-a a-s-c ns-f-s-medium  f-w-bo  ns-c-e">
                 {simbolo}
               </div>
               <div className="w-a a-s-c  flexbox">
-                <div className=" a-s-b" Style="font-size: 40px;">{ahora}</div>
+                <div className=" a-s-b" style={{ fontSize: '40px' }}>{ahora}</div>
                 <div className=" a-s-b ns-f-s-normal f-w-bo">
                   ,&nbsp;{decimas}
-                </div>{" "}
+                </div>{' '}
               </div>
-              <div className="w-a a-s-c  f-w-bo ns-c-e" Style="font-size: 20px;">
+              <div className="w-a a-s-c  f-w-bo ns-c-e" style={{ fontSize: '20px' }}>
                 &nbsp;{divisa}
               </div>
             </div>
             <div
               className="w-100 h-pr-fl-ma t-a-c f-w-bo ns-f-s-small"
-              Style="color: #666666;"
+              style={{ color: '#666666' }}
             >
               I.V.A. Inc./ {plazo}
             </div>
@@ -156,5 +170,37 @@ export default function ContentBox(props) {
         )}
       </div>
     </Fragment>
-  );
+  )
+}
+
+ContentBox.propTypes = {
+  title: PropTypes.string,
+  titleclassName: PropTypes.string,
+  subtitle: PropTypes.string,
+  subtitleclassName: PropTypes.string,
+  text: PropTypes.string,
+  textclassName: PropTypes.string,
+  className: PropTypes.string,
+  listclassName: PropTypes.string,
+  list: PropTypes.array,
+  note: PropTypes.string,
+  noteclassName: PropTypes.string,
+  action: PropTypes.string,
+  actionclassName: PropTypes.string,
+  link: PropTypes.string,
+  number: PropTypes.number,
+  numberclassName: PropTypes.string,
+  Style: PropTypes.object,
+  intitle: PropTypes.string,
+  intitleclassName: PropTypes.string,
+  category: PropTypes.string,
+  categoryclassName: PropTypes.string,
+  children: PropTypes.node,
+  pricing: PropTypes.string,
+  antes: PropTypes.string,
+  ahora: PropTypes.string,
+  plazo: PropTypes.string,
+  divisa: PropTypes.string,
+  simbolo: PropTypes.string,
+  decimas: PropTypes.string
 }

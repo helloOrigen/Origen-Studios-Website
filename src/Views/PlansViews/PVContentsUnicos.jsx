@@ -1,7 +1,7 @@
-import React, { Fragment } from "react";
-import { Title, ContentBox, Btn } from "../../components/index";
+import React, { Fragment } from 'react'
+import { Title, ContentBox, Btn } from '../../components/index'
 
-export default function PVContentsUnicos(props) {
+export default function PVContentsUnicos (props) {
   return (
     <Fragment>
       <div className="w-100 r-h-c m-w-100 h-a h-pr-fl-ma p-10px m-d-b b-s-b-b">
@@ -86,12 +86,11 @@ export default function PVContentsUnicos(props) {
                   text="¡Empezar ahora!"
                   enlace="mailto:hello@OrigenStudios.com?subject=Plan-Contenidos-Unicos-GeneracionIA&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Contenidos%20Unicos-GeneraciónIA"
                 ></Btn>
-                <ContentBox
-                  className="w-100 t-a-c m-t-5px f-w-bo "
-                  Style="font-size: 10px;"
+                 <div
+                  className="h-pr-fl-ma w-100 t-a-c m-t-5px f-w-bo ns-f-s-small f-f-Gilroy "
                 >
                   Cósto único por temporada y/o hasta agotar stock.
-                </ContentBox>
+                </div>
               </div>
             </div>
           </div>
@@ -162,12 +161,11 @@ export default function PVContentsUnicos(props) {
                   text="¡Empezar ahora!"
                   enlace="mailto:hello@OrigenStudios.com?subject=Plan-Contenidos-Unicos-Edicion-De-Fotos&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Contenidos%20Unicos-Edicion-De-Fotos"
                 ></Btn>
-                <ContentBox
-                  className="w-100 t-a-c m-t-5px f-w-bo "
-                  Style="font-size: 10px;"
+                 <div
+                  className="h-pr-fl-ma w-100 t-a-c m-t-5px f-w-bo ns-f-s-small f-f-Gilroy "
                 >
                   Cósto único por temporada y/o hasta agotar stock.
-                </ContentBox>
+                </div>
               </div>
             </div>
           </div>
@@ -211,12 +209,11 @@ export default function PVContentsUnicos(props) {
                   text="¡Empezar ahora!"
                   enlace="mailto:hello@OrigenStudios.com?subject=Plan-Contenidos-Unicos-BannerADS&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Contenidos%20Unicos-BannerADS"
                 ></Btn>
-                <ContentBox
-                  className="w-100 t-a-c m-t-5px f-w-bo "
-                  Style="font-size: 10px;"
+                 <div
+                  className="h-pr-fl-ma w-100 t-a-c m-t-5px f-w-bo ns-f-s-small f-f-Gilroy "
                 >
                   Cósto único por temporada y/o hasta agotar stock.
-                </ContentBox>
+                </div>
               </div>
             </div>
           </div>
@@ -285,17 +282,16 @@ export default function PVContentsUnicos(props) {
                   text="¡Empezar ahora!"
                   enlace="mailto:hello@OrigenStudios.com?subject=Plan-Contenidos-Unicos-Illustración&body=Quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20Plan%20Contenidos%20Unicos-Illustración"
                 ></Btn>
-                <ContentBox
-                  className="w-100 t-a-c m-t-5px f-w-bo "
-                  Style="font-size: 10px;"
+                 <div
+                  className="h-pr-fl-ma w-100 t-a-c m-t-5px f-w-bo ns-f-s-small f-f-Gilroy "
                 >
                   Cósto único por temporada y/o hasta agotar stock.
-                </ContentBox>
+                </div>
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>
       </div>
     </Fragment>
-  );
+  )
 }
