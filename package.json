@@ -19,7 +19,6 @@
     "react-icons": "^4.8.0",
     "react-id-swiper": "^4.0.0",
     "react-router-dom": "^6.13.0",
-    "react-scripts": "^5.0.1",
     "swiper": "^10.0.4",
     "vercel": "^24.2.4",
     "web-vitals": "^3.3.1",
