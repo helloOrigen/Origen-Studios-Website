@@ -55,7 +55,7 @@ export default function ContentBox (props) {
                   borderColor: 'white'
                 }}
               >
-                <div className="w-a h-a centered h-pr-fl-ma">{number}</div>
+                <div className="w-a h-a centered ns-c-e h-pr-fl-ma">{number}</div>
               </div>
             )}{' '}
             <div>{title}</div>
@@ -188,7 +188,7 @@ ContentBox.propTypes = {
   action: PropTypes.string,
   actionclassName: PropTypes.string,
   link: PropTypes.string,
-  number: PropTypes.number,
+  number: PropTypes.string,
   numberclassName: PropTypes.string,
   Style: PropTypes.object,
   intitle: PropTypes.string,

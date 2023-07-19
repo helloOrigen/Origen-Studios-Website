@@ -2,47 +2,10 @@ import React, { Fragment } from 'react'
 import { ContentBox, SubMenuLegal } from '../components/index'
 
 const Cookies = () => {
-  const containerStyle = {
-    width: '100%',
-    height: '100%',
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    overflowX: 'hidden',
-    overflowY: 'auto',
-    border: '1px solid white',
-    background: 'black'
-  }
-
-  const contentStyle = {
-    width: '60%',
-    maxWidth: '90%',
-    height: '100%',
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    borderRadius: '10px',
-    paddingTop: '20px',
-    paddingBottom: '20px',
-    marginBottom: '20px',
-    border: '1px solid white'
-  }
-
-  const footerStyle = {
-    width: '80%',
-    height: '150px',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    color: '#666666',
-    border: '1px solid white'
-  }
-
   return (
     <Fragment>
       <div
         className="w-100 h-100 h-pr-fl-ma of-x-hidden of-auto b-s-b-b"
-        style={containerStyle}
       >
         <SubMenuLegal />
 
@@ -101,10 +64,10 @@ const Cookies = () => {
               La entidad responsable de la recogida, procesamiento y utilización
               de tus datos personales, en el sentido establecido por la Ley de
               Protección de Datos Personales es la página
-              <span style={contentStyle}>OrigenStudios.com</span>,
+               <span style={{ fontWeight: 'bold' }}>&nbsp;OrigenStudios.com</span>,
               propiedad de
-              <span style={contentStyle}>
-                Origen&zwj;Studios&zwj;<sup>&reg;</sup>
+               <span style={{ fontWeight: 'bold' }}>&nbsp;
+                Origen&zwj;Studios&zwj;<sup>&reg;&nbsp;</sup>
               </span>
               – Montevideo, Uruguay.
             </ContentBox>
@@ -152,8 +115,8 @@ const Cookies = () => {
               cierra el navegador. Las que expiran en función de cuando se
               cumpla el objetivo para el que sirven (por ejemplo, para que el
               usuario se mantenga identificado en los servicios de
-              <span style={contentStyle}>
-                Origen&zwj;Studios&zwj;<sup>&reg;</sup>
+               <span style={{ fontWeight: 'bold' }}>&nbsp;
+                Origen&zwj;Studios&zwj;<sup>&reg;&nbsp;</sup>
               </span>
               ) o bien cuando se borran manualmente.
               <br />
@@ -306,8 +269,8 @@ const Cookies = () => {
               proveedor externo genera una cookie analítica en el ordenador del
               usuario. Esta cookie que sólo se genera en la visita, servirá en
               próximas visitas a los servicios de
-              <span style={contentStyle}>
-                Origen&zwj;Studios&zwj;<sup>&reg;</sup>
+               <span style={{ fontWeight: 'bold' }}>&nbsp;
+                Origen&zwj;Studios&zwj;<sup>&reg;&nbsp;</sup>
               </span>
               para identificar de forma anónima al visitante. Los objetivos
               principales que se persiguen son:
@@ -327,8 +290,8 @@ const Cookies = () => {
               <b>
                 Importante: Salvo que el usuario decida registrarse en un
                 servicio de
-                <span style={contentStyle}>
-                  Origen&zwj;Studios&zwj;<sup>&reg;</sup>
+                 <span style={{ fontWeight: 'bold' }}>&nbsp;
+                  Origen&zwj;Studios&zwj;<sup>&reg;&nbsp;</sup>
                 </span>
                 , la cookie nunca irá asociada a ningún dato de carácter
                 personal que pueda identificarle. Dichas cookies sólo serán
@@ -347,8 +310,8 @@ const Cookies = () => {
             <ContentBox className="w-100 h-a m-b-40px">
               Este tipo de cookies permiten ampliar la información de los
               anuncios mostrados a cada usuario anónimo en los servicios de
-              <span style={contentStyle}>
-                Origen&zwj;Studios&zwj;<sup>&reg;</sup>
+               <span style={{ fontWeight: 'bold' }}>&nbsp;
+                Origen&zwj;Studios&zwj;<sup>&reg;&nbsp;</sup>
               </span>
               . Entre otros, se almacena la duración o frecuencia de
               visualización de posiciones publicitarias, la interacción con las
@@ -367,18 +330,18 @@ const Cookies = () => {
             />
             <ContentBox className="w-100 h-a m-b-40px">
               Además de la publicidad gestionada por las webs de
-              <span style={contentStyle}>
-                Origen&zwj;Studios&zwj;<sup>&reg;</sup>
+               <span style={{ fontWeight: 'bold' }}>&nbsp;
+                Origen&zwj;Studios&zwj;<sup>&reg;&nbsp;</sup>
               </span>
               en sus servicios, las webs de
-              <span style={contentStyle}>
-                Origen&zwj;Studios&zwj;<sup>&reg;</sup>
+               <span style={{ fontWeight: 'bold' }}>&nbsp;
+                Origen&zwj;Studios&zwj;<sup>&reg;&nbsp;</sup>
               </span>
               ofrecen a sus anunciantes la opción de servir anuncios a través de
               terceros (“Ad-Servers”). De este modo, estos terceros pueden
               almacenar cookies enviadas desde los servicios de
-              <span style={contentStyle}>
-                Origen&zwj;Studios&zwj;<sup>&reg;</sup>
+               <span style={{ fontWeight: 'bold' }}>&nbsp;
+                Origen&zwj;Studios&zwj;<sup>&reg;&nbsp;</sup>
               </span>
               procedentes de los navegadores de los usuarios, así como acceder a
               los datos que en ellas se guardan.
@@ -386,8 +349,8 @@ const Cookies = () => {
               <br />
               Las empresas que generan estas cookies tienen sus propias
               políticas de privacidad. En la actualidad, las webs de
-              <span style={contentStyle}>
-                Origen&zwj;Studios&zwj;<sup>&reg;</sup>
+               <span style={{ fontWeight: 'bold' }}>&nbsp;
+                Origen&zwj;Studios&zwj;<sup>&reg;&nbsp;</sup>
               </span>
               utilizan la plataforma Doubleclick (Google) para gestionar estos
               servicios. Para más información, acuda a<br />
@@ -469,8 +432,8 @@ const Cookies = () => {
             />
             <ContentBox className="w-100 h-a m-b-40px">
               Las webs de
-              <span style={contentStyle}>
-                Origen&zwj;Studios&zwj;<sup>&reg;</sup>
+               <span style={{ fontWeight: 'bold' }}>&nbsp;
+                Origen&zwj;Studios&zwj;<sup>&reg;&nbsp;</sup>
               </span>
               pueden modificar esta Política de Cookies en función de exigencias
               legislativas, reglamentarias, o con la finalidad de adaptar dicha
@@ -487,15 +450,14 @@ const Cookies = () => {
 
             {/* ESPACIADO FINAL ------------------------------------------------------------------  */}
 
-            <div style={footerStyle}>
-          <div className="w-100 h-pr-fl-ma centered t-a-c">
-            Fin del Documento | Políticas de Cookies | 27 Ene 2023
-          </div>
-        </div>
-            <span className="w-100 h-pr-fl-ma">
-              <br />
-              &nbsp;
-            </span>
+            <div className="w-100 h-150px h-pr-fl-ma m-b-20px b-s-b-b" style={{ border: '1px solid white' }}>
+  <div className="w-80 h-a h-pr-fl-ma centered t-a-c" style={{ color: '#666666' }}>
+    Fin del Documento | Cookies | 26 Ene 2023
+  </div>
+</div>
+<span className='w-100 h-pr-fl-ma'>
+  <br />&nbsp;
+</span>
             {/* ------------------------------------------------------------------ ESPACIADO FINAL */}
           </div>
         </div>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c1aef970.css",
-    "main.js": "/static/js/main.a21de747.js",
+    "main.js": "/static/js/main.3df11d00.js",
     "static/js/496.f228d8d8.chunk.js": "/static/js/496.f228d8d8.chunk.js",
     "static/media/parallax-woman.png": "/static/media/parallax-woman.7db425c72113ce606346.png",
     "static/media/casos-de-exito-banner-menu.gif": "/static/media/casos-de-exito-banner-menu.0890c758a59176b14513.gif",
@@ -83,11 +83,11 @@
     "static/media/chevron_right.svg": "/static/media/chevron_right.4aec8e1324a1f7ded654040753a619d6.svg",
     "static/media/close.svg": "/static/media/close.0712d4c0fd22e6e4a6f2888d0d61b1c7.svg",
     "main.c1aef970.css.map": "/static/css/main.c1aef970.css.map",
-    "main.a21de747.js.map": "/static/js/main.a21de747.js.map",
+    "main.3df11d00.js.map": "/static/js/main.3df11d00.js.map",
     "496.f228d8d8.chunk.js.map": "/static/js/496.f228d8d8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1aef970.css",
-    "static/js/main.a21de747.js"
+    "static/js/main.3df11d00.js"
   ]
 }

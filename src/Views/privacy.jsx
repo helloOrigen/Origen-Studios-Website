@@ -4,7 +4,7 @@ import SubMenuLegal from '../components/submenuLegal'
 const Privacy = () => {
   return (
     <Fragment>
-          <div className='w-100 h-100 h-pr-fl-ma of-x-hidden  of-auto b-s-b-b' style='background: black;'>
+          <div className='w-100 h-100 h-pr-fl-ma of-x-hidden  of-auto b-s-b-b' style={{ background: 'black' }}>
       <SubMenuLegal/>
 
       <div
@@ -26,8 +26,8 @@ const Privacy = () => {
           <ContentBox className='w-100 h-a m-b-40px'>
             La titularidad de este sitio web, sus productos y servicios tales
             como:{' '}
-            <span style='font-weight: bold;'>Origen&zwj;Studios&zwj;.com</span>,
-            (en adelante `<span style='font-weight: bold;'>nuestra web</span>`)
+            <span style={{ fontWeight: 'bold' }}>Origen&zwj;Studios&zwj;.com</span>,
+            (en adelante `<span style={{ fontWeight: 'bold' }}>nuestra web</span>`)
             cuyo dato de contacto es:
             <br />
             <br />
@@ -41,7 +41,7 @@ const Privacy = () => {
             <br />
             <br />A efectos de estas Condiciones se entiende que la actividad
             que&nbsp;
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>{' '}
             desarrolla a través nuestro sitio web comprende:
@@ -55,7 +55,7 @@ const Privacy = () => {
             y/o usar esta página web, el Usuario ha de haber leído el Aviso
             Legal y las Condiciones Generales de Uso, incluyendo, la política de
             cookies, y la política de privacidad y de protección de datos de{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>
             .<br />
@@ -122,7 +122,7 @@ const Privacy = () => {
             <br />
             <br />
             El Usuario podrá formalizar, a su elección, con{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>{' '}
             el contrato de compraventa de los productos y/o servicios deseados
@@ -141,13 +141,13 @@ const Privacy = () => {
             Los Usuarios pueden comprar en nuestra web por los medios y formas
             establecidos. Deberán seguir el procedimiento de compra y/o
             adquisición online de{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>
             , durante el cual varios productos y/o servicios pueden ser
             seleccionados y añadidos al carrito, cesta o espacio final de compra
             y, finalmente, hacer clic en:`
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               https://origenstudios.com/pay
             </span>
             `.
@@ -161,7 +161,7 @@ const Privacy = () => {
             <br />
             Seguidamente, el Usuario recibirá un correo electrónico confirmando
             que{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>{' '}
             ha recibido su pedido o solicitud de compra y/o prestación del
@@ -175,7 +175,7 @@ const Privacy = () => {
             llegar al Usuario a través del correo electrónico. Asimismo, el
             Usuario puede, si así lo desea, obtener una copia de su factura en
             papel, solicitándolo a{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>{' '}
             utilizando los espacios de contacto nuestra web o a través de los
@@ -198,7 +198,7 @@ const Privacy = () => {
             Las comunicaciones, órdenes de compra y pagos que intervengan
             durante las transacciones efectuadas en nuestra web podrían ser
             archivadas y conservadas en los registros informatizados de{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>{' '}
             con el fin de constituir un medio de prueba de las transacciones, en
@@ -223,7 +223,7 @@ const Privacy = () => {
           />
           <ContentBox className='w-100 h-a m-b-40px'>
             Todos los pedidos de compra recibidos por{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>{' '}
             a través nuestra web están sujetos a la disponibilidad de los
@@ -232,7 +232,7 @@ const Privacy = () => {
             mismos y/o a la prestación de los servicios. Si se produjeran
             dificultades en cuanto al suministro de productos o no quedaran
             productos en stock,{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>{' '}
             se compromete a contactar al Usuario y reembolsar cualquier cantidad
@@ -257,7 +257,7 @@ const Privacy = () => {
             <br />
             Los gastos de envío se encuentran incluidos en los precios finales
             de los productos tal y como se muestran en nuestra web. Así,{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>{' '}
             realiza los servicios de entrega y/o envío a través de: E-mail, DHL,
@@ -280,7 +280,7 @@ const Privacy = () => {
             transferencia bancaria digital.
             <br />
             <br />
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>{' '}
             utiliza todos los medios para garantizar la confidencialidad y la
@@ -290,12 +290,12 @@ const Privacy = () => {
             <br />
             <br />
             Si el medio de pago es PayPal el cargo se hará en el momento en que{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>{' '}
             envíe una confirmación del pedido de compra o adquisición de
             productos y/o servicios al Usuario. En todo caso, al hacer clic en `
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               https://origenstudios.com/pay
             </span>
             ` el Usuario confirma que el método de pago utilizado es suyo, o
@@ -326,7 +326,7 @@ const Privacy = () => {
             <br />
             <br />
             Si por algún motivo, que le fuera imputable,{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>{' '}
             no pudiera cumplir con la fecha de entrega, contactará al Usuario
@@ -345,7 +345,7 @@ const Privacy = () => {
             <br />
             Si el Usuario no va a estar en el lugar de entrega en la franja
             horaria convenida, debe ponerse en contacto con{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>{' '}
             para convenir la entrega otro día.
@@ -354,11 +354,11 @@ const Privacy = () => {
             En caso de que transcurran 30 días desde que su pedido esté
             disponible para su entrega, y no haya sido entregado por causa no
             imputable a{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>
             ,{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>{' '}
             entenderá que el Usuario desea desistir del contrato y éste se
@@ -387,14 +387,14 @@ const Privacy = () => {
             Los riesgos que de los productos se pudieran derivar serán a cargo
             del Usuario a partir del momento de su entrega. El Usuario adquiere
             la propiedad de los productos cuando{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>{' '}
             recibe el pago completo de todas las cantidades debidas en relación
             a la compra o adquisición efectuada, incluidos los gastos de envío,
             o bien en el momento de la entrega, si ésta tiene lugar en un
             momento posterior a la recepción completa del importe objeto de pago{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>
             .<br />
@@ -418,7 +418,7 @@ const Privacy = () => {
             se ha producido un error al introducir datos necesarios para
             procesar su solicitud de compra en nuestra web, podrá modificar los
             mismos poniéndose en contacto con{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>{' '}
             a través de los espacios de contacto habilitados en nuestra web, y,
@@ -430,7 +430,7 @@ const Privacy = () => {
             <br />
             <br />
             En cualquier caso, el Usuario, antes de hacer clic en `
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               https://origenstudios.com/pay
             </span>
             `, tiene acceso al espacio, carrito, o cesta donde se van anotando
@@ -473,7 +473,7 @@ const Privacy = () => {
             que el Usuario o un tercero autorizado por éste, distinto del
             transportista, adquirió la posesión material de los bienes
             adquiridos en nuestra web de{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>{' '}
             o en caso de que los bienes que componen su pedido se entreguen por
@@ -487,7 +487,7 @@ const Privacy = () => {
             <br />
             Para ejercer este derecho de desistimiento, el Usuario deberá
             notificar su decisión a{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>
             . Podrá hacerlo, en su caso, a través de los espacios de contacto
@@ -498,7 +498,7 @@ const Privacy = () => {
             decisión, debe expresar de forma clara e inequívoca que es su
             intención desistir del contrato de compra. En todo caso, el Usuario
             podrá utilizar el modelo de formulario de desistimiento que{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>{' '}
             pone a su disposición como parte anexada a estas Condiciones, sin
@@ -511,7 +511,7 @@ const Privacy = () => {
             <br />
             <br />
             En caso de desistimiento{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>{' '}
             reembolsará al Usuario todos los pagos recibidos, incluidos los
@@ -520,19 +520,19 @@ const Privacy = () => {
             menos costosa ofrecida en el Sitio Web) sin ninguna demora indebida
             y, en todo caso, a más tardar en 14 días naturales a partir de la
             fecha en la que{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>{' '}
             es informado de la decisión de desistir por el Usuario.
             <br />
             <br />
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>{' '}
             reembolsará al Usuario utilizando el mismo método de pago que empleó
             este para realizar la transacción inicial de compra. Este reembolso
             no generará ningún coste adicional al Usuario. No obstante,{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>{' '}
             podría retener dicho reembolso hasta haber recibido los productos o
@@ -544,7 +544,7 @@ const Privacy = () => {
             Deberá hacerlo sin ninguna demora indebida y, en cualquier caso, a
             más tardar en el plazo de 14 días naturales a partir de la fecha en
             que{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>{' '}
             fue informado de la decisión de desistimiento.
@@ -566,7 +566,7 @@ const Privacy = () => {
             y usuario y con el reconocimiento por su parte de que es consciente
             de que, una vez que el contrato haya sido completamente ejecutado
             por{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>
             , habrá perdido su derecho de desistimiento.
@@ -591,7 +591,7 @@ const Privacy = () => {
             que, en el momento de la entrega, el producto no se ajusta a lo
             estipulado en el contrato o pedido de compra, y que, por tanto,
             deberá ponerse en contacto con{' '}
-            <span style='font-weight: bold;'>
+            <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>{' '}
             inmediatamente y hacerle saber la disconformidad existente
@@ -635,19 +635,19 @@ const Privacy = () => {
             title={'GARANTÍAS'}
           />
           <ContentBox className='w-100 h-a m-b-40px'>
-          El Usuario, en tanto que consumidor y usuario, goza de garantías sobre los productos que pueda adquirir a través de nuestra web, en los términos legalmente establecidos para cada tipo de producto, respondiendo <span style='font-weight: bold;'>
+          El Usuario, en tanto que consumidor y usuario, goza de garantías sobre los productos que pueda adquirir a través de nuestra web, en los términos legalmente establecidos para cada tipo de producto, respondiendo <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span>, por tanto, por la falta de conformidad de los mismos que se manifieste en un plazo de dos años desde la entrega del producto. <br />
             <br />
-En este sentido, se entiende que los productos son conformes con el contrato siempre que: se ajusten a la descripción realizada por <span style='font-weight: bold;'>
+En este sentido, se entiende que los productos son conformes con el contrato siempre que: se ajusten a la descripción realizada por <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
             </span> y posean las cualidades presentadas en la misma; sean aptos para los usos a que ordinariamente se destinan los productos del mismo tipo; y presenten la calidad y prestaciones habituales de un producto del mismo tipo y que sean fundamentalmente esperables del mismo. Cuando esto no sea así respecto de los productos entregados al Usuario, éste deberá proceder tal y como se indica en el apartado Devolución de productos defectuosos o error en el envío. No obstante, algunos de los productos que se comercializan en nuestra web, podrían presentar características no homogéneas siempre y cuando éstas deriven del tipo de material con el que se han fabricado, y que por ende formarán parte de la apariencia individual del producto, y no serán un defecto. <br />
             <br />
 Por otra parte, podría llegar a darse el caso que el Usuario adquiere en nuestra web un producto de una marca o de fabricación por un tercero. En este caso, y considerando el Usuario que se trata de un producto defectuoso, éste también tiene la posibilidad de ponerse en contacto con la marca o fabricante responsable del producto para averiguar cómo ejercer su derecho de garantía legal directamente frente a los mismos durante los dos años siguientes a la entrega de dichos productos. Para ello, el Usuario debe haber conservado toda la información en relación con la garantía de los productos. <br />
             <br />
-No obstante, para conocer más sobre el Servicio Posventa que <span style='font-weight: bold;'>
+No obstante, para conocer más sobre el Servicio Posventa que <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup>
-            </span> pone al servicio de los Usuarios de nuestra web puede consultarlo aquí: <span style='font-weight: bold;'>https://origenstudios.com/support</span>
+            </span> pone al servicio de los Usuarios de nuestra web puede consultarlo aquí: <span style={{ fontWeight: 'bold' }}>https://origenstudios.com/support</span>
 
           </ContentBox>
 
@@ -660,7 +660,7 @@ No obstante, para conocer más sobre el Servicio Posventa que <span style='font-
             title={'EXONERACIÓN DE RESPONSABILIDAD'}
           />
           <ContentBox className='w-100 h-a m-b-40px'>
-          Salvo disposición legal en sentido contrario, <span style='font-weight: bold;'>
+          Salvo disposición legal en sentido contrario, <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> no aceptará ninguna responsabilidad por las siguientes pérdidas, con independencia de su origen:<br /><br />
 
             <ol>
@@ -677,33 +677,33 @@ No obstante, para conocer más sobre el Servicio Posventa que <span style='font-
               Toda otra pérdida indirecta que no fuera razonablemente previsible por ambas partes en el momento en que se formalizó el contrato de compraventa de los productos entre ambas partes.
               </li>
              <br />
-            Igualmente, <span style='font-weight: bold;'>
+            Igualmente, <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> también limita su responsabilidad en cuanto a los siguientes casos:
 
               <li>
-              <span style='font-weight: bold;'>
+              <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> aplica todas las medidas concernientes a proporcionar una visualización fiel del producto en nuestra web, sin embargo no se responsabiliza por las mínimas diferencias o inexactitudes que puedan existir debido a falta de resolución de la pantalla, o problemas del navegador que se utilice u otros de esta índole.
               </li>
               <br />
               <li>
-              <span style='font-weight: bold;'>
+              <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> actuará con la máxima diligencia a efectos de poner a disposición de la empresa encargada del transporte del producto objeto del pedido de compra. Sin embargo, no se responsabiliza por perjuicios provenientes de un mal funcionamiento del transporte, especialmente por causas como huelgas, retenciones en carreteras, y en general cualquiera otras propias del sector, que deriven en retrasos, pérdidas o hurtos del producto.
               </li>
               <br />
               <li>
-Fallos técnicos que por causas fortuitas o de otra índole, impidan un normal funcionamiento del servicio a través de internet. Falta de disponibilidad de nuestra web por razones de mantenimiento u otras, que impida disponer del servicio. <span style='font-weight: bold;'>
+Fallos técnicos que por causas fortuitas o de otra índole, impidan un normal funcionamiento del servicio a través de internet. Falta de disponibilidad de nuestra web por razones de mantenimiento u otras, que impida disponer del servicio. <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> pone todos los medios a su alcance a efectos de llevar a cabo el proceso de compra, pago y envío/entrega de los productos, no obstante se exime de responsabilidad por causas que no le sean imputables, caso fortuito o fuerza mayor.
 
               </li>
               <br />
               <li>
-              <span style='font-weight: bold;'>
-              Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> no se hará responsable del mal uso y/o del desgaste de los productos que hayan sido utilizados por el Usuario. Al mismo tiempo, <span style='font-weight: bold;'>
+              <span style={{ fontWeight: 'bold' }}>
+              Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> no se hará responsable del mal uso y/o del desgaste de los productos que hayan sido utilizados por el Usuario. Al mismo tiempo, <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> tampoco se hará responsable de una devolución errónea realizada por el Usuario. Es responsabilidad del Usuario devolver el producto correcto.
               </li>
               <br />
               <li>
-              En general, <span style='font-weight: bold;'>
+              En general, <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> no se responsabilizará por ningún incumplimiento o retraso en el cumplimiento de alguna de las obligaciones asumidas, cuando el mismo se deba a acontecimientos que están fuera de su control razonable, es decir, que se deban a causa de fuerza mayor, y ésta podrá incluir, a modo enunciativo, pero no exhaustivo:
               </li><br />
               <ol><li>
@@ -714,8 +714,8 @@ Incendio, explosión, tormenta, inundación, terremoto, hundimiento, epidemia o 
 </li><br /><li>Imposibilidad de uso de trenes, barcos, aviones, transportes de motor u otros medios de transporte, públicos o privados.</li><br />
 <li>Imposibilidad de utilizar sistemas públicos o privados de telecomunicaciones.</li><br />
 <li>Actos, decretos, legislación, normativa o restricciones de cualquier gobierno o autoridad pública.</li><br />
-<li>De esta forma, las obligaciones quedarán suspendidas durante el periodo en que la causa de fuerza mayor continúe, y <span style='font-weight: bold;'>
-              Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> dispondrá de una ampliación en el plazo para cumplirlas por un periodo de tiempo igual al que dure la causa de fuerza mayor. <span style='font-weight: bold;'>
+<li>De esta forma, las obligaciones quedarán suspendidas durante el periodo en que la causa de fuerza mayor continúe, y <span style={{ fontWeight: 'bold' }}>
+              Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> dispondrá de una ampliación en el plazo para cumplirlas por un periodo de tiempo igual al que dure la causa de fuerza mayor. <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> pondrá todos los medios razonables para encontrar una solución que le permita cumplir con sus obligaciones a pesar de la causa de fuerza mayor.</li>
               </ol>
               </ol>
@@ -728,13 +728,13 @@ Incendio, explosión, tormenta, inundación, terremoto, hundimiento, epidemia o 
             title={'COMUNICACIONES POR ESCRITO Y NOTIFICACIONES'}
           />
           <ContentBox className='w-100 h-a m-b-40px'>
-          Mediante el uso de nuestra web, el Usuario acepta que la mayor parte de las comunicaciones con <span style='font-weight: bold;'>
+          Mediante el uso de nuestra web, el Usuario acepta que la mayor parte de las comunicaciones con <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> sean electrónicas (correo electrónico o avisos publicados en el Sitio Web).<br /><br />
-A efectos contractuales, el Usuario consiente en usar este medio electrónico de comunicación y reconoce que todo contrato, notificación, información y demás comunicaciones que <span style='font-weight: bold;'>
+A efectos contractuales, el Usuario consiente en usar este medio electrónico de comunicación y reconoce que todo contrato, notificación, información y demás comunicaciones que <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> envíe de forma electrónica cumplen con los requisitos legales de ser por escrito. Esta condición no afectará a los derechos reconocidos por ley al Usuario.<br /><br />
-El Usuario puede enviar notificaciones y/o comunicarse con <span style='font-weight: bold;'>
+El Usuario puede enviar notificaciones y/o comunicarse con <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> a través de los datos de contacto que en estas Condiciones se facilitan y, en su caso, a través de los espacios de contacto nuestra web.<br /><br />
-Igualmente, salvo que se estipule lo contrario, <span style='font-weight: bold;'>
+Igualmente, salvo que se estipule lo contrario, <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> puede contactar y/o notificar al Usuario en su correo electrónico o en la dirección postal facilitada.
 
           </ContentBox>
@@ -747,10 +747,10 @@ Igualmente, salvo que se estipule lo contrario, <span style='font-weight: bold;'
             title={'RENUNCIA'}
           />
           <ContentBox className='w-100 h-a m-b-40px'>
-          Ninguna renuncia de <span style='font-weight: bold;'>
-              Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> a un derecho o acción legal concreta o la falta de requerimiento por <span style='font-weight: bold;'>
+          Ninguna renuncia de <span style={{ fontWeight: 'bold' }}>
+              Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> a un derecho o acción legal concreta o la falta de requerimiento por <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> del cumplimiento estricto por el Usuario de alguna de sus obligaciones supondrá, ni una renuncia a otros derechos o acciones derivados de un contrato o de las Condiciones, ni exonerará al Usuario del cumplimiento de sus obligaciones.<br /><br />
-Ninguna renuncia de <span style='font-weight: bold;'>
+Ninguna renuncia de <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> a alguna de las presentes Condiciones o a los derechos o acciones derivados de un contrato surtirá efecto, a no ser que se establezca expresamente que es una renuncia y se formalice y se le comunique al Usuario por escrito.
 </ContentBox>
   {/*  ------------------------------------------------------------------ 12 RENUNCIA */}
@@ -773,9 +773,9 @@ Ninguna renuncia de <span style='font-weight: bold;'>
             title={'ACUERDO COMPLETO'}
           />
            <ContentBox className='w-100 h-a m-b-40px'>
-         Las presentes Condiciones y todo documento al que se haga referencia expresa en estas constituyen el acuerdo íntegro existente entre el Usuario y <span style='font-weight: bold;'>
+         Las presentes Condiciones y todo documento al que se haga referencia expresa en estas constituyen el acuerdo íntegro existente entre el Usuario y <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> en relación con el objeto de compraventa y sustituyen a cualquier otro pacto, acuerdo o promesa anterior convenida verbalmente o por escrito por las mismas partes.<br /><br />
-El Usuario <span style='font-weight: bold;'>
+El Usuario <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> reconocen haber consentido la celebración de un contrato sin haber confiado en ninguna declaración o promesa hecha por la otra parte, salvo aquello que figura expresamente mencionado en las presentes Condiciones.
 
 </ContentBox>
@@ -788,7 +788,7 @@ El Usuario <span style='font-weight: bold;'>
             title={'PROTECCIÓN DE DATOS'}
           />
            <ContentBox className='w-100 h-a m-b-40px'>
-           La información o datos de carácter personal que el Usuario facilite a <span style='font-weight: bold;'>
+           La información o datos de carácter personal que el Usuario facilite a <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> en el curso de una transacción en nuestra web, serán tratados con arreglo a lo establecido en la Política de Privacidad o de protección de datos (contenida, en su caso, en el Aviso Legal y Condiciones Generales de Uso). Al acceder, navegar y/o usar el Sitio Web el Usuario consiente el tratamiento de dicha información y datos y declara que toda la información o datos que facilita son veraces.
            </ContentBox>
              {/*  ------------------------------------------------------------------ 15 PROTECCIÓN DE DATOS */}
@@ -801,7 +801,7 @@ El Usuario <span style='font-weight: bold;'>
           />
            <ContentBox className='w-100 h-a m-b-40px'>
            El acceso, navegación y/o uso de nuestra web y los contratos de compra de productos a través del mismo se regirán por la legislación uruguaya.<br /><br />
-Cualquier controversia, problema o desacuerdo que surja o esté relacionado con el acceso, navegación y/o uso de nuestra web, o con la interpretación y ejecución de estas Condiciones, o con los contratos de venta entre <span style='font-weight: bold;'>
+Cualquier controversia, problema o desacuerdo que surja o esté relacionado con el acceso, navegación y/o uso de nuestra web, o con la interpretación y ejecución de estas Condiciones, o con los contratos de venta entre <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> y el Usuario, será sometida a la jurisdicción no exclusiva de los juzgados y tribunales uruguayos.
 
            </ContentBox>
@@ -815,13 +815,13 @@ Cualquier controversia, problema o desacuerdo que surja o esté relacionado con 
             title={'QUEJAS Y RECLAMACIONES'}
           />
            <ContentBox className='w-100 h-a m-b-40px'>
-           El Usuario puede hacer llegar a <span style='font-weight: bold;'>
+           El Usuario puede hacer llegar a <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> sus quejas, reclamaciones o todo otro comentario que desee realizar a través de los datos de contacto que se facilitan al principio de estas Condiciones (Información General).<br /><br />
-Además, <span style='font-weight: bold;'>
-              Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> dispone de hojas oficiales de reclamación a disposición de los consumidores y usuarios, y que estos pueden solicitar a <span style='font-weight: bold;'>
+Además, <span style={{ fontWeight: 'bold' }}>
+              Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> dispone de hojas oficiales de reclamación a disposición de los consumidores y usuarios, y que estos pueden solicitar a <span style={{ fontWeight: 'bold' }}>
               Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> en cualquier momento, utilizando los datos de contacto que se facilitan al principio de estas Condiciones (Información General).<br /><br />
-Asimismo, si de la celebración de este contrato de compra entre <span style='font-weight: bold;'>
-              Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> y el Usuario emanara una controversia, el Usuario como consumidor puede solicitar una solución extrajudicial de controversias, de acuerdo con el Reglamento 19636 del Parlamento Uruguayo, sobre resolución de litigios en línea en materia de consumo. Puede acceder a este método a través del siguiente sitio web: <span style='font-weight: bold;'>https://www.impo.com.uy/bases/leyes/19636-2018</span>
+Asimismo, si de la celebración de este contrato de compra entre <span style={{ fontWeight: 'bold' }}>
+              Origen&zwj;Studios&zwj;<sup>&reg;</sup></span> y el Usuario emanara una controversia, el Usuario como consumidor puede solicitar una solución extrajudicial de controversias, de acuerdo con el Reglamento 19636 del Parlamento Uruguayo, sobre resolución de litigios en línea en materia de consumo. Puede acceder a este método a través del siguiente sitio web: <span style={{ fontWeight: 'bold' }}>https://www.impo.com.uy/bases/leyes/19636-2018</span>
 
            </ContentBox>
 
@@ -829,7 +829,14 @@ Asimismo, si de la celebración de este contrato de compra entre <span style='fo
 
        {/* ESPACIADO FINAL ------------------------------------------------------------------  */}
 
-<div className='w-100 h-150px h-pr-fl-ma m-b-20px b-s-b-b' style='border: 1px solid; border-color: white;'><div className='w-80 h-a h-pr-fl-ma centered  t-a-c' style='color: #666666;'> Fin del Documento | Políticas de Privacidad | 26 Ene 2023</div></div><span className='w-100 h-pr-fl-ma'><br />&nbsp;</span>
+       <div className='w-100 h-150px h-pr-fl-ma m-b-20px b-s-b-b' style={{ border: '1px solid white' }}>
+  <div className='w-80 h-a h-pr-fl-ma centered t-a-c' style={{ color: '#666666' }}>
+    Fin del Documento | Políticas de Privacidad | 26 Ene 2023
+  </div>
+</div>
+<span className='w-100 h-pr-fl-ma'>
+  <br />&nbsp;
+</span>
 {/* ------------------------------------------------------------------ ESPACIADO FINAL */}
 
         </div>
