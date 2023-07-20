@@ -120,7 +120,7 @@ export default function Home (props) {
             {/*  // orange          33 % */}
             <div className="swiper-slide noselect  h-100  ns-br-r-2 p-10px of-h">
               <div className="w-100 h-100 h-pr-fl-ma bg-d-t ns-br-r-1">
-                <div className="r-v-c flexbox j-c-c f-w-w">
+                <div className="centered flexbox j-c-c f-w-w">
                   <img className="w-200px floating-effect" src={Up3D} alt="" />
                   <Title h3 className="t-a-c m-b-10px p-10px">
                     Creamos o Actualizamos su logo.
@@ -135,7 +135,7 @@ export default function Home (props) {
             {/*  // orange          33 % */}
             <div className="swiper-slide noselect  h-100  ns-br-r-2 p-10px of-h">
               <div className="w-100 h-100 h-pr-fl-ma bg-d-t ns-br-r-1">
-                <div className="r-v-c flexbox j-c-c f-w-w">
+                <div className="centered flexbox j-c-c f-w-w">
                   <img className="w-200px floating-effect" src={Boligrafo3D} alt="" />
                   <Title h3 className="t-a-c m-b-10px p-10px">
                     Redactamos sus artículos y manuales.
@@ -149,7 +149,7 @@ export default function Home (props) {
             {/*  // orange          33 % */}
             <div className="swiper-slide noselect  h-100  ns-br-r-2 p-10px of-h">
               <div className="w-100 h-100 h-pr-fl-ma bg-d-t ns-br-r-1">
-                <div className="r-v-c flexbox j-c-c f-w-w">
+                <div className="centered flexbox j-c-c f-w-w">
                   <img className="w-200px floating-effect" src={Megafono3D} alt="" />
                   <Title h3 className="t-a-c m-b-10px p-10px">
                     Creamos campañas de Marketing.
@@ -163,7 +163,7 @@ export default function Home (props) {
             {/*  // orange          33 % */}
             <div className="swiper-slide noselect  h-100  ns-br-r-2 p-10px of-h">
               <div className="w-100 h-100 h-pr-fl-ma bg-d-t ns-br-r-1">
-                <div className="r-v-c flexbox j-c-c f-w-w">
+                <div className="centered flexbox j-c-c f-w-w">
                   <img className="w-200px floating-effect" src={Lupa3D} alt="" />
                   <Title h3 className="t-a-c m-b-10px p-10px">
                     Analizamos su web & Optimizamos su SEO.
@@ -177,7 +177,7 @@ export default function Home (props) {
             {/*  // orange          33 % */}
             <div className="swiper-slide noselect   h-100  ns-br-r-2 p-10px of-h">
               <div className="w-100 h-100 h-pr-fl-ma bg-d-t ns-br-r-1">
-                <div className="r-v-c flexbox j-c-c f-w-w">
+                <div className="centered flexbox j-c-c f-w-w">
                   <img className="w-200px floating-effect" src={Heart3D} alt="" />
                   <Title h3 className="t-a-c m-b-10px p-10px">
                     Posicionamos su marca en las redes sociales.
@@ -191,7 +191,7 @@ export default function Home (props) {
             {/*  // orange          33 % */}
             <div className="swiper-slide noselect  h-100  ns-br-r-2 p-10px of-h">
               <div className="w-100 h-100 h-pr-fl-ma bg-d-t ns-br-r-1">
-                <div className="r-v-c flexbox j-c-c f-w-w">
+                <div className="centered flexbox j-c-c f-w-w">
                   <img className="w-200px floating-effect" src={Box3D} alt="" />
                   <Title h3 className="t-a-c m-b-10px p-10px">
                     Le asesoramos en cada paso de tu marca.
@@ -204,7 +204,7 @@ export default function Home (props) {
             </div>
             <div className="swiper-slide noselect  h-100  ns-br-r-2 p-10px of-h">
               <div className="w-100 h-100 h-pr-fl-ma ns-bg-e ns-br-r-1">
-                <div className="r-v-c flexbox j-c-c f-w-w">
+                <div className="centered flexbox j-c-c f-w-w">
                   <img className="w-200px floating-effect" src={Card3D} alt="" />
                   <Title h3 className="t-a-c m-b-10px p-10px">
                     ¿Necesitas más?. <br /> ¡Conoce nuestros

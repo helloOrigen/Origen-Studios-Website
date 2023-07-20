@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c1aef970.css",
-    "main.js": "/static/js/main.3df11d00.js",
+    "main.css": "/static/css/main.6ca7e944.css",
+    "main.js": "/static/js/main.a39bfa0d.js",
     "static/js/496.f228d8d8.chunk.js": "/static/js/496.f228d8d8.chunk.js",
     "static/media/parallax-woman.png": "/static/media/parallax-woman.7db425c72113ce606346.png",
     "static/media/casos-de-exito-banner-menu.gif": "/static/media/casos-de-exito-banner-menu.0890c758a59176b14513.gif",
@@ -73,7 +73,6 @@
     "static/media/code.svg": "/static/media/code.a276b30611a6ad82077628c6c5f0eaee.svg",
     "static/media/check-circle.svg": "/static/media/check-circle.70ef25a2580b202795047e9566ee5bd6.svg",
     "static/media/volume_high.svg": "/static/media/volume_high.252157f7f81aecb7a56a328a6fa9c1f8.svg",
-    "static/media/mobile-btn-menu.svg": "/static/media/mobile-btn-menu.500e2462f64bce1461763fe46c93464a.svg",
     "static/media/briefcase.svg": "/static/media/briefcase.c2e472a7dbf2084e872a67c1f6e15f7a.svg",
     "static/media/diamond.svg": "/static/media/diamond.d3f3196525d6506f9a76a12c0cfc62c6.svg",
     "static/media/home.svg": "/static/media/home.ec942daf732640fb3bbabb42e3195fc0.svg",
@@ -82,12 +81,12 @@
     "static/media/chevron_left.svg": "/static/media/chevron_left.c57246a50e9b6eecdd2fa206a166fd5d.svg",
     "static/media/chevron_right.svg": "/static/media/chevron_right.4aec8e1324a1f7ded654040753a619d6.svg",
     "static/media/close.svg": "/static/media/close.0712d4c0fd22e6e4a6f2888d0d61b1c7.svg",
-    "main.c1aef970.css.map": "/static/css/main.c1aef970.css.map",
-    "main.3df11d00.js.map": "/static/js/main.3df11d00.js.map",
+    "main.6ca7e944.css.map": "/static/css/main.6ca7e944.css.map",
+    "main.a39bfa0d.js.map": "/static/js/main.a39bfa0d.js.map",
     "496.f228d8d8.chunk.js.map": "/static/js/496.f228d8d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1aef970.css",
-    "static/js/main.3df11d00.js"
+    "static/css/main.6ca7e944.css",
+    "static/js/main.a39bfa0d.js"
   ]
 }

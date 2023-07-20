@@ -5,8 +5,9 @@ const NavBarBtn = (props) => {
   const { text, className, children, news, disabled, enlace } = props
 
   return (
+    <a href={enlace} className="noselect h-auto">
     <div
-      className={` ${className}  d-v-on-h-container  h-e-style hover-underline-animation w-auto h-pr-fl-ma h-100 c-p  b-s-b-b`}
+      className={` ${className}  d-v-on-h-container h-auto w-auto h-pr-fl-ma  c-p  b-s-b-b`}
       style={{ zIndex: 99999 }}
     >
       <div
@@ -17,7 +18,6 @@ const NavBarBtn = (props) => {
       </div>
 
       <div className="w-a h-100 p-l-5px p-r-5px noselect h-pr-fl-ma flexbox f-w-n-w j-c-c a-i-c">
-        <a href={enlace} className="noselect h-auto">
           <div
             className="w-a h-70px noselect c-white  f-f-Gilroy "
             style={{ fontSize: '15px', lineHeight: '20px' }}
@@ -36,9 +36,9 @@ const NavBarBtn = (props) => {
               )}
             </div>
           </div>
-        </a>
       </div>
     </div>
+    </a>
   )
 }
 

@@ -14,12 +14,12 @@ const NavBar = () => {
           </Link>
         </div>
         <div className="w-100  h-pr-fl-ma  r-v-b f-w-n-w h-100  tab-d-n ">
-          <NavBarBtn enlace="/team" className="m-d-n noselect" text={'Nosotros'} />
-          <NavBarBtn className="m-d-n noselect" text={'Servicios'} enlace="/services" />
-          <NavBarBtn enlace="/plans" className="m-d-n noselect" text={'Planes'} />
-          <NavBarBtn enlace="/concepts" className="m-d-n noselect" text={'Conceptos'} news />
-          <NavBarBtn className="m-d-n noselect" enlace="/promo" text={'Promos'} news />
-          <NavBarBtn enlace="https://behance.net/origenstudios" className="m-d-n noselect" text={'Portfolios'} news />
+          <NavBarBtn enlace="/team" className="m-d-n noselect h-e-style hover-underline-animation" text={'Nosotros'} />
+          <NavBarBtn className="m-d-n noselect h-e-style hover-underline-animation" text={'Servicios'} enlace="/services" />
+          <NavBarBtn enlace="/plans" className="m-d-n noselect h-e-style hover-underline-animation" text={'Planes'} />
+          <NavBarBtn enlace="/concepts" className="m-d-n noselect h-e-style hover-underline-animation" text={'Conceptos'} news />
+          <NavBarBtn className="m-d-n noselect h-e-style hover-underline-animation" enlace="/promo" text={'Promos'} news />
+          <NavBarBtn enlace="https://behance.net/origenstudios" className="m-d-n noselect h-e-style hover-underline-animation" text={'Portfolios'} news />
         </div>
 
         {/* BOTON CONTACTO */}

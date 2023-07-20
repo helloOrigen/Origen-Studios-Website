@@ -13761,7 +13761,11 @@ background-color: #2ca03f;
   background: linear-gradient(135deg, #ffc666 10%, #9f7b3d 50%, #f8d18e 100%);
   
 }
+.ns-bg-e-hover:hover {
 
+  background: linear-gradient(135deg, #ffc666 10%, #9f7b3d 50%, #f8d18e 100%);
+  color: white;
+}
 /* =================-------| BACKGROUND BLACK NODE  |-------================= */
 .bg-black-node-o-10 {
   background-color: rgba(0, 0, 0, 0.1);
