@@ -13,6 +13,7 @@ export { default as Contents } from './contents'
 export { default as Concepts } from './concepts'
 
 export { default as Identity } from './identity'
+export { default as IdentityPlans } from './identityPlans'
 export { default as PVIdentityMensuales } from './PlansViews/PVIdentityMensuales'
 export { default as PVIdentityUnicos } from './PlansViews/PVIdentityUnicos'
 export { default as PVContentsMensuales } from './PlansViews/PVContentsMensuales'

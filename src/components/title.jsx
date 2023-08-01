@@ -29,15 +29,15 @@ const Title = ({ className, h1, h2, h3, h4, h5, h6, sup, children }) => {
       )}
 
       {h4 && (
-        <h4 className={`${className} ${h4} w-100 h-a b-s-b-b h-pr-fl-ma f-w-bo f-f-Gilroy`}>{h4 === true ? children : h4}</h4>
+        <h4 className={`${className} ${h4} w-100 h-a b-s-b-b h-pr-fl-ma f-w-bo f-f-Gilroy ns-f-s-normal`}>{h4 === true ? children : h4}</h4>
       )}
 
       {h5 && (
-        <h5 className={`${className} ${h5} w-100 h-a b-s-b-b h-pr-fl-ma f-w-bo f-f-Gilroy`}>{h5 === true ? children : h5}</h5>
+        <h5 className={`${className} ${h5} w-100 h-a b-s-b-b h-pr-fl-ma f-w-bo f-f-Gilroy ns-f-s-small`}>{h5 === true ? children : h5}</h5>
       )}
 
       {h6 && (
-        <h6 className={`${className} ${h6} w-100 h-a b-s-b-b h-pr-fl-ma f-w-bo f-f-Gilroy`}>{h6 === true ? children : h6}</h6>
+        <h6 className={`${className} ${h6} w-100 h-a b-s-b-b h-pr-fl-ma f-w-bo f-f-Gilroy ns-f-s-nano`}>{h6 === true ? children : h6}</h6>
       )}
     </>
   )

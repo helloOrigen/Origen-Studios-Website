@@ -34,13 +34,11 @@ const Footer = ({ className }) => {
             {/* Block 3 --------------- */}
 
             <div className="w-a h-a h-pr-fl-ma noselect hover-underline-animation">
-              <a
+              <span
                 className="h-pr-fl-ma w-a h-a"
-                href="mailto:hello@origenstudios.com"
-                alt="Comuníquese con nosotros!"
               >
-                hello@origenstudios.com{' '}
-              </a>
+                Versión 1.0.5 - 1-AGO-2023
+              </span>
             </div>
 
             {/* Block 4 --------------- */}

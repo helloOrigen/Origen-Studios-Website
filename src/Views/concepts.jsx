@@ -1,6 +1,5 @@
 import React, { Fragment, useState } from 'react'
 import { Title, Box, Btn } from '../components/index'
-import Adsense from '../components/Adsense'
 import { MessageWriting } from '../components/icons'
 
 import Inverter from '../assets/images/concepts/1.png'
@@ -229,9 +228,6 @@ export default function Concepts (props) {
           </div>
         </div>
 
-        <div className="w-100 m-w-100 r-h-c h-a h-pr-fl-ma f-f-Gilroy bg-d bg-d bg-d ns-br-r-1  ns-br-r-1 b-s-b-b d-i-f m-d-b m-b-100px">
-          <Adsense dataAdSlot="9886328101" adKey="unique-key-1" />
-        </div>
       </div>
     </Fragment>
   )

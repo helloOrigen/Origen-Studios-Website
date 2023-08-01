@@ -7,10 +7,10 @@ import Btn from '../components/btn'
 const NavBar = () => {
   return (
     <Fragment>
-      <div className="w-95 h-100 r-h-c h-pr-fl-ma d-i-f">
-        <div className={{ width: '100px', maxWidth: '200px', height: 'auto', paddingRight: '100px', display: 'flex', justifyContent: 'center', alignItems: 'center', zIndex: 30 }}>
+      <div className="w-100 h-100 h-pr-fl-ma r-v-c  flexbox f-w-n-w">
+        <div className="tab-w-50 m-w-50 w-a  h-pr-fl-ma">
           <Link to="/">
-            <NavBarLogo />
+            <NavBarLogo className="h-pr-fl-ma m-d-b"/>
           </Link>
         </div>
         <div className="w-100  h-pr-fl-ma  r-v-b f-w-n-w h-100  tab-d-n ">
@@ -23,10 +23,10 @@ const NavBar = () => {
         </div>
 
         {/* BOTON CONTACTO */}
-        <div className="w-30 m-d-n h-pr-fl-ma h-100 tab-d-n ">
-          <div className="w-a h-a h-pr-fr-ma r-v-c ">
+        <div className="m-w-50 tab-w-50 w-20 h-pr-fl-ma h-100 ">
+          <div className="w-100 h-a h-pr-fl-ma r-v-c p-r-10px">
             <Btn
-              className="w-200px h-pr-fr-ma ns-bg-e p-l-20px p-r-20px p-10px  f-w-bo  br-s-solid  br-r-50px"
+              className="w-200px h-pr-fr-ma ns-bg-e-animated p-l-20px p-r-20px p-10px  f-w-bo  br-s-solid  br-r-50px"
               enlace="https://wa.me/message/3J7NXI5ETDK7F1"
               text="Contacto"
             />

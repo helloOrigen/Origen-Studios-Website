@@ -6,10 +6,10 @@ import MobileMenuContent from './components/MobileMenuContent'
 import LoaderComponent from './components/LoaderComponent'
 import NavBar from './components/navBar'
 import Footer from './components/Footer'
-
+import FondoLogos from './assets/images/compressed/fondologos.jpg'
 import Notifier from './components/notifier'
 
-import fondo from './assets/images/compressed/fondo-web.jpg'
+/* import fondo from './assets/images/compressed/fondo-web.jpg' */
 
 /* import "./Styles/fixedcss/seedes.css"; */
 
@@ -46,7 +46,7 @@ const App = () => {
         <div
           className="l-0px r-0px t-0px b-0px m-a pa"
           style={{
-            backgroundImage: `url(${fondo})`,
+            backgroundImage: `url(${FondoLogos})`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
@@ -56,12 +56,12 @@ const App = () => {
             height: '100vh'
           }}
         ></div>
-        <div className="w-80 h-80 tab-w-90 m-w-100 m-h-100 ns-br-r-1 centered h-pr-fl-ma of-h bg-d b-s-b-b ">
+        <div className="w-90 h-90 tab-w-90 m-w-100 m-h-100 ns-br-r-1 centered h-pr-fl-ma of-h bg-d b-s-b-b " style={{ display: 'flex', flexDirection: 'column' }}>
           <div className="h-pr-fl-ma w-100 h-70px b-s-b-b bg-d" style={{ zIndex: '99999' }}>
             <NavBar />
           </div>
 
-          <div className="h-pr-fl-ma h-80 w-100 min-h-80 b-s-b-b">
+          <div className="h-pr-fl-ma w-100 h-80 b-s-b-b" style={{ flex: '1 1 0' }}>
             <div className="h-pr-fl-ma w-100 h-100 b-s-b-b">
               <div className="w-100 c-white h-100 r-h-c h-pr-fl-ma of-auto">
                 <Routes>
@@ -75,10 +75,11 @@ const App = () => {
                   <Route path="/cookies" element={<Views.Cookies />} />
                   <Route path="/privacy" element={<Views.Privacy />} />
                   <Route path="/concepts" element={<Views.Concepts />} />
+                  <Route path="/identity" element={<Views.Identity />} />
                   <Route path="/plans" element={<Views.Plans />} />
                   <Route path="/plans/:id" element={<Views.Plans />} />
                   <Route path="/plans/contents" element={<Views.Contents />} />
-                  <Route path="/plans/identity" element={<Views.Identity />} />
+                  <Route path="/plans/identity" element={<Views.IdentityPlans />} />
                   <Route path="/plans/identity/planes-mensuales" element={<Views.Identity mostrarUnicos={false} mostrarMensuales={true} />} />
                   <Route path="/plans/identity/planes-unicos" element={<Views.Identity mostrarUnicos={true} mostrarMensuales={false} />} />
                   <Route path="/downloads" element={<Views.Downloads />} />
@@ -94,6 +95,7 @@ const App = () => {
               </div>
             </div>
             <Notifier
+             isCookieMessage
               className="w-80 UnderLineText"
               Accept
               text=" Utilizamos 🍪 cookies en este sitio para ofrecerle la mejor experiencia de usuario posible."
@@ -101,12 +103,12 @@ const App = () => {
               action="Saber más..."
             />
           </div>
-          <div className="h-pr-fl-ma w-100 h-70px  b-s-b-b of-v b-0px m-p-f" style={{ zIndex: '9999' }}>
-            <Footer className="m-d-n w-100 h-100 r-h-c h-pr-fl-ma b-s-b-b bg-d" style={{ zIndex: '9999' }} />
+          <div className="h-pr-fl-ma w-100 h-70px p-5px b-s-b-b of-n " style={{ zIndex: '9999' }}>
+            <Footer className="m-d-n w-100 h-100 r-h-c ns-br-r-1 h-pr-fl-ma b-s-b-b bg-d" style={{ zIndex: '9999' }} />
           </div>
         </div>
         <MobileMenu onToggleMenu={handleToggleMenu} isOpen={menuOpen} />
-        <MobileMenuContent open={menuOpen} />
+        {menuOpen && <MobileMenuContent open={menuOpen} />}
       </div>
     </BrowserRouter>
   )

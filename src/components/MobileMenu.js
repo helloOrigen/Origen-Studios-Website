@@ -10,7 +10,6 @@ const MobileMenu = ({ onToggleMenu, isOpen }) => {
 
   const handleUpButtonAnimation = () => {
     setOpen(!open)
-    // Call the onToggleMenu function to open/close the MobileMenuContent
     onToggleMenu()
   }
 
@@ -55,8 +54,10 @@ const MobileMenu = ({ onToggleMenu, isOpen }) => {
     </div>
   )
 }
+
 MobileMenu.propTypes = {
-  onToggleMenu: PropTypes.string,
-  isOpen: PropTypes.string
+  onToggleMenu: PropTypes.func.isRequired,
+  isOpen: PropTypes.bool
 }
+
 export default MobileMenu

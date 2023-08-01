@@ -2,10 +2,10 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import ReactDOM from 'react-dom'
 
-const ImageComponent = ({ imageUrl, className, imgcStyle, imgcclassName }) => {
+const ImageComponent = ({ imageUrl, className, imgcStyle, imgcclassName, imgComponentStyle }) => {
   const [modalOpen, setModalOpen] = useState(false)
-
   const [scale, setScale] = useState(1)
+
   const openModal = () => {
     setModalOpen(true)
   }
@@ -29,12 +29,12 @@ const ImageComponent = ({ imageUrl, className, imgcStyle, imgcclassName }) => {
   if (modalOpen) {
     return ReactDOM.createPortal(
       <div className="modal">
-        <div className="modal-content ">
+        <div className="modal-content">
           <img
             src={imageUrl}
             alt="Imagen"
-            className={`${imgcclassName} w-100 h-100 centered `}
-            style={` object-fit: contain;  ${imgcStyle} `}
+            className={`${imgcclassName} w-100 h-100 centered`}
+            style={{ objectFit: 'contain', ...imgcStyle }}
           />
           <div className="ZoomControls w-300px bg-d-t flexbox d-n">
             <button className="zoom-button c-p h-e" onClick={handleZoomIn}>
@@ -58,21 +58,28 @@ const ImageComponent = ({ imageUrl, className, imgcStyle, imgcclassName }) => {
   }
 
   return (
-    <div className="img-component">
+    <div className="img-component h-100">
       <img
         src={imageUrl}
         alt="Imagen"
         onClick={openModal}
-        className={` ${className} modal-image w-100 h-100 h-pr-fl-ma b-s-b-b `}
-        style={{ objectFit: 'contain', transform: `scale(${scale})` }}
+        className={`${className} modal-image h-pr-fl-ma b-s-b-b`}
+        style={{
+          objectFit: 'contain',
+          transform: `scale(${scale})`,
+          ...imgComponentStyle
+        }}
       />
     </div>
   )
 }
+
 ImageComponent.propTypes = {
   imageUrl: PropTypes.string.isRequired,
   className: PropTypes.string,
-  imgcStyle: PropTypes.string,
-  imgcclassName: PropTypes.string
+  imgcStyle: PropTypes.object,
+  imgcclassName: PropTypes.string,
+  imgComponentStyle: PropTypes.object
 }
+
 export default ImageComponent

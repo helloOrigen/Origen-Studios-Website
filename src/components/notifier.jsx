@@ -1,8 +1,9 @@
-import React, { Fragment, useState } from 'react'
+import React, { Fragment, useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import Cookies from 'js-cookie'
 
-const notifier = ({
+const Notifier = ({
+  isCookieMessage,
   title,
   subtitle,
   text,
@@ -16,25 +17,28 @@ const notifier = ({
   intitle,
   children
 }) => {
-  const [Notifier, setNotifier] = useState('')
+  const [showNotifier, setShowNotifier] = useState(false)
+
+  // Función para mostrar el mensaje de cookies si es necesario
+  useEffect(() => {
+    if (isCookieMessage && !Cookies.get('cookieSeen')) {
+      setShowNotifier(true)
+    }
+  }, [isCookieMessage])
 
   const handleSetCookie = () => {
-    Cookies.set('user', 'value', { expires: 7, path: '/', secure: true })
-    handleReadCookie()
-    setNotifier(!Notifier)
-  }
-  const handleReadCookie = () => {
-    Cookies.get('user', 'value', { domain: 'origenstudios.com' })
+    Cookies.set('cookieSeen', true, { expires: 7, path: '/', secure: true })
+    setShowNotifier(false)
   }
 
   const handleRemoveCookie = () => {
-    Cookies.remove('user', 'value', { path: '/', domain: 'origenstudios.com' })
-    setNotifier(!Notifier)
+    Cookies.remove('cookieSeen', { path: '/', domain: 'origenstudios.com' })
+    setShowNotifier(false)
   }
 
   return (
     <Fragment>
-      {!Notifier && (
+      {showNotifier && (
         <div
           className={`m-w-95 ${className} notifier d-i-f ns-bg-e p-5px noselect`}
           style={{ ...Style }}
@@ -97,7 +101,11 @@ const notifier = ({
             {text && (
               <div
                 className="h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy"
-                style={{ fontSize: '15px', lineHeight: '20px', color: 'white' }}
+                style={{
+                  fontSize: '15px',
+                  lineHeight: '20px',
+                  color: 'white'
+                }}
               >
                 {text}
               </div>
@@ -193,7 +201,8 @@ const notifier = ({
   )
 }
 
-notifier.propTypes = {
+Notifier.propTypes = {
+  isCookieMessage: PropTypes.bool,
   title: PropTypes.string,
   subtitle: PropTypes.string,
   text: PropTypes.string,
@@ -207,4 +216,5 @@ notifier.propTypes = {
   intitle: PropTypes.string,
   children: PropTypes.node
 }
-export default notifier
+
+export default Notifier

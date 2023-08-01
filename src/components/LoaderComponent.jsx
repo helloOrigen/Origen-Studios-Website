@@ -10,7 +10,7 @@ const LoaderComponent = () => {
     const timer = setTimeout(() => {
       setIsLoading(false)
       setShowLogo(true)
-    }, 2000)
+    }, 1000)
 
     return () => {
       clearTimeout(timer)
@@ -123,11 +123,12 @@ const LoaderComponent = () => {
       {isLoading && (
         <div style={loaderStyle}>
           <img
-            className="pa l-0px r-0px t-0px b-0px m-a w-300px h-300px"
+            className="pa l-0px r-0px t-0px b-0px m-a w-300px h-300px p-20px "
             style={{ objectFit: 'contain' }}
             src={OSLogoSymbolSvg}
             alt="OS-LOGO"
-          />
+          />    <div className='pa l-0px r-0px t-0px b-0px m-a w-300px h-300px'>
+            <div className='animated-circle ghost enfasis circle'></div></div>
           <style>{keyframes}</style>
           <div style={ellipsisStyle}>
             <div style={{ ...dotStyle, ...dot1Style }}></div>
@@ -141,8 +142,9 @@ const LoaderComponent = () => {
         </div>
       )}
       {showLogo && !isLoading && (
+
         <object
-          className="pa l-0px r-0px t-0px b-0px m-a w-300px h-300px"
+          className="pa l-0px r-0px t-0px b-0px m-a w-300px h-300px p-20px  "
           style={{ objectFit: 'contain' }}
           data={OSLogoSymbolSvg}
           type="image/svg+xml"
