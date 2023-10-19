@@ -193,11 +193,11 @@ export default function Home (props) {
                 <div className="centered flexbox j-c-c f-w-w p-e-n noselect">
                   <img className="w-200px floating-effect" src={Lupa3D} alt="" />
                   <Title h3 className="t-a-c m-b-10px p-10px">
-                  Analizamos su web & Optimizamos su SEO.
+                  Hacemos todo para su Ecommerce.
                   </Title>
                 </div>
                 <div className="w-100 h-a  p-a b-0px m-a p-b-20px">
-                  <Btn className="w-80 r-h-c t-a-c  p-10px h-a info f-w-bo   h-pr-fl-ma" text="Saber más..." enlace="/identity" />
+                  <Btn className="w-80 r-h-c t-a-c  p-10px h-a info f-w-bo   h-pr-fl-ma" text="Saber más..." enlace="/ecommerce" />
                 </div>
               </div>
             </div>

@@ -76,6 +76,7 @@ const App = () => {
                   <Route path="/privacy" element={<Views.Privacy />} />
                   <Route path="/concepts" element={<Views.Concepts />} />
                   <Route path="/identity" element={<Views.Identity />} />
+                  <Route path="/ecommerce" element={<Views.Ecommerce />} />
                   <Route path="/plans" element={<Views.Plans />} />
                   <Route path="/plans/:id" element={<Views.Plans />} />
                   <Route path="/plans/contents" element={<Views.Contents />} />

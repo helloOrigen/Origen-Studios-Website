@@ -12,6 +12,7 @@ export { default as Plans } from './plans'
 export { default as Contents } from './contents'
 export { default as Concepts } from './concepts'
 
+export { default as Ecommerce } from './ecommerce'
 export { default as Identity } from './identity'
 export { default as IdentityPlans } from './identityPlans'
 export { default as PVIdentityMensuales } from './PlansViews/PVIdentityMensuales'

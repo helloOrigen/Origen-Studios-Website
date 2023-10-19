@@ -8398,6 +8398,13 @@ i.success {
     right: 0px;
     margin: auto;
   }
+
+/* Specials */
+.m-w-and-h-300px {
+  width: 300px;
+  height: 300px;
+}
+
   /*
   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
   ██ ███ █▄ ▄██ ▄▄▀█▄▄ ▄▄██ ██ ██
