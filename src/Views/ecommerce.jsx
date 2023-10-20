@@ -13,6 +13,8 @@ import RadarIcon from '../assets/icons/radar-icon.svg' */
 import ChevronUpIcon from '../assets/icons/chevron_up_double.svg'
 import ImgExampleOne from '../assets/images/views/ecommerce-image-f-b.jpg'
 import ImgExampleTwo from '../assets/images/views/ecommerce-image-edit.jpg'
+import ImgExampleThree from '../assets/images/views/ecommerce-image-amazon.jpg'
+import ImgExampleFour from '../assets/images/views/ecommerce-image-scan.jpg'
 const Ecommerce = () => {
   return (
     <Fragment>
@@ -65,7 +67,7 @@ const Ecommerce = () => {
 {/* // green ----------------------- Diseño de Portadas */}
 <div className="w-100 h-a p-10px bg-d-t h-pr-fl-ma flexbox m-d-b ns-br-r-2 m-b-20px">
                 <div className="w-100 d-b m-d-f h-a h-pr-fl-ma">
-               <div className="w-and-h-300px h-pr-fl-ma bg-d ns-br-r-2 p-10px"><img src={DocumentListIcon} alt="" className="w-100 h-pr-fl-ma " /></div></div>
+               <div className="w-and-h-300px h-pr-fl-ma bg-d ns-br-r-2 p-10px"><img src={ImgExampleThree} alt="" className="w-100 h-pr-fl-ma " /></div></div>
             <div className="w-100 h-a h-pr-fl-ma p-20px ">
         <Title h3 className="p-b-10px t-a-c">
 
@@ -84,7 +86,7 @@ const Ecommerce = () => {
 {/* // red ----------------------- Optimización de Fotos */}
 <div className="w-100 h-a p-10px bg-d-t h-pr-fl-ma flexbox m-d-b ns-br-r-2 m-b-20px">
                 <div className="w-100 d-b m-d-f h-a h-pr-fl-ma">
-               <div className="w-and-h-300px h-pr-fl-ma bg-d ns-br-r-2 p-10px"><img src={DocumentListIcon} alt="" className="w-100 h-pr-fl-ma " /></div></div>
+               <div className="w-and-h-300px h-pr-fl-ma bg-d ns-br-r-2 p-10px"><img src={ImgExampleFour} alt="" className="w-100 h-pr-fl-ma " /></div></div>
             <div className="w-100 h-a h-pr-fl-ma p-20px ">
         <Title h3 className="p-b-10px t-a-c">
 
