@@ -10,6 +10,7 @@ export { default as CardContainer } from './cardcontainer'
 export { default as ContentBox } from './contentBox'
 export { default as contentViewer } from './contentViewer'
 export { default as Box } from './Box'
+export { default as FastDescription } from './FastDescription'
 
 export { default as NewsletterForm } from './newsletterform'
 export { default as ParallaxEffect } from './ParallaxEffect'

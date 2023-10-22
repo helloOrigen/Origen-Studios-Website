@@ -56,7 +56,7 @@ const App = () => {
             height: '100vh'
           }}
         ></div>
-        <div className="w-90 h-90 tab-w-90 m-w-100 m-h-100 ns-br-r-1 centered h-pr-fl-ma of-h bg-d b-s-b-b " style={{ display: 'flex', flexDirection: 'column' }}>
+        <div className="w-95 h-95 tab-w-95 m-w-100 m-h-100 ns-br-r-1 centered h-pr-fl-ma of-h bg-d b-s-b-b " style={{ display: 'flex', flexDirection: 'column' }}>
           <div className="h-pr-fl-ma w-100 h-70px b-s-b-b bg-d" style={{ zIndex: '99999' }}>
             <NavBar />
           </div>

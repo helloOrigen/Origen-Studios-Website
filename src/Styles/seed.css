@@ -493,8 +493,11 @@ div.d-v-on-h-container:hover .d-v-on-h:hover{
 
 
 
+u.UnderLine {
 
+text-decoration-color:  #FFC666;
 
+}
 .UnderLineText {
     display: inline;
     box-shadow: inset 0 -0.2em 0 #FFC666;
@@ -12790,20 +12793,42 @@ i.success {
 }
 
 /* =================-------| FONT WEIGHT |-------================= */
+.f-w-l {
+  font-weight: 300 ;
+}
 .f-w-n {
-  font-weight: normal;
+  font-weight: 500 ;
 }
 
 .f-w-m {
-  font-weight: medium;
+  font-weight: 600 ;
 }
 
 .f-w-bo {
-  font-weight: bold;
+  font-weight: 700 ;
 }
 
 .f-w-bl {
-  font-weight: 900;
+  font-weight: 900 ;
+}
+/* IMPORTANT */
+.f-w-l-i {
+  font-weight: 300 ;
+}
+.f-w-n-i {
+  font-weight: 500 ;
+}
+
+.f-w-m-i {
+  font-weight: 600 ;
+}
+
+.f-w-bo-i {
+  font-weight: 700 ;
+}
+
+.f-w-bl-i {
+  font-weight: 900 ;
 }
 
 /* =================-------| FONT FAMILY |-------================= */
