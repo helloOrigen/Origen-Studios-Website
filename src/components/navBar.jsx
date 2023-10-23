@@ -7,7 +7,7 @@ import Btn from '../components/btn'
 const NavBar = () => {
   return (
     <Fragment>
-      <div className="w-100 h-100 h-pr-fl-ma r-v-c  flexbox f-w-n-w">
+      <div className="w-90 r-h-c m-w-100 h-100 h-pr-fl-ma   flexbox f-w-n-w">
         <div className="tab-w-50 m-w-50 w-a  h-pr-fl-ma">
           <Link to="/">
             <NavBarLogo className="h-pr-fl-ma m-d-b"/>

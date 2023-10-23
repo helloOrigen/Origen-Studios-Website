@@ -32,6 +32,8 @@ export { default as SubMenu } from './submenu'
 export { default as SubMenuBtn } from './submenubtn'
 export { default as SubMenuLegal } from './submenuLegal'
 
+export { default as NumberCounter } from './NumberCounter'
+
 export { default as Title } from './title'
 
 export { default as notifier } from './notifier'

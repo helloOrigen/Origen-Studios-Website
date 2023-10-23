@@ -10,6 +10,8 @@ Seed.css cortesía de:
 */
 
 /* Experimental NODESYSTEMS 2023 */
+
+
 /* Mobile menu */
 :root {
   --current-color-emphasis: #ffc666;
@@ -494,13 +496,12 @@ div.d-v-on-h-container:hover .d-v-on-h:hover{
 
 
 u.UnderLine {
-
-text-decoration-color:  #FFC666;
+text-decoration-color:  #FFC666 !important;
 
 }
 .UnderLineText {
     display: inline;
-    box-shadow: inset 0 -0.2em 0 #FFC666;
+    box-shadow: inset 0 -0.2em 0 #FFC666 !important;
 }
 
 .menu-container{
@@ -658,6 +659,9 @@ animation: coinanimationsponsor 2s ease-in-out 1s both ;
 @media(max-width: 1200px){
   .tab-f-s-normal{
     font-size: var(--current-font-normal);
+  }
+  .tab-f-s-medium{
+    font-size: var(--current-font-medium);
   }
   .tab-d-n{
     display: none  !important;
@@ -3779,6 +3783,41 @@ input[type=range].info:focus::-ms-fill-upper {
   text-shadow: rgba(0, 0, 0, 0.05) 0 0 0px, rgba(0, 0, 0, 0.05) 1px 1px 1px, rgba(0, 0, 0, 0.045) 2px 2px 1px, rgba(0, 0, 0, 0.045) 3px 3px 1px, rgba(0, 0, 0, 0.045) 4px 4px 1px, rgba(0, 0, 0, 0.045) 5px 5px 1px;
 }
 
+/* Aplicar escala de grises al 100% */
+.img-filter-gray {
+  filter: grayscale(100%);
+}
+
+/* Aplicar un efecto de desenfoque */
+.img-filter-blur {
+  filter: blur(5px); /* Ajusta el valor según la cantidad de desenfoque que desees */
+}
+
+/* Aplicar un efecto de sepia */
+.img-filter-sepia {
+  filter: sepia(100%);
+}
+
+/* Aplicar un efecto de saturación */
+.img-filter-saturate {
+  filter: saturate(200%); /* Ajusta el valor según la saturación deseada */
+}
+
+/* Aplicar un efecto de contraste */
+.img-filter-contrast {
+  filter: contrast(200%); /* Ajusta el valor según el contraste deseado */
+}
+
+/* Aplicar un efecto de brillo */
+.img-filter-brightness {
+  filter: brightness(150%); /* Ajusta el valor según el brillo deseado */
+}
+
+/* Aplicar un efecto de invertir colores */
+.img-filter-invert {
+  filter: invert(100%);
+}
+
 /*
 
 ███    ███  █████  ██   ██     ██      ██ ███    ██ ███████ ███████
@@ -6629,7 +6668,18 @@ i.success {
 .h-500px {
   height: 500px;
 }
-
+.h-600px {
+  height: 600px;
+}
+.h-700px {
+  height: 700px;
+}
+.h-800px {
+  height: 800px;
+}
+.h-900px {
+  height: 900px;
+}
 .h-1000px {
   height: 1000px;
 }
@@ -9615,6 +9665,7 @@ i.success {
   .m-h-inh {
     height: inherit;
   }
+
   .m-h-auto {
     height: auto;
   }
@@ -12631,6 +12682,69 @@ i.success {
     display: -ms-inline-flexbox;
     display: inline-flex;
   }
+  /* =================-------| FLEX - WRAP |-------================= */
+.m-f-w-w {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.m-f-w-n-w {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.m-f-w-w-r {
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+}
+
+.m-f-w-inh {
+  -ms-flex-wrap: inherit;
+      flex-wrap: inherit;
+}
+
+/* =================-------| FLEX - DIRECTION |-------================= */
+.m-f-d-c {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.m-f-d-c-r {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.m-f-d-r {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.m-f-d-r-r {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.m-f-d-inh {
+  -webkit-box-orient: inherit;
+  -webkit-box-direction: inherit;
+      -ms-flex-direction: inherit;
+          flex-direction: inherit;
+}
+
+.m-f-d-ini {
+  -webkit-box-orient: initial;
+  -webkit-box-direction: initial;
+      -ms-flex-direction: initial;
+          flex-direction: initial;
+}
   /* =================-------| DISPLAY TABLE |-------================= */
   .m-d-t {
     display: table;
@@ -13843,15 +13957,15 @@ background-color: #2ca03f;
 
 /* =================-------| NS BACKGROUND COLOR  |-------================= */
 .ns-bg-1 {
-  background-color: #fefefe;
+  background-color: #fefefe; /*#fefefe*/
 }
 
 .ns-bg-2 {
-  background-color: #dedede;
+  background-color: #dedede; /*#dedede*/
 }
 
 .ns-bg-3 {
-  background-color: #c9c9c9;
+  background-color: #c9c9c9; /*#c9c9c9*/
 }
 
 .ns-bg-e {

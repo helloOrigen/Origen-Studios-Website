@@ -6,7 +6,6 @@ import MobileMenuContent from './components/MobileMenuContent'
 import LoaderComponent from './components/LoaderComponent'
 import NavBar from './components/navBar'
 import Footer from './components/Footer'
-import FondoLogos from './assets/images/compressed/fondologos.jpg'
 import Notifier from './components/notifier'
 
 /* import fondo from './assets/images/compressed/fondo-web.jpg' */
@@ -43,27 +42,14 @@ const App = () => {
       <div className="w-100 h-100vh h-pr-fl-ma of-n b-s-b-b">
       <LoaderComponent />
         <div id='modal-root' style={{ zIndex: '9999999' }}></div>
-        <div
-          className="l-0px r-0px t-0px b-0px m-a pa"
-          style={{
-            backgroundImage: `url(${FondoLogos})`,
-            backgroundPosition: 'center',
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat',
-            position: 'fixed',
-            objectFit: 'cover',
-            width: '100vw',
-            height: '100vh'
-          }}
-        ></div>
-        <div className="w-95 h-95 tab-w-95 m-w-100 m-h-100 ns-br-r-1 centered h-pr-fl-ma of-h bg-d b-s-b-b " style={{ display: 'flex', flexDirection: 'column' }}>
+        <div className="w-100 h-100 ns-br-r-1 centered h-pr-fl-ma of-h bg-d b-s-b-b " style={{ display: 'flex', flexDirection: 'column' }}>
           <div className="h-pr-fl-ma w-100 h-70px b-s-b-b bg-d" style={{ zIndex: '99999' }}>
             <NavBar />
           </div>
 
-          <div className="h-pr-fl-ma w-100 h-80 b-s-b-b" style={{ flex: '1 1 0' }}>
+          <div className="h-pr-fl-ma w-100 h-80  b-s-b-b" style={{ flex: '1 1 0' }}>
             <div className="h-pr-fl-ma w-100 h-100 b-s-b-b">
-              <div className="w-100 c-white h-100 r-h-c h-pr-fl-ma of-auto">
+              <div className="w-100 c-white h-100 r-h-c h-pr-fl-ma of-a">
                 <Routes>
                   <Route path="/" element={<Views.Home />} />
                   <Route path="/services" element={<Views.Services />} />
