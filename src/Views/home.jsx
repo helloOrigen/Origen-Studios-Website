@@ -86,7 +86,7 @@ export default function Home (props) {
             <img src={ImgExampleOne} className='w-100 h-100 p-a ma l-0px r-0px t-0px b-0px d-n m-d-b img-cover img-filter-gray o-10'/>
               <div className='w-100 h-a r-v-c h-pr-fl-ma'>
             <Title h2 className="w-100 h-a h-pr-fl-ma c-white m-b-5px">Realizamos estudios e investigaciones de sus productos.</Title>
-            <Title h4 className="w-100 h-a h-pr-fl-ma ns-c-e">Buscamos y recopilamos todos los detalles <br /> para potenciar las fortalezas y corregir las debilidades de sus productos .</Title>
+            <Title h4 className="w-100 h-a h-pr-fl-ma ns-c-e">Buscamos y recopilamos todos los detalles para potenciar las fortalezas y corregir las debilidades de sus productos .</Title>
             <Btn text="• Ver más" className="ns-bg-e w-100 d-n m-d-b h-pr-fl-ma p-15px f-w-bo m-t-20px" enlace="/ecommerce"></Btn>
             </div>
             </div>
@@ -97,7 +97,7 @@ export default function Home (props) {
             <img src={ImgExampleThree} className='w-100 h-100 p-a ma l-0px r-0px t-0px b-0px d-n m-d-b img-cover img-filter-gray o-10'/>
               <div className='w-100 h-a r-v-c h-pr-fl-ma'>
             <Title h2 className="w-100 h-pr-fl-ma c-white m-b-5px">Nos encargamos de sus publicaciones de producto.</Title>
-            <Title h4 className="w-100 h-pr-fl-ma ns-c-e">Preparamos todos los assets necesarios <br /> para facilitar la publicación de todos sus productos.</Title>
+            <Title h4 className="w-100 h-pr-fl-ma ns-c-e">Preparamos todos los assets necesarios para facilitar la publicación de todos sus productos.</Title>
             <Btn text="• Ver más" className="ns-bg-e w-100 d-n m-d-b h-pr-fl-ma p-15px f-w-bo m-t-20px" enlace="/ecommerce"></Btn>
             </div>
             </div>
@@ -110,7 +110,7 @@ export default function Home (props) {
             <img src={ImgExampleFour} className='w-100 h-100 p-a ma l-0px r-0px t-0px b-0px d-n m-d-b img-cover img-filter-gray o-10'/>
               <div className='w-100 h-a r-v-c h-pr-fl-ma'>
             <Title h2 className="w-100 c-white m-b-5px">Mejoramos y optimizamos la calidad de sus publicaciones.</Title>
-            <Title h4 className="w-100 ns-c-e">Utilizamos todos los recursos disponibles así como Inteligencia Artificial <br /> para potenciar la visibilidad de todos sus productos productos.</Title>
+            <Title h4 className="w-100 ns-c-e">Utilizamos todos los recursos disponibles así como Inteligencia Artificial para potenciar la visibilidad de todos sus productos productos.</Title>
             <Btn text="• Ver más" className="ns-bg-e w-100 d-n m-d-b h-pr-fl-ma p-15px f-w-bo m-t-20px " enlace="/ecommerce"></Btn>
             </div>
             </div>
@@ -120,7 +120,7 @@ export default function Home (props) {
             <img src={ImgExampleEleven} className='w-100 h-100 p-a ma l-0px r-0px t-0px b-0px d-n m-d-b img-cover img-filter-gray o-10'/>
               <div className='w-100 h-a r-v-c h-pr-fl-ma'>
             <Title h2 className="w-100 c-white m-b-5px">Buscamos y/o producimos las variantes de sus productos.</Title>
-            <Title h4 className="w-100 ns-c-e">Facilitamos la búsqueda y creación de variantes de sus productos <br /> para personalizar la experiencia de sus clientes.</Title>
+            <Title h4 className="w-100 ns-c-e">Facilitamos la búsqueda y creación de variantes de sus productos para personalizar la experiencia de sus clientes.</Title>
             <Btn text="• Ver más" className="ns-bg-e w-100 d-n m-d-b h-pr-fl-ma p-15px f-w-bo m-t-20px " enlace="/ecommerce"></Btn>
             </div>
             </div>
@@ -150,7 +150,7 @@ export default function Home (props) {
           <div className='w-90 r-h-c h-200px m-h-500px m-b-50px ns-br-r-2 of-h h-pr-fl-ma bg-d-t '>
             <div className='w-50 m-w-100 h-100 m-h-70 h-pr-fl-ma p-50px'>
             <div className='w-100 h-a r-v-c h-pr-fl-ma'>
-            <Title h2 className="w-100 c-white m-b-20px ">Trabajemos ahora mismo en potenciar <span className='UnderLineText'>su negocio</span>.</Title>
+            <Title h2 className="w-100 c-white m-b-20px ">Trabajemos ahora mismo en potenciar <span className='UnderLineText'>su&zwj;&nbsp;&zwj;negocio</span>.</Title>
             <Title h4 className="w-100 ns-c-e">Coordinemos una reunión juntos para hacer posible, todo lo que necesita.</Title>
             </div>
             </div>

@@ -103,12 +103,12 @@ export default function ContentBox (props) {
           </div>
         )}
         {text && (
-          <p
+          <span
             className={` ${textclassName} h-pr-fl-ma b-s-b-b w-100 h-a f-f-Gilroy`}
             style={{ fontSize: '15px', lineHeight: '20px' }}
           >
             {text}
-          </p>
+          </span>
         )}
         {list && (
           <div
